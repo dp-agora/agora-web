@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, ChevronRight, Globe, Shield, Zap, TrendingUp } from "lucide-react";
+import { ArrowRight, Globe, Shield, Zap, TrendingUp, Award } from "lucide-react";
 import Link from "next/link";
 
 const fadeInUp = {
@@ -28,7 +28,7 @@ export default function Home() {
 
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="relative pt-20 pb-24 lg:pt-32 lg:pb-48 bg-white border-b overflow-hidden">
+        <section className="relative pt-20 pb-24 lg:pt-32 lg:pb-40 bg-white border-b overflow-hidden">
           <div className="container mx-auto px-6 lg:px-12 relative z-10">
             <motion.div
               initial="initial"
@@ -40,29 +40,51 @@ export default function Home() {
                 variants={fadeInUp}
                 className="inline-block px-3 py-1 rounded-full bg-slate-100 text-primary text-[10px] font-bold uppercase tracking-[0.2em] mb-8"
               >
-                The Latin American On-ramp
+                The primary on-ramp for Venezuela
               </motion.span>
               <motion.h1
                 variants={fadeInUp}
                 className="text-5xl md:text-7xl lg:text-8xl font-serif text-primary leading-[1.05] mb-8 tracking-[-0.02em]"
               >
-                The Institutional <br />
-                <span className="text-slate-400">On-Ramp for</span> <br />
-                Strategic Capital
+                Capital Entry <br />
+                <span className="text-slate-400">& Strategic</span> <br />
+                Implementation
               </motion.h1>
               <motion.p
                 variants={fadeInUp}
                 className="text-xl md:text-2xl text-slate-500 max-w-2xl leading-relaxed mb-12"
               >
-                Navigate the complexities of Venezuelan and Latin American markets with precision. We bridge the gap between global investment standards and regional institutional dynamics.
+                Navigate the complexities of Venezuelan and Latin American markets with precision. We facilitate the full lifecycle of your investment—from entry strategy to operational execution.
               </motion.p>
-              <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row gap-4">
+              <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row gap-4 mb-20">
                 <Button asChild size="lg" className="h-16 px-10 text-lg rounded-none bg-primary hover:bg-primary/90 uppercase tracking-wider font-bold shadow-lg shadow-primary/20">
                   <Link href="/contact">Book a Discovery Call</Link>
                 </Button>
                 <Button asChild variant="outline" size="lg" className="h-16 px-10 text-lg rounded-none border-slate-200 hover:bg-slate-50 uppercase tracking-wider font-bold text-primary">
-                  <Link href="/services">Our Practice Areas</Link>
+                  <Link href="/services">View Practice Areas</Link>
                 </Button>
+              </motion.div>
+
+              {/* Credibility / Trust Bar */}
+              <motion.div
+                variants={fadeInUp}
+                className="pt-12 border-t border-slate-100 flex flex-wrap items-center gap-x-12 gap-y-8"
+              >
+                <span className="text-[10px] font-bold text-slate-400 uppercase tracking-[0.2em] w-full lg:w-auto mb-2 lg:mb-0">Recognized by</span>
+                <div className="flex flex-wrap items-center gap-x-10 gap-y-6 grayscale opacity-60">
+                  <div className="flex items-center gap-2">
+                    <Award className="h-5 w-5 text-primary" />
+                    <span className="text-sm font-bold tracking-tight text-primary">CHAMBERS GLOBAL</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Award className="h-5 w-5 text-primary" />
+                    <span className="text-sm font-bold tracking-tight text-primary">CHAMBERS LATIN AMERICA</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Award className="h-5 w-5 text-primary" />
+                    <span className="text-sm font-bold tracking-tight text-primary">ITR WORLD TAX</span>
+                  </div>
+                </div>
               </motion.div>
             </motion.div>
           </div>
@@ -74,7 +96,7 @@ export default function Home() {
         <section className="py-12 bg-slate-50 border-b">
           <div className="container mx-auto px-6 lg:px-12">
             <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
-              <span className="text-xs font-bold text-slate-400 uppercase tracking-[0.3em]">Institutional Partners in</span>
+              <span className="text-xs font-bold text-slate-400 uppercase tracking-[0.3em]">Network Presence in</span>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-16 opacity-40 grayscale filter">
                 {['London', 'New York', 'Madrid', 'Caracas'].map((city) => (
                   <div key={city} className="flex items-center gap-2">
@@ -93,16 +115,16 @@ export default function Home() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
               <div className="space-y-8">
                 <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif text-primary leading-tight">
-                  Built for Strategic Operators and Global Funds
+                  The Primary On-Ramp for Strategic Capital
                 </h2>
                 <p className="text-lg text-slate-500 leading-relaxed max-w-lg">
-                  We advise private equity firms, multi-national corporations, and institutional investors on the execution of high-stakes operations. We are not just advisors; we are the foundation of your regional strategy.
+                  We facilitate the entry and operationalization of global capital into Venezuela and the wider Latin American region. We are not just advisors; we are the foundation of your execution strategy.
                 </p>
                 <ul className="space-y-6 pt-4">
                   {[
-                    { icon: Shield, title: "Capital Deployment", desc: "Structuring vehicles that satisfy both global compliance and local operational reality." },
-                    { icon: Zap, title: "Risk Intelligence", desc: "Moving beyond generic counsel to deliver actionable sovereign and institutional risk clarity." },
-                    { icon: TrendingUp, title: "Asset Lifecycle", desc: "Supporting the full journey from due diligence to exit and repatriation." }
+                    { icon: Shield, title: "Capital Entry", desc: "Structuring secure entry vehicles and multi-jurisdictional capital flows." },
+                    { icon: Zap, title: "Strategic Structuring", desc: "Legal and institutional frameworks designed for operational clarity." },
+                    { icon: TrendingUp, title: "Market Implementation", desc: "Facilitating on-the-ground execution and ongoing regional operations." }
                   ].map((item, i) => (
                     <li key={i} className="flex gap-4">
                       <div className="flex-shrink-0 mt-1 h-6 w-6 text-primary"><item.icon className="h-6 w-6" /></div>
@@ -132,36 +154,36 @@ export default function Home() {
         </section>
 
         {/* Legal Expertise Section */}
-        <section className="py-24 lg:py-40 bg-slate-900 text-white overflow-hidden relative">
+        <section className="py-24 lg:py-40 bg-slate-900 text-white overflow-hidden relative border-y border-white/5">
           <div className="container mx-auto px-6 lg:px-12 relative z-10">
             <div className="max-w-3xl">
-              <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif text-white mb-8">Legal Excellence as a Credibility Anchor</h2>
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif text-white mb-8">Credibility Rooted in Legal Excellence</h2>
               <p className="text-xl text-slate-400 leading-relaxed mb-12">
-                Our foundations are in the law. We provide the governance, compliance, and contractual frameworks required to protect interests in jurisdictions where institutional clarity is paramount.
+                Our founders are recognized globally for their expertise in banking, finance, and M&A. We provide the institutional governance required to protect Interests where clarity is paramount.
               </p>
               <Button asChild variant="outline" size="lg" className="rounded-none border-white/20 text-white hover:bg-white hover:text-slate-900 h-16 px-10 uppercase tracking-widest font-bold">
-                <Link href="/services">View Practice Areas</Link>
+                <Link href="/services">Our Practice Areas</Link>
               </Button>
             </div>
           </div>
           <div className="absolute right-0 top-0 bottom-0 w-1/2 bg-primary/20 skew-x-[-15deg] translate-x-32 hidden lg:block" />
         </section>
 
-        {/* Services Grid (Hub Preview) */}
-        <section className="py-24 lg:py-40 bg-slate-50 border-y">
+        {/* Services Hub Preview */}
+        <section className="py-24 lg:py-40 bg-slate-50">
           <div className="container mx-auto px-6 lg:px-12">
             <div className="mb-20">
-              <h2 className="text-4xl lg:text-5xl font-serif text-primary mb-6">Expertise at Scale</h2>
+              <h2 className="text-4xl lg:text-5xl font-serif text-primary mb-6">Strategic Command</h2>
               <p className="text-slate-500 max-w-xl text-lg">
-                Integrated advisory for the Latin American lifecycle. We provide the structural, legal, and strategic bandwidth required to execute in emerging markets.
+                Integrated advisory focused on the entry, execution, and long-term management of strategic capital in the region.
               </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
               {[
-                { title: "Investment Advisory", desc: "Strategic deal structuring, local representation, and buy-side due diligence for funds entering the region." },
-                { title: "Strategic Legal", desc: "Institutional governance, multi-jurisdictional compliance, and high-stakes contractual frameworks." },
-                { title: "Cross-border Strategy", desc: "Navigating regional regulatory shifts, tax efficiency, and sovereign risk management for global operators." }
+                { title: "Capital Entry & Deal Structuring", desc: "Establishing the jurisdictional and financial vehicles required for regional market entry." },
+                { title: "High-Stakes Implementation", desc: "Facilitating the legal and operational groundwork for mergers, acquisitions, and joint ventures." },
+                { title: "Ongoing Operations", desc: "Providing the continuous governance, tax, and regulatory support required for regional scale." }
               ].map((service, i) => (
                 <div key={i} className="group cursor-pointer">
                   <div className="mb-6 h-[1px] w-full bg-slate-200 group-hover:bg-primary transition-colors" />
@@ -182,11 +204,11 @@ export default function Home() {
 
         {/* Why Venezuela Section */}
         <section className="py-24 lg:py-40 bg-white">
-          <div className="container mx-auto px-6 lg:px-12">
+          <div className="container mx-auto px-6 lg:px-12 border-t border-slate-100">
             <div className="max-w-4xl mx-auto text-center space-y-8">
-              <h2 className="text-4xl lg:text-6xl font-serif text-primary">Navigating the Venezuelan Frontier</h2>
+              <h2 className="text-4xl lg:text-6xl font-serif text-primary">The Venezuelan Wedge</h2>
               <p className="text-xl text-slate-500 leading-relaxed">
-                As the landscape shifts, the requirement for institutional-grade advice has never been higher. We provide the local depth and global perspective necessary to capture regional opportunity while mitigating jurisdictional risk.
+                As the Venezuelan market re-opens, the requirement for institutional-grade advice is critical. We provide the local master and global perspective needed to capture opportunity while mitigating jurisdictional risk.
               </p>
             </div>
           </div>
@@ -202,10 +224,10 @@ export default function Home() {
               className="max-w-4xl mx-auto"
             >
               <h2 className="text-5xl md:text-7xl font-serif text-white mb-12 leading-tight">
-                Begin a Strategic Alignment.
+                Secure Your Entry. <br /> Execute Your Strategy.
               </h2>
               <p className="text-white/60 text-lg mb-12 max-w-2xl mx-auto italic">
-                Discovery calls are strictly confidential and designed to assess institutional alignment.
+                Discovery calls are strictly confidential and focused on institutional alignment.
               </p>
               <Button asChild size="lg" className="h-20 px-16 text-xl rounded-none bg-white text-primary hover:bg-slate-100 uppercase tracking-widest font-bold">
                 <Link href="/contact">Book a Discovery Call</Link>
