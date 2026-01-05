@@ -10,21 +10,21 @@ const services = [
         id: "investment",
         title: "Investment Advisory",
         icon: TrendingUp,
-        description: "Structuring capital for entry, growth, and exit in Latin American markets.",
+        description: "Strategic deal structuring, local representation, and buy-side due diligence for funds entering the region.",
         features: ["Deal Structuring", "Market Due Diligence", "Local Representative Services", "Joint Venture Support"]
     },
     {
         id: "legal",
         title: "Strategic Legal",
         icon: Shield,
-        description: "The institutional foundation for global operations.",
+        description: "Institutional governance, multi-jurisdictional compliance, and high-stakes contractual frameworks.",
         features: ["Governance & Compliance", "Contractual Frameworks", "Intellectual Property", "Litigation Strategy"]
     },
     {
         id: "global",
         title: "Cross-border Strategy",
         icon: Globe,
-        description: "Navigating the complexities of multi-jurisdictional operations.",
+        description: "Navigating regional regulatory shifts, tax efficiency, and sovereign risk management for global operators.",
         features: ["International Tax Planning", "Regulatory Mapping", "Sovereign Risk Management", "Trade & Sanctions Compliance"]
     }
 ];
@@ -35,10 +35,10 @@ export default function ServicesPage() {
             <Navbar />
             <main className="flex-1">
                 <PageHeader
-                    title="Practices & Expertise"
+                    title="Integrated Advisory for the Latin American Lifecycle"
                     subtitle="Our Services"
-                    badge="High-Stakes Advisory"
-                    description="We provide the structural framework for strategic investment and legal excellence in the region."
+                    badge="Practices & Expertise"
+                    description="Our services are designed to move at the speed of capital. We provide the structural, legal, and strategic bandwidth required to execute in emerging markets."
                 />
 
                 <section className="py-24 bg-white">
@@ -59,8 +59,8 @@ export default function ServicesPage() {
                                             </li>
                                         ))}
                                     </ul>
-                                    <Link href={`/services/${service.id}`} className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-primary border-b border-primary/20 pb-1 hover:border-primary transition-all">
-                                        Detail Overview <ArrowRight className="h-4 w-4" />
+                                    <Link href={`/contact`} className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-primary border-b border-primary/20 pb-1 hover:border-primary transition-all">
+                                        Inquire for Detail <ArrowRight className="h-4 w-4" />
                                     </Link>
                                 </div>
                             ))}
@@ -71,7 +71,7 @@ export default function ServicesPage() {
                 <section className="py-24 bg-primary text-white">
                     <div className="container mx-auto px-6 lg:px-12">
                         <div className="max-w-4xl mx-auto text-center space-y-12">
-                            <h2 className="text-4xl md:text-5xl font-serif">Methodology: The Ágora Framework</h2>
+                            <h2 className="text-4xl md:text-5xl font-serif">The Ágora Framework</h2>
                             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-left mt-16">
                                 {[
                                     { step: "01", title: "Assessment", desc: "Rigorous evaluation of the market and legal landscape." },

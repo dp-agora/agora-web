@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, ChevronRight, Globe, Shield, Zap } from "lucide-react";
+import { ArrowRight, ChevronRight, Globe, Shield, Zap, TrendingUp } from "lucide-react";
 import Link from "next/link";
 
 const fadeInUp = {
@@ -46,28 +46,27 @@ export default function Home() {
                 variants={fadeInUp}
                 className="text-5xl md:text-7xl lg:text-8xl font-serif text-primary leading-[1.05] mb-8 tracking-[-0.02em]"
               >
-                Where Strategic <br />
-                <span className="text-slate-400">Capital Meets</span> <br />
-                Legal Excellence
+                The Institutional <br />
+                <span className="text-slate-400">On-Ramp for</span> <br />
+                Strategic Capital
               </motion.h1>
               <motion.p
                 variants={fadeInUp}
                 className="text-xl md:text-2xl text-slate-500 max-w-2xl leading-relaxed mb-12"
               >
-                Founded in Caracas, defined globally. We provide the institutional foundation for the next wave of strategic investment in Latin America.
+                Navigate the complexities of Venezuelan and Latin American markets with precision. We bridge the gap between global investment standards and regional institutional dynamics.
               </motion.p>
               <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row gap-4">
                 <Button asChild size="lg" className="h-16 px-10 text-lg rounded-none bg-primary hover:bg-primary/90 uppercase tracking-wider font-bold shadow-lg shadow-primary/20">
-                  <Link href="/contact">Execute Your Strategy</Link>
+                  <Link href="/contact">Book a Discovery Call</Link>
                 </Button>
-                <Button asChild variant="outline" size="lg" className="h-16 px-10 text-lg rounded-none border-slate-200 hover:bg-slate-50 uppercase tracking-wider font-bold">
+                <Button asChild variant="outline" size="lg" className="h-16 px-10 text-lg rounded-none border-slate-200 hover:bg-slate-50 uppercase tracking-wider font-bold text-primary">
                   <Link href="/services">Our Practice Areas</Link>
                 </Button>
               </motion.div>
             </motion.div>
           </div>
 
-          {/* Subtle Abstract Background Element */}
           <div className="absolute top-0 right-0 w-1/3 h-full bg-slate-50 -z-0 skew-x-[-15deg] translate-x-12 border-l border-slate-100 hidden lg:block" />
         </section>
 
@@ -88,22 +87,22 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Core Methodology / Positioning */}
+        {/* Who We Serve */}
         <section className="py-24 lg:py-40 bg-white">
           <div className="container mx-auto px-6 lg:px-12">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
               <div className="space-y-8">
                 <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif text-primary leading-tight">
-                  High-Trust Advisory for High-Stakes Operations
+                  Built for Strategic Operators and Global Funds
                 </h2>
                 <p className="text-lg text-slate-500 leading-relaxed max-w-lg">
-                  Navigating Latin American markets requires more than legal counsel—it requires a strategic partner that understands the intersection of global capital and local institutional dynamics.
+                  We advise private equity firms, multi-national corporations, and institutional investors on the execution of high-stakes operations. We are not just advisors; we are the foundation of your regional strategy.
                 </p>
                 <ul className="space-y-6 pt-4">
                   {[
-                    { icon: Shield, title: "Risk Mitigation", desc: "Sovereign and institutional risk assessment for strategic operators." },
-                    { icon: Zap, title: "Capital Efficiency", desc: "Structuring cross-border vehicles for maximum operational clarity." },
-                    { icon: Globe, title: "Local Navigation", desc: "Deep operational roots in Caracas and key Latin American hubs." }
+                    { icon: Shield, title: "Capital Deployment", desc: "Structuring vehicles that satisfy both global compliance and local operational reality." },
+                    { icon: Zap, title: "Risk Intelligence", desc: "Moving beyond generic counsel to deliver actionable sovereign and institutional risk clarity." },
+                    { icon: TrendingUp, title: "Asset Lifecycle", desc: "Supporting the full journey from due diligence to exit and repatriation." }
                   ].map((item, i) => (
                     <li key={i} className="flex gap-4">
                       <div className="flex-shrink-0 mt-1 h-6 w-6 text-primary"><item.icon className="h-6 w-6" /></div>
@@ -116,7 +115,6 @@ export default function Home() {
                 </ul>
               </div>
               <div className="relative aspect-square bg-slate-100 border border-slate-200 p-12 overflow-hidden group">
-                {/* Visual placeholder for an abstract image or product-like UI */}
                 <div className="absolute inset-x-0 bottom-0 top-1/2 bg-white border-t border-slate-200 translate-y-24 group-hover:translate-y-12 transition-transform duration-1000 p-8 shadow-2xl">
                   <div className="flex gap-2 mb-4">
                     <div className="h-3 w-3 rounded-full bg-slate-200" />
@@ -126,11 +124,27 @@ export default function Home() {
                   <div className="h-2 w-1/2 bg-slate-100" />
                 </div>
                 <div className="flex items-center justify-center h-full">
-                  <span className="font-serif text-8xl text-slate-200 italic">01</span>
+                  <span className="font-serif text-[12vw] text-slate-200 italic font-bold">Á</span>
                 </div>
               </div>
             </div>
           </div>
+        </section>
+
+        {/* Legal Expertise Section */}
+        <section className="py-24 lg:py-40 bg-slate-900 text-white overflow-hidden relative">
+          <div className="container mx-auto px-6 lg:px-12 relative z-10">
+            <div className="max-w-3xl">
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif text-white mb-8">Legal Excellence as a Credibility Anchor</h2>
+              <p className="text-xl text-slate-400 leading-relaxed mb-12">
+                Our foundations are in the law. We provide the governance, compliance, and contractual frameworks required to protect interests in jurisdictions where institutional clarity is paramount.
+              </p>
+              <Button asChild variant="outline" size="lg" className="rounded-none border-white/20 text-white hover:bg-white hover:text-slate-900 h-16 px-10 uppercase tracking-widest font-bold">
+                <Link href="/services">View Practice Areas</Link>
+              </Button>
+            </div>
+          </div>
+          <div className="absolute right-0 top-0 bottom-0 w-1/2 bg-primary/20 skew-x-[-15deg] translate-x-32 hidden lg:block" />
         </section>
 
         {/* Services Grid (Hub Preview) */}
@@ -139,29 +153,24 @@ export default function Home() {
             <div className="mb-20">
               <h2 className="text-4xl lg:text-5xl font-serif text-primary mb-6">Expertise at Scale</h2>
               <p className="text-slate-500 max-w-xl text-lg">
-                Phase 1 structural highlight: Practice areas organized for clarity and conversion.
+                Integrated advisory for the Latin American lifecycle. We provide the structural, legal, and strategic bandwidth required to execute in emerging markets.
               </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
               {[
-                { title: "Investment Advisory", items: ["Deal Structuring", "Due Diligence", "Local Representation"] },
-                { title: "Strategic Legal", items: ["Governance", "Compliance", "Contractual Frameworks"] },
-                { title: "Cross-border Operations", items: ["Tax Strategy", "Entity Management", "Regulatory Mapping"] }
+                { title: "Investment Advisory", desc: "Strategic deal structuring, local representation, and buy-side due diligence for funds entering the region." },
+                { title: "Strategic Legal", desc: "Institutional governance, multi-jurisdictional compliance, and high-stakes contractual frameworks." },
+                { title: "Cross-border Strategy", desc: "Navigating regional regulatory shifts, tax efficiency, and sovereign risk management for global operators." }
               ].map((service, i) => (
                 <div key={i} className="group cursor-pointer">
                   <div className="mb-6 h-[1px] w-full bg-slate-200 group-hover:bg-primary transition-colors" />
                   <h3 className="text-2xl font-serif text-primary mb-6 group-hover:translate-x-2 transition-transform duration-300">
                     {service.title}
                   </h3>
-                  <ul className="space-y-3 mb-8">
-                    {service.items.map((item, j) => (
-                      <li key={j} className="text-slate-500 text-sm flex items-center gap-2">
-                        <ChevronRight className="h-3 w-3 text-slate-300" />
-                        {item}
-                      </li>
-                    ))}
-                  </ul>
+                  <p className="text-slate-500 text-sm leading-relaxed mb-8">
+                    {service.desc}
+                  </p>
                   <Link href="/services" className="text-xs font-bold uppercase tracking-widest text-primary/60 group-hover:text-primary transition-colors flex items-center gap-2">
                     Explore Focus <ArrowRight className="h-3 w-3" />
                   </Link>
@@ -171,27 +180,14 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Featured Insights Mockup */}
+        {/* Why Venezuela Section */}
         <section className="py-24 lg:py-40 bg-white">
-          <div className="container mx-auto px-6 lg:px-12 text-center">
-            <div className="max-w-3xl mx-auto space-y-12">
-              <h2 className="text-4xl lg:text-6xl font-serif text-primary">Insights for the Strategic Operator</h2>
-              <p className="text-lg text-slate-500 leading-relaxed">
-                We believe in knowledge as an asset. Access our periodic briefings on market dynamics and institutional shifts.
+          <div className="container mx-auto px-6 lg:px-12">
+            <div className="max-w-4xl mx-auto text-center space-y-8">
+              <h2 className="text-4xl lg:text-6xl font-serif text-primary">Navigating the Venezuelan Frontier</h2>
+              <p className="text-xl text-slate-500 leading-relaxed">
+                As the landscape shifts, the requirement for institutional-grade advice has never been higher. We provide the local depth and global perspective necessary to capture regional opportunity while mitigating jurisdictional risk.
               </p>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
-                {[1, 2].map((i) => (
-                  <div key={i} className="border border-slate-100 p-8 hover:border-primary/20 transition-all rounded-none bg-slate-50 group">
-                    <span className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-4 block">Market Briefing</span>
-                    <h4 className="text-xl font-serif text-primary mb-4 group-hover:text-primary/70 mb-8 leading-tight">
-                      Venezuela: Navigating New Capital Inflows in the Logistics Sector
-                    </h4>
-                    <Link href="/insights" className="text-xs font-bold uppercase tracking-widest text-primary flex items-center gap-2">
-                      Read Analysis <ArrowRight className="h-3 w-3" />
-                    </Link>
-                  </div>
-                ))}
-              </div>
             </div>
           </div>
         </section>
@@ -206,15 +202,17 @@ export default function Home() {
               className="max-w-4xl mx-auto"
             >
               <h2 className="text-5xl md:text-7xl font-serif text-white mb-12 leading-tight">
-                Ready to Establish Your <br /> Latin American Presence?
+                Begin a Strategic Alignment.
               </h2>
+              <p className="text-white/60 text-lg mb-12 max-w-2xl mx-auto italic">
+                Discovery calls are strictly confidential and designed to assess institutional alignment.
+              </p>
               <Button asChild size="lg" className="h-20 px-16 text-xl rounded-none bg-white text-primary hover:bg-slate-100 uppercase tracking-widest font-bold">
                 <Link href="/contact">Book a Discovery Call</Link>
               </Button>
             </motion.div>
           </div>
 
-          {/* Background Decorative Element */}
           <div className="absolute inset-0 opacity-10 pointer-events-none flex items-center justify-center">
             <span className="font-serif text-[40vw] font-bold text-white select-none translate-y-1/3">Á</span>
           </div>

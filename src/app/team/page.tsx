@@ -11,10 +11,10 @@ export default function TeamPage() {
             <Navbar />
             <main className="flex-1">
                 <PageHeader
-                    title="World-Class Expertise"
+                    title="A Multidisciplinary Command"
                     subtitle="Our People"
                     badge="Partner-Led Engagement"
-                    description="A multidisciplinary team of strategic legal and investment specialists."
+                    description="Our team brings together elite legal minds, investment strategists, and institutional experts. We are led by partners who have navigated the region's most complex transitions and high-stakes transactions."
                 />
 
                 <section className="py-20 bg-white border-b">
@@ -29,7 +29,7 @@ export default function TeamPage() {
                             </div>
                             <div className="relative w-full md:w-80">
                                 <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-slate-400" />
-                                <Input placeholder="Search people or expertise..." className="pl-10 rounded-none border-slate-200" />
+                                <Input placeholder="Search people or expertise..." className="pl-10 rounded-none border-slate-200 focus-visible:ring-primary/20 focus-visible:border-primary" />
                             </div>
                         </div>
 
@@ -42,7 +42,6 @@ export default function TeamPage() {
                             ].map((member, i) => (
                                 <div key={i} className="group">
                                     <div className="aspect-[3/4] bg-slate-100 mb-6 grayscale group-hover:grayscale-0 transition-all duration-700 border border-slate-200 relative overflow-hidden">
-                                        {/* Placeholder for portrait */}
                                         <div className="absolute inset-0 flex items-center justify-center">
                                             <span className="font-serif text-6xl text-slate-200 italic opacity-50">Á</span>
                                         </div>

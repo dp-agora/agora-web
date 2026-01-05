@@ -1,7 +1,7 @@
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { PageHeader } from "@/components/layout/PageHeader";
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Mail, MapPin, Phone, ShieldCheck } from "lucide-react";
 
 const offices = [
     {
@@ -33,10 +33,10 @@ export default function ContactPage() {
             <Navbar />
             <main className="flex-1">
                 <PageHeader
-                    title="Connect with Our Specialists"
+                    title="Begin a Strategic Alignment"
                     subtitle="Contact"
                     badge="Discovery Call"
-                    description="Establish your strategic on-ramp for Latin American investment."
+                    description="Establish your strategic on-ramp for Latin American investment. Discovery calls are strictly confidential and designed to assess institutional alignment."
                 />
 
                 <section className="py-24 bg-white">
@@ -50,7 +50,17 @@ export default function ContactPage() {
                                     </p>
                                 </div>
 
-                                <div className="space-y-6">
+                                <div className="p-6 bg-slate-50 border border-slate-100 space-y-4">
+                                    <div className="flex items-center gap-3 text-primary">
+                                        <ShieldCheck className="h-5 w-5" />
+                                        <span className="text-xs font-bold uppercase tracking-widest">Confidential Reporting</span>
+                                    </div>
+                                    <p className="text-xs text-slate-500 leading-relaxed">
+                                        Your inquiry is handled with the highest degree of professional discretion and multi-jurisdictional privilege where applicable.
+                                    </p>
+                                </div>
+
+                                <div className="space-y-6 pt-4">
                                     <div className="flex items-center gap-4 text-primary">
                                         <Mail className="h-5 w-5" />
                                         <span className="font-bold text-sm uppercase tracking-widest">advisory@agoralatam.com</span>

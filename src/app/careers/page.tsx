@@ -10,22 +10,22 @@ export default function CareersPage() {
             <Navbar />
             <main className="flex-1">
                 <PageHeader
-                    title="Build the Future of Strategic Advisory"
+                    title="Architect the Future of Regional Investment"
                     subtitle="Careers"
                     badge="Join Our Mission"
-                    description="We are seeking the next generation of strategic legal and investment minds to join our multidisciplinary team."
+                    description="We are seeking high-autonomy professionals who thrive at the intersection of law, finance, and emerging market strategy. At Ágora, you don't just advise; you build the frameworks for the next decade of Latin American growth."
                 />
 
                 <section className="py-24 bg-white">
                     <div className="container mx-auto px-6 lg:px-12">
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-24">
                             <div className="space-y-12">
-                                <h2 className="text-4xl font-serif text-primary">Why Ágora?</h2>
+                                <h2 className="text-4xl font-serif text-primary">Precision & Autonomy</h2>
                                 <div className="space-y-8">
                                     {[
                                         { title: "Intellectual Challenge", desc: "Work at the intersection of complex legal frameworks and global investment strategy." },
                                         { title: "Regional Impact", desc: "Directly influence the institutional foundation of Latin American growth." },
-                                        { title: "Multidisciplinary Environment", desc: "Collaborate with lawyers, economists, and strategic operators." }
+                                        { title: "Multidisciplinary Environment", desc: "Collaborate with lawyers, economists, and strategic operators in a flat, high-output culture." }
                                     ].map((benefit, i) => (
                                         <div key={i} className="space-y-2">
                                             <h4 className="text-xl font-bold text-primary">{benefit.title}</h4>
