@@ -18,7 +18,7 @@ export function LanguageSwitcher() {
     return (
         <button
             onClick={toggleLocale}
-            className="text-[10px] font-bold uppercase tracking-widest border border-slate-200 px-3 py-1 hover:bg-slate-50 transition-all text-primary"
+            className="text-[10px] font-bold uppercase tracking-widest border border-white/20 px-3 py-1 hover:bg-white/10 transition-all text-white cursor-pointer"
         >
             {locale === 'en' ? 'ES' : 'EN'}
         </button>

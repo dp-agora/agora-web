@@ -9,6 +9,7 @@ import { cn } from "@/lib/utils";
 import { useTranslations } from "next-intl";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import { useBooking } from "@/context/BookingContext";
+import Image from "next/image";
 
 export function Navbar() {
     const pathname = usePathname();
@@ -25,17 +26,24 @@ export function Navbar() {
     ];
 
     return (
-        <nav className="sticky top-0 z-50 w-full border-b bg-white/80 backdrop-blur-md">
+        <nav className="sticky top-0 z-50 w-full bg-primary shadow-sm">
             <div className="container mx-auto flex h-20 items-center justify-between px-6 lg:px-12">
                 <div className="flex items-center gap-8">
-                    <Link href="/" className="group flex items-center gap-2">
-                        <div className="flex h-10 w-10 items-center justify-center border-2 border-primary text-xl font-bold text-primary group-hover:bg-primary group-hover:text-white transition-all">
-                            Á
+                    <Link href="/" className="group flex items-center">
+                        <div className="relative h-16 w-72">
+                            <Image
+                                src="/assets/brand/Logo Agora outline.png"
+                                alt="Ágora Logo"
+                                fill
+                                className="object-contain"
+                                priority
+                            />
                         </div>
-                        <span className="font-serif text-2xl font-bold tracking-widest text-primary">
-                            ÁGORA
-                        </span>
                     </Link>
+
+
+
+
 
                     {/* Desktop Nav */}
                     <div className="hidden lg:flex items-center gap-8">
@@ -44,8 +52,8 @@ export function Navbar() {
                                 key={link.href}
                                 href={link.href as any}
                                 className={cn(
-                                    "text-sm font-medium transition-colors hover:text-primary/70",
-                                    pathname === link.href ? "text-primary" : "text-slate-600"
+                                    "text-sm font-medium transition-colors hover:text-white/70",
+                                    pathname === link.href ? "text-white" : "text-white/80"
                                 )}
                             >
                                 {link.name}
@@ -55,13 +63,13 @@ export function Navbar() {
                 </div>
 
                 <div className="flex items-center gap-4">
-                    <div className="hidden md:flex items-center gap-4 border-r border-slate-100 pr-4 mr-2">
+                    <div className="hidden md:flex items-center gap-4 border-r border-white/10 pr-4 mr-2">
                         <LanguageSwitcher />
                     </div>
 
                     <Button
                         onClick={openBooking}
-                        className="hidden sm:inline-flex bg-primary hover:bg-primary/90 rounded-none h-11 px-8 text-sm font-semibold tracking-wide uppercase transition-all shadow-sm active:scale-95 cursor-pointer"
+                        className="hidden sm:inline-flex bg-white text-primary hover:bg-white/90 rounded-none h-11 px-8 text-sm font-semibold tracking-wide uppercase transition-all shadow-sm active:scale-95 cursor-pointer"
                     >
                         {t("bookCall")}
                     </Button>
@@ -69,14 +77,23 @@ export function Navbar() {
                     {/* Mobile Menu Trigger */}
                     <Sheet open={isOpen} onOpenChange={setIsOpen}>
                         <SheetTrigger asChild>
-                            <Button variant="ghost" size="icon" className="lg:hidden text-primary">
+                            <Button variant="ghost" size="icon" className="lg:hidden text-white hover:bg-white/10">
                                 <Menu className="h-6 w-6" />
                             </Button>
                         </SheetTrigger>
                         <SheetContent side="right" className="w-full sm:w-[400px] border-l-0 bg-primary p-0">
                             <div className="flex flex-col h-full bg-primary text-white p-8">
                                 <div className="flex items-center justify-between mb-16">
-                                    <span className="font-serif text-2xl font-bold tracking-widest">ÁGORA</span>
+                                    <div className="relative h-12 w-60">
+                                        <Image
+                                            src="/assets/brand/Logo Agora outline.png"
+                                            alt="Ágora Logo"
+                                            fill
+                                            className="object-contain"
+                                        />
+                                    </div>
+
+
                                     <div className="flex items-center gap-4">
                                         <LanguageSwitcher />
                                         <Button variant="ghost" size="icon" onClick={() => setIsOpen(false)} className="text-white hover:bg-white/10">
@@ -114,6 +131,7 @@ export function Navbar() {
                 </div>
             </div>
         </nav>
+
     );
 }
 

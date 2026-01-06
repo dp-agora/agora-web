@@ -8,6 +8,7 @@ import { ArrowRight, ChevronRight, Globe, Shield, Zap } from "lucide-react";
 import { Link } from "@/i18n/routing";
 import { useTranslations } from "next-intl";
 import { useBooking } from "@/context/BookingContext";
+import Image from "next/image";
 
 const fadeInUp = {
   initial: { opacity: 0, y: 20 },
@@ -34,6 +35,19 @@ export default function Home() {
       <main className="flex-1">
         {/* Hero Section */}
         <section className="relative pt-20 pb-24 lg:pt-32 lg:pb-48 bg-white border-b overflow-hidden">
+          {/* Background Image Container */}
+          <div className="absolute inset-0 w-full h-full -z-0">
+            <Image
+              src="/assets/offices/hero-image.webp"
+              alt="Ágora Institutional"
+              fill
+              className="object-cover opacity-60 lg:opacity-80"
+              priority
+            />
+            {/* Gradient Overlay for Legibility - Strong on the left for text, fades out to reveal the image on the right */}
+            <div className="absolute inset-0 bg-gradient-to-r from-white via-white/70 to-transparent" />
+          </div>
+
           <div className="container mx-auto px-6 lg:px-12 relative z-10">
             <motion.div
               initial="initial"
@@ -75,10 +89,9 @@ export default function Home() {
               </motion.div>
             </motion.div>
           </div>
-
-          {/* Subtle Abstract Background Element */}
-          <div className="absolute top-0 right-0 w-1/3 h-full bg-slate-50 -z-0 skew-x-[-15deg] translate-x-12 border-l border-slate-100 hidden lg:block" />
         </section>
+
+
 
         {/* Core Methodology / Positioning */}
         <section className="py-24 lg:py-40 bg-white">
@@ -107,19 +120,25 @@ export default function Home() {
                   ))}
                 </ul>
               </div>
-              <div className="relative aspect-square bg-slate-100 border border-slate-200 p-12 overflow-hidden group">
-                <div className="absolute inset-x-0 bottom-0 top-1/2 bg-white border-t border-slate-200 translate-y-24 group-hover:translate-y-12 transition-transform duration-1000 p-8 shadow-2xl">
-                  <div className="flex gap-2 mb-4">
-                    <div className="h-3 w-3 rounded-full bg-slate-200" />
-                    <div className="h-3 w-3 rounded-full bg-slate-200" />
-                  </div>
-                  <div className="h-2 w-3/4 bg-slate-100 mb-4" />
-                  <div className="h-2 w-1/2 bg-slate-100" />
+              <div className="relative aspect-square bg-slate-100 border border-slate-200 overflow-hidden group">
+                <Image
+                  src="/assets/team/APS & MER home.jpg"
+                  alt="Ágora Strategic Solutions"
+                  fill
+                  className="object-cover"
+                />
+                <div className="absolute inset-x-0 bottom-0 top-[82%] bg-white/95 border-t border-slate-200 translate-y-8 group-hover:translate-y-0 transition-transform duration-500 px-8 py-4 shadow-2xl flex flex-col justify-center">
+                  <Link href="/team#partners" className="group/link flex items-center justify-between">
+                    <span className="text-xl font-serif text-primary italic">Our Senior Partners</span>
+                    <div className="h-8 w-8 rounded-full border border-primary/10 flex items-center justify-center group-hover/link:bg-primary group-hover/link:text-white transition-all duration-500">
+                      <ArrowRight className="h-4 w-4" />
+                    </div>
+                  </Link>
                 </div>
-                <div className="flex items-center justify-center h-full">
-                  <span className="font-serif text-8xl text-slate-200 italic">Á</span>
-                </div>
+
+
               </div>
+
             </div>
           </div>
         </section>
