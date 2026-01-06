@@ -1,27 +1,28 @@
 "use client";
 
-import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { Link, usePathname } from "@/i18n/routing";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { cn } from "@/lib/utils";
-
-const navLinks = [
-    { name: "About", href: "/about" },
-    { name: "Services", href: "/services" },
-    { name: "Team", href: "/team" },
-    { name: "Careers", href: "/careers" },
-    { name: "Contact", href: "/contact" },
-];
-
+import { useTranslations } from "next-intl";
+import { LanguageSwitcher } from "./LanguageSwitcher";
 import { useBooking } from "@/context/BookingContext";
 
 export function Navbar() {
     const pathname = usePathname();
     const [isOpen, setIsOpen] = useState(false);
     const { openBooking } = useBooking();
+    const t = useTranslations("Navbar");
+
+    const navLinks = [
+        { name: t("about"), href: "/about" },
+        { name: t("services"), href: "/services" },
+        { name: t("team"), href: "/team" },
+        { name: t("careers"), href: "/careers" },
+        { name: t("contact"), href: "/contact" },
+    ];
 
     return (
         <nav className="sticky top-0 z-50 w-full border-b bg-white/80 backdrop-blur-md">
@@ -40,8 +41,8 @@ export function Navbar() {
                     <div className="hidden lg:flex items-center gap-8">
                         {navLinks.map((link) => (
                             <Link
-                                key={link.name}
-                                href={link.href}
+                                key={link.href}
+                                href={link.href as any}
                                 className={cn(
                                     "text-sm font-medium transition-colors hover:text-primary/70",
                                     pathname === link.href ? "text-primary" : "text-slate-600"
@@ -54,11 +55,15 @@ export function Navbar() {
                 </div>
 
                 <div className="flex items-center gap-4">
+                    <div className="hidden md:flex items-center gap-4 border-r border-slate-100 pr-4 mr-2">
+                        <LanguageSwitcher />
+                    </div>
+
                     <Button
                         onClick={openBooking}
                         className="hidden sm:inline-flex bg-primary hover:bg-primary/90 rounded-none h-11 px-8 text-sm font-semibold tracking-wide uppercase transition-all shadow-sm active:scale-95 cursor-pointer"
                     >
-                        Book a Discovery Call
+                        {t("bookCall")}
                     </Button>
 
                     {/* Mobile Menu Trigger */}
@@ -72,15 +77,18 @@ export function Navbar() {
                             <div className="flex flex-col h-full bg-primary text-white p-8">
                                 <div className="flex items-center justify-between mb-16">
                                     <span className="font-serif text-2xl font-bold tracking-widest">ÁGORA</span>
-                                    <Button variant="ghost" size="icon" onClick={() => setIsOpen(false)} className="text-white hover:bg-white/10">
-                                        <X className="h-8 w-8" />
-                                    </Button>
+                                    <div className="flex items-center gap-4">
+                                        <LanguageSwitcher />
+                                        <Button variant="ghost" size="icon" onClick={() => setIsOpen(false)} className="text-white hover:bg-white/10">
+                                            <X className="h-8 w-8" />
+                                        </Button>
+                                    </div>
                                 </div>
                                 <div className="flex flex-col gap-8">
                                     {navLinks.map((link) => (
                                         <Link
-                                            key={link.name}
-                                            href={link.href}
+                                            key={link.href}
+                                            href={link.href as any}
                                             onClick={() => setIsOpen(false)}
                                             className="text-4xl font-serif hover:text-white/70 transition-colors"
                                         >
@@ -97,7 +105,7 @@ export function Navbar() {
                                             openBooking();
                                         }}
                                     >
-                                        Book a Discovery Call
+                                        {t("bookCall")}
                                     </Button>
                                 </div>
                             </div>
@@ -108,3 +116,4 @@ export function Navbar() {
         </nav>
     );
 }
+

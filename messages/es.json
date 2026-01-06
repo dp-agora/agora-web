@@ -1,0 +1,52 @@
+{
+    "Navbar": {
+        "about": "Nosotros",
+        "services": "Áreas de Práctica",
+        "team": "Equipo",
+        "careers": "Carreras",
+        "contact": "Contacto",
+        "bookCall": "Agendar Llamada"
+    },
+    "Footer": {
+        "description": "Firma boutique de asesoría legal y de inversión estratégica en Latinoamérica y Venezuela.",
+        "links": "Enlaces Rápidos",
+        "office": "Sede Principal",
+        "rights": "Todos los derechos reservados."
+    },
+    "HomePage": {
+        "hero": {
+            "badge": "Ágora Abogados",
+            "line1": "Servicios de",
+            "line2": "Boutique Legal con",
+            "line3": "Alcance Global",
+            "description": "Brindamos el servicio personalizado de una boutique legal con alcance, capacidades y visión global. Definidos por la experiencia, la innovación y el liderazgo.",
+            "ctaBook": "Agendar Llamada de Descubrimiento",
+            "ctaServices": "Áreas de Práctica"
+        },
+        "methodology": {
+            "title": "Soluciones Estratégicas en Diversos Sectores",
+            "description": "Ágora Abogados se especializa en brindar soluciones legales estratégicas que abordan los desafíos y oportunidades específicos de cada cliente e industria.",
+            "ethics": {
+                "title": "Ética y Compromiso",
+                "desc": "Creación de alianzas estratégicas basadas en la confianza para abordar desafíos legales complejos."
+            },
+            "global": {
+                "title": "Alcance Global",
+                "desc": "Profesionales altamente reconocidos con amplia experiencia en firmas internacionales."
+            },
+            "leadership": {
+                "title": "Liderazgo Moderno",
+                "desc": "Combinando dinamismo e innovación con la vasta experiencia de nuestros socios."
+            }
+        },
+        "expertise": {
+            "title": "Áreas de Experiencia",
+            "description": "Asesoría legal integral con enfoque especializado en las principales áreas de práctica.",
+            "viewAll": "Ver Área de Práctica"
+        },
+        "cta": {
+            "title": "¿Listo para establecer su presencia en Latinoamérica?",
+            "button": "Agendar Llamada de Descubrimiento"
+        }
+    }
+}

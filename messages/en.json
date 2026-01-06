@@ -1,0 +1,78 @@
+{
+    "Navbar": {
+        "about": "About",
+        "services": "Practice Areas",
+        "team": "Team",
+        "careers": "Careers",
+        "contact": "Contact",
+        "bookCall": "Book a Discovery Call"
+    },
+    "Footer": {
+        "description": "Boutique strategic legal and investment advisory firm in Latin America and Venezuela.",
+        "links": "Quick Links",
+        "office": "Headquarters",
+        "rights": "All rights reserved."
+    },
+    "HomePage": {
+        "hero": {
+            "badge": "Agora Abogados",
+            "line1": "Legal Boutique",
+            "line2": "Services With",
+            "line3": "Global Reach",
+            "description": "We provide the personalized service of a legal boutique with global reach, capabilities, and vision. Defined by experience, innovation, and leadership.",
+            "ctaBook": "Book a Discovery Call",
+            "ctaServices": "Practice Areas"
+        },
+        "methodology": {
+            "title": "Strategic Solutions Across Sectors",
+            "description": "Ágora Abogados specializes in providing strategic legal solutions that address the specific challenges and opportunities of each client and industry.",
+            "ethics": {
+                "title": "Ethics and Commitment",
+                "desc": "Creation of strategic partnerships built on trust to tackle complex legal challenges."
+            },
+            "global": {
+                "title": "Global Reach",
+                "desc": "Highly recognized professionals with extensive experience in international firms."
+            },
+            "leadership": {
+                "title": "Modern Leadership",
+                "desc": "Combining dynamism and innovation with the vast experience of our partners."
+            }
+        },
+        "expertise": {
+            "title": "Areas of Expertise",
+            "description": "Comprehensive legal advisory with specialized focus across core practice areas.",
+            "viewAll": "View Practice Area"
+        },
+        "cta": {
+            "title": "Ready to Establish Your Latin American Presence?",
+            "button": "Book a Discovery Call"
+        },
+        "services": {
+            "corporate": {
+                "title": "Corporate and M&A",
+                "items": [
+                    "Global Reorganizations",
+                    "Mergers & Acquisitions",
+                    "Joint Ventures"
+                ]
+            },
+            "banking": {
+                "title": "Banking & Finance",
+                "items": [
+                    "Regulatory Advice",
+                    "Lending & Credit",
+                    "Financial Products"
+                ]
+            },
+            "capital": {
+                "title": "Capital Markets",
+                "items": [
+                    "Securities Issuances",
+                    "Capital Strategies",
+                    "Private Equity Funds"
+                ]
+            }
+        }
+    }
+}
