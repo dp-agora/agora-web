@@ -1,50 +1,43 @@
+"use client";
+
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { PageHeader } from "@/components/layout/PageHeader";
+import { useTranslations } from "next-intl";
 
 export default function AboutPage() {
+    const t = useTranslations("AboutPage");
+
     return (
         <div className="flex min-h-screen flex-col">
             <Navbar />
             <main className="flex-1">
                 <PageHeader
-                    title="Experience and Innovation"
-                    subtitle="About Us"
-                    badge="Caracas Based, Global Vision"
-                    description="Ágora Abogados combines the dynamism of a modern firm with the vast experience and leadership of our partners."
+                    title={t("header.title")}
+                    subtitle={t("header.subtitle")}
+                    badge={t("header.badge")}
+                    description={t("header.description")}
                 />
 
                 <section className="py-24 bg-white">
                     <div className="container mx-auto px-6 lg:px-12">
                         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
                             <div className="lg:col-span-4">
-                                <h3 className="text-sm font-bold uppercase tracking-widest text-primary/40 mb-8">Our Firm</h3>
+                                <h3 className="text-sm font-bold uppercase tracking-widest text-primary/40 mb-8">{t("firm.title")}</h3>
                                 <p className="text-3xl font-serif text-primary italic leading-tight">
-                                    "We provide the personalized service of a legal boutique with global reach, capabilities, and vision."
+                                    {t("firm.quote")}
                                 </p>
                             </div>
                             <div className="lg:col-span-8 space-y-12">
                                 <p className="text-slate-600 leading-relaxed text-lg font-light">
-                                    Ágora Abogados is a law firm based in Caracas, Venezuela. We combine the dynamism and innovation of a modern firm with the vast experience and renowned leadership of our partners and team.
+                                    {t("firm.description")}
                                 </p>
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
                                     {[
-                                        {
-                                            title: "Quality, Agility and Excellence",
-                                            desc: "A team committed to delivering top-quality service to our clients and continuously improving high-performance standards."
-                                        },
-                                        {
-                                            title: "In-Depth Analysis",
-                                            desc: "We are dedicated to thoroughly understanding the specific circumstances, challenges and objectives of our clients' businesses, in order to provide comprehensive legal advice."
-                                        },
-                                        {
-                                            title: "Tailored Strategies",
-                                            desc: "After gaining a complete understanding of the challenges and opportunities, our innovative team will identify the best option and design customized legal strategies to achieve the best possible outcome."
-                                        },
-                                        {
-                                            title: "Agile and Precise Execution",
-                                            desc: "Our team of highly recognized professionals implements solutions effectively, ensuring sustainable and long-lasting results."
-                                        }
+                                        { title: t("pillars.pillar1.title"), desc: t("pillars.pillar1.desc") },
+                                        { title: t("pillars.pillar2.title"), desc: t("pillars.pillar2.desc") },
+                                        { title: t("pillars.pillar3.title"), desc: t("pillars.pillar3.desc") },
+                                        { title: t("pillars.pillar4.title"), desc: t("pillars.pillar4.desc") }
                                     ].map((pillar, i) => (
                                         <div key={i} className="space-y-4">
                                             <h4 className="text-xl font-serif font-bold text-primary">{pillar.title}</h4>
@@ -62,16 +55,16 @@ export default function AboutPage() {
                 <section className="py-24 bg-slate-50 border-y">
                     <div className="container mx-auto px-6 lg:px-12">
                         <div className="max-w-4xl">
-                            <h2 className="text-4xl font-serif text-primary mb-16">Core Values</h2>
+                            <h2 className="text-4xl font-serif text-primary mb-16">{t("values.title")}</h2>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
                                 {[
-                                    { title: "Innovation", desc: "We are accustomed to going beyond the conventional to develop innovative legal strategies and achieve optimal results." },
-                                    { title: "Sustainability", desc: "Priority on sustainable and socially responsible practices in governance and environmental matters across all operations." },
-                                    { title: "Excellence", desc: "Committed to continuous improvement and at the forefront of legal practices in ever-changing environments." },
-                                    { title: "Integrity", desc: "Highlighting ethical conduct and transparency in all interactions, fostering trust with clients and stakeholders." },
+                                    { title: t("values.value1.title"), desc: t("values.value1.desc") },
+                                    { title: t("values.value2.title"), desc: t("values.value2.desc") },
+                                    { title: t("values.value3.title"), desc: t("values.value3.desc") },
+                                    { title: t("values.value4.title"), desc: t("values.value4.desc") },
                                     {
-                                        title: "Loyalty, Trust & Collaboration",
-                                        desc: "The pillars of our relationships. We build strong, lasting bonds based on transparency, mutual respect, and an unwavering commitment to our clients' interests.",
+                                        title: t("values.value5.title"),
+                                        desc: t("values.value5.desc"),
                                         full: true
                                     }
                                 ].map((value, i) => (
@@ -90,29 +83,14 @@ export default function AboutPage() {
 
                 <section className="py-24 bg-white">
                     <div className="container mx-auto px-6 lg:px-12">
-                        <h2 className="text-4xl font-serif text-primary mb-16">Industry Focus</h2>
+                        <h2 className="text-4xl font-serif text-primary mb-16">{t("industry.title")}</h2>
                         <div className="grid grid-cols-1 gap-8">
                             {[
-                                {
-                                    title: "Banking, Finance, Capital Markets, VC and PE",
-                                    desc: "Strategic legal advice to banks, brokers, and financial institutions. Expertise in international financial services, captive financing entities, and holding structures. Specialization in retail financing, consumer and automotive financing, and debtor-creditor relations."
-                                },
-                                {
-                                    title: "Food & Agriculture",
-                                    desc: "Comprehensive legal support in agricultural and agro-industrial sectors. From project development and infrastructure to regulatory compliance, planting programs, and supply chain management. Designing corporate structures for regional expansion and financing."
-                                },
-                                {
-                                    title: "Energy, Infrastructure and Environment",
-                                    desc: "Supporting sustainable development and project financing in the energy and infrastructure sectors, ensuring compliance and operational efficiency."
-                                },
-                                {
-                                    title: "Healthcare & Life Sciences",
-                                    desc: "High-value specialized legal services in healthcare and pharmaceuticals. Focus on regulatory compliance, IP protection, distribution networks, pharmacy franchises, and specialized M&A."
-                                },
-                                {
-                                    title: "Industrials, Manufacturing & Transportation",
-                                    desc: "Specialized services to transportation companies, including cable systems. Efficient structures for national market operations, addressing public law and multi-level taxation."
-                                }
+                                { title: t("industry.focus1.title"), desc: t("industry.focus1.desc") },
+                                { title: t("industry.focus2.title"), desc: t("industry.focus2.desc") },
+                                { title: t("industry.focus3.title"), desc: t("industry.focus3.desc") },
+                                { title: t("industry.focus4.title"), desc: t("industry.focus4.desc") },
+                                { title: t("industry.focus5.title"), desc: t("industry.focus5.desc") }
                             ].map((industry, i) => (
                                 <div key={i} className="p-10 border border-slate-100 bg-slate-50 group hover:bg-primary transition-all duration-500">
                                     <h4 className="text-2xl font-serif font-bold text-primary group-hover:text-white mb-4 transition-colors">{industry.title}</h4>
@@ -138,3 +116,4 @@ export default function AboutPage() {
         </div>
     );
 }
+

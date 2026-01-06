@@ -8,10 +8,19 @@
         "bookCall": "Book a Discovery Call"
     },
     "Footer": {
-        "description": "Boutique strategic legal and investment advisory firm in Latin America and Venezuela.",
-        "links": "Quick Links",
-        "office": "Headquarters",
-        "rights": "All rights reserved."
+        "firm": "Firm",
+        "practiceAreas": "Practice Areas",
+        "about": "About Us",
+        "team": "Our Team",
+        "careers": "Careers",
+        "corporate": "Corporate and M&A",
+        "banking": "Banking & Finance",
+        "tax": "Tax",
+        "regulatory": "Regulatory & Compliance",
+        "description": "Personalized legal boutique service with global reach, capabilities, and vision.",
+        "rights": "© {year} ÁGORA. ALL RIGHTS RESERVED. STRATEGIC LEGAL & INVESTMENT ADVISORY.",
+        "privacy": "Privacy Policy",
+        "terms": "Legal Terms"
     },
     "HomePage": {
         "hero": {
@@ -72,6 +81,287 @@
                     "Capital Strategies",
                     "Private Equity Funds"
                 ]
+            }
+        }
+    },
+    "AboutPage": {
+        "header": {
+            "title": "Experience and Innovation",
+            "subtitle": "About Us",
+            "badge": "Caracas Based, Global Vision",
+            "description": "Ágora Abogados combines the dynamism of a modern firm with the vast experience and leadership of our partners."
+        },
+        "firm": {
+            "title": "Our Firm",
+            "quote": "\"We provide the personalized service of a legal boutique with global reach, capabilities, and vision.\"",
+            "description": "Ágora Abogados is a law firm based in Caracas, Venezuela. We combine the dynamism and innovation of a modern firm with the vast experience and renowned leadership of our partners and team."
+        },
+        "pillars": {
+            "pillar1": {
+                "title": "Quality, Agility and Excellence",
+                "desc": "A team committed to delivering top-quality service to our clients and continuously improving high-performance standards."
+            },
+            "pillar2": {
+                "title": "In-Depth Analysis",
+                "desc": "We are dedicated to thoroughly understanding the specific circumstances, challenges and objectives of our clients' businesses, in order to provide comprehensive legal advice."
+            },
+            "pillar3": {
+                "title": "Tailored Strategies",
+                "desc": "After gaining a complete understanding of the challenges and opportunities, our innovative team will identify the best option and design customized legal strategies to achieve the best possible outcome."
+            },
+            "pillar4": {
+                "title": "Agile and Precise Execution",
+                "desc": "Our team of highly recognized professionals implements solutions effectively, ensuring sustainable and long-lasting results."
+            }
+        },
+        "values": {
+            "title": "Core Values",
+            "value1": {
+                "title": "Innovation",
+                "desc": "We are accustomed to going beyond the conventional to develop innovative legal strategies and achieve optimal results."
+            },
+            "value2": {
+                "title": "Sustainability",
+                "desc": "Priority on sustainable and socially responsible practices in governance and environmental matters across all operations."
+            },
+            "value3": {
+                "title": "Excellence",
+                "desc": "Committed to continuous improvement and at the forefront of legal practices in ever-changing environments."
+            },
+            "value4": {
+                "title": "Integrity",
+                "desc": "Highlighting ethical conduct and transparency in all interactions, fostering trust with clients and stakeholders."
+            },
+            "value5": {
+                "title": "Loyalty, Trust & Collaboration",
+                "desc": "The pillars of our relationships. We build strong, lasting bonds based on transparency, mutual respect, and an unwavering commitment to our clients' interests."
+            }
+        },
+        "industry": {
+            "title": "Industry Focus",
+            "focus1": {
+                "title": "Banking, Finance, Capital Markets, VC and PE",
+                "desc": "Strategic legal advice to banks, brokers, and financial institutions. Expertise in international financial services, captive financing entities, and holding structures. Specialization in retail financing, consumer and automotive financing, and debtor-creditor relations."
+            },
+            "focus2": {
+                "title": "Food & Agriculture",
+                "desc": "Comprehensive legal support in agricultural and agro-industrial sectors. From project development and infrastructure to regulatory compliance, planting programs, and supply chain management. Designing corporate structures for regional expansion and financing."
+            },
+            "focus3": {
+                "title": "Energy, Infrastructure and Environment",
+                "desc": "Supporting sustainable development and project financing in the energy and infrastructure sectors, ensuring compliance and operational efficiency."
+            },
+            "focus4": {
+                "title": "Healthcare & Life Sciences",
+                "desc": "High-value specialized legal services in healthcare and pharmaceuticals. Focus on regulatory compliance, IP protection, distribution networks, pharmacy franchises, and specialized M&A."
+            },
+            "focus5": {
+                "title": "Industrials, Manufacturing & Transportation",
+                "desc": "Specialized services to transportation companies, including cable systems. Efficient structures for national market operations, addressing public law and multi-level taxation."
+            }
+        }
+    },
+    "CareersPage": {
+        "header": {
+            "title": "Join Ágora",
+            "subtitle": "Careers",
+            "badge": "Collaborate with Leaders",
+            "description": "Be part of a dynamic team committed to excellence and innovative solutions in a collaborative environment."
+        },
+        "intro": {
+            "quote": "\"Innovation, excellence, and leadership define our path.\"",
+            "p1": "At Ágora Abogados, we continue to grow and are looking to add a <seniorLayer>Senior Lawyer</seniorLayer> with solid experience in the corporate and financial world to our team.",
+            "p2": "You will work alongside highly recognized professionals advising national and multinational companies on complex cross-border transactions and strategic legal matters."
+        },
+        "profile": {
+            "title": "Ideal Candidate Profile",
+            "position": "Senior Lawyer",
+            "req1": "More than 6 years of graduate experience.",
+            "req2": "Previous experience in law firms, investment funds, or similar structures.",
+            "req3": "Solid knowledge and experience in:",
+            "skills": [
+                "Corporate and commercial law.",
+                "Capital markets.",
+                "Financing, Credit and Corporate Finance Transactions."
+            ]
+        },
+        "contact": {
+            "text": "If you meet the profile, we invite you to send your CV to:"
+        }
+    },
+    "ContactPage": {
+        "header": {
+            "title": "Connect with Our Specialists",
+            "subtitle": "Contact",
+            "badge": "Discovery Call",
+            "description": "Establish your strategic on-ramp for Latin American investment."
+        },
+        "intro": {
+            "quote": "\"Institutional excellence begins with a single conversation.\"",
+            "description": "Whether you are a private equity fund, an institutional investor, or a strategic operator, our team is ready to provide the local clarity you need."
+        },
+        "details": {
+            "email": "Direct Email",
+            "phone": "Phone Support"
+        },
+        "office": {
+            "focus": "Headquarters",
+            "map": "Caracas HQ Map Location"
+        }
+    },
+    "TeamPage": {
+        "header": {
+            "title": "World-Class Expertise",
+            "subtitle": "Our People",
+            "badge": "Partner-Led Engagement",
+            "description": "A multidisciplinary team of strategic legal and investment specialists."
+        },
+        "groups": {
+            "partners": "Senior Partners",
+            "leads": "Practice Leads",
+            "regional": "Regional Leads",
+            "associates": "Associates",
+            "operations": "Operations"
+        },
+        "members": {
+            "alvaro": {
+                "role": "Senior Partner",
+                "bio": "With over 30 years of legal experience, Álvaro stands as a prominent figure in Banking, Finance, and Capital Markets. His career includes a tenure as partner at Baker McKenzie. He has provided strategic counsel to both national and international financial institutions on complex regulatory matters, project financing, and high-value transactions."
+            },
+            "maria": {
+                "role": "Senior Partner",
+                "bio": "María Eugenia brings over three decades of legal expertise, specializing in Corporate, Real Estate, Environmental, and Sustainability law. Previously a partner at Baker McKenzie, she has advised major corporations on cross-border transactions, regulatory compliance, and sustainable development initiatives across Latin America."
+            },
+            "jose": {
+                "role": "Practice Lead",
+                "bio": "José is an expert in Taxation and M&A with over 25 years of professional experience. Licensed to practice law in both Mexico and Venezuela, he has designed and implemented complex tax structures for multinational corporations and led significant cross-border acquisitions."
+            },
+            "ariana": {
+                "role": "Practice Lead",
+                "bio": "Ariana leads the Labor Law practice with over 10 years of specialized experience. As a member of the Venezuelan Institute of Social Law, she provides expert guidance on employment contracts, workforce restructuring, and labor litigation for diverse industries."
+            },
+            "lizeth": {
+                "role": "Regional Lead",
+                "bio": "Lizeth, based in Aragua, is a Civil and Commercial Litigation expert with over 25 years of experience. She represents clients in complex commercial disputes, contract law, and judicial procedures, ensuring robust legal protection across various regional jurisdictions."
+            },
+            "marco": {
+                "role": "Associate",
+                "bio": "Marco specializes in Tax Law, providing strategic counsel on fiscal compliance and litigation. He has extensive experience in both administrative and judicial tax procedures, helping clients navigate complex regulatory frameworks."
+            },
+            "barbara": {
+                "role": "Associate",
+                "bio": "Bárbara focuses on Corporate Law and Intellectual Property. She advises clients on business formation, contract negotiation, and the protection of brand assets and innovative technologies."
+            },
+            "manuel": {
+                "role": "Associate",
+                "bio": "Manuel is a specialist in Labor Law and Human Resources. He assists corporations in managing employment relationships, drafting comprehensive internal policies, and ensuring compliance with labor regulations."
+            },
+            "dayana": {
+                "role": "Associate",
+                "bio": "Dayana focuses on Corporate and Commercial Law. She supports clients through the lifecycle of their business operations, from incorporation and governance to commercial agreements and dissolution."
+            },
+            "raul": {
+                "role": "Associate",
+                "bio": "Raúl is an expert in Dispute Resolution and Litigation. He represents clients in civil and commercial cases, bringing a strategic approach to conflict mediation and courtroom representation."
+            },
+            "rodrigo": {
+                "role": "Associate",
+                "bio": "Rodrigo specializes in Public Law and Regulatory Affairs. He advises on government relations, administrative procedures, and compliance with public sector regulations."
+            },
+            "andreina": {
+                "role": "Associate",
+                "bio": "Andreína focuses on International Business and Investment Law. She assists clients in cross-border trade, foreign investment regulations, and international commercial arbitration."
+            },
+            "fabiola": {
+                "role": "Associate",
+                "bio": "Fabiola is a specialist in Environmental Law and Natural Resources. She guides organizations through environmental impact assessments, regulatory compliance, and sustainable resource management."
+            },
+            "andrea": {
+                "role": "Office Manager",
+                "bio": "Andrea oversees daily office operations and administrative functions. With a focus on organizational efficiency, she ensures that all logistical and supportive processes run smoothly to facilitate high-quality legal service delivery."
+            },
+            "oriana": {
+                "role": "Paralegal",
+                "bio": "Oriana provides essential legal support through comprehensive research, document preparation, and case management assistance. Her diligence ensures that the legal team has the foundation they need for successful outcomes."
+            },
+            "juan": {
+                "role": "Digital Strategy",
+                "bio": "Juan Francisco leads the firm's digital presence and technological integration. He focuses on leveraging digital tools to enhance client communication, operational transparency, and the overall efficiency of legal processes."
+            }
+        }
+    },
+    "ServicesPage": {
+        "header": {
+            "title": "Practice Areas",
+            "subtitle": "Our Services",
+            "badge": "Verbatim Legacy Scope",
+            "description": "Strategically advising national and multinational companies on a global scale."
+        },
+        "services": {
+            "m-and-a": {
+                "title": "Corporate and M&A",
+                "desc": "Comprehensive advice to national and international clients on global corporate reorganizations, mergers, acquisitions, and joint ventures.",
+                "features": [
+                    "Due Diligence",
+                    "Negotiation Support",
+                    "Post-closing Integration",
+                    "Joint Ventures"
+                ]
+            },
+            "banking": {
+                "title": "Banking & Finance",
+                "desc": "Strategic legal counsel to banks in regulatory matters, financial products, lending, and extensions of credit.",
+                "features": [
+                    "Retail Finance",
+                    "Automobile Finance",
+                    "Agricultural Sowing",
+                    "Regulatory Compliance"
+                ]
+            },
+            "tax": {
+                "title": "Tax",
+                "desc": "Specialized advice in tax planning, compliance, litigation, and transfer pricing both in Venezuela and abroad.",
+                "features": [
+                    "Tax Planning",
+                    "Compliance Monitoring",
+                    "Litigation Support",
+                    "Transfer Pricing"
+                ]
+            },
+            "labor": {
+                "title": "Labor and Employment",
+                "desc": "Expert guidance on individual and collective labor law, contracts, employee benefits, and work visas.",
+                "features": [
+                    "Contracts",
+                    "Benefits Planning",
+                    "Work Visas",
+                    "Collective Agreements"
+                ]
+            },
+            "regulatory": {
+                "title": "Regulatory & Compliance",
+                "desc": "Support in navigating local and international regulatory frameworks, AML, and economic sanctions.",
+                "features": [
+                    "AML Compliance",
+                    "Economic Sanctions",
+                    "Regulatory Audits",
+                    "Risk Management"
+                ]
+            }
+        },
+        "methodology": {
+            "title": "Methodology: The Ágora Framework",
+            "step1": {
+                "title": "Assessment",
+                "desc": "Rigorous evaluation of the market and legal landscape."
+            },
+            "step2": {
+                "title": "Structuring",
+                "desc": "Designing a robust institutional vehicle for the objective."
+            },
+            "step3": {
+                "title": "Execution",
+                "desc": "Local operational management and advisory support."
             }
         }
     }

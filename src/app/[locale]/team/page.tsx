@@ -1,114 +1,116 @@
+"use client";
+
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { PageHeader } from "@/components/layout/PageHeader";
-import { Search } from "lucide-react";
-import { Input } from "@/components/ui/input";
-import Link from "next/link";
+import { useTranslations } from "next-intl";
 
 export default function TeamPage() {
+    const t = useTranslations("TeamPage");
+
     const teamGroups = [
         {
-            title: "Senior Partners",
+            title: t("groups.partners"),
             members: [
                 {
                     name: "Álvaro Posada",
-                    role: "Senior Partner",
-                    bio: "With over 30 years of legal experience, Álvaro stands as a prominent figure in Banking, Finance, and Capital Markets. His career includes a tenure as partner at Baker McKenzie. He has provided strategic counsel to both national and international financial institutions on complex regulatory matters, project financing, and high-value transactions."
+                    role: t("members.alvaro.role"),
+                    bio: t("members.alvaro.bio")
                 },
                 {
                     name: "María Eugenia Reyes",
-                    role: "Senior Partner",
-                    bio: "María Eugenia brings over three decades of legal expertise, specializing in Corporate, Real Estate, Environmental, and Sustainability law. Previously a partner at Baker McKenzie, she has advised major corporations on cross-border transactions, regulatory compliance, and sustainable development initiatives across Latin America."
+                    role: t("members.maria.role"),
+                    bio: t("members.maria.bio")
                 }
             ]
         },
         {
-            title: "Practice Leads",
+            title: t("groups.leads"),
             members: [
                 {
                     name: "José P. Barnola Jr.",
-                    role: "Practice Lead",
-                    bio: "José is an expert in Taxation and M&A with over 25 years of professional experience. Licensed to practice law in both Mexico and Venezuela, he has designed and implemented complex tax structures for multinational corporations and led significant cross-border acquisitions."
+                    role: t("members.jose.role"),
+                    bio: t("members.jose.bio")
                 },
                 {
                     name: "Ariana Cabrera",
-                    role: "Practice Lead",
-                    bio: "Ariana leads the Labor Law practice with over 10 years of specialized experience. As a member of the Venezuelan Institute of Social Law, she provides expert guidance on employment contracts, workforce restructuring, and labor litigation for diverse industries."
+                    role: t("members.ariana.role"),
+                    bio: t("members.ariana.bio")
                 }
             ]
         },
         {
-            title: "Regional Leads",
+            title: t("groups.regional"),
             members: [
                 {
                     name: "Lizeth Reyes",
-                    role: "Regional Lead",
-                    bio: "Lizeth, based in Aragua, is a Civil and Commercial Litigation expert with over 25 years of experience. She represents clients in complex commercial disputes, contract law, and judicial procedures, ensuring robust legal protection across various regional jurisdictions."
+                    role: t("members.lizeth.role"),
+                    bio: t("members.lizeth.bio")
                 }
             ]
         },
         {
-            title: "Associates",
+            title: t("groups.associates"),
             members: [
                 {
                     name: "Marco Gómez",
-                    role: "Associate",
-                    bio: "Marco specializes in Tax Law, providing strategic counsel on fiscal compliance and litigation. He has extensive experience in both administrative and judicial tax procedures, helping clients navigate complex regulatory frameworks."
+                    role: t("members.marco.role"),
+                    bio: t("members.marco.bio")
                 },
                 {
                     name: "Bárbara Briceño",
-                    role: "Associate",
-                    bio: "Bárbara focuses on Corporate Law and Intellectual Property. She advises clients on business formation, contract negotiation, and the protection of brand assets and innovative technologies."
+                    role: t("members.barbara.role"),
+                    bio: t("members.barbara.bio")
                 },
                 {
                     name: "Manuel Domingo",
-                    role: "Associate",
-                    bio: "Manuel is a specialist in Labor Law and Human Resources. He assists corporations in managing employment relationships, drafting comprehensive internal policies, and ensuring compliance with labor regulations."
+                    role: t("members.manuel.role"),
+                    bio: t("members.manuel.bio")
                 },
                 {
                     name: "Dayana Velíz",
-                    role: "Associate",
-                    bio: "Dayana focuses on Corporate and Commercial Law. She supports clients through the lifecycle of their business operations, from incorporation and governance to commercial agreements and dissolution."
+                    role: t("members.dayana.role"),
+                    bio: t("members.dayana.bio")
                 },
                 {
                     name: "Raúl Sancristobal",
-                    role: "Associate",
-                    bio: "Raúl is an expert in Dispute Resolution and Litigation. He represents clients in civil and commercial cases, bringing a strategic approach to conflict mediation and courtroom representation."
+                    role: t("members.raul.role"),
+                    bio: t("members.raul.bio")
                 },
                 {
                     name: "Rodrigo Colmenares",
-                    role: "Associate",
-                    bio: "Rodrigo specializes in Public Law and Regulatory Affairs. He advises on government relations, administrative procedures, and compliance with public sector regulations."
+                    role: t("members.rodrigo.role"),
+                    bio: t("members.rodrigo.bio")
                 },
                 {
                     name: "Andreína Flores",
-                    role: "Associate",
-                    bio: "Andreína focuses on International Business and Investment Law. She assists clients in cross-border trade, foreign investment regulations, and international commercial arbitration."
+                    role: t("members.andreina.role"),
+                    bio: t("members.andreina.bio")
                 },
                 {
                     name: "Fabiola Flores",
-                    role: "Associate",
-                    bio: "Fabiola is a specialist in Environmental Law and Natural Resources. She guides organizations through environmental impact assessments, regulatory compliance, and sustainable resource management."
+                    role: t("members.fabiola.role"),
+                    bio: t("members.fabiola.bio")
                 }
             ]
         },
         {
-            title: "Operations",
+            title: t("groups.operations"),
             members: [
                 {
                     name: "Andrea Regalado",
-                    role: "Office Manager",
-                    bio: "Andrea oversees daily office operations and administrative functions. With a focus on organizational efficiency, she ensures that all logistical and supportive processes run smoothly to facilitate high-quality legal service delivery."
+                    role: t("members.andrea.role"),
+                    bio: t("members.andrea.bio")
                 },
                 {
                     name: "Oriana Rodríguez",
-                    role: "Paralegal",
-                    bio: "Oriana provides essential legal support through comprehensive research, document preparation, and case management assistance. Her diligence ensures that the legal team has the foundation they need for successful outcomes."
+                    role: t("members.oriana.role"),
+                    bio: t("members.oriana.bio")
                 },
                 {
                     name: "Juan Francisco Posada",
-                    role: "Digital Strategy",
-                    bio: "Juan Francisco leads the firm's digital presence and technological integration. He focuses on leveraging digital tools to enhance client communication, operational transparency, and the overall efficiency of legal processes."
+                    role: t("members.juan.role"),
+                    bio: t("members.juan.bio")
                 }
             ]
         }
@@ -119,10 +121,10 @@ export default function TeamPage() {
             <Navbar />
             <main className="flex-1">
                 <PageHeader
-                    title="World-Class Expertise"
-                    subtitle="Our People"
-                    badge="Partner-Led Engagement"
-                    description="A multidisciplinary team of strategic legal and investment specialists."
+                    title={t("header.title")}
+                    subtitle={t("header.subtitle")}
+                    badge={t("header.badge")}
+                    description={t("header.description")}
                 />
 
                 <section className="py-24 bg-white">
@@ -162,4 +164,5 @@ export default function TeamPage() {
         </div>
     );
 }
+
 

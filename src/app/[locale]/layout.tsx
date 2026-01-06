@@ -23,7 +23,14 @@ export const metadata: Metadata = {
   description: "Boutique strategic legal and investment advisory firm in Latin America and Venezuela.",
 };
 
-export default async function RootLayout({
+import { setRequestLocale } from 'next-intl/server';
+import { routing } from "@/i18n/routing";
+
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
+}
+
+export default async function LocaleLayout({
   children,
   params
 }: {
@@ -33,9 +40,12 @@ export default async function RootLayout({
   const { locale } = await params;
 
   // Validate that the incoming `locale` parameter is valid
-  if (!['en', 'es'].includes(locale)) {
+  if (!routing.locales.includes(locale as any)) {
     notFound();
   }
+
+  // Enable static rendering
+  setRequestLocale(locale);
 
   // Providing all messages to the client
   // side is the easiest way to get started
@@ -46,7 +56,7 @@ export default async function RootLayout({
       <body
         className={`${inter.variable} ${libreBaskerville.variable} font-sans antialiased bg-white text-slate-900`}
       >
-        <NextIntlClientProvider messages={messages}>
+        <NextIntlClientProvider messages={messages} locale={locale}>
           <BookingProvider>
             {children}
             <BookingModal />
@@ -56,4 +66,5 @@ export default async function RootLayout({
     </html>
   );
 }
+
 

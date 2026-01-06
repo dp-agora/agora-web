@@ -8,10 +8,19 @@
         "bookCall": "Agendar Llamada"
     },
     "Footer": {
-        "description": "Firma boutique de asesoría legal y de inversión estratégica en Latinoamérica y Venezuela.",
-        "links": "Enlaces Rápidos",
-        "office": "Sede Principal",
-        "rights": "Todos los derechos reservados."
+        "firm": "Firma",
+        "practiceAreas": "Áreas de Práctica",
+        "about": "Sobre Nosotros",
+        "team": "Nuestro Equipo",
+        "careers": "Carreras",
+        "corporate": "Corporativo y M&A",
+        "banking": "Banca y Finanzas",
+        "tax": "Impuestos",
+        "regulatory": "Regulatorio y Cumplimiento",
+        "description": "Servicio de boutique legal personalizada con alcance, capacidades y visión global.",
+        "rights": "© {year} ÁGORA. TODOS LOS DERECHOS RESERVADOS. ASESORÍA ESTRATÉGICA LEGAL Y DE INVERSIÓN.",
+        "privacy": "Política de Privacidad",
+        "terms": "Términos Legales"
     },
     "HomePage": {
         "hero": {
@@ -47,6 +56,313 @@
         "cta": {
             "title": "¿Listo para establecer su presencia en Latinoamérica?",
             "button": "Agendar Llamada de Descubrimiento"
+        },
+        "services": {
+            "corporate": {
+                "title": "Corporativo y Fusiones & Adquisiciones (M&A)",
+                "items": [
+                    "Reorganizaciones Globales",
+                    "Fusiones y Adquisiciones",
+                    "Joint Ventures"
+                ]
+            },
+            "banking": {
+                "title": "Banca y Finanzas",
+                "items": [
+                    "Asesoría Regulatoria",
+                    "Préstamos y Créditos",
+                    "Productos Financieros"
+                ]
+            },
+            "capital": {
+                "title": "Mercado de Capitales",
+                "items": [
+                    "Emisiones de Valores",
+                    "Estrategias de Capital",
+                    "Fondos de Private Equity"
+                ]
+            }
+        }
+    },
+    "AboutPage": {
+        "header": {
+            "title": "Experiencia e Innovación",
+            "subtitle": "Sobre Nosotros",
+            "badge": "Sede en Caracas, Visión Global",
+            "description": "Ágora Abogados combina el dinamismo de una firma moderna con la vasta experiencia y el liderazgo de nuestros socios."
+        },
+        "firm": {
+            "title": "Nuestra Firma",
+            "quote": "\"Brindamos el servicio personalizado de una boutique legal con alcance, capacidades y visión global.\"",
+            "description": "Ágora Abogados es una firma de abogados con sede en Caracas, Venezuela. Combinamos el dinamismo y la innovación de una firma moderna con la vasta experiencia y el reconocido liderazgo de nuestros socios y equipo."
+        },
+        "pillars": {
+            "pillar1": {
+                "title": "Calidad, Agilidad y Excelencia",
+                "desc": "Un equipo comprometido con brindar un servicio de máxima calidad a nuestros clientes y mejorar continuamente los estándares de alto desempeño."
+            },
+            "pillar2": {
+                "title": "Análisis Profundo",
+                "desc": "Nos dedicamos a comprender a fondo las circunstancias, desafíos y objetivos específicos de los negocios de nuestros clientes, para brindar una asesoría legal integral."
+            },
+            "pillar3": {
+                "title": "Estrategias a la Medida",
+                "desc": "Tras obtener una comprensión completa de los retos y oportunidades, nuestro equipo innovador identificará la mejor opción y diseñará estrategias legales personalizadas para lograr el mejor resultado posible."
+            },
+            "pillar4": {
+                "title": "Ejecución Ágil y Precisa",
+                "desc": "Nuestro equipo de profesionales altamente reconocidos implementa soluciones de manera efectiva, asegurando resultados sostenibles y duraderos."
+            }
+        },
+        "values": {
+            "title": "Valores Fundamentales",
+            "value1": {
+                "title": "Innovación",
+                "desc": "Estamos acostumbrados a ir más allá de lo convencional para desarrollar estrategias legales innovadoras y lograr resultados óptimos."
+            },
+            "value2": {
+                "title": "Sostenibilidad",
+                "desc": "Prioridad en prácticas sostenibles y socialmente responsables en materia de gobernanza y medio ambiente en todas nuestras operaciones."
+            },
+            "value3": {
+                "title": "Excelencia",
+                "desc": "Comprometidos con la mejora continua y a la vanguardia de las prácticas legales en entornos cambiantes."
+            },
+            "value4": {
+                "title": "Integridad",
+                "desc": "Destacando la conducta ética y la transparencia en todas las interacciones, fomentando la confianza con clientes y aliados."
+            },
+            "value5": {
+                "title": "Lealtad, Confianza y Colaboración",
+                "desc": "Los pilares de nuestras relaciones. Construimos vínculos sólidos y duraderos basados en la transparencia, el respeto mutuo y un compromiso inquebrantable con los intereses de nuestros clientes."
+            }
+        },
+        "industry": {
+            "title": "Enfoque Industrial",
+            "focus1": {
+                "title": "Banca, Finanzas, Mercado de Capitales, VC y PE",
+                "desc": "Asesoría legal estratégica a bancos, casas de bolsa e instituciones financieras. Experiencia en servicios financieros internacionales, entidades financieras cautivas y estructuras de holding. Especialización en financiamiento minorista, financiamiento al consumo y automotriz, y relaciones deudor-acreedor."
+            },
+            "focus2": {
+                "title": "Alimentos y Agricultura",
+                "desc": "Soporte legal integral en los sectores agrícola e agroindustrial. Desde el desarrollo de proyectos e infraestructura hasta cumplimiento regulatorio, programas de siembra y gestión de cadena de suministro. Diseño de estructuras corporativas para expansión regional y financiamiento."
+            },
+            "focus3": {
+                "title": "Energía, Infraestructura y Medio Ambiente",
+                "desc": "Apoyo al desarrollo sostenible y financiamiento de proyectos en los sectores de energía e infraestructura, asegurando el cumplimiento y la eficiencia operativa."
+            },
+            "focus4": {
+                "title": "Salud y Ciencias de la Vida",
+                "desc": "Servicios legales especializados de alto valor en salud y farmacéutica. Enfoque en cumplimiento regulatorio, protección de propiedad intelectual, redes de distribución, franquicias de farmacia y M&A especializado."
+            },
+            "focus5": {
+                "title": "Industria, Manufactura y Transporte",
+                "desc": "Servicios especializados para empresas de transporte, incluyendo sistemas de cable. Estructuras eficientes para operaciones en el mercado nacional, abordando derecho público y tributación multinivel."
+            }
+        }
+    },
+    "CareersPage": {
+        "header": {
+            "title": "Únete a Ágora",
+            "subtitle": "Carreras",
+            "badge": "Colabora con Líderes",
+            "description": "Forma parte de un equipo dinámico comprometido con la excelencia y soluciones innovadoras en un entorno colaborativo."
+        },
+        "intro": {
+            "quote": "\"La innovación, la excelencia y el liderazgo definen nuestro camino.\"",
+            "p1": "En Ágora Abogados, seguimos creciendo y buscamos incorporar a nuestro equipo a un <seniorLayer>Abogado Senior</seniorLayer> con sólida experiencia en el mundo corporativo y financiero.",
+            "p2": "Trabajarás junto a profesionales altamente reconocidos asesorando a empresas nacionales y multinacionales en transacciones transfronterizas complejas y asuntos legales estratégicos."
+        },
+        "profile": {
+            "title": "Perfil del Candidato Ideal",
+            "position": "Abogado Senior",
+            "req1": "Más de 6 años de experiencia de egresado.",
+            "req2": "Experiencia previa en firmas de abogados, fondos de inversión o estructuras similares.",
+            "req3": "Sólido conocimiento y experiencia en:",
+            "skills": [
+                "Derecho corporativo y mercantil.",
+                "Mercado de capitales.",
+                "Financiamiento, Crédito y Operaciones de Finanzas Corporativas."
+            ]
+        },
+        "contact": {
+            "text": "Si cumples con el perfil, te invitamos a enviar tu CV a:"
+        }
+    },
+    "ContactPage": {
+        "header": {
+            "title": "Conecte con Nuestros Especialistas",
+            "subtitle": "Contacto",
+            "badge": "Llamada de Descubrimiento",
+            "description": "Establezca su rampa de acceso estratégica para la inversión en Latinoamérica."
+        },
+        "intro": {
+            "quote": "\"La excelencia institucional comienza con una sola conversación.\"",
+            "description": "Ya sea un fondo de capital privado, un inversor institucional o un operador estratégico, nuestro equipo está listo para brindarle la claridad local que necesita."
+        },
+        "details": {
+            "email": "Correo Directo",
+            "phone": "Soporte Telefónico"
+        },
+        "office": {
+            "focus": "Sede Principal",
+            "map": "Ubicación Mapa HQ Caracas"
+        }
+    },
+    "TeamPage": {
+        "header": {
+            "title": "Experiencia de Clase Mundial",
+            "subtitle": "Nuestra Gente",
+            "badge": "Compromiso Liderado por Socios",
+            "description": "Un equipo multidisciplinario de especialistas estratégicos en derecho e inversión."
+        },
+        "groups": {
+            "partners": "Socios Principales",
+            "leads": "Líderes de Práctica",
+            "regional": "Líderes Regionales",
+            "associates": "Asociados",
+            "operations": "Operaciones"
+        },
+        "members": {
+            "alvaro": {
+                "role": "Socio Principal",
+                "bio": "Con más de 30 años de experiencia legal, Álvaro se destaca como una figura prominente en Banca, Finanzas y Mercado de Capitales. Su carrera incluye una trayectoria como socio en Baker McKenzie. Ha brindado asesoría estratégica a instituciones financieras nacionales e internacionales en asuntos regulatorios complejos, financiamiento de proyectos y transacciones de alto valor."
+            },
+            "maria": {
+                "role": "Socio Principal",
+                "bio": "María Eugenia aporta más de tres décadas de experiencia legal, especializándose en derecho Corporativo, Inmobiliario, Ambiental y Sostenibilidad. Anteriormente socia en Baker McKenzie, ha asesorado a grandes corporaciones en transacciones transfronterizas, cumplimiento regulatorio e iniciativas de desarrollo sostenible en toda Latinoamérica."
+            },
+            "jose": {
+                "role": "Líder de Práctica",
+                "bio": "José es experto en Tributación y M&A con más de 25 años de experiencia profesional. Autorizado para ejercer el derecho tanto en México como en Venezuela, ha diseñado e implementado estructuras fiscales complejas para corporaciones multinacionales y liderado importantes adquisiciones transfronterizas."
+            },
+            "ariana": {
+                "role": "Líder de Práctica",
+                "bio": "Ariana lidera la práctica de Derecho Laboral con más de 10 años de experiencia especializada. Como miembro del Instituto Venezolano de Derecho Social, brinda orientación experta en contratos de trabajo, reestructuración de la fuerza laboral y litigios laborales para diversas industrias."
+            },
+            "lizeth": {
+                "role": "Líder Regional",
+                "bio": "Lizeth, con sede en Aragua, es experta en Litigio Civil y Mercantil con más de 25 años de experiencia. Representa a clientes en disputas comerciales complejas, derecho contractual y procedimientos judiciales, asegurando una sólida protección legal en varias jurisdicciones regionales."
+            },
+            "marco": {
+                "role": "Asociado",
+                "bio": "Marco se especializa en Derecho Tributario, brindando asesoría estratégica en cumplimiento fiscal y litigios. Tiene amplia experiencia en procedimientos tributarios tanto administrativos como judiciales, ayudando a los clientes a navegar por marcos regulatorios complejos."
+            },
+            "barbara": {
+                "role": "Asociado",
+                "bio": "Bárbara se enfoca en Derecho Corporativo y Propiedad Intelectual. Asesora a clientes en formación de negocios, negociación de contratos y protección de activos de marca y tecnologías innovadoras."
+            },
+            "manuel": {
+                "role": "Asociado",
+                "bio": "Manuel es especialista en Derecho Laboral y Recursos Humanos. Asiste a corporaciones en la gestión de relaciones laborales, redacción de políticas internas integrales y garantía de cumplimiento de las regulaciones laborales."
+            },
+            "dayana": {
+                "role": "Asociado",
+                "bio": "Dayana se enfoca en Derecho Corporativo y Mercantil. Apoya a los clientes a lo largo del ciclo de vida de sus operaciones comerciales, desde la constitución y gobernanza hasta acuerdos comerciales y disolución."
+            },
+            "raul": {
+                "role": "Asociado",
+                "bio": "Raúl es experto en Resolución de Conflictos y Litigios. Representa a clientes en casos civiles y mercantiles, aportando un enfoque estratégico a la mediación de conflictos y la representación en tribunales."
+            },
+            "rodrigo": {
+                "role": "Asociado",
+                "bio": "Rodrigo se especializa en Derecho Público y Asuntos Regulatorios. Asesora en relaciones gubernamentales, procedimientos administrativos y cumplimiento de las regulaciones del sector público."
+            },
+            "andreina": {
+                "role": "Asociado",
+                "bio": "Andreína se enfoca en Negocios Internacionales y Derecho de Inversión. Asiste a clientes en comercio transfronterizo, regulaciones de inversión extranjera y arbitraje comercial internacional."
+            },
+            "fabiola": {
+                "role": "Asociado",
+                "bio": "Fabiola es especialista en Derecho Ambiental y Recursos Naturales. Guía a las organizaciones a través de evaluaciones de impacto ambiental, cumplimiento regulatorio y gestión sostenible de recursos."
+            },
+            "andrea": {
+                "role": "Gerente de Oficina",
+                "bio": "Andrea supervisa las operaciones diarias de la oficina y las funciones administrativas. Con un enfoque en la eficiencia organizacional, asegura que todos los procesos logísticos y de apoyo funcionen sin problemas para facilitar la prestación de servicios legales de alta calidad."
+            },
+            "oriana": {
+                "role": "Asistente Legal",
+                "bio": "Oriana brinda apoyo legal esencial a través de investigación integral, preparación de documentos y asistencia en la gestión de casos. Su diligencia asegura que el equipo legal tenga la base que necesita para obtener resultados exitosos."
+            },
+            "juan": {
+                "role": "Estrategia Digital",
+                "bio": "Juan Francisco lidera la presencia digital y la integración tecnológica de la firma. Se enfoca en aprovechar las herramientas digitales para mejorar la comunicación con los clientes, la transparencia operativa y la eficiencia general de los procesos legales."
+            }
+        }
+    },
+    "ServicesPage": {
+        "header": {
+            "title": "Áreas de Práctica",
+            "subtitle": "Nuestros Servicios",
+            "badge": "Alcance de Legado Verbatim",
+            "description": "Asesoramiento estratégico a empresas nacionales y multinacionales a escala global."
+        },
+        "services": {
+            "m-and-a": {
+                "title": "Corporativo y M&A",
+                "desc": "Asesoría integral a clientes nacionales e internacionales sobre reorganizaciones corporativas globales, fusiones, adquisiciones y joint ventures.",
+                "features": [
+                    "Due Diligence",
+                    "Apoyo en Negociaciones",
+                    "Integración Post-cierre",
+                    "Joint Ventures"
+                ]
+            },
+            "banking": {
+                "title": "Banca y Finanzas",
+                "desc": "Asesoría legal estratégica a bancos en asuntos regulatorios, productos financieros, préstamos y extensiones de crédito.",
+                "features": [
+                    "Finanzas Minoristas",
+                    "Finanzas Automotrices",
+                    "Siembra Agrícola",
+                    "Cumplimiento Regulatorio"
+                ]
+            },
+            "tax": {
+                "title": "Impuestos",
+                "desc": "Asesoría especializada en planificación fiscal, cumplimiento, litigios y precios de transferencia tanto en Venezuela como en el exterior.",
+                "features": [
+                    "Planificación Fiscal",
+                    "Monitoreo de Cumplimiento",
+                    "Apoyo en Litigios",
+                    "Precios de Transferencia"
+                ]
+            },
+            "labor": {
+                "title": "Laboral y Empleo",
+                "desc": "Orientación experta en derecho laboral individual y colectivo, contratos, beneficios para empleados y visas de trabajo.",
+                "features": [
+                    "Contratos",
+                    "Planificación de Beneficios",
+                    "Visas de Trabajo",
+                    "Convenios Colectivos"
+                ]
+            },
+            "regulatory": {
+                "title": "Regulatorio y Cumplimiento",
+                "desc": "Apoyo en la navegación de marcos regulatorios locales e internacionales, AML y sanciones económicas.",
+                "features": [
+                    "Cumplimiento AML",
+                    "Sanciones Económicas",
+                    "Auditorías Regulatorias",
+                    "Gestión de Riesgos"
+                ]
+            }
+        },
+        "methodology": {
+            "title": "Metodología: El Marco Ágora",
+            "step1": {
+                "title": "Evaluación",
+                "desc": "Evaluación rigurosa del mercado y del panorama legal."
+            },
+            "step2": {
+                "title": "Estructuración",
+                "desc": "Diseño de un vehículo institucional robusto para el objetivo."
+            },
+            "step3": {
+                "title": "Ejecución",
+                "desc": "Gestión operativa local y soporte de asesoramiento."
+            }
         }
     }
 }

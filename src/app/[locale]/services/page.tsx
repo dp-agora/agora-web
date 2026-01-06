@@ -1,58 +1,92 @@
+"use client";
+
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { PageHeader } from "@/components/layout/PageHeader";
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-import { ArrowRight, Globe, Shield, TrendingUp } from "lucide-react";
-import Link from "next/link";
-
-const services = [
-    {
-        id: "m-and-a",
-        title: "Corporate and M&A",
-        icon: TrendingUp,
-        description: "Comprehensive advice to national and international clients on global corporate reorganizations, mergers, acquisitions, and joint ventures.",
-        features: ["Due Diligence", "Negotiation Support", "Post-closing Integration", "Joint Ventures"]
-    },
-    {
-        id: "banking",
-        title: "Banking & Finance",
-        icon: Shield,
-        description: "Strategic legal counsel to banks in regulatory matters, financial products, lending, and extensions of credit.",
-        features: ["Retail Finance", "Automobile Finance", "Agricultural Sowing", "Regulatory Compliance"]
-    },
-    {
-        id: "tax",
-        title: "Tax",
-        icon: Globe,
-        description: "Specialized advice in tax planning, compliance, litigation, and transfer pricing both in Venezuela and abroad.",
-        features: ["Tax Planning", "Compliance Monitoring", "Litigation Support", "Transfer Pricing"]
-    },
-    {
-        id: "labor",
-        title: "Labor and Employment",
-        icon: TrendingUp,
-        description: "Expert guidance on individual and collective labor law, contracts, employee benefits, and work visas.",
-        features: ["Contracts", "Benefits Planning", "Work Visas", "Collective Agreements"]
-    },
-    {
-        id: "regulatory",
-        title: "Regulatory & Compliance",
-        icon: Shield,
-        description: "Support in navigating local and international regulatory frameworks, AML, and economic sanctions.",
-        features: ["AML Compliance", "Economic Sanctions", "Regulatory Audits", "Risk Management"]
-    }
-];
+import { Globe, Shield, TrendingUp } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 export default function ServicesPage() {
+    const t = useTranslations("ServicesPage");
+
+    const services = [
+        {
+            id: "m-and-a",
+            title: t("services.m-and-a.title"),
+            icon: TrendingUp,
+            description: t("services.m-and-a.desc"),
+            features: [
+                t("services.m-and-a.features.0"),
+                t("services.m-and-a.features.1"),
+                t("services.m-and-a.features.2"),
+                t("services.m-and-a.features.3")
+            ]
+        },
+        {
+            id: "banking",
+            title: t("services.banking.title"),
+            icon: Shield,
+            description: t("services.banking.desc"),
+            features: [
+                t("services.banking.features.0"),
+                t("services.banking.features.1"),
+                t("services.banking.features.2"),
+                t("services.banking.features.3")
+            ]
+        },
+        {
+            id: "tax",
+            title: t("services.tax.title"),
+            icon: Globe,
+            description: t("services.tax.desc"),
+            features: [
+                t("services.tax.features.0"),
+                t("services.tax.features.1"),
+                t("services.tax.features.2"),
+                t("services.tax.features.3")
+            ]
+        },
+        {
+            id: "labor",
+            title: t("services.labor.title"),
+            icon: TrendingUp,
+            description: t("services.labor.desc"),
+            features: [
+                t("services.labor.features.0"),
+                t("services.labor.features.1"),
+                t("services.labor.features.2"),
+                t("services.labor.features.3")
+            ]
+        },
+        {
+            id: "regulatory",
+            title: t("services.regulatory.title"),
+            icon: Shield,
+            description: t("services.regulatory.desc"),
+            features: [
+                t("services.regulatory.features.0"),
+                t("services.regulatory.features.1"),
+                t("services.regulatory.features.2"),
+                t("services.regulatory.features.3")
+            ]
+        }
+    ];
+
+    const methodology = [
+        { step: "01", title: t("methodology.step1.title"), desc: t("methodology.step1.desc") },
+        { step: "02", title: t("methodology.step2.title"), desc: t("methodology.step2.desc") },
+        { step: "03", title: t("methodology.step3.title"), desc: t("methodology.step3.desc") }
+    ];
+
     return (
         <div className="flex min-h-screen flex-col">
             <Navbar />
             <main className="flex-1">
                 <PageHeader
-                    title="Practice Areas"
-                    subtitle="Our Services"
-                    badge="Verbatim Legacy Scope"
-                    description="Strategically advising national and multinational companies on a global scale."
+                    title={t("header.title")}
+                    subtitle={t("header.subtitle")}
+                    badge={t("header.badge")}
+                    description={t("header.description")}
                 />
 
                 <section className="py-24 bg-white">
@@ -82,13 +116,9 @@ export default function ServicesPage() {
                 <section className="py-24 bg-primary text-white">
                     <div className="container mx-auto px-6 lg:px-12">
                         <div className="max-w-4xl mx-auto text-center space-y-12">
-                            <h2 className="text-4xl md:text-5xl font-serif">Methodology: The Ágora Framework</h2>
+                            <h2 className="text-4xl md:text-5xl font-serif">{t("methodology.title")}</h2>
                             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-left mt-16">
-                                {[
-                                    { step: "01", title: "Assessment", desc: "Rigorous evaluation of the market and legal landscape." },
-                                    { step: "02", title: "Structuring", desc: "Designing a robust institutional vehicle for the objective." },
-                                    { step: "03", title: "Execution", desc: "Local operational management and advisory support." }
-                                ].map((m, i) => (
+                                {methodology.map((m, i) => (
                                     <div key={i} className="space-y-4 border-l border-white/10 pl-8">
                                         <span className="text-white/30 font-serif text-2xl italic">{m.step}</span>
                                         <h4 className="text-xl font-bold">{m.title}</h4>
@@ -104,3 +134,4 @@ export default function ServicesPage() {
         </div>
     );
 }
+

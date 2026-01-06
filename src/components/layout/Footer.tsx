@@ -1,26 +1,29 @@
-import Link from "next/link";
-
-const footerLinks = [
-    {
-        title: "Firm",
-        links: [
-            { name: "About Us", href: "/about" },
-            { name: "Our Team", href: "/team" },
-            { name: "Careers", href: "/careers" },
-        ],
-    },
-    {
-        title: "Practice Areas",
-        links: [
-            { name: "Corporate and M&A", href: "/services" },
-            { name: "Banking & Finance", href: "/services" },
-            { name: "Tax", href: "/services" },
-            { name: "Regulatory & Compliance", href: "/services" },
-        ],
-    },
-];
+import { Link } from "@/i18n/routing";
+import { useTranslations } from "next-intl";
 
 export function Footer() {
+    const t = useTranslations("Footer");
+
+    const footerLinks = [
+        {
+            title: t("firm"),
+            links: [
+                { name: t("about"), href: "/about" },
+                { name: t("team"), href: "/team" },
+                { name: t("careers"), href: "/careers" },
+            ],
+        },
+        {
+            title: t("practiceAreas"),
+            links: [
+                { name: t("corporate"), href: "/services" },
+                { name: t("banking"), href: "/services" },
+                { name: t("tax"), href: "/services" },
+                { name: t("regulatory"), href: "/services" },
+            ],
+        },
+    ];
+
     return (
         <footer className="bg-slate-50 border-t border-slate-200">
             <div className="container mx-auto px-6 lg:px-12 py-16 lg:py-24">
@@ -35,7 +38,7 @@ export function Footer() {
                             </span>
                         </Link>
                         <p className="text-slate-500 max-w-sm leading-relaxed">
-                            Personalized legal boutique service with global reach, capabilities, and vision.
+                            {t("description")}
                         </p>
                     </div>
 
@@ -47,7 +50,7 @@ export function Footer() {
                                     {section.links.map((link) => (
                                         <Link
                                             key={link.name}
-                                            href={link.href}
+                                            href={link.href as any}
                                             className="text-slate-500 hover:text-primary transition-colors text-sm"
                                         >
                                             {link.name}
@@ -61,14 +64,15 @@ export function Footer() {
 
                 <div className="mt-24 pt-8 border-t border-slate-200 flex flex-col md:row items-center justify-between gap-4">
                     <p className="text-xs text-slate-400 font-medium tracking-wide">
-                        © {new Date().getFullYear()} ÁGORA. ALL RIGHTS RESERVED. STRATEGIC LEGAL & INVESTMENT ADVISORY.
+                        {t("rights", { year: new Date().getFullYear() })}
                     </p>
                     <div className="flex gap-6 text-xs text-slate-400 font-medium">
-                        <Link href="/privacy" className="hover:text-primary transition-colors uppercase tracking-wider">Privacy Policy</Link>
-                        <Link href="/terms" className="hover:text-primary transition-colors uppercase tracking-wider">Legal Terms</Link>
+                        <Link href="/privacy" className="hover:text-primary transition-colors uppercase tracking-wider">{t("privacy")}</Link>
+                        <Link href="/terms" className="hover:text-primary transition-colors uppercase tracking-wider">{t("terms")}</Link>
                     </div>
                 </div>
             </div>
         </footer>
     );
 }
+

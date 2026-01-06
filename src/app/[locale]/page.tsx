@@ -5,7 +5,9 @@ import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, ChevronRight, Globe, Shield, Zap } from "lucide-react";
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
+import { useTranslations } from "next-intl";
+import { useBooking } from "@/context/BookingContext";
 
 const fadeInUp = {
   initial: { opacity: 0, y: 20 },
@@ -21,10 +23,10 @@ const stagger = {
   }
 };
 
-import { useBooking } from "@/context/BookingContext";
-
 export default function Home() {
   const { openBooking } = useBooking();
+  const t = useTranslations("HomePage");
+
   return (
     <div className="flex min-h-screen flex-col">
       <Navbar />
@@ -43,21 +45,21 @@ export default function Home() {
                 variants={fadeInUp}
                 className="inline-block px-3 py-1 rounded-full bg-slate-100 text-primary text-[10px] font-bold uppercase tracking-[0.2em] mb-8"
               >
-                Agora Abogados
+                {t("hero.badge")}
               </motion.span>
               <motion.h1
                 variants={fadeInUp}
                 className="text-5xl md:text-7xl lg:text-8xl font-serif text-primary leading-[1.05] mb-8 tracking-[-0.02em]"
               >
-                Legal Boutique <br />
-                <span className="text-slate-400">Services With</span> <br />
-                Global Reach
+                {t("hero.line1")} <br />
+                <span className="text-slate-400">{t("hero.line2")}</span> <br />
+                {t("hero.line3")}
               </motion.h1>
               <motion.p
                 variants={fadeInUp}
                 className="text-xl md:text-2xl text-slate-500 max-w-2xl leading-relaxed mb-12"
               >
-                We provide the personalized service of a legal boutique with global reach, capabilities, and vision. Defined by experience, innovation, and leadership.
+                {t("hero.description")}
               </motion.p>
               <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row gap-4">
                 <Button
@@ -65,10 +67,10 @@ export default function Home() {
                   size="lg"
                   className="h-16 px-10 text-lg rounded-none bg-primary hover:bg-primary/90 uppercase tracking-wider font-bold shadow-lg shadow-primary/20 cursor-pointer"
                 >
-                  Book a Discovery Call
+                  {t("hero.ctaBook")}
                 </Button>
                 <Button asChild variant="outline" size="lg" className="h-16 px-10 text-lg rounded-none border-slate-200 hover:bg-slate-50 uppercase tracking-wider font-bold">
-                  <Link href="/services">Practice Areas</Link>
+                  <Link href="/services">{t("hero.ctaServices")}</Link>
                 </Button>
               </motion.div>
             </motion.div>
@@ -84,16 +86,16 @@ export default function Home() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
               <div className="space-y-8">
                 <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif text-primary leading-tight">
-                  Strategic Solutions Across Sectors
+                  {t("methodology.title")}
                 </h2>
                 <p className="text-lg text-slate-500 leading-relaxed max-w-lg">
-                  Ágora Abogados specializes in providing strategic legal solutions that address the specific challenges and opportunities of each client and industry.
+                  {t("methodology.description")}
                 </p>
                 <ul className="space-y-6 pt-4">
                   {[
-                    { icon: Shield, title: "Ethics and Commitment", desc: "Creation of strategic partnerships built on trust to tackle complex legal challenges." },
-                    { icon: Globe, title: "Global Reach", desc: "Highly recognized professionals with extensive experience in international firms." },
-                    { icon: Zap, title: "Modern Leadership", desc: "Combining dynamism and innovation with the vast experience of our partners." }
+                    { icon: Shield, title: t("methodology.ethics.title"), desc: t("methodology.ethics.desc") },
+                    { icon: Globe, title: t("methodology.global.title"), desc: t("methodology.global.desc") },
+                    { icon: Zap, title: t("methodology.leadership.title"), desc: t("methodology.leadership.desc") }
                   ].map((item, i) => (
                     <li key={i} className="flex gap-4">
                       <div className="flex-shrink-0 mt-1 h-6 w-6 text-primary"><item.icon className="h-6 w-6" /></div>
@@ -126,17 +128,38 @@ export default function Home() {
         <section className="py-24 lg:py-40 bg-slate-50 border-y">
           <div className="container mx-auto px-6 lg:px-12">
             <div className="mb-20">
-              <h2 className="text-4xl lg:text-5xl font-serif text-primary mb-6">Areas of Expertise</h2>
+              <h2 className="text-4xl lg:text-5xl font-serif text-primary mb-6">{t("expertise.title")}</h2>
               <p className="text-slate-500 max-w-xl text-lg">
-                Comprehensive legal advisory with specialized focus across core practice areas.
+                {t("expertise.description")}
               </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
               {[
-                { title: "Corporate and M&A", items: ["Global Reorganizations", "Mergers & Acquisitions", "Joint Ventures"] },
-                { title: "Banking & Finance", items: ["Regulatory Advice", "Lending & Credit", "Financial Products"] },
-                { title: "Capital Markets", items: ["Securities Issuances", "Capital Strategies", "Private Equity Funds"] }
+                {
+                  title: t("services.corporate.title"),
+                  items: [
+                    t("services.corporate.items.0"),
+                    t("services.corporate.items.1"),
+                    t("services.corporate.items.2")
+                  ]
+                },
+                {
+                  title: t("services.banking.title"),
+                  items: [
+                    t("services.banking.items.0"),
+                    t("services.banking.items.1"),
+                    t("services.banking.items.2")
+                  ]
+                },
+                {
+                  title: t("services.capital.title"),
+                  items: [
+                    t("services.capital.items.0"),
+                    t("services.capital.items.1"),
+                    t("services.capital.items.2")
+                  ]
+                }
               ].map((service, i) => (
                 <div key={i} className="group cursor-pointer">
                   <div className="mb-6 h-[1px] w-full bg-slate-200 group-hover:bg-primary transition-colors" />
@@ -152,7 +175,7 @@ export default function Home() {
                     ))}
                   </ul>
                   <Link href="/services" className="text-xs font-bold uppercase tracking-widest text-primary/60 group-hover:text-primary transition-colors flex items-center gap-2">
-                    View Practice Area <ArrowRight className="h-3 w-3" />
+                    {t("expertise.viewAll")} <ArrowRight className="h-3 w-3" />
                   </Link>
                 </div>
               ))}
@@ -171,14 +194,14 @@ export default function Home() {
               className="max-w-4xl mx-auto"
             >
               <h2 className="text-5xl md:text-7xl font-serif text-white mb-12 leading-tight">
-                Ready to Establish Your <br /> Latin American Presence?
+                {t("cta.title")}
               </h2>
               <Button
                 onClick={openBooking}
                 size="lg"
                 className="h-20 px-16 text-xl rounded-none bg-white text-primary hover:bg-slate-100 uppercase tracking-widest font-bold cursor-pointer"
               >
-                Book a Discovery Call
+                {t("cta.button")}
               </Button>
             </motion.div>
           </div>
@@ -194,3 +217,4 @@ export default function Home() {
     </div>
   );
 }
+
