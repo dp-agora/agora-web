@@ -11,15 +11,17 @@ import { cn } from "@/lib/utils";
 const navLinks = [
     { name: "About", href: "/about" },
     { name: "Services", href: "/services" },
-    { name: "Insights", href: "/insights" },
     { name: "Team", href: "/team" },
     { name: "Careers", href: "/careers" },
     { name: "Contact", href: "/contact" },
 ];
 
+import { useBooking } from "@/context/BookingContext";
+
 export function Navbar() {
     const pathname = usePathname();
     const [isOpen, setIsOpen] = useState(false);
+    const { openBooking } = useBooking();
 
     return (
         <nav className="sticky top-0 z-50 w-full border-b bg-white/80 backdrop-blur-md">
@@ -52,8 +54,11 @@ export function Navbar() {
                 </div>
 
                 <div className="flex items-center gap-4">
-                    <Button asChild className="hidden sm:inline-flex bg-primary hover:bg-primary/90 rounded-none h-11 px-8 text-sm font-semibold tracking-wide uppercase transition-all shadow-sm active:scale-95">
-                        <Link href="/contact">Book a Discovery Call</Link>
+                    <Button
+                        onClick={openBooking}
+                        className="hidden sm:inline-flex bg-primary hover:bg-primary/90 rounded-none h-11 px-8 text-sm font-semibold tracking-wide uppercase transition-all shadow-sm active:scale-95 cursor-pointer"
+                    >
+                        Book a Discovery Call
                     </Button>
 
                     {/* Mobile Menu Trigger */}
@@ -84,8 +89,15 @@ export function Navbar() {
                                     ))}
                                 </div>
                                 <div className="mt-auto pb-8">
-                                    <Button asChild variant="outline" className="w-full border-white text-white hover:bg-white hover:text-primary rounded-none h-14 text-lg">
-                                        <Link href="/contact" onClick={() => setIsOpen(false)}>Book a Discovery Call</Link>
+                                    <Button
+                                        variant="outline"
+                                        className="w-full border-white text-white hover:bg-white hover:text-primary rounded-none h-14 text-lg cursor-pointer"
+                                        onClick={() => {
+                                            setIsOpen(false);
+                                            openBooking();
+                                        }}
+                                    >
+                                        Book a Discovery Call
                                     </Button>
                                 </div>
                             </div>

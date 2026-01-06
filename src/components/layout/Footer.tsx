@@ -4,24 +4,18 @@ const footerLinks = [
     {
         title: "Firm",
         links: [
-            { name: "About", href: "/about" },
-            { name: "Team", href: "/team" },
+            { name: "About Us", href: "/about" },
+            { name: "Our Team", href: "/team" },
             { name: "Careers", href: "/careers" },
         ],
     },
     {
-        title: "Services",
+        title: "Practice Areas",
         links: [
-            { name: "Investment Advisory", href: "/services" },
-            { name: "Strategic Legal", href: "/services" },
-            { name: "Cross-border Strategy", href: "/services" },
-        ],
-    },
-    {
-        title: "Insights",
-        links: [
-            { name: "Thought Leadership", href: "/insights" },
-            { name: "Market Briefings", href: "/insights" },
+            { name: "Corporate and M&A", href: "/services" },
+            { name: "Banking & Finance", href: "/services" },
+            { name: "Tax", href: "/services" },
+            { name: "Regulatory & Compliance", href: "/services" },
         ],
     },
 ];
@@ -41,7 +35,7 @@ export function Footer() {
                             </span>
                         </Link>
                         <p className="text-slate-500 max-w-sm leading-relaxed">
-                            Leading strategic on-ramp for global investors and strategic operators in Latin America.
+                            Personalized legal boutique service with global reach, capabilities, and vision.
                         </p>
                     </div>
 

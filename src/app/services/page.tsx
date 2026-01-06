@@ -7,25 +7,39 @@ import Link from "next/link";
 
 const services = [
     {
-        id: "investment",
-        title: "Investment Advisory",
+        id: "m-and-a",
+        title: "Corporate and M&A",
         icon: TrendingUp,
-        description: "Structuring capital for entry, growth, and exit in Latin American markets.",
-        features: ["Deal Structuring", "Market Due Diligence", "Local Representative Services", "Joint Venture Support"]
+        description: "Comprehensive advice to national and international clients on global corporate reorganizations, mergers, acquisitions, and joint ventures.",
+        features: ["Due Diligence", "Negotiation Support", "Post-closing Integration", "Joint Ventures"]
     },
     {
-        id: "legal",
-        title: "Strategic Legal",
+        id: "banking",
+        title: "Banking & Finance",
         icon: Shield,
-        description: "The institutional foundation for global operations.",
-        features: ["Governance & Compliance", "Contractual Frameworks", "Intellectual Property", "Litigation Strategy"]
+        description: "Strategic legal counsel to banks in regulatory matters, financial products, lending, and extensions of credit.",
+        features: ["Retail Finance", "Automobile Finance", "Agricultural Sowing", "Regulatory Compliance"]
     },
     {
-        id: "global",
-        title: "Cross-border Strategy",
+        id: "tax",
+        title: "Tax",
         icon: Globe,
-        description: "Navigating the complexities of multi-jurisdictional operations.",
-        features: ["International Tax Planning", "Regulatory Mapping", "Sovereign Risk Management", "Trade & Sanctions Compliance"]
+        description: "Specialized advice in tax planning, compliance, litigation, and transfer pricing both in Venezuela and abroad.",
+        features: ["Tax Planning", "Compliance Monitoring", "Litigation Support", "Transfer Pricing"]
+    },
+    {
+        id: "labor",
+        title: "Labor and Employment",
+        icon: TrendingUp,
+        description: "Expert guidance on individual and collective labor law, contracts, employee benefits, and work visas.",
+        features: ["Contracts", "Benefits Planning", "Work Visas", "Collective Agreements"]
+    },
+    {
+        id: "regulatory",
+        title: "Regulatory & Compliance",
+        icon: Shield,
+        description: "Support in navigating local and international regulatory frameworks, AML, and economic sanctions.",
+        features: ["AML Compliance", "Economic Sanctions", "Regulatory Audits", "Risk Management"]
     }
 ];
 
@@ -35,15 +49,15 @@ export default function ServicesPage() {
             <Navbar />
             <main className="flex-1">
                 <PageHeader
-                    title="Practices & Expertise"
+                    title="Practice Areas"
                     subtitle="Our Services"
-                    badge="High-Stakes Advisory"
-                    description="We provide the structural framework for strategic investment and legal excellence in the region."
+                    badge="Verbatim Legacy Scope"
+                    description="Strategically advising national and multinational companies on a global scale."
                 />
 
                 <section className="py-24 bg-white">
                     <div className="container mx-auto px-6 lg:px-12">
-                        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
+                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
                             {services.map((service) => (
                                 <div key={service.id} className="group p-8 border border-slate-100 bg-slate-50 hover:bg-white hover:shadow-2xl hover:shadow-primary/5 transition-all duration-500">
                                     <service.icon className="h-10 w-10 text-primary mb-8" />
@@ -51,7 +65,7 @@ export default function ServicesPage() {
                                     <p className="text-slate-500 mb-12 leading-relaxed">
                                         {service.description}
                                     </p>
-                                    <ul className="space-y-4 mb-12">
+                                    <ul className="grid grid-cols-2 gap-4 mb-12">
                                         {service.features.map((f, i) => (
                                             <li key={i} className="text-sm font-medium text-slate-400 flex items-center gap-3">
                                                 <div className="h-1 w-1 bg-primary/20 rounded-full" />
@@ -59,9 +73,6 @@ export default function ServicesPage() {
                                             </li>
                                         ))}
                                     </ul>
-                                    <Link href={`/services/${service.id}`} className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-primary border-b border-primary/20 pb-1 hover:border-primary transition-all">
-                                        Detail Overview <ArrowRight className="h-4 w-4" />
-                                    </Link>
                                 </div>
                             ))}
                         </div>

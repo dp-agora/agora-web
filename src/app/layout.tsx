@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter, Libre_Baskerville } from "next/font/google";
 import "./globals.css";
+import { BookingProvider } from "@/context/BookingContext";
+import { BookingModal } from "@/components/booking/BookingModal";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -28,7 +30,10 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${libreBaskerville.variable} font-sans antialiased bg-white text-slate-900`}
       >
-        {children}
+        <BookingProvider>
+          {children}
+          <BookingModal />
+        </BookingProvider>
       </body>
     </html>
   );

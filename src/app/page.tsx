@@ -21,7 +21,10 @@ const stagger = {
   }
 };
 
+import { useBooking } from "@/context/BookingContext";
+
 export default function Home() {
+  const { openBooking } = useBooking();
   return (
     <div className="flex min-h-screen flex-col">
       <Navbar />
@@ -40,28 +43,32 @@ export default function Home() {
                 variants={fadeInUp}
                 className="inline-block px-3 py-1 rounded-full bg-slate-100 text-primary text-[10px] font-bold uppercase tracking-[0.2em] mb-8"
               >
-                The Latin American On-ramp
+                Agora Abogados
               </motion.span>
               <motion.h1
                 variants={fadeInUp}
                 className="text-5xl md:text-7xl lg:text-8xl font-serif text-primary leading-[1.05] mb-8 tracking-[-0.02em]"
               >
-                Where Strategic <br />
-                <span className="text-slate-400">Capital Meets</span> <br />
-                Legal Excellence
+                Legal Boutique <br />
+                <span className="text-slate-400">Services With</span> <br />
+                Global Reach
               </motion.h1>
               <motion.p
                 variants={fadeInUp}
                 className="text-xl md:text-2xl text-slate-500 max-w-2xl leading-relaxed mb-12"
               >
-                Founded in Caracas, defined globally. We provide the institutional foundation for the next wave of strategic investment in Latin America.
+                We provide the personalized service of a legal boutique with global reach, capabilities, and vision. Defined by experience, innovation, and leadership.
               </motion.p>
               <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row gap-4">
-                <Button asChild size="lg" className="h-16 px-10 text-lg rounded-none bg-primary hover:bg-primary/90 uppercase tracking-wider font-bold shadow-lg shadow-primary/20">
-                  <Link href="/contact">Execute Your Strategy</Link>
+                <Button
+                  onClick={openBooking}
+                  size="lg"
+                  className="h-16 px-10 text-lg rounded-none bg-primary hover:bg-primary/90 uppercase tracking-wider font-bold shadow-lg shadow-primary/20 cursor-pointer"
+                >
+                  Book a Discovery Call
                 </Button>
                 <Button asChild variant="outline" size="lg" className="h-16 px-10 text-lg rounded-none border-slate-200 hover:bg-slate-50 uppercase tracking-wider font-bold">
-                  <Link href="/services">Our Practice Areas</Link>
+                  <Link href="/services">Practice Areas</Link>
                 </Button>
               </motion.div>
             </motion.div>
@@ -71,39 +78,22 @@ export default function Home() {
           <div className="absolute top-0 right-0 w-1/3 h-full bg-slate-50 -z-0 skew-x-[-15deg] translate-x-12 border-l border-slate-100 hidden lg:block" />
         </section>
 
-        {/* Global Reach / Trust Markers */}
-        <section className="py-12 bg-slate-50 border-b">
-          <div className="container mx-auto px-6 lg:px-12">
-            <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
-              <span className="text-xs font-bold text-slate-400 uppercase tracking-[0.3em]">Institutional Partners in</span>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-16 opacity-40 grayscale filter">
-                {['London', 'New York', 'Madrid', 'Caracas'].map((city) => (
-                  <div key={city} className="flex items-center gap-2">
-                    <Globe className="h-4 w-4" />
-                    <span className="font-serif text-lg font-semibold tracking-tighter">{city}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </section>
-
         {/* Core Methodology / Positioning */}
         <section className="py-24 lg:py-40 bg-white">
           <div className="container mx-auto px-6 lg:px-12">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
               <div className="space-y-8">
                 <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif text-primary leading-tight">
-                  High-Trust Advisory for High-Stakes Operations
+                  Strategic Solutions Across Sectors
                 </h2>
                 <p className="text-lg text-slate-500 leading-relaxed max-w-lg">
-                  Navigating Latin American markets requires more than legal counsel—it requires a strategic partner that understands the intersection of global capital and local institutional dynamics.
+                  Ágora Abogados specializes in providing strategic legal solutions that address the specific challenges and opportunities of each client and industry.
                 </p>
                 <ul className="space-y-6 pt-4">
                   {[
-                    { icon: Shield, title: "Risk Mitigation", desc: "Sovereign and institutional risk assessment for strategic operators." },
-                    { icon: Zap, title: "Capital Efficiency", desc: "Structuring cross-border vehicles for maximum operational clarity." },
-                    { icon: Globe, title: "Local Navigation", desc: "Deep operational roots in Caracas and key Latin American hubs." }
+                    { icon: Shield, title: "Ethics and Commitment", desc: "Creation of strategic partnerships built on trust to tackle complex legal challenges." },
+                    { icon: Globe, title: "Global Reach", desc: "Highly recognized professionals with extensive experience in international firms." },
+                    { icon: Zap, title: "Modern Leadership", desc: "Combining dynamism and innovation with the vast experience of our partners." }
                   ].map((item, i) => (
                     <li key={i} className="flex gap-4">
                       <div className="flex-shrink-0 mt-1 h-6 w-6 text-primary"><item.icon className="h-6 w-6" /></div>
@@ -116,7 +106,6 @@ export default function Home() {
                 </ul>
               </div>
               <div className="relative aspect-square bg-slate-100 border border-slate-200 p-12 overflow-hidden group">
-                {/* Visual placeholder for an abstract image or product-like UI */}
                 <div className="absolute inset-x-0 bottom-0 top-1/2 bg-white border-t border-slate-200 translate-y-24 group-hover:translate-y-12 transition-transform duration-1000 p-8 shadow-2xl">
                   <div className="flex gap-2 mb-4">
                     <div className="h-3 w-3 rounded-full bg-slate-200" />
@@ -126,7 +115,7 @@ export default function Home() {
                   <div className="h-2 w-1/2 bg-slate-100" />
                 </div>
                 <div className="flex items-center justify-center h-full">
-                  <span className="font-serif text-8xl text-slate-200 italic">01</span>
+                  <span className="font-serif text-8xl text-slate-200 italic">Á</span>
                 </div>
               </div>
             </div>
@@ -137,17 +126,17 @@ export default function Home() {
         <section className="py-24 lg:py-40 bg-slate-50 border-y">
           <div className="container mx-auto px-6 lg:px-12">
             <div className="mb-20">
-              <h2 className="text-4xl lg:text-5xl font-serif text-primary mb-6">Expertise at Scale</h2>
+              <h2 className="text-4xl lg:text-5xl font-serif text-primary mb-6">Areas of Expertise</h2>
               <p className="text-slate-500 max-w-xl text-lg">
-                Phase 1 structural highlight: Practice areas organized for clarity and conversion.
+                Comprehensive legal advisory with specialized focus across core practice areas.
               </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
               {[
-                { title: "Investment Advisory", items: ["Deal Structuring", "Due Diligence", "Local Representation"] },
-                { title: "Strategic Legal", items: ["Governance", "Compliance", "Contractual Frameworks"] },
-                { title: "Cross-border Operations", items: ["Tax Strategy", "Entity Management", "Regulatory Mapping"] }
+                { title: "Corporate and M&A", items: ["Global Reorganizations", "Mergers & Acquisitions", "Joint Ventures"] },
+                { title: "Banking & Finance", items: ["Regulatory Advice", "Lending & Credit", "Financial Products"] },
+                { title: "Capital Markets", items: ["Securities Issuances", "Capital Strategies", "Private Equity Funds"] }
               ].map((service, i) => (
                 <div key={i} className="group cursor-pointer">
                   <div className="mb-6 h-[1px] w-full bg-slate-200 group-hover:bg-primary transition-colors" />
@@ -163,7 +152,7 @@ export default function Home() {
                     ))}
                   </ul>
                   <Link href="/services" className="text-xs font-bold uppercase tracking-widest text-primary/60 group-hover:text-primary transition-colors flex items-center gap-2">
-                    Explore Focus <ArrowRight className="h-3 w-3" />
+                    View Practice Area <ArrowRight className="h-3 w-3" />
                   </Link>
                 </div>
               ))}
@@ -171,30 +160,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Featured Insights Mockup */}
-        <section className="py-24 lg:py-40 bg-white">
-          <div className="container mx-auto px-6 lg:px-12 text-center">
-            <div className="max-w-3xl mx-auto space-y-12">
-              <h2 className="text-4xl lg:text-6xl font-serif text-primary">Insights for the Strategic Operator</h2>
-              <p className="text-lg text-slate-500 leading-relaxed">
-                We believe in knowledge as an asset. Access our periodic briefings on market dynamics and institutional shifts.
-              </p>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
-                {[1, 2].map((i) => (
-                  <div key={i} className="border border-slate-100 p-8 hover:border-primary/20 transition-all rounded-none bg-slate-50 group">
-                    <span className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-4 block">Market Briefing</span>
-                    <h4 className="text-xl font-serif text-primary mb-4 group-hover:text-primary/70 mb-8 leading-tight">
-                      Venezuela: Navigating New Capital Inflows in the Logistics Sector
-                    </h4>
-                    <Link href="/insights" className="text-xs font-bold uppercase tracking-widest text-primary flex items-center gap-2">
-                      Read Analysis <ArrowRight className="h-3 w-3" />
-                    </Link>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </section>
 
         {/* Closing CTA */}
         <section className="py-24 lg:py-48 bg-primary text-white overflow-hidden relative">
@@ -208,8 +173,12 @@ export default function Home() {
               <h2 className="text-5xl md:text-7xl font-serif text-white mb-12 leading-tight">
                 Ready to Establish Your <br /> Latin American Presence?
               </h2>
-              <Button asChild size="lg" className="h-20 px-16 text-xl rounded-none bg-white text-primary hover:bg-slate-100 uppercase tracking-widest font-bold">
-                <Link href="/contact">Book a Discovery Call</Link>
+              <Button
+                onClick={openBooking}
+                size="lg"
+                className="h-20 px-16 text-xl rounded-none bg-white text-primary hover:bg-slate-100 uppercase tracking-widest font-bold cursor-pointer"
+              >
+                Book a Discovery Call
               </Button>
             </motion.div>
           </div>
