@@ -498,6 +498,85 @@
             ],
             "office": "Caracas, Venezuela",
             "languages": "Español, inglés, alemán y francés"
+        },
+        "dayana-veliz": {
+            "overview": [
+                "Dayana Véliz abogada destacada que combina habilidades en derecho y finanzas para ofrecer soluciones integrales en los ámbitos corporativos, fusiones y adquisiciones, la incorporación de entidades, y la gestión de inversiones extranjeras.",
+                "Con un máster en Finanzas, Dayana se posiciona como una experta clave en el derecho corporativo en Venezuela. Su capacidad para comprender y aplicar complejas cuestiones jurídicas a contextos financieros la convierte en un recurso invaluable para sus clientes."
+            ],
+            "experience": [
+                "Actualmente Dayana se desempeña como Asociado de Ágora Abogados en las áreas de Fusiones, Adquisiciones y Derecho Corporativo, Banca y Finanza y mercados de capitales."
+            ],
+            "education": [
+                "Abogado, Universidad Católica Andrés Bello (2022)",
+                "Master en Finanzas, Instituto de Estudios Superiores de Administración (IESA) (2023)",
+                "Programa de Intercambio, Instituto Coppead de Administração da Universidade Federal do Rio de Janeiro (2023)"
+            ],
+            "office": "Caracas, Venezuela",
+            "languages": "Español, Inglés y Portugués"
+        },
+        "raul-sancristobal": {
+            "overview": [
+                "Raúl Eduardo Sancristobal es abogado con experiencia asesorando en disputas financieras complejas, asuntos relacionados con valores transfronterizos, responsabilidad de custodios y regulación del mercado de capitales.",
+                "Su enfoque meticuloso y su capacidad para ofrecer soluciones jurídicas innovadoras lo distinguen como un profesional versátil y altamente competente en el sector financiero."
+            ],
+            "experience": [
+                "Actualmente, Raúl se desempeña como Asociado en Ágora Abogados, especializado en las áreas de Banca, Finanzas y Mercados de Capitales."
+            ],
+            "education": [
+                "Abogado, Universidad Católica Andrés Bello (2022)"
+            ],
+            "office": "Caracas, Venezuela",
+            "languages": "Español e Inglés"
+        },
+        "rodrigo-colmenares": {
+            "overview": [
+                "Rodrigo Colmenares es abogado con experiencia en derecho mercantil, litigios complejos y la aplicación de tecnologías emergentes en el ámbito legal.",
+                "Su dominio del derecho mercantil y su interés en el impacto de la tecnología lo posicionan como un profesional versátil y preparado para los desafíos legales contemporáneos, incluyendo áreas como Fintech, Blockchain y Smart Contracts."
+            ],
+            "experience": [
+                "Actualmente Rodrigo se desempeña como Asociado en Ágora Abogados, trabajando en las áreas de Banca, Finanzas y Mercados de Capitales."
+            ],
+            "education": [
+                "Especialización en Derecho Mercantil, Universidad Católica Andrés Bello (2025)",
+                "Diplomado Avanzado en Emprendimiento y Gestión de Empresas, Universidad Metropolitana (2022)",
+                "Abogado, Universidad Metropolitana (2022)"
+            ],
+            "publications": [
+                "Compatibilidad de los contratos inteligentes con el ordenamiento jurídico venezolano (mención honorífica y publicación). Universidad Metropolitana. (2021)"
+            ],
+            "office": "Caracas, Venezuela",
+            "languages": "Español e Inglés",
+            "affiliations": "Vocal por los Estudiantes - Consejo Directivo de la Asociación Venezolana de Arbitraje"
+        },
+        "andreina-flores": {
+            "overview": [
+                "Andreina Flores Reyes, abogada en ejercicio con 9 años de experiencia en las áreas de derecho civil, mercantil, inmobiliario, familiar y sucesiones.",
+                "Andreina complementa su formación académica cursando una Licenciatura en Psicología en la Universidad Bicentenaria de Aragua, con el objetivo de integrar una perspectiva más humana y multidisciplinaria en su práctica legal."
+            ],
+            "experience": [
+                "Actualmente se desempeña como asociado de Ágora Abogados en el área de Derecho Corporativo."
+            ],
+            "education": [
+                "Abogado. Universidad de Carabobo (2015).",
+                "Licenciatura en Psicología, Universidad Bicentenaria de Aragua [en curso]."
+            ],
+            "office": "Aragua, Venezuela",
+            "languages": "Español e Inglés"
+        },
+        "fabiola-flores": {
+            "overview": [
+                "Fabiola Flores Reyes, abogada con 9 años de experiencia en las áreas de derecho civil, mercantil, inmobiliario, familiar y sucesiones.",
+                "Con una sólida trayectoria en la asesoría y representación de clientes, Fabiola se enfoca en ofrecer soluciones legales prácticas y efectivas que responden a las demandas actuales del mercado. Su enfoque personalizado y su capacidad para anticiparse a los desafíos legales la convierten en una aliada estratégica para empresas y particulares que buscan resultados confiables y eficientes."
+            ],
+            "experience": [
+                "Actualmente Fabiola se desempeña como asociado de Ágora Abogados en el área de Derecho Corporativo."
+            ],
+            "education": [
+                "Abogado, Universidad de Carabobo (2015)."
+            ],
+            "office": "Aragua, Venezuela",
+            "languages": "Español e Inglés"
         }
     },
     "ServicesPage": {

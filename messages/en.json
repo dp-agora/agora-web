@@ -514,6 +514,69 @@
             ],
             "office": "Caracas, Venezuela",
             "languages": "Spanish, English and Portuguese"
+        },
+        "raul-sancristobal": {
+            "overview": [
+                "Raúl Eduardo Sancristobal is a lawyer with experience advising on complex financial disputes, matters involving cross-border securities, custodian liability, and capital markets regulation.",
+                "His meticulous approach and ability to provide innovative legal solutions distinguish him as a versatile and highly competent professional in the financial sector."
+            ],
+            "experience": [
+                "Raúl is currently an Associate at Ágora Abogados, specializing in the areas of Banking, Finance, and Capital Markets."
+            ],
+            "education": [
+                "Lawyer, Universidad Católica Andrés Bello (2022)"
+            ],
+            "office": "Caracas, Venezuela",
+            "languages": "Spanish and English"
+        },
+        "rodrigo-colmenares": {
+            "overview": [
+                "Rodrigo Colmenares is a lawyer with experience in commercial law, complex litigation, and the application of emerging technologies in the legal field.",
+                "His strong background in commercial law and his interest in the impact of technology position him as a versatile professional, well-equipped to face contemporary legal challenges, including areas such as Fintech, Blockchain, and Smart Contracts."
+            ],
+            "experience": [
+                "He is currently an Associate at Ágora Abogados, working in the areas of Banking, Finance, and Capital Markets."
+            ],
+            "education": [
+                "Specialization in Commercial Law, Universidad Católica Andrés Bello (2025)",
+                "Advanced Diploma in Entrepreneurship and Business Management, Universidad Metropolitana (2022)",
+                "Lawyer, Universidad Metropolitana (2022)"
+            ],
+            "publications": [
+                "Compatibility of Smart Contracts with the Venezuelan Legal Framework (Honorable Mention and Publication). Universidad Metropolitana (2021)"
+            ],
+            "office": "Caracas, Venezuela",
+            "languages": "Spanish and English",
+            "affiliations": "Student Representative – Board of Directors, Asociación Venezolana de Arbitraje"
+        },
+        "andreina-flores": {
+            "overview": [
+                "Andreina Flores is a practicing lawyer with 9 years of experience in the areas of civil, commercial, real estate, family, and inheritance law.",
+                "Andreina is complementing her academic background by pursuing a Bachelor's Degree in Psychology at Universidad Bicentenaria de Aragua, with the goal of integrating a more human and multidisciplinary perspective into her legal practice."
+            ],
+            "experience": [
+                "She currently works as an associate at Ágora Abogados in the area of Corporate Law."
+            ],
+            "education": [
+                "Lawyer, Universidad de Carabobo (2015)",
+                "Bachelor's Degree in Psychology, Universidad Bicentenaria de Aragua [in progress]"
+            ],
+            "office": "Aragua, Venezuela",
+            "languages": "Spanish and English"
+        },
+        "fabiola-flores": {
+            "overview": [
+                "Fabiola Flores Reyes is a lawyer with 9 years of experience in the areas of civil, commercial, real estate, family, and inheritance law.",
+                "With a solid track record in advising and representing clients, Fabiola focuses on providing practical and effective legal solutions that meet the current demands of the market. Her personalized approach and ability to anticipate legal challenges make her a strategic ally for companies and individuals seeking reliable and efficient results."
+            ],
+            "experience": [
+                "Currently, Fabiola works as an associate at Ágora Abogados in the area of Corporate Law."
+            ],
+            "education": [
+                "Lawyer, Universidad de Carabobo (2015)"
+            ],
+            "office": "Aragua, Venezuela",
+            "languages": "Spanish and English"
         }
     },
     "ServicesPage": {
