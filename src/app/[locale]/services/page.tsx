@@ -124,7 +124,8 @@ export default function ServicesPage() {
                     subtitle={t("header.subtitle")}
                     badge={t("header.badge")}
                     description={t("header.description")}
-                    variant="institutional"
+                    videoSrc="/assets/video/Agora services.mp4"
+                    videoOpacity={0.4}
                 />
 
                 <section className="py-24 bg-white">
