@@ -13,6 +13,10 @@ interface PageHeaderProps {
     imageSrc?: string;
     imageOpacity?: number;
     variant?: 'default' | 'institutional';
+    cta?: {
+        label: string;
+        onClick: () => void;
+    };
 }
 
 export function PageHeader({
@@ -24,7 +28,8 @@ export function PageHeader({
     videoOpacity = 0.5,
     imageSrc,
     imageOpacity = 0.5,
-    variant = 'default'
+    variant = 'default',
+    cta
 }: PageHeaderProps) {
     const isInstitutional = variant === 'institutional';
     const isDark = !!videoSrc || !!imageSrc || isInstitutional;
@@ -100,11 +105,35 @@ export function PageHeader({
                     </h1>
 
                     {description && (
-                        <p className={`text-xl md:text-2xl ${isDark ? 'text-white/70' : 'text-slate-500'} max-w-3xl leading-relaxed font-light`}>
+                        <p className={`text-xl md:text-2xl ${isDark ? 'text-white/70' : 'text-slate-500'} max-w-3xl leading-relaxed font-light mb-12`}>
                             {description}
                         </p>
                     )}
+
+                    {cta && (
+                        <button
+                            onClick={cta.onClick}
+                            className={`inline-flex items-center justify-center px-10 py-5 text-sm font-bold uppercase tracking-[0.2em] transition-all active:scale-95 ${isDark ? 'bg-white text-primary hover:bg-white/90' : 'bg-primary text-white hover:bg-primary/90'}`}
+                        >
+                            {cta.label}
+                        </button>
+                    )}
                 </motion.div>
+
+                {cta && (
+                    <div className="absolute top-12 right-6 lg:right-12 hidden lg:block">
+                        <motion.button
+                            initial={{ opacity: 0, x: 20 }}
+                            animate={{ opacity: 1, x: 0 }}
+                            transition={{ delay: 0.5, duration: 0.8 }}
+                            onClick={cta.onClick}
+                            className={`group relative flex items-center gap-4 px-8 py-4 border transition-all ${isDark ? 'border-white/20 text-white hover:bg-white hover:text-primary hover:border-white' : 'border-primary/20 text-primary hover:bg-primary hover:text-white hover:border-primary'}`}
+                        >
+                            <span className="text-[10px] font-bold uppercase tracking-[0.3em]">{cta.label}</span>
+                            <div className={`h-[1px] w-6 transition-all group-hover:w-10 ${isDark ? 'bg-white/50 group-hover:bg-primary' : 'bg-primary/50 group-hover:bg-white'}`} />
+                        </motion.button>
+                    </div>
+                )}
             </div>
         </section>
     );

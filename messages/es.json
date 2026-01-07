@@ -366,6 +366,262 @@
             ],
             "office": "Caracas, Venezuela",
             "languages": "Español e Inglés"
+        },
+        "jose-barnola": {
+            "overview": [
+                "José P. es un abogado con una vasta experiencia en áreas como impuestos, fusiones y adquisiciones, derecho corporativo y contratos, además de desempeñarse como árbitro. Está habilitado para ejercer la profesión en México y Venezuela. A lo largo de su trayectoria de más de 25 años, ha liderado proyectos locales y regionales en América Latina.",
+                "Además, ha ejercido su profesión en Venezuela y México y ha sido árbitro en disputas comerciales. Sus contribuciones en esos campos, especialmente en litigios fiscales complejos, fiscalidad internacional y arbitraje, le han valido el reconocimiento en diversos círculos jurídicos."
+            ],
+            "experience": [
+                "La destacada carrera de José P. está marcada por su papel como profesor de Derecho Tributario durante más de 17 años en varias universidades. Actualmente, se desempeña como Líder de Práctica en Ágora en la Ciudad de México y Caracas. Antes de unirse a Ágora, ocupó varios puestos de liderazgo y gestión en firmas internacionales de abogados, incluyendo:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Líder de Desarrollo Profesional y Líder de Gerencia del Conocimiento",
+                        "Representante de Latinoamérica en el Comité Global de Productos de Consumo Masivo y Ventas al Detal",
+                        "Miembro del Comité Global de Resolución de Disputas Fiscales"
+                    ]
+                }
+            ],
+            "education": [
+                "Abogado, Universidad Católica Andrés Bello, mención cum laude, 1993",
+                "Especialista en Derecho Tributario, Universidad Central de Venezuela, mención cum laude, 2000",
+                "Examen General para el Egreso de la Licenciatura en Derecho, Centro Nacional de Evaluación para la Educación Superior (México, 2020)",
+                "Revalidación de la Licenciatura en Derecho y Cédula Profesional, Secretaría de Educación Pública (México, 2021)",
+                "Programa de Estudios Avanzados en Arbitraje, Universidad Monteávila, 2022"
+            ],
+            "publications": [
+                "«Lo que no se enseña en las facultades de derecho», en FORO JURÍDICO N° 262, julio 2025, Ciudad de México",
+                "«Apuntes sobre los límites de las reorganizaciones corporativas y el arbitraje de inversión desde la perspectiva mexicana», en XX JORNADAS VENEZOLANAS DE DERECHO TRIBUTARIO 2023, Asociación Venezolana de Derecho Tributario, Caracas, 2024",
+                "«La mediación arrendaticia en el Estado de Jalisco, una nueva tendencia del mercado inmobiliario», en REVISTA PREÁMBULO N° 1, Centro de Investigación y Estudios para la Resolución de Controversias de la Universidad Monteávila (CIERC), Caracas, 2023",
+                "«Principles of investment arbitration planning in Latin America», en WORLD ARBITRATION AND MEDIATION REVIEW (WAMR+2020), Vol. 14 No. 1, Dec 31, 2022",
+                "«Comentarios al Artículo 8 de la Ley de Arbitraje Comercial Venezolana», en COMENTARIOS A LA LEY DE ARBITRAJE COMERCIAL VENEZOLANA, CIERC, con V. Falcón, Caracas, 2022",
+                "«Aspectos prácticos de la ratificación del Convenio CIADI por México, un avance alentador para los inversionistas mexicanos y extranjeros», en BOLETÍN IBEROAMERICANO DE ARBITRAJE Y MEDIACIÓN N° 1, Centro de Arbitraje de la Cámara de Caracas, Caracas, 2022",
+                "«Nuevo estudio sobre los efectos de los diseños de los sistemas tributarios en el desarrollo de Latinoamérica», reseña bibliográfica, en TAXLATAM (https://taxlatam.com/) 13.9.22",
+                "«Aspectos prácticos de la primera audiencia de organización del procedimiento arbitral», en PRINCIPIA N° 6, CIERC, Caracas, 2022",
+                "«Principios de Planificación de Arbitraje de Inversión en Latinoamérica», trabajo ganador del premio Rodger Farrel 2021, en REVISTA DE MEDIOS ALTERNATIVOS DE RESOLUCIÓN DE CONFLICTOS, BOLETÍN ESPECIAL, Comité de Arbitraje de Venamcham y CEDCA, Caracas, 2022"
+            ],
+            "office": "Ciudad de México y Caracas",
+            "languages": "Español e Inglés",
+            "affiliations": "Colegio de Abogados de Caracas, Asociación Venezolana de Derecho Procesal, Asociación Venezolana de Derecho Tributario, International Fiscal Association, Comité Legal de la Asociación de Empresarios Venezolanos en México, Centro de Arbitraje de la Cámara de Caracas"
+        },
+        "ariana-cabrera": {
+            "overview": [
+                "Ariana Cabrera Acevedo, abogado con más de 10 años de experiencia, ha consolidado una carrera en derecho laboral. Aunque centra su práctica en el derecho laboral, su versatilidad le permite desenvolverse con éxito en otras áreas como derecho civil, administrativo, cumplimiento normativo y regulatorio.",
+                "Ariana Cabrera se distingue por su lógica jurídica, su capacidad para escuchar atentamente a las necesidades de sus clientes, y su habilidad para encontrar soluciones innovadoras. Su compromiso con la excelencia la convierte en una aliada inestimable para quienes buscan un asesoramiento jurídico de alta calidad."
+            ],
+            "experience": [
+                "Actualmente se desempeña como Líder de Área Laboral en Ágora Abogados y también se desenvuelve en las áreas de Derecho Administrativo, Regulatorio y Cumplimiento.",
+                "Su reciente nombramiento como miembro numerario nº 12 del Instituto Venezolano de Derecho Social es un claro reconocimiento a su trayectoria profesional y a su compromiso con la defensa de los derechos de sus clientes."
+            ],
+            "education": [
+                "Abogado, Mención Summa Cum Laude, Universidad Católica Andrés Bello (2014)",
+                "Programa de Estudios Avanzados en Arbitraje, Universidad Monteávila (2020)",
+                "Máster en Gestión y Dirección de Empresas, Universidad Carlos III de Madrid (2022)",
+                "Especialista Certificado en Prevención de Lavado de Dinero, Association of Certified Anti-Money Laundering Specialists (ACAMS) (2024)",
+                "Maestría en Resolución de Disputas (LLM), Universidad de Missouri-Columbia, (2025)"
+            ],
+            "publications": [
+                "Ejecución de la sentencia: intereses de mora e indexación, Derecho Procesal del Trabajo y Contencioso Administrativo Laboral, Ensayos, Academia de Ciencias Políticas y Sociales; Universidad Católica Andrés Bello, 2023. 1 nov. 2023"
+            ],
+            "office": "Caracas, Venezuela",
+            "languages": "Español, Inglés y Francés",
+            "affiliations": "Miembro de número N° 12 del Instituto Venezolano de Derecho Social (Secretaria Interina); Miembro de la Asociación Venezolana de Arbitraje."
+        },
+        "lizeth-reyes": {
+            "overview": [
+                "Lizeth Reyes, tiene una doble titulación en Administración y en Derecho, acumula una experiencia profesional de más de 25 años en las áreas de litigios civiles y mercantiles y, en general, en la asesoría en procedimientos jurídicos.",
+                "Actualmente, lidera la práctica regional Centro-Occidente, brindando representación y asesoría estratégica en asuntos legales complejos en su jurisdicción."
+            ],
+            "experience": [
+                "Actualmente se desempeña como Líder Regional de Ágora Abogados en Centro Occidente.",
+                "Lizeth obtuvo especializaciones y maestrías en materia procesal, es Doctora en Ciencias Jurídicas, y actualmente está cursando una Especialización Superior en Derecho Migratorio."
+            ],
+            "education": [
+                "Administración de Empresas, Universidad Bicentenaria de Aragua (1995)",
+                "Abogado, Universidad Bicentenaria de Aragua (2015)",
+                "Especialización en Derecho Procesal Civil, Universidad Bicentenaria de Aragua (2017)",
+                "Master en Derecho Procesal Civil, Universidad Bicentenaria de Aragua (2023)",
+                "Doctorado en Ciencias Jurídicas, Universidad Bicentenaria de Aragua (2024)",
+                "Especialización Superior en Derecho Migratorio de los Estados Unidos de América con mención especial: Experto en la Ley de Inmigración y Nacionalidad de los Estados Unidos, Instituto Iberoamericano de Leyes y Economía [en curso]"
+            ],
+            "office": "Aragua, Venezuela",
+            "languages": "Español"
+        },
+        "marco-gomez": {
+            "overview": [
+                "Marco Gómez es un abogado con 6 años de experiencia en las áreas corporativa y financiera. Su experiencia incluye un profundo conocimiento de asuntos regulatorios, incluyendo la adquisición de valores, la comercialización de nuevos productos, control de cambios para exportaciones y transacciones internacionales, así como arbitraje internacional.",
+                "Tiene experiencia en el diseño, ejecución y optimización de estructuras de tenencia de activos, procesos de adquisición y fusión de empresas, constitución, liquidación y actualización de sociedades, diseño e implementación de programas de cumplimiento y sanciones de la OFAC."
+            ],
+            "experience": [
+                "Marco es actualmente Asociado en Ágora Abogados en las áreas de M&A/ Corporate Law, Banca y Finanzas, Mercado de Capitales, Derecho Administrativo, Derecho Regulatorio y Compliance, y Reestructuración de Deuda.",
+                "Especializado en seguros marítimos, Marco posee amplios conocimientos del sector marítimo y se dedica a actualizar y desarrollar continuamente sus competencias en este campo. Actualmente es Asociado de la Asociación de Liquidadores de Averías del Reino Unido."
+            ],
+            "education": [
+                "Abogado de la Universidad Católica Andrés Bello (2017)"
+            ],
+            "office": "Caracas, Venezuela",
+            "languages": "Español e Inglés",
+            "affiliations": "Miembro asociado de la Asociación de Ajustadores de Averías del Reino Unido"
+        },
+        "barbara-briceno": {
+            "overview": [
+                "Barbara Briceño, abogada con más de 8 años de experiencia, ha desarrollado su carrera en derecho corporativo, tributación internacional, planificación patrimonial y cumplimiento normativo.",
+                "Barbara se distingue por su atención al detalle y su capacidad para coordinar proyectos complejos con precisión y compromiso. Además, destaca por su facilidad para manejar relaciones con clientes y generar vínculos de confianza duraderos."
+            ],
+            "experience": [
+                "Su trayectoria le ha permitido apoyar en la estructuración y administración de trusts, fundaciones privadas y compañías offshore, así como en procesos de gobierno corporativo y due diligence en diversas jurisdicciones.",
+                "Actualmente continúa ampliando su experiencia en asesoría fiscal internacional y planificación patrimonial, trabajando en estrecha colaboración con socios y equipos multidisciplinarios para ofrecer soluciones legales y organizacionales eficientes."
+            ],
+            "education": [
+                "Abogada, Universidad Católica Andrés Bello, Caracas (2016)",
+                "Diplomado en Tributación Internacional, Universidad de Montevideo (2017)",
+                "Diplomado en Tributación Internacional, Universidad Católica Andrés Bello, Caracas (2022)",
+                "Diplomado en Planificación Patrimonial y Fiscalidad Internacional, Universidad del CEMA, Buenos Aires (2023)"
+            ],
+            "office": "Caracas, Venezuela",
+            "languages": "Español e Inglés",
+            "affiliations": "Régimen Antilavado de Activos en Uruguay, CADE (2018); Introduction to American Law, University of Pennsylvania (Coursera, 2021)"
+        },
+        "manuel-domingo": {
+            "overview": [
+                "Manuel Domingo, abogado con experiencia en fusiones y adquisiciones de empresas. Su dominio del inglés, el alemán y el francés le permite desenvolverse con soltura en transacciones internacionales.",
+                "Demostrando su dedicación al aprendizaje continuo, Manuel está cursando actualmente un MBA en el IESA. Esta búsqueda de conocimientos empresariales junto con su perspicacia jurídica lo posicionan para un éxito excepcional en el panorama empresarial en constante evolución."
+            ],
+            "experience": [
+                "Actualmente Manuel se desempeña como Asociado de Ágora Abogados en las áreas de Fusiones, Adquisiciones y Derecho Corporativo, Banca y Finanza y Mercados de capitales."
+            ],
+            "education": [
+                "Abogado, Universidad Católica Andrés Bello (2022)",
+                "Programa de Intercambio, Universität St Gallen (HSG) (2021)",
+                "MBA, Instituto de Estudios Superiores de Administración (IESA) (2025)"
+            ],
+            "office": "Caracas, Venezuela",
+            "languages": "Español, inglés, alemán y francés"
+        },
+        "dayana-veliz": {
+            "overview": [
+                "Dayana Véliz abogada destacada que combina habilidades en derecho y finanzas para ofrecer soluciones integrales en los ámbitos corporativos, fusiones y adquisiciones, la incorporación de entidades, y la gestión de inversiones extranjeras.",
+                "Con un máster en Finanzas, Dayana se posiciona como una experta clave en el derecho corporativo en Venezuela. Su capacidad para comprender y aplicar complejas cuestiones jurídicas a contextos financieros la convierte en un recurso invaluable para sus clientes."
+            ],
+            "experience": [
+                "Actualmente Dayana se desempeña como Asociado de Ágora Abogados en las áreas de Fusiones, Adquisiciones y Derecho Corporativo, Banca y Finanza y mercados de capitales."
+            ],
+            "education": [
+                "Abogado, Universidad Católica Andrés Bello (2022)",
+                "Master en Finanzas, Instituto de Estudios Superiores de Administración (IESA) (2023)",
+                "Programa de Intercambio, Instituto Coppead de Administração da Universidade Federal do Rio de Janeiro (2023)"
+            ],
+            "office": "Caracas, Venezuela",
+            "languages": "Español, Inglés y Portugués"
+        },
+        "raul-sancristobal": {
+            "overview": [
+                "Raúl Eduardo Sancristobal es abogado con experiencia asesorando en disputas financieras complejas, asuntos relacionados con valores transfronterizos, responsabilidad de custodios y regulación del mercado de capitales.",
+                "Su enfoque meticuloso y su capacidad para ofrecer soluciones jurídicas innovadoras lo distinguen como un profesional versátil y altamente competente en el sector financiero."
+            ],
+            "experience": [
+                "Actualmente, Raúl se desempeña como Asociado en Ágora Abogados, especializado en las áreas de Banca, Finanzas y Mercados de Capitales."
+            ],
+            "education": [
+                "Abogado, Universidad Católica Andrés Bello (2022)"
+            ],
+            "office": "Caracas, Venezuela",
+            "languages": "Español e Inglés"
+        },
+        "rodrigo-colmenares": {
+            "overview": [
+                "Rodrigo Colmenares es abogado con experiencia en derecho mercantil, litigios complejos y la aplicación de tecnologías emergentes en el ámbito legal.",
+                "Su dominio del derecho mercantil y su interés en el impacto de la tecnología lo posicionan como un profesional versátil y preparado para los desafíos legales contemporáneos, incluyendo áreas como Fintech, Blockchain y Smart Contracts."
+            ],
+            "experience": [
+                "Actualmente Rodrigo se desempeña como Asociado en Ágora Abogados, trabajando en las áreas de Banca, Finanzas y Mercados de Capitales."
+            ],
+            "education": [
+                "Especialización en Derecho Mercantil, Universidad Católica Andrés Bello (2025)",
+                "Diplomado Avanzado en Emprendimiento y Gestión de Empresas, Universidad Metropolitana (2022)",
+                "Abogado, Universidad Metropolitana (2022)"
+            ],
+            "publications": [
+                "Compatibilidad de los contratos inteligentes con el ordenamiento jurídico venezolano (mención honorífica y publicación). Universidad Metropolitana. (2021)"
+            ],
+            "office": "Caracas, Venezuela",
+            "languages": "Español e Inglés",
+            "affiliations": "Vocal por los Estudiantes - Consejo Directivo de la Asociación Venezolana de Arbitraje"
+        },
+        "andreina-flores": {
+            "overview": [
+                "Andreina Flores Reyes, abogada en ejercicio con 9 años de experiencia en las áreas de derecho civil, mercantil, inmobiliario, familiar y sucesiones.",
+                "Andreina complementa su formación académica cursando una Licenciatura en Psicología en la Universidad Bicentenaria de Aragua, con el objetivo de integrar una perspectiva más humana y multidisciplinaria en su práctica legal."
+            ],
+            "experience": [
+                "Actualmente se desempeña como asociado de Ágora Abogados en el área de Derecho Corporativo."
+            ],
+            "education": [
+                "Abogado. Universidad de Carabobo (2015).",
+                "Licenciatura en Psicología, Universidad Bicentenaria de Aragua [en curso]."
+            ],
+            "office": "Aragua, Venezuela",
+            "languages": "Español e Inglés"
+        },
+        "fabiola-flores": {
+            "overview": [
+                "Fabiola Flores Reyes, abogada con 9 años de experiencia en las áreas de derecho civil, mercantil, inmobiliario, familiar y sucesiones.",
+                "Con una sólida trayectoria en la asesoría y representación de clientes, Fabiola se enfoca en ofrecer soluciones legales prácticas y efectivas que responden a las demandas actuales del mercado. Su enfoque personalizado y su capacidad para anticiparse a los desafíos legales la convierten en una aliada estratégica para empresas y particulares que buscan resultados confiables y eficientes."
+            ],
+            "experience": [
+                "Actualmente Fabiola se desempeña como asociado de Ágora Abogados en el área de Derecho Corporativo."
+            ],
+            "education": [
+                "Abogado, Universidad de Carabobo (2015)."
+            ],
+            "office": "Aragua, Venezuela",
+            "languages": "Español e Inglés"
+        },
+        "andrea-regalado": {
+            "overview": [
+                "Andrea Regalado, profesional emergente en el campo de operaciones con una sólida formación en administración de empresas y experiencia en la gestión de proyectos y optimización de procesos.",
+                "Su enfoque está en mejorar la eficiencia operativa y apoyar la implementación de estrategias efectivas para el logro de los objetivos empresariales. Su actitud proactiva y capacidad para adaptarse a entornos dinámicos la posicionan como una valiosa adición en cualquier equipo de operaciones."
+            ],
+            "experience": [
+                "Actualmente se desempeña como Líder de Negocios de Ágora Abogados."
+            ],
+            "education": [
+                "Ingeniería Química, Universidad Metropolitana (2021)",
+                "MBA, Instituto de Estudios Superiores de Administración (IESA) (2025)"
+            ],
+            "office": "Caracas, Venezuela",
+            "languages": "Español, Inglés y Alemán"
+        },
+        "oriana-rodriguez": {
+            "overview": [
+                "Oriana Rodríguez, profesional con una extensa formación administrativa y una sólida experiencia de más de 13 años en la gestión y coordinación de operaciones, soporte y optimización de procesos.",
+                "Oriana se destaca por su habilidad para mantener el flujo eficiente de las actividades diarias y garantizar el cumplimiento de los objetivos del equipo. Su capacidad para organizar y administrar tareas, así como su atención al detalle, le permiten brindar un soporte integral en la planificación y ejecución de proyectos."
+            ],
+            "experience": [
+                "Actualmente se desempeña como Gerente de Administración de Ágora Abogados."
+            ],
+            "education": [
+                "Técnico Superior Universitario en Administración de Empresas, Instituto Universitario de Tecnología de Administración Industrial (2011)"
+            ],
+            "office": "Caracas, Venezuela",
+            "languages": "Español"
+        },
+        "juan-posada": {
+            "overview": [
+                "Juan Posada aporta una combinación única de visión para los negocios y conocimientos basados en datos para optimizar el rendimiento financiero y la eficiencia operativa en Àgora Abogados.",
+                "Con una sólida formación en Business Management y Data Analytics, Juan ofrece soluciones que empoderan a los líderes de la firma con perspectivas estratégicas. Se enfoca en diseñar e implementar herramientas analíticas que modernizan procesos heredados y agilizan los flujos de trabajo financieros, lo que permite a la firma tomar decisiones más informadas y generar valor tangible.",
+                "Actualmente, Juan está ampliando sus capacidades al cursar una maestría en Finanzas en el IESA, reforzando aún más su compromiso de impulsar el crecimiento y el éxito de la firma."
+            ],
+            "experience": [
+                "Se especializa en Desempeño Financiero y Eficiencia Operativa en Ágora Abogados."
+            ],
+            "education": [
+                "Licenciatura en Ciencias en Administración de Empresas. Mención en Análisis de Negocios Concentración en Emprendimiento. Wentworth Institute of Technology (2024)",
+                "Candidato a la Maestría en Finanzas, Instituto de Estudios Superiores de Administración [en proceso]"
+            ],
+            "office": "Caracas, Venezuela",
+            "languages": "Español e Inglés"
         }
     },
     "ServicesPage": {
