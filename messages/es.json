@@ -209,6 +209,87 @@
             "map": "Ubicación Mapa HQ Caracas"
         }
     },
+    "TeamPage": {
+        "header": {
+            "title": "Experiencia de Clase Mundial",
+            "subtitle": "Nuestra Gente",
+            "badge": "Compromiso Liderado por Socios",
+            "description": "Un equipo multidisciplinario de especialistas estratégicos en derecho e inversión."
+        },
+        "groups": {
+            "partners": "Socios Principales",
+            "leads": "Líderes de Práctica",
+            "regional": "Líderes Regionales",
+            "associates": "Asociados",
+            "operations": "Operaciones"
+        },
+        "members": {
+            "alvaro": {
+                "role": "Socio Principal",
+                "bio": "Con más de 30 años de experiencia legal, Álvaro se destaca como una figura prominente en Banca, Finanzas y Mercado de Capitales. Su carrera incluye una trayectoria como socio en Baker McKenzie. Ha brindado asesoría estratégica a instituciones financieras nacionales e internacionales en asuntos regulatorios complejos, financiamiento de proyectos y transacciones de alto valor."
+            },
+            "maria": {
+                "role": "Socio Principal",
+                "bio": "María Eugenia aporta más de tres décadas de experiencia legal, especializándose en derecho Corporativo, Inmobiliario, Ambiental y Sostenibilidad. Anteriormente socia en Baker McKenzie, ha asesorado a grandes corporaciones en transacciones transfronterizas, cumplimiento regulatorio e iniciativas de desarrollo sostenible en toda Latinoamérica."
+            },
+            "jose": {
+                "role": "Líder de Práctica",
+                "bio": "José es experto en Tributación y M&A con más de 25 años de experiencia profesional. Autorizado para ejercer el derecho tanto en México como en Venezuela, ha diseñado e implementado estructuras fiscales complejas para corporaciones multinacionales y liderado importantes adquisiciones transfronterizas."
+            },
+            "ariana": {
+                "role": "Líder de Práctica",
+                "bio": "Ariana lidera la práctica de Derecho Laboral con más de 10 años de experiencia especializada. Como miembro del Instituto Venezolano de Derecho Social, brinda orientación experta en contratos de trabajo, reestructuración de la fuerza laboral y litigios laborales para diversas industrias."
+            },
+            "lizeth": {
+                "role": "Líder Regional",
+                "bio": "Lizeth, con sede en Aragua, es experta en Litigio Civil y Mercantil con más de 25 años de experiencia. Representa a clientes en disputas comerciales complejas, derecho contractual y procedimientos judiciales, asegurando una sólida protección legal en varias jurisdicciones regionales."
+            },
+            "marco": {
+                "role": "Asociado",
+                "bio": "Marco se especializa en Derecho Tributario, brindando asesoría estratégica en cumplimiento fiscal y litigios. Tiene amplia experiencia en procedimientos tributarios tanto administrativos como judiciales, ayudando a los clientes a navegar por marcos regulatorios complejos."
+            },
+            "barbara": {
+                "role": "Asociado",
+                "bio": "Bárbara se enfoca en Derecho Corporativo y Propiedad Intelectual. Asesora a clientes en formación de negocios, negociación de contratos y protección de activos de marca y tecnologías innovadoras."
+            },
+            "manuel": {
+                "role": "Asociado",
+                "bio": "Manuel es especialista en Derecho Laboral y Recursos Humanos. Asiste a corporaciones en la gestión de relaciones laborales, redacción de políticas internas integrales y garantía de cumplimiento de las regulaciones laborales."
+            },
+            "dayana": {
+                "role": "Asociado",
+                "bio": "Dayana se enfoca en Derecho Corporativo y Mercantil. Apoya a los clientes a lo largo del ciclo de vida de sus operaciones comerciales, desde la constitución y gobernanza hasta acuerdos comerciales y disolución."
+            },
+            "raul": {
+                "role": "Asociado",
+                "bio": "Raúl es experto en Resolución de Conflictos y Litigios. Representa a clientes en casos civiles y mercantiles, aportando un enfoque estratégico a la mediación de conflictos y la representación en tribunales."
+            },
+            "rodrigo": {
+                "role": "Asociado",
+                "bio": "Rodrigo se especializa en Derecho Público y Asuntos Regulatorios. Asesora en relaciones gubernamentales, procedimientos administrativos y cumplimiento de las regulaciones del sector público."
+            },
+            "andreina": {
+                "role": "Asociado",
+                "bio": "Andreína se enfoca en Negocios Internacionales y Derecho de Inversión. Asiste a clientes en comercio transfronterizo, regulaciones de inversión extranjera y arbitraje comercial internacional."
+            },
+            "fabiola": {
+                "role": "Asociado",
+                "bio": "Fabiola es especialista en Derecho Ambiental y Recursos Naturales. Guía a las organizaciones a través de evaluaciones de impacto ambiental, cumplimiento regulatorio y gestión sostenible de recursos."
+            },
+            "andrea": {
+                "role": "Gerente de Oficina",
+                "bio": "Andrea supervisa las operaciones diarias de la oficina y las funciones administrativas. Con un enfoque en la eficiencia organizacional, asegura que todos los procesos logísticos y de apoyo funcionen sin problemas para facilitar la prestación de servicios legales de alta calidad."
+            },
+            "oriana": {
+                "role": "Asistente Legal",
+                "bio": "Oriana brinda apoyo legal esencial a través de investigación integral, preparación de documentos y asistencia en la gestión de casos. Su diligencia asegura que el equipo legal tenga la base que necesita para obtener resultados exitosos."
+            },
+            "juan": {
+                "role": "Estrategia Digital",
+                "bio": "Juan Francisco lidera la presencia digital y la integración tecnológica de la firma. Se enfoca en aprovechar las herramientas digitales para mejorar la comunicación con los clientes, la transparencia operativa y la eficiencia general de los procesos legales."
+            }
+        }
+    },
     "TeamMember": {
         "labels": {
             "back": "Volver al Equipo",
