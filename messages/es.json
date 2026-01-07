@@ -577,6 +577,51 @@
             ],
             "office": "Aragua, Venezuela",
             "languages": "Español e Inglés"
+        },
+        "andrea-regalado": {
+            "overview": [
+                "Andrea Regalado, profesional emergente en el campo de operaciones con una sólida formación en administración de empresas y experiencia en la gestión de proyectos y optimización de procesos.",
+                "Su enfoque está en mejorar la eficiencia operativa y apoyar la implementación de estrategias efectivas para el logro de los objetivos empresariales. Su actitud proactiva y capacidad para adaptarse a entornos dinámicos la posicionan como una valiosa adición en cualquier equipo de operaciones."
+            ],
+            "experience": [
+                "Actualmente se desempeña como Líder de Negocios de Ágora Abogados."
+            ],
+            "education": [
+                "Ingeniería Química, Universidad Metropolitana (2021)",
+                "MBA, Instituto de Estudios Superiores de Administración (IESA) (2025)"
+            ],
+            "office": "Caracas, Venezuela",
+            "languages": "Español, Inglés y Alemán"
+        },
+        "oriana-rodriguez": {
+            "overview": [
+                "Oriana Rodríguez, profesional con una extensa formación administrativa y una sólida experiencia de más de 13 años en la gestión y coordinación de operaciones, soporte y optimización de procesos.",
+                "Oriana se destaca por su habilidad para mantener el flujo eficiente de las actividades diarias y garantizar el cumplimiento de los objetivos del equipo. Su capacidad para organizar y administrar tareas, así como su atención al detalle, le permiten brindar un soporte integral en la planificación y ejecución de proyectos."
+            ],
+            "experience": [
+                "Actualmente se desempeña como Gerente de Administración de Ágora Abogados."
+            ],
+            "education": [
+                "Técnico Superior Universitario en Administración de Empresas, Instituto Universitario de Tecnología de Administración Industrial (2011)"
+            ],
+            "office": "Caracas, Venezuela",
+            "languages": "Español"
+        },
+        "juan-posada": {
+            "overview": [
+                "Juan Posada aporta una combinación única de visión para los negocios y conocimientos basados en datos para optimizar el rendimiento financiero y la eficiencia operativa en Àgora Abogados.",
+                "Con una sólida formación en Business Management y Data Analytics, Juan ofrece soluciones que empoderan a los líderes de la firma con perspectivas estratégicas. Se enfoca en diseñar e implementar herramientas analíticas que modernizan procesos heredados y agilizan los flujos de trabajo financieros, lo que permite a la firma tomar decisiones más informadas y generar valor tangible.",
+                "Actualmente, Juan está ampliando sus capacidades al cursar una maestría en Finanzas en el IESA, reforzando aún más su compromiso de impulsar el crecimiento y el éxito de la firma."
+            ],
+            "experience": [
+                "Se especializa en Desempeño Financiero y Eficiencia Operativa en Ágora Abogados."
+            ],
+            "education": [
+                "Licenciatura en Ciencias en Administración de Empresas. Mención en Análisis de Negocios Concentración en Emprendimiento. Wentworth Institute of Technology (2024)",
+                "Candidato a la Maestría en Finanzas, Instituto de Estudios Superiores de Administración [en proceso]"
+            ],
+            "office": "Caracas, Venezuela",
+            "languages": "Español e Inglés"
         }
     },
     "ServicesPage": {

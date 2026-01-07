@@ -212,7 +212,8 @@
         },
         "office": {
             "focus": "Headquarters",
-            "map": "Caracas HQ Map Location"
+            "map": "Caracas HQ Map Location",
+            "connect": "Connect"
         }
     },
     "TeamPage": {
@@ -576,6 +577,51 @@
                 "Lawyer, Universidad de Carabobo (2015)"
             ],
             "office": "Aragua, Venezuela",
+            "languages": "Spanish and English"
+        },
+        "andrea-regalado": {
+            "overview": [
+                "Andrea Regalado is an emerging professional in the field of operations with a strong background in business administration and growing experience in project management and process optimization.",
+                "Her focus is on improving operational efficiency and supporting the implementation of effective strategies to achieve business objectives. Her proactive attitude and ability to adapt to dynamic environments make her a valuable addition to any operations team."
+            ],
+            "experience": [
+                "She currently serves as the Business Leader at Ágora Abogados."
+            ],
+            "education": [
+                "Chemical Engineering, Universidad Metropolitana (2021)",
+                "MBA, Instituto de Estudios Superiores de Administración (IESA) [2025]"
+            ],
+            "office": "Caracas, Venezuela",
+            "languages": "Spanish, English and German"
+        },
+        "oriana-rodriguez": {
+            "overview": [
+                "Oriana Rodríguez is a professional with an extensive administrative background and over 13 years of solid experience in operations management, coordination, support, and process optimization.",
+                "Oriana is distinguished by her ability to maintain the efficient flow of daily activities and ensure that the team's objectives are met. Her capacity for organizing and managing tasks, along with her attention to detail, allows her to provide comprehensive support in the planning and execution of projects."
+            ],
+            "experience": [
+                "She currently serves as the Administration Manager at Ágora Abogados."
+            ],
+            "education": [
+                "Higher University Technician in Business Administration, Instituto Universitario de Tecnología de Administración Industrial (2011)"
+            ],
+            "office": "Caracas, Venezuela",
+            "languages": "Spanish"
+        },
+        "juan-posada": {
+            "overview": [
+                "Juan Posada leverages a unique blend of business acumen and data-driven insights to optimize financial performance and operational efficiency at Àgora Abogados.",
+                "Drawing from a strong background in Business Management and Data Analytics, Juan delivers solutions that empower the firm's leadership with strategic insights. He focuses on designing and implementing analytical tools that modernize legacy processes and streamline financial workflows, enabling the firm to make more informed decisions and realize tangible value.",
+                "Juan is currently advancing his capabilities by pursuing a master’s degree in Finance at IESA, further strengthening his commitment to driving the firm's growth and success."
+            ],
+            "experience": [
+                "He specializes in Financial Performance and Operational Efficiency at Ágora Abogados."
+            ],
+            "education": [
+                "Bachelor of Science in Business Management, Minor in Business Analytics, Concentration in Entrepreneurship. Wentworth Institute of Technology (2024)",
+                "Master in Finance Candidate, Instituto de Estudios Superiores de Administración [in progress]"
+            ],
+            "office": "Caracas, Venezuela",
             "languages": "Spanish and English"
         }
     },
