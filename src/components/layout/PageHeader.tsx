@@ -104,19 +104,19 @@ export function PageHeader({
                         {title}
                     </h1>
 
+                    {cta && (
+                        <button
+                            onClick={cta.onClick}
+                            className={`inline-flex items-center justify-center px-10 py-5 text-sm font-bold uppercase tracking-[0.2em] transition-all active:scale-95 mb-12 ${isDark ? 'bg-white text-primary hover:bg-white/90' : 'bg-primary text-white hover:bg-primary/90'}`}
+                        >
+                            {cta.label}
+                        </button>
+                    )}
+
                     {description && (
                         <p className={`text-xl md:text-2xl ${isDark ? 'text-white/70' : 'text-slate-500'} max-w-3xl leading-relaxed font-light mb-12`}>
                             {description}
                         </p>
-                    )}
-
-                    {cta && (
-                        <button
-                            onClick={cta.onClick}
-                            className={`inline-flex items-center justify-center px-10 py-5 text-sm font-bold uppercase tracking-[0.2em] transition-all active:scale-95 ${isDark ? 'bg-white text-primary hover:bg-white/90' : 'bg-primary text-white hover:bg-primary/90'}`}
-                        >
-                            {cta.label}
-                        </button>
                     )}
                 </motion.div>
 

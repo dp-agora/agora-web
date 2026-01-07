@@ -3,7 +3,7 @@
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { PageHeader } from "@/components/layout/PageHeader";
-import { MapPin, Mail, Phone } from "lucide-react";
+import { MapPin } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { useBooking } from "@/context/BookingContext";
 
@@ -46,7 +46,7 @@ export default function ContactPage() {
                     imageSrc="/assets/team/team-Connect.jpg"
                     imageOpacity={0.4}
                     cta={{
-                        label: t("header.badge"),
+                        label: t("office.connect"),
                         onClick: openBooking
                     }}
                 />
@@ -100,9 +100,8 @@ export default function ContactPage() {
                                     </span>
                                     <a
                                         href={`mailto:${contactInfo.email}`}
-                                        className="text-lg font-serif text-primary hover:text-primary/70 transition-colors flex items-center gap-3"
+                                        className="text-lg font-serif text-primary hover:text-primary/70 transition-colors block"
                                     >
-                                        <Mail className="h-4 w-4 text-primary/40" />
                                         {contactInfo.email}
                                     </a>
                                 </div>
@@ -110,8 +109,7 @@ export default function ContactPage() {
                                     <span className="text-[10px] font-bold uppercase tracking-widest text-slate-400 block mb-2">
                                         {t("details.phone")}
                                     </span>
-                                    <span className="text-lg font-serif text-primary flex items-center gap-3">
-                                        <Phone className="h-4 w-4 text-primary/40" />
+                                    <span className="text-lg font-serif text-primary block">
                                         {contactInfo.phone}
                                     </span>
                                 </div>
