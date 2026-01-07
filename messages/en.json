@@ -5,7 +5,7 @@
         "team": "Team",
         "careers": "Careers",
         "contact": "Contact",
-        "bookCall": "Book a Discovery Call"
+        "bookCall": "Introductory Call"
     },
     "Footer": {
         "firm": "Firm",
@@ -29,7 +29,7 @@
             "line2": "Services With",
             "line3": "Global Reach",
             "description": "We provide the personalized service of a legal boutique with global reach, capabilities, and vision. Defined by experience, innovation, and leadership.",
-            "ctaBook": "Book a Discovery Call",
+            "ctaBook": "Introductory Call",
             "ctaServices": "Practice Areas"
         },
         "methodology": {
@@ -55,7 +55,7 @@
         },
         "cta": {
             "title": "Ready to Establish Your Latin American Presence?",
-            "button": "Book a Discovery Call"
+            "button": "Introductory Call"
         },
         "services": {
             "corporate": {
@@ -193,7 +193,7 @@
         "header": {
             "title": "Connect with Our Specialists",
             "subtitle": "Contact",
-            "badge": "Discovery Call",
+            "badge": "Introductory Call",
             "description": "Establish your strategic on-ramp for Latin American investment."
         },
         "intro": {
@@ -288,6 +288,53 @@
                 "role": "Digital Strategy",
                 "bio": "Juan Francisco leads the firm's digital presence and technological integration. He focuses on leveraging digital tools to enhance client communication, operational transparency, and the overall efficiency of legal processes."
             }
+        }
+    },
+    "TeamMember": {
+        "labels": {
+            "back": "Back to Team",
+            "overview": "Overview",
+            "experience": "Experience & Focus",
+            "credentials": "Credentials & Education",
+            "education": "Education",
+            "office": "Office",
+            "languages": "Languages",
+            "affiliations": "Affiliations",
+            "publications": "Selected Publications",
+            "noPublications": "No publications listed at this time.",
+            "notFound": "Member Not Found"
+        },
+        "alvaro-posada": {
+            "overview": [
+                "Álvaro J. Posada Sessarego, an expert lawyer in banking, corporate finance, and capital markets, has over 30 years of experience advising multinational companies on successfully navigating the complex Venezuelan legal environment and designing strategies and structures for the expansion of local companies into other countries. He is recognized for his practicality and creativity, as well as his unique commercial approach that goes beyond strictly legal matters.",
+                "He is positioned as the trusted strategic advisor for several international business groups in handling sensitive and complex issues. His advisory expertise spans financing, acquisitions, multijurisdictional corporate reorganizations, insolvency, and debt restructuring."
+            ],
+            "experience": [
+                "Álvaro is currently the Founding Partner of Ágora Abogados and leads the Banking, Finance, Capital Markets, Private Equity, and Debt Restructuring practice areas. He developed a distinguished career at the international law firm Baker McKenzie, where he held various positions:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Managing Partner of the Venezuela offices",
+                        "Member of the Latin American Management Council",
+                        "Chairman of the Latin America Banking and Finance Practice Group",
+                        "Member of the Global Banking and Finance Practice Group Steering Committee",
+                        "Member of Baker McKenzie’s Global Policy Committee"
+                    ]
+                },
+                "Álvaro’s professional affiliations include his role as Vice President and later President of the Corporate Finance Committee of Venamcham (Venezuelan-American Chamber of Commerce) and other trade chambers, as well as his active participation in The American Bar Association and the New York State Bar Association. He has contributed to publications and has been a speaker and moderator at national and international events."
+            ],
+            "education": [
+                "Lawyer, Universidad Católica Andrés Bello (1988)",
+                "Financial Management Programa, Instituto de Estudios Superiores de Administración (IESA) (1989)",
+                "Master in International Banking Law (LLM), Boston University (1992)",
+                "Master in comparative Jurisprudence, New York University (1993)"
+            ],
+            "publications": [
+                "Co-author of “Commercial Space Securization in Latin America“, Global Securization Review 2004/2005, EuroMoney Year Books, January 1, 2004"
+            ],
+            "office": "Caracas, Venezuela",
+            "languages": "Spanish and English",
+            "affiliations": "Venezuelan-American Chamber of Commerce and Industry (Venamcham)"
         }
     },
     "ServicesPage": {

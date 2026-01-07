@@ -5,7 +5,7 @@
         "team": "Equipo",
         "careers": "Carreras",
         "contact": "Contacto",
-        "bookCall": "Agendar Llamada"
+        "bookCall": "Llamada Introductoria"
     },
     "Footer": {
         "firm": "Firma",
@@ -29,7 +29,7 @@
             "line2": "Boutique Legal con",
             "line3": "Alcance Global",
             "description": "Brindamos el servicio personalizado de una boutique legal con alcance, capacidades y visión global. Definidos por la experiencia, la innovación y el liderazgo.",
-            "ctaBook": "Agendar Llamada de Descubrimiento",
+            "ctaBook": "Llamada Introductoria",
             "ctaServices": "Áreas de Práctica"
         },
         "methodology": {
@@ -55,7 +55,7 @@
         },
         "cta": {
             "title": "¿Listo para establecer su presencia en Latinoamérica?",
-            "button": "Agendar Llamada de Descubrimiento"
+            "button": "Llamada Introductoria"
         },
         "services": {
             "corporate": {
@@ -193,7 +193,7 @@
         "header": {
             "title": "Conecte con Nuestros Especialistas",
             "subtitle": "Contacto",
-            "badge": "Llamada de Descubrimiento",
+            "badge": "Llamada Introductoria",
             "description": "Establezca su rampa de acceso estratégica para la inversión en Latinoamérica."
         },
         "intro": {
@@ -209,85 +209,51 @@
             "map": "Ubicación Mapa HQ Caracas"
         }
     },
-    "TeamPage": {
-        "header": {
-            "title": "Experiencia de Clase Mundial",
-            "subtitle": "Nuestra Gente",
-            "badge": "Compromiso Liderado por Socios",
-            "description": "Un equipo multidisciplinario de especialistas estratégicos en derecho e inversión."
+    "TeamMember": {
+        "labels": {
+            "back": "Volver al Equipo",
+            "overview": "Resumen",
+            "experience": "Experiencia y Enfoque",
+            "credentials": "Credenciales y Educación",
+            "education": "Educación",
+            "office": "Oficina",
+            "languages": "Idiomas",
+            "affiliations": "Afiliaciones",
+            "publications": "Publicaciones Seleccionadas",
+            "noPublications": "No hay publicaciones listadas en este momento.",
+            "notFound": "Miembro No Encontrado"
         },
-        "groups": {
-            "partners": "Socios Principales",
-            "leads": "Líderes de Práctica",
-            "regional": "Líderes Regionales",
-            "associates": "Asociados",
-            "operations": "Operaciones"
-        },
-        "members": {
-            "alvaro": {
-                "role": "Socio Principal",
-                "bio": "Con más de 30 años de experiencia legal, Álvaro se destaca como una figura prominente en Banca, Finanzas y Mercado de Capitales. Su carrera incluye una trayectoria como socio en Baker McKenzie. Ha brindado asesoría estratégica a instituciones financieras nacionales e internacionales en asuntos regulatorios complejos, financiamiento de proyectos y transacciones de alto valor."
-            },
-            "maria": {
-                "role": "Socio Principal",
-                "bio": "María Eugenia aporta más de tres décadas de experiencia legal, especializándose en derecho Corporativo, Inmobiliario, Ambiental y Sostenibilidad. Anteriormente socia en Baker McKenzie, ha asesorado a grandes corporaciones en transacciones transfronterizas, cumplimiento regulatorio e iniciativas de desarrollo sostenible en toda Latinoamérica."
-            },
-            "jose": {
-                "role": "Líder de Práctica",
-                "bio": "José es experto en Tributación y M&A con más de 25 años de experiencia profesional. Autorizado para ejercer el derecho tanto en México como en Venezuela, ha diseñado e implementado estructuras fiscales complejas para corporaciones multinacionales y liderado importantes adquisiciones transfronterizas."
-            },
-            "ariana": {
-                "role": "Líder de Práctica",
-                "bio": "Ariana lidera la práctica de Derecho Laboral con más de 10 años de experiencia especializada. Como miembro del Instituto Venezolano de Derecho Social, brinda orientación experta en contratos de trabajo, reestructuración de la fuerza laboral y litigios laborales para diversas industrias."
-            },
-            "lizeth": {
-                "role": "Líder Regional",
-                "bio": "Lizeth, con sede en Aragua, es experta en Litigio Civil y Mercantil con más de 25 años de experiencia. Representa a clientes en disputas comerciales complejas, derecho contractual y procedimientos judiciales, asegurando una sólida protección legal en varias jurisdicciones regionales."
-            },
-            "marco": {
-                "role": "Asociado",
-                "bio": "Marco se especializa en Derecho Tributario, brindando asesoría estratégica en cumplimiento fiscal y litigios. Tiene amplia experiencia en procedimientos tributarios tanto administrativos como judiciales, ayudando a los clientes a navegar por marcos regulatorios complejos."
-            },
-            "barbara": {
-                "role": "Asociado",
-                "bio": "Bárbara se enfoca en Derecho Corporativo y Propiedad Intelectual. Asesora a clientes en formación de negocios, negociación de contratos y protección de activos de marca y tecnologías innovadoras."
-            },
-            "manuel": {
-                "role": "Asociado",
-                "bio": "Manuel es especialista en Derecho Laboral y Recursos Humanos. Asiste a corporaciones en la gestión de relaciones laborales, redacción de políticas internas integrales y garantía de cumplimiento de las regulaciones laborales."
-            },
-            "dayana": {
-                "role": "Asociado",
-                "bio": "Dayana se enfoca en Derecho Corporativo y Mercantil. Apoya a los clientes a lo largo del ciclo de vida de sus operaciones comerciales, desde la constitución y gobernanza hasta acuerdos comerciales y disolución."
-            },
-            "raul": {
-                "role": "Asociado",
-                "bio": "Raúl es experto en Resolución de Conflictos y Litigios. Representa a clientes en casos civiles y mercantiles, aportando un enfoque estratégico a la mediación de conflictos y la representación en tribunales."
-            },
-            "rodrigo": {
-                "role": "Asociado",
-                "bio": "Rodrigo se especializa en Derecho Público y Asuntos Regulatorios. Asesora en relaciones gubernamentales, procedimientos administrativos y cumplimiento de las regulaciones del sector público."
-            },
-            "andreina": {
-                "role": "Asociado",
-                "bio": "Andreína se enfoca en Negocios Internacionales y Derecho de Inversión. Asiste a clientes en comercio transfronterizo, regulaciones de inversión extranjera y arbitraje comercial internacional."
-            },
-            "fabiola": {
-                "role": "Asociado",
-                "bio": "Fabiola es especialista en Derecho Ambiental y Recursos Naturales. Guía a las organizaciones a través de evaluaciones de impacto ambiental, cumplimiento regulatorio y gestión sostenible de recursos."
-            },
-            "andrea": {
-                "role": "Gerente de Oficina",
-                "bio": "Andrea supervisa las operaciones diarias de la oficina y las funciones administrativas. Con un enfoque en la eficiencia organizacional, asegura que todos los procesos logísticos y de apoyo funcionen sin problemas para facilitar la prestación de servicios legales de alta calidad."
-            },
-            "oriana": {
-                "role": "Asistente Legal",
-                "bio": "Oriana brinda apoyo legal esencial a través de investigación integral, preparación de documentos y asistencia en la gestión de casos. Su diligencia asegura que el equipo legal tenga la base que necesita para obtener resultados exitosos."
-            },
-            "juan": {
-                "role": "Estrategia Digital",
-                "bio": "Juan Francisco lidera la presencia digital y la integración tecnológica de la firma. Se enfoca en aprovechar las herramientas digitales para mejorar la comunicación con los clientes, la transparencia operativa y la eficiencia general de los procesos legales."
-            }
+        "alvaro-posada": {
+            "overview": [
+                "Álvaro J. Posada Sessarego, abogado especializado en banca, finanzas corporativas, y mercado de capitales, acumula más de 30 años de experiencia asesorando a empresas multinacionales a navegar con éxito el complejo ambiente legal venezolano, y diseñado estrategias y estructuras de expansión de empresas locales a otros países. Es reconocido por su practicidad y creatividad, así como también por su particular enfoque comercial que excede los aspectos estrictamente jurídicos.",
+                "Está posicionado como el asesor estratégico de confianza de varios grupos empresariales internacionales en la atención de temas sensibles y complejos. Su asesoría abarca financiamientos, adquisiciones y reorganizaciones corporativas multijurisdiccionales, insolvencia, y restructuración de deuda."
+            ],
+            "experience": [
+                "Álvaro es actualmente Socio Fundador de Ágora Abogados, lidera las áreas de Banca, Finanzas, Mercado de Capitales, Capital Privado y Reestructuración de Deudas. Desarrolló una destacada carrera en la firma internacional de abogados Baker McKenzie, donde desempeñó diversas funciones:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Socio administrador de las oficinas de Venezuela",
+                        "Miembro del Consejo de Administración de la Región Latinoamericana",
+                        "Chairman del Grupo de Práctica Bancaria y Financiera de Latinoamérica",
+                        "Miembro del Comité de Dirección Global del Grupo de Práctica Bancaria y Financiera",
+                        "Miembro del Comité de Políticas Global de Baker Mckenzie"
+                    ]
+                },
+                "Las afiliaciones profesionales de Álvaro incluyen su papel como vicepresidente y luego como presidente del Comité de Finanzas Corporativas de Venamcham y otras cámaras gremiales: y su participación activa en The American Bar Association y el New York State Bar Association. Cámara Venezolana Americana de Comercio e Industria (Venamcham)."
+            ],
+            "education": [
+                "Abogado, Universidad Católica Andrés Bello (1988)",
+                "Programa de Gerencia Financiera, Instituto de Estudios Superiores de Administración (IESA),(1989)",
+                "Master en Derecho Bancario y Financiero Internacional (LLM), Boston University (1992)",
+                "Master en Jurisprudencia Comparada, New York University (1993)"
+            ],
+            "publications": [
+                "Coautor de \"Commercial Space Securitization in Latin America\" (Titulización del espacio comercial en América Latina), Global Securitization Review 2004/2005, Euromoney Year Books, 1 de enero de 2004. Ha contribuido en publicaciones y ha sido conferencista ymoderador en eventos nacionales e internacionales."
+            ],
+            "office": "Caracas, Venezuela",
+            "languages": "Español e inglés",
+            "affiliations": "Cámara Venezolana Americana de Comercio e Industria (Venamcham)"
         }
     },
     "ServicesPage": {

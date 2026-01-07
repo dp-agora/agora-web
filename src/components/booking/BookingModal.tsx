@@ -88,7 +88,7 @@ export function BookingModal() {
                                     Á
                                 </div>
                                 <span className="font-serif text-lg font-bold tracking-widest text-primary uppercase">
-                                    ÁGORA Discovery Call
+                                    ÁGORA Introductory Call
                                 </span>
                             </div>
                             <button
