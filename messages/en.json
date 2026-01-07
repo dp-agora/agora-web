@@ -366,6 +366,44 @@
             ],
             "office": "Caracas, Venezuela",
             "languages": "Spanish and English"
+        },
+        "jose-barnola": {
+            "overview": [
+                "José P. Barnola Jr. is a lawyer with extensive experience in areas such as taxation, mergers and acquisitions, contract and corporate law, as well as serving as an arbitrator. He is licensed to practice in Mexico and Venezuela. Throughout his career of over 25 years, he has led local and regional projects across Latin America.",
+                "Additionally, he has practiced law independently in Venezuela and Mexico and has acted as an arbitrator in commercial disputes. His contributions in these fields, especially in complex tax litigation, international taxation and arbitration, have earned him recognition in various legal circles."
+            ],
+            "experience": [
+                "José P.’s distinguished career is marked by his role as a professor of Tax Law for over 17 years in several universities. Currently, he serves as Practice Leader at Ágora in Mexico City and Caracas. Before joining Ágora, he held various leadership and management positions in international law firms, including:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Professional Development and Knowledge Management Leader",
+                        "Latin America Representative on the Global Consumer Products and Retail Committee",
+                        "Member of the Global Committee on Tax Dispute Resolution"
+                    ]
+                }
+            ],
+            "education": [
+                "Law Degree, Universidad Católica Andrés Bello, cum laude, 1993",
+                "Tax Law LLM, Universidad Central de Venezuela, cum laude, 2000",
+                "General Exam for the Law Degree, Centro Nacional de Evaluación para la Educación Superior (Mexico, 2020)",
+                "Law Degree Revalidation and Professional License, Secretaría de Educación Pública (Mexico, 2021)",
+                "Advanced Studies Program in Arbitration, Universidad Monteávila, 2022"
+            ],
+            "publications": [
+                "«Lo que no se enseña en las facultades de derecho», in FORO JURÍDICO N° 262, julio 2025, Ciudad de México",
+                "«Apuntes sobre los límites de las reorganizaciones corporativas y el arbitraje de inversión desde la perspectiva mexicana», in XX JORNADAS VENEZOLANAS DE DERECHO TRIBUTARIO 2023, Asociación Venezolana de Derecho Tributario, Caracas, 2024",
+                "«La mediación arrendaticia en el Estado de Jalisco, una nueva tendencia del mercado inmobiliario», in REVISTA PREÁMBULO N° 1, Centro de Investigación y Estudios para la Resolución de Controversias de la Universidad Monteávila (CIERC), Caracas, 2023",
+                "«Principles of investment arbitration planning in Latin America», in WORLD ARBITRATION AND MEDIATION REVIEW (WAMR+2020), Vol. 14 No. 1, Dec 31, 2022",
+                "«Comentarios al Artículo 8 de la Ley de Arbitraje Comercial Venezolana», in COMENTARIOS A LA LEY DE ARBITRAJE COMERCIAL VENEZOLANA, CIERC, with V. Falcón, Caracas, 2022",
+                "«Aspectos prácticos de la ratificación del Convenio CIADI por México, un avance alentador para los inversionistas mexicanos y extranjeros», in BOLETÍN IBEROAMERICANO DE ARBITRAJE Y MEDIACIÓN N° 1, Centro de Arbitraje de la Cámara de Caracas, Caracas, 2022",
+                "«Nuevo estudio sobre los efectos de los diseños de los sistemas tributarios en el desarrollo de Latinoamérica», bibliographic review, in TAXLATAM (https://taxlatam.com/) 13.9.22",
+                "«Aspectos prácticos de la primera audiencia de organización del procedimiento arbitral», in PRINCIPIA N° 6, CIERC, Caracas, 2022",
+                "«Principios de Planificación de Arbitraje de Inversión en Latinoamérica», trabajo ganador del premio Rodger Farrel 2021, in REVISTA DE MEDIOS ALTERNATIVOS DE RESOLUCIÓN DE CONFLICTOS, BOLETÍN ESPECIAL, Comité de Arbitraje de Venamcham and CEDCA, Caracas, 2022"
+            ],
+            "office": "Mexico City & Caracas",
+            "languages": "Spanish and English",
+            "affiliations": "Caracas Bar Association, Venezuelan Association of Procedural Law, Venezuelan Association of Tax Law, International Fiscal Association, Legal Committee of the Association of Venezuelan Businessmen in Mexico, Arbitration Center of the Caracas Chamber"
         }
     },
     "ServicesPage": {
