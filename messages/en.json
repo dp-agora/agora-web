@@ -212,6 +212,7 @@
         },
         "office": {
             "focus": "Headquarters",
+            "designation": "Office",
             "map": "Caracas HQ Map Location",
             "connect": "Connect"
         }

@@ -10,18 +10,21 @@ import { useBooking } from "@/context/BookingContext";
 const offices = [
     {
         city: "Caracas",
-        designation: "Headquarters",
+        designationKey: "office.focus",
         address: "Avenida Venezuela, entre Calle Mohedano y Calle Sojo, Torre Simple, Piso 12. Urbanización El Rosal, Municipio Chacao (1060), Estado Miranda, Caracas – Venezuela.",
+        mapQuery: "Torre Simple, El Rosal, Caracas",
     },
     {
         city: "Mexico City",
-        designation: "Office",
+        designationKey: "office.designation",
         address: "Bosque de Radiatas 22, Piso 4, Bosques de las Lomas, 05120 Ciudad de México, CDMX, México.",
+        mapQuery: "Bosque de Radiatas 22, Ciudad de México",
     },
     {
         city: "Aragua",
-        designation: "Office",
+        designationKey: "office.designation",
         address: "Avenida 19 de Abril, Edificio Profesional, Piso 2, Oficina 2-B, Maracay, Estado Aragua, Venezuela.",
+        mapQuery: "Edificio Profesional Maracay",
     },
 ];
 
@@ -71,7 +74,7 @@ export default function ContactPage() {
                                             <div>
                                                 <h3 className="text-2xl font-serif text-primary mb-1">{office.city}</h3>
                                                 <span className="text-[10px] font-bold uppercase tracking-widest text-slate-400">
-                                                    {office.designation}
+                                                    {t(office.designationKey)}
                                                 </span>
                                             </div>
                                             <MapPin className="h-5 w-5 text-primary/30 mt-1" />
@@ -81,11 +84,18 @@ export default function ContactPage() {
                                         </p>
                                     </div>
 
-                                    {/* Map Placeholder */}
-                                    <div className="aspect-[4/3] bg-slate-50 border border-slate-100 flex items-center justify-center grayscale opacity-80">
-                                        <span className="text-[10px] font-bold uppercase tracking-widest text-slate-300">
-                                            {office.city} Map Location
-                                        </span>
+                                    {/* Map Integration */}
+                                    <div className="aspect-[4/3] bg-slate-50 border border-slate-100 relative overflow-hidden group/map transition-all duration-700 grayscale hover:grayscale-0 shadow-sm hover:shadow-md">
+                                        <iframe
+                                            width="100%"
+                                            height="100%"
+                                            style={{ border: 0 }}
+                                            loading="lazy"
+                                            allowFullScreen
+                                            referrerPolicy="no-referrer-when-downgrade"
+                                            src={`https://www.google.com/maps?q=${encodeURIComponent(office.mapQuery)}&t=&z=15&ie=UTF8&iwloc=&output=embed`}
+                                            className="opacity-70 group-hover/map:opacity-100 transition-opacity duration-700"
+                                        ></iframe>
                                     </div>
                                 </div>
                             ))}

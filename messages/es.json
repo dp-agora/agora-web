@@ -212,7 +212,9 @@
         },
         "office": {
             "focus": "Sede Principal",
-            "map": "Ubicación Mapa HQ Caracas"
+            "designation": "Oficina",
+            "map": "Ubicación Mapa HQ Caracas",
+            "connect": "Conectar"
         }
     },
     "TeamPage": {
