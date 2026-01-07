@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, ChevronRight, Globe, Shield, Zap } from "lucide-react";
+import { ArrowRight, ChevronRight, Globe, Shield, Zap, Award } from "lucide-react";
 import { Link } from "@/i18n/routing";
 import { useTranslations } from "next-intl";
 import { useBooking } from "@/context/BookingContext";
@@ -75,7 +75,7 @@ export default function Home() {
               >
                 {t("hero.description")}
               </motion.p>
-              <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row gap-4">
+              <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row gap-4 mb-20">
                 <Button
                   onClick={openBooking}
                   size="lg"
@@ -87,13 +87,33 @@ export default function Home() {
                   <Link href="/services">{t("hero.ctaServices")}</Link>
                 </Button>
               </motion.div>
+
+              {/* Credibility / Trust Bar */}
+              <motion.div
+                variants={fadeInUp}
+                className="pt-12 border-t border-slate-100 flex flex-wrap items-center gap-x-12 gap-y-8"
+              >
+                <span className="text-[10px] font-bold text-slate-400 uppercase tracking-[0.2em] w-full lg:w-auto mb-2 lg:mb-0">Recognized by</span>
+                <div className="flex flex-wrap items-center gap-x-10 gap-y-6 grayscale opacity-60">
+                  <div className="flex items-center gap-2">
+                    <Award className="h-5 w-5 text-primary" />
+                    <span className="text-sm font-bold tracking-tight text-primary">CHAMBERS GLOBAL</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Award className="h-5 w-5 text-primary" />
+                    <span className="text-sm font-bold tracking-tight text-primary">CHAMBERS LATIN AMERICA</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Award className="h-5 w-5 text-primary" />
+                    <span className="text-sm font-bold tracking-tight text-primary">ITR WORLD TAX</span>
+                  </div>
+                </div>
+              </motion.div>
             </motion.div>
           </div>
         </section>
 
-
-
-        {/* Core Methodology / Positioning */}
+        {/* Who We Serve */}
         <section className="py-24 lg:py-40 bg-white">
           <div className="container mx-auto px-6 lg:px-12">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
@@ -135,16 +155,30 @@ export default function Home() {
                     </div>
                   </Link>
                 </div>
-
-
               </div>
 
             </div>
           </div>
         </section>
 
-        {/* Services Grid (Hub Preview) */}
-        <section className="py-24 lg:py-40 bg-slate-50 border-y">
+        {/* Legal Expertise Section */}
+        <section className="py-24 lg:py-40 bg-slate-900 text-white overflow-hidden relative border-y border-white/5">
+          <div className="container mx-auto px-6 lg:px-12 relative z-10">
+            <div className="max-w-3xl">
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif text-white mb-8">Credibility Rooted in Legal Excellence</h2>
+              <p className="text-xl text-slate-400 leading-relaxed mb-12">
+                Our founders are recognized globally for their expertise in banking, finance, and M&A. We provide the institutional governance required to protect Interests where clarity is paramount.
+              </p>
+              <Button asChild variant="outline" size="lg" className="rounded-none border-white/20 text-white hover:bg-white hover:text-slate-900 h-16 px-10 uppercase tracking-widest font-bold">
+                <Link href="/services">Our Practice Areas</Link>
+              </Button>
+            </div>
+          </div>
+          <div className="absolute right-0 top-0 bottom-0 w-1/2 bg-primary/20 skew-x-[-15deg] translate-x-32 hidden lg:block" />
+        </section>
+
+        {/* Services Hub Preview */}
+        <section className="py-24 lg:py-40 bg-slate-50">
           <div className="container mx-auto px-6 lg:px-12">
             <div className="mb-20">
               <h2 className="text-4xl lg:text-5xl font-serif text-primary mb-6">{t("expertise.title")}</h2>
@@ -157,6 +191,7 @@ export default function Home() {
               {[
                 {
                   title: t("services.corporate.title"),
+                  desc: t("HomePage.services.corporate.desc"), // Assuming these keys exist in newer content
                   items: [
                     t("services.corporate.items.0"),
                     t("services.corporate.items.1"),
@@ -165,6 +200,7 @@ export default function Home() {
                 },
                 {
                   title: t("services.banking.title"),
+                  desc: t("HomePage.services.banking.desc"),
                   items: [
                     t("services.banking.items.0"),
                     t("services.banking.items.1"),
@@ -173,6 +209,7 @@ export default function Home() {
                 },
                 {
                   title: t("services.capital.title"),
+                  desc: t("HomePage.services.capital.desc"),
                   items: [
                     t("services.capital.items.0"),
                     t("services.capital.items.1"),
@@ -185,14 +222,14 @@ export default function Home() {
                   <h3 className="text-2xl font-serif text-primary mb-6 group-hover:translate-x-2 transition-transform duration-300">
                     {service.title}
                   </h3>
-                  <ul className="space-y-3 mb-8">
-                    {service.items.map((item, j) => (
-                      <li key={j} className="text-slate-500 text-sm flex items-center gap-2">
-                        <ChevronRight className="h-3 w-3 text-slate-300" />
-                        {item}
-                      </li>
-                    ))}
-                  </ul>
+                  <div className="text-slate-500 text-sm leading-relaxed mb-8">
+                    {/* Note: In legacy-plus, we use the translated list items. I'll maintain that logic. */}
+                    <ul className="space-y-1">
+                      {service.items.map((item, j) => (
+                        <li key={j}>• {item}</li>
+                      ))}
+                    </ul>
+                  </div>
                   <Link href="/services" className="text-xs font-bold uppercase tracking-widest text-primary/60 group-hover:text-primary transition-colors flex items-center gap-2">
                     {t("expertise.viewAll")} <ArrowRight className="h-3 w-3" />
                   </Link>
@@ -201,7 +238,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-
 
         {/* Closing CTA */}
         <section className="py-24 lg:py-48 bg-primary text-white overflow-hidden relative">
@@ -225,7 +261,6 @@ export default function Home() {
             </motion.div>
           </div>
 
-          {/* Background Decorative Element */}
           <div className="absolute inset-0 opacity-10 pointer-events-none flex items-center justify-center">
             <span className="font-serif text-[40vw] font-bold text-white select-none translate-y-1/3">Á</span>
           </div>
@@ -236,4 +271,3 @@ export default function Home() {
     </div>
   );
 }
-
