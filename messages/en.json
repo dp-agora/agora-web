@@ -5,7 +5,7 @@
         "team": "Team",
         "careers": "Careers",
         "contact": "Contact",
-        "bookCall": "Introductory Call"
+        "bookCall": "Connect"
     },
     "Footer": {
         "firm": "Firm",
@@ -29,7 +29,7 @@
             "line2": "Services With",
             "line3": "Global Reach",
             "description": "We provide the personalized service of a legal boutique with global reach, capabilities, and vision. Defined by experience, innovation, and leadership.",
-            "ctaBook": "Introductory Call",
+            "ctaBook": "Connect",
             "ctaServices": "Practice Areas"
         },
         "methodology": {
@@ -48,6 +48,12 @@
                 "desc": "Combining dynamism and innovation with the vast experience of our partners."
             }
         },
+        "credibility": {
+            "title": "Credibility Rooted in Legal Excellence",
+            "description": "Our founders are recognized globally for their expertise in banking, finance, and M&A. We provide the institutional governance required to protect interests where clarity is paramount.",
+            "cta": "Our Practice Areas",
+            "partners": "Our Senior Partners"
+        },
         "expertise": {
             "title": "Areas of Expertise",
             "description": "Comprehensive legal advisory with specialized focus across core practice areas.",
@@ -55,7 +61,7 @@
         },
         "cta": {
             "title": "Ready to Establish Your Latin American Presence?",
-            "button": "Introductory Call"
+            "button": "Connect"
         },
         "services": {
             "corporate": {
@@ -463,5 +469,8 @@
                 "desc": "Local operational management and advisory support."
             }
         }
+    },
+    "Booking": {
+        "title": "ÁGORA Connect"
     }
 }

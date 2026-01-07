@@ -95,10 +95,15 @@ export default function Home() {
               >
                 <span className="text-[10px] font-bold text-slate-400 uppercase tracking-[0.2em] w-full lg:w-auto mb-2 lg:mb-0">Recognized by</span>
                 <div className="flex flex-wrap items-center gap-x-10 gap-y-6 grayscale opacity-60">
-                  <div className="flex items-center gap-2">
+                  <a
+                    href="https://chambers.com/lawyer/alvaro-posada-latin-america-9:210039"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 hover:opacity-100 transition-opacity flex-shrink-0"
+                  >
                     <Award className="h-5 w-5 text-primary" />
-                    <span className="text-sm font-bold tracking-tight text-primary">CHAMBERS GLOBAL</span>
-                  </div>
+                    <span className="text-sm font-bold tracking-tight text-primary uppercase">CHAMBERS GLOBAL</span>
+                  </a>
                   <div className="flex items-center gap-2">
                     <Award className="h-5 w-5 text-primary" />
                     <span className="text-sm font-bold tracking-tight text-primary">CHAMBERS LATIN AMERICA</span>
@@ -149,7 +154,7 @@ export default function Home() {
                 />
                 <div className="absolute inset-x-0 bottom-0 top-[82%] bg-white/95 border-t border-slate-200 translate-y-8 group-hover:translate-y-0 transition-transform duration-500 px-8 py-4 shadow-2xl flex flex-col justify-center">
                   <Link href="/team#partners" className="group/link flex items-center justify-between">
-                    <span className="text-xl font-serif text-primary italic">Our Senior Partners</span>
+                    <span className="text-xl font-serif text-primary italic">{t("credibility.partners")}</span>
                     <div className="h-8 w-8 rounded-full border border-primary/10 flex items-center justify-center group-hover/link:bg-primary group-hover/link:text-white transition-all duration-500">
                       <ArrowRight className="h-4 w-4" />
                     </div>
@@ -165,12 +170,12 @@ export default function Home() {
         <section className="py-24 lg:py-40 bg-slate-900 text-white overflow-hidden relative border-y border-white/5">
           <div className="container mx-auto px-6 lg:px-12 relative z-10">
             <div className="max-w-3xl">
-              <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif text-white mb-8">Credibility Rooted in Legal Excellence</h2>
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif text-white mb-8">{t("credibility.title")}</h2>
               <p className="text-xl text-slate-400 leading-relaxed mb-12">
-                Our founders are recognized globally for their expertise in banking, finance, and M&A. We provide the institutional governance required to protect Interests where clarity is paramount.
+                {t("credibility.description")}
               </p>
               <Button asChild variant="outline" size="lg" className="rounded-none border-white/20 text-white hover:bg-white hover:text-slate-900 h-16 px-10 uppercase tracking-widest font-bold">
-                <Link href="/services">Our Practice Areas</Link>
+                <Link href="/services">{t("credibility.cta")}</Link>
               </Button>
             </div>
           </div>

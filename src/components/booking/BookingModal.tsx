@@ -4,10 +4,12 @@ import React, { useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X } from 'lucide-react';
 import { useBooking } from '@/context/BookingContext';
+import { useTranslations } from "next-intl";
 
 export function BookingModal() {
     const { isOpen, closeBooking } = useBooking();
     const modalRef = useRef<HTMLDivElement>(null);
+    const t = useTranslations("Booking");
 
     useEffect(() => {
         const handleEscape = (e: KeyboardEvent) => {
@@ -88,7 +90,7 @@ export function BookingModal() {
                                     Á
                                 </div>
                                 <span className="font-serif text-lg font-bold tracking-widest text-primary uppercase">
-                                    ÁGORA Introductory Call
+                                    {t("title")}
                                 </span>
                             </div>
                             <button

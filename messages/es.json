@@ -5,7 +5,7 @@
         "team": "Equipo",
         "careers": "Carreras",
         "contact": "Contacto",
-        "bookCall": "Llamada Introductoria"
+        "bookCall": "Conectar"
     },
     "Footer": {
         "firm": "Firma",
@@ -29,7 +29,7 @@
             "line2": "Boutique Legal con",
             "line3": "Alcance Global",
             "description": "Brindamos el servicio personalizado de una boutique legal con alcance, capacidades y visión global. Definidos por la experiencia, la innovación y el liderazgo.",
-            "ctaBook": "Llamada Introductoria",
+            "ctaBook": "Conectar",
             "ctaServices": "Áreas de Práctica"
         },
         "methodology": {
@@ -48,6 +48,12 @@
                 "desc": "Combinando dinamismo e innovación con la vasta experiencia de nuestros socios."
             }
         },
+        "credibility": {
+            "title": "Credibilidad Basada en la Excelencia Legal",
+            "description": "Nuestros fundadores son reconocidos globalmente por su experiencia en banca, finanzas y M&A. Brindamos la gobernanza institucional requerida para proteger los intereses donde la claridad es primordial.",
+            "cta": "Áreas de Práctica",
+            "partners": "Nuestros Socios Principales"
+        },
         "expertise": {
             "title": "Áreas de Experiencia",
             "description": "Asesoría legal integral con enfoque especializado en las principales áreas de práctica.",
@@ -55,7 +61,7 @@
         },
         "cta": {
             "title": "¿Listo para establecer su presencia en Latinoamérica?",
-            "button": "Llamada Introductoria"
+            "button": "Conectar"
         },
         "services": {
             "corporate": {
@@ -463,5 +469,8 @@
                 "desc": "Gestión operativa local y soporte de asesoramiento."
             }
         }
+    },
+    "Booking": {
+        "title": "ÁGORA Conectar"
     }
 }
