@@ -182,6 +182,36 @@ export default function Home() {
           <div className="absolute right-0 top-0 bottom-0 w-1/2 bg-primary/20 skew-x-[-15deg] translate-x-32 hidden lg:block" />
         </section>
 
+        {/* Secure AI Innovation Section */}
+        <section className="py-24 lg:py-40 bg-white border-b overflow-hidden relative">
+          <div className="container mx-auto px-6 lg:px-12">
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-24 items-center">
+              <div className="lg:col-span-6 space-y-8">
+                <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif text-primary leading-[1.1]">
+                  {t("aiSection.headline")}
+                </h2>
+                <p className="text-lg text-slate-500 leading-relaxed font-light max-w-xl">
+                  {t("aiSection.body")}
+                </p>
+              </div>
+              <div className="lg:col-span-6 relative aspect-[16/10] lg:aspect-square bg-slate-50 overflow-hidden border border-slate-100">
+                <video
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  className="w-full h-full object-cover opacity-60 grayscale brightness-110"
+                >
+                  <source src="/assets/video/ai-section.mp4" type="video/mp4" />
+                </video>
+                {/* Atmospheric overlays */}
+                <div className="absolute inset-0 bg-gradient-to-r from-white via-transparent to-transparent" />
+                <div className="absolute inset-0 bg-slate-900/5 mix-blend-overlay" />
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Services Hub Preview */}
         <section className="py-24 lg:py-40 bg-slate-50">
           <div className="container mx-auto px-6 lg:px-12">
