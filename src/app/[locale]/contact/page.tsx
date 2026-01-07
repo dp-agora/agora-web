@@ -25,7 +25,10 @@ export default function ContactPage() {
                     subtitle={t("header.subtitle")}
                     badge={t("header.badge")}
                     description={t("header.description")}
+                    imageSrc="/assets/team/team-Connect.jpg"
+                    imageOpacity={0.4}
                 />
+
 
                 <section className="py-24 bg-white">
                     <div className="container mx-auto px-6 lg:px-12">

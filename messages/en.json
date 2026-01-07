@@ -306,7 +306,8 @@
                     "Negotiation Support",
                     "Post-closing Integration",
                     "Joint Ventures"
-                ]
+                ],
+                "fullContent": "Our Corporate and Mergers & Acquisitions team stands out for providing comprehensive key advice to both national and international clients on global corporate reorganizations, mergers, acquisitions, and joint ventures. With extensive industry experience and a commitment to personalized solutions, we guide our clients through every stage of their transactions, from due diligence and negotiation to post-closing integration, helping them achieve growth and success. Our expertise has positioned our team as strategic key advisors for those undertaking corporate reorganizations, optimizing corporate governance and aligning stakeholders across multiple jurisdictions in the most comprehensive, efficient, and agile manner. Our team has an outstanding track record of assisting local companies in their international expansion, as well as helping foreign companies establish themselves in our region."
             },
             "banking": {
                 "title": "Banking & Finance",
@@ -314,9 +315,21 @@
                 "features": [
                     "Retail Finance",
                     "Automobile Finance",
-                    "Agricultural Sowing",
+                    "Treasury Products",
                     "Regulatory Compliance"
-                ]
+                ],
+                "fullContent": "We provide strategic legal counsel to banks in regulatory, as well as in financial products, lending, and other extensions of credit. Our B&F team has developed a wide range of highly sophisticated finance, treasury, and foreign exchange products tailored to specific client objectives and has extensive experience in cross-border financial services, particularly with foreign banks providing such services to clients in the region. Our team has a strong, successful, and proven record in retail finance, automobile finance and specialty retail, such as in agricultural inputs and sowing programs."
+            },
+            "capital-markets": {
+                "title": "Capital Markets",
+                "desc": "Advisory services in capital markets transactions, assisting clients with securities issuances and key financial operations.",
+                "features": [
+                    "Securities Issuances",
+                    "Capital Strategies",
+                    "Fund Formation",
+                    "Investment Guidance"
+                ],
+                "fullContent": "We provide advisory services in capital markets transactions, assisting our clients with securities issuances and key financial operations to support their growth plans and structural financial changes, including capital strategies and debt issuance. We tailor our solutions to private equity scenarios, managing fund formation, overseeing transactions, and offering strategic guidance on investments, ensuring that our clients are well-positioned to capitalize on market opportunities and achieve substantial growth."
             },
             "tax": {
                 "title": "Tax",
@@ -326,7 +339,8 @@
                     "Compliance Monitoring",
                     "Litigation Support",
                     "Transfer Pricing"
-                ]
+                ],
+                "fullContent": "Our Tax Practice specializes in providing high-value strategic advice in tax planning, compliance, tax litigation, and transfer pricing. With a focus on minimizing the legal and economic risks of operating both in Venezuela and abroad, we offer comprehensive services in areas such as customs, international trade, double taxation, tax benefits, project financing, mergers and acquisitions, among others. Our team also provides support in tax compliance, tax recoveries, and assistance with audits. In litigation matters, we represent our clients in tax and transfer pricing disputes, both in administrative and judicial proceedings, ensuring a strong and effective defense."
             },
             "labor": {
                 "title": "Labor and Employment",
@@ -336,17 +350,30 @@
                     "Benefits Planning",
                     "Work Visas",
                     "Collective Agreements"
-                ]
+                ],
+                "fullContent": "Our team is renowned for offering expert guidance on a wide range of labor matters. From individual to collective labor law issues, we provide comprehensive assistance in areas such as labor contracts and agreements of all types, negotiation, employee benefits planning, downsizing, analysis, and recommendations on labor law compliance, administrative and judicial processes, as well as handling work visas for employees. We ensure full compliance with local labor laws while minimizing risks. With a practical approach and customized solutions tailored to each client, industry, and type of workforce, we help companies manage their labor force efficiently, optimize processes, and achieve their strategic operational goals."
             },
             "regulatory": {
-                "title": "Regulatory & Compliance",
+                "title": "Regulatory Law and Compliance",
                 "desc": "Support in navigating local and international regulatory frameworks, AML, and economic sanctions.",
                 "features": [
                     "AML Compliance",
                     "Economic Sanctions",
                     "Regulatory Audits",
                     "Risk Management"
-                ]
+                ],
+                "fullContent": "We guide and support our clients in navigating the complexities of local and international regulatory frameworks. We assist companies in developing and implementing compliance programs, ensuring adherence to industry-specific regulations, government policies, and legal standards. From risk assessments and regulatory filings to internal audits, our team helps mitigate regulatory risks and maintain operational integrity in an ever-evolving environment. Our professionals hold international certifications in compliance and anti-money laundering, and have advised clients on counterpart verification and Due Diligence. Additionally, we provide counsel on economic sanctions regimes and facilitate the selection and interaction with foreign legal experts when our clients require foreign law opinions and/or coordination of consultations or license requests under specific economic sanctions regimes."
+            },
+            "debt-restructuring": {
+                "title": "Debt Restructuring",
+                "desc": "Strategic advice on restructuring financial obligations and navigating insolvency processes.",
+                "features": [
+                    "Debt Reorganization",
+                    "Insolvency Strategy",
+                    "Creditor Relations",
+                    "Financial Recovery"
+                ],
+                "fullContent": "Our Debt Restructuring practice provides strategic advice to companies seeking to reorganize their financial obligations. We guide clients through complex restructuring processes, helping them negotiate with creditors, optimize their capital structure, and navigate local and international insolvency frameworks to ensure business continuity and financial stability."
             }
         },
         "methodology": {

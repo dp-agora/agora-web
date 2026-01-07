@@ -5,6 +5,8 @@ import { Footer } from "@/components/layout/Footer";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
+import { Link } from "@/i18n/routing";
+import { Linkedin, Mail } from "lucide-react";
 
 export default function TeamPage() {
     const t = useTranslations("TeamPage");
@@ -14,16 +16,22 @@ export default function TeamPage() {
             title: t("groups.partners"),
             members: [
                 {
+                    id: "alvaro-posada",
                     name: "Álvaro Posada",
                     role: t("members.alvaro.role"),
                     bio: t("members.alvaro.bio"),
-                    image: "/assets/team/alvaro-posada.webp"
+                    image: "/assets/team/alvaro-posada.webp",
+                    email: "alvaro.posada@agoralatam.com",
+                    linkedin: "#"
                 },
                 {
+                    id: "maria-eugenia-reyes",
                     name: "María Eugenia Reyes",
                     role: t("members.maria.role"),
                     bio: t("members.maria.bio"),
-                    image: "/assets/team/maria-eugenia.webp"
+                    image: "/assets/team/maria-eugenia.webp",
+                    email: "maria.reyes@agoralatam.com",
+                    linkedin: "#"
                 }
             ]
         },
@@ -31,16 +39,22 @@ export default function TeamPage() {
             title: t("groups.leads"),
             members: [
                 {
+                    id: "jose-barnola",
                     name: "José P. Barnola Jr.",
                     role: t("members.jose.role"),
                     bio: t("members.jose.bio"),
-                    image: "/assets/team/jose-barnola.webp"
+                    image: "/assets/team/jose-barnola.webp",
+                    email: "jose.barnola@agoralatam.com",
+                    linkedin: "#"
                 },
                 {
+                    id: "ariana-cabrera",
                     name: "Ariana Cabrera",
                     role: t("members.ariana.role"),
                     bio: t("members.ariana.bio"),
-                    image: "/assets/team/ariana-cabrera.webp"
+                    image: "/assets/team/ariana-cabrera.webp",
+                    email: "ariana.cabrera@agoralatam.com",
+                    linkedin: "#"
                 }
             ]
         },
@@ -48,90 +62,39 @@ export default function TeamPage() {
             title: t("groups.regional"),
             members: [
                 {
+                    id: "lizeth-reyes",
                     name: "Lizeth Reyes",
                     role: t("members.lizeth.role"),
                     bio: t("members.lizeth.bio"),
-                    image: "/assets/team/lizeth-reyes.webp"
+                    image: "/assets/team/lizeth-reyes.webp",
+                    email: "lizeth.reyes@agoralatam.com",
+                    linkedin: "#"
                 }
             ]
         },
         {
             title: t("groups.associates"),
             members: [
-                {
-                    name: "Marco Gómez",
-                    role: t("members.marco.role"),
-                    bio: t("members.marco.bio"),
-                    image: "/assets/team/marco-gomez.webp"
-                },
-                {
-                    name: "Bárbara Briceño",
-                    role: t("members.barbara.role"),
-                    bio: t("members.barbara.bio"),
-                    image: "/assets/team/barbara-briceno.webp"
-                },
-                {
-                    name: "Manuel Domingo",
-                    role: t("members.manuel.role"),
-                    bio: t("members.manuel.bio"),
-                    image: "/assets/team/manuel-domingo.webp"
-                },
-                {
-                    name: "Dayana Velíz",
-                    role: t("members.dayana.role"),
-                    bio: t("members.dayana.bio"),
-                    image: "/assets/team/dayana-veliz.webp"
-                },
-                {
-                    name: "Raúl Sancristobal",
-                    role: t("members.raul.role"),
-                    bio: t("members.raul.bio"),
-                    image: "/assets/team/raul-sancristobal.webp"
-                },
-                {
-                    name: "Rodrigo Colmenares",
-                    role: t("members.rodrigo.role"),
-                    bio: t("members.rodrigo.bio"),
-                    image: "/assets/team/rodrigo-colmenares.webp"
-                },
-                {
-                    name: "Andreína Flores",
-                    role: t("members.andreina.role"),
-                    bio: t("members.andreina.bio"),
-                    image: "/assets/team/andreina-flores.webp"
-                },
-                {
-                    name: "Fabiola Flores",
-                    role: t("members.fabiola.role"),
-                    bio: t("members.fabiola.bio"),
-                    image: "/assets/team/fabiola-flores.webp"
-                }
+                { id: "marco-gomez", name: "Marco Gómez", role: t("members.marco.role"), bio: t("members.marco.bio"), image: "/assets/team/marco-gomez.webp", email: "marco.gomez@agoralatam.com", linkedin: "#" },
+                { id: "barbara-briceno", name: "Bárbara Briceño", role: t("members.barbara.role"), bio: t("members.barbara.bio"), image: "/assets/team/barbara-briceno.webp", email: "barbara.briceno@agoralatam.com", linkedin: "#" },
+                { id: "manuel-domingo", name: "Manuel Domingo", role: t("members.manuel.role"), bio: t("members.manuel.bio"), image: "/assets/team/manuel-domingo.webp", email: "manuel.domingo@agoralatam.com", linkedin: "#" },
+                { id: "dayana-veliz", name: "Dayana Velíz", role: t("members.dayana.role"), bio: t("members.dayana.bio"), image: "/assets/team/dayana-veliz.webp", email: "dayana.veliz@agoralatam.com", linkedin: "#" },
+                { id: "raul-sancristobal", name: "Raúl Sancristobal", role: t("members.raul.role"), bio: t("members.raul.bio"), image: "/assets/team/raul-sancristobal.webp", email: "raul.sancristobal@agoralatam.com", linkedin: "#" },
+                { id: "rodrigo-colmenares", name: "Rodrigo Colmenares", role: t("members.rodrigo.role"), bio: t("members.rodrigo.bio"), image: "/assets/team/rodrigo-colmenares.webp", email: "rodrigo.colmenares@agoralatam.com", linkedin: "#" },
+                { id: "andreina-flores", name: "Andreína Flores", role: t("members.andreina.role"), bio: t("members.andreina.bio"), image: "/assets/team/andreina-flores.webp", email: "andreina.flores@agoralatam.com", linkedin: "#" },
+                { id: "fabiola-flores", name: "Fabiola Flores", role: t("members.fabiola.role"), bio: t("members.fabiola.bio"), image: "/assets/team/fabiola-flores.webp", email: "fabiola.flores@agoralatam.com", linkedin: "#" }
             ]
         },
         {
             title: t("groups.operations"),
             members: [
-                {
-                    name: "Andrea Regalado",
-                    role: t("members.andrea.role"),
-                    bio: t("members.andrea.bio"),
-                    image: "/assets/team/andrea-regalado.webp"
-                },
-                {
-                    name: "Oriana Rodríguez",
-                    role: t("members.oriana.role"),
-                    bio: t("members.oriana.bio"),
-                    image: "/assets/team/oriana-rodriguez.webp"
-                },
-                {
-                    name: "Juan Francisco Posada",
-                    role: t("members.juan.role"),
-                    bio: t("members.juan.bio"),
-                    image: "/assets/team/juan-posada.webp"
-                }
+                { id: "andrea-regalado", name: "Andrea Regalado", role: t("members.andrea.role"), bio: t("members.andrea.bio"), image: "/assets/team/andrea-regalado.webp", email: "andrea.regalado@agoralatam.com", linkedin: "#" },
+                { id: "oriana-rodriguez", name: "Oriana Rodríguez", role: t("members.oriana.role"), bio: t("members.oriana.bio"), image: "/assets/team/oriana-rodriguez.webp", email: "oriana.rodriguez@agoralatam.com", linkedin: "#" },
+                { id: "juan-posada", name: "Juan Francisco Posada", role: t("members.juan.role"), bio: t("members.juan.bio"), image: "/assets/team/juan-posada.webp", email: "juan.posada@agoralatam.com", linkedin: "#" }
             ]
         }
     ];
+
 
     return (
         <div className="flex min-h-screen flex-col">
@@ -142,7 +105,10 @@ export default function TeamPage() {
                     subtitle={t("header.subtitle")}
                     badge={t("header.badge")}
                     description={t("header.description")}
+                    imageSrc="/assets/team/Team 1.jpg"
+                    imageOpacity={0.4}
                 />
+
 
                 <section className="py-24 bg-white">
                     <div className="container mx-auto px-6 lg:px-12">
@@ -155,34 +121,56 @@ export default function TeamPage() {
 
                                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 lg:gap-20">
                                     {group.members.map((member, i) => (
-                                        <div key={i} className="group">
-                                            <div className="aspect-[4/5] bg-slate-50 mb-8 grayscale group-hover:grayscale-0 transition-all duration-700 border border-slate-100 relative overflow-hidden">
-                                                {member.image ? (
-                                                    <Image
-                                                        src={member.image}
-                                                        alt={member.name}
-                                                        fill
-                                                        className="object-cover"
-                                                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                                                    />
-                                                ) : (
-                                                    <div className="absolute inset-0 flex items-center justify-center">
-                                                        <span className="font-serif text-7xl text-slate-100 italic">Á</span>
-                                                    </div>
-                                                )}
-                                            </div>
-                                            <div className="space-y-4">
-                                                <div>
-                                                    <h3 className="text-2xl font-serif text-primary mb-1">{member.name}</h3>
-                                                    <p className="text-[10px] font-bold text-slate-400 uppercase tracking-[0.2em]">{member.role}</p>
+                                        <div key={i} className="group flex flex-col h-full">
+                                            <Link href={`/team/${member.id}`} className="flex-1 space-y-8">
+                                                <div className="aspect-[4/5] bg-slate-50 grayscale group-hover:grayscale-0 transition-all duration-700 border border-slate-100 relative overflow-hidden">
+                                                    {member.image ? (
+                                                        <Image
+                                                            src={member.image}
+                                                            alt={member.name}
+                                                            fill
+                                                            className="object-cover"
+                                                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                                                        />
+                                                    ) : (
+                                                        <div className="absolute inset-0 flex items-center justify-center">
+                                                            <span className="font-serif text-7xl text-slate-100 italic">Á</span>
+                                                        </div>
+                                                    )}
                                                 </div>
-                                                <p className="text-sm text-slate-600 leading-relaxed font-light italic">
-                                                    {member.bio}
-                                                </p>
+                                                <div className="space-y-4">
+                                                    <div>
+                                                        <h3 className="text-2xl font-serif text-primary mb-1 group-hover:text-primary/70 transition-colors">{member.name}</h3>
+                                                        <p className="text-[10px] font-bold text-slate-400 uppercase tracking-[0.2em]">{member.role}</p>
+                                                    </div>
+                                                    <p className="text-sm text-slate-600 leading-relaxed font-light italic line-clamp-3">
+                                                        {member.bio}
+                                                    </p>
+                                                </div>
+                                            </Link>
+
+                                            <div className="flex gap-4 pt-8 mt-auto border-t border-slate-50">
+                                                <a
+                                                    href={member.linkedin}
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    className="inline-flex items-center justify-center h-8 w-8 rounded-full border border-primary/5 text-primary hover:bg-primary hover:text-white transition-all duration-300"
+                                                    onClick={(e) => e.stopPropagation()}
+                                                >
+                                                    <Linkedin className="h-4 w-4" />
+                                                </a>
+                                                <a
+                                                    href={`mailto:${member.email}`}
+                                                    className="inline-flex items-center justify-center h-8 w-8 rounded-full border border-primary/5 text-primary hover:bg-primary hover:text-white transition-all duration-300"
+                                                    onClick={(e) => e.stopPropagation()}
+                                                >
+                                                    <Mail className="h-4 w-4" />
+                                                </a>
                                             </div>
                                         </div>
                                     ))}
                                 </div>
+
                             </div>
                         ))}
                     </div>
