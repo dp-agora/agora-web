@@ -12,6 +12,7 @@ interface PageHeaderProps {
     videoOpacity?: number;
     imageSrc?: string;
     imageOpacity?: number;
+    variant?: 'default' | 'institutional';
 }
 
 export function PageHeader({
@@ -22,13 +23,27 @@ export function PageHeader({
     videoSrc,
     videoOpacity = 0.5,
     imageSrc,
-    imageOpacity = 0.5
+    imageOpacity = 0.5,
+    variant = 'default'
 }: PageHeaderProps) {
-    const isDark = !!videoSrc || !!imageSrc;
+    const isInstitutional = variant === 'institutional';
+    const isDark = !!videoSrc || !!imageSrc || isInstitutional;
 
     return (
-        <section className={`relative pt-20 pb-16 lg:pt-32 lg:pb-24 border-b overflow-hidden ${isDark ? 'min-h-[60vh] flex items-center bg-primary' : 'bg-white'}`}>
-            {videoSrc && (
+        <section className={`relative pt-24 pb-20 lg:pt-40 lg:pb-32 border-b overflow-hidden ${isDark ? 'min-h-[50vh] flex items-center bg-primary' : 'bg-white'}`}>
+            {/* Elite Typographic Background Layer */}
+            {isInstitutional && (
+                <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden select-none">
+                    <span
+                        className="absolute -bottom-[15%] -left-[5%] text-[40vw] font-serif font-bold text-white/[0.06] whitespace-nowrap leading-none tracking-tighter"
+                        aria-hidden="true"
+                    >
+                        {title.split(' ')[0]}
+                    </span>
+                </div>
+            )}
+
+            {videoSrc && !isInstitutional && (
                 <>
                     <video
                         autoPlay
@@ -44,7 +59,7 @@ export function PageHeader({
                 </>
             )}
 
-            {imageSrc && !videoSrc && (
+            {imageSrc && !videoSrc && !isInstitutional && (
                 <>
                     <Image
                         src={imageSrc}
@@ -62,22 +77,30 @@ export function PageHeader({
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.6 }}
-                    className="max-w-4xl"
+                    transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
+                    className="max-w-5xl"
                 >
                     {badge && (
                         <span className={`inline-block px-3 py-1 rounded-full ${isDark ? 'bg-white/10 text-white' : 'bg-slate-100 text-primary'} text-[10px] font-bold uppercase tracking-[0.2em] mb-8`}>
                             {badge}
                         </span>
                     )}
+
                     {subtitle && (
-                        <h2 className={`${isDark ? 'text-white/60' : 'text-primary/60'} text-lg md:text-xl font-medium mb-4 uppercase tracking-widest`}>{subtitle}</h2>
+                        <div className="flex items-center gap-4 mb-6">
+                            <div className={`h-[1px] w-8 ${isDark ? 'bg-white/30' : 'bg-primary/30'}`} />
+                            <h2 className={`${isDark ? 'text-white/60' : 'text-primary/60'} text-xs font-bold uppercase tracking-[0.3em]`}>
+                                {subtitle}
+                            </h2>
+                        </div>
                     )}
-                    <h1 className={`text-5xl md:text-7xl font-serif ${isDark ? 'text-white' : 'text-primary'} leading-tight mb-8 tracking-tight`}>
+
+                    <h1 className={`text-6xl md:text-8xl lg:text-9xl font-serif ${isDark ? 'text-white' : 'text-primary'} leading-[1.1] mb-10 tracking-tight`}>
                         {title}
                     </h1>
+
                     {description && (
-                        <p className={`text-xl ${isDark ? 'text-white/70' : 'text-slate-500'} max-w-2xl leading-relaxed`}>
+                        <p className={`text-xl md:text-2xl ${isDark ? 'text-white/70' : 'text-slate-500'} max-w-3xl leading-relaxed font-light`}>
                             {description}
                         </p>
                     )}
