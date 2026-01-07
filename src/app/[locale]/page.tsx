@@ -168,6 +168,33 @@ export default function Home() {
 
         {/* Legal Expertise Section */}
         <section className="py-24 lg:py-40 bg-slate-900 text-white overflow-hidden relative border-y border-white/5">
+          {/* Enhanced Architectural Texture Background */}
+          <div className="absolute inset-0 pointer-events-none overflow-hidden">
+            <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_50%,rgba(30,58,138,0.15)_0%,transparent_70%)]" />
+
+            {/* Structural Beams / Texture */}
+            <div className="absolute top-0 right-0 w-full h-full opacity-[0.15]">
+              {[...Array(12)].map((_, i) => (
+                <div
+                  key={i}
+                  className="absolute top-0 h-[200%] bg-white w-[1px] lg:w-[2px]"
+                  style={{
+                    right: `${10 + (i * 6)}%`,
+                    transform: 'rotate(25deg) translateY(-25%)',
+                    opacity: 1 - (i * 0.08),
+                    boxShadow: '0 0 20px rgba(255,255,255,0.2)'
+                  }}
+                />
+              ))}
+              {/* Crossed accents */}
+              <div className="absolute bottom-0 right-0 w-[60%] h-[1px] bg-white opacity-20 rotate-[-15deg] translate-y-[-100%]" />
+              <div className="absolute bottom-10 right-0 w-[50%] h-[1px] bg-white opacity-10 rotate-[-15deg] translate-y-[-200%]" />
+            </div>
+
+            {/* Subtle Gradient Fade */}
+            <div className="absolute inset-0 bg-gradient-to-l from-slate-900 via-transparent to-slate-900/80" />
+          </div>
+
           <div className="container mx-auto px-6 lg:px-12 relative z-10">
             <div className="max-w-3xl">
               <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif text-white mb-8">{t("credibility.title")}</h2>
@@ -179,7 +206,6 @@ export default function Home() {
               </Button>
             </div>
           </div>
-          <div className="absolute right-0 top-0 bottom-0 w-1/2 bg-primary/20 skew-x-[-15deg] translate-x-32 hidden lg:block" />
         </section>
 
         {/* Secure AI Innovation Section */}
