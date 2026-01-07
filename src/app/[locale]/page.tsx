@@ -239,8 +239,31 @@ export default function Home() {
         </section>
 
         {/* Services Hub Preview */}
-        <section className="py-24 lg:py-40 bg-slate-50">
-          <div className="container mx-auto px-6 lg:px-12">
+        <section className="py-24 lg:py-40 bg-slate-50 relative overflow-hidden border-b border-slate-100">
+          {/* Architectural Texture Background (Light Version) */}
+          <div className="absolute inset-0 pointer-events-none overflow-hidden">
+            <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_20%,rgba(15,23,42,0.03)_0%,transparent_50%)]" />
+
+            {/* Structural Beams / Texture */}
+            <div className="absolute top-0 left-0 w-full h-full opacity-[0.05]">
+              {[...Array(8)].map((_, i) => (
+                <div
+                  key={i}
+                  className="absolute top-0 h-[200%] bg-primary w-[1px] lg:w-[2px]"
+                  style={{
+                    left: `${5 + (i * 8)}%`,
+                    transform: 'rotate(-20deg) translateY(-25%)',
+                    opacity: 1 - (i * 0.1),
+                  }}
+                />
+              ))}
+            </div>
+
+            {/* Subtle Gradient Fade */}
+            <div className="absolute inset-0 bg-gradient-to-tr from-slate-50 via-transparent to-slate-50/50" />
+          </div>
+
+          <div className="container mx-auto px-6 lg:px-12 relative z-10">
             <div className="mb-20">
               <h2 className="text-4xl lg:text-5xl font-serif text-primary mb-6">{t("expertise.title")}</h2>
               <p className="text-slate-500 max-w-xl text-lg">
