@@ -114,9 +114,8 @@ export default function TeamPage() {
                     <div className="container mx-auto px-6 lg:px-12">
                         {teamGroups.map((group, groupIndex) => (
                             <div key={groupIndex} id={groupIndex === 0 ? "partners" : undefined} className={groupIndex > 0 ? "mt-24" : ""}>
-                                <div className="border-b border-slate-100 pb-8 mb-16 scroll-mt-32">
-
-                                    <h2 className="text-3xl font-serif text-primary italic">{group.title}</h2>
+                                <div className="border-b border-primary/10 pb-12 mb-24 scroll-mt-32">
+                                    <h2 className="text-4xl md:text-5xl font-serif text-primary italic leading-tight">{group.title}</h2>
                                 </div>
 
                                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 lg:gap-20">
@@ -140,10 +139,10 @@ export default function TeamPage() {
                                                 </div>
                                                 <div className="space-y-4">
                                                     <div>
-                                                        <h3 className="text-2xl font-serif text-primary mb-1 group-hover:text-primary/70 transition-colors">{member.name}</h3>
-                                                        <p className="text-[10px] font-bold text-slate-400 uppercase tracking-[0.2em]">{member.role}</p>
+                                                        <h3 className="text-2xl font-serif text-primary mb-2 group-hover:text-primary/70 transition-colors leading-tight">{member.name}</h3>
+                                                        <p className="text-[10px] font-bold text-primary/40 uppercase tracking-[0.3em]">{member.role}</p>
                                                     </div>
-                                                    <p className="text-sm text-slate-600 leading-relaxed font-light italic line-clamp-3">
+                                                    <p className="text-sm text-slate-500 leading-relaxed font-light italic line-clamp-4">
                                                         {member.bio}
                                                     </p>
                                                 </div>
@@ -175,9 +174,41 @@ export default function TeamPage() {
                         ))}
                     </div>
                 </section>
+
+                <section className="py-24 bg-slate-900 text-white overflow-hidden relative border-y border-white/5">
+                    {/* Architectural Texture Background */}
+                    <div className="absolute inset-0 pointer-events-none overflow-hidden">
+                        <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_50%,rgba(30,58,138,0.15)_0%,transparent_70%)]" />
+
+                        {/* Structural Beams */}
+                        <div className="absolute top-0 left-0 w-full h-full opacity-[0.1]">
+                            {[...Array(10)].map((_, i) => (
+                                <div
+                                    key={i}
+                                    className="absolute top-0 h-[200%] bg-white w-[1px]"
+                                    style={{
+                                        left: `${15 + (i * 8)}%`,
+                                        transform: 'rotate(-25deg) translateY(-25%)',
+                                        opacity: 1 - (i * 0.1),
+                                    }}
+                                />
+                            ))}
+                        </div>
+                    </div>
+
+                    <div className="container mx-auto px-6 lg:px-12 relative z-10 text-center space-y-12">
+                        <div className="max-w-3xl mx-auto space-y-6">
+                            <span className="text-[10px] font-bold uppercase tracking-[0.4em] text-white/40">Global Perspective</span>
+                            <h2 className="text-4xl md:text-6xl font-serif text-white">{t("header.title")}</h2>
+                            <p className="text-xl text-white/60 font-light max-w-2xl mx-auto leading-relaxed italic">
+                                {t("header.description")}
+                            </p>
+                        </div>
+                    </div>
+                </section>
             </main>
             <Footer />
-        </div>
+        </div >
     );
 }
 

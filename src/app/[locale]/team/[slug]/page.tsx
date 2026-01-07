@@ -71,8 +71,15 @@ export default function TeamMemberPage() {
             <Navbar />
             <main className="flex-1">
                 {/* Hero / Profile Header */}
-                <section className="pt-32 pb-16 lg:pt-48 lg:pb-24 bg-slate-50 border-b">
-                    <div className="container mx-auto px-6 lg:px-12">
+                <section className="pt-32 pb-16 lg:pt-48 lg:pb-24 bg-slate-50 border-b relative overflow-hidden">
+                    {/* Background Name Watermark */}
+                    <div className="absolute bottom-0 left-0 right-0 pointer-events-none select-none overflow-hidden h-full flex items-end">
+                        <span className="text-[20vw] font-serif text-primary/[0.03] leading-none translate-y-1/3 -translate-x-4 tracking-tighter">
+                            {member.name.split(" ")[0]}
+                        </span>
+                    </div>
+
+                    <div className="container mx-auto px-6 lg:px-12 relative z-10">
                         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
                             <div className="md:col-span-4 lg:col-span-3">
                                 <div className="aspect-[4/5] bg-white border border-slate-100 relative overflow-hidden shadow-xl">

@@ -128,41 +128,44 @@ export default function ServicesPage() {
                     videoOpacity={0.4}
                 />
 
-                <section className="py-24 bg-white">
+                <section className="py-24 bg-white relative overflow-hidden">
                     <div className="container mx-auto px-6 lg:px-12">
-                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                        <div className="flex flex-col gap-4">
                             {services.map((service) => (
                                 <div
                                     key={service.id}
                                     onClick={() => service.fullContent && setSelectedService(service)}
-                                    className={`group p-10 border border-slate-100 bg-slate-50 hover:bg-white hover:shadow-2xl hover:shadow-primary/5 transition-all duration-500 relative overflow-hidden ${service.fullContent ? 'cursor-pointer' : ''}`}
+                                    className={`group p-10 border border-slate-100 bg-slate-50 hover:bg-primary transition-all duration-700 relative overflow-hidden flex flex-col md:flex-row md:items-center justify-between gap-12 ${service.fullContent ? 'cursor-pointer' : ''}`}
                                 >
-                                    <div className="relative z-10">
-                                        <service.icon className="h-10 w-10 text-primary mb-8 transition-transform group-hover:-translate-y-1" />
-                                        <h3 className="text-3xl font-serif text-primary mb-6 transition-colors group-hover:text-primary/70">{service.title}</h3>
-                                        <p className="text-slate-500 mb-12 leading-relaxed h-20 overflow-hidden line-clamp-3">
+                                    <div className="flex-1 max-w-2xl">
+                                        <div className="flex items-center gap-6 mb-6">
+                                            <service.icon className="h-6 w-6 text-primary group-hover:text-white transition-colors" />
+                                            <h3 className="text-3xl font-serif text-primary group-hover:text-white transition-colors leading-tight">{service.title}</h3>
+                                        </div>
+                                        <p className="text-slate-500 group-hover:text-slate-200 transition-colors mb-0 leading-relaxed font-light italic">
                                             {service.description}
                                         </p>
-                                        <div className="flex items-center justify-between">
-                                            <ul className="flex gap-4">
-                                                {service.features.slice(0, 2).map((f, i) => (
-                                                    <li key={i} className="text-[10px] font-bold uppercase tracking-widest text-slate-400">
-                                                        {f}
-                                                    </li>
-                                                ))}
-                                            </ul>
-                                            {service.fullContent && (
-                                                <div className="flex items-center gap-2 text-primary font-bold text-xs uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-all transform translate-x-4 group-hover:translate-x-0">
-                                                    <span>View Detail</span>
-                                                    <Plus className="h-4 w-4" />
-                                                </div>
-                                            )}
-                                        </div>
                                     </div>
 
-                                    {/* Abstract background element */}
-                                    <div className="absolute top-0 right-0 p-8 opacity-[0.03] group-hover:opacity-[0.05] transition-opacity duration-700 pointer-events-none">
-                                        <service.icon size={120} />
+                                    <div className="flex flex-col md:items-end gap-6">
+                                        <ul className="flex flex-wrap md:justify-end gap-x-6 gap-y-2">
+                                            {service.features.slice(0, 3).map((f, i) => (
+                                                <li key={i} className="text-[10px] font-bold uppercase tracking-[0.2em] text-slate-400 group-hover:text-white/60 transition-colors">
+                                                    {f}
+                                                </li>
+                                            ))}
+                                        </ul>
+                                        {service.fullContent && (
+                                            <div className="flex items-center gap-3 text-primary group-hover:text-white font-bold text-[10px] uppercase tracking-[0.3em] opacity-0 group-hover:opacity-100 transition-all transform translate-x-4 group-hover:translate-x-0">
+                                                <span>View Expertise</span>
+                                                <Plus className="h-4 w-4" />
+                                            </div>
+                                        )}
+                                    </div>
+
+                                    {/* Subtle background decoration */}
+                                    <div className="absolute top-0 right-0 p-8 opacity-[0.02] group-hover:opacity-[0.05] transition-opacity duration-700 pointer-events-none">
+                                        <service.icon size={120} className="text-primary group-hover:text-white" />
                                     </div>
                                 </div>
                             ))}
@@ -231,16 +234,42 @@ export default function ServicesPage() {
                 </AnimatePresence>
 
 
-                <section className="py-24 bg-primary text-white">
-                    <div className="container mx-auto px-6 lg:px-12">
-                        <div className="max-w-4xl mx-auto text-center space-y-12">
-                            <h2 className="text-4xl md:text-5xl font-serif">{t("methodology.title")}</h2>
-                            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-left mt-16">
+                <section className="py-24 bg-slate-900 text-white overflow-hidden relative border-y border-white/5">
+                    {/* Architectural Texture Background */}
+                    <div className="absolute inset-0 pointer-events-none overflow-hidden">
+                        <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(30,58,138,0.15)_0%,transparent_70%)]" />
+
+                        {/* Structural Beams */}
+                        <div className="absolute top-0 right-0 w-full h-full opacity-[0.1]">
+                            {[...Array(12)].map((_, i) => (
+                                <div
+                                    key={i}
+                                    className="absolute top-0 h-[200%] bg-white w-[1px]"
+                                    style={{
+                                        right: `${10 + (i * 8)}%`,
+                                        transform: 'rotate(-20deg) translateY(-25%)',
+                                        opacity: 1 - (i * 0.08),
+                                    }}
+                                />
+                            ))}
+                        </div>
+                    </div>
+
+                    <div className="container mx-auto px-6 lg:px-12 relative z-10">
+                        <div className="max-w-4xl mx-auto space-y-16">
+                            <div className="text-center space-y-6">
+                                <span className="text-[10px] font-bold uppercase tracking-[0.4em] text-white/40">Our Approach</span>
+                                <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif text-white">{t("methodology.title")}</h2>
+                            </div>
+                            <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mt-16">
                                 {methodology.map((m, i) => (
-                                    <div key={i} className="space-y-4 border-l border-white/10 pl-8">
-                                        <span className="text-white/30 font-serif text-2xl italic">{m.step}</span>
-                                        <h4 className="text-xl font-bold">{m.title}</h4>
-                                        <p className="text-white/60 text-sm leading-relaxed">{m.desc}</p>
+                                    <div key={i} className="space-y-6 group">
+                                        <div className="flex items-baseline gap-4">
+                                            <span className="text-white/10 font-serif text-5xl italic group-hover:text-white/20 transition-colors uppercase tracking-widest">{m.step}</span>
+                                            <h4 className="text-xl font-serif text-white">{m.title}</h4>
+                                        </div>
+                                        <div className="h-px w-8 bg-white/20" />
+                                        <p className="text-slate-400 text-sm leading-relaxed font-light">{m.desc}</p>
                                     </div>
                                 ))}
                             </div>

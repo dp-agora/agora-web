@@ -57,7 +57,7 @@ export default function Home() {
             >
               <motion.span
                 variants={fadeInUp}
-                className="inline-block px-3 py-1 rounded-full bg-slate-100 text-primary text-[10px] font-bold uppercase tracking-[0.2em] mb-8"
+                className="inline-block px-3 py-1 rounded-full bg-slate-100 text-primary text-[10px] font-bold uppercase tracking-[0.3em] mb-8"
               >
                 {t("hero.badge")}
               </motion.span>
@@ -93,7 +93,7 @@ export default function Home() {
                 variants={fadeInUp}
                 className="pt-12 border-t border-slate-100 flex flex-wrap items-center gap-x-12 gap-y-8"
               >
-                <span className="text-[10px] font-bold text-slate-400 uppercase tracking-[0.2em] w-full lg:w-auto mb-2 lg:mb-0">Recognized by</span>
+                <span className="text-[10px] font-bold text-slate-400 uppercase tracking-[0.3em] w-full lg:w-auto mb-2 lg:mb-0">Recognized by</span>
                 <div className="flex flex-wrap items-center gap-x-10 gap-y-6 grayscale opacity-60">
                   <a
                     href="https://chambers.com/lawyer/alvaro-posada-latin-america-9:210039"
@@ -168,6 +168,33 @@ export default function Home() {
 
         {/* Legal Expertise Section */}
         <section className="py-24 lg:py-40 bg-slate-900 text-white overflow-hidden relative border-y border-white/5">
+          {/* Enhanced Architectural Texture Background */}
+          <div className="absolute inset-0 pointer-events-none overflow-hidden">
+            <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_50%,rgba(30,58,138,0.15)_0%,transparent_70%)]" />
+
+            {/* Structural Beams / Texture */}
+            <div className="absolute top-0 right-0 w-full h-full opacity-[0.15]">
+              {[...Array(12)].map((_, i) => (
+                <div
+                  key={i}
+                  className="absolute top-0 h-[200%] bg-white w-[1px] lg:w-[2px]"
+                  style={{
+                    right: `${10 + (i * 6)}%`,
+                    transform: 'rotate(25deg) translateY(-25%)',
+                    opacity: 1 - (i * 0.08),
+                    boxShadow: '0 0 20px rgba(255,255,255,0.2)'
+                  }}
+                />
+              ))}
+              {/* Crossed accents */}
+              <div className="absolute bottom-0 right-0 w-[60%] h-[1px] bg-white opacity-20 rotate-[-15deg] translate-y-[-100%]" />
+              <div className="absolute bottom-10 right-0 w-[50%] h-[1px] bg-white opacity-10 rotate-[-15deg] translate-y-[-200%]" />
+            </div>
+
+            {/* Subtle Gradient Fade */}
+            <div className="absolute inset-0 bg-gradient-to-l from-slate-900 via-transparent to-slate-900/80" />
+          </div>
+
           <div className="container mx-auto px-6 lg:px-12 relative z-10">
             <div className="max-w-3xl">
               <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif text-white mb-8">{t("credibility.title")}</h2>
@@ -179,12 +206,64 @@ export default function Home() {
               </Button>
             </div>
           </div>
-          <div className="absolute right-0 top-0 bottom-0 w-1/2 bg-primary/20 skew-x-[-15deg] translate-x-32 hidden lg:block" />
+        </section>
+
+        {/* Secure AI Innovation Section */}
+        <section className="py-24 lg:py-40 bg-white border-b overflow-hidden relative">
+          <div className="container mx-auto px-6 lg:px-12">
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-24 items-center">
+              <div className="lg:col-span-6 space-y-8">
+                <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif text-primary leading-[1.1]">
+                  {t("aiSection.headline")}
+                </h2>
+                <p className="text-lg text-slate-500 leading-relaxed font-light max-w-xl">
+                  {t("aiSection.body")}
+                </p>
+              </div>
+              <div className="lg:col-span-6 relative aspect-[16/10] lg:aspect-square bg-slate-50 overflow-hidden border border-slate-100">
+                <video
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  className="w-full h-full object-cover opacity-60 grayscale brightness-110"
+                >
+                  <source src="/assets/video/ai-section.mp4" type="video/mp4" />
+                </video>
+                {/* Atmospheric overlays */}
+                <div className="absolute inset-0 bg-gradient-to-r from-white via-transparent to-transparent" />
+                <div className="absolute inset-0 bg-slate-900/5 mix-blend-overlay" />
+              </div>
+            </div>
+          </div>
         </section>
 
         {/* Services Hub Preview */}
-        <section className="py-24 lg:py-40 bg-slate-50">
-          <div className="container mx-auto px-6 lg:px-12">
+        <section className="py-24 lg:py-40 bg-slate-50 relative overflow-hidden border-b border-slate-100">
+          {/* Architectural Texture Background (Light Version) */}
+          <div className="absolute inset-0 pointer-events-none overflow-hidden">
+            <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_20%,rgba(15,23,42,0.03)_0%,transparent_50%)]" />
+
+            {/* Structural Beams / Texture */}
+            <div className="absolute top-0 left-0 w-full h-full opacity-[0.05]">
+              {[...Array(8)].map((_, i) => (
+                <div
+                  key={i}
+                  className="absolute top-0 h-[200%] bg-primary w-[1px] lg:w-[2px]"
+                  style={{
+                    left: `${5 + (i * 8)}%`,
+                    transform: 'rotate(-20deg) translateY(-25%)',
+                    opacity: 1 - (i * 0.1),
+                  }}
+                />
+              ))}
+            </div>
+
+            {/* Subtle Gradient Fade */}
+            <div className="absolute inset-0 bg-gradient-to-tr from-slate-50 via-transparent to-slate-50/50" />
+          </div>
+
+          <div className="container mx-auto px-6 lg:px-12 relative z-10">
             <div className="mb-20">
               <h2 className="text-4xl lg:text-5xl font-serif text-primary mb-6">{t("expertise.title")}</h2>
               <p className="text-slate-500 max-w-xl text-lg">
