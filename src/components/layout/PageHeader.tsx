@@ -86,7 +86,7 @@ export function PageHeader({
                     className="max-w-5xl"
                 >
                     {badge && (
-                        <span className={`inline-block px-3 py-1 rounded-full ${isDark ? 'bg-white/10 text-white' : 'bg-slate-100 text-primary'} text-[10px] font-bold uppercase tracking-[0.2em] mb-8`}>
+                        <span className={`inline-block px-3 py-1 rounded-full ${isDark ? 'bg-white/10 text-white' : 'bg-slate-100 text-primary'} text-[10px] font-bold uppercase tracking-[0.3em] mb-8`}>
                             {badge}
                         </span>
                     )}

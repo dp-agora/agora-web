@@ -22,15 +22,14 @@ export function Navbar() {
         { name: t("services"), href: "/services" },
         { name: t("team"), href: "/team" },
         { name: t("careers"), href: "/careers" },
-        { name: t("contact"), href: "/contact" },
     ];
 
     return (
         <nav className="sticky top-0 z-50 w-full bg-primary shadow-sm">
-            <div className="container mx-auto flex h-20 items-center justify-between px-6 lg:px-12">
+            <div className="container mx-auto flex h-16 items-center justify-between px-6 lg:px-12">
                 <div className="flex items-center gap-8">
                     <Link href="/" className="group flex items-center">
-                        <div className="relative h-16 w-72">
+                        <div className="relative h-12 w-56">
                             <Image
                                 src="/assets/brand/Logo Agora outline.png"
                                 alt="Ágora Logo"
@@ -52,7 +51,7 @@ export function Navbar() {
                                 key={link.href}
                                 href={link.href as any}
                                 className={cn(
-                                    "text-sm font-medium transition-colors hover:text-white/70",
+                                    "text-[10px] font-bold uppercase tracking-[0.2em] transition-colors hover:text-white/70",
                                     pathname === link.href ? "text-white" : "text-white/80"
                                 )}
                             >
@@ -69,7 +68,8 @@ export function Navbar() {
 
                     <Button
                         onClick={openBooking}
-                        className="hidden sm:inline-flex bg-white text-primary hover:bg-white/90 rounded-none h-11 px-8 text-sm font-semibold tracking-wide uppercase transition-all shadow-sm active:scale-95 cursor-pointer"
+                        variant="outline"
+                        className="hidden sm:inline-flex bg-transparent border-white text-white hover:bg-white hover:text-primary rounded-none h-10 px-8 text-xs font-bold tracking-[0.2em] uppercase transition-all active:scale-95 cursor-pointer"
                     >
                         {t("bookCall")}
                     </Button>

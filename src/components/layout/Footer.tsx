@@ -12,6 +12,7 @@ export function Footer() {
                 { name: t("about"), href: "/about" },
                 { name: t("team"), href: "/team" },
                 { name: t("careers"), href: "/careers" },
+                { name: t("contact"), href: "/contact" },
             ],
         },
         {

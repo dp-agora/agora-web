@@ -57,7 +57,7 @@ export default function Home() {
             >
               <motion.span
                 variants={fadeInUp}
-                className="inline-block px-3 py-1 rounded-full bg-slate-100 text-primary text-[10px] font-bold uppercase tracking-[0.2em] mb-8"
+                className="inline-block px-3 py-1 rounded-full bg-slate-100 text-primary text-[10px] font-bold uppercase tracking-[0.3em] mb-8"
               >
                 {t("hero.badge")}
               </motion.span>
@@ -93,7 +93,7 @@ export default function Home() {
                 variants={fadeInUp}
                 className="pt-12 border-t border-slate-100 flex flex-wrap items-center gap-x-12 gap-y-8"
               >
-                <span className="text-[10px] font-bold text-slate-400 uppercase tracking-[0.2em] w-full lg:w-auto mb-2 lg:mb-0">Recognized by</span>
+                <span className="text-[10px] font-bold text-slate-400 uppercase tracking-[0.3em] w-full lg:w-auto mb-2 lg:mb-0">Recognized by</span>
                 <div className="flex flex-wrap items-center gap-x-10 gap-y-6 grayscale opacity-60">
                   <a
                     href="https://chambers.com/lawyer/alvaro-posada-latin-america-9:210039"

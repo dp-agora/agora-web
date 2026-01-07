@@ -13,6 +13,7 @@
         "about": "About Us",
         "team": "Our Team",
         "careers": "Careers",
+        "contact": "Contact",
         "corporate": "Corporate and M&A",
         "banking": "Banking & Finance",
         "tax": "Tax",
@@ -179,24 +180,55 @@
             "description": "Be part of a dynamic team committed to excellence and innovative solutions in a collaborative environment."
         },
         "intro": {
-            "quote": "\"Innovation, excellence, and leadership define our path.\"",
-            "p1": "At Ágora Abogados, we continue to grow and are looking to add a <seniorLayer>Senior Lawyer</seniorLayer> with solid experience in the corporate and financial world to our team.",
-            "p2": "You will work alongside highly recognized professionals advising national and multinational companies on complex cross-border transactions and strategic legal matters."
+            "quote": "\"Excellence is not an act, but a habit.\"",
+            "p1": "We are seeking exceptional legal talent to join our high-performance team. As an institutional boutique, we offer the opportunity to facilitate complex cross-border transactions and strategic advisory at the highest level.",
+            "p2": "If you are a professional committed to legal excellence and secure innovation, we invite you to explore our current opportunities."
         },
-        "profile": {
-            "title": "Ideal Candidate Profile",
-            "position": "Senior Lawyer",
-            "req1": "More than 6 years of graduate experience.",
-            "req2": "Previous experience in law firms, investment funds, or similar structures.",
-            "req3": "Solid knowledge and experience in:",
-            "skills": [
-                "Corporate and commercial law.",
-                "Capital markets.",
-                "Financing, Credit and Corporate Finance Transactions."
+        "opportunities": {
+            "title": "Current Opportunities",
+            "subtitle": "Join the Elite",
+            "openings": [
+                {
+                    "id": "sr-associate-ma",
+                    "title": "Senior Associate – M&A & Private Equity",
+                    "location": "Caracas / Remote",
+                    "experience": "5+ Years",
+                    "description": "Lead complex cross-border acquisitions and private equity transactions within a high-stakes institutional environment.",
+                    "requirements": [
+                        "Excellence in M&A structuring and negotiation.",
+                        "Deep understanding of Private Equity fund dynamics.",
+                        "Proven track record in cross-border corporate reorganizations."
+                    ]
+                },
+                {
+                    "id": "sr-associate-banking",
+                    "title": "Senior Associate – Banking & Finance",
+                    "location": "Caracas / Mexico City",
+                    "experience": "5+ Years",
+                    "description": "Advise global financial institutions on complex regulatory frameworks, debt restructuring, and sophisticated credit facilities.",
+                    "requirements": [
+                        "Specialized knowledge in Banking & Finance regulations.",
+                        "Experience in debt restructuring and project finance.",
+                        "Bilingual excellence (English/Spanish)."
+                    ]
+                },
+                {
+                    "id": "sr-associate-corporate",
+                    "title": "Senior Associate – Corporate Governance & Advisory",
+                    "location": "Caracas / Aragua",
+                    "experience": "5+ Years",
+                    "description": "Provide high-level corporate advisory and governance support to multinational entities and family offices.",
+                    "requirements": [
+                        "Mastery of corporate law and governance standards.",
+                        "Experience in complex commercial contract negotiation.",
+                        "Strong leadership and project management capabilities."
+                    ]
+                }
             ]
         },
         "contact": {
-            "text": "If you meet the profile, we invite you to send your CV to:"
+            "text": "Send your CV and cover letter to:",
+            "email": "Admin@agoralatam.com"
         }
     },
     "ContactPage": {

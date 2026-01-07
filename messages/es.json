@@ -13,6 +13,7 @@
         "about": "Sobre Nosotros",
         "team": "Nuestro Equipo",
         "careers": "Carreras",
+        "contact": "Contacto",
         "corporate": "Corporativo y M&A",
         "banking": "Banca y Finanzas",
         "tax": "Impuestos",
@@ -179,24 +180,55 @@
             "description": "Forma parte de un equipo dinámico comprometido con la excelencia y soluciones innovadoras en un entorno colaborativo."
         },
         "intro": {
-            "quote": "\"La innovación, la excelencia y el liderazgo definen nuestro camino.\"",
-            "p1": "En Ágora Abogados, seguimos creciendo y buscamos incorporar a nuestro equipo a un <seniorLayer>Abogado Senior</seniorLayer> con sólida experiencia en el mundo corporativo y financiero.",
-            "p2": "Trabajarás junto a profesionales altamente reconocidos asesorando a empresas nacionales y multinacionales en transacciones transfronterizas complejas y asuntos legales estratégicos."
+            "quote": "\"La excelencia no es un acto, sino un hábito.\"",
+            "p1": "Buscamos talento legal excepcional para unirse a nuestro equipo de alto desempeño. Como boutique institucional, ofrecemos la oportunidad de facilitar transacciones transfronterizas complejas y asesoría estratégica al más alto nivel.",
+            "p2": "Si usted es un profesional comprometido con la excelencia legal y la innovación segura, le invitamos a explorar nuestras oportunidades actuales."
         },
-        "profile": {
-            "title": "Perfil del Candidato Ideal",
-            "position": "Abogado Senior",
-            "req1": "Más de 6 años de experiencia de egresado.",
-            "req2": "Experiencia previa en firmas de abogados, fondos de inversión o estructuras similares.",
-            "req3": "Sólido conocimiento y experiencia en:",
-            "skills": [
-                "Derecho corporativo y mercantil.",
-                "Mercado de capitales.",
-                "Financiamiento, Crédito y Operaciones de Finanzas Corporativas."
+        "opportunities": {
+            "title": "Oportunidades Actuales",
+            "subtitle": "Únete a la Élite",
+            "openings": [
+                {
+                    "id": "sr-associate-ma",
+                    "title": "Asociado Senior – M&A y Capital Privado",
+                    "location": "Caracas / Remoto",
+                    "experience": "+5 años",
+                    "description": "Liderar adquisiciones transfronterizas complejas y transacciones de capital privado en un entorno institucional de alto nivel.",
+                    "requirements": [
+                        "Excelencia en estructuración y negociación de M&A.",
+                        "Profundo conocimiento de la dinámica de los fondos de Capital Privado.",
+                        "Trayectoria comprobada en reorganizaciones corporativas transfronterizas."
+                    ]
+                },
+                {
+                    "id": "sr-associate-banking",
+                    "title": "Asociado Senior – Banca y Finanzas",
+                    "location": "Caracas / Ciudad de México",
+                    "experience": "+5 años",
+                    "description": "Asesorar a instituciones financieras globales sobre marcos regulatorios complejos, reestructuración de deuda y facilidades crediticias sofisticadas.",
+                    "requirements": [
+                        "Conocimiento especializado en regulaciones de Banca y Finanzas.",
+                        "Experiencia en reestructuración de deuda y financiamiento de proyectos.",
+                        "Excelencia bilingüe (Inglés/Español)."
+                    ]
+                },
+                {
+                    "id": "sr-associate-corporate",
+                    "title": "Asociado Senior – Gobierno Corporativo y Asesoría",
+                    "location": "Caracas / Aragua",
+                    "experience": "+5 años",
+                    "description": "Brindar asesoría corporativa de alto nivel y apoyo en gobernanza a entidades multinacionales y oficinas familiares.",
+                    "requirements": [
+                        "Maestría en derecho corporativo y estándares de gobernanza.",
+                        "Experiencia en negociación de contratos comerciales complejos.",
+                        "Sólidas capacidades de liderazgo y gestión de proyectos."
+                    ]
+                }
             ]
         },
         "contact": {
-            "text": "Si cumples con el perfil, te invitamos a enviar tu CV a:"
+            "text": "Envíe su CV y carta de presentación a:",
+            "email": "Admin@agoralatam.com"
         }
     },
     "ContactPage": {
