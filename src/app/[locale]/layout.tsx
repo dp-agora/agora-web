@@ -55,6 +55,7 @@ export default async function LocaleLayout({
     <html lang={locale} className="scroll-smooth">
       <body
         className={`${inter.variable} ${libreBaskerville.variable} font-sans antialiased bg-white text-slate-900`}
+        suppressHydrationWarning
       >
         <NextIntlClientProvider messages={messages} locale={locale}>
           <BookingProvider>
