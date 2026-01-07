@@ -378,7 +378,8 @@
                     "Apoyo en Negociaciones",
                     "Integración Post-cierre",
                     "Joint Ventures"
-                ]
+                ],
+                "fullContent": "Nuestro equipo de Corporativo y Fusiones y Adquisiciones se destaca por brindar asesoría clave e integral a clientes tanto nacionales como internacionales en reorganizaciones corporativas globales, fusiones, adquisiciones y joint ventures. Con una amplia experiencia en la industria y un compromiso con soluciones personalizadas, guiamos a nuestros clientes a través de cada etapa de sus transacciones, desde el due diligence y la negociación hasta la integración posterior al cierre. Nuestra experiencia nos ha posicionado como asesores estratégicos clave para quienes emprenden reorganizaciones corporativas, optimizando el gobierno corporativo y alineando a las partes interesadas en múltiples jurisdicciones de la manera más completa, eficiente y ágil. Nuestro equipo cuenta con una destacada trayectoria asistiendo a empresas locales en su expansión internacional, así como ayudando a empresas extranjeras a establecerse en nuestra región."
             },
             "banking": {
                 "title": "Banca y Finanzas",
@@ -388,7 +389,19 @@
                     "Finanzas Automotrices",
                     "Siembra Agrícola",
                     "Cumplimiento Regulatorio"
-                ]
+                ],
+                "fullContent": "Brindamos asesoría legal estratégica a bancos tanto en asuntos regulatorios como en productos financieros, préstamos y otras extensiones de crédito. Nuestro equipo de B&F ha desarrollado una amplia gama de productos financieros, de tesorería y de divisas altamente sofisticados adaptados a los objetivos específicos de los clientes y cuenta con una amplia experiencia en servicios financieros transfronterizos, particularmente con bancos extranjeros que brindan dichos servicios a clientes en la región. Nuestro equipo tiene un historial sólido, exitoso y comprobado en finanzas minoristas, finanzas automotrices y ventas especializadas, como en insumos agrícolas y programas de siembra."
+            },
+            "capital-markets": {
+                "title": "Mercados de Capitales",
+                "desc": "Servicios de asesoría en transacciones de mercados de capitales, asistiendo a clientes con emisiones de valores y operaciones financieras clave.",
+                "features": [
+                    "Emisión de Valores",
+                    "Estrategias de Capital",
+                    "Formación de Fondos",
+                    "Orientación de Inversión"
+                ],
+                "fullContent": "Brindamos servicios de asesoría en transacciones de mercados de capitales, asistiendo a nuestros clientes con emisiones de valores y operaciones financieras clave para respaldar sus planes de crecimiento y cambios financieros estructurales, incluidas estrategias de capital y emisión de deuda. Adaptamos nuestras soluciones a escenarios de capital privado, gestionando la formación de fondos, supervisando transacciones y ofreciendo orientación estratégica sobre inversiones, asegurando que nuestros clientes estén bien posicionados para capitalizar las oportunidades del mercado y lograr un crecimiento sustancial."
             },
             "tax": {
                 "title": "Impuestos",
@@ -398,7 +411,8 @@
                     "Monitoreo de Cumplimiento",
                     "Apoyo en Litigios",
                     "Precios de Transferencia"
-                ]
+                ],
+                "fullContent": "Nuestra Práctica Fiscal se especializa en brindar asesoría estratégica de alto valor en planificación fiscal, cumplimiento, litigios fiscales y precios de transferencia. Con un enfoque en minimizar los riesgos legales y económicos de operar tanto en Venezuela como en el exterior, ofrecemos servicios integrales en áreas como aduanas, comercio internacional, doble tributación, beneficios fiscales, financiamiento de proyectos, fusiones y adquisiciones, entre otros. Nuestro equipo también brinda apoyo en el cumplimiento tributario, recuperaciones de impuestos y asistencia en auditorías. En materia de litigios, representamos a nuestros clientes en disputas fiscales y de precios de transferencia, tanto en procesos administrativos como judiciales, asegurando una defensa sólida y efectiva."
             },
             "labor": {
                 "title": "Laboral y Empleo",
@@ -408,7 +422,8 @@
                     "Planificación de Beneficios",
                     "Visas de Trabajo",
                     "Convenios Colectivos"
-                ]
+                ],
+                "fullContent": "Nuestro equipo es reconocido por ofrecer orientación experta en una amplia gama de asuntos laborales. Desde cuestiones de derecho laboral individual hasta colectivo, brindamos asistencia integral en áreas como contratos de trabajo y acuerdos de todo tipo, negociación, planificación de beneficios para empleados, reducción de personal, análisis y recomendaciones sobre el cumplimiento de la legislación laboral, procesos administrativos y judiciales, así como gestión de visas de trabajo para empleados. Aseguramos el cumplimiento total de las leyes laborales locales al tiempo que minimizamos los riesgos. Con un enfoque práctico y soluciones personalizadas adaptadas a cada cliente, industria y tipo de fuerza laboral, ayudamos a las empresas a gestionar su fuerza laboral de manera eficiente, optimizar procesos y alcanzar sus objetivos operativos estratégicos."
             },
             "regulatory": {
                 "title": "Regulatorio y Cumplimiento",
@@ -418,7 +433,19 @@
                     "Sanciones Económicas",
                     "Auditorías Regulatorias",
                     "Gestión de Riesgos"
-                ]
+                ],
+                "fullContent": "Guiamos y apoyamos a nuestros clientes en la navegación de las complejidades de los marcos regulatorios locales e internacionales. Asistimos a las empresas en el desarrollo e implementación de programas de cumplimiento, asegurando la adhesión a las regulaciones específicas de la industria, las políticas gubernamentales y los estándares legales. Desde evaluaciones de riesgo y presentaciones regulatorias hasta auditorías internas, nuestro equipo ayuda a mitigar los riesgos regulatorios y mantener la integridad operativa en un entorno en constante evolución. Nuestros profesionales cuentan con certificaciones internacionales en cumplimiento y prevención de lavado de dinero, y han asesorado a clientes en la verificación de contrapartes y Due Diligence. Además, brindamos asesoría sobre regímenes de sanciones económicas y facilitamos la selección e interacción con expertos legales extranjeros cuando nuestros clientes requieren opiniones sobre leyes extranjeras y/o coordinación de consultas o solicitudes de licencias bajo regímenes de sanciones económicas específicos."
+            },
+            "debt-restructuring": {
+                "title": "Reestructuración de Deuda",
+                "desc": "Asesoría estratégica sobre la reestructuración de obligaciones financieras y la navegación de procesos de insolvencia.",
+                "features": [
+                    "Reorganización de Deuda",
+                    "Estrategia de Insolvencia",
+                    "Relaciones con Acreedores",
+                    "Recuperación Financiera"
+                ],
+                "fullContent": "Nuestra práctica de Reestructuración de Deuda brinda asesoría estratégica a empresas que buscan reorganizar sus obligaciones financieras. Guiamos a los clientes a través de complejos procesos de reestructuración, ayudándolos a negociar con los acreedores, optimizar su estructura de capital y navegar por los marcos de insolvencia locales e internacionales para asegurar la continuidad del negocio y la estabilidad financiera."
             }
         },
         "methodology": {

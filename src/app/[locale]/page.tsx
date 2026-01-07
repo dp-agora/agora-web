@@ -191,7 +191,6 @@ export default function Home() {
               {[
                 {
                   title: t("services.corporate.title"),
-                  desc: t("HomePage.services.corporate.desc"), // Assuming these keys exist in newer content
                   items: [
                     t("services.corporate.items.0"),
                     t("services.corporate.items.1"),
@@ -200,7 +199,6 @@ export default function Home() {
                 },
                 {
                   title: t("services.banking.title"),
-                  desc: t("HomePage.services.banking.desc"),
                   items: [
                     t("services.banking.items.0"),
                     t("services.banking.items.1"),
@@ -209,7 +207,6 @@ export default function Home() {
                 },
                 {
                   title: t("services.capital.title"),
-                  desc: t("HomePage.services.capital.desc"),
                   items: [
                     t("services.capital.items.0"),
                     t("services.capital.items.1"),
