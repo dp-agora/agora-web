@@ -30,7 +30,7 @@ export default function TeamPage() {
                     role: t("members.maria.role"),
                     bio: t("members.maria.bio"),
                     image: "/assets/team/maria-eugenia.webp",
-                    email: "maria.reyes@agoralatam.com",
+                    email: "mreyes@agoralatam.com",
                     linkedin: "https://www.linkedin.com/in/maria-eugenia-reyes-feo-40410624/"
                 }
             ]
