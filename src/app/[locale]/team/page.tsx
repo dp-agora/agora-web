@@ -22,7 +22,7 @@ export default function TeamPage() {
                     bio: t("members.alvaro.bio"),
                     image: "/assets/team/alvaro-posada.webp",
                     email: "alvaro.posada@agoralatam.com",
-                    linkedin: "#"
+                    linkedin: "https://www.linkedin.com/in/%C3%A1lvaro-posada-328156a4/"
                 },
                 {
                     id: "maria-eugenia-reyes",
@@ -31,7 +31,7 @@ export default function TeamPage() {
                     bio: t("members.maria.bio"),
                     image: "/assets/team/maria-eugenia.webp",
                     email: "maria.reyes@agoralatam.com",
-                    linkedin: "#"
+                    linkedin: "https://www.linkedin.com/in/maria-eugenia-reyes-feo-40410624/"
                 }
             ]
         },
@@ -45,7 +45,7 @@ export default function TeamPage() {
                     bio: t("members.jose.bio"),
                     image: "/assets/team/jose-barnola.webp",
                     email: "jose.barnola@agoralatam.com",
-                    linkedin: "#"
+                    linkedin: "https://mx.linkedin.com/in/josepbarnolajr"
                 },
                 {
                     id: "ariana-cabrera",
@@ -54,7 +54,7 @@ export default function TeamPage() {
                     bio: t("members.ariana.bio"),
                     image: "/assets/team/ariana-cabrera.webp",
                     email: "ariana.cabrera@agoralatam.com",
-                    linkedin: "#"
+                    linkedin: "https://ve.linkedin.com/in/ariana-cabrera-acevedo"
                 }
             ]
         },
@@ -68,15 +68,15 @@ export default function TeamPage() {
                     bio: t("members.lizeth.bio"),
                     image: "/assets/team/lizeth-reyes.webp",
                     email: "lizeth.reyes@agoralatam.com",
-                    linkedin: "#"
+                    linkedin: "https://www.linkedin.com/in/lizeth-reyesb"
                 }
             ]
         },
         {
             title: t("groups.associates"),
             members: [
-                { id: "marco-gomez", name: "Marco Gómez", role: t("members.marco.role"), bio: t("members.marco.bio"), image: "/assets/team/marco-gomez.webp", email: "marco.gomez@agoralatam.com", linkedin: "#" },
-                { id: "barbara-briceno", name: "Bárbara Briceño", role: t("members.barbara.role"), bio: t("members.barbara.bio"), image: "/assets/team/barbara-briceno.webp", email: "barbara.briceno@agoralatam.com", linkedin: "#" },
+                { id: "marco-gomez", name: "Marco Gómez", role: t("members.marco.role"), bio: t("members.marco.bio"), image: "/assets/team/marco-gomez.webp", email: "marco.gomez@agoralatam.com", linkedin: "https://www.linkedin.com/in/marcoantoniogomez/" },
+                { id: "barbara-briceno", name: "Bárbara Briceño", role: t("members.barbara.role"), bio: t("members.barbara.bio"), image: "/assets/team/barbara-briceno.webp", email: "barbara.briceno@agoralatam.com", linkedin: "https://www.linkedin.com/in/barbara-briceño-7a1b9b53" },
                 { id: "manuel-domingo", name: "Manuel Domingo", role: t("members.manuel.role"), bio: t("members.manuel.bio"), image: "/assets/team/manuel-domingo.webp", email: "manuel.domingo@agoralatam.com", linkedin: "#" },
                 { id: "dayana-veliz", name: "Dayana Velíz", role: t("members.dayana.role"), bio: t("members.dayana.bio"), image: "/assets/team/dayana-veliz.webp", email: "dayana.veliz@agoralatam.com", linkedin: "#" },
                 { id: "raul-sancristobal", name: "Raúl Sancristobal", role: t("members.raul.role"), bio: t("members.raul.bio"), image: "/assets/team/raul-sancristobal.webp", email: "raul.sancristobal@agoralatam.com", linkedin: "#" },
