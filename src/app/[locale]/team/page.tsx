@@ -21,7 +21,7 @@ export default function TeamPage() {
                     role: t("members.alvaro.role"),
                     bio: t("members.alvaro.bio"),
                     image: "/assets/team/alvaro-posada.webp",
-                    email: "alvaro.posada@agoralatam.com",
+                    email: "aposada@agoralatam.com",
                     linkedin: "https://www.linkedin.com/in/%C3%A1lvaro-posada-328156a4/"
                 },
                 {
@@ -44,7 +44,7 @@ export default function TeamPage() {
                     role: t("members.jose.role"),
                     bio: t("members.jose.bio"),
                     image: "/assets/team/jose-barnola.webp",
-                    email: "jose.barnola@agoralatam.com",
+                    email: "jbarnola@agoralatam.com",
                     linkedin: "https://mx.linkedin.com/in/josepbarnolajr"
                 },
                 {
@@ -53,7 +53,7 @@ export default function TeamPage() {
                     role: t("members.ariana.role"),
                     bio: t("members.ariana.bio"),
                     image: "/assets/team/ariana-cabrera.webp",
-                    email: "ariana.cabrera@agoralatam.com",
+                    email: "acabrera@agoralatam.com",
                     linkedin: "https://ve.linkedin.com/in/ariana-cabrera-acevedo"
                 }
             ]
@@ -67,7 +67,7 @@ export default function TeamPage() {
                     role: t("members.lizeth.role"),
                     bio: t("members.lizeth.bio"),
                     image: "/assets/team/lizeth-reyes.webp",
-                    email: "lizeth.reyes@agoralatam.com",
+                    email: "lreyes@agoralatam.com",
                     linkedin: "https://www.linkedin.com/in/lizeth-reyesb"
                 }
             ]
@@ -75,22 +75,22 @@ export default function TeamPage() {
         {
             title: t("groups.associates"),
             members: [
-                { id: "marco-gomez", name: "Marco Gómez", role: t("members.marco.role"), bio: t("members.marco.bio"), image: "/assets/team/marco-gomez.webp", email: "marco.gomez@agoralatam.com", linkedin: "https://www.linkedin.com/in/marcoantoniogomez/" },
-                { id: "barbara-briceno", name: "Bárbara Briceño", role: t("members.barbara.role"), bio: t("members.barbara.bio"), image: "/assets/team/barbara-briceno.webp", email: "barbara.briceno@agoralatam.com", linkedin: "https://www.linkedin.com/in/barbara-briceño-7a1b9b53" },
-                { id: "manuel-domingo", name: "Manuel Domingo", role: t("members.manuel.role"), bio: t("members.manuel.bio"), image: "/assets/team/manuel-domingo.webp", email: "manuel.domingo@agoralatam.com", linkedin: "https://www.linkedin.com/in/manuel-domingo-2419b273/" },
-                { id: "dayana-veliz", name: "Dayana Velíz", role: t("members.dayana.role"), bio: t("members.dayana.bio"), image: "/assets/team/dayana-veliz.webp", email: "dayana.veliz@agoralatam.com", linkedin: "https://www.linkedin.com/in/dayana-veliz-1714b5162/" },
-                { id: "raul-sancristobal", name: "Raúl Sancristobal", role: t("members.raul.role"), bio: t("members.raul.bio"), image: "/assets/team/raul-sancristobal.webp", email: "raul.sancristobal@agoralatam.com", linkedin: "https://www.linkedin.com/in/raul-eduardo-sancristobal-444a44139/" },
-                { id: "rodrigo-colmenares", name: "Rodrigo Colmenares", role: t("members.rodrigo.role"), bio: t("members.rodrigo.bio"), image: "/assets/team/rodrigo-colmenares.webp", email: "rodrigo.colmenares@agoralatam.com", linkedin: "https://www.linkedin.com/in/rodrigo-colmenares-fernández-144b03200/" },
-                { id: "andreina-flores", name: "Andreína Flores", role: t("members.andreina.role"), bio: t("members.andreina.bio"), image: "/assets/team/andreina-flores.webp", email: "andreina.flores@agoralatam.com", linkedin: "http://www.linkedin.com/in/andreina-floresr" },
-                { id: "fabiola-flores", name: "Fabiola Flores", role: t("members.fabiola.role"), bio: t("members.fabiola.bio"), image: "/assets/team/fabiola-flores.webp", email: "fabiola.flores@agoralatam.com", linkedin: "https://www.linkedin.com/in/fabiola-floresr" }
+                { id: "marco-gomez", name: "Marco Gómez", role: t("members.marco.role"), bio: t("members.marco.bio"), image: "/assets/team/marco-gomez.webp", email: "mgomez@agoralatam.com", linkedin: "https://www.linkedin.com/in/marcoantoniogomez/" },
+                { id: "barbara-briceno", name: "Bárbara Briceño", role: t("members.barbara.role"), bio: t("members.barbara.bio"), image: "/assets/team/barbara-briceno.webp", email: "bbriceno@agoralatam.com", linkedin: "https://www.linkedin.com/in/barbara-briceño-7a1b9b53" },
+                { id: "manuel-domingo", name: "Manuel Domingo", role: t("members.manuel.role"), bio: t("members.manuel.bio"), image: "/assets/team/manuel-domingo.webp", email: "mdomingo@agoralatam.com", linkedin: "https://www.linkedin.com/in/manuel-domingo-2419b273/" },
+                { id: "dayana-veliz", name: "Dayana Velíz", role: t("members.dayana.role"), bio: t("members.dayana.bio"), image: "/assets/team/dayana-veliz.webp", email: "dveliz@agoralatam.com", linkedin: "https://www.linkedin.com/in/dayana-veliz-1714b5162/" },
+                { id: "raul-sancristobal", name: "Raúl Sancristobal", role: t("members.raul.role"), bio: t("members.raul.bio"), image: "/assets/team/raul-sancristobal.webp", email: "rsancristobal@agoralatam.com", linkedin: "https://www.linkedin.com/in/raul-eduardo-sancristobal-444a44139/" },
+                { id: "rodrigo-colmenares", name: "Rodrigo Colmenares", role: t("members.rodrigo.role"), bio: t("members.rodrigo.bio"), image: "/assets/team/rodrigo-colmenares.webp", email: "rcolmenares@agoralatam.com", linkedin: "https://www.linkedin.com/in/rodrigo-colmenares-fernández-144b03200/" },
+                { id: "andreina-flores", name: "Andreína Flores", role: t("members.andreina.role"), bio: t("members.andreina.bio"), image: "/assets/team/andreina-flores.webp", email: "aflores@agoralatam.com", linkedin: "http://www.linkedin.com/in/andreina-floresr" },
+                { id: "fabiola-flores", name: "Fabiola Flores", role: t("members.fabiola.role"), bio: t("members.fabiola.bio"), image: "/assets/team/fabiola-flores.webp", email: "fflores@agoralatam.com", linkedin: "https://www.linkedin.com/in/fabiola-floresr" }
             ]
         },
         {
             title: t("groups.operations"),
             members: [
-                { id: "andrea-regalado", name: "Andrea Regalado", role: t("members.andrea.role"), bio: t("members.andrea.bio"), image: "/assets/team/andrea-regalado.webp", email: "andrea.regalado@agoralatam.com", linkedin: "https://www.linkedin.com/in/andrea-victoria-regalado-reyes-7073141a6/" },
-                { id: "oriana-rodriguez", name: "Oriana Rodríguez", role: t("members.oriana.role"), bio: t("members.oriana.bio"), image: "/assets/team/oriana-rodriguez.webp", email: "oriana.rodriguez@agoralatam.com", linkedin: "https://www.linkedin.com/in/oriana-rodriguez-6b4b7453/" },
-                { id: "juan-posada", name: "Juan Francisco Posada", role: t("members.juan.role"), bio: t("members.juan.bio"), image: "/assets/team/juan-posada.webp", email: "juan.posada@agoralatam.com", linkedin: "https://www.linkedin.com/in/juanfposada/" }
+                { id: "andrea-regalado", name: "Andrea Regalado", role: t("members.andrea.role"), bio: t("members.andrea.bio"), image: "/assets/team/andrea-regalado.webp", email: "aregalado@agoralatam.com", linkedin: "https://www.linkedin.com/in/andrea-victoria-regalado-reyes-7073141a6/" },
+                { id: "oriana-rodriguez", name: "Oriana Rodríguez", role: t("members.oriana.role"), bio: t("members.oriana.bio"), image: "/assets/team/oriana-rodriguez.webp", email: "orodriguez@agoralatam.com", linkedin: "https://www.linkedin.com/in/oriana-rodriguez-6b4b7453/" },
+                { id: "juan-posada", name: "Juan Francisco Posada", role: t("members.juan.role"), bio: t("members.juan.bio"), image: "/assets/team/juan-posada.webp", email: "jposada@agoralatam.com", linkedin: "https://www.linkedin.com/in/juanfposada/" }
             ]
         }
     ];
