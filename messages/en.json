@@ -227,8 +227,33 @@
             ]
         },
         "contact": {
+            "apply": "Apply Now",
             "text": "Send your CV and cover letter to:",
             "email": "Admin@agoralatam.com"
+        },
+        "form": {
+            "title": "Apply for Position",
+            "firstName": "First Name",
+            "lastName": "Last Name",
+            "email": "Email Address",
+            "phone": "Phone Number",
+            "linkedin": "LinkedIn Profile URL",
+            "resume": "CV / Resume (PDF)",
+            "placeholder": {
+                "firstName": "Enter your first name",
+                "lastName": "Enter your last name",
+                "email": "email@example.com",
+                "phone": "+1 (555) 000-0000",
+                "linkedin": "https://linkedin.com/in/username",
+                "resume": "Upload your CV in PDF format"
+            },
+            "submit": "Submit Application",
+            "submitting": "Processing...",
+            "success": {
+                "title": "Application Received",
+                "message": "Thank you for your interest. Our recruitment team will review your profile and reach out if there is a match with the position."
+            },
+            "close": "Close"
         }
     },
     "ContactPage": {

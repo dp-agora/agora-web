@@ -227,8 +227,33 @@
             ]
         },
         "contact": {
+            "apply": "Postular Ahora",
             "text": "Envíe su CV y carta de presentación a:",
             "email": "Admin@agoralatam.com"
+        },
+        "form": {
+            "title": "Postular a la Posición",
+            "firstName": "Nombre",
+            "lastName": "Apellido",
+            "email": "Correo Electrónico",
+            "phone": "Número de Teléfono",
+            "linkedin": "URL de Perfil LinkedIn",
+            "resume": "CV / Resume (PDF)",
+            "placeholder": {
+                "firstName": "Ingrese su nombre",
+                "lastName": "Ingrese su apellido",
+                "email": "correo@ejemplo.com",
+                "phone": "+58 000 0000000",
+                "linkedin": "https://linkedin.com/in/usuario",
+                "resume": "Cargue su CV en formato PDF"
+            },
+            "submit": "Enviar Postulación",
+            "submitting": "Procesando...",
+            "success": {
+                "title": "Postulación Recibida",
+                "message": "Gracias por su interés. Nuestro equipo de reclutamiento revisará su perfil y se pondrá en contacto si hay una coincidencia con la posición."
+            },
+            "close": "Cerrar"
         }
     },
     "ContactPage": {
