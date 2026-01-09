@@ -57,12 +57,12 @@ export async function POST(req: NextRequest) {
         const buffer = Buffer.from(await cvFile.arrayBuffer());
 
         const { data, error } = await resend.emails.send({
-            from: "Agora Careers <onboarding@resend.dev>",
+            from: "Agora Abogados <dposada@agoralatam.com>",
             to: "dposada@agoralatam.com",
-            subject: `New Application — ${jobTitle}`,
+            subject: `New Job Application — ${jobTitle}`,
             replyTo: email,
             text: `
-        New application received for: ${jobTitle}
+        New job application received for: ${jobTitle}
         
         APPLICANT INFORMATION:
         ----------------------
