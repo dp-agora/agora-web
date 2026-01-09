@@ -2,9 +2,32 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, CheckCircle2, Loader2, Upload, FileText } from 'lucide-react';
-import { useTranslations } from "next-intl";
-import Image from "next/image";
+import { X, CheckCircle2, Loader2, Upload, FileText, AlertCircle } from 'lucide-react';
+import { useTranslations, useLocale } from "next-intl";
+import { useForm } from "react-hook-form";
+import { zodResolver } from "@hookform/resolvers/zod";
+import * as z from "zod";
+import { toast } from "sonner";
+
+const MAX_FILE_SIZE = 10 * 1024 * 1024; // 10MB
+const ACCEPTED_FILE_TYPES = ["application/pdf"];
+
+const formSchema = z.object({
+    firstName: z.string().min(1, "First name is required"),
+    lastName: z.string().min(1, "Last name is required"),
+    email: z.string().email("Invalid email address"),
+    phone: z.string().optional(),
+    linkedin: z.string().url("Invalid LinkedIn URL").or(z.literal("")).optional(),
+    cvFile: z.any()
+        .refine((file) => file instanceof File, "CV/Resume is required")
+        .refine((file) => !file || file.size <= MAX_FILE_SIZE, `Max file size is 10MB.`)
+        .refine(
+            (file) => !file || ACCEPTED_FILE_TYPES.includes(file.type),
+            "Only .pdf format is supported."
+        ),
+});
+
+type FormValues = z.infer<typeof formSchema>;
 
 interface ApplicationModalProps {
     isOpen: boolean;
@@ -14,11 +37,23 @@ interface ApplicationModalProps {
 
 export function ApplicationModal({ isOpen, onClose, jobTitle }: ApplicationModalProps) {
     const t = useTranslations("CareersPage.form");
+    const locale = useLocale();
     const [isSubmitted, setIsSubmitted] = useState(false);
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [selectedFile, setSelectedFile] = useState<File | null>(null);
     const modalRef = useRef<HTMLDivElement>(null);
     const fileInputRef = useRef<HTMLInputElement>(null);
+
+    const {
+        register,
+        handleSubmit,
+        setValue,
+        watch,
+        reset,
+        formState: { errors }
+    } = useForm<FormValues>({
+        resolver: zodResolver(formSchema),
+    });
 
     // Reset state when opening
     useEffect(() => {
@@ -26,8 +61,9 @@ export function ApplicationModal({ isOpen, onClose, jobTitle }: ApplicationModal
             setIsSubmitted(false);
             setIsSubmitting(false);
             setSelectedFile(null);
+            reset();
         }
-    }, [isOpen]);
+    }, [isOpen, reset]);
 
     // Handle Escape key
     useEffect(() => {
@@ -40,19 +76,44 @@ export function ApplicationModal({ isOpen, onClose, jobTitle }: ApplicationModal
 
     const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         if (e.target.files && e.target.files[0]) {
-            setSelectedFile(e.target.files[0]);
+            const file = e.target.files[0];
+            setSelectedFile(file);
+            setValue("cvFile", file, { shouldValidate: true });
         }
     };
 
-    const handleSubmit = (e: React.FormEvent) => {
-        e.preventDefault();
+    const onSubmit = async (data: FormValues) => {
         setIsSubmitting(true);
 
-        // Simulate API call
-        setTimeout(() => {
-            setIsSubmitting(false);
+        try {
+            const formData = new FormData();
+            formData.append("firstName", data.firstName);
+            formData.append("lastName", data.lastName);
+            formData.append("email", data.email);
+            formData.append("phone", data.phone || "");
+            formData.append("linkedInUrl", data.linkedin || "");
+            formData.append("jobTitle", jobTitle || "General Application");
+            formData.append("cvFile", data.cvFile);
+
+            const response = await fetch(`/${locale}/api/submit-application`, {
+                method: "POST",
+                body: formData,
+            });
+
+            const result = await response.json();
+
+            if (!response.ok) {
+                throw new Error(result.error || "Failed to submit application");
+            }
+
             setIsSubmitted(true);
-        }, 1500);
+            toast.success("Application submitted successfully!");
+        } catch (error: any) {
+            console.error("Submission error:", error);
+            toast.error(error.message || "An error occurred while submitting your application.");
+        } finally {
+            setIsSubmitting(false);
+        }
     };
 
     return (
@@ -75,10 +136,10 @@ export function ApplicationModal({ isOpen, onClose, jobTitle }: ApplicationModal
                         animate={{ opacity: 1, scale: 1, y: 0 }}
                         exit={{ opacity: 0, scale: 0.9, y: 30 }}
                         transition={{ type: 'spring', damping: 25, stiffness: 300 }}
-                        className="relative w-full max-w-2xl bg-white shadow-2xl overflow-hidden rounded-sm"
+                        className="relative w-full max-w-2xl bg-white shadow-2xl overflow-hidden rounded-sm flex flex-col max-h-[90vh]"
                     >
                         {/* Header */}
-                        <div className="flex items-center justify-between px-8 py-6 border-b border-slate-100 bg-white">
+                        <div className="flex items-center justify-between px-8 py-6 border-b border-slate-100 bg-white shrink-0">
                             <div className="space-y-1">
                                 <h3 className="text-xl font-serif text-primary italic leading-none">
                                     {t("title")}
@@ -99,78 +160,84 @@ export function ApplicationModal({ isOpen, onClose, jobTitle }: ApplicationModal
                         </div>
 
                         {/* Content */}
-                        <div className="p-8 md:p-12 overflow-y-auto max-h-[70vh]">
+                        <div className="p-8 md:p-12 overflow-y-auto">
                             {!isSubmitted ? (
-                                <form onSubmit={handleSubmit} className="space-y-8">
+                                <form onSubmit={handleSubmit(onSubmit)} className="space-y-8">
                                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                                         <div className="space-y-2">
-                                            <label className="text-[10px] font-bold uppercase tracking-[0.2em] text-slate-500">
-                                                {t("firstName")}
+                                            <label className="text-[10px] font-bold uppercase tracking-[0.2em] text-slate-500 flex justify-between">
+                                                <span>{t("firstName")}</span>
+                                                {errors.firstName && <span className="text-destructive lowercase tracking-normal flex items-center gap-1"><AlertCircle className="h-3 w-3" /> {errors.firstName.message}</span>}
                                             </label>
                                             <input
-                                                required
+                                                {...register("firstName")}
                                                 type="text"
                                                 placeholder={t("placeholder.firstName")}
-                                                className="w-full bg-slate-50 border-b border-slate-200 py-3 px-4 text-primary focus:border-primary focus:outline-none transition-colors placeholder:text-slate-300 font-light italic"
+                                                className={`w-full bg-slate-50 border-b py-3 px-4 text-primary focus:outline-none transition-colors placeholder:text-slate-300 font-light italic ${errors.firstName ? 'border-destructive' : 'border-slate-200 focus:border-primary'}`}
                                             />
                                         </div>
                                         <div className="space-y-2">
-                                            <label className="text-[10px] font-bold uppercase tracking-[0.2em] text-slate-500">
-                                                {t("lastName")}
+                                            <label className="text-[10px] font-bold uppercase tracking-[0.2em] text-slate-500 flex justify-between">
+                                                <span>{t("lastName")}</span>
+                                                {errors.lastName && <span className="text-destructive lowercase tracking-normal flex items-center gap-1"><AlertCircle className="h-3 w-3" /> {errors.lastName.message}</span>}
                                             </label>
                                             <input
-                                                required
+                                                {...register("lastName")}
                                                 type="text"
                                                 placeholder={t("placeholder.lastName")}
-                                                className="w-full bg-slate-50 border-b border-slate-200 py-3 px-4 text-primary focus:border-primary focus:outline-none transition-colors placeholder:text-slate-300 font-light italic"
+                                                className={`w-full bg-slate-50 border-b py-3 px-4 text-primary focus:outline-none transition-colors placeholder:text-slate-300 font-light italic ${errors.lastName ? 'border-destructive' : 'border-slate-200 focus:border-primary'}`}
                                             />
                                         </div>
                                     </div>
 
                                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                                         <div className="space-y-2">
-                                            <label className="text-[10px] font-bold uppercase tracking-[0.2em] text-slate-500">
-                                                {t("email")}
+                                            <label className="text-[10px] font-bold uppercase tracking-[0.2em] text-slate-500 flex justify-between">
+                                                <span>{t("email")}</span>
+                                                {errors.email && <span className="text-destructive lowercase tracking-normal flex items-center gap-1"><AlertCircle className="h-3 w-3" /> {errors.email.message}</span>}
                                             </label>
                                             <input
-                                                required
+                                                {...register("email")}
                                                 type="email"
                                                 placeholder={t("placeholder.email")}
-                                                className="w-full bg-slate-50 border-b border-slate-200 py-3 px-4 text-primary focus:border-primary focus:outline-none transition-colors placeholder:text-slate-300 font-light italic"
+                                                className={`w-full bg-slate-50 border-b py-3 px-4 text-primary focus:outline-none transition-colors placeholder:text-slate-300 font-light italic ${errors.email ? 'border-destructive' : 'border-slate-200 focus:border-primary'}`}
                                             />
                                         </div>
                                         <div className="space-y-2">
-                                            <label className="text-[10px] font-bold uppercase tracking-[0.2em] text-slate-500">
-                                                {t("phone")}
+                                            <label className="text-[10px] font-bold uppercase tracking-[0.2em] text-slate-500 flex justify-between">
+                                                <span>{t("phone")}</span>
+                                                {errors.phone && <span className="text-destructive lowercase tracking-normal flex items-center gap-1"><AlertCircle className="h-3 w-3" /> {errors.phone.message}</span>}
                                             </label>
                                             <input
-                                                required
+                                                {...register("phone")}
                                                 type="tel"
                                                 placeholder={t("placeholder.phone")}
-                                                className="w-full bg-slate-50 border-b border-slate-200 py-3 px-4 text-primary focus:border-primary focus:outline-none transition-colors placeholder:text-slate-300 font-light italic"
+                                                className={`w-full bg-slate-50 border-b py-3 px-4 text-primary focus:outline-none transition-colors placeholder:text-slate-300 font-light italic ${errors.phone ? 'border-destructive' : 'border-slate-200 focus:border-primary'}`}
                                             />
                                         </div>
                                     </div>
 
                                     <div className="space-y-2">
-                                        <label className="text-[10px] font-bold uppercase tracking-[0.2em] text-slate-500">
-                                            {t("linkedin")}
+                                        <label className="text-[10px] font-bold uppercase tracking-[0.2em] text-slate-500 flex justify-between">
+                                            <span>{t("linkedin")}</span>
+                                            {errors.linkedin && <span className="text-destructive lowercase tracking-normal flex items-center gap-1"><AlertCircle className="h-3 w-3" /> {errors.linkedin.message}</span>}
                                         </label>
                                         <input
-                                            required
+                                            {...register("linkedin")}
                                             type="url"
                                             placeholder={t("placeholder.linkedin")}
-                                            className="w-full bg-slate-50 border-b border-slate-200 py-3 px-4 text-primary focus:border-primary focus:outline-none transition-colors placeholder:text-slate-300 font-light italic"
+                                            className={`w-full bg-slate-50 border-b py-3 px-4 text-primary focus:outline-none transition-colors placeholder:text-slate-300 font-light italic ${errors.linkedin ? 'border-destructive' : 'border-slate-200 focus:border-primary'}`}
                                         />
                                     </div>
 
                                     <div className="space-y-2">
-                                        <label className="text-[10px] font-bold uppercase tracking-[0.2em] text-slate-500">
-                                            {t("resume")}
-                                        </label>
+                                        <div className="text-[10px] font-bold uppercase tracking-[0.2em] text-slate-500 flex justify-between">
+                                            <span>{t("resume")}</span>
+                                            {errors.cvFile && <span className="text-destructive lowercase tracking-normal flex items-center gap-1"><AlertCircle className="h-3 w-3" /> {errors.cvFile.message as string}</span>}
+                                        </div>
                                         <div
                                             onClick={() => fileInputRef.current?.click()}
-                                            className="group cursor-pointer border-2 border-dashed border-slate-200 hover:border-primary/30 bg-slate-50 p-8 text-center transition-all duration-500"
+                                            className={`group cursor-pointer border-2 border-dashed p-8 text-center transition-all duration-500 bg-slate-50 ${errors.cvFile ? 'border-destructive/30' : 'border-slate-200 hover:border-primary/30'}`}
                                         >
                                             <input
                                                 ref={fileInputRef}
@@ -178,7 +245,6 @@ export function ApplicationModal({ isOpen, onClose, jobTitle }: ApplicationModal
                                                 accept=".pdf"
                                                 onChange={handleFileChange}
                                                 className="hidden"
-                                                required
                                             />
                                             {selectedFile ? (
                                                 <div className="flex items-center justify-center gap-3 text-primary">
@@ -188,9 +254,9 @@ export function ApplicationModal({ isOpen, onClose, jobTitle }: ApplicationModal
                                             ) : (
                                                 <div className="space-y-3">
                                                     <div className="flex justify-center">
-                                                        <Upload className="h-6 w-6 text-slate-400 group-hover:text-primary transition-colors" />
+                                                        <Upload className={`h-6 w-6 transition-colors ${errors.cvFile ? 'text-destructive' : 'text-slate-400 group-hover:text-primary'}`} />
                                                     </div>
-                                                    <p className="text-sm text-slate-400 group-hover:text-primary transition-colors font-light italic">
+                                                    <p className={`text-sm transition-colors font-light italic ${errors.cvFile ? 'text-destructive' : 'text-slate-400 group-hover:text-primary'}`}>
                                                         {t("placeholder.resume")}
                                                     </p>
                                                 </div>
@@ -202,7 +268,7 @@ export function ApplicationModal({ isOpen, onClose, jobTitle }: ApplicationModal
                                         <button
                                             type="submit"
                                             disabled={isSubmitting}
-                                            className="w-full bg-primary text-white py-5 px-8 text-xs font-bold uppercase tracking-[0.3em] hover:bg-slate-800 transition-all duration-500 flex items-center justify-center gap-3 disabled:opacity-70"
+                                            className="w-full bg-primary text-white py-5 px-8 text-xs font-bold uppercase tracking-[0.3em] hover:bg-slate-800 transition-all duration-500 flex items-center justify-center gap-3 disabled:opacity-70 disabled:cursor-not-allowed"
                                         >
                                             {isSubmitting ? (
                                                 <>
