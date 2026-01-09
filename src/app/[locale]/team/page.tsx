@@ -167,7 +167,7 @@ export default function TeamPage() {
                                                 </div>
                                             </Link>
 
-                                            <div className="flex gap-4 pt-8 mt-auto border-t border-slate-50">
+                                            <div className="flex items-center gap-6 pt-8 mt-auto border-t border-slate-50">
                                                 <a
                                                     href={member.linkedin}
                                                     target="_blank"
@@ -187,7 +187,7 @@ export default function TeamPage() {
                                                 </a>
                                                 <a
                                                     href={`mailto:${member.email}`}
-                                                    className="inline-flex items-center justify-center h-8 w-8 rounded-full border border-primary/5 text-primary hover:bg-primary hover:text-white transition-all duration-300"
+                                                    className="text-[10px] font-bold text-primary/60 hover:text-primary transition-colors tracking-[0.1em]"
                                                     onClick={(e) => {
                                                         e.stopPropagation();
                                                         // PostHog: Track email click
@@ -197,7 +197,7 @@ export default function TeamPage() {
                                                         });
                                                     }}
                                                 >
-                                                    <Mail className="h-4 w-4" />
+                                                    {member.email}
                                                 </a>
                                             </div>
                                         </div>
