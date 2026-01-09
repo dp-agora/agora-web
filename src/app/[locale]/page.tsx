@@ -9,6 +9,7 @@ import { Link } from "@/i18n/routing";
 import { useTranslations } from "next-intl";
 import { useBooking } from "@/context/BookingContext";
 import Image from "next/image";
+import posthog from 'posthog-js';
 
 const fadeInUp = {
   initial: { opacity: 0, y: 20 },
@@ -100,6 +101,13 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 hover:opacity-100 transition-opacity flex-shrink-0"
+                    onClick={() => {
+                      // PostHog: Track external recognition link clicked
+                      posthog.capture('external_recognition_clicked', {
+                        recognition_name: 'CHAMBERS GLOBAL',
+                        recognition_url: 'https://chambers.com/lawyer/alvaro-posada-latin-america-9:210039',
+                      });
+                    }}
                   >
                     <Award className="h-5 w-5 text-primary" />
                     <span className="text-sm font-bold tracking-tight text-primary uppercase">CHAMBERS GLOBAL</span>

@@ -7,6 +7,7 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { Link } from "@/i18n/routing";
 import { Linkedin, Mail } from "lucide-react";
+import posthog from 'posthog-js';
 
 export default function TeamPage() {
     const t = useTranslations("TeamPage");
@@ -127,7 +128,19 @@ export default function TeamPage() {
                                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 lg:gap-20">
                                     {group.members.map((member, i) => (
                                         <div key={i} className="group flex flex-col h-full">
-                                            <Link href={`/team/${member.id}`} className="flex-1 space-y-8">
+                                            <Link
+                                                href={`/team/${member.id}`}
+                                                className="flex-1 space-y-8"
+                                                onClick={() => {
+                                                    // PostHog: Track team member profile clicked
+                                                    posthog.capture('team_member_profile_clicked', {
+                                                        member_id: member.id,
+                                                        member_name: member.name,
+                                                        member_role: member.role,
+                                                        team_group: group.title,
+                                                    });
+                                                }}
+                                            >
                                                 <div className="aspect-[4/5] bg-slate-50 grayscale group-hover:grayscale-0 transition-all duration-700 border border-slate-100 relative overflow-hidden">
                                                     {member.image ? (
                                                         <Image
@@ -160,14 +173,29 @@ export default function TeamPage() {
                                                     target="_blank"
                                                     rel="noopener noreferrer"
                                                     className="inline-flex items-center justify-center h-8 w-8 rounded-full border border-primary/5 text-primary hover:bg-primary hover:text-white transition-all duration-300"
-                                                    onClick={(e) => e.stopPropagation()}
+                                                    onClick={(e) => {
+                                                        e.stopPropagation();
+                                                        // PostHog: Track LinkedIn click
+                                                        posthog.capture('team_member_linkedin_clicked', {
+                                                            member_id: member.id,
+                                                            member_name: member.name,
+                                                            linkedin_url: member.linkedin,
+                                                        });
+                                                    }}
                                                 >
                                                     <Linkedin className="h-4 w-4" />
                                                 </a>
                                                 <a
                                                     href={`mailto:${member.email}`}
                                                     className="inline-flex items-center justify-center h-8 w-8 rounded-full border border-primary/5 text-primary hover:bg-primary hover:text-white transition-all duration-300"
-                                                    onClick={(e) => e.stopPropagation()}
+                                                    onClick={(e) => {
+                                                        e.stopPropagation();
+                                                        // PostHog: Track email click
+                                                        posthog.capture('team_member_email_clicked', {
+                                                            member_id: member.id,
+                                                            member_name: member.name,
+                                                        });
+                                                    }}
                                                 >
                                                     <Mail className="h-4 w-4" />
                                                 </a>

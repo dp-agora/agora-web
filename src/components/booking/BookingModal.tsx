@@ -1,21 +1,31 @@
 "use client";
 
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X } from 'lucide-react';
 import { useBooking } from '@/context/BookingContext';
 import { useTranslations } from "next-intl";
 import Image from "next/image";
+import posthog from 'posthog-js';
 
 export function BookingModal() {
     const { isOpen, closeBooking } = useBooking();
     const modalRef = useRef<HTMLDivElement>(null);
     const t = useTranslations("Booking");
 
+    // Track booking modal close with PostHog
+    const handleCloseBooking = useCallback((closeMethod: string) => {
+        posthog.capture('booking_modal_closed', {
+            close_method: closeMethod,
+            timestamp: new Date().toISOString(),
+        });
+        closeBooking();
+    }, [closeBooking]);
+
     useEffect(() => {
         const handleEscape = (e: KeyboardEvent) => {
             if (e.key === 'Escape') {
-                closeBooking();
+                handleCloseBooking('escape_key');
             }
         };
 
@@ -26,7 +36,7 @@ export function BookingModal() {
         return () => {
             window.removeEventListener('keydown', handleEscape);
         };
-    }, [isOpen, closeBooking]);
+    }, [isOpen, handleCloseBooking]);
 
     // Focus trap
     useEffect(() => {
@@ -71,7 +81,7 @@ export function BookingModal() {
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         exit={{ opacity: 0 }}
-                        onClick={closeBooking}
+                        onClick={() => handleCloseBooking('backdrop_click')}
                         className="absolute inset-0 bg-primary/90 backdrop-blur-sm"
                     />
 
@@ -97,7 +107,7 @@ export function BookingModal() {
                                 </div>
                             </div>
                             <button
-                                onClick={closeBooking}
+                                onClick={() => handleCloseBooking('close_button')}
                                 className="p-2 text-white/60 hover:text-white transition-colors focus:outline-none focus:ring-2 focus:ring-white/20"
                                 aria-label="Close modal"
                             >

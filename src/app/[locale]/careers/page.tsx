@@ -8,15 +8,23 @@ import { MoveUpRight, ArrowRight } from "lucide-react";
 import { Link } from "@/i18n/routing";
 import { useTranslations } from "next-intl";
 import { ApplicationModal } from "@/components/careers/ApplicationModal";
+import posthog from 'posthog-js';
 
 export default function CareersPage() {
     const t = useTranslations("CareersPage");
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [selectedJob, setSelectedJob] = useState("");
 
-    const handleApply = (jobTitle: string) => {
+    const handleApply = (jobTitle: string, jobLocation: string) => {
         setSelectedJob(jobTitle);
         setIsModalOpen(true);
+
+        // PostHog: Track job application started - careers funnel entry
+        posthog.capture('job_application_started', {
+            job_title: jobTitle,
+            job_location: jobLocation,
+            timestamp: new Date().toISOString(),
+        });
     };
 
     const openings = [
@@ -103,7 +111,7 @@ export default function CareersPage() {
                                             {job.description}
                                         </p>
                                         <button
-                                            onClick={() => handleApply(job.title)}
+                                            onClick={() => handleApply(job.title, job.location)}
                                             className="flex items-center gap-3 text-[10px] font-bold uppercase tracking-[0.3em] text-primary group-hover:text-white transition-all duration-500 pt-4"
                                         >
                                             <span className="border-b border-primary/20 group-hover:border-white/40 pb-1">{t("contact.apply")}</span>
