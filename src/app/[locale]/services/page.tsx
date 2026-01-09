@@ -124,7 +124,7 @@ export default function ServicesPage() {
                     subtitle={t("header.subtitle")}
                     badge={t("header.badge")}
                     description={t("header.description")}
-                    videoSrc="/assets/video/Agora services.mp4"
+                    videoSrc="/assets/video/agora-eco.mp4"
                     videoOpacity={0.4}
                 />
 

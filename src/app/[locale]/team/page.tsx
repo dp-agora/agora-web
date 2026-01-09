@@ -105,7 +105,13 @@ export default function TeamPage() {
                     subtitle={t("header.subtitle")}
                     badge={t("header.badge")}
                     description={t("header.description")}
-                    imageSrc="/assets/team/Team 1.jpg"
+                    imageSrcs={[
+                        "/assets/team/Team 1.jpg",
+                        "/assets/team/team stairs.jpg",
+                        "/assets/team/Team stairs 2.jpg",
+                        "/assets/team/manuel-andrea.jpg",
+                        "/assets/team/APS Talking 9.jpg"
+                    ]}
                     imageOpacity={0.4}
                 />
 
