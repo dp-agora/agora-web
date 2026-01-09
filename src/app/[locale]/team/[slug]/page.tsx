@@ -18,22 +18,22 @@ export default function TeamMemberPage() {
     const teamGroups = [
         {
             members: [
-                { id: "alvaro-posada", name: "Álvaro Posada", roleKey: "alvaro.role", image: "/assets/team/alvaro-posada.webp", email: "alvaro.posada@agoralatam.com", linkedin: "#" },
-                { id: "maria-eugenia-reyes", name: "María Eugenia Reyes", roleKey: "maria.role", image: "/assets/team/maria-eugenia.webp", email: "maria.reyes@agoralatam.com", linkedin: "#" },
-                { id: "jose-barnola", name: "José P. Barnola Jr.", roleKey: "jose.role", image: "/assets/team/jose-barnola.webp", email: "jose.barnola@agoralatam.com", linkedin: "#" },
-                { id: "ariana-cabrera", name: "Ariana Cabrera", roleKey: "ariana.role", image: "/assets/team/ariana-cabrera.webp", email: "ariana.cabrera@agoralatam.com", linkedin: "#" },
-                { id: "lizeth-reyes", name: "Lizeth Reyes", roleKey: "lizeth.role", image: "/assets/team/lizeth-reyes.webp", email: "lizeth.reyes@agoralatam.com", linkedin: "#" },
-                { id: "marco-gomez", name: "Marco Gómez", roleKey: "marco.role", image: "/assets/team/marco-gomez.webp", email: "marco.gomez@agoralatam.com", linkedin: "#" },
-                { id: "barbara-briceno", name: "Bárbara Briceño", roleKey: "barbara.role", image: "/assets/team/barbara-briceno.webp", email: "barbara.briceno@agoralatam.com", linkedin: "#" },
-                { id: "manuel-domingo", name: "Manuel Domingo", roleKey: "manuel.role", image: "/assets/team/manuel-domingo.webp", email: "manuel.domingo@agoralatam.com", linkedin: "#" },
-                { id: "dayana-veliz", name: "Dayana Velíz", roleKey: "dayana.role", image: "/assets/team/dayana-veliz.webp", email: "dayana.veliz@agoralatam.com", linkedin: "#" },
-                { id: "raul-sancristobal", name: "Raúl Sancristobal", roleKey: "raul.role", image: "/assets/team/raul-sancristobal.webp", email: "raul.sancristobal@agoralatam.com", linkedin: "#" },
-                { id: "rodrigo-colmenares", name: "Rodrigo Colmenares", roleKey: "rodrigo.role", image: "/assets/team/rodrigo-colmenares.webp", email: "rodrigo.colmenares@agoralatam.com", linkedin: "#" },
-                { id: "andreina-flores", name: "Andreína Flores", roleKey: "andreina.role", image: "/assets/team/andreina-flores.webp", email: "andreina.flores@agoralatam.com", linkedin: "#" },
-                { id: "fabiola-flores", name: "Fabiola Flores", roleKey: "fabiola.role", image: "/assets/team/fabiola-flores.webp", email: "fabiola.flores@agoralatam.com", linkedin: "#" },
-                { id: "andrea-regalado", name: "Andrea Regalado", roleKey: "andrea.role", image: "/assets/team/andrea-regalado.webp", email: "andrea.regalado@agoralatam.com", linkedin: "#" },
-                { id: "oriana-rodriguez", name: "Oriana Rodríguez", roleKey: "oriana.role", image: "/assets/team/oriana-rodriguez.webp", email: "oriana.rodriguez@agoralatam.com", linkedin: "#" },
-                { id: "juan-posada", name: "Juan Francisco Posada", roleKey: "juan.role", image: "/assets/team/juan-posada.webp", email: "juan.posada@agoralatam.com", linkedin: "#" }
+                { id: "alvaro-posada", name: "Álvaro Posada", roleKey: "alvaro.role", image: "/assets/team/alvaro-posada.webp", email: "aposada@agoralatam.com", linkedin: "https://www.linkedin.com/in/%C3%A1lvaro-posada-328156a4/" },
+                { id: "maria-eugenia-reyes", name: "María Eugenia Reyes", roleKey: "maria.role", image: "/assets/team/maria-eugenia.webp", email: "mreyes@agoralatam.com", linkedin: "https://www.linkedin.com/in/maria-eugenia-reyes-feo-40410624/" },
+                { id: "jose-barnola", name: "José P. Barnola Jr.", roleKey: "jose.role", image: "/assets/team/jose-barnola.webp", email: "jbarnola@agoralatam.com", linkedin: "https://mx.linkedin.com/in/josepbarnolajr" },
+                { id: "ariana-cabrera", name: "Ariana Cabrera", roleKey: "ariana.role", image: "/assets/team/ariana-cabrera.webp", email: "acabrera@agoralatam.com", linkedin: "https://ve.linkedin.com/in/ariana-cabrera-acevedo" },
+                { id: "lizeth-reyes", name: "Lizeth Reyes", roleKey: "lizeth.role", image: "/assets/team/lizeth-reyes.webp", email: "lreyes@agoralatam.com", linkedin: "https://www.linkedin.com/in/lizeth-reyesb" },
+                { id: "marco-gomez", name: "Marco Gómez", roleKey: "marco.role", image: "/assets/team/marco-gomez.webp", email: "mgomez@agoralatam.com", linkedin: "https://www.linkedin.com/in/marcoantoniogomez/" },
+                { id: "barbara-briceno", name: "Bárbara Briceño", roleKey: "barbara.role", image: "/assets/team/barbara-briceno.webp", email: "bbriceno@agoralatam.com", linkedin: "https://www.linkedin.com/in/barbara-briceño-7a1b9b53" },
+                { id: "manuel-domingo", name: "Manuel Domingo", roleKey: "manuel.role", image: "/assets/team/manuel-domingo.webp", email: "mdomingo@agoralatam.com", linkedin: "https://www.linkedin.com/in/manuel-domingo-2419b273/" },
+                { id: "dayana-veliz", name: "Dayana Velíz", roleKey: "dayana.role", image: "/assets/team/dayana-veliz.webp", email: "dveliz@agoralatam.com", linkedin: "https://www.linkedin.com/in/dayana-veliz-1714b5162/" },
+                { id: "raul-sancristobal", name: "Raúl Sancristobal", roleKey: "raul.role", image: "/assets/team/raul-sancristobal.webp", email: "rsancristobal@agoralatam.com", linkedin: "https://www.linkedin.com/in/raul-eduardo-sancristobal-444a44139/" },
+                { id: "rodrigo-colmenares", name: "Rodrigo Colmenares", roleKey: "rodrigo.role", image: "/assets/team/rodrigo-colmenares.webp", email: "rcolmenares@agoralatam.com", linkedin: "https://www.linkedin.com/in/rodrigo-colmenares-fernández-144b03200/" },
+                { id: "andreina-flores", name: "Andreína Flores", roleKey: "andreina.role", image: "/assets/team/andreina-flores.webp", email: "aflores@agoralatam.com", linkedin: "http://www.linkedin.com/in/andreina-floresr" },
+                { id: "fabiola-flores", name: "Fabiola Flores", roleKey: "fabiola.role", image: "/assets/team/fabiola-flores.webp", email: "fflores@agoralatam.com", linkedin: "https://www.linkedin.com/in/fabiola-floresr" },
+                { id: "andrea-regalado", name: "Andrea Regalado", roleKey: "andrea.role", image: "/assets/team/andrea-regalado.webp", email: "aregalado@agoralatam.com", linkedin: "https://www.linkedin.com/in/andrea-victoria-regalado-reyes-7073141a6/" },
+                { id: "oriana-rodriguez", name: "Oriana Rodríguez", roleKey: "oriana.role", image: "/assets/team/oriana-rodriguez.webp", email: "orodriguez@agoralatam.com", linkedin: "https://www.linkedin.com/in/oriana-rodriguez-6b4b7453/" },
+                { id: "juan-posada", name: "Juan Francisco Posada", roleKey: "juan.role", image: "/assets/team/juan-posada.webp", email: "jposada@agoralatam.com", linkedin: "https://www.linkedin.com/in/juanfposada/" }
             ]
         }
     ];

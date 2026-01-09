@@ -1,14 +1,23 @@
 "use client";
 
+import { useState } from "react";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { PageHeader } from "@/components/layout/PageHeader";
-import { MoveUpRight } from "lucide-react";
+import { MoveUpRight, ArrowRight } from "lucide-react";
 import { Link } from "@/i18n/routing";
 import { useTranslations } from "next-intl";
+import { ApplicationModal } from "@/components/careers/ApplicationModal";
 
 export default function CareersPage() {
     const t = useTranslations("CareersPage");
+    const [isModalOpen, setIsModalOpen] = useState(false);
+    const [selectedJob, setSelectedJob] = useState("");
+
+    const handleApply = (jobTitle: string) => {
+        setSelectedJob(jobTitle);
+        setIsModalOpen(true);
+    };
 
     const openings = [
         {
@@ -93,6 +102,13 @@ export default function CareersPage() {
                                         <p className="text-slate-500 group-hover:text-slate-200 transition-colors mb-0 leading-relaxed font-light italic">
                                             {job.description}
                                         </p>
+                                        <button
+                                            onClick={() => handleApply(job.title)}
+                                            className="flex items-center gap-3 text-[10px] font-bold uppercase tracking-[0.3em] text-primary group-hover:text-white transition-all duration-500 pt-4"
+                                        >
+                                            <span className="border-b border-primary/20 group-hover:border-white/40 pb-1">{t("contact.apply")}</span>
+                                            <ArrowRight className="h-3 w-3" />
+                                        </button>
                                     </div>
 
                                     <div className="lg:w-1/3">
@@ -155,6 +171,12 @@ export default function CareersPage() {
                 </section>
             </main>
             <Footer />
+
+            <ApplicationModal
+                isOpen={isModalOpen}
+                onClose={() => setIsModalOpen(false)}
+                jobTitle={selectedJob}
+            />
         </div>
     );
 }

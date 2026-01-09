@@ -201,7 +201,7 @@ export default function Home() {
               <p className="text-xl text-slate-400 leading-relaxed mb-12">
                 {t("credibility.description")}
               </p>
-              <Button asChild variant="outline" size="lg" className="rounded-none border-white/20 text-white hover:bg-white hover:text-slate-900 h-16 px-10 uppercase tracking-widest font-bold">
+              <Button asChild variant="outline" size="lg" className="rounded-none border-white/20 text-primary bg-white hover:bg-white/90 h-16 px-10 uppercase tracking-widest font-bold">
                 <Link href="/services">{t("credibility.cta")}</Link>
               </Button>
             </div>

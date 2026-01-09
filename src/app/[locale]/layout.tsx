@@ -6,6 +6,7 @@ import { BookingModal } from "@/components/booking/BookingModal";
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
+import { Toaster } from "sonner";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -61,6 +62,7 @@ export default async function LocaleLayout({
           <BookingProvider>
             {children}
             <BookingModal />
+            <Toaster position="top-center" richColors />
           </BookingProvider>
         </NextIntlClientProvider>
       </body>

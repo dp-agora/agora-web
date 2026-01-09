@@ -1,7 +1,9 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
+import { useState, useEffect } from "react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
 interface PageHeaderProps {
     title: string;
@@ -11,6 +13,7 @@ interface PageHeaderProps {
     videoSrc?: string;
     videoOpacity?: number;
     imageSrc?: string;
+    imageSrcs?: string[];
     imageOpacity?: number;
     variant?: 'default' | 'institutional';
     cta?: {
@@ -27,15 +30,38 @@ export function PageHeader({
     videoSrc,
     videoOpacity = 0.5,
     imageSrc,
+    imageSrcs,
     imageOpacity = 0.5,
     variant = 'default',
     cta
 }: PageHeaderProps) {
+    const [currentImageIndex, setCurrentImageIndex] = useState(0);
+    const [isPaused, setIsPaused] = useState(false);
+    const images = imageSrcs || (imageSrc ? [imageSrc] : []);
+    const hasMultipleImages = images.length > 1;
+
+    useEffect(() => {
+        if (!hasMultipleImages || isPaused) return;
+
+        const timer = setInterval(() => {
+            setCurrentImageIndex((prev) => (prev + 1) % images.length);
+        }, 3000);
+
+        return () => clearInterval(timer);
+    }, [hasMultipleImages, images.length, isPaused]);
+
+    const nextImage = () => setCurrentImageIndex((prev) => (prev + 1) % images.length);
+    const prevImage = () => setCurrentImageIndex((prev) => (prev - 1 + images.length) % images.length);
+
     const isInstitutional = variant === 'institutional';
-    const isDark = !!videoSrc || !!imageSrc || isInstitutional;
+    const isDark = !!videoSrc || !!imageSrc || !!imageSrcs || isInstitutional;
 
     return (
-        <section className={`relative pt-24 pb-20 lg:pt-40 lg:pb-32 border-b overflow-hidden ${isDark ? 'min-h-[50vh] flex items-center bg-primary' : 'bg-white'}`}>
+        <section
+            className={`relative pt-24 pb-20 lg:pt-40 lg:pb-32 border-b overflow-hidden ${isDark ? 'min-h-[70vh] flex items-center bg-primary' : 'bg-white'}`}
+            onMouseEnter={() => setIsPaused(true)}
+            onMouseLeave={() => setIsPaused(false)}
+        >
             {/* Elite Typographic Background Layer */}
             {isInstitutional && (
                 <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden select-none">
@@ -64,17 +90,61 @@ export function PageHeader({
                 </>
             )}
 
-            {imageSrc && !videoSrc && !isInstitutional && (
+            {!videoSrc && images.length > 0 && !isInstitutional && (
                 <>
-                    <Image
-                        src={imageSrc}
-                        alt=""
-                        fill
-                        className="object-cover"
-                        style={{ opacity: imageOpacity }}
-                        priority
-                    />
+                    <div className="absolute inset-0">
+                        <AnimatePresence>
+                            <motion.div
+                                key={currentImageIndex}
+                                initial={{ opacity: 0 }}
+                                animate={{ opacity: imageOpacity }}
+                                exit={{ opacity: 0 }}
+                                transition={{ duration: 1.5, ease: "easeInOut" }}
+                                className="absolute inset-0"
+                            >
+                                <Image
+                                    src={images[currentImageIndex]}
+                                    alt=""
+                                    fill
+                                    className="object-cover"
+                                    priority
+                                />
+                            </motion.div>
+                        </AnimatePresence>
+                    </div>
                     <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/60 to-transparent" />
+
+                    {hasMultipleImages && (
+                        <>
+                            <div className="absolute bottom-8 left-12 flex gap-3 z-20">
+                                {images.map((_, index) => (
+                                    <button
+                                        key={index}
+                                        onClick={() => setCurrentImageIndex(index)}
+                                        className={`h-1 transition-all duration-500 ${index === currentImageIndex ? 'w-8 bg-white' : 'w-4 bg-white/20'}`}
+                                        aria-label={`Go to image ${index + 1}`}
+                                    />
+                                ))}
+                            </div>
+
+                            <div className="absolute bottom-8 right-12 flex gap-4 z-20">
+                                <button
+                                    onClick={prevImage}
+                                    className="p-2 rounded-full border border-white/20 text-white hover:bg-white hover:text-primary transition-all duration-300"
+                                    aria-label="Previous image"
+                                >
+                                    <ChevronLeft className="h-5 w-5" />
+                                </button>
+                                <button
+                                    onClick={nextImage}
+                                    className="p-2 rounded-full border border-white/20 text-white hover:bg-white hover:text-primary transition-all duration-300"
+                                    aria-label="Next image"
+                                >
+                                    <ChevronRight className="h-5 w-5" />
+                                </button>
+                            </div>
+                        </>
+                    )}
                 </>
             )}
 
