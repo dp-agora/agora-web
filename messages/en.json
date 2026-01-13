@@ -346,15 +346,15 @@
                 "bio": "Fabiola is a specialist in Environmental Law and Natural Resources. She guides organizations through environmental impact assessments, regulatory compliance, and sustainable resource management."
             },
             "andrea": {
-                "role": "Office Manager",
-                "bio": "Andrea oversees daily office operations and administrative functions. With a focus on organizational efficiency, she ensures that all logistical and supportive processes run smoothly to facilitate high-quality legal service delivery."
+                "role": "Operations",
+                "bio": "Andrea is the Business Leader at Ágora Abogados, where she leads operational strategy and business development. She leverages her background in Chemical Engineering and her ongoing MBA at IESA to optimize complex project workflows and drive organizational efficiency."
             },
             "oriana": {
-                "role": "Paralegal",
-                "bio": "Oriana provides essential legal support through comprehensive research, document preparation, and case management assistance. Her diligence ensures that the legal team has the foundation they need for successful outcomes."
+                "role": "Operations",
+                "bio": "Oriana serves as the Administration Manager at Ágora Abogados, bringing over 10 years of expertise in treasury and financial administration. Having previously led treasury functions at Baker McKenzie, she ensures the firm's operational backbone is defined by fiscal precision and institutional excellence."
             },
             "juan": {
-                "role": "Digital Strategy",
+                "role": "Operations",
                 "bio": "Juan Francisco leads the firm's digital presence and technological integration. He focuses on leveraging digital tools to enhance client communication, operational transparency, and the overall efficiency of legal processes."
             }
         }
@@ -643,11 +643,12 @@
         },
         "andrea-regalado": {
             "overview": [
-                "Andrea Regalado is an emerging professional in the field of operations with a strong background in business administration and growing experience in project management and process optimization.",
-                "Her focus is on improving operational efficiency and supporting the implementation of effective strategies to achieve business objectives. Her proactive attitude and ability to adapt to dynamic environments make her a valuable addition to any operations team."
+                "Andrea Regalado is the Business Leader at Ágora Abogados, bringing a unique analytical perspective to the firm's operational management. With a background in Chemical Engineering and advanced studies in business, she specializes in bridging the gap between technical precision and organizational strategy.",
+                "Throughout her career, she has demonstrated a strong capability for process optimization and data-driven decision-making. Her focus is on implementing institutional-grade operational frameworks that ensure the firm's growth is supported by efficient workflows and robust management systems."
             ],
             "experience": [
-                "She currently serves as the Business Leader at Ágora Abogados."
+                "Andrea serves as the Business Leader at Ágora Abogados, where she leads the design and execution of operational strategies. Her multidisciplinary approach integrates engineering principles with business management to optimize complex project lifecycles and enhance client service delivery.",
+                "Her professional trajectory includes significant experience in demand planning and procurement within the logistics and pharmaceutical sectors. This background, coupled with her ongoing MBA at IESA, allows her to manage the firm's internal infrastructure with a focus on scalability, transparency, and high-performance standards."
             ],
             "education": [
                 "Chemical Engineering, Universidad Metropolitana (2021)",
@@ -658,11 +659,12 @@
         },
         "oriana-rodriguez": {
             "overview": [
-                "Oriana Rodríguez is a professional with an extensive administrative background and over 13 years of solid experience in operations management, coordination, support, and process optimization.",
-                "Oriana is distinguished by her ability to maintain the efficient flow of daily activities and ensure that the team's objectives are met. Her capacity for organizing and managing tasks, along with her attention to detail, allows her to provide comprehensive support in the planning and execution of projects."
+                "Oriana Rodríguez is the Administration Manager at Ágora Abogados, with over a decade of specialized experience in financial administration and treasury management. Her career is built on a foundation of rigorous fiscal control and organizational excellence, having led administrative functions across diverse sectors.",
+                "With a significant tenure at international legal institutions like Baker McKenzie, she brings a high-level perspective to cash flow management, procurement, and institutional governance. Oriana's expertise ensures that the firm's administrative infrastructure operates with the precision and transparency required by a premier legal boutique."
             ],
             "experience": [
-                "She currently serves as the Administration Manager at Ágora Abogados."
+                "As Administration Manager, Oriana oversees the firm's financial operations, including cash flow control, treasury, and administrative organization. She is responsible for optimizing internal workflows and managing the logistical complexities of a high-growth professional services firm.",
+                "Her professional background includes senior treasury and accounts payable roles at global law firms and industrial groups. This extensive experience in managing complex fiscal schedules and administrative reporting allows her to deliver the institutional stability and operational integrity baseline upon which Ágora’s legal practices depend."
             ],
             "education": [
                 "Higher University Technician in Business Administration, Instituto Universitario de Tecnología de Administración Industrial (2011)"
