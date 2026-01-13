@@ -7,7 +7,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Globe, Shield, TrendingUp, X, Plus } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
-import posthog from 'posthog-js';
+
 
 export default function ServicesPage() {
 
@@ -138,12 +138,6 @@ export default function ServicesPage() {
                                     onClick={() => {
                                         if (service.fullContent) {
                                             setSelectedService(service);
-                                            // PostHog: Track service detail viewed
-                                            posthog.capture('service_detail_viewed', {
-                                                service_id: service.id,
-                                                service_title: service.title,
-                                                timestamp: new Date().toISOString(),
-                                            });
                                         }
                                     }}
                                     className={`group p-10 border border-slate-100 bg-slate-50 hover:bg-primary transition-all duration-700 relative overflow-hidden flex flex-col md:flex-row md:items-center justify-between gap-12 ${service.fullContent ? 'cursor-pointer' : ''}`}

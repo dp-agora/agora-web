@@ -3,7 +3,7 @@
 import { useLocale } from 'next-intl';
 import { usePathname, useRouter } from '@/i18n/routing';
 import { useParams } from 'next/navigation';
-import posthog from 'posthog-js';
+
 
 export function LanguageSwitcher() {
     const locale = useLocale();
@@ -13,13 +13,6 @@ export function LanguageSwitcher() {
 
     const toggleLocale = () => {
         const nextLocale = locale === 'en' ? 'es' : 'en';
-
-        // PostHog: Track language switch - user preference tracking
-        posthog.capture('language_switched', {
-            from_locale: locale,
-            to_locale: nextLocale,
-            current_page: pathname,
-        });
 
         router.replace(pathname, { locale: nextLocale });
     };

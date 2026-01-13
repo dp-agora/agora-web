@@ -8,7 +8,7 @@ import { MoveUpRight, ArrowRight } from "lucide-react";
 import { Link } from "@/i18n/routing";
 import { useTranslations } from "next-intl";
 import { ApplicationModal } from "@/components/careers/ApplicationModal";
-import posthog from 'posthog-js';
+
 
 export default function CareersPage() {
     const t = useTranslations("CareersPage");
@@ -18,13 +18,6 @@ export default function CareersPage() {
     const handleApply = (jobTitle: string, jobLocation: string) => {
         setSelectedJob(jobTitle);
         setIsModalOpen(true);
-
-        // PostHog: Track job application started - careers funnel entry
-        posthog.capture('job_application_started', {
-            job_title: jobTitle,
-            job_location: jobLocation,
-            timestamp: new Date().toISOString(),
-        });
     };
 
     const openings = [
