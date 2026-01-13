@@ -8,7 +8,7 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
 import { toast } from "sonner";
-import posthog from 'posthog-js';
+
 
 const MAX_FILE_SIZE = 10 * 1024 * 1024; // 10MB
 const ACCEPTED_FILE_TYPES = ["application/pdf"];
@@ -109,25 +109,9 @@ export function ApplicationModal({ isOpen, onClose, jobTitle }: ApplicationModal
 
             setIsSubmitted(true);
             toast.success("Application submitted successfully!");
-
-            // PostHog: Track successful job application submission - careers conversion
-            posthog.capture('job_application_submitted', {
-                job_title: jobTitle || 'General Application',
-                has_linkedin: !!data.linkedin,
-                has_phone: !!data.phone,
-                timestamp: new Date().toISOString(),
-            });
         } catch (error: any) {
             console.error("Submission error:", error);
             toast.error(error.message || "An error occurred while submitting your application.");
-
-            // PostHog: Track job application failure - error tracking for careers funnel
-            posthog.capture('job_application_failed', {
-                job_title: jobTitle || 'General Application',
-                error_message: error.message || 'Unknown error',
-                timestamp: new Date().toISOString(),
-            });
-            posthog.captureException(error);
         } finally {
             setIsSubmitting(false);
         }

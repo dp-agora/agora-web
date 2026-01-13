@@ -6,7 +6,7 @@ import { X } from 'lucide-react';
 import { useBooking } from '@/context/BookingContext';
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import posthog from 'posthog-js';
+
 
 export function BookingModal() {
     const { isOpen, closeBooking } = useBooking();
@@ -15,10 +15,6 @@ export function BookingModal() {
 
     // Track booking modal close with PostHog
     const handleCloseBooking = useCallback((closeMethod: string) => {
-        posthog.capture('booking_modal_closed', {
-            close_method: closeMethod,
-            timestamp: new Date().toISOString(),
-        });
         closeBooking();
     }, [closeBooking]);
 
