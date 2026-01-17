@@ -346,15 +346,15 @@
                 "bio": "Fabiola is a specialist in Environmental Law and Natural Resources. She guides organizations through environmental impact assessments, regulatory compliance, and sustainable resource management."
             },
             "andrea": {
-                "role": "Operations",
+                "role": "Business Leader",
                 "bio": "Andrea is the Business Leader at Ágora Abogados, where she leads operational strategy and business development. She leverages her background in Chemical Engineering and her ongoing MBA at IESA to optimize complex project workflows and drive organizational efficiency."
             },
             "oriana": {
-                "role": "Operations",
+                "role": "Administration Manager",
                 "bio": "Oriana serves as the Administration Manager at Ágora Abogados, bringing over 10 years of expertise in treasury and financial administration. Having previously led treasury functions at Baker McKenzie, she ensures the firm's operational backbone is defined by fiscal precision and institutional excellence."
             },
             "juan": {
-                "role": "Operations",
+                "role": "Financial Performance & Operations",
                 "bio": "Juan Francisco leads the firm's digital presence and technological integration. He focuses on leveraging digital tools to enhance client communication, operational transparency, and the overall efficiency of legal processes."
             }
         }
