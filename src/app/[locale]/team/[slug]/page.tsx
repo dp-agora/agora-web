@@ -214,20 +214,18 @@ export default function TeamMemberPage() {
                             </div>
 
                             {/* Optional Publications */}
-                            <div className="space-y-8">
-                                <h2 className="text-2xl font-serif text-primary italic border-b border-slate-100 pb-4">{t("labels.publications")}</h2>
-                                <div className="space-y-6">
-                                    {currentLegacyData?.publications && currentLegacyData.publications.length > 0 ? (
-                                        currentLegacyData.publications.map((pub: string, i: number) => (
+                            {currentLegacyData?.publications && currentLegacyData.publications.length > 0 && (
+                                <div className="space-y-8">
+                                    <h2 className="text-2xl font-serif text-primary italic border-b border-slate-100 pb-4">{t("labels.publications")}</h2>
+                                    <div className="space-y-6">
+                                        {currentLegacyData.publications.map((pub: string, i: number) => (
                                             <p key={i} className="text-sm text-slate-600 leading-relaxed italic">
                                                 {pub}
                                             </p>
-                                        ))
-                                    ) : (
-                                        <p className="text-sm text-slate-400 italic">{t("labels.noPublications")}</p>
-                                    )}
+                                        ))}
+                                    </div>
                                 </div>
-                            </div>
+                            )}
                         </div>
                     </div>
                 </div>

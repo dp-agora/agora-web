@@ -290,6 +290,8 @@
             "leads": "Líderes de Práctica",
             "regional": "Líderes Regionales",
             "associates": "Asociados",
+            "seniorAssociates": "Asociados Senior",
+            "juniorAssociates": "Asociados Junior",
             "operations": "Operaciones"
         },
         "members": {
@@ -346,15 +348,15 @@
                 "bio": "Fabiola es especialista en Derecho Ambiental y Recursos Naturales. Guía a las organizaciones a través de evaluaciones de impacto ambiental, cumplimiento regulatorio y gestión sostenible de recursos."
             },
             "andrea": {
-                "role": "Operaciones",
+                "role": "Líder de Negocios",
                 "bio": "Andrea es la Líder de Negocios en Ágora Abogados, donde lidera la estrategia operativa y el desarrollo de negocios. Aprovecha su formación en Ingeniería Química y su MBA en curso en el IESA para optimizar los flujos de trabajo de proyectos complejos e impulsar la eficiencia organizacional."
             },
             "oriana": {
-                "role": "Operaciones",
+                "role": "Gerente de Administración",
                 "bio": "Oriana se desempeña como Gerente de Administración en Ágora Abogados, aportando más de 10 años de experiencia en tesorería y administración financiera. Habiendo liderado previamente funciones de tesorería en Baker McKenzie, asegura que la columna vertebral operativa de la firma se defina por la precisión fiscal y la excelencia institucional."
             },
             "juan": {
-                "role": "Operaciones",
+                "role": "Desempeño Financiero y Operaciones",
                 "bio": "Juan Francisco lidera la presencia digital y la integración tecnológica de la firma. Se enfoca en aprovechar las herramientas digitales para mejorar la comunicación con los clientes, la transparencia operativa y la eficiencia general de los procesos legales."
             }
         }
