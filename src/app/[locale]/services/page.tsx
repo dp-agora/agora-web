@@ -126,7 +126,8 @@ export default function ServicesPage() {
                     badge={t("header.badge")}
                     description={t("header.description")}
                     videoSrc="/assets/video/agora-eco.mp4"
-                    videoOpacity={0.6}
+                    videoOpacity={0.75}
+                    overlayClassName="absolute inset-0 bg-gradient-to-b from-primary/60 via-primary/20 to-primary/40"
                 />
 
                 <section className="py-24 bg-white relative overflow-hidden">

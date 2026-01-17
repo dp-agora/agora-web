@@ -12,6 +12,7 @@ interface PageHeaderProps {
     badge?: string;
     videoSrc?: string;
     videoOpacity?: number;
+    overlayClassName?: string;
     imageSrc?: string;
     imageSrcs?: string[];
     imageOpacity?: number;
@@ -29,6 +30,7 @@ export function PageHeader({
     badge,
     videoSrc,
     videoOpacity = 0.7,
+    overlayClassName,
     imageSrc,
     imageSrcs,
     imageOpacity = 0.5,
@@ -86,7 +88,7 @@ export function PageHeader({
                     >
                         <source src={videoSrc} type="video/mp4" />
                     </video>
-                    <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/40 to-transparent" />
+                    <div className={overlayClassName || "absolute inset-0 bg-gradient-to-b from-primary/70 via-primary/30 to-primary/50"} />
                 </>
             )}
 
