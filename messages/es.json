@@ -99,13 +99,13 @@
         "header": {
             "title": "Experiencia e Innovación",
             "subtitle": "Sobre Nosotros",
-            "badge": "Venezuela y México, Visión Global",
+            "badge": "Sede en Caracas, Visión Global",
             "description": "Ágora Abogados combina el dinamismo de una firma moderna con la vasta experiencia y el liderazgo de nuestros socios."
         },
         "firm": {
             "title": "Nuestra Firma",
             "quote": "\"Brindamos el servicio personalizado de una boutique legal con alcance, capacidades y visión global.\"",
-            "description": "Ágora Abogados es una firma de abogados con oficinas en Venezuela y México. Combinamos el dinamismo y la innovación de una firma moderna con la vasta experiencia y el reconocido liderazgo de nuestros socios y equipo."
+            "description": "Ágora Abogados es una firma de abogados con sede en Caracas, Venezuela. Combinamos el dinamismo y la innovación de una firma moderna con la vasta experiencia y el reconocido liderazgo de nuestros socios y equipo."
         },
         "pillars": {
             "pillar1": {
@@ -286,76 +286,76 @@
             "description": "Un equipo multidisciplinario de especialistas estratégicos en derecho e inversión."
         },
         "groups": {
-            "partners": "Socios",
+            "partners": "Socios Principales",
             "leads": "Líderes de Práctica",
-            "seniorAssociates": "Asociados Senior",
-            "juniorAssociates": "Asociados Junior",
+            "regional": "Líderes Regionales",
+            "associates": "Asociados",
             "operations": "Operaciones"
         },
         "members": {
             "alvaro": {
-                "role": "Socio",
-                "bio": "Con más de 30 años de experiencia legal, Álvaro se destaca como una figura prominente en M&A Corporativo, Banca y Finanzas. Su carrera incluye una trayectoria como socio en Baker McKenzie. Ha brindado asesoría estratégica a instituciones financieras nacionales e internacionales en asuntos regulatorios complejos, financiamiento de proyectos y transacciones de alto valor."
+                "role": "Socio Principal",
+                "bio": "Con más de 30 años de experiencia legal, Álvaro se destaca como una figura prominente en Banca, Finanzas y Mercado de Capitales. Su carrera incluye una trayectoria como socio en Baker McKenzie. Ha brindado asesoría estratégica a instituciones financieras nacionales e internacionales en asuntos regulatorios complejos, financiamiento de proyectos y transacciones de alto valor."
             },
             "maria": {
-                "role": "Socio",
-                "bio": "María Eugenia aporta más de tres décadas de experiencia legal, especializándose en M&A Corporativo, Derecho Inmobiliario y Ambiental. Anteriormente socia en Baker McKenzie, ha asesorado a grandes corporaciones en transacciones transfronterizas, cumplimiento regulatorio e iniciativas de desarrollo en toda Latinoamérica."
+                "role": "Socio Principal",
+                "bio": "María Eugenia aporta más de tres décadas de experiencia legal, especializándose en derecho Corporativo, Inmobiliario, Ambiental y Sostenibilidad. Anteriormente socia en Baker McKenzie, ha asesorado a grandes corporaciones en transacciones transfronterizas, cumplimiento regulatorio e iniciativas de desarrollo sostenible en toda Latinoamérica."
             },
             "jose": {
-                "role": "Socio",
-                "bio": "José P. Barnola Jr. es abogado con más de 25 años de experiencia en tributación, fusiones y adquisiciones, y derecho corporativo. Habilitado para ejercer en México y Venezuela, también se desempeña como árbitro en disputas comerciales."
+                "role": "Líder de Práctica",
+                "bio": "José es experto en Tributación y M&A con más de 25 años de experiencia profesional. Autorizado para ejercer el derecho tanto en México como en Venezuela, ha diseñado e implementado estructuras fiscales complejas para corporaciones multinacionales y liderado importantes adquisiciones transfronterizas."
             },
             "ariana": {
                 "role": "Líder de Práctica",
                 "bio": "Ariana lidera la práctica de Derecho Laboral con más de 10 años de experiencia especializada. Como miembro del Instituto Venezolano de Derecho Social, brinda orientación experta en contratos de trabajo, reestructuración de la fuerza laboral y litigios laborales para diversas industrias."
             },
             "lizeth": {
-                "role": "Líder de Práctica",
-                "bio": "Lizeth, con sede en la región Centro-Occidental, lidera la práctica de Litigio y Derecho Corporativo con más de 25 años de experiencia. Representa a clientes en disputas comerciales complejas, derecho contractual y procedimientos judiciales, asegurando una sólida protección legal en varias jurisdicciones regionales."
+                "role": "Líder Regional",
+                "bio": "Lizeth, con sede en Aragua, es experta en Litigio Civil y Mercantil con más de 25 años de experiencia. Representa a clientes en disputas comerciales complejas, derecho contractual y procedimientos judiciales, asegurando una sólida protección legal en varias jurisdicciones regionales."
             },
             "marco": {
-                "role": "Asociado Senior",
-                "bio": "Marco Gómez es abogado con 6 años de experiencia en M&A Corporativo, Banca y Finanzas. Su experiencia incluye asuntos regulatorios, valores, control de cambios y transacciones internacionales."
+                "role": "Asociado",
+                "bio": "Marco se especializa en Derecho Tributario, brindando asesoría estratégica en cumplimiento fiscal y litigios. Tiene amplia experiencia en procedimientos tributarios tanto administrativos como judiciales, ayudando a los clientes a navegar por marcos regulatorios complejos."
             },
             "barbara": {
-                "role": "Asociado Senior",
-                "bio": "Bárbara Briceño tiene más de 8 años de experiencia en M&A Corporativo, Tributación y Cumplimiento. Apoya la estructuración de transacciones corporativas, planificación fiscal internacional y asuntos de cumplimiento normativo."
+                "role": "Asociado",
+                "bio": "Bárbara se enfoca en Derecho Corporativo y Propiedad Intelectual. Asesora a clientes en formación de negocios, negociación de contratos y protección de activos de marca y tecnologías innovadoras."
             },
             "manuel": {
-                "role": "Asociado Senior",
-                "bio": "Manuel Domingo es abogado con experiencia en M&A Corporativo, Banca y Finanzas. Con dominio del inglés, alemán y francés, navega transacciones internacionales y actualmente cursa un MBA en el IESA."
+                "role": "Asociado",
+                "bio": "Manuel es especialista en Derecho Laboral y Recursos Humanos. Asiste a corporaciones en la gestión de relaciones laborales, redacción de políticas internas integrales y garantía de cumplimiento de las regulaciones laborales."
             },
             "dayana": {
-                "role": "Asociado Senior",
-                "bio": "Dayana Véliz combina derecho y finanzas para ofrecer soluciones en M&A Corporativo, incluyendo estructuras de tenencia de activos, acuerdos de accionistas, constitución de entidades e inversión extranjera. Tiene una Maestría en Finanzas del IESA."
+                "role": "Asociado",
+                "bio": "Dayana se enfoca en Derecho Corporativo y Mercantil. Apoya a los clientes a lo largo del ciclo de vida de sus operaciones comerciales, desde la constitución y gobernanza hasta acuerdos comerciales y disolución."
             },
             "raul": {
-                "role": "Asociado Junior",
-                "bio": "Raúl Eduardo Sancristobal trabaja en Banca, Finanzas y Mercados de Capitales. Asesora en disputas financieras, asuntos de valores transfronterizos y regulación del mercado de capitales."
+                "role": "Asociado",
+                "bio": "Raúl es experto en Resolución de Conflictos y Litigios. Representa a clientes en casos civiles y mercantiles, aportando un enfoque estratégico a la mediación de conflictos y la representación en tribunales."
             },
             "rodrigo": {
-                "role": "Asociado Junior",
-                "bio": "Rodrigo Colmenares trabaja en Banca, Finanzas y Mercados de Capitales. Tiene experiencia en derecho mercantil y transacciones financieras, con sólido conocimiento de tecnologías emergentes en el ámbito legal."
+                "role": "Asociado",
+                "bio": "Rodrigo se especializa en Derecho Público y Asuntos Regulatorios. Asesora en relaciones gubernamentales, procedimientos administrativos y cumplimiento de las regulaciones del sector público."
             },
             "andreina": {
-                "role": "Asociado Junior",
-                "bio": "Andreina Flores trabaja en Regulatorio y Litigio Comercial. Tiene experiencia representando clientes en asuntos de cumplimiento regulatorio y disputas comerciales."
+                "role": "Asociado",
+                "bio": "Andreína se enfoca en Negocios Internacionales y Derecho de Inversión. Asiste a clientes en comercio transfronterizo, regulaciones de inversión extranjera y arbitraje comercial internacional."
             },
             "fabiola": {
-                "role": "Asociado Junior",
-                "bio": "Fabiola Flores Reyes trabaja en Regulatorio y Litigio Comercial. Brinda soluciones legales prácticas y efectivas en cumplimiento regulatorio y resolución de disputas."
+                "role": "Asociado",
+                "bio": "Fabiola es especialista en Derecho Ambiental y Recursos Naturales. Guía a las organizaciones a través de evaluaciones de impacto ambiental, cumplimiento regulatorio y gestión sostenible de recursos."
             },
             "andrea": {
                 "role": "Líder de Negocios",
-                "bio": "Andrea Regalado tiene sólida formación en administración de empresas con experiencia en gestión de proyectos y optimización de procesos. Se enfoca en eficiencia operativa e implementación estratégica."
+                "bio": "Andrea es la Líder de Negocios en Ágora Abogados, donde lidera la estrategia operativa y el desarrollo de negocios. Aprovecha su formación en Ingeniería Química y su MBA en curso en el IESA para optimizar los flujos de trabajo de proyectos complejos e impulsar la eficiencia organizacional."
             },
             "oriana": {
                 "role": "Gerente de Administración",
-                "bio": "Oriana Rodríguez tiene más de 13 años de experiencia en gestión de operaciones, coordinación y optimización de procesos. Mantiene el flujo eficiente de actividades diarias y brinda soporte integral en planificación y ejecución de proyectos."
+                "bio": "Oriana se desempeña como Gerente de Administración en Ágora Abogados, aportando más de 10 años de experiencia en tesorería y administración financiera. Habiendo liderado previamente funciones de tesorería en Baker McKenzie, asegura que la columna vertebral operativa de la firma se defina por la precisión fiscal y la excelencia institucional."
             },
             "juan": {
                 "role": "Desempeño Financiero y Operaciones",
-                "bio": "Juan Posada combina visión empresarial y análisis de datos para optimizar el desempeño financiero y la eficiencia operativa. Diseña herramientas analíticas que modernizan procesos y cursa una Maestría en Finanzas en el IESA."
+                "bio": "Juan Francisco lidera la presencia digital y la integración tecnológica de la firma. Se enfoca en aprovechar las herramientas digitales para mejorar la comunicación con los clientes, la transparencia operativa y la eficiencia general de los procesos legales."
             }
         }
     },
@@ -443,17 +443,6 @@
                         "Líder de Desarrollo Profesional y Líder de Gerencia del Conocimiento",
                         "Representante de Latinoamérica en el Comité Global de Productos de Consumo Masivo y Ventas al Detal",
                         "Miembro del Comité Global de Resolución de Disputas Fiscales"
-                    ]
-                },
-                "Entre sus asignaciones representativas:",
-                {
-                    "type": "list",
-                    "items": [
-                        "Actuó como asesor fiscal y legal para varias asociaciones de participación en ganancias de petróleo liviano y mediano, y acuerdos de servicios operativos petroleros de tercera ronda.",
-                        "Asesoró en la estructuración de asociaciones estratégicas de petróleo extrapesado, diseñando la \"operación mancomunada\" para fines fiscales, que se convirtió en un estándar de la industria.",
-                        "Representó a empresas multinacionales en litigios fiscales ante los Tribunales Tributarios y la Corte Suprema de Venezuela en relación con acuerdos de servicios operativos petroleros, convenios de asociación y explotación de participación en ganancias.",
-                        "Se desempeñó como asesor local para el financiamiento de proyectos de grandes proyectos industriales en Venezuela, incluyendo la mina de oro más grande, una planta petroquímica, una siderúrgica, una mina de carbón, una mina y planta de níquel, una planta de procesamiento de madera, una mina de arena de sílice y una planta de hierro briqueteado en caliente.",
-                        "Lideró una reorganización de protección de inversiones para un grupo multinacional mexicano del sector petrolero downstream en tres jurisdicciones."
                     ]
                 }
             ],

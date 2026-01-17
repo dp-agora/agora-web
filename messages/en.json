@@ -99,13 +99,13 @@
         "header": {
             "title": "Experience and Innovation",
             "subtitle": "About Us",
-            "badge": "Venezuela & Mexico, Global Vision",
+            "badge": "Caracas Based, Global Vision",
             "description": "Ágora Abogados combines the dynamism of a modern firm with the vast experience and leadership of our partners."
         },
         "firm": {
             "title": "Our Firm",
             "quote": "\"We provide the personalized service of a legal boutique with global reach, capabilities, and vision.\"",
-            "description": "Ágora Abogados is a law firm with offices in Venezuela and Mexico. We combine the dynamism and innovation of a modern firm with the vast experience and renowned leadership of our partners and team."
+            "description": "Ágora Abogados is a law firm based in Caracas, Venezuela. We combine the dynamism and innovation of a modern firm with the vast experience and renowned leadership of our partners and team."
         },
         "pillars": {
             "pillar1": {
@@ -286,77 +286,76 @@
             "description": "A multidisciplinary team of strategic legal and investment specialists."
         },
         "groups": {
-            "partners": "Partners",
-            "leads": "Practice Leaders",
-            "seniorAssociates": "Senior Associates",
-            "juniorAssociates": "Junior Associates",
+            "partners": "Senior Partners",
+            "leads": "Practice Leads",
+            "regional": "Regional Leads",
+            "associates": "Associates",
             "operations": "Operations"
         },
         "members": {
             "alvaro": {
-                "role": "Partner",
-                "bio": "With over 30 years of legal experience, Álvaro stands as a prominent figure in Corporate M&A, Banking and Finance. His career includes a tenure as partner at Baker McKenzie. He has provided strategic counsel to both national and international financial institutions on complex regulatory matters, project financing, and high-value transactions."
+                "role": "Senior Partner",
+                "bio": "With over 30 years of legal experience, Álvaro stands as a prominent figure in Banking, Finance, and Capital Markets. His career includes a tenure as partner at Baker McKenzie. He has provided strategic counsel to both national and international financial institutions on complex regulatory matters, project financing, and high-value transactions."
             },
             "maria": {
-                "role": "Partner",
-                "bio": "María Eugenia brings over three decades of legal expertise, specializing in Corporate M&A, Real Estate, and Environmental law. Previously a partner at Baker McKenzie, she has advised major corporations on cross-border transactions, regulatory compliance, and development initiatives across Latin America."
+                "role": "Senior Partner",
+                "bio": "María Eugenia brings over three decades of legal expertise, specializing in Corporate, Real Estate, Environmental, and Sustainability law. Previously a partner at Baker McKenzie, she has advised major corporations on cross-border transactions, regulatory compliance, and sustainable development initiatives across Latin America."
             },
             "jose": {
-                "role": "Partner",
-                "bio": "José P. Barnola Jr. is a lawyer with over 25 years of experience in taxation, mergers and acquisitions, and corporate law. Licensed to practice in Mexico and Venezuela, he also serves as an arbitrator in commercial disputes."
+                "role": "Practice Lead",
+                "bio": "José is an expert in Taxation and M&A with over 25 years of professional experience. Licensed to practice law in both Mexico and Venezuela, he has designed and implemented complex tax structures for multinational corporations and led significant cross-border acquisitions."
             },
             "ariana": {
                 "role": "Practice Lead",
                 "bio": "Ariana leads the Labor Law practice with over 10 years of specialized experience. As a member of the Venezuelan Institute of Social Law, she provides expert guidance on employment contracts, workforce restructuring, and labor litigation for diverse industries."
             },
             "lizeth": {
-                "role": "Practice Leader",
-                "bio": "Lizeth, based in the Central-Western region, leads Litigation and Corporate practice with over 25 years of experience. She represents clients in complex commercial disputes, contract law, and judicial procedures, ensuring robust legal protection across various regional jurisdictions."
+                "role": "Regional Lead",
+                "bio": "Lizeth, based in Aragua, is a Civil and Commercial Litigation expert with over 25 years of experience. She represents clients in complex commercial disputes, contract law, and judicial procedures, ensuring robust legal protection across various regional jurisdictions."
             },
             "marco": {
-                "role": "Senior Associate",
-                "bio": "Marco Gómez is a lawyer with 6 years of experience in Corporate M&A, Banking and Finance. His expertise includes regulatory matters, securities, foreign exchange control, and international transactions."
+                "role": "Associate",
+                "bio": "Marco specializes in Tax Law, providing strategic counsel on fiscal compliance and litigation. He has extensive experience in both administrative and judicial tax procedures, helping clients navigate complex regulatory frameworks."
             },
             "barbara": {
-                "role": "Senior Associate",
-                "bio": "Bárbara Briceño has over 8 years of experience in Corporate M&A, Tax, and Compliance. She supports the structuring of corporate transactions, international tax planning, and regulatory compliance matters."
+                "role": "Associate",
+                "bio": "Bárbara focuses on Corporate Law and Intellectual Property. She advises clients on business formation, contract negotiation, and the protection of brand assets and innovative technologies."
             },
             "manuel": {
-                "role": "Senior Associate",
-                "bio": "Manuel Domingo is a lawyer with experience in Corporate M&A, Banking and Finance. Fluent in English, German, and French, he navigates cross-border transactions and is currently pursuing an MBA at IESA."
+                "role": "Associate",
+                "bio": "Manuel is a specialist in Labor Law and Human Resources. He assists corporations in managing employment relationships, drafting comprehensive internal policies, and ensuring compliance with labor regulations."
             },
             "dayana": {
-                "role": "Senior Associate",
-                "bio": "Dayana Véliz combines law and finance to offer solutions in Corporate M&A, including asset-holding structures, shareholder agreements, entity incorporation, and foreign investment management. She holds a Master's in Finance from IESA."
+                "role": "Associate",
+                "bio": "Dayana focuses on Corporate and Commercial Law. She supports clients through the lifecycle of their business operations, from incorporation and governance to commercial agreements and dissolution."
             },
             "raul": {
-                "role": "Junior Associate",
-                "bio": "Raúl Eduardo Sancristobal works in Banking, Finance, and Capital Markets. He advises on financial disputes, cross-border securities matters, and capital markets regulation."
+                "role": "Associate",
+                "bio": "Raúl is an expert in Dispute Resolution and Litigation. He represents clients in civil and commercial cases, bringing a strategic approach to conflict mediation and courtroom representation."
             },
             "rodrigo": {
-                "role": "Junior Associate",
-                "bio": "Rodrigo Colmenares works in Banking, Finance, and Capital Markets. He has experience in commercial law and financial transactions, with strong knowledge of emerging technologies in the legal field."
+                "role": "Associate",
+                "bio": "Rodrigo specializes in Public Law and Regulatory Affairs. He advises on government relations, administrative procedures, and compliance with public sector regulations."
             },
             "andreina": {
-                "role": "Junior Associate",
-                "bio": "Andreina Flores works in Regulatory and Commercial Litigation. She has experience representing clients in regulatory compliance matters and commercial disputes."
+                "role": "Associate",
+                "bio": "Andreína focuses on International Business and Investment Law. She assists clients in cross-border trade, foreign investment regulations, and international commercial arbitration."
             },
             "fabiola": {
-                "role": "Junior Associate",
-                "bio": "Fabiola Flores Reyes works in Regulatory and Commercial Litigation. She provides practical and effective legal solutions in regulatory compliance and dispute resolution."
+                "role": "Associate",
+                "bio": "Fabiola is a specialist in Environmental Law and Natural Resources. She guides organizations through environmental impact assessments, regulatory compliance, and sustainable resource management."
             },
             "andrea": {
                 "role": "Business Leader",
-                "bio": "Andrea Regalado has a strong background in business administration with experience in project management and process optimization. She focuses on operational efficiency and strategic implementation."
+                "bio": "Andrea is the Business Leader at Ágora Abogados, where she leads operational strategy and business development. She leverages her background in Chemical Engineering and her ongoing MBA at IESA to optimize complex project workflows and drive organizational efficiency."
             },
             "oriana": {
                 "role": "Administration Manager",
-                "bio": "Oriana Rodríguez has over 13 years of experience in operations management, coordination, and process optimization. She maintains efficient daily activities and comprehensive support in project planning and execution."
+                "bio": "Oriana serves as the Administration Manager at Ágora Abogados, bringing over 10 years of expertise in treasury and financial administration. Having previously led treasury functions at Baker McKenzie, she ensures the firm's operational backbone is defined by fiscal precision and institutional excellence."
             },
             "juan": {
                 "role": "Financial Performance & Operations",
-                "bio": "Juan Posada combines business acumen and data analytics to optimize financial performance and operational efficiency. He designs analytical tools that modernize processes and is pursuing a Master's in Finance at IESA."
-
+                "bio": "Juan Francisco leads the firm's digital presence and technological integration. He focuses on leveraging digital tools to enhance client communication, operational transparency, and the overall efficiency of legal processes."
             }
         }
     },
@@ -444,17 +443,6 @@
                         "Professional Development and Knowledge Management Leader",
                         "Latin America Representative on the Global Consumer Products and Retail Committee",
                         "Member of the Global Committee on Tax Dispute Resolution"
-                    ]
-                },
-                "Among his representative assignments:",
-                {
-                    "type": "list",
-                    "items": [
-                        "Acted as tax and legal counsel for several light and medium oil profit-sharing associations and third-round oil operating service agreements.",
-                        "Advised on the structuring of extra-heavy oil strategic associations, designing the \"operación mancomunada\" for tax purposes, which became an industry standard.",
-                        "Represented multinational companies in tax litigation before the Venezuelan Tax Courts and Supreme Court regarding oil operating services agreements, association agreements, and profit-sharing exploitation.",
-                        "Served as local counsel for project financing of major industrial projects in Venezuela, including the biggest gold mine, a petrochemical plant, a steel mill, a coal mine, a nickel mine and mill, a wood processing plant, a silica sand mine, and a hot briquetted iron facility.",
-                        "Led an investment protection reorganization for an oil downstream Mexican multinational group across three jurisdictions."
                     ]
                 }
             ],
