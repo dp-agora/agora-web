@@ -28,7 +28,7 @@ export function PageHeader({
     description,
     badge,
     videoSrc,
-    videoOpacity = 0.5,
+    videoOpacity = 0.7,
     imageSrc,
     imageSrcs,
     imageOpacity = 0.5,
@@ -81,12 +81,12 @@ export function PageHeader({
                         loop
                         muted
                         playsInline
-                        className="absolute inset-0 w-full h-full object-cover"
+                        className="absolute inset-0 w-full h-full object-cover brightness-110 contrast-105 saturate-110"
                         style={{ opacity: videoOpacity }}
                     >
                         <source src={videoSrc} type="video/mp4" />
                     </video>
-                    <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/60 to-transparent" />
+                    <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/40 to-transparent" />
                 </>
             )}
 
@@ -112,7 +112,7 @@ export function PageHeader({
                             </motion.div>
                         </AnimatePresence>
                     </div>
-                    <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/60 to-transparent" />
+                    <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/40 to-transparent" />
 
                     {hasMultipleImages && (
                         <>

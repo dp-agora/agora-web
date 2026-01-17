@@ -230,13 +230,13 @@ export default function Home() {
                   loop
                   muted
                   playsInline
-                  className="w-full h-full object-cover opacity-60 grayscale brightness-110"
+                  className="w-full h-full object-cover opacity-75 brightness-105 contrast-105 saturate-110"
                 >
                   <source src="/assets/video/ai-section.mp4" type="video/mp4" />
                 </video>
-                {/* Atmospheric overlays */}
-                <div className="absolute inset-0 bg-gradient-to-r from-white via-transparent to-transparent" />
-                <div className="absolute inset-0 bg-slate-900/5 mix-blend-overlay" />
+                {/* Atmospheric overlays - reduced intensity */}
+                <div className="absolute inset-0 bg-gradient-to-r from-white/80 via-transparent to-transparent" />
+                <div className="absolute inset-0 bg-slate-900/[0.02] mix-blend-overlay" />
               </div>
             </div>
           </div>
