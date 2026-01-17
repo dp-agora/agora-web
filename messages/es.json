@@ -286,20 +286,20 @@
             "description": "Un equipo multidisciplinario de especialistas estratégicos en derecho e inversión."
         },
         "groups": {
-            "partners": "Socios Principales",
+            "partners": "Socios",
             "leads": "Líderes de Práctica",
-            "regional": "Líderes Regionales",
-            "associates": "Asociados",
+            "seniorAssociates": "Asociados Senior",
+            "juniorAssociates": "Asociados Junior",
             "operations": "Operaciones"
         },
         "members": {
             "alvaro": {
-                "role": "Socio Principal",
-                "bio": "Con más de 30 años de experiencia legal, Álvaro se destaca como una figura prominente en Banca, Finanzas y Mercado de Capitales. Su carrera incluye una trayectoria como socio en Baker McKenzie. Ha brindado asesoría estratégica a instituciones financieras nacionales e internacionales en asuntos regulatorios complejos, financiamiento de proyectos y transacciones de alto valor."
+                "role": "Socio",
+                "bio": "Con más de 30 años de experiencia legal, Álvaro se destaca como una figura prominente en M&A Corporativo, Banca y Finanzas. Su carrera incluye una trayectoria como socio en Baker McKenzie. Ha brindado asesoría estratégica a instituciones financieras nacionales e internacionales en asuntos regulatorios complejos, financiamiento de proyectos y transacciones de alto valor."
             },
             "maria": {
-                "role": "Socio Principal",
-                "bio": "María Eugenia aporta más de tres décadas de experiencia legal, especializándose en derecho Corporativo, Inmobiliario, Ambiental y Sostenibilidad. Anteriormente socia en Baker McKenzie, ha asesorado a grandes corporaciones en transacciones transfronterizas, cumplimiento regulatorio e iniciativas de desarrollo sostenible en toda Latinoamérica."
+                "role": "Socio",
+                "bio": "María Eugenia aporta más de tres décadas de experiencia legal, especializándose en M&A Corporativo, Derecho Inmobiliario y Ambiental. Anteriormente socia en Baker McKenzie, ha asesorado a grandes corporaciones en transacciones transfronterizas, cumplimiento regulatorio e iniciativas de desarrollo en toda Latinoamérica."
             },
             "jose": {
                 "role": "Socio",
@@ -310,40 +310,40 @@
                 "bio": "Ariana lidera la práctica de Derecho Laboral con más de 10 años de experiencia especializada. Como miembro del Instituto Venezolano de Derecho Social, brinda orientación experta en contratos de trabajo, reestructuración de la fuerza laboral y litigios laborales para diversas industrias."
             },
             "lizeth": {
-                "role": "Líder Regional",
-                "bio": "Lizeth, con sede en Aragua, es experta en Litigio Civil y Mercantil con más de 25 años de experiencia. Representa a clientes en disputas comerciales complejas, derecho contractual y procedimientos judiciales, asegurando una sólida protección legal en varias jurisdicciones regionales."
+                "role": "Líder de Práctica",
+                "bio": "Lizeth, con sede en la región Centro-Occidental, lidera la práctica de Litigio y Derecho Corporativo con más de 25 años de experiencia. Representa a clientes en disputas comerciales complejas, derecho contractual y procedimientos judiciales, asegurando una sólida protección legal en varias jurisdicciones regionales."
             },
             "marco": {
-                "role": "Asociado",
-                "bio": "Marco Gómez es abogado con 6 años de experiencia en las áreas corporativa y financiera. Su experiencia incluye asuntos regulatorios, valores, control de cambios, arbitraje internacional y seguros marítimos."
+                "role": "Asociado Senior",
+                "bio": "Marco Gómez es abogado con 6 años de experiencia en M&A Corporativo, Banca y Finanzas. Su experiencia incluye asuntos regulatorios, valores, control de cambios y transacciones internacionales."
             },
             "barbara": {
-                "role": "Asociado",
-                "bio": "Bárbara Briceño tiene más de 8 años de experiencia en derecho corporativo, tributación internacional, planificación patrimonial y cumplimiento normativo. Apoya la estructuración de fideicomisos, fundaciones privadas y compañías offshore."
+                "role": "Asociado Senior",
+                "bio": "Bárbara Briceño tiene más de 8 años de experiencia en M&A Corporativo, Tributación y Cumplimiento. Apoya la estructuración de transacciones corporativas, planificación fiscal internacional y asuntos de cumplimiento normativo."
             },
             "manuel": {
-                "role": "Asociado",
-                "bio": "Manuel Domingo es abogado con experiencia en fusiones y adquisiciones. Con dominio del inglés, alemán y francés, navega transacciones internacionales y actualmente cursa un MBA en el IESA."
+                "role": "Asociado Senior",
+                "bio": "Manuel Domingo es abogado con experiencia en M&A Corporativo, Banca y Finanzas. Con dominio del inglés, alemán y francés, navega transacciones internacionales y actualmente cursa un MBA en el IESA."
             },
             "dayana": {
-                "role": "Asociado",
-                "bio": "Dayana Véliz combina derecho y finanzas para ofrecer soluciones en M&A, estructuras de tenencia de activos, acuerdos de accionistas, constitución de entidades e inversión extranjera. Tiene una Maestría en Finanzas del IESA."
+                "role": "Asociado Senior",
+                "bio": "Dayana Véliz combina derecho y finanzas para ofrecer soluciones en M&A Corporativo, incluyendo estructuras de tenencia de activos, acuerdos de accionistas, constitución de entidades e inversión extranjera. Tiene una Maestría en Finanzas del IESA."
             },
             "raul": {
-                "role": "Asociado",
-                "bio": "Raúl Eduardo Sancristobal asesora en disputas financieras complejas, asuntos de valores transfronterizos, responsabilidad de custodios y regulación del mercado de capitales. Se especializa en Banca, Finanzas y Mercados de Capitales."
+                "role": "Asociado Junior",
+                "bio": "Raúl Eduardo Sancristobal trabaja en Banca, Finanzas y Mercados de Capitales. Asesora en disputas financieras, asuntos de valores transfronterizos y regulación del mercado de capitales."
             },
             "rodrigo": {
-                "role": "Asociado",
-                "bio": "Rodrigo Colmenares tiene experiencia en derecho mercantil, litigios complejos y tecnologías emergentes incluyendo Fintech, Blockchain y Contratos Inteligentes. Trabaja en Banca, Finanzas y Mercados de Capitales."
+                "role": "Asociado Junior",
+                "bio": "Rodrigo Colmenares trabaja en Banca, Finanzas y Mercados de Capitales. Tiene experiencia en derecho mercantil y transacciones financieras, con sólido conocimiento de tecnologías emergentes en el ámbito legal."
             },
             "andreina": {
-                "role": "Asociado",
-                "bio": "Andreina Flores tiene 9 años de experiencia en derecho civil, mercantil, inmobiliario, familiar y sucesiones. Trabaja en Derecho Corporativo y cursa una Licenciatura en Psicología."
+                "role": "Asociado Junior",
+                "bio": "Andreina Flores trabaja en Regulatorio y Litigio Comercial. Tiene experiencia representando clientes en asuntos de cumplimiento regulatorio y disputas comerciales."
             },
             "fabiola": {
-                "role": "Asociado",
-                "bio": "Fabiola Flores Reyes tiene 9 años de experiencia en derecho civil, mercantil, inmobiliario, familiar y sucesiones. Brinda soluciones legales prácticas y efectivas en Derecho Corporativo."
+                "role": "Asociado Junior",
+                "bio": "Fabiola Flores Reyes trabaja en Regulatorio y Litigio Comercial. Brinda soluciones legales prácticas y efectivas en cumplimiento regulatorio y resolución de disputas."
             },
             "andrea": {
                 "role": "Líder de Negocios",

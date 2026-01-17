@@ -286,20 +286,20 @@
             "description": "A multidisciplinary team of strategic legal and investment specialists."
         },
         "groups": {
-            "partners": "Senior Partners",
-            "leads": "Practice Leads",
-            "regional": "Regional Leads",
-            "associates": "Associates",
+            "partners": "Partners",
+            "leads": "Practice Leaders",
+            "seniorAssociates": "Senior Associates",
+            "juniorAssociates": "Junior Associates",
             "operations": "Operations"
         },
         "members": {
             "alvaro": {
-                "role": "Senior Partner",
-                "bio": "With over 30 years of legal experience, Álvaro stands as a prominent figure in Banking, Finance, and Capital Markets. His career includes a tenure as partner at Baker McKenzie. He has provided strategic counsel to both national and international financial institutions on complex regulatory matters, project financing, and high-value transactions."
+                "role": "Partner",
+                "bio": "With over 30 years of legal experience, Álvaro stands as a prominent figure in Corporate M&A, Banking and Finance. His career includes a tenure as partner at Baker McKenzie. He has provided strategic counsel to both national and international financial institutions on complex regulatory matters, project financing, and high-value transactions."
             },
             "maria": {
-                "role": "Senior Partner",
-                "bio": "María Eugenia brings over three decades of legal expertise, specializing in Corporate, Real Estate, Environmental, and Sustainability law. Previously a partner at Baker McKenzie, she has advised major corporations on cross-border transactions, regulatory compliance, and sustainable development initiatives across Latin America."
+                "role": "Partner",
+                "bio": "María Eugenia brings over three decades of legal expertise, specializing in Corporate M&A, Real Estate, and Environmental law. Previously a partner at Baker McKenzie, she has advised major corporations on cross-border transactions, regulatory compliance, and development initiatives across Latin America."
             },
             "jose": {
                 "role": "Partner",
@@ -310,40 +310,40 @@
                 "bio": "Ariana leads the Labor Law practice with over 10 years of specialized experience. As a member of the Venezuelan Institute of Social Law, she provides expert guidance on employment contracts, workforce restructuring, and labor litigation for diverse industries."
             },
             "lizeth": {
-                "role": "Regional Lead",
-                "bio": "Lizeth, based in Aragua, is a Civil and Commercial Litigation expert with over 25 years of experience. She represents clients in complex commercial disputes, contract law, and judicial procedures, ensuring robust legal protection across various regional jurisdictions."
+                "role": "Practice Leader",
+                "bio": "Lizeth, based in the Central-Western region, leads Litigation and Corporate practice with over 25 years of experience. She represents clients in complex commercial disputes, contract law, and judicial procedures, ensuring robust legal protection across various regional jurisdictions."
             },
             "marco": {
-                "role": "Associate",
-                "bio": "Marco Gómez is a lawyer with 6 years of experience in corporate and financial areas. His expertise includes regulatory matters, securities, foreign exchange control, international arbitration, and marine insurance."
+                "role": "Senior Associate",
+                "bio": "Marco Gómez is a lawyer with 6 years of experience in Corporate M&A, Banking and Finance. His expertise includes regulatory matters, securities, foreign exchange control, and international transactions."
             },
             "barbara": {
-                "role": "Associate",
-                "bio": "Bárbara Briceño has over 8 years of experience in corporate law, international taxation, estate planning, and regulatory compliance. She supports the structuring of trusts, private foundations, and offshore companies."
+                "role": "Senior Associate",
+                "bio": "Bárbara Briceño has over 8 years of experience in Corporate M&A, Tax, and Compliance. She supports the structuring of corporate transactions, international tax planning, and regulatory compliance matters."
             },
             "manuel": {
-                "role": "Associate",
-                "bio": "Manuel Domingo is a lawyer with experience in mergers and acquisitions. Fluent in English, German, and French, he navigates cross-border transactions and is currently pursuing an MBA at IESA."
+                "role": "Senior Associate",
+                "bio": "Manuel Domingo is a lawyer with experience in Corporate M&A, Banking and Finance. Fluent in English, German, and French, he navigates cross-border transactions and is currently pursuing an MBA at IESA."
             },
             "dayana": {
-                "role": "Associate",
-                "bio": "Dayana Véliz combines law and finance to offer solutions in M&A, asset-holding structures, shareholder agreements, entity incorporation, and foreign investment management. She holds a Master's in Finance from IESA."
+                "role": "Senior Associate",
+                "bio": "Dayana Véliz combines law and finance to offer solutions in Corporate M&A, including asset-holding structures, shareholder agreements, entity incorporation, and foreign investment management. She holds a Master's in Finance from IESA."
             },
             "raul": {
-                "role": "Associate",
-                "bio": "Raúl Eduardo Sancristobal advises on complex financial disputes, cross-border securities matters, custodian liability, and capital markets regulation. He specializes in Banking, Finance, and Capital Markets."
+                "role": "Junior Associate",
+                "bio": "Raúl Eduardo Sancristobal works in Banking, Finance, and Capital Markets. He advises on financial disputes, cross-border securities matters, and capital markets regulation."
             },
             "rodrigo": {
-                "role": "Associate",
-                "bio": "Rodrigo Colmenares has experience in commercial law, complex litigation, and emerging technologies including Fintech, Blockchain, and Smart Contracts. He works in Banking, Finance, and Capital Markets."
+                "role": "Junior Associate",
+                "bio": "Rodrigo Colmenares works in Banking, Finance, and Capital Markets. He has experience in commercial law and financial transactions, with strong knowledge of emerging technologies in the legal field."
             },
             "andreina": {
-                "role": "Associate",
-                "bio": "Andreina Flores has 9 years of experience in civil, commercial, real estate, family, and inheritance law. She works in Corporate Law and is pursuing a Bachelor's Degree in Psychology."
+                "role": "Junior Associate",
+                "bio": "Andreina Flores works in Regulatory and Commercial Litigation. She has experience representing clients in regulatory compliance matters and commercial disputes."
             },
             "fabiola": {
-                "role": "Associate",
-                "bio": "Fabiola Flores Reyes has 9 years of experience in civil, commercial, real estate, family, and inheritance law. She provides practical and effective legal solutions in Corporate Law."
+                "role": "Junior Associate",
+                "bio": "Fabiola Flores Reyes works in Regulatory and Commercial Litigation. She provides practical and effective legal solutions in regulatory compliance and dispute resolution."
             },
             "andrea": {
                 "role": "Business Leader",
