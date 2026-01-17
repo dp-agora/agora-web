@@ -33,12 +33,7 @@ export default function TeamPage() {
                     image: "/assets/team/maria-eugenia.webp",
                     email: "mreyes@agoralatam.com",
                     linkedin: "https://www.linkedin.com/in/maria-eugenia-reyes-feo-40410624/"
-                }
-            ]
-        },
-        {
-            title: t("groups.leads"),
-            members: [
+                },
                 {
                     id: "jose-barnola",
                     name: "José P. Barnola Jr.",
@@ -47,7 +42,12 @@ export default function TeamPage() {
                     image: "/assets/team/jose-barnola.webp",
                     email: "jbarnola@agoralatam.com",
                     linkedin: "https://mx.linkedin.com/in/josepbarnolajr"
-                },
+                }
+            ]
+        },
+        {
+            title: t("groups.leads"),
+            members: [
                 {
                     id: "ariana-cabrera",
                     name: "Ariana Cabrera",

@@ -302,8 +302,8 @@
                 "bio": "María Eugenia aporta más de tres décadas de experiencia legal, especializándose en derecho Corporativo, Inmobiliario, Ambiental y Sostenibilidad. Anteriormente socia en Baker McKenzie, ha asesorado a grandes corporaciones en transacciones transfronterizas, cumplimiento regulatorio e iniciativas de desarrollo sostenible en toda Latinoamérica."
             },
             "jose": {
-                "role": "Líder de Práctica",
-                "bio": "José es experto en Tributación y M&A con más de 25 años de experiencia profesional. Autorizado para ejercer el derecho tanto en México como en Venezuela, ha diseñado e implementado estructuras fiscales complejas para corporaciones multinacionales y liderado importantes adquisiciones transfronterizas."
+                "role": "Socio",
+                "bio": "José P. Barnola Jr. es abogado con más de 25 años de experiencia en tributación, fusiones y adquisiciones, y derecho corporativo. Habilitado para ejercer en México y Venezuela, también se desempeña como árbitro en disputas comerciales."
             },
             "ariana": {
                 "role": "Líder de Práctica",
@@ -315,47 +315,47 @@
             },
             "marco": {
                 "role": "Asociado",
-                "bio": "Marco se especializa en Derecho Tributario, brindando asesoría estratégica en cumplimiento fiscal y litigios. Tiene amplia experiencia en procedimientos tributarios tanto administrativos como judiciales, ayudando a los clientes a navegar por marcos regulatorios complejos."
+                "bio": "Marco Gómez es abogado con 6 años de experiencia en las áreas corporativa y financiera. Su experiencia incluye asuntos regulatorios, valores, control de cambios, arbitraje internacional y seguros marítimos."
             },
             "barbara": {
                 "role": "Asociado",
-                "bio": "Bárbara se enfoca en Derecho Corporativo y Propiedad Intelectual. Asesora a clientes en formación de negocios, negociación de contratos y protección de activos de marca y tecnologías innovadoras."
+                "bio": "Bárbara Briceño tiene más de 8 años de experiencia en derecho corporativo, tributación internacional, planificación patrimonial y cumplimiento normativo. Apoya la estructuración de fideicomisos, fundaciones privadas y compañías offshore."
             },
             "manuel": {
                 "role": "Asociado",
-                "bio": "Manuel es especialista en Derecho Laboral y Recursos Humanos. Asiste a corporaciones en la gestión de relaciones laborales, redacción de políticas internas integrales y garantía de cumplimiento de las regulaciones laborales."
+                "bio": "Manuel Domingo es abogado con experiencia en fusiones y adquisiciones. Con dominio del inglés, alemán y francés, navega transacciones internacionales y actualmente cursa un MBA en el IESA."
             },
             "dayana": {
                 "role": "Asociado",
-                "bio": "Dayana se enfoca en Derecho Corporativo y Mercantil. Apoya a los clientes a lo largo del ciclo de vida de sus operaciones comerciales, desde la constitución y gobernanza hasta acuerdos comerciales y disolución."
+                "bio": "Dayana Véliz combina derecho y finanzas para ofrecer soluciones en M&A, estructuras de tenencia de activos, acuerdos de accionistas, constitución de entidades e inversión extranjera. Tiene una Maestría en Finanzas del IESA."
             },
             "raul": {
                 "role": "Asociado",
-                "bio": "Raúl es experto en Resolución de Conflictos y Litigios. Representa a clientes en casos civiles y mercantiles, aportando un enfoque estratégico a la mediación de conflictos y la representación en tribunales."
+                "bio": "Raúl Eduardo Sancristobal asesora en disputas financieras complejas, asuntos de valores transfronterizos, responsabilidad de custodios y regulación del mercado de capitales. Se especializa en Banca, Finanzas y Mercados de Capitales."
             },
             "rodrigo": {
                 "role": "Asociado",
-                "bio": "Rodrigo se especializa en Derecho Público y Asuntos Regulatorios. Asesora en relaciones gubernamentales, procedimientos administrativos y cumplimiento de las regulaciones del sector público."
+                "bio": "Rodrigo Colmenares tiene experiencia en derecho mercantil, litigios complejos y tecnologías emergentes incluyendo Fintech, Blockchain y Contratos Inteligentes. Trabaja en Banca, Finanzas y Mercados de Capitales."
             },
             "andreina": {
                 "role": "Asociado",
-                "bio": "Andreína se enfoca en Negocios Internacionales y Derecho de Inversión. Asiste a clientes en comercio transfronterizo, regulaciones de inversión extranjera y arbitraje comercial internacional."
+                "bio": "Andreina Flores tiene 9 años de experiencia en derecho civil, mercantil, inmobiliario, familiar y sucesiones. Trabaja en Derecho Corporativo y cursa una Licenciatura en Psicología."
             },
             "fabiola": {
                 "role": "Asociado",
-                "bio": "Fabiola es especialista en Derecho Ambiental y Recursos Naturales. Guía a las organizaciones a través de evaluaciones de impacto ambiental, cumplimiento regulatorio y gestión sostenible de recursos."
+                "bio": "Fabiola Flores Reyes tiene 9 años de experiencia en derecho civil, mercantil, inmobiliario, familiar y sucesiones. Brinda soluciones legales prácticas y efectivas en Derecho Corporativo."
             },
             "andrea": {
-                "role": "Gerente de Oficina",
-                "bio": "Andrea supervisa las operaciones diarias de la oficina y las funciones administrativas. Con un enfoque en la eficiencia organizacional, asegura que todos los procesos logísticos y de apoyo funcionen sin problemas para facilitar la prestación de servicios legales de alta calidad."
+                "role": "Líder de Negocios",
+                "bio": "Andrea Regalado tiene sólida formación en administración de empresas con experiencia en gestión de proyectos y optimización de procesos. Se enfoca en eficiencia operativa e implementación estratégica."
             },
             "oriana": {
-                "role": "Asistente Legal",
-                "bio": "Oriana brinda apoyo legal esencial a través de investigación integral, preparación de documentos y asistencia en la gestión de casos. Su diligencia asegura que el equipo legal tenga la base que necesita para obtener resultados exitosos."
+                "role": "Gerente de Administración",
+                "bio": "Oriana Rodríguez tiene más de 13 años de experiencia en gestión de operaciones, coordinación y optimización de procesos. Mantiene el flujo eficiente de actividades diarias y brinda soporte integral en planificación y ejecución de proyectos."
             },
             "juan": {
-                "role": "Estrategia Digital",
-                "bio": "Juan Francisco lidera la presencia digital y la integración tecnológica de la firma. Se enfoca en aprovechar las herramientas digitales para mejorar la comunicación con los clientes, la transparencia operativa y la eficiencia general de los procesos legales."
+                "role": "Desempeño Financiero y Operaciones",
+                "bio": "Juan Posada combina visión empresarial y análisis de datos para optimizar el desempeño financiero y la eficiencia operativa. Diseña herramientas analíticas que modernizan procesos y cursa una Maestría en Finanzas en el IESA."
             }
         }
     },

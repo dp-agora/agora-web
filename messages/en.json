@@ -302,8 +302,8 @@
                 "bio": "María Eugenia brings over three decades of legal expertise, specializing in Corporate, Real Estate, Environmental, and Sustainability law. Previously a partner at Baker McKenzie, she has advised major corporations on cross-border transactions, regulatory compliance, and sustainable development initiatives across Latin America."
             },
             "jose": {
-                "role": "Practice Lead",
-                "bio": "José is an expert in Taxation and M&A with over 25 years of professional experience. Licensed to practice law in both Mexico and Venezuela, he has designed and implemented complex tax structures for multinational corporations and led significant cross-border acquisitions."
+                "role": "Partner",
+                "bio": "José P. Barnola Jr. is a lawyer with over 25 years of experience in taxation, mergers and acquisitions, and corporate law. Licensed to practice in Mexico and Venezuela, he also serves as an arbitrator in commercial disputes."
             },
             "ariana": {
                 "role": "Practice Lead",
@@ -315,47 +315,47 @@
             },
             "marco": {
                 "role": "Associate",
-                "bio": "Marco specializes in Tax Law, providing strategic counsel on fiscal compliance and litigation. He has extensive experience in both administrative and judicial tax procedures, helping clients navigate complex regulatory frameworks."
+                "bio": "Marco Gómez is a lawyer with 6 years of experience in corporate and financial areas. His expertise includes regulatory matters, securities, foreign exchange control, international arbitration, and marine insurance."
             },
             "barbara": {
                 "role": "Associate",
-                "bio": "Bárbara focuses on Corporate Law and Intellectual Property. She advises clients on business formation, contract negotiation, and the protection of brand assets and innovative technologies."
+                "bio": "Bárbara Briceño has over 8 years of experience in corporate law, international taxation, estate planning, and regulatory compliance. She supports the structuring of trusts, private foundations, and offshore companies."
             },
             "manuel": {
                 "role": "Associate",
-                "bio": "Manuel is a specialist in Labor Law and Human Resources. He assists corporations in managing employment relationships, drafting comprehensive internal policies, and ensuring compliance with labor regulations."
+                "bio": "Manuel Domingo is a lawyer with experience in mergers and acquisitions. Fluent in English, German, and French, he navigates cross-border transactions and is currently pursuing an MBA at IESA."
             },
             "dayana": {
                 "role": "Associate",
-                "bio": "Dayana focuses on Corporate and Commercial Law. She supports clients through the lifecycle of their business operations, from incorporation and governance to commercial agreements and dissolution."
+                "bio": "Dayana Véliz combines law and finance to offer solutions in M&A, asset-holding structures, shareholder agreements, entity incorporation, and foreign investment management. She holds a Master's in Finance from IESA."
             },
             "raul": {
                 "role": "Associate",
-                "bio": "Raúl is an expert in Dispute Resolution and Litigation. He represents clients in civil and commercial cases, bringing a strategic approach to conflict mediation and courtroom representation."
+                "bio": "Raúl Eduardo Sancristobal advises on complex financial disputes, cross-border securities matters, custodian liability, and capital markets regulation. He specializes in Banking, Finance, and Capital Markets."
             },
             "rodrigo": {
                 "role": "Associate",
-                "bio": "Rodrigo specializes in Public Law and Regulatory Affairs. He advises on government relations, administrative procedures, and compliance with public sector regulations."
+                "bio": "Rodrigo Colmenares has experience in commercial law, complex litigation, and emerging technologies including Fintech, Blockchain, and Smart Contracts. He works in Banking, Finance, and Capital Markets."
             },
             "andreina": {
                 "role": "Associate",
-                "bio": "Andreína focuses on International Business and Investment Law. She assists clients in cross-border trade, foreign investment regulations, and international commercial arbitration."
+                "bio": "Andreina Flores has 9 years of experience in civil, commercial, real estate, family, and inheritance law. She works in Corporate Law and is pursuing a Bachelor's Degree in Psychology."
             },
             "fabiola": {
                 "role": "Associate",
-                "bio": "Fabiola is a specialist in Environmental Law and Natural Resources. She guides organizations through environmental impact assessments, regulatory compliance, and sustainable resource management."
+                "bio": "Fabiola Flores Reyes has 9 years of experience in civil, commercial, real estate, family, and inheritance law. She provides practical and effective legal solutions in Corporate Law."
             },
             "andrea": {
-                "role": "Office Manager",
-                "bio": "Andrea oversees daily office operations and administrative functions. With a focus on organizational efficiency, she ensures that all logistical and supportive processes run smoothly to facilitate high-quality legal service delivery."
+                "role": "Business Leader",
+                "bio": "Andrea Regalado has a strong background in business administration with experience in project management and process optimization. She focuses on operational efficiency and strategic implementation."
             },
             "oriana": {
-                "role": "Paralegal",
-                "bio": "Oriana provides essential legal support through comprehensive research, document preparation, and case management assistance. Her diligence ensures that the legal team has the foundation they need for successful outcomes."
+                "role": "Administration Manager",
+                "bio": "Oriana Rodríguez has over 13 years of experience in operations management, coordination, and process optimization. She maintains efficient daily activities and comprehensive support in project planning and execution."
             },
             "juan": {
-                "role": "Digital Strategy",
-                "bio": "Juan Francisco leads the firm's digital presence and technological integration. He focuses on leveraging digital tools to enhance client communication, operational transparency, and the overall efficiency of legal processes."
+                "role": "Financial Performance & Operations",
+                "bio": "Juan Posada combines business acumen and data analytics to optimize financial performance and operational efficiency. He designs analytical tools that modernize processes and is pursuing a Master's in Finance at IESA."
             }
         }
     },
