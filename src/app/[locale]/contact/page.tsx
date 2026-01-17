@@ -9,23 +9,42 @@ import { useBooking } from "@/context/BookingContext";
 import posthog from 'posthog-js';
 
 const offices = [
+    // Venezuela Offices
     {
         city: "Caracas",
+        country: "Venezuela",
         designationKey: "office.focus",
         address: "Avenida Venezuela, entre Calle Mohedano y Calle Sojo, Torre Simple, Piso 12. Urbanización El Rosal, Municipio Chacao (1060), Estado Miranda, Caracas – Venezuela.",
         mapQuery: "Torre Simple, El Rosal, Caracas",
     },
     {
-        city: "Mexico City",
-        designationKey: "office.designation",
-        address: "Bosque de Radiatas 22, Piso 4, Bosques de las Lomas, 05120 Ciudad de México, CDMX, México.",
-        mapQuery: "Bosque de Radiatas 22, Ciudad de México",
-    },
-    {
-        city: "Aragua",
+        city: "Maracay",
+        country: "Venezuela",
         designationKey: "office.designation",
         address: "Avenida 19 de Abril, Edificio Profesional, Piso 2, Oficina 2-B, Maracay, Estado Aragua, Venezuela.",
         mapQuery: "Edificio Profesional Maracay",
+    },
+    {
+        city: "Cagua",
+        country: "Venezuela",
+        designationKey: "office.designation",
+        address: null,
+        mapQuery: "Cagua, Aragua, Venezuela",
+    },
+    {
+        city: "Valencia",
+        country: "Venezuela",
+        designationKey: "office.designation",
+        address: null,
+        mapQuery: "Valencia, Carabobo, Venezuela",
+    },
+    // Mexico Office
+    {
+        city: "Mexico City",
+        country: "Mexico",
+        designationKey: "office.designation",
+        address: "Bosque de Radiatas 22, Piso 4, Bosques de las Lomas, 05120 Ciudad de México, CDMX, México.",
+        mapQuery: "Bosque de Radiatas 22, Ciudad de México",
     },
 ];
 
@@ -67,7 +86,7 @@ export default function ContactPage() {
                         </div>
 
                         {/* Offices Grid */}
-                        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-16">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 lg:gap-10">
                             {offices.map((office) => (
                                 <div key={office.city} className="group space-y-8 flex flex-col">
                                     <div className="space-y-6">
@@ -83,7 +102,7 @@ export default function ContactPage() {
                                             <MapPin className="h-6 w-6 text-primary/20 group-hover:text-primary transition-colors duration-500" />
                                         </div>
                                         <p className="text-slate-500 leading-relaxed font-light text-sm italic pr-4">
-                                            {office.address}
+                                            {office.address || office.city + ", " + office.country}
                                         </p>
                                     </div>
 
