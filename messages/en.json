@@ -290,6 +290,8 @@
             "leads": "Practice Leads",
             "regional": "Regional Leads",
             "associates": "Associates",
+            "seniorAssociates": "Senior Associates",
+            "juniorAssociates": "Junior Associates",
             "operations": "Operations"
         },
         "members": {

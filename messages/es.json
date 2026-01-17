@@ -290,6 +290,8 @@
             "leads": "Líderes de Práctica",
             "regional": "Líderes Regionales",
             "associates": "Asociados",
+            "seniorAssociates": "Asociados Senior",
+            "juniorAssociates": "Asociados Junior",
             "operations": "Operaciones"
         },
         "members": {
