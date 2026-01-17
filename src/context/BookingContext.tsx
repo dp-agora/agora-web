@@ -1,7 +1,7 @@
 "use client";
 
 import React, { createContext, useContext, useState, useCallback, ReactNode } from 'react';
-import posthog from 'posthog-js';
+
 
 interface BookingContextType {
     isOpen: boolean;
@@ -17,12 +17,6 @@ export function BookingProvider({ children }: { children: ReactNode }) {
     const openBooking = useCallback(() => {
         setIsOpen(true);
         document.body.style.overflow = 'hidden';
-
-        // PostHog: Track booking modal opened - top of conversion funnel
-        posthog.capture('booking_modal_opened', {
-            source: 'booking_context',
-            timestamp: new Date().toISOString(),
-        });
     }, []);
 
     const closeBooking = useCallback(() => {

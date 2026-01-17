@@ -6,7 +6,7 @@ import { PageHeader } from "@/components/layout/PageHeader";
 import { MapPin, Mail, Phone } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { useBooking } from "@/context/BookingContext";
-import posthog from 'posthog-js';
+
 
 const offices = [
     // Venezuela Offices
@@ -156,11 +156,7 @@ export default function ContactPage() {
                                     href={`mailto:${contactInfo.email}`}
                                     className="text-2xl font-serif text-white hover:text-white/70 transition-all duration-500 flex items-center gap-4 border-b border-white/10 pb-4"
                                     onClick={() => {
-                                        // PostHog: Track contact email clicked
-                                        posthog.capture('contact_email_clicked', {
-                                            email: contactInfo.email,
-                                            source: 'contact_page',
-                                        });
+                                        // Contact email clicked
                                     }}
                                 >
                                     <Mail className="h-5 w-5 opacity-40 shrink-0" />
