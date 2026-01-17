@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, ChevronRight, Globe, Shield, Zap, Award } from "lucide-react";
+import { ArrowRight, ChevronRight, Globe, Shield, Zap } from "lucide-react";
 import { Link } from "@/i18n/routing";
 import { useTranslations } from "next-intl";
 import { useBooking } from "@/context/BookingContext";
@@ -95,27 +95,35 @@ export default function Home() {
                 className="pt-12 border-t border-slate-100 flex flex-wrap items-center gap-x-12 gap-y-8"
               >
                 <span className="text-[10px] font-bold text-slate-400 uppercase tracking-[0.3em] w-full lg:w-auto mb-2 lg:mb-0">Recognized by</span>
-                <div className="flex flex-wrap items-center gap-x-10 gap-y-6 grayscale opacity-60">
+                <div className="flex flex-wrap items-center gap-x-10 gap-y-6">
                   <a
                     href="https://chambers.com/lawyer/alvaro-posada-latin-america-9:210039"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-2 hover:opacity-100 transition-opacity flex-shrink-0"
-                    onClick={() => {
-                      // Recognition link clicked
-                    }}
+                    className="flex items-center hover:opacity-80 transition-opacity flex-shrink-0"
                   >
-                    <Award className="h-5 w-5 text-primary" />
-                    <span className="text-sm font-bold tracking-tight text-primary uppercase">CHAMBERS GLOBAL</span>
+                    <Image
+                      src="/assets/awards/chambers.png"
+                      alt="Chambers Logo"
+                      width={120}
+                      height={32}
+                      className="h-6 w-auto object-contain"
+                    />
                   </a>
-                  <div className="flex items-center gap-2">
-                    <Award className="h-5 w-5 text-primary" />
-                    <span className="text-sm font-bold tracking-tight text-primary">CHAMBERS LATIN AMERICA</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <Award className="h-5 w-5 text-primary" />
-                    <span className="text-sm font-bold tracking-tight text-primary">ITR WORLD TAX</span>
-                  </div>
+                  <Image
+                    src="/assets/awards/iflr1000.png"
+                    alt="IFLR1000 Logo"
+                    width={120}
+                    height={32}
+                    className="h-6 w-auto object-contain"
+                  />
+                  <Image
+                    src="/assets/awards/itr-world-tax.png"
+                    alt="ITR World Tax Logo"
+                    width={120}
+                    height={32}
+                    className="h-6 w-auto object-contain"
+                  />
                 </div>
               </motion.div>
             </motion.div>
