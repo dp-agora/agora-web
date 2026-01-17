@@ -95,34 +95,34 @@ export default function Home() {
                 className="pt-12 border-t border-slate-100 flex flex-wrap items-center gap-x-12 gap-y-8"
               >
                 <span className="text-[10px] font-bold text-slate-400 uppercase tracking-[0.3em] w-full lg:w-auto mb-2 lg:mb-0">Recognized by</span>
-                <div className="flex flex-wrap items-center gap-x-10 gap-y-6">
+                <div className="flex flex-wrap items-center gap-x-12 gap-y-6 opacity-50 grayscale hover:opacity-70 hover:grayscale-0 transition-all duration-500">
                   <a
                     href="https://chambers.com/lawyer/alvaro-posada-latin-america-9:210039"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center hover:opacity-80 transition-opacity flex-shrink-0"
+                    className="flex items-center flex-shrink-0"
                   >
                     <Image
                       src="/assets/awards/chambers.png"
                       alt="Chambers Logo"
-                      width={120}
-                      height={32}
-                      className="h-6 w-auto object-contain"
+                      width={160}
+                      height={40}
+                      className="h-10 w-auto object-contain"
                     />
                   </a>
                   <Image
                     src="/assets/awards/iflr1000.png"
                     alt="IFLR1000 Logo"
-                    width={120}
-                    height={32}
-                    className="h-6 w-auto object-contain"
+                    width={160}
+                    height={40}
+                    className="h-10 w-auto object-contain"
                   />
                   <Image
                     src="/assets/awards/itr-world-tax.png"
                     alt="ITR World Tax Logo"
-                    width={120}
-                    height={32}
-                    className="h-6 w-auto object-contain"
+                    width={160}
+                    height={40}
+                    className="h-10 w-auto object-contain"
                   />
                 </div>
               </motion.div>
