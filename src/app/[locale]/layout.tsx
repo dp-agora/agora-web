@@ -54,6 +54,13 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} className="scroll-smooth">
+      <head>
+        <script
+          src="https://analytics.ahrefs.com/analytics.js"
+          data-key="xHNHBgafftXNgiHNyhfIXA"
+          async
+        />
+      </head>
       <body
         className={`${inter.variable} ${libreBaskerville.variable} font-sans antialiased bg-white text-slate-900`}
         suppressHydrationWarning

@@ -162,7 +162,7 @@ export default function CareersPage() {
                                 </span>
                                 <a
                                     href={`mailto:${t("contact.email")}`}
-                                    className="text-4xl md:text-5xl lg:text-7xl font-serif text-white hover:text-white/70 transition-all duration-500 leading-tight block truncate"
+                                    className="text-xl md:text-2xl lg:text-3xl font-serif text-white hover:text-white/70 transition-all duration-500 leading-tight block"
                                 >
                                     {t("contact.email")}
                                 </a>
