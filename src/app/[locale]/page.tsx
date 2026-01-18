@@ -110,20 +110,34 @@ export default function Home() {
                       className="h-[50px] w-auto object-contain"
                     />
                   </a>
-                  <Image
-                    src="/assets/awards/iflr1000.png"
-                    alt="IFLR1000 Logo"
-                    width={200}
-                    height={50}
-                    className="h-[50px] w-auto object-contain"
-                  />
-                  <Image
-                    src="/assets/awards/itr-world-tax.png"
-                    alt="ITR World Tax Logo"
-                    width={125}
-                    height={50}
-                    className="h-[50px] w-auto object-contain"
-                  />
+                  <a
+                    href="https://www.iflr1000.com/Lawyer/alvaro-j-posada/Profile/85#profile"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center flex-shrink-0"
+                  >
+                    <Image
+                      src="/assets/awards/iflr1000.png"
+                      alt="IFLR1000 Logo"
+                      width={200}
+                      height={50}
+                      className="h-[50px] w-auto object-contain"
+                    />
+                  </a>
+                  <a
+                    href="https://www.itrworldtax.com/Lawyer/sole-practitioner/jose-barnola-diaz/Profile/1290#profile"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center flex-shrink-0"
+                  >
+                    <Image
+                      src="/assets/awards/itr-world-tax.png"
+                      alt="ITR World Tax Logo"
+                      width={125}
+                      height={50}
+                      className="h-[50px] w-auto object-contain"
+                    />
+                  </a>
                 </div>
               </motion.div>
             </motion.div>
