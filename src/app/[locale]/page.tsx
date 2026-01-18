@@ -106,23 +106,23 @@ export default function Home() {
                       src="/assets/awards/chambers.png"
                       alt="Chambers Logo"
                       width={200}
-                      height={56}
-                      className="h-14 w-auto object-contain"
+                      height={50}
+                      className="h-[50px] w-auto object-contain"
                     />
                   </a>
                   <Image
                     src="/assets/awards/iflr1000.png"
                     alt="IFLR1000 Logo"
                     width={200}
-                    height={56}
-                    className="h-14 w-auto object-contain"
+                    height={50}
+                    className="h-[50px] w-auto object-contain"
                   />
                   <Image
                     src="/assets/awards/itr-world-tax.png"
                     alt="ITR World Tax Logo"
-                    width={200}
-                    height={56}
-                    className="h-14 w-auto object-contain"
+                    width={125}
+                    height={50}
+                    className="h-[50px] w-auto object-contain"
                   />
                 </div>
               </motion.div>
