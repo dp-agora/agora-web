@@ -775,6 +775,17 @@
                     "Financial Recovery"
                 ],
                 "fullContent": "Our Debt Restructuring practice provides strategic advice to companies seeking to reorganize their financial obligations. We guide clients through complex restructuring processes, helping them negotiate with creditors, optimize their capital structure, and navigate local and international insolvency frameworks to ensure business continuity and financial stability."
+            },
+            "natural-resources": {
+                "title": "Natural Resources, Mining & Hydrocarbons",
+                "desc": "Advisory on regulatory, tax, transactional, and contractual matters across the natural resources sector.",
+                "features": [
+                    "Mining Law",
+                    "Hydrocarbons",
+                    "Energy Regulation",
+                    "Project Structuring"
+                ],
+                "fullContent": "Advisory on regulatory, tax, transactional, and contractual matters across the natural resources sector, including mining, hydrocarbons, and energy-related industries. The firm supports local and multinational clients in structuring, financing, and operating complex projects within highly regulated environments."
             }
         },
         "methodology": {
