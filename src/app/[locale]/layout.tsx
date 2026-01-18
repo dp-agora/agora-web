@@ -22,6 +22,15 @@ const libreBaskerville = Libre_Baskerville({
 export const metadata: Metadata = {
   title: "Ágora | Strategic Advisory & Legal Excellence",
   description: "Boutique strategic legal and investment advisory firm in Latin America and Venezuela.",
+  metadataBase: new URL('https://www.agoralatam.com'),
+  alternates: {
+    canonical: '/',
+    languages: {
+      'en': '/',
+      'es': '/es',
+      'x-default': '/',
+    },
+  },
 };
 
 import { setRequestLocale } from 'next-intl/server';
