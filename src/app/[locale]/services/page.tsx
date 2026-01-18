@@ -105,6 +105,19 @@ export default function ServicesPage() {
                 t("services.tax.features.2"),
                 t("services.tax.features.3")
             ]
+        },
+        {
+            id: "natural-resources",
+            title: t("services.natural-resources.title"),
+            icon: Globe,
+            description: t("services.natural-resources.desc"),
+            fullContent: t("services.natural-resources.fullContent"),
+            features: [
+                t("services.natural-resources.features.0"),
+                t("services.natural-resources.features.1"),
+                t("services.natural-resources.features.2"),
+                t("services.natural-resources.features.3")
+            ]
         }
     ];
 
