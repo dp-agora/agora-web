@@ -64,10 +64,26 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} className="scroll-smooth">
       <head>
+        {/* Ahrefs Analytics */}
         <script
           src="https://analytics.ahrefs.com/analytics.js"
           data-key="xHNHBgafftXNgiHNyhfIXA"
           async
+        />
+        {/* Google Analytics 4 */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-ME4CJNZ6PQ"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-ME4CJNZ6PQ');
+            `,
+          }}
         />
       </head>
       <body
