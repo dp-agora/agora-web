@@ -1656,5 +1656,219 @@
             "text": "Connect with us to explore how our real estate practice can support your next acquisition, development project, or portfolio investment across Latin America.",
             "button": "Schedule a Consultation"
         }
+    },
+    "Environmental": {
+        "hero": {
+            "badge": "Practice Area",
+            "title": "Environmental & Natural Resources",
+            "subtitle": "Navigating Complex Regulatory Landscapes for Mining, Energy, and Infrastructure Projects Across Latin America"
+        },
+        "intro": {
+            "lead": "Environmental permitting and natural resources regulation define the threshold for project viability across Latin America's most capital-intensive industries. Ágora's Environmental & Natural Resources team serves as strategic regulatory counsel for mining operators, energy companies, and infrastructure sponsors navigating the intersection of operational objectives and environmental compliance. Our hybrid approach combines rigorous regulatory adherence with commercially pragmatic execution — enabling major projects to advance through complex permitting frameworks without sacrificing timeline or risk management discipline."
+        },
+        "practice": {
+            "badge": "Our Approach",
+            "title": "Regulatory Strategy for Natural Resource Development",
+            "definitions": {
+                "permitting": {
+                    "title": "What Is Permitting Architecture?",
+                    "content": "We design comprehensive permitting roadmaps that anticipate regulatory requirements across project lifecycles — from initial environmental impact assessments through operational compliance and eventual site remediation. Our permitting strategies integrate multi-agency coordination, timeline management, and contingency planning to ensure project advancement without regulatory surprises."
+                },
+                "sectoral": {
+                    "title": "What Is Sectoral Regulatory Mastery?",
+                    "content": "Deep expertise in mining, hydrocarbons, and industrial regulatory frameworks enables precise navigation of sector-specific licensing requirements, concession procedures, and ongoing compliance obligations. We understand how regulators think and what they prioritize, allowing us to anticipate requirements before they become obstacles."
+                },
+                "crossBorder": {
+                    "title": "What Is Cross-Border Project Enablement?",
+                    "content": "For international investors entering Latin American natural resource markets, we bridge jurisdictional complexity — aligning global ESG standards with local regulatory realities to maintain project bankability. Our cross-border expertise ensures that compliance frameworks satisfy both host-country requirements and international lender expectations."
+                }
+            }
+        },
+        "services": {
+            "badge": "Practice Capabilities",
+            "title": "Environmental & Natural Resources Advisory Services",
+            "items": {
+                "permitting": {
+                    "title": "Environmental Permitting & Licensing",
+                    "description": "End-to-end advisory on environmental impact assessments, permit applications, and regulatory approvals for mining, energy, and infrastructure projects."
+                },
+                "mining": {
+                    "title": "Mining Regulatory Advisory",
+                    "description": "Comprehensive guidance on mining concessions, exploration permits, and operational licensing across Latin American jurisdictions."
+                },
+                "hydrocarbons": {
+                    "title": "Hydrocarbons & Energy Regulation",
+                    "description": "Regulatory support for oil, gas, and renewable energy projects including licensing, compliance frameworks, and sector-specific authorizations."
+                },
+                "infrastructure": {
+                    "title": "Infrastructure Environmental Approvals",
+                    "description": "Strategic advisory for large-scale infrastructure projects requiring coordinated multi-agency environmental authorization."
+                },
+                "crossBorder": {
+                    "title": "Cross-Border Compliance Coordination",
+                    "description": "Harmonizing environmental compliance across multiple jurisdictions for multinational project sponsors and international investors."
+                },
+                "dueDiligence": {
+                    "title": "Regulatory Due Diligence",
+                    "description": "Pre-acquisition environmental assessments evaluating permit status, compliance history, and latent liability exposure."
+                },
+                "maintenance": {
+                    "title": "Concession & License Maintenance",
+                    "description": "Ongoing advisory for maintaining environmental authorizations, permit renewals, and regulatory reporting obligations."
+                },
+                "development": {
+                    "title": "Project Development Support",
+                    "description": "Integrated legal-regulatory strategy from project inception through construction permitting and operational launch."
+                }
+            }
+        },
+        "value": {
+            "badge": "Strategic Advantage",
+            "title": "Our Environmental Practice Framework",
+            "pillars": {
+                "integrated": {
+                    "title": "Integrated Sectoral Platform",
+                    "description": "Unified expertise across mining, energy, and infrastructure sectors enables comprehensive advisory for projects spanning multiple regulatory regimes."
+                },
+                "velocity": {
+                    "title": "Compliance-Velocity Balance",
+                    "description": "Our hybrid approach ensures that rigorous regulatory adherence never becomes an obstacle to commercially viable project timelines."
+                },
+                "intelligence": {
+                    "title": "Regional Regulatory Intelligence",
+                    "description": "Deep familiarity with Latin American environmental authorities and regulatory cultures allows us to anticipate requirements and streamline approval processes."
+                },
+                "bankability": {
+                    "title": "Transaction-Ready Execution",
+                    "description": "Permitting strategies designed to satisfy lender requirements and investor standards from project inception — maximizing bankability."
+                }
+            }
+        },
+        "matters": {
+            "badge": "Track Record",
+            "title": "Representative Matters",
+            "items": {
+                "miningConsortium": {
+                    "title": "Multi-Phase Mining Project",
+                    "description": "Advised an international mining consortium on comprehensive environmental permitting for a multi-phase copper extraction project, coordinating approvals across three regulatory agencies."
+                },
+                "renewableEnergy": {
+                    "title": "Cross-Border Renewable Energy",
+                    "description": "Structured environmental compliance framework for a cross-border renewable energy project spanning two Latin American jurisdictions with divergent regulatory requirements."
+                },
+                "industrialAcquisition": {
+                    "title": "Industrial Asset Acquisition",
+                    "description": "Conducted regulatory due diligence for a private equity fund's acquisition of industrial assets, identifying material permit deficiencies and negotiating purchase price adjustments."
+                },
+                "hydrocarbonOperator": {
+                    "title": "Hydrocarbon Exploration Block",
+                    "description": "Guided an oil and gas operator through hydrocarbon licensing procedures in a newly regulated exploration block, securing all required environmental authorizations within accelerated timelines."
+                },
+                "transportCorridor": {
+                    "title": "Major Transportation Corridor",
+                    "description": "Represented infrastructure sponsors in environmental impact assessment processes for a major transportation corridor, achieving approval with innovative mitigation commitments."
+                }
+            }
+        },
+        "clients": {
+            "badge": "Our Clients",
+            "title": "Who We Serve",
+            "types": {
+                "mining": {
+                    "title": "Mining & Extractive Operators",
+                    "description": "Companies developing mineral resources requiring comprehensive permitting and ongoing regulatory compliance support."
+                },
+                "energy": {
+                    "title": "Oil, Gas & Energy Companies",
+                    "description": "Hydrocarbon producers and energy developers navigating sector-specific environmental authorization requirements."
+                },
+                "infrastructure": {
+                    "title": "Infrastructure Project Sponsors",
+                    "description": "Developers of large-scale infrastructure requiring coordinated environmental approvals from multiple agencies."
+                },
+                "investors": {
+                    "title": "International Investors",
+                    "description": "Global funds and strategic investors entering Latin American natural resource markets requiring regulatory clarity and compliance assurance."
+                },
+                "industrial": {
+                    "title": "Industrial Operators",
+                    "description": "Manufacturing and processing facilities requiring environmental permits, ongoing compliance advisory, and regulatory interface management."
+                }
+            }
+        },
+        "related": {
+            "badge": "Related Practices",
+            "title": "Complementary Practice Areas",
+            "practices": {
+                "corporate": {
+                    "title": "Corporate & M&A",
+                    "description": "Transaction structuring for natural resource assets and project company organizations"
+                },
+                "banking": {
+                    "title": "Banking & Finance",
+                    "description": "Project finance, lender compliance requirements, and bankability structuring"
+                },
+                "realEstate": {
+                    "title": "Real Estate",
+                    "description": "Land acquisition, surface rights, and property aspects of resource development"
+                }
+            }
+        },
+        "leadership": {
+            "badge": "Our Team",
+            "title": "Practice Leadership",
+            "members": {
+                "jose": {
+                    "name": "José P. Barnola Jr.",
+                    "role": "Senior Partner",
+                    "focus": "Environmental regulatory strategy, natural resources, and infrastructure project permitting"
+                },
+                "alvaro": {
+                    "name": "Álvaro J. Posada Sessarego",
+                    "role": "Founding Partner",
+                    "focus": "Cross-border transactions, project development, and international investor advisory"
+                },
+                "marco": {
+                    "name": "Marco Gómez",
+                    "role": "Senior Associate",
+                    "focus": "Regulatory compliance, mining & hydrocarbons licensing, and permit maintenance"
+                }
+            }
+        },
+        "faqs": {
+            "badge": "Common Questions",
+            "title": "Frequently Asked Questions",
+            "items": {
+                "permittingProcess": {
+                    "question": "What is involved in obtaining environmental permits for mining or energy projects?",
+                    "answer": "Environmental permitting typically requires preparation of environmental impact assessments, stakeholder consultations, regulatory submissions, and ongoing engagement with environmental authorities. We manage the complete process, ensuring applications address all regulatory requirements while maintaining project timelines."
+                },
+                "crossBorderCoordination": {
+                    "question": "How do you coordinate permitting across multiple Latin American jurisdictions?",
+                    "answer": "For cross-border projects, we develop unified compliance strategies that harmonize requirements across jurisdictions. This includes mapping regulatory differences, coordinating with local counsel networks, and establishing consistent compliance frameworks that satisfy all applicable authorities."
+                },
+                "dueDiligence": {
+                    "question": "Can you assist with environmental due diligence for acquisitions?",
+                    "answer": "Yes. Our regulatory due diligence evaluates permit status, compliance history, and potential environmental liabilities. We identify material issues, quantify exposure, and support deal structuring to appropriately allocate environmental risks."
+                },
+                "approach": {
+                    "question": "What distinguishes your approach to natural resources regulation?",
+                    "answer": "Our hybrid methodology balances compliance rigor with commercial pragmatism. We understand that regulatory adherence must enable — not obstruct — project development. This project-sponsor perspective informs every permitting strategy."
+                },
+                "ongoingCompliance": {
+                    "question": "How do you support ongoing environmental compliance after permits are obtained?",
+                    "answer": "We provide continuing advisory for license maintenance, regulatory reporting, and compliance monitoring. When requirements change or authorities request information, we manage the regulatory interface to maintain uninterrupted operational authorization."
+                },
+                "projectFinancing": {
+                    "question": "Do you advise on environmental aspects of project financing?",
+                    "answer": "Yes. We structure permitting strategies that satisfy lender environmental requirements and development bank standards. Our goal is permits that are not only regulatory-compliant but also bankable — supporting project finance and investment objectives."
+                }
+            }
+        },
+        "cta": {
+            "title": "Advance Your Project With Regulatory Confidence",
+            "description": "Strategic environmental counsel for natural resource development across Latin America.",
+            "button": "Schedule a Consultation"
+        }
     }
 }
