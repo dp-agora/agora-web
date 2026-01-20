@@ -68,9 +68,10 @@ export default function EnvironmentalPage() {
     const faqs = ["permittingProcess", "crossBorderCoordination", "dueDiligence", "approach", "ongoingCompliance", "projectFinancing"];
 
     const teamMembers = [
-        { slug: "jose-barnola", key: "jose", image: "/assets/team/jose-barnola.webp" },
-        { slug: "alvaro-posada", key: "alvaro", image: "/assets/team/alvaro-posada.webp" },
-        { slug: "marco-gomez", key: "marco", image: "/assets/team/marco-gomez.webp" }
+        { slug: "maria-eugenia-reyes", key: "maria", image: "/assets/team/maria-eugenia.webp" },
+        { slug: "lizeth-reyes", key: "lizeth", image: "/assets/team/lizeth-reyes.webp" },
+        { slug: "ariana-cabrera", key: "ariana", image: "/assets/team/ariana-cabrera.webp" },
+        { slug: "barbara-briceno", key: "barbara", image: "/assets/team/barbara-briceno.webp" }
     ];
 
     // Schema markup for SEO
@@ -422,7 +423,7 @@ export default function EnvironmentalPage() {
                         whileInView="visible"
                         viewport={{ once: true }}
                         variants={staggerContainer}
-                        className="grid md:grid-cols-3 gap-8"
+                        className="grid md:grid-cols-2 lg:grid-cols-4 gap-8"
                     >
                         {teamMembers.map(({ slug, key, image }) => (
                             <motion.div key={slug} variants={fadeIn}>
