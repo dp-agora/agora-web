@@ -1818,20 +1818,25 @@
             "badge": "Our Team",
             "title": "Practice Leadership",
             "members": {
-                "jose": {
-                    "name": "José P. Barnola Jr.",
-                    "role": "Senior Partner",
-                    "focus": "Environmental regulatory strategy, natural resources, and infrastructure project permitting"
+                "maria": {
+                    "name": "Maria Eugenia Reyes",
+                    "role": "Partner",
+                    "focus": "Environmental regulatory strategy and natural resources compliance"
                 },
-                "alvaro": {
-                    "name": "Álvaro J. Posada Sessarego",
-                    "role": "Founding Partner",
-                    "focus": "Cross-border transactions, project development, and international investor advisory"
+                "lizeth": {
+                    "name": "Lizeth Reyes",
+                    "role": "Practice Leader",
+                    "focus": "Mining operations, oil operations, and industrial project permitting"
                 },
-                "marco": {
-                    "name": "Marco Gómez",
+                "ariana": {
+                    "name": "Ariana Cabrera",
+                    "role": "Practice Leader",
+                    "focus": "Sustainable development and regulatory compliance"
+                },
+                "barbara": {
+                    "name": "Barbara Briceño",
                     "role": "Senior Associate",
-                    "focus": "Regulatory compliance, mining & hydrocarbons licensing, and permit maintenance"
+                    "focus": "Environmental licensing and administrative procedures"
                 }
             }
         },
