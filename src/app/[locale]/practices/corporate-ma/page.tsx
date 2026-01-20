@@ -63,10 +63,17 @@ export default function CorporateMaPage() {
     ];
 
     const teamMembers = [
+        // Partners
         { slug: "alvaro-posada", key: "alvaro", image: "/assets/team/alvaro-posada.webp" },
-        { slug: "dayana-veliz", key: "dayana", image: "/assets/team/dayana-veliz.webp" },
+        { slug: "maria-eugenia-reyes", key: "maria", image: "/assets/team/maria-eugenia.webp" },
+        // Senior Associates
         { slug: "marco-gomez", key: "marco", image: "/assets/team/marco-gomez.webp" },
-        { slug: "raul-sancristobal", key: "raul", image: "/assets/team/raul-sancristobal.webp" }
+        { slug: "barbara-briceno", key: "barbara", image: "/assets/team/barbara-briceno.webp" },
+        { slug: "manuel-domingo", key: "manuel", image: "/assets/team/manuel-domingo.webp" },
+        { slug: "dayana-veliz", key: "dayana", image: "/assets/team/dayana-veliz.webp" },
+        // Junior Associates
+        { slug: "raul-sancristobal", key: "raul", image: "/assets/team/raul-sancristobal.webp" },
+        { slug: "rodrigo-colmenares", key: "rodrigo", image: "/assets/team/rodrigo-colmenares.webp" }
     ];
 
     const faqs = [0, 1, 2, 3, 4, 5];

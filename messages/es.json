@@ -1158,23 +1158,43 @@
             "members": {
                 "alvaro": {
                     "name": "Álvaro J. Posada Sessarego",
-                    "role": "Socio Fundador",
+                    "role": "Socio",
                     "focus": "M&A transfronterizo, finanzas corporativas y mercados de capitales"
                 },
-                "dayana": {
-                    "name": "Dayana Véliz",
-                    "role": "Asociada",
-                    "focus": "Estructuración de M&A, gobernanza corporativa y acuerdos de accionistas"
+                "maria": {
+                    "name": "Maria E. Reyes",
+                    "role": "Socia",
+                    "focus": "Gobernanza corporativa, transacciones de M&A y operaciones internacionales"
                 },
                 "marco": {
                     "name": "Marco Gómez",
-                    "role": "Asociado",
+                    "role": "Asociado Senior",
                     "focus": "Reestructuraciones corporativas, cumplimiento regulatorio y due diligence"
+                },
+                "barbara": {
+                    "name": "Bárbara Briceño",
+                    "role": "Asociada Senior",
+                    "focus": "Derecho corporativo, tributación internacional y planificación patrimonial"
+                },
+                "manuel": {
+                    "name": "Manuel Domingo",
+                    "role": "Asociado Senior",
+                    "focus": "Fusiones y adquisiciones, banca y finanzas, y mercados de capitales"
+                },
+                "dayana": {
+                    "name": "Dayana Véliz",
+                    "role": "Asociada Senior",
+                    "focus": "Estructuración de M&A, gobernanza corporativa y acuerdos de accionistas"
                 },
                 "raul": {
                     "name": "Raúl Eduardo Sancristobal",
-                    "role": "Asociado",
+                    "role": "Asociado Junior",
                     "focus": "Disputas corporativas y transacciones de mercados de capitales"
+                },
+                "rodrigo": {
+                    "name": "Rodrigo Colmenares",
+                    "role": "Asociado Junior",
+                    "focus": "Derecho mercantil, fintech y tecnologías emergentes"
                 }
             }
         },

@@ -1158,23 +1158,43 @@
             "members": {
                 "alvaro": {
                     "name": "Álvaro J. Posada Sessarego",
-                    "role": "Founding Partner",
+                    "role": "Partner",
                     "focus": "Cross-border M&A, corporate finance, and capital markets"
                 },
-                "dayana": {
-                    "name": "Dayana Véliz",
-                    "role": "Associate",
-                    "focus": "M&A structuring, corporate governance, and shareholder agreements"
+                "maria": {
+                    "name": "Maria E. Reyes",
+                    "role": "Partner",
+                    "focus": "Corporate governance, M&A transactions, and international operations"
                 },
                 "marco": {
                     "name": "Marco Gómez",
-                    "role": "Associate",
+                    "role": "Senior Associate",
                     "focus": "Corporate restructurings, regulatory compliance, and due diligence"
+                },
+                "barbara": {
+                    "name": "Bárbara Briceño",
+                    "role": "Senior Associate",
+                    "focus": "Corporate law, international taxation, and estate planning"
+                },
+                "manuel": {
+                    "name": "Manuel Domingo",
+                    "role": "Senior Associate",
+                    "focus": "Mergers and acquisitions, banking and finance, and capital markets"
+                },
+                "dayana": {
+                    "name": "Dayana Véliz",
+                    "role": "Senior Associate",
+                    "focus": "M&A structuring, corporate governance, and shareholder agreements"
                 },
                 "raul": {
                     "name": "Raúl Eduardo Sancristobal",
-                    "role": "Associate",
+                    "role": "Junior Associate",
                     "focus": "Corporate disputes and capital markets transactions"
+                },
+                "rodrigo": {
+                    "name": "Rodrigo Colmenares",
+                    "role": "Junior Associate",
+                    "focus": "Commercial law, fintech, and emerging technologies"
                 }
             }
         },
