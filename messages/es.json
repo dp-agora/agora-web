@@ -806,5 +806,197 @@
     },
     "Booking": {
         "title": "ÁGORA Conectar"
+    },
+    "BankingFinance": {
+        "hero": {
+            "badge": "Área de Práctica",
+            "title": "Banca y Finanzas",
+            "subtitle": "Asesoría en Infraestructura Financiera",
+            "description": "Asesoría legal para instituciones financieras, prestatarios corporativos e inversores institucionales en transacciones bancarias complejas en América Latina."
+        },
+        "intro": {
+            "lead": "Ágora Abogados asesora a instituciones financieras, prestatarios corporativos e inversores institucionales en todo el espectro de transacciones bancarias y financieras en América Latina. Nuestra práctica integra profundo conocimiento regulatorio con ejecución transaccional sofisticada, permitiendo a los clientes estructurar, negociar y cerrar financiamientos complejos en jurisdicciones donde la precisión legal es innegociable.",
+            "body": "Servimos como asesores de infraestructura financiera—proporcionando la certeza regulatoria y la disciplina de ejecución de operaciones que requieren los bancos comerciales, fondos de crédito privado, prestamistas multilaterales y corporativos a nivel de tesorería. Desde préstamos sindicados hasta reestructuración en dificultades, nuestro equipo ofrece la profundidad técnica y el pragmatismo comercial que impulsan las transacciones."
+        },
+        "practice": {
+            "badge": "Nuestro Enfoque",
+            "title": "Nuestra Práctica de Banca y Finanzas",
+            "paragraph1": "La práctica de Banca y Finanzas de Ágora opera en la intersección del cumplimiento regulatorio y la ejecución transaccional. Asesoramos a prestamistas, prestatarios e intermediarios financieros en asuntos que demandan tanto profundidad regulatoria local como alineación con estándares de transacción internacionales.",
+            "definition": {
+                "title": "¿Qué es el Derecho Bancario?",
+                "content": "El derecho bancario abarca el marco legal que rige las instituciones financieras, las relaciones crediticias, la regulación prudencial y la estructuración de instrumentos de deuda. Requiere fluidez en supervisión del banco central, estándares de adecuación de capital y las arquitecturas contractuales que sustentan los mercados de crédito."
+            },
+            "paragraph2": "No abordamos los financiamientos como ejercicios de documentación aislados. Cada transacción se evalúa a través del lente del riesgo regulatorio, impacto en el balance general y certeza de ejecución. Esta metodología integrada asegura que las estructuras de financiamiento de nuestros clientes sean defendibles, eficientes y alineadas con los requisitos de gobernanza institucional."
+        },
+        "services": {
+            "badge": "Capacidades",
+            "title": "Servicios Principales",
+            "items": {
+                "lending": {
+                    "title": "Préstamos Corporativos y Comerciales",
+                    "description": "Asesoramos en facilidades de préstamo bilaterales, club y sindicadas para prestatarios corporativos y patrocinadores financieros. Nuestro equipo estructura contratos de crédito, paquetes de garantías y acuerdos entre acreedores que satisfacen tanto requisitos regulatorios locales como expectativas de prestamistas internacionales."
+                },
+                "project-finance": {
+                    "title": "Financiamiento Estructurado y de Proyectos",
+                    "description": "Los financiamientos complejos requieren arquitectura legal a medida. Manejamos financiamiento de proyectos para transacciones de energía, infraestructura y recursos naturales, estructurando fideicomisos de garantía, cuentas de reserva y derechos de intervención que asignan riesgo a lo largo de los ciclos de vida del proyecto."
+                },
+                "trade-finance": {
+                    "title": "Financiamiento Comercial y de Commodities",
+                    "description": "Nuestra práctica cubre cartas de crédito, facilidades vinculadas a commodities y productos de financiamiento comercial estructurado. Asesoramos en estructuras de crédito documentario, financiamiento de almacén y facilidades de pre-exportación con enfoque particular en commodities agrícolas y extractivos."
+                },
+                "regulatory": {
+                    "title": "Asesoría Regulatoria y Licenciamiento",
+                    "description": "Guiamos a las instituciones financieras a través del licenciamiento, cumplimiento de supervisión y aprobaciones regulatorias ante SUDEBAN y el Banco Central de Venezuela. Nuestra práctica regulatoria se extiende a coordinar requisitos de autorización transfronteriza."
+                },
+                "financial-products": {
+                    "title": "Productos e Instrumentos Financieros",
+                    "description": "Estructuramos derivados, garantías y arreglos de cobertura para tesorerías corporativas e instituciones financieras. Nuestra documentación se alinea con estándares ISDA mientras aborda consideraciones de ejecutabilidad local y compensación."
+                },
+                "cross-border": {
+                    "title": "Financiamiento Transfronterizo",
+                    "description": "Las transacciones multijurisdiccionales requieren coordinación fluida. Asesoramos en estructuras offshore, facilidades regidas por ley extranjera y mecanismos de apoyo crediticio que conectan contrapartes venezolanas con mercados de capitales internacionales."
+                },
+                "restructuring": {
+                    "title": "Reestructuración de Crédito y Finanzas en Dificultades",
+                    "description": "Cuando los financiamientos enfrentan estrés, asesoramos a prestamistas y prestatarios en renegociaciones, acuerdos de standstill y conversiones de deuda a capital. Nuestro trabajo de reestructuración integra restricciones regulatorias con objetivos de recuperación comercial."
+                },
+                "compliance": {
+                    "title": "Cumplimiento y Regulación Prudencial",
+                    "description": "Asesoramos a instituciones financieras en adecuación de capital, marcos de prevención de lavado de dinero y obligaciones de supervisión continua. Nuestra asesoría de cumplimiento asegura que los clientes institucionales mantengan su posición regulatoria."
+                }
+            }
+        },
+        "value": {
+            "badge": "Nuestra Metodología",
+            "title": "Cómo Agregamos Valor",
+            "subtitle": "Entregamos valor a través de un marco anclado en cuatro disciplinas.",
+            "items": {
+                "regulatory-certainty": {
+                    "title": "Certeza Regulatoria",
+                    "description": "Cada estructura de financiamiento comienza con una comprensión clara de los requisitos de supervisión aplicables. Identificamos restricciones regulatorias tempranamente, permitiendo a los clientes estructurar transacciones que resistirán el escrutinio del banco central."
+                },
+                "risk-allocation": {
+                    "title": "Asignación de Riesgos",
+                    "description": "Las transacciones bancarias distribuyen riesgo entre múltiples partes. Redactamos documentación que asigna precisamente el riesgo crediticio, riesgo operacional y riesgo de ejecución—asegurando que los clientes entiendan su exposición antes de la ejecución."
+                },
+                "execution-discipline": {
+                    "title": "Disciplina de Ejecución",
+                    "description": "Los financiamientos operan en cronogramas comerciales. Nuestra gestión de transacciones integra flujos de trabajo legales con mecánicas de cierre, reduciendo el riesgo de ejecución y asegurando que las condiciones precedentes se satisfagan eficientemente."
+                },
+                "cross-border-coordination": {
+                    "title": "Coordinación Transfronteriza",
+                    "description": "Los financiamientos internacionales requieren abogados locales que entiendan cómo el derecho venezolano interactúa con la ley extranjera aplicable, estructuras de garantía offshore y marcos de arbitraje internacional. Nosotros cerramos esa brecha."
+                }
+            }
+        },
+        "matters": {
+            "badge": "Experiencia",
+            "title": "Asuntos Representativos",
+            "items": {
+                "syndicated-facility": {
+                    "title": "Facilidad de Crédito Sindicada",
+                    "description": "Asesoría a un consorcio de bancos regionales en una facilidad sindicada multi-tramo para un importante grupo industrial, incluyendo garantías sobre bienes inmuebles y cuentas por cobrar."
+                },
+                "trade-finance-program": {
+                    "title": "Programa de Financiamiento Comercial",
+                    "description": "Estructuración y documentación de una facilidad revolvente vinculada a commodities para un exportador agrícola, con apoyo de carta de crédito de bancos confirmadores internacionales."
+                },
+                "project-finance-energy": {
+                    "title": "Financiamiento de Proyectos (Energía)",
+                    "description": "Estructuración legal para el financiamiento de un proyecto de generación de energía, incluyendo fideicomisos de garantía, acuerdos de apoyo del patrocinador y derechos de intervención para prestamistas senior."
+                },
+                "distressed-restructuring": {
+                    "title": "Reestructuración de Deuda en Dificultades",
+                    "description": "Representación de una institución financiera en la reestructuración de una cartera de préstamos no productivos, incluyendo conversión de deuda a capital y procesos de aprobación regulatoria."
+                },
+                "cross-border-lending": {
+                    "title": "Préstamo Transfronterizo",
+                    "description": "Asesoría a un prestamista internacional en la extensión de crédito a un prestatario corporativo venezolano bajo una facilidad regida por ley de Nueva York con garantía local."
+                }
+            }
+        },
+        "clients": {
+            "badge": "Enfoque al Cliente",
+            "title": "A Quién Servimos",
+            "items": {
+                "banks": {
+                    "title": "Bancos Comerciales y de Inversión",
+                    "description": "Préstamos, cumplimiento regulatorio, finanzas estructuradas"
+                },
+                "multilateral": {
+                    "title": "Instituciones Multilaterales",
+                    "description": "Financiamiento para el desarrollo, gobernanza institucional"
+                },
+                "private-credit": {
+                    "title": "Crédito Privado y Fondos",
+                    "description": "Préstamos directos, mezzanine, situaciones especiales"
+                },
+                "corporates": {
+                    "title": "Corporativos y Patrocinadores",
+                    "description": "Financiamiento de adquisiciones, capital de trabajo"
+                },
+                "fintech": {
+                    "title": "Plataformas Fintech",
+                    "description": "Licenciamiento, estructuración regulatoria"
+                }
+            }
+        },
+        "leadership": {
+            "badge": "Nuestro Equipo",
+            "title": "Liderazgo de la Práctica",
+            "members": {
+                "alvaro": {
+                    "name": "Álvaro J. Posada Sessarego",
+                    "role": "Socio Fundador",
+                    "focus": "Dirección estratégica para financiamientos transfronterizos y transacciones de mercados de capitales"
+                },
+                "marco": {
+                    "name": "Marco Gómez",
+                    "role": "Asociado",
+                    "focus": "Cumplimiento regulatorio y documentación de productos estructurados"
+                },
+                "raul": {
+                    "name": "Raúl Eduardo Sancristobal",
+                    "role": "Asociado",
+                    "focus": "Disputas financieras y regulación de mercados de capitales"
+                },
+                "dayana": {
+                    "name": "Dayana Véliz",
+                    "role": "Asociada",
+                    "focus": "Financiamientos vinculados a M&A y transacciones bancarias"
+                }
+            }
+        },
+        "faq": {
+            "badge": "Preguntas Frecuentes",
+            "title": "Preguntas Frecuentes"
+        },
+        "faqs": {
+            "0": {
+                "question": "¿Qué tipos de transacciones de financiamiento maneja Ágora?",
+                "answer": "Asesoramos en préstamos sindicados y bilaterales, financiamiento comercial y de commodities, financiamiento de proyectos, productos estructurados y reestructuración de crédito. Nuestra práctica cubre tanto transacciones venezolanas domésticas como financiamientos transfronterizos con contrapartes internacionales."
+            },
+            "1": {
+                "question": "¿Cómo aborda Ágora los requisitos regulatorios en transacciones bancarias?",
+                "answer": "Cada transacción comienza con due diligence regulatorio. Evaluamos los requisitos de SUDEBAN y el Banco Central, coordinamos las aprobaciones necesarias y estructuramos la documentación para asegurar el cumplimiento continuo con los estándares prudenciales."
+            },
+            "2": {
+                "question": "¿Puede Ágora asesorar en financiamientos transfronterizos regidos por ley extranjera?",
+                "answer": "Sí. Regularmente asesoramos en transacciones regidas por ley de Nueva York o inglesa, coordinando con abogados extranjeros en la documentación mientras abordamos aspectos de ley venezolana incluyendo garantías locales, opiniones de ejecutabilidad y consideraciones regulatorias."
+            },
+            "3": {
+                "question": "¿Cuál es la diferencia entre préstamos sindicados y bilaterales?",
+                "answer": "El préstamo bilateral involucra un solo prestamista y prestatario. El préstamo sindicado involucra múltiples prestamistas participando en una sola facilidad crediticia bajo documentación unificada, típicamente con un banco agente coordinando el grupo de prestamistas."
+            },
+            "4": {
+                "question": "¿Ágora asesora en deuda en dificultades y reestructuración?",
+                "answer": "Asesoramos tanto a prestamistas como prestatarios en préstamos no productivos, negociaciones de renegociación, acuerdos de standstill, conversiones de deuda a capital y procesos formales de reestructuración dentro del marco regulatorio de Venezuela."
+            }
+        },
+        "cta": {
+            "title": "Contacte Nuestra Práctica",
+            "description": "Para asuntos relacionados con transacciones bancarias, regulación financiera o finanzas estructuradas, lo invitamos a contactar directamente nuestra práctica.",
+            "button": "Agendar una Consulta"
+        }
     }
 }

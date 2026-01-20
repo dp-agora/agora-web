@@ -806,5 +806,197 @@
     },
     "Booking": {
         "title": "ÁGORA Connect"
+    },
+    "BankingFinance": {
+        "hero": {
+            "badge": "Practice Area",
+            "title": "Banking & Finance",
+            "subtitle": "Financial Infrastructure Counsel",
+            "description": "Legal advisory for financial institutions, corporate borrowers, and institutional investors across complex banking transactions in Latin America."
+        },
+        "intro": {
+            "lead": "Ágora Abogados advises financial institutions, corporate borrowers, and institutional investors on the full spectrum of banking and finance transactions across Latin America. Our practice integrates deep regulatory knowledge with sophisticated transactional execution, enabling clients to structure, negotiate, and close complex financings in jurisdictions where legal precision is non-negotiable.",
+            "body": "We serve as financial infrastructure counsel—providing the regulatory certainty and deal-execution discipline that commercial banks, private credit funds, multilateral lenders, and treasury-level corporates require. From syndicated lending to distressed restructuring, our team delivers the technical depth and commercial pragmatism that move transactions forward."
+        },
+        "practice": {
+            "badge": "Our Approach",
+            "title": "Our Banking & Finance Practice",
+            "paragraph1": "Ágora's Banking & Finance practice operates at the intersection of regulatory compliance and transaction execution. We advise lenders, borrowers, and financial intermediaries on matters that demand both local regulatory depth and alignment with international transaction standards.",
+            "definition": {
+                "title": "What is Banking Law?",
+                "content": "Banking law encompasses the legal framework governing financial institutions, lending relationships, prudential regulation, and the structuring of debt instruments. It requires fluency in central bank supervision, capital adequacy standards, and the contractual architectures that underpin credit markets."
+            },
+            "paragraph2": "We do not approach financings as isolated documentation exercises. Every transaction is evaluated through the lens of regulatory risk, balance-sheet impact, and enforcement certainty. This integrated methodology ensures that our clients' financing structures are defensible, efficient, and aligned with institutional governance requirements."
+        },
+        "services": {
+            "badge": "Capabilities",
+            "title": "Core Services",
+            "items": {
+                "lending": {
+                    "title": "Corporate & Commercial Lending",
+                    "description": "We advise on bilateral, club, and syndicated loan facilities for corporate borrowers and financial sponsors. Our team structures credit agreements, security packages, and intercreditor arrangements that satisfy both local regulatory requirements and international lender expectations."
+                },
+                "project-finance": {
+                    "title": "Structured & Project Finance",
+                    "description": "Complex financings require bespoke legal architecture. We handle project finance for energy, infrastructure, and natural resources transactions, structuring security trusts, reserve accounts, and step-in rights that allocate risk across project lifecycles."
+                },
+                "trade-finance": {
+                    "title": "Trade & Commodity Finance",
+                    "description": "Our practice covers letters of credit, commodity-linked facilities, and structured trade finance products. We advise on documentary credit structures, warehouse financing, and pre-export facilities with particular focus on agricultural and extractive commodities."
+                },
+                "regulatory": {
+                    "title": "Regulatory Advisory & Licensing",
+                    "description": "We guide financial institutions through licensing, supervisory compliance, and regulatory approvals before SUDEBAN and the Central Bank of Venezuela. Our regulatory practice extends to coordinating cross-border authorization requirements."
+                },
+                "financial-products": {
+                    "title": "Financial Products & Instruments",
+                    "description": "We structure derivatives, guarantees, and hedging arrangements for corporate treasuries and financial institutions. Our documentation aligns with ISDA standards while addressing local enforceability and netting considerations."
+                },
+                "cross-border": {
+                    "title": "Cross-Border Financing",
+                    "description": "Multi-jurisdictional transactions require seamless coordination. We advise on offshore structures, foreign law-governed facilities, and credit support mechanisms that bridge Venezuelan counterparties with international capital markets."
+                },
+                "restructuring": {
+                    "title": "Credit Restructuring & Distressed Finance",
+                    "description": "When financings encounter stress, we advise lenders and borrowers on workouts, standstill arrangements, and debt-for-equity conversions. Our restructuring work integrates regulatory constraints with commercial recovery objectives."
+                },
+                "compliance": {
+                    "title": "Compliance & Prudential Regulation",
+                    "description": "We counsel financial institutions on capital adequacy, anti-money laundering frameworks, and ongoing supervisory obligations. Our compliance advisory ensures that institutional clients maintain regulatory standing."
+                }
+            }
+        },
+        "value": {
+            "badge": "Our Methodology",
+            "title": "How We Add Value",
+            "subtitle": "We deliver value through a framework anchored in four disciplines.",
+            "items": {
+                "regulatory-certainty": {
+                    "title": "Regulatory Certainty",
+                    "description": "Every financing structure begins with a clear understanding of applicable supervisory requirements. We identify regulatory constraints early, enabling clients to structure transactions that will withstand central bank scrutiny."
+                },
+                "risk-allocation": {
+                    "title": "Risk Allocation",
+                    "description": "Banking transactions distribute risk across multiple parties. We draft documentation that precisely allocates credit risk, operational risk, and enforcement risk—ensuring that clients understand their exposure before execution."
+                },
+                "execution-discipline": {
+                    "title": "Execution Discipline",
+                    "description": "Financings operate on commercial timelines. Our transaction management integrates legal workstreams with closing mechanics, reducing execution risk and ensuring that conditions precedent are satisfied efficiently."
+                },
+                "cross-border-coordination": {
+                    "title": "Cross-Border Coordination",
+                    "description": "International financings require local counsel who understand how Venezuelan law interacts with foreign governing law, offshore security structures, and international arbitration frameworks. We bridge that gap."
+                }
+            }
+        },
+        "matters": {
+            "badge": "Experience",
+            "title": "Representative Matters",
+            "items": {
+                "syndicated-facility": {
+                    "title": "Syndicated Credit Facility",
+                    "description": "Counsel to a consortium of regional banks on a multi-tranche syndicated facility for a major industrial group, including security over real property and receivables."
+                },
+                "trade-finance-program": {
+                    "title": "Trade Finance Program",
+                    "description": "Structuring and documentation of a commodity-linked revolving facility for an agricultural exporter, with letter of credit support from international confirming banks."
+                },
+                "project-finance-energy": {
+                    "title": "Project Finance (Energy)",
+                    "description": "Legal structuring for the financing of a power generation project, including security trusts, sponsor support arrangements, and step-in rights for senior lenders."
+                },
+                "distressed-restructuring": {
+                    "title": "Distressed Debt Restructuring",
+                    "description": "Representation of a financial institution in the restructuring of a non-performing loan portfolio, including debt-for-equity conversion and regulatory approval processes."
+                },
+                "cross-border-lending": {
+                    "title": "Cross-Border Lending",
+                    "description": "Advising an international lender on the extension of credit to a Venezuelan corporate borrower under a New York law-governed facility with local security."
+                }
+            }
+        },
+        "clients": {
+            "badge": "Client Focus",
+            "title": "Who We Serve",
+            "items": {
+                "banks": {
+                    "title": "Commercial & Investment Banks",
+                    "description": "Lending, regulatory compliance, structured finance"
+                },
+                "multilateral": {
+                    "title": "Multilateral Institutions",
+                    "description": "Development finance, institutional governance"
+                },
+                "private-credit": {
+                    "title": "Private Credit & Funds",
+                    "description": "Direct lending, mezzanine, special situations"
+                },
+                "corporates": {
+                    "title": "Corporates & Sponsors",
+                    "description": "Acquisition finance, working capital"
+                },
+                "fintech": {
+                    "title": "Fintech Platforms",
+                    "description": "Licensing, regulatory structuring"
+                }
+            }
+        },
+        "leadership": {
+            "badge": "Our Team",
+            "title": "Practice Leadership",
+            "members": {
+                "alvaro": {
+                    "name": "Álvaro J. Posada Sessarego",
+                    "role": "Founding Partner",
+                    "focus": "Strategic direction for cross-border financings and capital markets transactions"
+                },
+                "marco": {
+                    "name": "Marco Gómez",
+                    "role": "Associate",
+                    "focus": "Regulatory compliance and structured products documentation"
+                },
+                "raul": {
+                    "name": "Raúl Eduardo Sancristobal",
+                    "role": "Associate",
+                    "focus": "Financial disputes and capital markets regulation"
+                },
+                "dayana": {
+                    "name": "Dayana Véliz",
+                    "role": "Associate",
+                    "focus": "M&A-linked financings and banking transactions"
+                }
+            }
+        },
+        "faq": {
+            "badge": "Common Questions",
+            "title": "Frequently Asked Questions"
+        },
+        "faqs": {
+            "0": {
+                "question": "What types of financing transactions does Ágora handle?",
+                "answer": "We advise on syndicated and bilateral lending, trade and commodity finance, project finance, structured products, and credit restructuring. Our practice covers both domestic Venezuelan transactions and cross-border financings with international counterparties."
+            },
+            "1": {
+                "question": "How does Ágora address regulatory requirements in banking transactions?",
+                "answer": "Every transaction begins with regulatory due diligence. We assess SUDEBAN and Central Bank requirements, coordinate necessary approvals, and structure documentation to ensure ongoing compliance with prudential standards."
+            },
+            "2": {
+                "question": "Can Ágora advise on cross-border financings governed by foreign law?",
+                "answer": "Yes. We regularly advise on transactions governed by New York or English law, coordinating with foreign counsel on documentation while addressing Venezuelan law aspects including local security, enforceability opinions, and regulatory considerations."
+            },
+            "3": {
+                "question": "What is the difference between syndicated lending and bilateral lending?",
+                "answer": "Bilateral lending involves a single lender and borrower. Syndicated lending involves multiple lenders participating in a single credit facility under unified documentation, typically with an agent bank coordinating the lender group."
+            },
+            "4": {
+                "question": "Does Ágora advise on distressed debt and restructuring?",
+                "answer": "We advise both lenders and borrowers on non-performing loans, workout negotiations, standstill agreements, debt-for-equity conversions, and formal restructuring processes within Venezuela's regulatory framework."
+            }
+        },
+        "cta": {
+            "title": "Engage With Our Practice",
+            "description": "For matters involving banking transactions, financial regulation, or structured finance, we invite you to engage directly with our practice.",
+            "button": "Schedule a Consultation"
+        }
     }
 }
