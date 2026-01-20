@@ -309,19 +309,19 @@
             },
             "ariana": {
                 "role": "Líder de Práctica",
-                "bio": "Ariana lidera la práctica de Derecho Laboral con más de 10 años de experiencia especializada. Como miembro del Instituto Venezolano de Derecho Social, brinda orientación experta en contratos de trabajo, reestructuración de la fuerza laboral y litigios laborales para diversas industrias."
+                "bio": "Ariana Cabrera Acevedo, abogado con más de 10 años de experiencia, ha consolidado una carrera en derecho laboral. Su versatilidad le permite desenvolverse con éxito en otras áreas como derecho civil, administrativo, cumplimiento normativo y regulatorio."
             },
             "lizeth": {
                 "role": "Líder de Práctica",
-                "bio": "Lizeth, con sede en Aragua, es experta en Litigio Civil y Mercantil con más de 25 años de experiencia. Representa a clientes en disputas comerciales complejas, derecho contractual y procedimientos judiciales, asegurando una sólida protección legal en varias jurisdicciones regionales."
+                "bio": "Lizeth Reyes, tiene una doble titulación en Administración y en Derecho, acumula una experiencia profesional de más de 25 años en las áreas de litigios civiles y mercantiles y, en general, en la asesoría en procedimientos jurídicos."
             },
             "marco": {
-                "role": "Asociado Senior",
-                "bio": "Marco se especializa en Derecho Tributario, brindando asesoría estratégica en cumplimiento fiscal y litigios. Tiene amplia experiencia en procedimientos tributarios tanto administrativos como judiciales, ayudando a los clientes a navegar por marcos regulatorios complejos."
+                "role": "Asociado",
+                "bio": "Marco Gómez es un abogado con 6 años de experiencia en las áreas corporativa y financiera. Su experiencia incluye un profundo conocimiento de asuntos regulatorios, adquisición de valores, control de cambios y arbitraje internacional."
             },
             "barbara": {
-                "role": "Asociado Senior",
-                "bio": "Bárbara se enfoca en Derecho Corporativo y Propiedad Intelectual. Asesora a clientes en formación de negocios, negociación de contratos y protección de activos de marca y tecnologías innovadoras."
+                "role": "Asociada",
+                "bio": "Barbara Briceño, abogada con más de 8 años de experiencia, ha desarrollado su carrera en derecho corporativo, tributación internacional, planificación patrimonial y cumplimiento normativo."
             },
             "manuel": {
                 "role": "Asociado Senior",
@@ -483,11 +483,11 @@
                 "Abogado, Mención Summa Cum Laude, Universidad Católica Andrés Bello (2014)",
                 "Programa de Estudios Avanzados en Arbitraje, Universidad Monteávila (2020)",
                 "Máster en Gestión y Dirección de Empresas, Universidad Carlos III de Madrid (2022)",
-                "Especialista Certificado en Prevención de Lavado de Dinero, Association of Certified Anti-Money Laundering Specialists (ACAMS) (2024)",
-                "Maestría en Resolución de Disputas (LLM), Universidad de Missouri-Columbia, (2025)"
+                "Especialista Certificado en Prevención de Lavado de Dinero, ACAMS (2024)",
+                "Maestría en Resolución de Disputas (LLM), Universidad de Missouri-Columbia (2025)"
             ],
             "publications": [
-                "Ejecución de la sentencia: intereses de mora e indexación, Derecho Procesal del Trabajo y Contencioso Administrativo Laboral, Ensayos, Academia de Ciencias Políticas y Sociales; Universidad Católica Andrés Bello, 2023. 1 nov. 2023"
+                "Ejecución de la sentencia: intereses de mora e indexación, Derecho Procesal del Trabajo y Contencioso Administrativo Laboral, Ensayos, Academia de Ciencias Políticas y Sociales; Universidad Católica Andrés Bello, 2023."
             ],
             "office": "Caracas, Venezuela",
             "languages": "Español, Inglés y Francés",
@@ -499,7 +499,7 @@
                 "Actualmente, lidera la práctica regional Centro-Occidente, brindando representación y asesoría estratégica en asuntos legales complejos en su jurisdicción."
             ],
             "experience": [
-                "Actualmente se desempeña como Líder Regional de Ágora Abogados en Centro Occidente.",
+                "Actualmente se desempeña como Líder de Practica de Ágora Abogados.",
                 "Lizeth obtuvo especializaciones y maestrías en materia procesal, es Doctora en Ciencias Jurídicas, y actualmente está cursando una Especialización Superior en Derecho Migratorio."
             ],
             "education": [
