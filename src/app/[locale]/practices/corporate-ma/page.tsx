@@ -4,83 +4,93 @@ import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
+import { useBooking } from "@/context/BookingContext";
 import {
     Building2,
-    Scale,
     Globe,
-    Shield,
+    Users,
     FileText,
     TrendingUp,
-    AlertCircle,
-    CheckCircle,
+    Shield,
+    Scale,
+    Briefcase,
     ArrowRight,
     ChevronDown
 } from "lucide-react";
 import { useState } from "react";
 import Script from "next/script";
 
-export default function BankingFinancePage() {
-    const t = useTranslations("BankingFinance");
+export default function CorporateMaPage() {
+    const t = useTranslations("CorporateMA");
     const [openFaq, setOpenFaq] = useState<number | null>(null);
+    const { openBooking } = useBooking();
 
     const coreServices = [
-        { id: "lending", icon: Building2 },
-        { id: "project-finance", icon: TrendingUp },
-        { id: "trade-finance", icon: Globe },
-        { id: "regulatory", icon: Shield },
-        { id: "financial-products", icon: FileText },
+        { id: "buy-side", icon: TrendingUp },
+        { id: "sell-side", icon: Building2 },
+        { id: "joint-ventures", icon: Users },
+        { id: "restructurings", icon: Scale },
+        { id: "minority-investments", icon: Briefcase },
         { id: "cross-border", icon: Globe },
-        { id: "restructuring", icon: AlertCircle },
-        { id: "compliance", icon: CheckCircle }
+        { id: "governance", icon: Shield },
+        { id: "due-diligence", icon: FileText }
     ];
 
     const valueFramework = [
-        { id: "regulatory-certainty", number: "01" },
-        { id: "risk-allocation", number: "02" },
-        { id: "execution-discipline", number: "03" },
-        { id: "cross-border-coordination", number: "04" }
+        { id: "cross-border-execution", number: "01" },
+        { id: "technical-rigor", number: "02" },
+        { id: "commercial-alignment", number: "03" },
+        { id: "governance-focus", number: "04" }
     ];
 
     const representativeMatters = [
-        "syndicated-facility",
-        "trade-finance-program",
-        "project-finance-energy",
-        "distressed-restructuring",
-        "cross-border-lending"
+        "strategic-acquisition",
+        "cross-border-jv",
+        "corporate-restructuring",
+        "minority-stake",
+        "multinational-exit"
     ];
 
     const clientTypes = [
-        "banks",
-        "multilateral",
-        "private-credit",
         "corporates",
-        "fintech"
+        "family-offices",
+        "multinationals",
+        "founders",
+        "investors"
     ];
 
     const teamMembers = [
+        // Partners
         { slug: "alvaro-posada", key: "alvaro", image: "/assets/team/alvaro-posada.webp" },
+        { slug: "maria-eugenia-reyes", key: "maria", image: "/assets/team/maria-eugenia.webp" },
+        // Senior Associates
         { slug: "marco-gomez", key: "marco", image: "/assets/team/marco-gomez.webp" },
+        { slug: "barbara-briceno", key: "barbara", image: "/assets/team/barbara-briceno.webp" },
+        { slug: "manuel-domingo", key: "manuel", image: "/assets/team/manuel-domingo.webp" },
+        { slug: "dayana-veliz", key: "dayana", image: "/assets/team/dayana-veliz.webp" },
+        // Junior Associates
         { slug: "raul-sancristobal", key: "raul", image: "/assets/team/raul-sancristobal.webp" },
-        { slug: "dayana-veliz", key: "dayana", image: "/assets/team/dayana-veliz.webp" }
+        { slug: "rodrigo-colmenares", key: "rodrigo", image: "/assets/team/rodrigo-colmenares.webp" }
     ];
 
-    const faqs = [0, 1, 2, 3, 4];
+    const faqs = [0, 1, 2, 3, 4, 5];
 
     // JSON-LD Schema
     const serviceSchema = {
         "@context": "https://schema.org",
         "@type": "Service",
-        "name": "Banking & Finance Legal Services",
+        "name": "Corporate & M&A Legal Services",
         "provider": {
             "@type": "LegalService",
             "name": "Ágora Abogados",
             "url": "https://www.agoralatam.com"
         },
-        "description": "Legal advisory for banking transactions, financial regulation, syndicated lending, project finance, and credit restructuring across Latin America.",
-        "areaServed": ["Venezuela", "Mexico", "Latin America"],
-        "serviceType": ["Banking Law", "Financial Regulation", "Structured Finance", "Project Finance", "Credit Restructuring"]
+        "description": "Cross-border M&A, joint ventures, corporate restructurings, and governance advisory for strategic corporates, family offices, and multinationals across Latin America.",
+        "areaServed": ["Venezuela", "Mexico", "Latin America", "United States", "Europe"],
+        "serviceType": ["Mergers & Acquisitions", "Joint Ventures", "Corporate Restructuring", "Cross-Border Transactions", "Corporate Governance"]
     };
 
     const faqSchema = {
@@ -167,19 +177,43 @@ export default function BankingFinancePage() {
                                         {t("practice.paragraph1")}
                                     </p>
 
-                                    {/* Definition Block */}
+                                    {/* Definition Block 1 */}
                                     <div className="bg-white p-8 border-l-4 border-primary/30">
                                         <h3 className="text-lg font-bold text-primary mb-3">
-                                            {t("practice.definition.title")}
+                                            {t("practice.definition1.title")}
                                         </h3>
                                         <p className="text-slate-600 leading-relaxed">
-                                            {t("practice.definition.content")}
+                                            {t("practice.definition1.content")}
                                         </p>
                                     </div>
 
                                     <p className="text-slate-600 leading-relaxed">
                                         {t("practice.paragraph2")}
                                     </p>
+
+                                    {/* Definition Block 2 */}
+                                    <div className="bg-white p-8 border-l-4 border-primary/30">
+                                        <h3 className="text-lg font-bold text-primary mb-3">
+                                            {t("practice.definition2.title")}
+                                        </h3>
+                                        <p className="text-slate-600 leading-relaxed">
+                                            {t("practice.definition2.content")}
+                                        </p>
+                                    </div>
+
+                                    <p className="text-slate-600 leading-relaxed">
+                                        {t("practice.paragraph3")}
+                                    </p>
+
+                                    {/* Definition Block 3 */}
+                                    <div className="bg-white p-8 border-l-4 border-primary/30">
+                                        <h3 className="text-lg font-bold text-primary mb-3">
+                                            {t("practice.definition3.title")}
+                                        </h3>
+                                        <p className="text-slate-600 leading-relaxed">
+                                            {t("practice.definition3.content")}
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -358,8 +392,54 @@ export default function BankingFinancePage() {
                         </div>
                     </section>
 
+                    {/* Related Practice Areas */}
+                    <section className="py-16 bg-white border-t border-slate-100">
+                        <div className="container mx-auto px-6 lg:px-12">
+                            <motion.div
+                                initial={{ opacity: 0, y: 20 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                viewport={{ once: true }}
+                                className="space-y-4 mb-8"
+                            >
+                                <span className="text-[10px] font-bold uppercase tracking-[0.4em] text-primary/50">
+                                    {t("related.badge")}
+                                </span>
+                                <h2 className="text-2xl font-serif text-primary">
+                                    {t("related.title")}
+                                </h2>
+                            </motion.div>
+
+                            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                                <Link
+                                    href="/practices/banking-finance"
+                                    className="p-4 bg-slate-50 hover:bg-primary hover:text-white transition-all text-sm font-medium text-primary text-center"
+                                >
+                                    {t("related.links.banking")}
+                                </Link>
+                                <Link
+                                    href="/practices/capital-markets"
+                                    className="p-4 bg-slate-50 hover:bg-primary hover:text-white transition-all text-sm font-medium text-primary text-center"
+                                >
+                                    {t("related.links.capital-markets")}
+                                </Link>
+                                <Link
+                                    href="/practices/tax"
+                                    className="p-4 bg-slate-50 hover:bg-primary hover:text-white transition-all text-sm font-medium text-primary text-center"
+                                >
+                                    {t("related.links.tax")}
+                                </Link>
+                                <Link
+                                    href="/practices/employment"
+                                    className="p-4 bg-slate-50 hover:bg-primary hover:text-white transition-all text-sm font-medium text-primary text-center"
+                                >
+                                    {t("related.links.employment")}
+                                </Link>
+                            </div>
+                        </div>
+                    </section>
+
                     {/* Practice Leadership Section */}
-                    <section className="py-20 bg-white">
+                    <section className="py-20 bg-slate-50">
                         <div className="container mx-auto px-6 lg:px-12">
                             <motion.div
                                 initial={{ opacity: 0, y: 20 }}
@@ -386,7 +466,7 @@ export default function BankingFinancePage() {
                                     >
                                         <Link
                                             href={`/team/${member.slug}`}
-                                            className="block bg-slate-50 hover:bg-primary group transition-all duration-500 border border-slate-100 overflow-hidden"
+                                            className="block bg-white hover:bg-primary group transition-all duration-500 border border-slate-100 overflow-hidden"
                                         >
                                             <div className="relative w-full aspect-[4/5] overflow-hidden">
                                                 <Image
@@ -416,7 +496,7 @@ export default function BankingFinancePage() {
                     </section>
 
                     {/* FAQ Section */}
-                    <section className="py-20 bg-slate-50">
+                    <section className="py-20 bg-white">
                         <div className="container mx-auto px-6 lg:px-12">
                             <motion.div
                                 initial={{ opacity: 0, y: 20 }}
@@ -440,7 +520,7 @@ export default function BankingFinancePage() {
                                         whileInView={{ opacity: 1, y: 0 }}
                                         viewport={{ once: true }}
                                         transition={{ delay: i * 0.1 }}
-                                        className="bg-white border border-slate-100"
+                                        className="bg-slate-50 border border-slate-100"
                                     >
                                         <button
                                             onClick={() => setOpenFaq(openFaq === i ? null : i)}
