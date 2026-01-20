@@ -1656,5 +1656,219 @@
             "text": "Conéctese con nosotros para explorar cómo nuestra práctica inmobiliaria puede apoyar su próxima adquisición, proyecto de desarrollo o inversión de portafolio en toda América Latina.",
             "button": "Agendar una Consulta"
         }
+    },
+    "Environmental": {
+        "hero": {
+            "badge": "Área de Práctica",
+            "title": "Ambiental y Recursos Naturales",
+            "subtitle": "Navegando Paisajes Regulatorios Complejos para Proyectos de Minería, Energía e Infraestructura en América Latina"
+        },
+        "intro": {
+            "lead": "Los permisos ambientales y la regulación de recursos naturales definen el umbral de viabilidad para proyectos en las industrias más intensivas en capital de América Latina. El equipo de Ambiental y Recursos Naturales de Ágora sirve como asesor regulatorio estratégico para operadores mineros, empresas de energía y patrocinadores de infraestructura que navegan la intersección entre objetivos operativos y cumplimiento ambiental. Nuestro enfoque híbrido combina adherencia regulatoria rigurosa con ejecución comercialmente pragmática — permitiendo que proyectos importantes avancen a través de marcos de permisos complejos sin sacrificar cronograma o disciplina de gestión de riesgos."
+        },
+        "practice": {
+            "badge": "Nuestro Enfoque",
+            "title": "Estrategia Regulatoria para el Desarrollo de Recursos Naturales",
+            "definitions": {
+                "permitting": {
+                    "title": "¿Qué es la Arquitectura de Permisos?",
+                    "content": "Diseñamos hojas de ruta de permisos integrales que anticipan los requisitos regulatorios a lo largo de los ciclos de vida de los proyectos — desde las evaluaciones de impacto ambiental iniciales hasta el cumplimiento operativo y la eventual remediación del sitio. Nuestras estrategias de permisos integran coordinación multi-agencia, gestión de cronogramas y planificación de contingencias para asegurar el avance del proyecto sin sorpresas regulatorias."
+                },
+                "sectoral": {
+                    "title": "¿Qué es el Dominio Regulatorio Sectorial?",
+                    "content": "La profunda experiencia en marcos regulatorios de minería, hidrocarburos e industria permite una navegación precisa de los requisitos de licenciamiento específicos del sector, procedimientos de concesión y obligaciones de cumplimiento continuo. Entendemos cómo piensan los reguladores y qué priorizan, lo que nos permite anticipar requisitos antes de que se conviertan en obstáculos."
+                },
+                "crossBorder": {
+                    "title": "¿Qué es la Habilitación de Proyectos Transfronterizos?",
+                    "content": "Para inversores internacionales que ingresan a los mercados de recursos naturales de América Latina, conectamos la complejidad jurisdiccional — alineando estándares ESG globales con realidades regulatorias locales para mantener la bancabilidad del proyecto. Nuestra experiencia transfronteriza asegura que los marcos de cumplimiento satisfagan tanto los requisitos del país anfitrión como las expectativas de los prestamistas internacionales."
+                }
+            }
+        },
+        "services": {
+            "badge": "Capacidades de la Práctica",
+            "title": "Servicios de Asesoría Ambiental y Recursos Naturales",
+            "items": {
+                "permitting": {
+                    "title": "Permisos y Licencias Ambientales",
+                    "description": "Asesoría integral en evaluaciones de impacto ambiental, solicitudes de permisos y aprobaciones regulatorias para proyectos de minería, energía e infraestructura."
+                },
+                "mining": {
+                    "title": "Asesoría Regulatoria Minera",
+                    "description": "Orientación integral en concesiones mineras, permisos de exploración y licenciamiento operativo en jurisdicciones latinoamericanas."
+                },
+                "hydrocarbons": {
+                    "title": "Regulación de Hidrocarburos y Energía",
+                    "description": "Apoyo regulatorio para proyectos de petróleo, gas y energía renovable incluyendo licenciamiento, marcos de cumplimiento y autorizaciones específicas del sector."
+                },
+                "infrastructure": {
+                    "title": "Aprobaciones Ambientales de Infraestructura",
+                    "description": "Asesoría estratégica para proyectos de infraestructura a gran escala que requieren autorización ambiental coordinada de múltiples agencias."
+                },
+                "crossBorder": {
+                    "title": "Coordinación de Cumplimiento Transfronterizo",
+                    "description": "Armonización del cumplimiento ambiental en múltiples jurisdicciones para patrocinadores de proyectos multinacionales e inversores internacionales."
+                },
+                "dueDiligence": {
+                    "title": "Due Diligence Regulatorio",
+                    "description": "Evaluaciones ambientales pre-adquisición que evalúan el estado de permisos, historial de cumplimiento y exposición a responsabilidades latentes."
+                },
+                "maintenance": {
+                    "title": "Mantenimiento de Concesiones y Licencias",
+                    "description": "Asesoría continua para mantener autorizaciones ambientales, renovaciones de permisos y obligaciones de reporte regulatorio."
+                },
+                "development": {
+                    "title": "Apoyo al Desarrollo de Proyectos",
+                    "description": "Estrategia legal-regulatoria integrada desde el inicio del proyecto hasta los permisos de construcción y el lanzamiento operativo."
+                }
+            }
+        },
+        "value": {
+            "badge": "Ventaja Estratégica",
+            "title": "Nuestro Marco de Práctica Ambiental",
+            "pillars": {
+                "integrated": {
+                    "title": "Plataforma Sectorial Integrada",
+                    "description": "La experiencia unificada en los sectores de minería, energía e infraestructura permite asesoría integral para proyectos que abarcan múltiples regímenes regulatorios."
+                },
+                "velocity": {
+                    "title": "Balance Cumplimiento-Velocidad",
+                    "description": "Nuestro enfoque híbrido asegura que la adherencia regulatoria rigurosa nunca se convierta en un obstáculo para cronogramas de proyectos comercialmente viables."
+                },
+                "intelligence": {
+                    "title": "Inteligencia Regulatoria Regional",
+                    "description": "La profunda familiaridad con las autoridades ambientales y culturas regulatorias latinoamericanas nos permite anticipar requisitos y agilizar los procesos de aprobación."
+                },
+                "bankability": {
+                    "title": "Ejecución Lista para Transacciones",
+                    "description": "Estrategias de permisos diseñadas para satisfacer los requisitos de los prestamistas y estándares de los inversores desde el inicio del proyecto — maximizando la bancabilidad."
+                }
+            }
+        },
+        "matters": {
+            "badge": "Trayectoria",
+            "title": "Asuntos Representativos",
+            "items": {
+                "miningConsortium": {
+                    "title": "Proyecto Minero Multi-Fase",
+                    "description": "Asesoría a un consorcio minero internacional en permisos ambientales integrales para un proyecto de extracción de cobre multi-fase, coordinando aprobaciones en tres agencias regulatorias."
+                },
+                "renewableEnergy": {
+                    "title": "Energía Renovable Transfronteriza",
+                    "description": "Estructuración de marco de cumplimiento ambiental para un proyecto de energía renovable transfronterizo que abarca dos jurisdicciones latinoamericanas con requisitos regulatorios divergentes."
+                },
+                "industrialAcquisition": {
+                    "title": "Adquisición de Activos Industriales",
+                    "description": "Realización de due diligence regulatorio para la adquisición de activos industriales por un fondo de capital privado, identificando deficiencias materiales en permisos y negociando ajustes al precio de compra."
+                },
+                "hydrocarbonOperator": {
+                    "title": "Bloque de Exploración de Hidrocarburos",
+                    "description": "Guía a un operador de petróleo y gas a través de procedimientos de licenciamiento de hidrocarburos en un bloque de exploración recientemente regulado, obteniendo todas las autorizaciones ambientales requeridas dentro de cronogramas acelerados."
+                },
+                "transportCorridor": {
+                    "title": "Corredor de Transporte Principal",
+                    "description": "Representación de patrocinadores de infraestructura en procesos de evaluación de impacto ambiental para un corredor de transporte principal, logrando aprobación con compromisos de mitigación innovadores."
+                }
+            }
+        },
+        "clients": {
+            "badge": "Nuestros Clientes",
+            "title": "A Quién Servimos",
+            "types": {
+                "mining": {
+                    "title": "Operadores Mineros y Extractivos",
+                    "description": "Empresas que desarrollan recursos minerales que requieren permisos integrales y apoyo continuo de cumplimiento regulatorio."
+                },
+                "energy": {
+                    "title": "Empresas de Petróleo, Gas y Energía",
+                    "description": "Productores de hidrocarburos y desarrolladores de energía que navegan requisitos de autorización ambiental específicos del sector."
+                },
+                "infrastructure": {
+                    "title": "Patrocinadores de Proyectos de Infraestructura",
+                    "description": "Desarrolladores de infraestructura a gran escala que requieren aprobaciones ambientales coordinadas de múltiples agencias."
+                },
+                "investors": {
+                    "title": "Inversores Internacionales",
+                    "description": "Fondos globales e inversores estratégicos que ingresan a mercados de recursos naturales latinoamericanos requiriendo claridad regulatoria y garantía de cumplimiento."
+                },
+                "industrial": {
+                    "title": "Operadores Industriales",
+                    "description": "Instalaciones de manufactura y procesamiento que requieren permisos ambientales, asesoría de cumplimiento continuo y gestión de interfaz regulatoria."
+                }
+            }
+        },
+        "related": {
+            "badge": "Prácticas Relacionadas",
+            "title": "Áreas de Práctica Complementarias",
+            "practices": {
+                "corporate": {
+                    "title": "Corporativo y M&A",
+                    "description": "Estructuración de transacciones para activos de recursos naturales y organizaciones de empresas de proyectos"
+                },
+                "banking": {
+                    "title": "Banca y Finanzas",
+                    "description": "Financiamiento de proyectos, requisitos de cumplimiento de prestamistas y estructuración de bancabilidad"
+                },
+                "realEstate": {
+                    "title": "Bienes Raíces",
+                    "description": "Adquisición de terrenos, derechos de superficie y aspectos inmobiliarios del desarrollo de recursos"
+                }
+            }
+        },
+        "leadership": {
+            "badge": "Nuestro Equipo",
+            "title": "Liderazgo de la Práctica",
+            "members": {
+                "jose": {
+                    "name": "José P. Barnola Jr.",
+                    "role": "Socio Senior",
+                    "focus": "Estrategia regulatoria ambiental, recursos naturales y permisos de proyectos de infraestructura"
+                },
+                "alvaro": {
+                    "name": "Álvaro J. Posada Sessarego",
+                    "role": "Socio Fundador",
+                    "focus": "Transacciones transfronterizas, desarrollo de proyectos y asesoría a inversores internacionales"
+                },
+                "marco": {
+                    "name": "Marco Gómez",
+                    "role": "Asociado Senior",
+                    "focus": "Cumplimiento regulatorio, licenciamiento de minería e hidrocarburos, y mantenimiento de permisos"
+                }
+            }
+        },
+        "faqs": {
+            "badge": "Preguntas Frecuentes",
+            "title": "Preguntas Frecuentes",
+            "items": {
+                "permittingProcess": {
+                    "question": "¿Qué implica obtener permisos ambientales para proyectos de minería o energía?",
+                    "answer": "Los permisos ambientales típicamente requieren la preparación de evaluaciones de impacto ambiental, consultas con partes interesadas, presentaciones regulatorias y compromiso continuo con las autoridades ambientales. Gestionamos el proceso completo, asegurando que las solicitudes aborden todos los requisitos regulatorios mientras se mantienen los cronogramas del proyecto."
+                },
+                "crossBorderCoordination": {
+                    "question": "¿Cómo coordinan los permisos en múltiples jurisdicciones latinoamericanas?",
+                    "answer": "Para proyectos transfronterizos, desarrollamos estrategias de cumplimiento unificadas que armonizan los requisitos entre jurisdicciones. Esto incluye mapear diferencias regulatorias, coordinar con redes de abogados locales y establecer marcos de cumplimiento consistentes que satisfagan a todas las autoridades aplicables."
+                },
+                "dueDiligence": {
+                    "question": "¿Pueden asistir con due diligence ambiental para adquisiciones?",
+                    "answer": "Sí. Nuestro due diligence regulatorio evalúa el estado de permisos, historial de cumplimiento y responsabilidades ambientales potenciales. Identificamos problemas materiales, cuantificamos la exposición y apoyamos la estructuración de transacciones para asignar apropiadamente los riesgos ambientales."
+                },
+                "approach": {
+                    "question": "¿Qué distingue su enfoque en la regulación de recursos naturales?",
+                    "answer": "Nuestra metodología híbrida equilibra el rigor de cumplimiento con el pragmatismo comercial. Entendemos que la adherencia regulatoria debe habilitar — no obstruir — el desarrollo de proyectos. Esta perspectiva de patrocinador de proyectos informa cada estrategia de permisos."
+                },
+                "ongoingCompliance": {
+                    "question": "¿Cómo apoyan el cumplimiento ambiental continuo después de obtener los permisos?",
+                    "answer": "Proporcionamos asesoría continua para mantenimiento de licencias, reportes regulatorios y monitoreo de cumplimiento. Cuando los requisitos cambian o las autoridades solicitan información, gestionamos la interfaz regulatoria para mantener la autorización operativa ininterrumpida."
+                },
+                "projectFinancing": {
+                    "question": "¿Asesoran sobre aspectos ambientales del financiamiento de proyectos?",
+                    "answer": "Sí. Estructuramos estrategias de permisos que satisfacen los requisitos ambientales de los prestamistas y estándares de bancos de desarrollo. Nuestro objetivo son permisos que no solo cumplan con la regulación sino que también sean bancables — apoyando los objetivos de financiamiento de proyectos e inversión."
+                }
+            }
+        },
+        "cta": {
+            "title": "Avance Su Proyecto Con Confianza Regulatoria",
+            "description": "Asesoría ambiental estratégica para el desarrollo de recursos naturales en América Latina.",
+            "button": "Agendar una Consulta"
+        }
     }
 }
