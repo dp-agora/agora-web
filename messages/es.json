@@ -1233,5 +1233,215 @@
             "description": "Para asuntos relacionados con transacciones corporativas, M&A o asesoría de gobernanza, lo invitamos a contactar directamente nuestra práctica.",
             "button": "Agendar una Consulta"
         }
+    },
+    "Tax": {
+        "hero": {
+            "badge": "Asesoría Fiscal",
+            "title": "Impuestos",
+            "subtitle": "Inteligencia Fiscal Transfronteriza para Estructuras Corporativas Complejas",
+            "description": "Ofrecemos soluciones fiscales técnicamente rigurosas y comercialmente pragmáticas para empresas multinacionales y corporaciones regionales que operan en América Latina y el corredor EE.UU.–LatAm. Nuestro enfoque combina experiencia de calibre Big 4 con la capacidad de respuesta y atención a nivel de socio de una práctica especializada."
+        },
+        "intro": {
+            "lead": "La planificación fiscal efectiva no se trata de minimizar obligaciones—se trata de estructurar operaciones de manera que sean defendibles, eficientes y alineadas con la realidad comercial.",
+            "body": "Nuestra Práctica Fiscal asesora a corporaciones, empresas familiares y grupos de inversión en todo el espectro de impuestos sobre la renta, precios de transferencia y estructuración internacional. Entendemos que las decisiones fiscales son decisiones de negocios, y abordamos cada encargo con la profundidad técnica requerida para satisfacer a los reguladores y la perspectiva estratégica necesaria para crear valor. Ya sea que esté expandiéndose a nuevos mercados, reestructurando holdings heredados o navegando una transacción transfronteriza, proporcionamos la arquitectura para ejecutar con confianza."
+        },
+        "practice": {
+            "badge": "Nuestro Enfoque",
+            "title": "Qué Define Nuestra Práctica Fiscal",
+            "paragraph1": "La asesoría fiscal en América Latina requiere más que conocimiento técnico—exige fluidez en dinámicas regulatorias locales, redes de tratados y las realidades prácticas de aplicación. Nuestro equipo aporta décadas de experiencia combinada asesorando en algunas de las estructuras corporativas más complejas de la región, desde arreglos de holding multinacionales hasta reorganizaciones domésticas con implicaciones transfronterizas.",
+            "definition1": {
+                "title": "¿Qué es la Planificación Fiscal?",
+                "content": "La Planificación Fiscal se refiere a la estructuración legítima de actividades comerciales y transacciones para minimizar cargas fiscales dentro de los límites de la ley aplicable. A diferencia de la evasión fiscal (que es ilegal), la planificación fiscal se basa en entender los códigos tributarios, utilizar incentivos disponibles y programar decisiones para lograr eficiencia. La planificación fiscal efectiva considera no solo los ahorros inmediatos sino la defendibilidad a largo plazo, las tendencias regulatorias y la alineación comercial."
+            },
+            "paragraph2": "El panorama del impuesto corporativo en América Latina se caracteriza por cambios regulatorios frecuentes, aplicación evolutiva de precios de transferencia y creciente alineación con estándares de la OCDE. Ayudamos a los clientes a navegar esta complejidad con estructuras que son técnicamente defendibles hoy y adaptables a la evolución regulatoria.",
+            "definition2": {
+                "title": "¿Qué son los Precios de Transferencia?",
+                "content": "Los Precios de Transferencia gobiernan la fijación de precios de transacciones entre entidades relacionadas dentro de un grupo corporativo—préstamos intercompañía, honorarios por servicios, regalías y transferencias de bienes. Las autoridades fiscales escudriñan estas transacciones para asegurar que reflejen términos de arm's length (lo que partes no relacionadas acordarían). El incumplimiento en mantener documentación de precios de transferencia puede resultar en ajustes significativos, penalidades y doble tributación."
+            },
+            "paragraph3": "Las operaciones transfronterizas demandan pensamiento integrado. Coordinamos con asesores de confianza en México, Estados Unidos y toda América Latina para asegurar que las estructuras funcionen a través de jurisdicciones—no solo en aislamiento.",
+            "definition3": {
+                "title": "¿Qué es la Estructuración Fiscal Internacional?",
+                "content": "La Estructuración Fiscal Internacional involucra el diseño de arreglos corporativos y financieros que optimizan la tasa efectiva de impuestos global de un grupo multinacional. Esto incluye selección de jurisdicción para holdings, utilización de tratados, análisis de establecimiento permanente y estructuras de financiamiento. El objetivo es la eficiencia sin posiciones agresivas—estructuras que las autoridades regulatorias respetarán."
+            }
+        },
+        "services": {
+            "badge": "Capacidades Principales",
+            "title": "Servicios de Asesoría Fiscal",
+            "items": {
+                "corporate-income": {
+                    "title": "Impuesto sobre la Renta Corporativo",
+                    "description": "Cumplimiento, planificación y optimización para corporaciones domésticas y multinacionales. Estructuramos operaciones para alinear la eficiencia fiscal con objetivos comerciales manteniendo plena defendibilidad ante auditorías."
+                },
+                "transfer-pricing": {
+                    "title": "Precios de Transferencia",
+                    "description": "Servicios integrales de precios de transferencia incluyendo diseño de políticas, estudios de benchmarking, documentación contemporánea y defensa de posiciones bajo auditoría. Aseguramos que los arreglos intercompañía reflejen principios de arm's length."
+                },
+                "international-structuring": {
+                    "title": "Estructuración Fiscal Internacional",
+                    "description": "Diseño e implementación de estructuras de holding, arreglos de financiamiento y marcos operativos que optimizan tasas efectivas de impuestos globales respetando requisitos de sustancia y limitaciones de tratados."
+                },
+                "treaty-planning": {
+                    "title": "Optimización de Tratados Fiscales",
+                    "description": "Análisis y utilización de tratados fiscales bilaterales para minimizar retenciones, evitar doble tributación y estructurar pagos transfronterizos eficientemente. Profunda experiencia en redes de tratados de EE.UU., España y regionales."
+                },
+                "ma-tax": {
+                    "title": "Asesoría Fiscal en M&A",
+                    "description": "Due diligence fiscal, estructuración e integración post-transacción para adquisiciones, desinversiones y reorganizaciones corporativas. Identificamos exposiciones y oportunidades antes del cierre."
+                },
+                "controversy": {
+                    "title": "Controversia Fiscal y Defensa en Auditorías",
+                    "description": "Representación ante autoridades fiscales en auditorías, apelaciones administrativas y asuntos contenciosos. Defendemos posiciones con el rigor técnico requerido para prevalecer."
+                },
+                "incentives": {
+                    "title": "Incentivos y Regímenes Fiscales",
+                    "description": "Identificación y estructuración de regímenes fiscales especiales, incentivos de inversión, beneficios de zonas francas y ventajas específicas por sector disponibles en jurisdicciones latinoamericanas."
+                },
+                "compliance": {
+                    "title": "Cumplimiento y Reportes Fiscales",
+                    "description": "Servicios de cumplimiento precisos y oportunos para impuesto sobre la renta corporativo, obligaciones de retención y reportes regulatorios en múltiples jurisdicciones. Diseñado para eficiencia y escalabilidad."
+                }
+            }
+        },
+        "value": {
+            "badge": "Nuestro Enfoque",
+            "title": "Cómo Agregamos Valor",
+            "subtitle": "Nuestra asesoría fiscal combina precisión técnica con conciencia comercial para entregar estructuras que funcionan en la práctica.",
+            "items": {
+                "technical-precision": {
+                    "title": "Precisión Técnica",
+                    "description": "Aportamos profundidad técnica de calibre Big 4 a cada encargo—dominio de códigos fiscales, regulaciones y jurisprudencia que forma la base para estructuras defendibles."
+                },
+                "commercial-alignment": {
+                    "title": "Alineación Comercial",
+                    "description": "El asesoramiento fiscal que ignora la realidad comercial crea riesgo de ejecución. Estructuramos soluciones que funcionan dentro de sus restricciones operativas y financieras."
+                },
+                "cross-border-coordination": {
+                    "title": "Coordinación Transfronteriza",
+                    "description": "Las operaciones latinoamericanas rara vez existen en aislamiento. Coordinamos a través de jurisdicciones para asegurar que las estructuras funcionen holísticamente—no solo en papel en un país."
+                },
+                "pragmatic-optimization": {
+                    "title": "Optimización Pragmática",
+                    "description": "Encontramos el camino eficiente—no el agresivo. Nuestras estructuras están diseñadas para desempeñarse bajo auditoría, no para apostar a brechas de aplicación."
+                }
+            }
+        },
+        "matters": {
+            "badge": "Trayectoria",
+            "title": "Asuntos Representativos",
+            "items": {
+                "regional-holding": {
+                    "title": "Reestructuración de Holding Regional",
+                    "description": "Asesoría a un grupo industrial multinacional en la reestructuración de su estructura de holding latinoamericana, optimizando flujos de dividendos e intereses en cinco jurisdicciones mientras se mantuvo cumplimiento con precios de transferencia de la OCDE."
+                },
+                "us-latam-financing": {
+                    "title": "Estructura de Financiamiento EE.UU.–LatAm",
+                    "description": "Diseño de un arreglo de financiamiento transfronterizo para la adquisición de una plataforma regional por un patrocinador estadounidense, minimizando retenciones y estructurando deducciones de intereses a través de tratados fiscales aplicables."
+                },
+                "transfer-pricing-defense": {
+                    "title": "Defensa de Precios de Transferencia",
+                    "description": "Defensa exitosa de un importante cliente manufacturero en una auditoría de precios de transferencia de múltiples años, protegiendo más de $15M en ajustes propuestos mediante análisis económico riguroso y argumentos basados en tratados."
+                },
+                "family-reorganization": {
+                    "title": "Reorganización de Empresa Familiar",
+                    "description": "Asesoría a una empresa familiar multigeneracional en la reorganización fiscalmente eficiente de holdings heredados, implementando una estructura que separó activos operativos de holdings de inversión preservando flexibilidad de sucesión."
+                },
+                "free-trade-zone": {
+                    "title": "Optimización de Zona Franca",
+                    "description": "Estructuración de una operación de distribución regional para maximizar beneficios de zonas francas en múltiples jurisdicciones, reduciendo tasas efectivas de impuestos en aproximadamente 40% manteniendo pleno cumplimiento."
+                }
+            }
+        },
+        "clients": {
+            "badge": "A Quién Servimos",
+            "title": "Nuestros Clientes",
+            "items": {
+                "multinationals": {
+                    "title": "Corporaciones Multinacionales",
+                    "description": "Empresas globales con operaciones complejas en América Latina que requieren planificación fiscal coordinada y cumplimiento."
+                },
+                "regional-corporates": {
+                    "title": "Corporaciones Regionales",
+                    "description": "Empresas pan-latinoamericanas que buscan estructuras fiscales sofisticadas mientras se expanden a través de fronteras."
+                },
+                "family-enterprises": {
+                    "title": "Empresas Familiares",
+                    "description": "Negocios multigeneracionales que requieren estructuras de propiedad fiscalmente eficientes y planificación de sucesión."
+                },
+                "pe-sponsors": {
+                    "title": "Patrocinadores de Capital Privado",
+                    "description": "Patrocinadores financieros estructurando adquisiciones, holdings y salidas con eficiencia fiscal."
+                },
+                "us-investors": {
+                    "title": "Inversores Estadounidenses",
+                    "description": "Empresas e individuos estadounidenses con inversiones latinoamericanas que requieren coordinación EE.UU.–LatAm."
+                }
+            }
+        },
+        "related": {
+            "badge": "Prácticas Relacionadas",
+            "title": "Áreas de Práctica Complementarias",
+            "links": {
+                "banking": "Banca y Finanzas",
+                "corporate": "Corporativo y M&A",
+                "capital-markets": "Mercados de Capitales",
+                "employment": "Laboral y Beneficios"
+            }
+        },
+        "leadership": {
+            "badge": "Nuestro Equipo",
+            "title": "Liderazgo de la Práctica",
+            "members": {
+                "jose": {
+                    "name": "José P. Barnola Jr.",
+                    "role": "Socio Senior",
+                    "focus": "Tributación internacional, precios de transferencia y controversia fiscal"
+                },
+                "marco": {
+                    "name": "Marco Gómez",
+                    "role": "Asociado Senior",
+                    "focus": "Cumplimiento fiscal, asuntos regulatorios y tributación corporativa"
+                },
+                "barbara": {
+                    "name": "Bárbara Briceño",
+                    "role": "Asociada Senior",
+                    "focus": "Tributación internacional, planificación patrimonial y estructuración transfronteriza"
+                }
+            }
+        },
+        "faq": {
+            "badge": "Preguntas Frecuentes",
+            "title": "Preguntas Frecuentes"
+        },
+        "faqs": {
+            "0": {
+                "question": "¿Cuál es la diferencia entre planificación fiscal y evasión fiscal?",
+                "answer": "La planificación fiscal es el uso legítimo de disposiciones legales, incentivos y técnicas de estructuración para minimizar cargas fiscales. Es legal y está fomentada por códigos tributarios que intencionalmente incluyen incentivos y deducciones permitidas. La evasión fiscal, por el contrario, involucra deliberadamente tergiversar u ocultar información para reducir obligaciones fiscales—lo cual es ilegal y sujeto a sanciones penales. Todo nuestro trabajo de asesoría cae estrictamente dentro de los límites de la planificación fiscal legítima."
+            },
+            "1": {
+                "question": "¿Cómo abordan el cumplimiento de precios de transferencia para clientes multinacionales?",
+                "answer": "Tomamos un enfoque integral de precios de transferencia que comienza con entender su universo de transacciones intercompañía—bienes, servicios, financiamiento e intangibles. Luego diseñamos políticas de precios de transferencia que reflejan principios de arm's length, preparamos documentación contemporánea cumpliendo requisitos locales y de la OCDE, y realizamos estudios de benchmarking usando datos comparables confiables. Nuestro objetivo es documentación que no solo cumpla sino que pueda defenderse bajo auditoría."
+            },
+            "2": {
+                "question": "¿Qué jurisdicciones cubre su práctica de tributación internacional?",
+                "answer": "Nuestra experiencia principal abarca Venezuela, México, Colombia, Perú, Chile y Brasil dentro de América Latina, con experiencia significativa en transacciones del corredor EE.UU.–LatAm. Mantenemos una red de corresponsales de confianza en otras jurisdicciones y regularmente coordinamos con asesores en España, Reino Unido y otros centros fiscales europeos para estructuras que involucran esas regiones."
+            },
+            "3": {
+                "question": "¿Cómo equilibran la eficiencia fiscal con el riesgo regulatorio?",
+                "answer": "Adherimos a una filosofía de optimización pragmática. Esto significa que buscamos eficiencias legítimas—beneficios de tratados, incentivos disponibles, estructuración reflexiva—mientras aseguramos que cada posición que recomendamos pueda defenderse ante una autoridad fiscal. Evitamos posiciones agresivas que dependen de brechas de aplicación, y siempre modelamos el riesgo a la baja de cualquier posición siendo cuestionada."
+            },
+            "4": {
+                "question": "¿Qué involucra el due diligence fiscal para una transacción de M&A?",
+                "answer": "Nuestro due diligence fiscal de M&A incluye una revisión integral del cumplimiento fiscal histórico del objetivo, identificación de pasivos contingentes y exposiciones, análisis de atributos fiscales disponibles (pérdidas, créditos), y recomendaciones de estructuración para la adquisición misma. Proporcionamos un mapa claro de riesgos con exposiciones cuantificadas para que los compradores puedan tomar decisiones informadas y negociar protecciones apropiadas."
+            },
+            "5": {
+                "question": "¿En qué se diferencia Ágora de las firmas Big 4 en materia fiscal?",
+                "answer": "Ofrecemos profundidad técnica comparable a las firmas de contabilidad globales pero con diferencias significativas: compromiso directo a nivel de socio en cada asunto, tiempos de respuesta más rápidos, y la perspectiva legal integrada que viene de ser una firma de abogados en lugar de una firma de contabilidad. Para trabajo de estructuración compleja y controversia, los clientes cada vez más prefieren asesores que puedan tanto planificar la estructura como defenderla en litigio si es necesario."
+            }
+        },
+        "cta": {
+            "title": "¿Listo para Optimizar su Posición Fiscal?",
+            "description": "Contáctenos para discutir cómo nuestra práctica fiscal puede apoyar su planificación transfronteriza, necesidades de cumplimiento o requerimientos de asesoría continua.",
+            "button": "Agendar una Consulta"
+        }
     }
 }
