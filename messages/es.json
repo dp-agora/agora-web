@@ -1443,5 +1443,432 @@
             "description": "Contáctenos para discutir cómo nuestra práctica fiscal puede apoyar su planificación transfronteriza, necesidades de cumplimiento o requerimientos de asesoría continua.",
             "button": "Agendar una Consulta"
         }
+    },
+    "RealEstate": {
+        "hero": {
+            "badge": "Bienes Raíces",
+            "title": "Bienes Raíces",
+            "subtitle": "Soluciones Inmobiliarias Integradas para Inversión y Desarrollo Transfronterizo"
+        },
+        "intro": {
+            "lead": "Asesoramos a desarrolladores, inversores institucionales y family offices en transacciones inmobiliarias sofisticadas en toda América Latina. Nuestra práctica integra adquisición de propiedades, desarrollo de proyectos y navegación regulatoria con soporte corporativo y financiero fluido—entregando ejecución de extremo a extremo para operaciones complejas."
+        },
+        "practice": {
+            "badge": "Nuestro Enfoque",
+            "title": "Qué Define Nuestra Práctica Inmobiliaria",
+            "definitions": {
+                "planning": {
+                    "title": "¿Qué es la Estructuración de Inversiones Inmobiliarias?",
+                    "content": "La estructuración de inversiones inmobiliarias involucra diseñar la arquitectura legal y corporativa óptima para adquisiciones de propiedades y proyectos de desarrollo. Esto incluye seleccionar vehículos de tenencia apropiados, gestionar consecuencias fiscales entre jurisdicciones y asegurar cumplimiento regulatorio mientras se maximizan los retornos de los inversores. La estructuración adecuada protege tanto el capital como la flexibilidad operativa para la gestión de activos a largo plazo."
+                },
+                "development": {
+                    "title": "¿Qué es la Asesoría en Desarrollo de Proyectos?",
+                    "content": "La asesoría en desarrollo de proyectos abarca el marco legal requerido para llevar proyectos inmobiliarios desde el concepto hasta la finalización. Esto incluye due diligence de adquisición de terrenos, permisos de zonificación y ambientales, negociación de contratos de construcción y coordinación de partes interesadas. El asesor de desarrollo efectivo anticipa riesgos regulatorios e integra objetivos comerciales en cada fase de ejecución."
+                },
+                "crossBorder": {
+                    "title": "¿Qué es la Adquisición Inmobiliaria Transfronteriza?",
+                    "content": "La adquisición inmobiliaria transfronteriza se refiere a la compra de activos inmobiliarios en jurisdicciones extranjeras, requiriendo navegación de restricciones de propiedad locales, regulaciones cambiarias y protecciones de inversión basadas en tratados. Los inversores sofisticados requieren asesoría coordinada a través de múltiples sistemas legales para estructurar transacciones que minimicen el riesgo mientras optimizan el tratamiento fiscal y la repatriación de retornos."
+                }
+            }
+        },
+        "services": {
+            "badge": "Capacidades Principales",
+            "title": "Servicios de Asesoría Inmobiliaria",
+            "items": {
+                "acquisitions": {
+                    "title": "Adquisiciones y Disposiciones de Activos",
+                    "description": "Estructuración y ejecución de compras y ventas inmobiliarias, incluyendo due diligence, análisis de títulos y documentación transaccional para propiedades comerciales, residenciales e industriales."
+                },
+                "development": {
+                    "title": "Desarrollo de Proyectos y Permisos",
+                    "description": "Guía de desarrollos desde la adquisición del sitio hasta la construcción, obteniendo aprobaciones de zonificación, permisos ambientales y gestionando el cumplimiento regulatorio durante todo el ciclo de vida del proyecto."
+                },
+                "structuring": {
+                    "title": "Estructuración de Vehículos de Inversión",
+                    "description": "Diseño de estructuras de holdings, joint ventures y fondos inmobiliarios que optimizan eficiencia fiscal, protección de responsabilidad y gobernanza para inversores institucionales y privados."
+                },
+                "infrastructure": {
+                    "title": "Proyectos de Infraestructura y Turísticos",
+                    "description": "Asesoría en desarrollos de infraestructura a gran escala, activos de hospitalidad y proyectos de uso mixto incluyendo asociaciones público-privadas y arreglos de concesión."
+                },
+                "foreign": {
+                    "title": "Asesoría de Inversión Extranjera",
+                    "description": "Asesoramiento a inversores internacionales sobre entrada al mercado LatAm, incluyendo reglas de propiedad extranjera, controles cambiarios y protecciones de tratados bilaterales de inversión."
+                },
+                "finance": {
+                    "title": "Financiamiento Inmobiliario",
+                    "description": "Estructuración de financiamiento hipotecario, préstamos de construcción y facilidades mezzanine, coordinando con prestamistas en paquetes de garantía y arreglos entre acreedores."
+                },
+                "leasing": {
+                    "title": "Arrendamiento Comercial y Contratos",
+                    "description": "Negociación y documentación de contratos de arrendamiento, contratos de administración de propiedades y arreglos operativos para carteras inmobiliarias generadoras de ingresos."
+                },
+                "dueDiligence": {
+                    "title": "Títulos y Due Diligence",
+                    "description": "Realización de investigaciones de propiedad integrales incluyendo análisis de cadena de títulos, revisión de gravámenes, evaluaciones ambientales y verificación de cumplimiento regulatorio."
+                }
+            }
+        },
+        "value": {
+            "badge": "Nuestro Enfoque",
+            "title": "Cómo Agregamos Valor",
+            "pillars": {
+                "integrated": {
+                    "title": "Plataforma Legal Integrada",
+                    "description": "Nuestra práctica inmobiliaria opera como parte de una plataforma de servicio completo, integrando fluidamente experiencia corporativa, fiscal y financiera en cada transacción. Esto elimina brechas de coordinación que surgen cuando se contrata asesoría separada para diferentes aspectos de operaciones complejas."
+                },
+                "developer": {
+                    "title": "Ejecución Alineada al Desarrollador",
+                    "description": "Entendemos las presiones comerciales que enfrentan desarrolladores e inversores. Nuestro equipo estructura transacciones para velocidad y certeza, anticipando obstáculos regulatorios y construyendo soluciones que mantienen los proyectos en cronograma y presupuesto."
+                },
+                "crossBorder": {
+                    "title": "Fluidez Transfronteriza",
+                    "description": "Con relaciones establecidas en toda América Latina y experiencia asesorando inversores internacionales, navegamos la complejidad de transacciones inmobiliarias multijurisdiccionales con precisión. Nuestro equipo conecta sistemas legales, idiomas y culturas de negocios."
+                },
+                "institutional": {
+                    "title": "Estándares de Grado Institucional",
+                    "description": "Entregamos documentación y calidad de ejecución que cumple las expectativas de inversores institucionales, prestamistas globales y socios de desarrollo internacional. Nuestros procesos reflejan mejores prácticas internacionales mientras permanecen adaptados a las realidades del mercado local."
+                }
+            }
+        },
+        "matters": {
+            "badge": "Trayectoria",
+            "title": "Asuntos Representativos",
+            "items": {
+                "resort": {
+                    "title": "Desarrollo de Resort Caribeño",
+                    "description": "Estructuración de un desarrollo de resort de uso mixto de $45M incluyendo hotel, residencial y marina, coordinando permisos, contratos de construcción y acuerdos con operadores a través de múltiples agencias regulatorias."
+                },
+                "industrial": {
+                    "title": "Adquisición de Parque Industrial",
+                    "description": "Asesoría a una empresa de logística regional en la adquisición de un parque industrial de 50 hectáreas, incluyendo due diligence de más de 30 arrendamientos de inquilinos, cumplimiento ambiental y arreglos de financiamiento del vendedor."
+                },
+                "hotel": {
+                    "title": "Entrada de Fondo Hotelero Internacional",
+                    "description": "Asesoría a un fondo de hospitalidad europeo en su primera inversión latinoamericana, estructurando una sociedad holding en una jurisdicción con tratado y negociando acuerdos de gestión con un operador hotelero global."
+                },
+                "family": {
+                    "title": "Reestructuración de Portafolio de Family Office",
+                    "description": "Diseño de una estructura de tenencia multi-entidad para el portafolio inmobiliario de $80M en LatAm de un family office, optimizando planificación de sucesión, protección de activos y eficiencia fiscal transfronteriza."
+                },
+                "urban": {
+                    "title": "Redesarrollo Urbano de Uso Mixto",
+                    "description": "Liderazgo de ejecución legal para un proyecto icónico de redesarrollo urbano transformando un distrito comercial histórico, incluyendo permisos de patrimonio, negociaciones con inquilinos ancla y financiamiento por fases."
+                }
+            }
+        },
+        "clients": {
+            "badge": "A Quién Servimos",
+            "title": "Nuestros Clientes",
+            "types": {
+                "developers": {
+                    "title": "Desarrolladores Inmobiliarios",
+                    "description": "Desarrolladores locales y regionales ejecutando proyectos residenciales, comerciales y de uso mixto que requieren soporte legal, regulatorio y de financiamiento integrado."
+                },
+                "institutional": {
+                    "title": "Inversores Institucionales y Fondos",
+                    "description": "Fondos de inversión inmobiliaria, fondos de pensión y capital institucional buscando exposición a propiedades en LatAm con documentación y gobernanza de grado institucional."
+                },
+                "family": {
+                    "title": "Family Offices e Inversores Privados",
+                    "description": "Familias de alto patrimonio diversificando en bienes raíces, requiriendo estructuración coordinada para protección de activos, sucesión y eficiencia fiscal."
+                },
+                "operators": {
+                    "title": "Operadores Internacionales",
+                    "description": "Cadenas hoteleras globales, operadores minoristas e inquilinos industriales entrando o expandiéndose en mercados latinoamericanos a través de desarrollo o adquisición."
+                },
+                "infrastructure": {
+                    "title": "Patrocinadores de Infraestructura",
+                    "description": "Patrocinadores de proyectos de infraestructura y turísticos requiriendo coordinación público-privada, estructuración de concesiones y negociaciones multi-stakeholder."
+                }
+            }
+        },
+        "related": {
+            "badge": "Prácticas Relacionadas",
+            "title": "Áreas de Práctica Complementarias",
+            "practices": {
+                "corporate": {
+                    "title": "Corporativo y M&A",
+                    "description": "Estructuración de entidades y soporte transaccional para adquisiciones inmobiliarias y joint ventures"
+                },
+                "banking": {
+                    "title": "Banca y Finanzas",
+                    "description": "Arreglos de financiamiento, estructuras hipotecarias y negociaciones con prestamistas para transacciones de propiedades"
+                },
+                "tax": {
+                    "title": "Impuestos",
+                    "description": "Optimización fiscal para vehículos de inversión, estructuras transfronterizas y planificación de disposición"
+                }
+            }
+        },
+        "leadership": {
+            "badge": "Nuestro Equipo",
+            "title": "Liderazgo de la Práctica",
+            "members": {
+                "jose": {
+                    "name": "José P. Barnola Jr.",
+                    "role": "Socio Senior",
+                    "focus": "Transacciones inmobiliarias complejas y proyectos de infraestructura"
+                },
+                "marco": {
+                    "name": "Marco Gómez",
+                    "role": "Asociado Senior",
+                    "focus": "Desarrollo de proyectos, permisos y bienes raíces comerciales"
+                },
+                "barbara": {
+                    "name": "Bárbara Briceño",
+                    "role": "Asociada Senior",
+                    "focus": "Due diligence, adquisiciones y estructuración de inversiones"
+                }
+            }
+        },
+        "faqs": {
+            "badge": "Preguntas Frecuentes",
+            "title": "Preguntas Frecuentes",
+            "items": {
+                "types": {
+                    "question": "¿Qué tipos de transacciones inmobiliarias maneja Ágora?",
+                    "answer": "Manejamos el espectro completo de asuntos inmobiliarios incluyendo adquisiciones y disposiciones, desarrollo de proyectos, estructuración de fondos de inversión, arrendamiento comercial y proyectos de infraestructura. Nuestra práctica cubre activos residenciales, comerciales, industriales, de hospitalidad y de uso mixto en toda América Latina."
+                },
+                "foreign": {
+                    "question": "¿Cómo apoyan a inversores extranjeros adquiriendo bienes raíces en LatAm?",
+                    "answer": "Guiamos a inversores internacionales a través de cada etapa de entrada al mercado—desde estructuración inicial y selección de vehículo hasta due diligence, cumplimiento regulatorio y cierre. Nuestro equipo navega restricciones de propiedad extranjera, controles cambiarios y protecciones de tratados para asegurar ejecución de inversión segura y eficiente."
+                },
+                "dueDiligence": {
+                    "question": "¿Qué involucra el due diligence inmobiliario para una adquisición importante?",
+                    "answer": "El due diligence integral incluye análisis de cadena de títulos, verificación de gravámenes, revisión de arrendamientos y contratos, evaluación de cumplimiento regulatorio, auditorías ambientales y análisis de exposición fiscal. Coordinamos equipos multidisciplinarios para identificar riesgos y estructurar protecciones apropiadas antes del cierre."
+                },
+                "development": {
+                    "question": "¿Pueden asistir con proyectos de desarrollo desde inicio hasta finalización?",
+                    "answer": "Sí. Asesoramos a desarrolladores desde selección del sitio y adquisición del terreno hasta zonificación, permisos, contratación de construcción y entrega del proyecto. Nuestro enfoque integrado asegura continuidad legal en todas las fases y anticipa problemas antes de que impacten cronogramas o presupuestos."
+                },
+                "integration": {
+                    "question": "¿Cómo integra Ágora el trabajo inmobiliario con asesoría corporativa y fiscal?",
+                    "answer": "Nuestra plataforma de servicio completo significa que las transacciones inmobiliarias automáticamente se benefician de experiencia en estructuración corporativa, planificación fiscal y financiamiento. En lugar de coordinar entre firmas separadas, los clientes reciben asesoría unificada que aborda todas las dimensiones de su inversión."
+                },
+                "infrastructure": {
+                    "question": "¿Qué distingue su enfoque en proyectos de infraestructura y hospitalidad?",
+                    "answer": "Los proyectos de infraestructura y hospitalidad requieren navegación regulatoria especializada, coordinación multi-stakeholder y planificación de horizonte largo. Aportamos experiencia en concesiones, asociaciones público-privadas, acuerdos con operadores y desarrollo por fases—gestionando complejidad que especialistas inmobiliarios puros a menudo carecen."
+                }
+            }
+        },
+        "cta": {
+            "text": "Conéctese con nosotros para explorar cómo nuestra práctica inmobiliaria puede apoyar su próxima adquisición, proyecto de desarrollo o inversión de portafolio en toda América Latina.",
+            "button": "Agendar una Consulta"
+        }
+    },
+    "Environmental": {
+        "hero": {
+            "badge": "Área de Práctica",
+            "title": "Ambiental y Recursos Naturales",
+            "subtitle": "Navegando Paisajes Regulatorios Complejos para Proyectos de Minería, Energía e Infraestructura en América Latina"
+        },
+        "intro": {
+            "lead": "Los permisos ambientales y la regulación de recursos naturales definen el umbral de viabilidad para proyectos en las industrias más intensivas en capital de América Latina. El equipo de Ambiental y Recursos Naturales de Ágora sirve como asesor regulatorio estratégico para operadores mineros, empresas de energía y patrocinadores de infraestructura que navegan la intersección entre objetivos operativos y cumplimiento ambiental. Nuestro enfoque híbrido combina adherencia regulatoria rigurosa con ejecución comercialmente pragmática — permitiendo que proyectos importantes avancen a través de marcos de permisos complejos sin sacrificar cronograma o disciplina de gestión de riesgos."
+        },
+        "practice": {
+            "badge": "Nuestro Enfoque",
+            "title": "Estrategia Regulatoria para el Desarrollo de Recursos Naturales",
+            "definitions": {
+                "permitting": {
+                    "title": "¿Qué es la Arquitectura de Permisos?",
+                    "content": "Diseñamos hojas de ruta de permisos integrales que anticipan los requisitos regulatorios a lo largo de los ciclos de vida de los proyectos — desde las evaluaciones de impacto ambiental iniciales hasta el cumplimiento operativo y la eventual remediación del sitio. Nuestras estrategias de permisos integran coordinación multi-agencia, gestión de cronogramas y planificación de contingencias para asegurar el avance del proyecto sin sorpresas regulatorias."
+                },
+                "sectoral": {
+                    "title": "¿Qué es el Dominio Regulatorio Sectorial?",
+                    "content": "La profunda experiencia en marcos regulatorios de minería, hidrocarburos e industria permite una navegación precisa de los requisitos de licenciamiento específicos del sector, procedimientos de concesión y obligaciones de cumplimiento continuo. Entendemos cómo piensan los reguladores y qué priorizan, lo que nos permite anticipar requisitos antes de que se conviertan en obstáculos."
+                },
+                "crossBorder": {
+                    "title": "¿Qué es la Habilitación de Proyectos Transfronterizos?",
+                    "content": "Para inversores internacionales que ingresan a los mercados de recursos naturales de América Latina, conectamos la complejidad jurisdiccional — alineando estándares ESG globales con realidades regulatorias locales para mantener la bancabilidad del proyecto. Nuestra experiencia transfronteriza asegura que los marcos de cumplimiento satisfagan tanto los requisitos del país anfitrión como las expectativas de los prestamistas internacionales."
+                }
+            }
+        },
+        "services": {
+            "badge": "Capacidades de la Práctica",
+            "title": "Servicios de Asesoría Ambiental y Recursos Naturales",
+            "items": {
+                "permitting": {
+                    "title": "Permisos y Licencias Ambientales",
+                    "description": "Asesoría integral en evaluaciones de impacto ambiental, solicitudes de permisos y aprobaciones regulatorias para proyectos de minería, energía e infraestructura."
+                },
+                "mining": {
+                    "title": "Asesoría Regulatoria Minera",
+                    "description": "Orientación integral en concesiones mineras, permisos de exploración y licenciamiento operativo en jurisdicciones latinoamericanas."
+                },
+                "hydrocarbons": {
+                    "title": "Regulación de Hidrocarburos y Energía",
+                    "description": "Apoyo regulatorio para proyectos de petróleo, gas y energía renovable incluyendo licenciamiento, marcos de cumplimiento y autorizaciones específicas del sector."
+                },
+                "infrastructure": {
+                    "title": "Aprobaciones Ambientales de Infraestructura",
+                    "description": "Asesoría estratégica para proyectos de infraestructura a gran escala que requieren autorización ambiental coordinada de múltiples agencias."
+                },
+                "crossBorder": {
+                    "title": "Coordinación de Cumplimiento Transfronterizo",
+                    "description": "Armonización del cumplimiento ambiental en múltiples jurisdicciones para patrocinadores de proyectos multinacionales e inversores internacionales."
+                },
+                "dueDiligence": {
+                    "title": "Due Diligence Regulatorio",
+                    "description": "Evaluaciones ambientales pre-adquisición que evalúan el estado de permisos, historial de cumplimiento y exposición a responsabilidades latentes."
+                },
+                "maintenance": {
+                    "title": "Mantenimiento de Concesiones y Licencias",
+                    "description": "Asesoría continua para mantener autorizaciones ambientales, renovaciones de permisos y obligaciones de reporte regulatorio."
+                },
+                "development": {
+                    "title": "Apoyo al Desarrollo de Proyectos",
+                    "description": "Estrategia legal-regulatoria integrada desde el inicio del proyecto hasta los permisos de construcción y el lanzamiento operativo."
+                }
+            }
+        },
+        "value": {
+            "badge": "Ventaja Estratégica",
+            "title": "Nuestro Marco de Práctica Ambiental",
+            "pillars": {
+                "integrated": {
+                    "title": "Plataforma Sectorial Integrada",
+                    "description": "La experiencia unificada en los sectores de minería, energía e infraestructura permite asesoría integral para proyectos que abarcan múltiples regímenes regulatorios."
+                },
+                "velocity": {
+                    "title": "Balance Cumplimiento-Velocidad",
+                    "description": "Nuestro enfoque híbrido asegura que la adherencia regulatoria rigurosa nunca se convierta en un obstáculo para cronogramas de proyectos comercialmente viables."
+                },
+                "intelligence": {
+                    "title": "Inteligencia Regulatoria Regional",
+                    "description": "La profunda familiaridad con las autoridades ambientales y culturas regulatorias latinoamericanas nos permite anticipar requisitos y agilizar los procesos de aprobación."
+                },
+                "bankability": {
+                    "title": "Ejecución Lista para Transacciones",
+                    "description": "Estrategias de permisos diseñadas para satisfacer los requisitos de los prestamistas y estándares de los inversores desde el inicio del proyecto — maximizando la bancabilidad."
+                }
+            }
+        },
+        "matters": {
+            "badge": "Trayectoria",
+            "title": "Asuntos Representativos",
+            "items": {
+                "miningConsortium": {
+                    "title": "Proyecto Minero Multi-Fase",
+                    "description": "Asesoría a un consorcio minero internacional en permisos ambientales integrales para un proyecto de extracción de cobre multi-fase, coordinando aprobaciones en tres agencias regulatorias."
+                },
+                "renewableEnergy": {
+                    "title": "Energía Renovable Transfronteriza",
+                    "description": "Estructuración de marco de cumplimiento ambiental para un proyecto de energía renovable transfronterizo que abarca dos jurisdicciones latinoamericanas con requisitos regulatorios divergentes."
+                },
+                "industrialAcquisition": {
+                    "title": "Adquisición de Activos Industriales",
+                    "description": "Realización de due diligence regulatorio para la adquisición de activos industriales por un fondo de capital privado, identificando deficiencias materiales en permisos y negociando ajustes al precio de compra."
+                },
+                "hydrocarbonOperator": {
+                    "title": "Bloque de Exploración de Hidrocarburos",
+                    "description": "Guía a un operador de petróleo y gas a través de procedimientos de licenciamiento de hidrocarburos en un bloque de exploración recientemente regulado, obteniendo todas las autorizaciones ambientales requeridas dentro de cronogramas acelerados."
+                },
+                "transportCorridor": {
+                    "title": "Corredor de Transporte Principal",
+                    "description": "Representación de patrocinadores de infraestructura en procesos de evaluación de impacto ambiental para un corredor de transporte principal, logrando aprobación con compromisos de mitigación innovadores."
+                }
+            }
+        },
+        "clients": {
+            "badge": "Nuestros Clientes",
+            "title": "A Quién Servimos",
+            "types": {
+                "mining": {
+                    "title": "Operadores Mineros y Extractivos",
+                    "description": "Empresas que desarrollan recursos minerales que requieren permisos integrales y apoyo continuo de cumplimiento regulatorio."
+                },
+                "energy": {
+                    "title": "Empresas de Petróleo, Gas y Energía",
+                    "description": "Productores de hidrocarburos y desarrolladores de energía que navegan requisitos de autorización ambiental específicos del sector."
+                },
+                "infrastructure": {
+                    "title": "Patrocinadores de Proyectos de Infraestructura",
+                    "description": "Desarrolladores de infraestructura a gran escala que requieren aprobaciones ambientales coordinadas de múltiples agencias."
+                },
+                "investors": {
+                    "title": "Inversores Internacionales",
+                    "description": "Fondos globales e inversores estratégicos que ingresan a mercados de recursos naturales latinoamericanos requiriendo claridad regulatoria y garantía de cumplimiento."
+                },
+                "industrial": {
+                    "title": "Operadores Industriales",
+                    "description": "Instalaciones de manufactura y procesamiento que requieren permisos ambientales, asesoría de cumplimiento continuo y gestión de interfaz regulatoria."
+                }
+            }
+        },
+        "related": {
+            "badge": "Prácticas Relacionadas",
+            "title": "Áreas de Práctica Complementarias",
+            "practices": {
+                "corporate": {
+                    "title": "Corporativo y M&A",
+                    "description": "Estructuración de transacciones para activos de recursos naturales y organizaciones de empresas de proyectos"
+                },
+                "banking": {
+                    "title": "Banca y Finanzas",
+                    "description": "Financiamiento de proyectos, requisitos de cumplimiento de prestamistas y estructuración de bancabilidad"
+                },
+                "realEstate": {
+                    "title": "Bienes Raíces",
+                    "description": "Adquisición de terrenos, derechos de superficie y aspectos inmobiliarios del desarrollo de recursos"
+                }
+            }
+        },
+        "leadership": {
+            "badge": "Nuestro Equipo",
+            "title": "Liderazgo de la Práctica",
+            "members": {
+                "jose": {
+                    "name": "José P. Barnola Jr.",
+                    "role": "Socio Senior",
+                    "focus": "Estrategia regulatoria ambiental, recursos naturales y permisos de proyectos de infraestructura"
+                },
+                "alvaro": {
+                    "name": "Álvaro J. Posada Sessarego",
+                    "role": "Socio Fundador",
+                    "focus": "Transacciones transfronterizas, desarrollo de proyectos y asesoría a inversores internacionales"
+                },
+                "marco": {
+                    "name": "Marco Gómez",
+                    "role": "Asociado Senior",
+                    "focus": "Cumplimiento regulatorio, licenciamiento de minería e hidrocarburos, y mantenimiento de permisos"
+                }
+            }
+        },
+        "faqs": {
+            "badge": "Preguntas Frecuentes",
+            "title": "Preguntas Frecuentes",
+            "items": {
+                "permittingProcess": {
+                    "question": "¿Qué implica obtener permisos ambientales para proyectos de minería o energía?",
+                    "answer": "Los permisos ambientales típicamente requieren la preparación de evaluaciones de impacto ambiental, consultas con partes interesadas, presentaciones regulatorias y compromiso continuo con las autoridades ambientales. Gestionamos el proceso completo, asegurando que las solicitudes aborden todos los requisitos regulatorios mientras se mantienen los cronogramas del proyecto."
+                },
+                "crossBorderCoordination": {
+                    "question": "¿Cómo coordinan los permisos en múltiples jurisdicciones latinoamericanas?",
+                    "answer": "Para proyectos transfronterizos, desarrollamos estrategias de cumplimiento unificadas que armonizan los requisitos entre jurisdicciones. Esto incluye mapear diferencias regulatorias, coordinar con redes de abogados locales y establecer marcos de cumplimiento consistentes que satisfagan a todas las autoridades aplicables."
+                },
+                "dueDiligence": {
+                    "question": "¿Pueden asistir con due diligence ambiental para adquisiciones?",
+                    "answer": "Sí. Nuestro due diligence regulatorio evalúa el estado de permisos, historial de cumplimiento y responsabilidades ambientales potenciales. Identificamos problemas materiales, cuantificamos la exposición y apoyamos la estructuración de transacciones para asignar apropiadamente los riesgos ambientales."
+                },
+                "approach": {
+                    "question": "¿Qué distingue su enfoque en la regulación de recursos naturales?",
+                    "answer": "Nuestra metodología híbrida equilibra el rigor de cumplimiento con el pragmatismo comercial. Entendemos que la adherencia regulatoria debe habilitar — no obstruir — el desarrollo de proyectos. Esta perspectiva de patrocinador de proyectos informa cada estrategia de permisos."
+                },
+                "ongoingCompliance": {
+                    "question": "¿Cómo apoyan el cumplimiento ambiental continuo después de obtener los permisos?",
+                    "answer": "Proporcionamos asesoría continua para mantenimiento de licencias, reportes regulatorios y monitoreo de cumplimiento. Cuando los requisitos cambian o las autoridades solicitan información, gestionamos la interfaz regulatoria para mantener la autorización operativa ininterrumpida."
+                },
+                "projectFinancing": {
+                    "question": "¿Asesoran sobre aspectos ambientales del financiamiento de proyectos?",
+                    "answer": "Sí. Estructuramos estrategias de permisos que satisfacen los requisitos ambientales de los prestamistas y estándares de bancos de desarrollo. Nuestro objetivo son permisos que no solo cumplan con la regulación sino que también sean bancables — apoyando los objetivos de financiamiento de proyectos e inversión."
+                }
+            }
+        },
+        "cta": {
+            "title": "Avance Su Proyecto Con Confianza Regulatoria",
+            "description": "Asesoría ambiental estratégica para el desarrollo de recursos naturales en América Latina.",
+            "button": "Agendar una Consulta"
+        }
     }
 }

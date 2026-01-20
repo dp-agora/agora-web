@@ -1443,5 +1443,432 @@
             "description": "Contact us to discuss how our tax practice can support your cross-border planning, compliance needs, or ongoing advisory requirements.",
             "button": "Schedule a Consultation"
         }
+    },
+    "RealEstate": {
+        "hero": {
+            "badge": "Real Estate",
+            "title": "Real Estate",
+            "subtitle": "Integrated Real Estate Solutions for Cross-Border Investment and Development"
+        },
+        "intro": {
+            "lead": "We advise developers, institutional investors, and family offices on sophisticated real estate transactions across Latin America. Our practice integrates property acquisition, project development, and regulatory navigation with seamless corporate and financing support—delivering end-to-end execution for complex deals."
+        },
+        "practice": {
+            "badge": "Our Approach",
+            "title": "What Defines Our Real Estate Practice",
+            "definitions": {
+                "planning": {
+                    "title": "What Is Real Estate Investment Structuring?",
+                    "content": "Real estate investment structuring involves designing the optimal legal and corporate architecture for property acquisitions and development projects. This includes selecting appropriate holding vehicles, managing tax consequences across jurisdictions, and ensuring regulatory compliance while maximizing investor returns. Proper structuring protects both capital and operational flexibility for long-term asset management."
+                },
+                "development": {
+                    "title": "What Is Project Development Advisory?",
+                    "content": "Project development advisory encompasses the legal framework required to take real estate projects from concept to completion. This includes land acquisition due diligence, zoning and environmental permitting, construction contract negotiation, and stakeholder coordination. Effective development counsel anticipates regulatory risks and integrates commercial objectives into every phase of execution."
+                },
+                "crossBorder": {
+                    "title": "What Is Cross-Border Real Estate Acquisition?",
+                    "content": "Cross-border real estate acquisition refers to purchasing property assets in foreign jurisdictions, requiring navigation of local ownership restrictions, foreign exchange regulations, and treaty-based investment protections. Sophisticated investors require coordinated counsel across multiple legal systems to structure transactions that minimize risk while optimizing tax treatment and repatriation of returns."
+                }
+            }
+        },
+        "services": {
+            "badge": "Core Capabilities",
+            "title": "Real Estate Advisory Services",
+            "items": {
+                "acquisitions": {
+                    "title": "Asset Acquisitions & Dispositions",
+                    "description": "Structuring and executing real estate purchases and sales, including due diligence, title analysis, and transaction documentation for commercial, residential, and industrial properties."
+                },
+                "development": {
+                    "title": "Project Development & Permitting",
+                    "description": "Guiding developments from site acquisition through construction, securing zoning approvals, environmental permits, and managing regulatory compliance throughout the project lifecycle."
+                },
+                "structuring": {
+                    "title": "Investment Vehicle Structuring",
+                    "description": "Designing holding company structures, joint ventures, and real estate funds that optimize tax efficiency, liability protection, and governance for institutional and private investors."
+                },
+                "infrastructure": {
+                    "title": "Infrastructure & Touristic Projects",
+                    "description": "Advising on large-scale infrastructure developments, hospitality assets, and mixed-use projects including public-private partnerships and concession arrangements."
+                },
+                "foreign": {
+                    "title": "Foreign Investment Advisory",
+                    "description": "Counseling international investors on LatAm market entry, including foreign ownership rules, exchange controls, and bilateral investment treaty protections."
+                },
+                "finance": {
+                    "title": "Real Estate Finance",
+                    "description": "Structuring mortgage financing, construction loans, and mezzanine facilities, coordinating with lenders on security packages and intercreditor arrangements."
+                },
+                "leasing": {
+                    "title": "Commercial Leasing & Contracts",
+                    "description": "Negotiating and documenting lease agreements, property management contracts, and operational arrangements for income-producing real estate portfolios."
+                },
+                "dueDiligence": {
+                    "title": "Title & Due Diligence",
+                    "description": "Conducting comprehensive property investigations including chain of title analysis, encumbrance review, environmental assessments, and regulatory compliance verification."
+                }
+            }
+        },
+        "value": {
+            "badge": "Our Approach",
+            "title": "How We Add Value",
+            "pillars": {
+                "integrated": {
+                    "title": "Integrated Legal Platform",
+                    "description": "Our real estate practice operates as part of a full-service platform, seamlessly integrating corporate, tax, and finance expertise into every transaction. This eliminates coordination gaps that arise when engaging separate counsel for different aspects of complex deals."
+                },
+                "developer": {
+                    "title": "Developer-Aligned Execution",
+                    "description": "We understand the commercial pressures developers and investors face. Our team structures transactions for speed and certainty, anticipating regulatory obstacles and building solutions that keep projects on schedule and on budget."
+                },
+                "crossBorder": {
+                    "title": "Cross-Border Fluency",
+                    "description": "With established relationships across Latin America and experience advising international investors, we navigate the complexity of multi-jurisdictional real estate transactions with precision. Our team bridges legal systems, languages, and business cultures."
+                },
+                "institutional": {
+                    "title": "Institutional-Grade Standards",
+                    "description": "We deliver documentation and execution quality that meets the expectations of institutional investors, global lenders, and international development partners. Our processes reflect international best practices while remaining adapted to local market realities."
+                }
+            }
+        },
+        "matters": {
+            "badge": "Track Record",
+            "title": "Representative Matters",
+            "items": {
+                "resort": {
+                    "title": "Caribbean Resort Development",
+                    "description": "Structured a $45M mixed-use resort development including hotel, residential, and marina components, coordinating permits, construction contracts, and operator agreements across multiple regulatory agencies."
+                },
+                "industrial": {
+                    "title": "Industrial Park Acquisition",
+                    "description": "Advised a regional logistics company on the acquisition of a 50-hectare industrial park, including due diligence on 30+ tenant leases, environmental compliance, and seller financing arrangements."
+                },
+                "hotel": {
+                    "title": "International Hotel Fund Entry",
+                    "description": "Counseled a European hospitality fund on its first Latin American investment, structuring a holding company in a treaty jurisdiction and negotiating management agreements with a global hotel operator."
+                },
+                "family": {
+                    "title": "Family Office Portfolio Restructuring",
+                    "description": "Designed a multi-entity holding structure for a family office's $80M LatAm real estate portfolio, optimizing succession planning, asset protection, and cross-border tax efficiency."
+                },
+                "urban": {
+                    "title": "Urban Mixed-Use Redevelopment",
+                    "description": "Led legal execution for a landmark urban redevelopment project transforming a historic commercial district, including heritage permitting, anchor tenant negotiations, and phased financing."
+                }
+            }
+        },
+        "clients": {
+            "badge": "Who We Serve",
+            "title": "Our Clients",
+            "types": {
+                "developers": {
+                    "title": "Real Estate Developers",
+                    "description": "Local and regional developers executing residential, commercial, and mixed-use projects requiring integrated legal, regulatory, and financing support."
+                },
+                "institutional": {
+                    "title": "Institutional Investors & Funds",
+                    "description": "Real estate investment funds, pension funds, and institutional capital seeking LatAm property exposure with institutional-grade documentation and governance."
+                },
+                "family": {
+                    "title": "Family Offices & Private Investors",
+                    "description": "High-net-worth families diversifying into real estate, requiring coordinated structuring for asset protection, succession, and tax efficiency."
+                },
+                "operators": {
+                    "title": "International Operators",
+                    "description": "Global hotel chains, retail operators, and industrial tenants entering or expanding in Latin American markets through development or acquisition."
+                },
+                "infrastructure": {
+                    "title": "Infrastructure Sponsors",
+                    "description": "Sponsors of infrastructure and touristic projects requiring public-private coordination, concession structuring, and multi-stakeholder negotiations."
+                }
+            }
+        },
+        "related": {
+            "badge": "Related Practices",
+            "title": "Complementary Practice Areas",
+            "practices": {
+                "corporate": {
+                    "title": "Corporate & M&A",
+                    "description": "Entity structuring and transactional support for real estate acquisitions and joint ventures"
+                },
+                "banking": {
+                    "title": "Banking & Finance",
+                    "description": "Financing arrangements, mortgage structures, and lender negotiations for property transactions"
+                },
+                "tax": {
+                    "title": "Tax",
+                    "description": "Tax optimization for investment vehicles, cross-border structures, and disposition planning"
+                }
+            }
+        },
+        "leadership": {
+            "badge": "Our Team",
+            "title": "Practice Leadership",
+            "members": {
+                "jose": {
+                    "name": "José P. Barnola Jr.",
+                    "role": "Senior Partner",
+                    "focus": "Complex real estate transactions and infrastructure projects"
+                },
+                "marco": {
+                    "name": "Marco Gómez",
+                    "role": "Senior Associate",
+                    "focus": "Project development, permitting, and commercial real estate"
+                },
+                "barbara": {
+                    "name": "Bárbara Briceño",
+                    "role": "Senior Associate",
+                    "focus": "Due diligence, acquisitions, and investment structuring"
+                }
+            }
+        },
+        "faqs": {
+            "badge": "Common Questions",
+            "title": "Frequently Asked Questions",
+            "items": {
+                "types": {
+                    "question": "What types of real estate transactions does Ágora handle?",
+                    "answer": "We handle the full spectrum of real estate matters including acquisitions and dispositions, project development, investment fund structuring, commercial leasing, and infrastructure projects. Our practice covers residential, commercial, industrial, hospitality, and mixed-use assets across Latin America."
+                },
+                "foreign": {
+                    "question": "How do you support foreign investors acquiring LatAm real estate?",
+                    "answer": "We guide international investors through every stage of market entry—from initial structuring and vehicle selection to due diligence, regulatory compliance, and closing. Our team navigates foreign ownership restrictions, exchange controls, and treaty protections to ensure secure, efficient investment execution."
+                },
+                "dueDiligence": {
+                    "question": "What is involved in real estate due diligence for a major acquisition?",
+                    "answer": "Comprehensive due diligence includes title chain analysis, encumbrance verification, lease and contract review, regulatory compliance assessment, environmental audits, and tax exposure analysis. We coordinate multi-disciplinary teams to surface risks and structure appropriate protections before closing."
+                },
+                "development": {
+                    "question": "Can you assist with development projects from inception through completion?",
+                    "answer": "Yes. We advise developers from site selection and land acquisition through zoning, permitting, construction contracting, and project handover. Our integrated approach ensures legal continuity across all phases and anticipates issues before they impact timelines or budgets."
+                },
+                "integration": {
+                    "question": "How does Ágora integrate real estate work with corporate and tax advisory?",
+                    "answer": "Our full-service platform means real estate transactions automatically benefit from corporate structuring, tax planning, and financing expertise. Rather than coordinating between separate firms, clients receive unified counsel that addresses all dimensions of their investment."
+                },
+                "infrastructure": {
+                    "question": "What distinguishes your approach to infrastructure and hospitality projects?",
+                    "answer": "Infrastructure and hospitality projects require specialized regulatory navigation, multi-stakeholder coordination, and long-horizon planning. We bring experience across concessions, public-private partnerships, operator agreements, and phased development—managing complexity that pure real estate specialists often lack."
+                }
+            }
+        },
+        "cta": {
+            "text": "Connect with us to explore how our real estate practice can support your next acquisition, development project, or portfolio investment across Latin America.",
+            "button": "Schedule a Consultation"
+        }
+    },
+    "Environmental": {
+        "hero": {
+            "badge": "Practice Area",
+            "title": "Environmental & Natural Resources",
+            "subtitle": "Navigating Complex Regulatory Landscapes for Mining, Energy, and Infrastructure Projects Across Latin America"
+        },
+        "intro": {
+            "lead": "Environmental permitting and natural resources regulation define the threshold for project viability across Latin America's most capital-intensive industries. Ágora's Environmental & Natural Resources team serves as strategic regulatory counsel for mining operators, energy companies, and infrastructure sponsors navigating the intersection of operational objectives and environmental compliance. Our hybrid approach combines rigorous regulatory adherence with commercially pragmatic execution — enabling major projects to advance through complex permitting frameworks without sacrificing timeline or risk management discipline."
+        },
+        "practice": {
+            "badge": "Our Approach",
+            "title": "Regulatory Strategy for Natural Resource Development",
+            "definitions": {
+                "permitting": {
+                    "title": "What Is Permitting Architecture?",
+                    "content": "We design comprehensive permitting roadmaps that anticipate regulatory requirements across project lifecycles — from initial environmental impact assessments through operational compliance and eventual site remediation. Our permitting strategies integrate multi-agency coordination, timeline management, and contingency planning to ensure project advancement without regulatory surprises."
+                },
+                "sectoral": {
+                    "title": "What Is Sectoral Regulatory Mastery?",
+                    "content": "Deep expertise in mining, hydrocarbons, and industrial regulatory frameworks enables precise navigation of sector-specific licensing requirements, concession procedures, and ongoing compliance obligations. We understand how regulators think and what they prioritize, allowing us to anticipate requirements before they become obstacles."
+                },
+                "crossBorder": {
+                    "title": "What Is Cross-Border Project Enablement?",
+                    "content": "For international investors entering Latin American natural resource markets, we bridge jurisdictional complexity — aligning global ESG standards with local regulatory realities to maintain project bankability. Our cross-border expertise ensures that compliance frameworks satisfy both host-country requirements and international lender expectations."
+                }
+            }
+        },
+        "services": {
+            "badge": "Practice Capabilities",
+            "title": "Environmental & Natural Resources Advisory Services",
+            "items": {
+                "permitting": {
+                    "title": "Environmental Permitting & Licensing",
+                    "description": "End-to-end advisory on environmental impact assessments, permit applications, and regulatory approvals for mining, energy, and infrastructure projects."
+                },
+                "mining": {
+                    "title": "Mining Regulatory Advisory",
+                    "description": "Comprehensive guidance on mining concessions, exploration permits, and operational licensing across Latin American jurisdictions."
+                },
+                "hydrocarbons": {
+                    "title": "Hydrocarbons & Energy Regulation",
+                    "description": "Regulatory support for oil, gas, and renewable energy projects including licensing, compliance frameworks, and sector-specific authorizations."
+                },
+                "infrastructure": {
+                    "title": "Infrastructure Environmental Approvals",
+                    "description": "Strategic advisory for large-scale infrastructure projects requiring coordinated multi-agency environmental authorization."
+                },
+                "crossBorder": {
+                    "title": "Cross-Border Compliance Coordination",
+                    "description": "Harmonizing environmental compliance across multiple jurisdictions for multinational project sponsors and international investors."
+                },
+                "dueDiligence": {
+                    "title": "Regulatory Due Diligence",
+                    "description": "Pre-acquisition environmental assessments evaluating permit status, compliance history, and latent liability exposure."
+                },
+                "maintenance": {
+                    "title": "Concession & License Maintenance",
+                    "description": "Ongoing advisory for maintaining environmental authorizations, permit renewals, and regulatory reporting obligations."
+                },
+                "development": {
+                    "title": "Project Development Support",
+                    "description": "Integrated legal-regulatory strategy from project inception through construction permitting and operational launch."
+                }
+            }
+        },
+        "value": {
+            "badge": "Strategic Advantage",
+            "title": "Our Environmental Practice Framework",
+            "pillars": {
+                "integrated": {
+                    "title": "Integrated Sectoral Platform",
+                    "description": "Unified expertise across mining, energy, and infrastructure sectors enables comprehensive advisory for projects spanning multiple regulatory regimes."
+                },
+                "velocity": {
+                    "title": "Compliance-Velocity Balance",
+                    "description": "Our hybrid approach ensures that rigorous regulatory adherence never becomes an obstacle to commercially viable project timelines."
+                },
+                "intelligence": {
+                    "title": "Regional Regulatory Intelligence",
+                    "description": "Deep familiarity with Latin American environmental authorities and regulatory cultures allows us to anticipate requirements and streamline approval processes."
+                },
+                "bankability": {
+                    "title": "Transaction-Ready Execution",
+                    "description": "Permitting strategies designed to satisfy lender requirements and investor standards from project inception — maximizing bankability."
+                }
+            }
+        },
+        "matters": {
+            "badge": "Track Record",
+            "title": "Representative Matters",
+            "items": {
+                "miningConsortium": {
+                    "title": "Multi-Phase Mining Project",
+                    "description": "Advised an international mining consortium on comprehensive environmental permitting for a multi-phase copper extraction project, coordinating approvals across three regulatory agencies."
+                },
+                "renewableEnergy": {
+                    "title": "Cross-Border Renewable Energy",
+                    "description": "Structured environmental compliance framework for a cross-border renewable energy project spanning two Latin American jurisdictions with divergent regulatory requirements."
+                },
+                "industrialAcquisition": {
+                    "title": "Industrial Asset Acquisition",
+                    "description": "Conducted regulatory due diligence for a private equity fund's acquisition of industrial assets, identifying material permit deficiencies and negotiating purchase price adjustments."
+                },
+                "hydrocarbonOperator": {
+                    "title": "Hydrocarbon Exploration Block",
+                    "description": "Guided an oil and gas operator through hydrocarbon licensing procedures in a newly regulated exploration block, securing all required environmental authorizations within accelerated timelines."
+                },
+                "transportCorridor": {
+                    "title": "Major Transportation Corridor",
+                    "description": "Represented infrastructure sponsors in environmental impact assessment processes for a major transportation corridor, achieving approval with innovative mitigation commitments."
+                }
+            }
+        },
+        "clients": {
+            "badge": "Our Clients",
+            "title": "Who We Serve",
+            "types": {
+                "mining": {
+                    "title": "Mining & Extractive Operators",
+                    "description": "Companies developing mineral resources requiring comprehensive permitting and ongoing regulatory compliance support."
+                },
+                "energy": {
+                    "title": "Oil, Gas & Energy Companies",
+                    "description": "Hydrocarbon producers and energy developers navigating sector-specific environmental authorization requirements."
+                },
+                "infrastructure": {
+                    "title": "Infrastructure Project Sponsors",
+                    "description": "Developers of large-scale infrastructure requiring coordinated environmental approvals from multiple agencies."
+                },
+                "investors": {
+                    "title": "International Investors",
+                    "description": "Global funds and strategic investors entering Latin American natural resource markets requiring regulatory clarity and compliance assurance."
+                },
+                "industrial": {
+                    "title": "Industrial Operators",
+                    "description": "Manufacturing and processing facilities requiring environmental permits, ongoing compliance advisory, and regulatory interface management."
+                }
+            }
+        },
+        "related": {
+            "badge": "Related Practices",
+            "title": "Complementary Practice Areas",
+            "practices": {
+                "corporate": {
+                    "title": "Corporate & M&A",
+                    "description": "Transaction structuring for natural resource assets and project company organizations"
+                },
+                "banking": {
+                    "title": "Banking & Finance",
+                    "description": "Project finance, lender compliance requirements, and bankability structuring"
+                },
+                "realEstate": {
+                    "title": "Real Estate",
+                    "description": "Land acquisition, surface rights, and property aspects of resource development"
+                }
+            }
+        },
+        "leadership": {
+            "badge": "Our Team",
+            "title": "Practice Leadership",
+            "members": {
+                "jose": {
+                    "name": "José P. Barnola Jr.",
+                    "role": "Senior Partner",
+                    "focus": "Environmental regulatory strategy, natural resources, and infrastructure project permitting"
+                },
+                "alvaro": {
+                    "name": "Álvaro J. Posada Sessarego",
+                    "role": "Founding Partner",
+                    "focus": "Cross-border transactions, project development, and international investor advisory"
+                },
+                "marco": {
+                    "name": "Marco Gómez",
+                    "role": "Senior Associate",
+                    "focus": "Regulatory compliance, mining & hydrocarbons licensing, and permit maintenance"
+                }
+            }
+        },
+        "faqs": {
+            "badge": "Common Questions",
+            "title": "Frequently Asked Questions",
+            "items": {
+                "permittingProcess": {
+                    "question": "What is involved in obtaining environmental permits for mining or energy projects?",
+                    "answer": "Environmental permitting typically requires preparation of environmental impact assessments, stakeholder consultations, regulatory submissions, and ongoing engagement with environmental authorities. We manage the complete process, ensuring applications address all regulatory requirements while maintaining project timelines."
+                },
+                "crossBorderCoordination": {
+                    "question": "How do you coordinate permitting across multiple Latin American jurisdictions?",
+                    "answer": "For cross-border projects, we develop unified compliance strategies that harmonize requirements across jurisdictions. This includes mapping regulatory differences, coordinating with local counsel networks, and establishing consistent compliance frameworks that satisfy all applicable authorities."
+                },
+                "dueDiligence": {
+                    "question": "Can you assist with environmental due diligence for acquisitions?",
+                    "answer": "Yes. Our regulatory due diligence evaluates permit status, compliance history, and potential environmental liabilities. We identify material issues, quantify exposure, and support deal structuring to appropriately allocate environmental risks."
+                },
+                "approach": {
+                    "question": "What distinguishes your approach to natural resources regulation?",
+                    "answer": "Our hybrid methodology balances compliance rigor with commercial pragmatism. We understand that regulatory adherence must enable — not obstruct — project development. This project-sponsor perspective informs every permitting strategy."
+                },
+                "ongoingCompliance": {
+                    "question": "How do you support ongoing environmental compliance after permits are obtained?",
+                    "answer": "We provide continuing advisory for license maintenance, regulatory reporting, and compliance monitoring. When requirements change or authorities request information, we manage the regulatory interface to maintain uninterrupted operational authorization."
+                },
+                "projectFinancing": {
+                    "question": "Do you advise on environmental aspects of project financing?",
+                    "answer": "Yes. We structure permitting strategies that satisfy lender environmental requirements and development bank standards. Our goal is permits that are not only regulatory-compliant but also bankable — supporting project finance and investment objectives."
+                }
+            }
+        },
+        "cta": {
+            "title": "Advance Your Project With Regulatory Confidence",
+            "description": "Strategic environmental counsel for natural resource development across Latin America.",
+            "button": "Schedule a Consultation"
+        }
     }
 }
