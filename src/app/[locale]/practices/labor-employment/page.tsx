@@ -2,6 +2,8 @@
 
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
+import { Navbar } from "@/components/layout/Navbar";
+import { Footer } from "@/components/layout/Footer";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { Scale, Users, FileText, TrendingUp, Briefcase, Globe, ChevronDown, ChevronUp } from "lucide-react";
 import Image from "next/image";
@@ -118,6 +120,8 @@ export default function LaborEmploymentPage() {
             <Script id="labor-employment-faq-schema" type="application/ld+json">
                 {JSON.stringify(faqSchema)}
             </Script>
+
+            <Navbar />
 
             <div className="min-h-screen">
                 {/* Hero Section */}
@@ -451,6 +455,8 @@ export default function LaborEmploymentPage() {
                     </motion.section>
                 </div>
             </div>
+
+            <Footer />
         </>
     );
 }
