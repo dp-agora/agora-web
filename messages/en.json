@@ -1875,5 +1875,175 @@
             "description": "Strategic environmental counsel for natural resource development across Latin America.",
             "button": "Schedule a Consultation"
         }
+    },
+    "LaborEmployment": {
+        "hero": {
+            "badge": "Practice Area",
+            "title": "Labor & Employment Law",
+            "subtitle": "Strategic workforce counsel for multinational, regional, and family businesses across Latin America"
+        },
+        "definition": {
+            "badge": "Our Approach",
+            "title": "What Defines Our Labor & Employment Practice",
+            "paragraph1": "Labor and employment law demands both institutional precision and commercial agility. Our practice integrates deep regulatory expertise with operational insight—advising multinational employers, regional corporates, and mid‑market businesses on workforce strategy, litigation defense, collective bargaining, and cross‑border labor compliance.",
+            "paragraph2": "We combine Venezuela‑centric depth with LatAm‑wide reach, supporting clients through complex dispute resolution, M&A labor due diligence, restructuring, and day‑to‑day compliance challenges. Our hybrid approach balances legal rigor with business efficiency, ensuring workforce decisions align with corporate objectives while mitigating regulatory and reputational risk.",
+            "paragraph3": "Whether defending against wrongful termination claims, negotiating with unions, coordinating expatriate mobility, or integrating labor considerations into transactions, we serve as full‑service corporate and labor partners."
+        },
+        "services": {
+            "badge": "Core Capabilities",
+            "title": "Labor & Employment Advisory Services",
+            "litigation": {
+                "title": "Labor Litigation & Dispute Resolution",
+                "description": "Defense and strategic management of individual and collective labor disputes, wrongful termination claims, discrimination allegations, wage/hour enforcement actions, and administrative proceedings before labor authorities and courts."
+            },
+            "bargaining": {
+                "title": "Collective Bargaining & Union Relations",
+                "description": "Negotiation of collective bargaining agreements, union organizing response, work stoppages and strikes, representation in conciliation and arbitration, and ongoing labor-management relations strategy."
+            },
+            "dueDiligence": {
+                "title": "M&A Labor Due Diligence & Workforce Restructuring",
+                "description": "Pre-transaction labor audits, contingent liability assessment, post-merger integration planning, redundancy programs, TUPE/change of control compliance, and workforce harmonization in cross-border deals."
+            },
+            "compliance": {
+                "title": "Employment Compliance & Regulatory Advisory",
+                "description": "Audit and implementation of labor policies, wage/hour compliance, employee classification (contractor vs. employee), workplace safety (OSHA/local equivalents), anti-discrimination frameworks, and data privacy (employee records)."
+            },
+            "compensation": {
+                "title": "Compensation, Benefits & Executive Arrangements",
+                "description": "Design and documentation of incentive plans, equity compensation, severance agreements, restrictive covenants (non-competes, non-solicits), retention programs, and senior executive employment contracts."
+            },
+            "mobility": {
+                "title": "Cross-Border Workforce Mobility",
+                "description": "Expatriate assignment structuring, visa/work permit coordination, tax equalization, intra-company transfers, secondments, and multi-jurisdictional employment compliance across LatAm."
+            }
+        },
+        "value": {
+            "badge": "Strategic Advantage",
+            "title": "How We Add Value",
+            "integrated": {
+                "title": "Integrated Corporate + Labor Strategy",
+                "description": "We embed labor considerations into M&A, corporate restructuring, and strategic initiatives—ensuring workforce decisions support business objectives while managing regulatory and litigation exposure."
+            },
+            "expertise": {
+                "title": "Venezuela Expertise + LatAm Reach",
+                "description": "Deep institutional knowledge of Venezuelan labor law, combined with coordinated counsel across LatAm jurisdictions for regional employers and cross-border workforce planning."
+            },
+            "experience": {
+                "title": "Litigation + Transactional Experience",
+                "description": "Our team defends complex disputes while advising on transactional labor issues—offering continuity from deal structuring through post-closing integration and ongoing compliance."
+            },
+            "pragmatic": {
+                "title": "Commercially Pragmatic Counsel",
+                "description": "We balance legal rigor with operational efficiency, delivering solutions that protect our clients' interests while enabling agile workforce management and business execution."
+            }
+        },
+        "matters": {
+            "badge": "Track Record",
+            "title": "Representative Matters",
+            "matter1": "Defended multinational industrial group in wrongful termination and discrimination class action involving 150+ employees; achieved favorable settlement after trial-level dismissal of key claims.",
+            "matter2": "Negotiated collective bargaining agreement for regional oil & gas operator covering 1,200 unionized workers; structured wage increases and benefits within budgetary constraints.",
+            "matter3": "Conducted labor due diligence for US-based acquirer's $200M+ acquisition of Venezuelan manufacturing facility; identified $15M+ labor contingencies and advised on workforce restructuring.",
+            "matter4": "Advised technology company on Venezuela-to-Colombia workforce relocation; coordinated tax, immigration, and employment compliance for 80+ employees.",
+            "matter5": "Designed restrictive covenant and retention program for family-owned distribution business ahead of succession planning and potential sale.",
+            "matter6": "Represented financial services client in labor authority audit; achieved compliance certification with zero fines after remediation of administrative deficiencies."
+        },
+        "sectors": {
+            "badge": "Who We Serve",
+            "title": "Our Clients",
+            "multinational": {
+                "title": "Multinational Employers",
+                "description": "Cross-border compliance, expatriate mobility, regional labor harmonization"
+            },
+            "regional": {
+                "title": "Regional Corporates & Industrial Groups",
+                "description": "Collective bargaining, litigation defense, regulatory strategy"
+            },
+            "family": {
+                "title": "Family Businesses & Mid-Market Employers",
+                "description": "Day-to-day compliance, restructuring, employment agreements"
+            },
+            "privateEquity": {
+                "title": "Private Equity & Strategic Acquirers",
+                "description": "M&A labor due diligence, workforce integration, post-closing optimization"
+            }
+        },
+        "related": {
+            "badge": "Related Practices",
+            "title": "Complementary Practice Areas",
+            "corporate": {
+                "title": "Corporate & M&A",
+                "description": "Transaction labor integration",
+                "link": "/practices/corporate-ma"
+            },
+            "tax": {
+                "title": "Tax",
+                "description": "Employment tax structuring",
+                "link": "/practices/tax"
+            },
+            "litigation": {
+                "title": "Litigation & Arbitration",
+                "description": "Dispute resolution",
+                "link": "/practices/litigation"
+            },
+            "immigration": {
+                "title": "Immigration",
+                "description": "Work permits & visas",
+                "link": "/practices/immigration"
+            }
+        },
+        "leadership": {
+            "badge": "Our Team",
+            "title": "Practice Leadership",
+            "members": {
+                "ariana": {
+                    "name": "Ariana Cabrera",
+                    "role": "Practice Leader",
+                    "focus": "Labor litigation, collective bargaining, and employment compliance"
+                },
+                "lizeth": {
+                    "name": "Lizeth Reyes",
+                    "role": "Practice Leader",
+                    "focus": "Workforce restructuring, regulatory advisory, and M&A labor due diligence"
+                },
+                "andreina": {
+                    "name": "Andreina Flores",
+                    "role": "Junior Associate",
+                    "focus": "Employment contracts, policy development, and cross-border mobility"
+                }
+            }
+        },
+        "faqs": {
+            "badge": "Common Questions",
+            "title": "Frequently Asked Questions",
+            "individual": {
+                "question": "What is the difference between individual and collective labor disputes?",
+                "answer": "Individual disputes involve one employee (e.g., wrongful termination, unpaid wages), while collective disputes involve unions or groups of workers (e.g., collective bargaining, strikes). We defend both types, coordinating strategy across litigation and labor-management relations."
+            },
+            "contingencies": {
+                "question": "How do labor contingencies affect M&A transactions?",
+                "answer": "Unresolved labor liabilities (unpaid severance, union obligations, misclassified contractors) create financial and operational risk for acquirers. Our due diligence identifies these exposures, quantifies potential liability, and structures indemnities or purchase price adjustments."
+            },
+            "risks": {
+                "question": "What are the key labor compliance risks for multinational employers in Venezuela?",
+                "answer": "Primary risks include failure to register employees with social security, improper wage/hour practices, inadequate severance reserves, non-compliance with profit-sharing requirements, and exposure to labor authority audits. We conduct compliance reviews and implement remediation programs."
+            },
+            "negotiate": {
+                "question": "Can we negotiate collective bargaining agreements that protect operational flexibility?",
+                "answer": "Yes. Our approach balances employee relations with business needs—negotiating wage structures, work rules, grievance procedures, and flexibility provisions (e.g., shift scheduling, subcontracting) that align with operational requirements while maintaining constructive union relationships."
+            },
+            "terminations": {
+                "question": "How do we manage workforce terminations and restructuring in Venezuela?",
+                "answer": "Venezuelan labor law heavily favors employees, requiring strict compliance with severance calculations, notice periods, and procedures. We design restructuring programs that minimize litigation risk, negotiate exit packages, and defend against wrongful termination claims when disputes arise."
+            },
+            "crossBorder": {
+                "question": "What cross-border employment issues arise in LatAm workforce mobility?",
+                "answer": "Key issues include work permits/visas, employment contract localization (which country's law applies), tax residency and social security contributions, employee secondments vs. permanent transfers, and coordination of benefits across jurisdictions. We structure compliant mobility arrangements and coordinate with local counsel."
+            }
+        },
+        "cta": {
+            "title": "Strategic Labor & Employment Counsel",
+            "subtitle": "Contact us to discuss how our practice can support your workforce strategy, compliance needs, or labor-related transactions.",
+            "button": "Schedule a Consultation"
+        }
     }
 }

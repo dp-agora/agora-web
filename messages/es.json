@@ -1875,5 +1875,175 @@
             "description": "Asesoría ambiental estratégica para el desarrollo de recursos naturales en América Latina.",
             "button": "Agendar una Consulta"
         }
+    },
+    "LaborEmployment": {
+        "hero": {
+            "badge": "Área de Práctica",
+            "title": "Derecho Laboral",
+            "subtitle": "Asesoría estratégica en materia laboral para empresas multinacionales, regionales y familiares en América Latina"
+        },
+        "definition": {
+            "badge": "Nuestro Enfoque",
+            "title": "Qué Define Nuestra Práctica Laboral",
+            "paragraph1": "El derecho laboral exige precisión institucional y agilidad comercial. Nuestra práctica integra profunda experiencia regulatoria con perspectiva operativa—asesorando a empleadores multinacionales, corporaciones regionales y empresas de tamaño medio en estrategia laboral, defensa en litigios, negociación colectiva y cumplimiento laboral transfronterizo.",
+            "paragraph2": "Combinamos profundidad centrada en Venezuela con alcance en toda LatAm, apoyando a los clientes en resolución compleja de disputas, due diligence laboralen M&A, reestructuración y desafíos de cumplimiento diario. Nuestro enfoque híbrido equilibra rigor legal con eficiencia empresarial, asegurando que las decisiones laborales se alineen con objetivos corporativos mientras mitiga riesgos regulatorios y reputacionales.",
+            "paragraph3": "Ya sea defendiendo reclamos por despido injustificado, negociando con sindicatos, coordinando movilidad de expatriados o integrando consideraciones laborales en transacciones, servimos como socios integrales corporativos y laborales."
+        },
+        "services": {
+            "badge": "Capacidades Principales",
+            "title": "Servicios de Asesoría Laboral",
+            "litigation": {
+                "title": "Litigios Laborales y Resolución de Disputas",
+                "description": "Defensa y gestión estratégica de disputas laborales individuales y colectivas, reclamos por despido injustificado, alegaciones de discriminación, acciones de cumplimiento de salarios/horas, y procedimientos administrativos ante autoridades laborales y tribunales."
+            },
+            "bargaining": {
+                "title": "Negociación Colectiva y Relaciones Sindicales",
+                "description": "Negociación de convenios colectivos, respuesta a organización sindical, paros y huelgas, representación en conciliación y arbitraje, y estrategia continua de relaciones laborales-gerenciales."
+            },
+            "dueDiligence": {
+                "title": "Due Diligence Laboral en M&A y Reestructuración",
+                "description": "Auditorías laborales pre-transaccionales, evaluación de pasivos contingentes, planificación de integración post-fusión, programas de redundancia, cumplimiento TUPE/cambio de control, y armonización de fuerza laboral en operaciones transfronterizas."
+            },
+            "compliance": {
+                "title": "Cumplimiento Laboral y Asesoría Regulatoria",
+                "description": "Auditoría e implementación de políticas laborales, cumplimiento de salarios/horas, clasificación de empleados (contratista vs. empleado), seguridad en el lugar de trabajo (OSHA/equivalentes locales), marcos anti-discriminación y privacidad de datos (registros de empleados)."
+            },
+            "compensation": {
+                "title": "Compensación, Beneficios y Arreglos Ejecutivos",
+                "description": "Diseño y documentación de planes de incentivos, compensación de capital, acuerdos de separación, cláusulas restrictivas (no competencia, no solicitación), programas de retención y contratos de empleo ejecutivo."
+            },
+            "mobility": {
+                "title": "Movilidad Transfronteriza de Fuerza Laboral",
+                "description": "Estructuración de asignaciones de expatriados, coordinación de visas/permisos de trabajo, igualación fiscal, transferencias intra-compañía, destacamentos y cumplimiento laboral multijurisdiccional en LatAm."
+            }
+        },
+        "value": {
+            "badge": "Ventaja Estratégica",
+            "title": "Cómo Agregamos Valor",
+            "integrated": {
+                "title": "Estrategia Corporativa + Laboral Integrada",
+                "description": "Integramos consideraciones laborales en M&A, reestructuración corporativa e iniciativas estratégicas—asegurando que las decisiones de fuerza laboral apoyen objetivos comerciales mientras gestionan la exposición regulatoria y de litigios."
+            },
+            "expertise": {
+                "title": "Experiencia en Venezuela + Alcance LatAm",
+                "description": "Profundo conocimiento institucional del derecho laboral venezolano, combinado con asesoría coordinada en jurisdicciones de LatAm para empleadores regionales y planificación de fuerza laboral transfronteriza."
+            },
+            "experience": {
+                "title": "Experiencia en Litigios + Transaccional",
+                "description": "Nuestro equipo defiende disputas complejas mientras asesora en asuntos laborales transaccionales—ofreciendo continuidad desde la estructuración de operaciones hasta la integración post-cierre y cumplimiento continuo."
+            },
+            "pragmatic": {
+                "title": "Asesoría Comercialmente Pragmática",
+                "description": "Equilibramos rigor legal con eficiencia operativa, entregando soluciones que protegen los intereses de nuestros clientes mientras permiten gestión ágil de fuerza laboral y ejecución empresarial."
+            }
+        },
+        "matters": {
+            "badge": "Trayectoria",
+            "title": "Asuntos Representativos",
+            "matter1": "Defensa de grupo industrial multinacional en acción colectiva por despido injustificado y discriminación involucrando 150+ empleados; logro de acuerdo favorable después de desestimación a nivel de juicio de reclamos clave.",
+            "matter2": "Negociación de convenio colectivo para operador regional de petróleo y gas cubriendo 1,200 trabajadores sindicalizados; estructuración de aumentos salariales y beneficios dentro de restricciones presupuestarias.",
+            "matter3": "Realización de due diligence laboral para adquisición de $200M+ por comprador estadounidense de planta manufacturera venezolana; identificación de $15M+ en contingencias laborales y asesoría en reestructuración de fuerza laboral.",
+            "matter4": "Asesoría a empresa tecnológica en reubicación de fuerza laboral de Venezuela a Colombia; coordinación de cumplimiento fiscal, migratorio y laboral para 80+ empleados.",
+            "matter5": "Diseño de cláusulas restrictivas y programa de retención para empresa de distribución familiar previo a planificación de sucesión y venta potencial.",
+            "matter6": "Representación de cliente de servicios financieros en auditoría de autoridad laboral; logro de certificación de cumplimiento sin multas después de remediación de deficiencias administrativas."
+        },
+        "sectors": {
+            "badge": "A Quién Servimos",
+            "title": "Nuestros Clientes",
+            "multinational": {
+                "title": "Empleadores Multinacionales",
+                "description": "Cumplimiento transfronterizo, movilidad de expatriados, armonización laboral regional"
+            },
+            "regional": {
+                "title": "Corporaciones Regionales y Grupos Industriales",
+                "description": "Negociación colectiva, defensa en litigios, estrategia regulatoria"
+            },
+            "family": {
+                "title": "Empresas Familiares y Empleadores de Tamaño Medio",
+                "description": "Cumplimiento diario, reestructuración, acuerdos de empleo"
+            },
+            "privateEquity": {
+                "title": "Capital Privado y Compradores Estratégicos",
+                "description": "Due diligence laboral en M&A, integración de fuerza laboral, optimización post-cierre"
+            }
+        },
+        "related": {
+            "badge": "Prácticas Relacionadas",
+            "title": "Áreas de Práctica Complementarias",
+            "corporate": {
+                "title": "Corporativo y M&A",
+                "description": "Integración laboral en transacciones",
+                "link": "/practices/corporate-ma"
+            },
+            "tax": {
+                "title": "Impuestos",
+                "description": "Estructuración fiscal de empleo",
+                "link": "/practices/tax"
+            },
+            "litigation": {
+                "title": "Litigios y Arbitraje",
+                "description": "Resolución de disputas",
+                "link": "/practices/litigation"
+            },
+            "immigration": {
+                "title": "Inmigración",
+                "description": "Permisos de trabajo y visas",
+                "link": "/practices/immigration"
+            }
+        },
+        "leadership": {
+            "badge": "Nuestro Equipo",
+            "title": "Liderazgo de la Práctica",
+            "members": {
+                "ariana": {
+                    "name": "Ariana Cabrera",
+                    "role": "Líder de Práctica",
+                    "focus": "Litigios laborales, negociación colectiva y cumplimiento laboral"
+                },
+                "lizeth": {
+                    "name": "Lizeth Reyes",
+                    "role": "Líder de Práctica",
+                    "focus": "Reestructuración de fuerza laboral, asesoría regulatoria y due diligence laboral en M&A"
+                },
+                "andreina": {
+                    "name": "Andreina Flores",
+                    "role": "Asociada Junior",
+                    "focus": "Contratos de empleo, desarrollo de políticas y movilidad transfronteriza"
+                }
+            }
+        },
+        "faqs": {
+            "badge": "Preguntas Frecuentes",
+            "title": "Preguntas Frecuentes",
+            "individual": {
+                "question": "¿Cuál es la diferencia entre disputas laborales individuales y colectivas?",
+                "answer": "Las disputas individuales involucran a un empleado (ej., despido injustificado, salarios impagos), mientras que las disputas colectivas involucran sindicatos o grupos de trabajadores (ej., negociación colectiva, huelgas). Defendemos ambos tipos, coordinando estrategia en litigios y relaciones laborales-gerenciales."
+            },
+            "contingencies": {
+                "question": "¿Cómo afectan las contingencias laborales las transacciones de M&A?",
+                "answer": "Los pasivos laborales no resueltos (indemnizaciones impagadas, obligaciones sindicales, contratistas mal clasificados) crean riesgo financiero y operativo para los adquirentes. Nuestro due diligence identifica estas exposiciones, cuantifica el pasivo potencial y estructura indemnizaciones o ajustes de precio de compra."
+            },
+            "risks": {
+                "question": "¿Cuáles son los principales riesgos de cumplimiento laboral para empleadores multinacionales en Venezuela?",
+                "answer": "Los riesgos principales incluyen no registrar empleados en seguro social, prácticas inadecuadas de salario/horas, reservas de indemnización inadecuadas, incumplimiento de requisitos de participación en utilidades y exposición a auditorías de autoridades laborales. Realizamos revisiones de cumplimiento e implementamos programas de remediación."
+            },
+            "negotiate": {
+                "question": "¿Podemos negociar convenios colectivos que protejan la flexibilidad operativa?",
+                "answer": "Sí. Nuestro enfoque equilibra las relaciones con los empleados con las necesidades empresariales—negociando estructuras salariales, reglas de trabajo, procedimientos de quejas y disposiciones de flexibilidad (ej., programación de turnos, subcontratación) que se alinean con requisitos operativos mientras se mantienen relaciones constructivas con los sindicatos."
+            },
+            "terminations": {
+                "question": "¿Cómo gestionamos las terminaciones y reestructuración de fuerza laboral en Venezuela?",
+                "answer": "El derecho laboral venezolano favorece fuertemente a los empleados, requiriendo estricto cumplimiento con cálculos de indemnización, períodos de aviso y procedimientos. Diseñamos programas de reestructuración que minimizan el riesgo de litigios, negociamos paquetes de salida y defendemos contra reclamos por despido injustificado cuando surgen disputas."
+            },
+            "crossBorder": {
+                "question": "¿Qué asuntos de empleo transfronterizos surgen en la movilidad laboral en LatAm?",
+                "answer": "Los asuntos clave incluyen permisos de trabajo/visas, localización de contratos de empleo (qué ley del país aplica), residencia fiscal y contribuciones de seguro social, destacamentos de empleados vs. transferencias permanentes, y coordinación de beneficios entre jurisdicciones. Estructuramos arreglos de movilidad compatibles y coordinamos con abogados locales."
+            }
+        },
+        "cta": {
+            "title": "Asesoría Estratégica en Derecho Laboral",
+            "subtitle": "Contáctenos para discutir cómo nuestra práctica puede apoyar su estrategia de fuerza laboral, necesidades de cumplimiento o transacciones relacionadas con laboral.",
+            "button": "Agendar una Consulta"
+        }
     }
 }
