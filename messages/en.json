@@ -296,16 +296,16 @@
         },
         "members": {
             "alvaro": {
-                "role": "Senior Partner",
-                "bio": "With over 30 years of legal experience, Álvaro stands as a prominent figure in Banking, Finance, and Capital Markets. His career includes a tenure as partner at Baker McKenzie. He has provided strategic counsel to both national and international financial institutions on complex regulatory matters, project financing, and high-value transactions."
+                "role": "Founding Partner",
+                "bio": "Álvaro J. Posada Sessarego, an expert lawyer in banking, corporate finance, and capital markets, has over 30 years of experience advising multinational companies. He is positioned as the trusted strategic advisor for several international business groups in handling sensitive and complex issues."
             },
             "maria": {
-                "role": "Senior Partner",
-                "bio": "María Eugenia brings over three decades of legal expertise, specializing in Corporate, Real Estate, Environmental, and Sustainability law. Previously a partner at Baker McKenzie, she has advised major corporations on cross-border transactions, regulatory compliance, and sustainable development initiatives across Latin America."
+                "role": "Founding Partner",
+                "bio": "María Eugenia Reyes, lawyer with over 30 years of experience in corporate, real estate, environmental law, and sustainability. She has demonstrated exceptional ability to understand clients beyond their obvious needs, successfully closing the projects and cases she has handled."
             },
             "jose": {
-                "role": "Senior Partner",
-                "bio": "José is an expert in Taxation and M&A with over 25 years of professional experience. Licensed to practice law in both Mexico and Venezuela, he has designed and implemented complex tax structures for multinational corporations and led significant cross-border acquisitions."
+                "role": "Partner",
+                "bio": "José P. Barnola Jr. is a lawyer with extensive experience in taxation, mergers and acquisitions, contract and corporate law, as well as serving as an arbitrator. He is licensed to practice in Mexico and Venezuela with over 25 years leading projects across Latin America."
             },
             "ariana": {
                 "role": "Practice Lead",
@@ -396,9 +396,9 @@
             ],
             "education": [
                 "Lawyer, Universidad Católica Andrés Bello (1988)",
-                "Financial Management Programa, Instituto de Estudios Superiores de Administración (IESA) (1989)",
+                "Financial Management Program, Instituto de Estudios Superiores de Administración (IESA) (1989)",
                 "Master in International Banking Law (LLM), Boston University (1992)",
-                "Master in comparative Jurisprudence, New York University (1993)"
+                "Master in Comparative Jurisprudence, New York University (1993)"
             ],
             "publications": [
                 "Co-author of “Commercial Space Securization in Latin America“, Global Securization Review 2004/2005, EuroMoney Year Books, January 1, 2004"
@@ -451,20 +451,20 @@
             "education": [
                 "Law Degree, Universidad Católica Andrés Bello, cum laude, 1993",
                 "Tax Law LLM, Universidad Central de Venezuela, cum laude, 2000",
-                "General Exam for the Law Degree, Centro Nacional de Evaluación para la Educación Superior (Mexico, 2020)",
-                "Law Degree Revalidation and Professional License, Secretaría de Educación Pública (Mexico, 2021)",
+                "General Exam for the Law Degree, Mexico, 2020",
+                "Law Degree Revalidation and Professional License, Mexico, 2021",
                 "Advanced Studies Program in Arbitration, Universidad Monteávila, 2022"
             ],
             "publications": [
-                "«Lo que no se enseña en las facultades de derecho», in FORO JURÍDICO N° 262, julio 2025, Ciudad de México",
-                "«Apuntes sobre los límites de las reorganizaciones corporativas y el arbitraje de inversión desde la perspectiva mexicana», in XX JORNADAS VENEZOLANAS DE DERECHO TRIBUTARIO 2023, Asociación Venezolana de Derecho Tributario, Caracas, 2024",
-                "«La mediación arrendaticia en el Estado de Jalisco, una nueva tendencia del mercado inmobiliario», in REVISTA PREÁMBULO N° 1, Centro de Investigación y Estudios para la Resolución de Controversias de la Universidad Monteávila (CIERC), Caracas, 2023",
-                "«Principles of investment arbitration planning in Latin America», in WORLD ARBITRATION AND MEDIATION REVIEW (WAMR+2020), Vol. 14 No. 1, Dec 31, 2022",
-                "«Comentarios al Artículo 8 de la Ley de Arbitraje Comercial Venezolana», in COMENTARIOS A LA LEY DE ARBITRAJE COMERCIAL VENEZOLANA, CIERC, with V. Falcón, Caracas, 2022",
-                "«Aspectos prácticos de la ratificación del Convenio CIADI por México, un avance alentador para los inversionistas mexicanos y extranjeros», in BOLETÍN IBEROAMERICANO DE ARBITRAJE Y MEDIACIÓN N° 1, Centro de Arbitraje de la Cámara de Caracas, Caracas, 2022",
-                "«Nuevo estudio sobre los efectos de los diseños de los sistemas tributarios en el desarrollo de Latinoamérica», bibliographic review, in TAXLATAM (https://taxlatam.com/) 13.9.22",
-                "«Aspectos prácticos de la primera audiencia de organización del procedimiento arbitral», in PRINCIPIA N° 6, CIERC, Caracas, 2022",
-                "«Principios de Planificación de Arbitraje de Inversión en Latinoamérica», trabajo ganador del premio Rodger Farrel 2021, in REVISTA DE MEDIOS ALTERNATIVOS DE RESOLUCIÓN DE CONFLICTOS, BOLETÍN ESPECIAL, Comité de Arbitraje de Venamcham and CEDCA, Caracas, 2022"
+                "«Lo que no se enseña en las facultades de derecho», en FORO JURÍDICO N° 262, julio 2025, Ciudad de México",
+                "«Apuntes sobre los límites de las reorganizaciones corporativas y el arbitraje de inversión desde la perspectiva mexicana», en XX JORNADAS VENEZOLANAS DE DERECHO TRIBUTARIO 2023, Asociación Venezolana de Derecho Tributario, Caracas, 2024",
+                "«La mediación arrendaticia en el Estado de Jalisco, una nueva tendencia del mercado inmobiliario», en REVISTA PREÁMBULO N° 1, CIERC, Caracas, 2023",
+                "«Principles of investment arbitration planning in Latin America», en WAMR+2020, Vol. 14 No. 1, 2022",
+                "«Comentarios al Artículo 8 de la Ley de Arbitraje Comercial Venezolana», en CIERC, Caracas, 2022",
+                "«Aspectos prácticos de la ratificación del Convenio CIADI por México», BOLETÍN IBEROAMERICANO, 2022",
+                "«Nuevo estudio sobre los efectos de los diseños de los sistemas tributarios en el desarrollo de Latinoamérica», TAXLATAM, 2022",
+                "«Aspectos prácticos de la primera audiencia de organización del procedimiento arbitral», PRINCIPIA N° 6, 2022",
+                "«Principios de Planificación de Arbitraje de Inversión en Latinoamérica», Premio Rodger Farrel 2021, Caracas, 2022"
             ],
             "office": "Mexico City & Caracas",
             "languages": "Spanish and English",
