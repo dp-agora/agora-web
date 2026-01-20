@@ -998,5 +998,220 @@
             "description": "Para asuntos relacionados con transacciones bancarias, regulación financiera o finanzas estructuradas, lo invitamos a contactar directamente nuestra práctica.",
             "button": "Agendar una Consulta"
         }
+    },
+    "CorporateMA": {
+        "hero": {
+            "badge": "Área de Práctica",
+            "title": "Corporativo y M&A",
+            "subtitle": "Asesoría en Transacciones Transfronterizas",
+            "description": "Asesoría legal estratégica para adquisiciones, joint ventures y reestructuraciones corporativas en América Latina y mercados internacionales."
+        },
+        "intro": {
+            "lead": "Ágora Abogados asesora a corporaciones estratégicas, oficinas familiares y empresas multinacionales en todo el ciclo de vida de transacciones de M&A y asuntos de gobernanza corporativa en América Latina. Nuestra práctica integra profundo conocimiento del mercado local con estándares de ejecución internacional.",
+            "body": "Servimos como asesores de transacciones transfronterizas—proporcionando el rigor técnico y pragmatismo comercial que requieren los principales, fundadores y directorios multinacionales. Desde adquisiciones estratégicas y joint ventures hasta reestructuraciones corporativas y diseño de gobernanza, nuestro equipo ofrece disciplina de ejecución en cada etapa de la operación."
+        },
+        "practice": {
+            "badge": "Nuestro Enfoque",
+            "title": "Nuestra Práctica Corporativa y de M&A",
+            "paragraph1": "La práctica Corporativa y de M&A de Ágora opera en la intersección de la planificación estratégica y la ejecución transaccional. Asesoramos a compradores, vendedores y partes interesadas corporativas en asuntos que demandan tanto profundidad regulatoria local como alineación con estándares internacionales de transacciones.",
+            "definition1": {
+                "title": "¿Qué es la Asesoría en M&A?",
+                "content": "La asesoría en fusiones y adquisiciones abarca la estructuración legal, negociación y ejecución de transacciones corporativas que involucran la combinación o adquisición de empresas comerciales. Requiere fluidez en derecho corporativo, metodología de due diligence y las dinámicas comerciales que dan forma al valor de las transacciones."
+            },
+            "paragraph2": "Nuestra capacidad transfronteriza distingue a la práctica. Estructuramos transacciones que conectan operaciones venezolanas con estructuras holding offshore, contrapartes estadounidenses y europeas, y expansión regional en América Latina. Esta fluidez jurisdiccional permite a los clientes ejecutar operaciones complejas con confianza.",
+            "definition2": {
+                "title": "¿Qué es un Joint Venture?",
+                "content": "Un joint venture es un acuerdo contractual o corporativo mediante el cual dos o más partes combinan recursos, experiencia o acceso al mercado para perseguir un objetivo comercial definido mientras mantienen sus identidades legales separadas. La estructuración de JVs requiere una cuidadosa asignación de derechos de gobernanza, contribuciones de capital y mecanismos de salida."
+            },
+            "paragraph3": "No abordamos las transacciones como ejercicios de documentación aislados. Cada operación se evalúa a través del lente del riesgo de gobernanza, requisitos de aprobación regulatoria y alineación de stakeholders a largo plazo. Esta metodología integrada asegura que las transacciones de nuestros clientes sean defendibles, eficientes y posicionadas para el éxito post-cierre.",
+            "definition3": {
+                "title": "¿Qué es una Reestructuración Corporativa?",
+                "content": "La reestructuración corporativa implica la reorganización de la estructura legal, propiedad, operaciones o capitalización de una empresa para mejorar la eficiencia, abordar dificultades financieras o prepararse para transacciones estratégicas. La reestructuración puede incluir escisiones, carve-outs, recapitalizaciones o fusiones corporativas."
+            }
+        },
+        "services": {
+            "badge": "Capacidades",
+            "title": "Servicios Principales",
+            "items": {
+                "buy-side": {
+                    "title": "M&A Buy-Side",
+                    "description": "Asesoramos a compradores estratégicos y adquirentes respaldados por sponsors en identificación de objetivos, due diligence, estructuración de operaciones y negociación. Nuestro equipo gestiona procesos de adquisición desde la carta de intención hasta el cierre, asegurando que los objetivos comerciales estén protegidos en la documentación transaccional."
+                },
+                "sell-side": {
+                    "title": "M&A Sell-Side",
+                    "description": "Representamos a fundadores, oficinas familiares y vendedores corporativos en procesos de subasta controlada, ventas negociadas y management buyouts. Nuestra asesoría incluye soporte de valoración, gestión de data room y negociación de contratos definitivos."
+                },
+                "joint-ventures": {
+                    "title": "Joint Ventures y Alianzas Estratégicas",
+                    "description": "Las asociaciones complejas requieren arquitectura de gobernanza a medida. Estructuramos joint ventures, acuerdos de consorcio y alianzas estratégicas con atención cuidadosa a derechos de control, aportes de capital, resolución de estancamientos y mecanismos de salida."
+                },
+                "restructurings": {
+                    "title": "Reestructuraciones Corporativas y Escisiones",
+                    "description": "Asesoramos en reorganizaciones internas, transacciones de carve-out y estructuras de escisión diseñadas para desbloquear valor, simplificar jerarquías corporativas o preparar unidades de negocio para la venta u operación independiente."
+                },
+                "minority-investments": {
+                    "title": "Inversiones Minoritarias y Gobernanza",
+                    "description": "Las transacciones de participación minoritaria demandan protecciones especializadas. Negociamos acuerdos de derechos de inversionistas, representación en directorio, disposiciones anti-dilución y derechos de salida para inversionistas que toman posiciones no controlantes."
+                },
+                "cross-border": {
+                    "title": "Estructuración Transfronteriza",
+                    "description": "Las transacciones multijurisdiccionales requieren coordinación fluida. Asesoramos en estructuras holding offshore, inversión extranjera entrante y expansión saliente—conectando contrapartes venezolanas con capital estadounidense, europeo y regional."
+                },
+                "governance": {
+                    "title": "Asesoría en Gobernanza Corporativa",
+                    "description": "Diseñamos marcos de gobernanza para empresas de portafolio, empresas familiares y joint ventures institucionales. Nuestra asesoría cubre composición del directorio, obligaciones fiduciarias, acuerdos de accionistas y planificación de sucesión."
+                },
+                "due-diligence": {
+                    "title": "Due Diligence y Evaluación de Riesgos",
+                    "description": "Lideramos procesos integrales de due diligence legal cubriendo estructura corporativa, contratos, cumplimiento regulatorio, exposición a litigios y asuntos laborales—entregando hallazgos accionables que informan precios y asignación de riesgos."
+                }
+            }
+        },
+        "value": {
+            "badge": "Nuestra Metodología",
+            "title": "Cómo Agregamos Valor",
+            "subtitle": "Entregamos valor a través de un marco anclado en cuatro disciplinas.",
+            "items": {
+                "cross-border-execution": {
+                    "title": "Ejecución Transfronteriza",
+                    "description": "Cada transacción se beneficia de nuestra fluidez jurisdiccional. Estructuramos operaciones que funcionan en Venezuela, América Latina y mercados internacionales—coordinando con abogados extranjeros y entendiendo cómo el derecho local interactúa con estructuras offshore."
+                },
+                "technical-rigor": {
+                    "title": "Rigor Técnico",
+                    "description": "Las transacciones de M&A distribuyen riesgo a través de la documentación. Redactamos contratos definitivos con precisión, asegurando que las representaciones, convenios y estructuras de indemnización protejan la posición comercial de nuestros clientes."
+                },
+                "commercial-alignment": {
+                    "title": "Alineación Comercial",
+                    "description": "Las transacciones tienen éxito cuando la estructura legal sirve a los objetivos comerciales. Alineamos nuestra asesoría con los objetivos comerciales de nuestros clientes, evitando el exceso de formalismo legal mientras aseguramos la asignación apropiada de riesgos."
+                },
+                "governance-focus": {
+                    "title": "Enfoque en Gobernanza",
+                    "description": "La transacción es solo el comienzo. Diseñamos estructuras de gobernanza y acuerdos de stakeholders que posicionan a las empresas de portafolio y joint ventures para el éxito operativo y eventual salida."
+                }
+            }
+        },
+        "matters": {
+            "badge": "Experiencia",
+            "title": "Asuntos Representativos",
+            "items": {
+                "strategic-acquisition": {
+                    "title": "Adquisición Estratégica",
+                    "description": "Asesoría a un grupo industrial multinacional en la adquisición de una empresa manufacturera venezolana, incluyendo due diligence, aprobaciones regulatorias y soporte de integración post-cierre."
+                },
+                "cross-border-jv": {
+                    "title": "Joint Venture Transfronterizo",
+                    "description": "Estructuración y negociación de un joint venture multijurisdiccional entre una empresa operadora venezolana y un socio estratégico estadounidense, incluyendo diseño de gobernanza y mecánica de contribución de capital."
+                },
+                "corporate-restructuring": {
+                    "title": "Reestructuración Corporativa",
+                    "description": "Asesoría legal en la reorganización de un conglomerado de propiedad familiar, incluyendo escisión de activos no principales, reestructuración de sociedad holding e implementación de prácticas de gobernanza institucional."
+                },
+                "minority-stake": {
+                    "title": "Inversión Minoritaria",
+                    "description": "Representación de un inversionista institucional en la negociación de una participación minoritaria en una empresa de logística regional, incluyendo derechos de directorio, derechos de información y protecciones de tag-along."
+                },
+                "multinational-exit": {
+                    "title": "Salida de Multinacional",
+                    "description": "Asesoría a una multinacional europea en la salida ordenada de operaciones venezolanas a través de venta de activos, incluyendo autorización regulatoria, transición de empleados y novación de contratos."
+                }
+            }
+        },
+        "clients": {
+            "badge": "Enfoque al Cliente",
+            "title": "A Quién Servimos",
+            "items": {
+                "corporates": {
+                    "title": "Corporaciones Estratégicas",
+                    "description": "Adquisiciones, desinversiones, gobernanza"
+                },
+                "family-offices": {
+                    "title": "Oficinas Familiares",
+                    "description": "Sucesión, reestructuración, eventos de liquidez"
+                },
+                "multinationals": {
+                    "title": "Multinacionales",
+                    "description": "Entrada al mercado, salida, estructuración de JV"
+                },
+                "founders": {
+                    "title": "Fundadores y Principales",
+                    "description": "Levantamientos de capital, transacciones de salida"
+                },
+                "investors": {
+                    "title": "Inversionistas Institucionales",
+                    "description": "Inversiones minoritarias, derechos de gobernanza"
+                }
+            }
+        },
+        "related": {
+            "badge": "Prácticas Relacionadas",
+            "title": "Áreas de Práctica Relacionadas",
+            "links": {
+                "banking": "Banca y Finanzas",
+                "capital-markets": "Mercados de Capitales",
+                "tax": "Impuestos",
+                "employment": "Laboral y Empleo"
+            }
+        },
+        "leadership": {
+            "badge": "Nuestro Equipo",
+            "title": "Liderazgo de la Práctica",
+            "members": {
+                "alvaro": {
+                    "name": "Álvaro J. Posada Sessarego",
+                    "role": "Socio Fundador",
+                    "focus": "M&A transfronterizo, finanzas corporativas y mercados de capitales"
+                },
+                "dayana": {
+                    "name": "Dayana Véliz",
+                    "role": "Asociada",
+                    "focus": "Estructuración de M&A, gobernanza corporativa y acuerdos de accionistas"
+                },
+                "marco": {
+                    "name": "Marco Gómez",
+                    "role": "Asociado",
+                    "focus": "Reestructuraciones corporativas, cumplimiento regulatorio y due diligence"
+                },
+                "raul": {
+                    "name": "Raúl Eduardo Sancristobal",
+                    "role": "Asociado",
+                    "focus": "Disputas corporativas y transacciones de mercados de capitales"
+                }
+            }
+        },
+        "faq": {
+            "badge": "Preguntas Frecuentes",
+            "title": "Preguntas Frecuentes"
+        },
+        "faqs": {
+            "0": {
+                "question": "¿Qué tipos de transacciones de M&A maneja Ágora?",
+                "answer": "Asesoramos en adquisiciones, desinversiones, fusiones, joint ventures, inversiones minoritarias y reestructuraciones corporativas. Nuestra práctica cubre tanto transacciones venezolanas domésticas como operaciones transfronterizas que involucran contrapartes estadounidenses, europeas y latinoamericanas."
+            },
+            "1": {
+                "question": "¿Cómo aborda Ágora las transacciones transfronterizas?",
+                "answer": "La ejecución transfronteriza es una fortaleza central. Estructuramos transacciones que conectan operaciones venezolanas con estructuras holding offshore y contrapartes internacionales, coordinando con abogados extranjeros para asegurar una ejecución fluida en múltiples jurisdicciones."
+            },
+            "2": {
+                "question": "¿Cuál es la diferencia entre asesoría buy-side y sell-side en M&A?",
+                "answer": "La asesoría buy-side representa a adquirentes en la identificación de objetivos, conducción de due diligence y negociación de adquisiciones. La asesoría sell-side representa a vendedores en la preparación para la venta, gestión de procesos de subasta y negociación con potenciales compradores para maximizar el valor de la transacción."
+            },
+            "3": {
+                "question": "¿Ágora asesora a oficinas familiares y empresas lideradas por fundadores?",
+                "answer": "Sí. Regularmente asesoramos a oficinas familiares, fundadores y principales en planificación de sucesión, eventos de liquidez, diseño de gobernanza y transacciones de salida. Nuestro enfoque equilibra el rigor legal con las dinámicas comerciales y familiares que dan forma a estos compromisos."
+            },
+            "4": {
+                "question": "¿Cómo estructura Ágora los joint ventures?",
+                "answer": "Diseñamos estructuras de joint venture con atención cuidadosa a derechos de gobernanza, contribuciones de capital, protocolos de toma de decisiones, resolución de estancamientos y mecanismos de salida. Cada JV se adapta a los objetivos comerciales y tolerancias al riesgo de las partes participantes."
+            },
+            "5": {
+                "question": "¿Puede Ágora apoyar transacciones que involucren inversión extranjera en Venezuela?",
+                "answer": "Asesoramos a empresas multinacionales e inversionistas institucionales en transacciones de inversión entrante, incluyendo aprobaciones regulatorias, estructuras de garantía locales y acuerdos de gobernanza que protegen los intereses de inversionistas extranjeros dentro del marco legal venezolano."
+            }
+        },
+        "cta": {
+            "title": "Contacte Nuestra Práctica",
+            "description": "Para asuntos relacionados con transacciones de M&A, joint ventures, reestructuraciones corporativas o inversiones transfronterizas, lo invitamos a contactar directamente nuestra práctica.",
+            "button": "Agendar una Consulta"
+        }
     }
 }
