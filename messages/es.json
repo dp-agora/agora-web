@@ -998,5 +998,240 @@
             "description": "Para asuntos relacionados con transacciones bancarias, regulación financiera o finanzas estructuradas, lo invitamos a contactar directamente nuestra práctica.",
             "button": "Agendar una Consulta"
         }
+    },
+    "CorporateMA": {
+        "hero": {
+            "badge": "Área de Práctica",
+            "title": "Corporativo y M&A",
+            "subtitle": "Excelencia Transaccional para el Crecimiento Estratégico",
+            "description": "M&A transfronterizo, joint ventures y asesoría corporativa para empresas estratégicas, family offices y multinacionales en toda América Latina."
+        },
+        "intro": {
+            "lead": "Ágora Abogados asesora en transacciones corporativas complejas que definen posiciones de mercado y permiten el crecimiento estratégico. Nuestra práctica sirve a principales que exigen ejecución rigurosa, juicio comercial y capacidad transfronteriza.",
+            "body": "Funcionamos como asesores de transacciones para adquisiciones, desinversiones, joint ventures y reestructuraciones corporativas en toda América Latina. Nuestro equipo combina precisión técnica con la comprensión comercial necesaria para cerrar acuerdos en entornos regulatorios desafiantes."
+        },
+        "practice": {
+            "badge": "Nuestro Enfoque",
+            "title": "Nuestra Práctica Corporativa y M&A",
+            "paragraph1": "La práctica Corporativa y M&A de Ágora opera en la intersección de la asesoría estratégica y la ejecución legal. Asesoramos a compradores, vendedores e inversores en transacciones que requieren tanto experiencia local como alineación con estándares internacionales de transacciones.",
+            "definition1": {
+                "title": "¿Qué es el Derecho de M&A?",
+                "content": "El derecho de M&A abarca el marco legal que rige las adquisiciones, fusiones, desinversiones y combinaciones corporativas. Requiere fluidez en gobierno corporativo, regulación de valores, estructuración fiscal y las arquitecturas contractuales que asignan riesgo entre las partes de la transacción."
+            },
+            "paragraph2": "Abordamos cada transacción con un enfoque en la certeza del acuerdo. Nuestra metodología integra due diligence legal, análisis regulatorio y negociación comercial en un marco de ejecución unificado. Esto asegura que los objetivos estratégicos de nuestros clientes estén protegidos durante todo el ciclo de vida de la transacción.",
+            "definition2": {
+                "title": "¿Qué es el Derecho Corporativo?",
+                "content": "El derecho corporativo rige la formación, gobernanza y operación de entidades comerciales. Abarca los derechos de los accionistas, los deberes de la junta directiva, las estructuras de capital y los marcos regulatorios que definen cómo las empresas operan, realizan transacciones e interactúan con las partes interesadas."
+            },
+            "paragraph3": "Nuestra práctica corporativa se extiende más allá de las transacciones a la asesoría de gobernanza continua. Asesoramos a juntas directivas, accionistas y equipos de gestión sobre deberes fiduciarios, disputas de accionistas y las decisiones estructurales que dan forma a la estrategia corporativa a largo plazo.",
+            "definition3": {
+                "title": "¿Qué es un Joint Venture?",
+                "content": "Un joint venture es un acuerdo contractual o estructural entre dos o más partes para perseguir un objetivo comercial específico manteniendo identidades legales separadas. Las estructuras de JV requieren atención cuidadosa a la gobernanza, participación en beneficios, mecanismos de salida y resolución de disputas."
+            }
+        },
+        "services": {
+            "badge": "Capacidades",
+            "title": "Servicios Principales",
+            "items": {
+                "buy-side": {
+                    "title": "M&A del Lado Comprador",
+                    "description": "Representamos a compradores estratégicos y financieros en adquisiciones en todos los sectores. Nuestro equipo gestiona el due diligence, estructura los contratos de compra y negocia representaciones, garantías y marcos de indemnización que protegen los intereses del comprador."
+                },
+                "sell-side": {
+                    "title": "M&A del Lado Vendedor",
+                    "description": "Asesoramos a vendedores en desinversiones, compras por parte de la gerencia y procesos de venta competitivos. Nuestra práctica del lado vendedor se enfoca en maximizar el valor, gestionar la divulgación y estructurar transacciones que logren los objetivos del vendedor."
+                },
+                "joint-ventures": {
+                    "title": "Joint Ventures y Alianzas Estratégicas",
+                    "description": "Estructuramos joint ventures y asociaciones estratégicas que alinean incentivos, definen la gobernanza y establecen mecanismos de salida claros. Nuestra práctica de JV abarca proyectos greenfield, acuerdos de contribución y asociaciones operativas."
+                },
+                "restructurings": {
+                    "title": "Reestructuraciones Corporativas",
+                    "description": "Asesoramos en fusiones, escisiones y reorganizaciones corporativas que optimizan la estructura para objetivos operativos, fiscales o regulatorios. Nuestro trabajo de reestructuración integra consideraciones corporativas, fiscales y regulatorias."
+                },
+                "minority-investments": {
+                    "title": "Inversiones Minoritarias",
+                    "description": "Representamos a inversores que toman posiciones minoritarias en empresas operativas. Nuestra práctica cubre estructuras de capital, acuerdos de accionistas, representación en la junta directiva, derechos de información y disposiciones de protección."
+                },
+                "cross-border": {
+                    "title": "Transacciones Transfronterizas",
+                    "description": "Las transacciones multijurisdiccionales requieren ejecución coordinada. Asesoramos en transacciones que involucran objetivos venezolanos y latinoamericanos con compradores, vendedores o estructuras de capital internacionales."
+                },
+                "governance": {
+                    "title": "Gobierno Corporativo",
+                    "description": "Asesoramos a juntas directivas y accionistas sobre marcos de gobernanza, deberes fiduciarios y decisiones estructurales. Nuestra práctica de gobernanza cubre la composición de la junta, estructuras de comités, derechos de los accionistas y acuerdos ejecutivos."
+                },
+                "due-diligence": {
+                    "title": "Due Diligence y Evaluación de Riesgos",
+                    "description": "Lideramos procesos de due diligence legal para compradores e inversores. Nuestros equipos de due diligence identifican riesgos materiales, evalúan exposiciones regulatorias y proporcionan el análisis necesario para decisiones de transacción informadas."
+                }
+            }
+        },
+        "value": {
+            "badge": "Nuestra Metodología",
+            "title": "Cómo Agregamos Valor",
+            "subtitle": "Entregamos valor a través de un marco anclado en cuatro disciplinas.",
+            "items": {
+                "cross-border-execution": {
+                    "title": "Ejecución Transfronteriza",
+                    "description": "Las transacciones que involucran objetivos latinoamericanos requieren asesores que entiendan cómo la ley local interactúa con estructuras de transacciones internacionales, leyes extranjeras aplicables y acuerdos de tenencia offshore. Nosotros cerramos esa brecha."
+                },
+                "technical-rigor": {
+                    "title": "Rigor Técnico",
+                    "description": "Las transacciones complejas exigen precisión. Redactamos y negociamos documentos de transacción que asignan el riesgo claramente, abordan los requisitos regulatorios y anticipan contingencias posteriores al cierre."
+                },
+                "commercial-alignment": {
+                    "title": "Alineación Comercial",
+                    "description": "El asesoramiento legal debe servir a los objetivos comerciales. Integramos la estrategia legal con la economía del acuerdo, ayudando a los clientes a comprender las compensaciones y tomar decisiones informadas durante toda la transacción."
+                },
+                "governance-focus": {
+                    "title": "Enfoque en Gobernanza",
+                    "description": "Las transacciones crean estructuras de gobernanza que persisten. Aseguramos que los acuerdos de gobernanza posteriores al cierre sirvan a los intereses a largo plazo de nuestros clientes y proporcionen el control y la protección apropiados."
+                }
+            }
+        },
+        "matters": {
+            "badge": "Experiencia",
+            "title": "Asuntos Representativos",
+            "items": {
+                "strategic-acquisition": {
+                    "title": "Adquisición Estratégica",
+                    "description": "Asesoría a un grupo industrial multinacional en la adquisición de una empresa manufacturera venezolana, incluyendo aprobaciones regulatorias, transición laboral e integración posterior al cierre."
+                },
+                "cross-border-jv": {
+                    "title": "Joint Venture Transfronterizo",
+                    "description": "Estructuración y documentación de un joint venture entre un operador latinoamericano y un socio estratégico internacional para un proyecto de infraestructura regional."
+                },
+                "corporate-restructuring": {
+                    "title": "Reestructuración Corporativa",
+                    "description": "Reorganización corporativa multijurisdiccional para un conglomerado de propiedad familiar, optimizando la estructura de tenencia para la planificación de sucesión y la eficiencia operativa."
+                },
+                "minority-stake": {
+                    "title": "Inversión Minoritaria",
+                    "description": "Representación de un inversor de capital privado en relación con una inversión de capital minoritaria en una empresa de servicios regional, incluyendo derechos de gobernanza y mecanismos de salida."
+                },
+                "multinational-exit": {
+                    "title": "Salida de Multinacional",
+                    "description": "Representación del lado vendedor de una empresa internacional que sale de sus operaciones venezolanas, incluyendo transición de empleados, disposición de activos y cumplimiento regulatorio."
+                }
+            }
+        },
+        "clients": {
+            "badge": "Enfoque al Cliente",
+            "title": "A Quién Servimos",
+            "items": {
+                "corporates": {
+                    "title": "Empresas Estratégicas",
+                    "description": "Adquisiciones, desinversiones, asociaciones"
+                },
+                "family-offices": {
+                    "title": "Family Offices",
+                    "description": "Inversión, sucesión, gobernanza"
+                },
+                "multinationals": {
+                    "title": "Multinacionales",
+                    "description": "Entrada al mercado, reestructuración, salidas"
+                },
+                "founders": {
+                    "title": "Fundadores y Emprendedores",
+                    "description": "Capital de crecimiento, salidas, gobernanza"
+                },
+                "investors": {
+                    "title": "Capital Privado e Inversores",
+                    "description": "Plataforma, add-on, inversiones minoritarias"
+                }
+            }
+        },
+        "related": {
+            "badge": "Prácticas Relacionadas",
+            "title": "Áreas de Práctica Conectadas",
+            "links": {
+                "banking": "Banca y Finanzas",
+                "capital-markets": "Mercados de Capitales",
+                "tax": "Impuestos",
+                "employment": "Laboral"
+            }
+        },
+        "leadership": {
+            "badge": "Nuestro Equipo",
+            "title": "Liderazgo de la Práctica",
+            "members": {
+                "alvaro": {
+                    "name": "Álvaro J. Posada Sessarego",
+                    "role": "Socio Fundador",
+                    "focus": "M&A transfronterizo, finanzas corporativas y mercados de capitales"
+                },
+                "maria": {
+                    "name": "María Eugenia Reyes",
+                    "role": "Socia Fundadora",
+                    "focus": "Reestructuraciones corporativas, transacciones inmobiliarias y cumplimiento ambiental"
+                },
+                "marco": {
+                    "name": "Marco Gómez",
+                    "role": "Asociado Senior",
+                    "focus": "Ejecución de M&A, gobierno corporativo y cumplimiento regulatorio"
+                },
+                "barbara": {
+                    "name": "Bárbara Briceño",
+                    "role": "Asociada Senior",
+                    "focus": "Derecho corporativo, tributación internacional y planificación patrimonial"
+                },
+                "manuel": {
+                    "name": "Manuel Domingo",
+                    "role": "Asociado Senior",
+                    "focus": "Transacciones de M&A, banca y finanzas, y mercados de capitales"
+                },
+                "dayana": {
+                    "name": "Dayana Véliz",
+                    "role": "Asociada Senior",
+                    "focus": "Transacciones corporativas, fusiones y adquisiciones, y banca"
+                },
+                "raul": {
+                    "name": "Raúl Eduardo Sancristobal",
+                    "role": "Asociado Junior",
+                    "focus": "Documentación corporativa y apoyo transaccional"
+                },
+                "rodrigo": {
+                    "name": "Rodrigo Colmenares",
+                    "role": "Asociado Junior",
+                    "focus": "Derecho comercial, fintech y tecnologías emergentes"
+                }
+            }
+        },
+        "faq": {
+            "badge": "Preguntas Frecuentes",
+            "title": "Preguntas Frecuentes"
+        },
+        "faqs": {
+            "0": {
+                "question": "¿Qué tipos de transacciones de M&A maneja Ágora?",
+                "answer": "Asesoramos en adquisiciones, desinversiones, fusiones, joint ventures, inversiones minoritarias y reestructuraciones corporativas. Nuestra práctica cubre tanto transacciones venezolanas domésticas como acuerdos transfronterizos con partes internacionales."
+            },
+            "1": {
+                "question": "¿Cómo aborda Ágora las transacciones transfronterizas?",
+                "answer": "Las transacciones transfronterizas requieren coordinación entre marcos legales locales e internacionales. Trabajamos con los asesores internacionales de los clientes para asegurar que los aspectos de la ley venezolana se aborden mientras se mantiene la alineación con la estructura general de la transacción."
+            },
+            "2": {
+                "question": "¿Qué industrias atiende la práctica Corporativa y M&A?",
+                "answer": "Asesoramos a clientes en sectores que incluyen manufactura, productos de consumo, servicios financieros, energía, infraestructura, tecnología y servicios profesionales. Nuestra experiencia abarca industrias tanto reguladas como no reguladas."
+            },
+            "3": {
+                "question": "¿Cuánto tiempo toma una transacción típica de M&A?",
+                "answer": "Los plazos de las transacciones varían según la complejidad, los requisitos regulatorios y la dinámica de negociación. Las transacciones simples pueden cerrarse en semanas, mientras que los acuerdos transfronterizos complejos pueden requerir varios meses. Trabajamos con los clientes para establecer plazos realistas desde el principio."
+            },
+            "4": {
+                "question": "¿Ágora proporciona apoyo continuo de gobierno corporativo?",
+                "answer": "Sí. Más allá de las transacciones, asesoramos a juntas directivas, accionistas y gerencia sobre marcos de gobernanza, deberes fiduciarios, asuntos de accionistas y decisiones estructurales. Muchos clientes nos retienen para apoyo corporativo continuo."
+            },
+            "5": {
+                "question": "¿Puede Ágora asistir con due diligence para adquisiciones?",
+                "answer": "Lideramos procesos integrales de due diligence legal para compradores e inversores. Nuestros equipos de due diligence evalúan exposiciones corporativas, contractuales, regulatorias, laborales y de litigio para informar las decisiones y negociaciones de transacciones."
+            }
+        },
+        "cta": {
+            "title": "Contacte Nuestra Práctica",
+            "description": "Para asuntos relacionados con transacciones corporativas, M&A o asesoría de gobernanza, lo invitamos a contactar directamente nuestra práctica.",
+            "button": "Agendar una Consulta"
+        }
     }
 }

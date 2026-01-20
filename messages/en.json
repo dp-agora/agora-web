@@ -998,5 +998,240 @@
             "description": "For matters involving banking transactions, financial regulation, or structured finance, we invite you to engage directly with our practice.",
             "button": "Schedule a Consultation"
         }
+    },
+    "CorporateMA": {
+        "hero": {
+            "badge": "Practice Area",
+            "title": "Corporate & M&A",
+            "subtitle": "Transactional Excellence for Strategic Growth",
+            "description": "Cross-border M&A, joint ventures, and corporate advisory for strategic corporates, family offices, and multinationals across Latin America."
+        },
+        "intro": {
+            "lead": "Ágora Abogados advises on complex corporate transactions that define market positions and enable strategic growth. Our practice serves principals who demand rigorous execution, commercial judgment, and cross-border capability.",
+            "body": "We function as transaction counsel for acquisitions, divestitures, joint ventures, and corporate restructurings across Latin America. Our team combines technical precision with the commercial understanding necessary to close deals in challenging regulatory environments."
+        },
+        "practice": {
+            "badge": "Our Approach",
+            "title": "Our Corporate & M&A Practice",
+            "paragraph1": "Ágora's Corporate & M&A practice operates at the intersection of strategic advisory and legal execution. We advise buyers, sellers, and investors on transactions that require both local expertise and alignment with international deal standards.",
+            "definition1": {
+                "title": "What is M&A Law?",
+                "content": "M&A law encompasses the legal framework governing acquisitions, mergers, divestitures, and corporate combinations. It requires fluency in corporate governance, securities regulation, tax structuring, and the contractual architectures that allocate risk between transaction parties."
+            },
+            "paragraph2": "We approach every transaction with a focus on deal certainty. Our methodology integrates legal due diligence, regulatory analysis, and commercial negotiation into a unified execution framework. This ensures that our clients' strategic objectives are protected throughout the transaction lifecycle.",
+            "definition2": {
+                "title": "What is Corporate Law?",
+                "content": "Corporate law governs the formation, governance, and operation of business entities. It encompasses shareholder rights, board duties, capital structures, and the regulatory frameworks that define how companies operate, transact, and interact with stakeholders."
+            },
+            "paragraph3": "Our corporate practice extends beyond transactions to ongoing governance advisory. We counsel boards, shareholders, and management teams on fiduciary duties, shareholder disputes, and the structural decisions that shape long-term corporate strategy.",
+            "definition3": {
+                "title": "What is a Joint Venture?",
+                "content": "A joint venture is a contractual or structural arrangement between two or more parties to pursue a specific business objective while maintaining separate legal identities. JV structures require careful attention to governance, profit sharing, exit mechanisms, and dispute resolution."
+            }
+        },
+        "services": {
+            "badge": "Capabilities",
+            "title": "Core Services",
+            "items": {
+                "buy-side": {
+                    "title": "Buy-Side M&A",
+                    "description": "We represent strategic and financial buyers in acquisitions across sectors. Our team manages due diligence, structures purchase agreements, and negotiates representations, warranties, and indemnification frameworks that protect buyer interests."
+                },
+                "sell-side": {
+                    "title": "Sell-Side M&A",
+                    "description": "We advise sellers on divestitures, management buyouts, and competitive sale processes. Our sell-side practice focuses on maximizing value, managing disclosure, and structuring transactions that achieve seller objectives."
+                },
+                "joint-ventures": {
+                    "title": "Joint Ventures & Strategic Alliances",
+                    "description": "We structure joint ventures and strategic partnerships that align incentives, define governance, and establish clear exit mechanisms. Our JV practice spans greenfield projects, contribution agreements, and operational partnerships."
+                },
+                "restructurings": {
+                    "title": "Corporate Restructurings",
+                    "description": "We advise on mergers, spin-offs, and corporate reorganizations that optimize structure for operational, tax, or regulatory objectives. Our restructuring work integrates corporate, tax, and regulatory considerations."
+                },
+                "minority-investments": {
+                    "title": "Minority Investments",
+                    "description": "We represent investors taking minority positions in operating companies. Our practice covers equity structures, shareholder agreements, board representation, information rights, and protective provisions."
+                },
+                "cross-border": {
+                    "title": "Cross-Border Transactions",
+                    "description": "Multi-jurisdictional transactions require coordinated execution. We advise on transactions involving Venezuelan and Latin American targets with international buyers, sellers, or capital structures."
+                },
+                "governance": {
+                    "title": "Corporate Governance",
+                    "description": "We counsel boards and shareholders on governance frameworks, fiduciary duties, and structural decisions. Our governance practice covers board composition, committee structures, shareholder rights, and executive arrangements."
+                },
+                "due-diligence": {
+                    "title": "Due Diligence & Risk Assessment",
+                    "description": "We lead legal due diligence processes for buyers and investors. Our due diligence teams identify material risks, assess regulatory exposures, and provide the analysis necessary for informed transaction decisions."
+                }
+            }
+        },
+        "value": {
+            "badge": "Our Methodology",
+            "title": "How We Add Value",
+            "subtitle": "We deliver value through a framework anchored in four disciplines.",
+            "items": {
+                "cross-border-execution": {
+                    "title": "Cross-Border Execution",
+                    "description": "Transactions involving Latin American targets require counsel who understand how local law interacts with international deal structures, foreign governing law, and offshore holding arrangements. We bridge that gap."
+                },
+                "technical-rigor": {
+                    "title": "Technical Rigor",
+                    "description": "Complex transactions demand precision. We draft and negotiate transaction documents that allocate risk clearly, address regulatory requirements, and anticipate post-closing contingencies."
+                },
+                "commercial-alignment": {
+                    "title": "Commercial Alignment",
+                    "description": "Legal advice must serve commercial objectives. We integrate legal strategy with deal economics, helping clients understand trade-offs and make informed decisions throughout the transaction."
+                },
+                "governance-focus": {
+                    "title": "Governance Focus",
+                    "description": "Transactions create governance structures that persist. We ensure that post-closing governance arrangements serve our clients' long-term interests and provide appropriate control and protection."
+                }
+            }
+        },
+        "matters": {
+            "badge": "Experience",
+            "title": "Representative Matters",
+            "items": {
+                "strategic-acquisition": {
+                    "title": "Strategic Acquisition",
+                    "description": "Counsel to a multinational industrial group on the acquisition of a Venezuelan manufacturing company, including regulatory approvals, labor transition, and post-closing integration."
+                },
+                "cross-border-jv": {
+                    "title": "Cross-Border Joint Venture",
+                    "description": "Structuring and documentation of a joint venture between a Latin American operator and an international strategic partner for a regional infrastructure project."
+                },
+                "corporate-restructuring": {
+                    "title": "Corporate Restructuring",
+                    "description": "Multi-jurisdictional corporate reorganization for a family-owned conglomerate, optimizing holding structure for succession planning and operational efficiency."
+                },
+                "minority-stake": {
+                    "title": "Minority Investment",
+                    "description": "Representation of private equity investor in connection with minority equity investment in a regional services company, including governance rights and exit mechanisms."
+                },
+                "multinational-exit": {
+                    "title": "Multinational Exit",
+                    "description": "Sell-side representation of an international company exiting its Venezuelan operations, including employee transition, asset disposition, and regulatory compliance."
+                }
+            }
+        },
+        "clients": {
+            "badge": "Client Focus",
+            "title": "Who We Serve",
+            "items": {
+                "corporates": {
+                    "title": "Strategic Corporates",
+                    "description": "Acquisitions, divestitures, partnerships"
+                },
+                "family-offices": {
+                    "title": "Family Offices",
+                    "description": "Investment, succession, governance"
+                },
+                "multinationals": {
+                    "title": "Multinationals",
+                    "description": "Market entry, restructuring, exits"
+                },
+                "founders": {
+                    "title": "Founders & Entrepreneurs",
+                    "description": "Growth capital, exits, governance"
+                },
+                "investors": {
+                    "title": "Private Equity & Investors",
+                    "description": "Platform, add-on, minority investments"
+                }
+            }
+        },
+        "related": {
+            "badge": "Related Practices",
+            "title": "Connected Practice Areas",
+            "links": {
+                "banking": "Banking & Finance",
+                "capital-markets": "Capital Markets",
+                "tax": "Tax",
+                "employment": "Employment"
+            }
+        },
+        "leadership": {
+            "badge": "Our Team",
+            "title": "Practice Leadership",
+            "members": {
+                "alvaro": {
+                    "name": "Álvaro J. Posada Sessarego",
+                    "role": "Founding Partner",
+                    "focus": "Cross-border M&A, corporate finance, and capital markets"
+                },
+                "maria": {
+                    "name": "María Eugenia Reyes",
+                    "role": "Founding Partner",
+                    "focus": "Corporate restructurings, real estate transactions, and environmental compliance"
+                },
+                "marco": {
+                    "name": "Marco Gómez",
+                    "role": "Senior Associate",
+                    "focus": "M&A execution, corporate governance, and regulatory compliance"
+                },
+                "barbara": {
+                    "name": "Bárbara Briceño",
+                    "role": "Senior Associate",
+                    "focus": "Corporate law, international taxation, and estate planning"
+                },
+                "manuel": {
+                    "name": "Manuel Domingo",
+                    "role": "Senior Associate",
+                    "focus": "M&A transactions, banking and finance, and capital markets"
+                },
+                "dayana": {
+                    "name": "Dayana Véliz",
+                    "role": "Senior Associate",
+                    "focus": "Corporate transactions, mergers and acquisitions, and banking"
+                },
+                "raul": {
+                    "name": "Raúl Eduardo Sancristobal",
+                    "role": "Junior Associate",
+                    "focus": "Corporate documentation and transaction support"
+                },
+                "rodrigo": {
+                    "name": "Rodrigo Colmenares",
+                    "role": "Junior Associate",
+                    "focus": "Commercial law, fintech, and emerging technologies"
+                }
+            }
+        },
+        "faq": {
+            "badge": "Common Questions",
+            "title": "Frequently Asked Questions"
+        },
+        "faqs": {
+            "0": {
+                "question": "What types of M&A transactions does Ágora handle?",
+                "answer": "We advise on acquisitions, divestitures, mergers, joint ventures, minority investments, and corporate restructurings. Our practice covers both domestic Venezuelan transactions and cross-border deals with international parties."
+            },
+            "1": {
+                "question": "How does Ágora approach cross-border transactions?",
+                "answer": "Cross-border transactions require coordination between local and international legal frameworks. We work with clients' international counsel to ensure Venezuelan law aspects are addressed while maintaining alignment with the overall transaction structure."
+            },
+            "2": {
+                "question": "What industries does the Corporate & M&A practice serve?",
+                "answer": "We advise clients across sectors including manufacturing, consumer products, financial services, energy, infrastructure, technology, and professional services. Our experience spans both regulated and unregulated industries."
+            },
+            "3": {
+                "question": "How long does a typical M&A transaction take?",
+                "answer": "Transaction timelines vary based on complexity, regulatory requirements, and negotiation dynamics. Simple transactions may close in weeks, while complex cross-border deals may require several months. We work with clients to establish realistic timelines at the outset."
+            },
+            "4": {
+                "question": "Does Ágora provide ongoing corporate governance support?",
+                "answer": "Yes. Beyond transactions, we advise boards, shareholders, and management on governance frameworks, fiduciary duties, shareholder matters, and structural decisions. Many clients retain us for ongoing corporate support."
+            },
+            "5": {
+                "question": "Can Ágora assist with due diligence for acquisitions?",
+                "answer": "We lead comprehensive legal due diligence processes for buyers and investors. Our due diligence teams assess corporate, contractual, regulatory, labor, and litigation exposures to inform transaction decisions and negotiations."
+            }
+        },
+        "cta": {
+            "title": "Engage With Our Practice",
+            "description": "For matters involving corporate transactions, M&A, or governance advisory, we invite you to engage directly with our practice.",
+            "button": "Schedule a Consultation"
+        }
     }
 }
