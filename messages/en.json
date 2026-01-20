@@ -1233,5 +1233,215 @@
             "description": "For matters involving corporate transactions, M&A, or governance advisory, we invite you to engage directly with our practice.",
             "button": "Schedule a Consultation"
         }
+    },
+    "Tax": {
+        "hero": {
+            "badge": "Tax Advisory",
+            "title": "Tax",
+            "subtitle": "Cross-Border Tax Intelligence for Complex Corporate Structures",
+            "description": "We deliver technically rigorous, commercially pragmatic tax solutions for multinational enterprises and regional corporates operating across Latin America and the US–LatAm corridor. Our approach combines Big 4–caliber expertise with the responsiveness and partner-level attention of a specialized practice."
+        },
+        "intro": {
+            "lead": "Effective tax planning is not about minimizing obligations—it's about structuring operations in ways that are defensible, efficient, and aligned with commercial reality.",
+            "body": "Our Tax Practice advises corporations, family enterprises, and investment groups on the full spectrum of income tax, transfer pricing, and international structuring matters. We understand that tax decisions are business decisions, and we approach every engagement with the technical depth required to satisfy regulators and the strategic perspective required to create value. Whether you're expanding into new markets, restructuring legacy holdings, or navigating a cross-border transaction, we provide the architecture to execute with confidence."
+        },
+        "practice": {
+            "badge": "Our Approach",
+            "title": "What Defines Our Tax Practice",
+            "paragraph1": "Tax advisory in Latin America requires more than technical knowledge—it demands fluency in local regulatory dynamics, treaty networks, and the practical realities of enforcement. Our team brings decades of combined experience advising on some of the region's most complex corporate structures, from multinational holding arrangements to domestic reorganizations with cross-border implications.",
+            "definition1": {
+                "title": "What Is Tax Planning?",
+                "content": "Tax Planning refers to the legitimate structuring of business activities and transactions to minimize tax burdens within the bounds of applicable law. Unlike tax evasion (which is illegal), tax planning relies on understanding tax codes, utilizing available incentives, and timing decisions to achieve efficiency. Effective tax planning considers not only immediate savings but long-term defensibility, regulatory trends, and commercial alignment."
+            },
+            "paragraph2": "The corporate tax landscape across Latin America is characterized by frequent regulatory change, evolving transfer pricing enforcement, and increasing alignment with OECD standards. We help clients navigate this complexity with structures that are technically defensible today and adaptable to regulatory evolution.",
+            "definition2": {
+                "title": "What Is Transfer Pricing?",
+                "content": "Transfer Pricing governs the pricing of transactions between related entities within a corporate group—intercompany loans, service fees, royalties, and goods transfers. Tax authorities scrutinize these transactions to ensure they reflect arm's length terms (what unrelated parties would agree to). Failure to maintain compliant transfer pricing documentation can result in significant adjustments, penalties, and double taxation."
+            },
+            "paragraph3": "Cross-border operations demand integrated thinking. We coordinate with trusted advisors in Mexico, the United States, and across Latin America to ensure that structures work across jurisdictions—not just in isolation.",
+            "definition3": {
+                "title": "What Is International Tax Structuring?",
+                "content": "International Tax Structuring involves designing corporate and financing arrangements that optimize the global effective tax rate of a multinational group. This includes holding company jurisdiction selection, treaty utilization, permanent establishment analysis, and financing structures. The goal is efficiency without aggressive positions—structures that regulatory authorities will respect."
+            }
+        },
+        "services": {
+            "badge": "Core Capabilities",
+            "title": "Tax Advisory Services",
+            "items": {
+                "corporate-income": {
+                    "title": "Corporate Income Tax",
+                    "description": "Compliance, planning, and optimization for domestic and multinational corporations. We structure operations to align tax efficiency with commercial objectives while maintaining full audit defensibility."
+                },
+                "transfer-pricing": {
+                    "title": "Transfer Pricing",
+                    "description": "Comprehensive transfer pricing services including policy design, benchmarking studies, contemporaneous documentation, and defense of positions under audit. We ensure intercompany arrangements reflect arm's length principles."
+                },
+                "international-structuring": {
+                    "title": "International Tax Structuring",
+                    "description": "Design and implementation of holding structures, financing arrangements, and operational frameworks that optimize global effective tax rates while respecting substance requirements and treaty limitations."
+                },
+                "treaty-planning": {
+                    "title": "Tax Treaty Optimization",
+                    "description": "Analysis and utilization of bilateral tax treaties to minimize withholding taxes, avoid double taxation, and structure cross-border payments efficiently. Deep expertise in US, Spanish, and regional treaty networks."
+                },
+                "ma-tax": {
+                    "title": "M&A Tax Advisory",
+                    "description": "Tax due diligence, structuring, and post-transaction integration for acquisitions, divestitures, and corporate reorganizations. We identify exposures and opportunities before closing."
+                },
+                "controversy": {
+                    "title": "Tax Controversy & Audit Defense",
+                    "description": "Representation before tax authorities in audits, administrative appeals, and contentious matters. We defend positions with the technical rigor required to prevail."
+                },
+                "incentives": {
+                    "title": "Tax Incentives & Regimes",
+                    "description": "Identification and structuring of special tax regimes, investment incentives, free trade zone benefits, and sector-specific advantages available across Latin American jurisdictions."
+                },
+                "compliance": {
+                    "title": "Tax Compliance & Reporting",
+                    "description": "Accurate, timely compliance services for corporate income tax, withholding obligations, and regulatory reporting across multiple jurisdictions. Designed for efficiency and scalability."
+                }
+            }
+        },
+        "value": {
+            "badge": "Our Approach",
+            "title": "How We Add Value",
+            "subtitle": "Our tax advisory combines technical precision with commercial awareness to deliver structures that work in practice.",
+            "items": {
+                "technical-precision": {
+                    "title": "Technical Precision",
+                    "description": "We bring Big 4–caliber technical depth to every engagement—mastery of tax codes, regulations, and jurisprudence that forms the foundation for defensible structures."
+                },
+                "commercial-alignment": {
+                    "title": "Commercial Alignment",
+                    "description": "Tax advice that ignores commercial reality creates execution risk. We structure solutions that work within your operational and financial constraints."
+                },
+                "cross-border-coordination": {
+                    "title": "Cross-Border Coordination",
+                    "description": "Latin American operations rarely exist in isolation. We coordinate across jurisdictions to ensure structures work holistically—not just on paper in one country."
+                },
+                "pragmatic-optimization": {
+                    "title": "Pragmatic Optimization",
+                    "description": "We find the efficient path—not the aggressive one. Our structures are designed to perform under audit, not to gamble on enforcement gaps."
+                }
+            }
+        },
+        "matters": {
+            "badge": "Track Record",
+            "title": "Representative Matters",
+            "items": {
+                "regional-holding": {
+                    "title": "Regional Holding Restructuring",
+                    "description": "Advised a multinational industrial group on the restructuring of its Latin American holding structure, optimizing dividend and interest flows across five jurisdictions while maintaining OECD transfer pricing compliance."
+                },
+                "us-latam-financing": {
+                    "title": "US–LatAm Financing Structure",
+                    "description": "Designed a cross-border financing arrangement for a US-based sponsor's acquisition of a regional platform, minimizing withholding taxes and structuring interest deductions across applicable tax treaties."
+                },
+                "transfer-pricing-defense": {
+                    "title": "Transfer Pricing Defense",
+                    "description": "Successfully defended a major manufacturing client in a multi-year transfer pricing audit, protecting over $15M in proposed adjustments through rigorous economic analysis and treaty-based arguments."
+                },
+                "family-reorganization": {
+                    "title": "Family Enterprise Reorganization",
+                    "description": "Advised a multi-generational family business on the tax-efficient reorganization of legacy holdings, implementing a structure that separated operating assets from investment holdings while preserving succession flexibility."
+                },
+                "free-trade-zone": {
+                    "title": "Free Trade Zone Optimization",
+                    "description": "Structured a regional distribution operation to maximize free trade zone benefits in multiple jurisdictions, reducing effective tax rates by approximately 40% while maintaining full compliance."
+                }
+            }
+        },
+        "clients": {
+            "badge": "Who We Serve",
+            "title": "Our Clients",
+            "items": {
+                "multinationals": {
+                    "title": "Multinational Corporations",
+                    "description": "Global companies with complex Latin American operations requiring coordinated tax planning and compliance."
+                },
+                "regional-corporates": {
+                    "title": "Regional Corporates",
+                    "description": "Pan-LatAm companies seeking sophisticated tax structures as they expand across borders."
+                },
+                "family-enterprises": {
+                    "title": "Family Enterprises",
+                    "description": "Multi-generational businesses requiring tax-efficient ownership structures and succession planning."
+                },
+                "pe-sponsors": {
+                    "title": "Private Equity Sponsors",
+                    "description": "Financial sponsors structuring acquisitions, holdings, and exits with tax efficiency."
+                },
+                "us-investors": {
+                    "title": "US-Based Investors",
+                    "description": "American companies and individuals with Latin American investments requiring US–LatAm coordination."
+                }
+            }
+        },
+        "related": {
+            "badge": "Related Practices",
+            "title": "Complementary Practice Areas",
+            "links": {
+                "banking": "Banking & Finance",
+                "corporate": "Corporate & M&A",
+                "capital-markets": "Capital Markets",
+                "employment": "Employment & Benefits"
+            }
+        },
+        "leadership": {
+            "badge": "Our Team",
+            "title": "Practice Leadership",
+            "members": {
+                "jose": {
+                    "name": "José P. Barnola Jr.",
+                    "role": "Senior Partner",
+                    "focus": "International taxation, transfer pricing, and tax controversy"
+                },
+                "marco": {
+                    "name": "Marco Gómez",
+                    "role": "Senior Associate",
+                    "focus": "Tax compliance, regulatory matters, and corporate taxation"
+                },
+                "barbara": {
+                    "name": "Bárbara Briceño",
+                    "role": "Senior Associate",
+                    "focus": "International taxation, estate planning, and cross-border structuring"
+                }
+            }
+        },
+        "faq": {
+            "badge": "Common Questions",
+            "title": "Frequently Asked Questions"
+        },
+        "faqs": {
+            "0": {
+                "question": "What is the difference between tax planning and tax evasion?",
+                "answer": "Tax planning is the legitimate use of legal provisions, incentives, and structuring techniques to minimize tax burdens. It is legal and encouraged by tax codes that intentionally include incentives and allowable deductions. Tax evasion, by contrast, involves deliberately misrepresenting or concealing information to reduce tax liabilities—which is illegal and subject to criminal penalties. All of our advisory work falls strictly within the bounds of legitimate tax planning."
+            },
+            "1": {
+                "question": "How do you approach transfer pricing compliance for multinational clients?",
+                "answer": "We take a comprehensive approach to transfer pricing that begins with understanding your intercompany transaction universe—goods, services, financing, and intangibles. We then design transfer pricing policies that reflect arm's length principles, prepare contemporaneous documentation meeting local and OECD requirements, and conduct benchmarking studies using reliable comparable data. Our goal is documentation that not only complies but can be defended under audit."
+            },
+            "2": {
+                "question": "What jurisdictions does your international tax practice cover?",
+                "answer": "Our core expertise spans Venezuela, Mexico, Colombia, Peru, Chile, and Brazil within Latin America, with significant experience in US–LatAm corridor transactions. We maintain a network of trusted correspondents in other jurisdictions and regularly coordinate with advisors in Spain, the UK, and other European tax hubs for structures involving those regions."
+            },
+            "3": {
+                "question": "How do you balance tax efficiency with regulatory risk?",
+                "answer": "We adhere to a pragmatic optimization philosophy. This means we pursue legitimate efficiencies—treaty benefits, available incentives, thoughtful structuring—while ensuring that every position we recommend can be defended before a tax authority. We avoid aggressive positions that rely on enforcement gaps, and we always model the downside risk of any position being challenged."
+            },
+            "4": {
+                "question": "What is involved in tax due diligence for an M&A transaction?",
+                "answer": "Our M&A tax due diligence includes a comprehensive review of the target's historical tax compliance, identification of contingent liabilities and exposures, analysis of available tax attributes (losses, credits), and structuring recommendations for the acquisition itself. We provide a clear risk map with quantified exposures so that buyers can make informed decisions and negotiate appropriate protections."
+            },
+            "5": {
+                "question": "How does Ágora differ from Big 4 accounting firms in tax matters?",
+                "answer": "We offer comparable technical depth to global accounting firms but with meaningful differences: direct partner-level engagement on every matter, faster response times, and the integrated legal perspective that comes from being a law firm rather than an accountancy. For complex structuring and controversy work, clients increasingly prefer advisors who can both plan the structure and defend it in litigation if necessary."
+            }
+        },
+        "cta": {
+            "title": "Ready to Optimize Your Tax Position?",
+            "description": "Contact us to discuss how our tax practice can support your cross-border planning, compliance needs, or ongoing advisory requirements.",
+            "button": "Schedule a Consultation"
+        }
     }
 }
