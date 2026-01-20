@@ -1818,20 +1818,25 @@
             "badge": "Nuestro Equipo",
             "title": "Liderazgo de la Práctica",
             "members": {
-                "jose": {
-                    "name": "José P. Barnola Jr.",
-                    "role": "Socio Senior",
-                    "focus": "Estrategia regulatoria ambiental, recursos naturales y permisos de proyectos de infraestructura"
+                "maria": {
+                    "name": "María Eugenia Reyes",
+                    "role": "Socia",
+                    "focus": "Estrategia regulatoria ambiental y cumplimiento de recursos naturales"
                 },
-                "alvaro": {
-                    "name": "Álvaro J. Posada Sessarego",
-                    "role": "Socio Fundador",
-                    "focus": "Transacciones transfronterizas, desarrollo de proyectos y asesoría a inversores internacionales"
+                "lizeth": {
+                    "name": "Lizeth Reyes",
+                    "role": "Líder de Práctica",
+                    "focus": "Operaciones mineras, operaciones petroleras y permisos de proyectos industriales"
                 },
-                "marco": {
-                    "name": "Marco Gómez",
-                    "role": "Asociado Senior",
-                    "focus": "Cumplimiento regulatorio, licenciamiento de minería e hidrocarburos, y mantenimiento de permisos"
+                "ariana": {
+                    "name": "Ariana Cabrera",
+                    "role": "Líder de Práctica",
+                    "focus": "Desarrollo sostenible y cumplimiento regulatorio"
+                },
+                "barbara": {
+                    "name": "Bárbara Briceño",
+                    "role": "Asociada Senior",
+                    "focus": "Licenciamiento ambiental y procedimientos administrativos"
                 }
             }
         },
