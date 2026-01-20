@@ -806,5 +806,432 @@
     },
     "Booking": {
         "title": "ÁGORA Conectar"
+    },
+    "BankingFinance": {
+        "hero": {
+            "badge": "Área de Práctica",
+            "title": "Banca y Finanzas",
+            "subtitle": "Asesoría en Infraestructura Financiera",
+            "description": "Asesoría legal para instituciones financieras, prestatarios corporativos e inversores institucionales en transacciones bancarias complejas en América Latina."
+        },
+        "intro": {
+            "lead": "Ágora Abogados asesora a instituciones financieras, prestatarios corporativos e inversores institucionales en todo el espectro de transacciones bancarias y financieras en América Latina. Nuestra práctica integra profundo conocimiento regulatorio con ejecución transaccional sofisticada, permitiendo a los clientes estructurar, negociar y cerrar financiamientos complejos en jurisdicciones donde la precisión legal es innegociable.",
+            "body": "Servimos como asesores de infraestructura financiera—proporcionando la certeza regulatoria y la disciplina de ejecución de operaciones que requieren los bancos comerciales, fondos de crédito privado, prestamistas multilaterales y corporativos a nivel de tesorería. Desde préstamos sindicados hasta reestructuración en dificultades, nuestro equipo ofrece la profundidad técnica y el pragmatismo comercial que impulsan las transacciones."
+        },
+        "practice": {
+            "badge": "Nuestro Enfoque",
+            "title": "Nuestra Práctica de Banca y Finanzas",
+            "paragraph1": "La práctica de Banca y Finanzas de Ágora opera en la intersección del cumplimiento regulatorio y la ejecución transaccional. Asesoramos a prestamistas, prestatarios e intermediarios financieros en asuntos que demandan tanto profundidad regulatoria local como alineación con estándares de transacción internacionales.",
+            "definition": {
+                "title": "¿Qué es el Derecho Bancario?",
+                "content": "El derecho bancario abarca el marco legal que rige las instituciones financieras, las relaciones crediticias, la regulación prudencial y la estructuración de instrumentos de deuda. Requiere fluidez en supervisión del banco central, estándares de adecuación de capital y las arquitecturas contractuales que sustentan los mercados de crédito."
+            },
+            "paragraph2": "No abordamos los financiamientos como ejercicios de documentación aislados. Cada transacción se evalúa a través del lente del riesgo regulatorio, impacto en el balance general y certeza de ejecución. Esta metodología integrada asegura que las estructuras de financiamiento de nuestros clientes sean defendibles, eficientes y alineadas con los requisitos de gobernanza institucional."
+        },
+        "services": {
+            "badge": "Capacidades",
+            "title": "Servicios Principales",
+            "items": {
+                "lending": {
+                    "title": "Préstamos Corporativos y Comerciales",
+                    "description": "Asesoramos en facilidades de préstamo bilaterales, club y sindicadas para prestatarios corporativos y patrocinadores financieros. Nuestro equipo estructura contratos de crédito, paquetes de garantías y acuerdos entre acreedores que satisfacen tanto requisitos regulatorios locales como expectativas de prestamistas internacionales."
+                },
+                "project-finance": {
+                    "title": "Financiamiento Estructurado y de Proyectos",
+                    "description": "Los financiamientos complejos requieren arquitectura legal a medida. Manejamos financiamiento de proyectos para transacciones de energía, infraestructura y recursos naturales, estructurando fideicomisos de garantía, cuentas de reserva y derechos de intervención que asignan riesgo a lo largo de los ciclos de vida del proyecto."
+                },
+                "trade-finance": {
+                    "title": "Financiamiento Comercial y de Commodities",
+                    "description": "Nuestra práctica cubre cartas de crédito, facilidades vinculadas a commodities y productos de financiamiento comercial estructurado. Asesoramos en estructuras de crédito documentario, financiamiento de almacén y facilidades de pre-exportación con enfoque particular en commodities agrícolas y extractivos."
+                },
+                "regulatory": {
+                    "title": "Asesoría Regulatoria y Licenciamiento",
+                    "description": "Guiamos a las instituciones financieras a través del licenciamiento, cumplimiento de supervisión y aprobaciones regulatorias ante SUDEBAN y el Banco Central de Venezuela. Nuestra práctica regulatoria se extiende a coordinar requisitos de autorización transfronteriza."
+                },
+                "financial-products": {
+                    "title": "Productos e Instrumentos Financieros",
+                    "description": "Estructuramos derivados, garantías y arreglos de cobertura para tesorerías corporativas e instituciones financieras. Nuestra documentación se alinea con estándares ISDA mientras aborda consideraciones de ejecutabilidad local y compensación."
+                },
+                "cross-border": {
+                    "title": "Financiamiento Transfronterizo",
+                    "description": "Las transacciones multijurisdiccionales requieren coordinación fluida. Asesoramos en estructuras offshore, facilidades regidas por ley extranjera y mecanismos de apoyo crediticio que conectan contrapartes venezolanas con mercados de capitales internacionales."
+                },
+                "restructuring": {
+                    "title": "Reestructuración de Crédito y Finanzas en Dificultades",
+                    "description": "Cuando los financiamientos enfrentan estrés, asesoramos a prestamistas y prestatarios en renegociaciones, acuerdos de standstill y conversiones de deuda a capital. Nuestro trabajo de reestructuración integra restricciones regulatorias con objetivos de recuperación comercial."
+                },
+                "compliance": {
+                    "title": "Cumplimiento y Regulación Prudencial",
+                    "description": "Asesoramos a instituciones financieras en adecuación de capital, marcos de prevención de lavado de dinero y obligaciones de supervisión continua. Nuestra asesoría de cumplimiento asegura que los clientes institucionales mantengan su posición regulatoria."
+                }
+            }
+        },
+        "value": {
+            "badge": "Nuestra Metodología",
+            "title": "Cómo Agregamos Valor",
+            "subtitle": "Entregamos valor a través de un marco anclado en cuatro disciplinas.",
+            "items": {
+                "regulatory-certainty": {
+                    "title": "Certeza Regulatoria",
+                    "description": "Cada estructura de financiamiento comienza con una comprensión clara de los requisitos de supervisión aplicables. Identificamos restricciones regulatorias tempranamente, permitiendo a los clientes estructurar transacciones que resistirán el escrutinio del banco central."
+                },
+                "risk-allocation": {
+                    "title": "Asignación de Riesgos",
+                    "description": "Las transacciones bancarias distribuyen riesgo entre múltiples partes. Redactamos documentación que asigna precisamente el riesgo crediticio, riesgo operacional y riesgo de ejecución—asegurando que los clientes entiendan su exposición antes de la ejecución."
+                },
+                "execution-discipline": {
+                    "title": "Disciplina de Ejecución",
+                    "description": "Los financiamientos operan en cronogramas comerciales. Nuestra gestión de transacciones integra flujos de trabajo legales con mecánicas de cierre, reduciendo el riesgo de ejecución y asegurando que las condiciones precedentes se satisfagan eficientemente."
+                },
+                "cross-border-coordination": {
+                    "title": "Coordinación Transfronteriza",
+                    "description": "Los financiamientos internacionales requieren abogados locales que entiendan cómo el derecho venezolano interactúa con la ley extranjera aplicable, estructuras de garantía offshore y marcos de arbitraje internacional. Nosotros cerramos esa brecha."
+                }
+            }
+        },
+        "matters": {
+            "badge": "Experiencia",
+            "title": "Asuntos Representativos",
+            "items": {
+                "syndicated-facility": {
+                    "title": "Facilidad de Crédito Sindicada",
+                    "description": "Asesoría a un consorcio de bancos regionales en una facilidad sindicada multi-tramo para un importante grupo industrial, incluyendo garantías sobre bienes inmuebles y cuentas por cobrar."
+                },
+                "trade-finance-program": {
+                    "title": "Programa de Financiamiento Comercial",
+                    "description": "Estructuración y documentación de una facilidad revolvente vinculada a commodities para un exportador agrícola, con apoyo de carta de crédito de bancos confirmadores internacionales."
+                },
+                "project-finance-energy": {
+                    "title": "Financiamiento de Proyectos (Energía)",
+                    "description": "Estructuración legal para el financiamiento de un proyecto de generación de energía, incluyendo fideicomisos de garantía, acuerdos de apoyo del patrocinador y derechos de intervención para prestamistas senior."
+                },
+                "distressed-restructuring": {
+                    "title": "Reestructuración de Deuda en Dificultades",
+                    "description": "Representación de una institución financiera en la reestructuración de una cartera de préstamos no productivos, incluyendo conversión de deuda a capital y procesos de aprobación regulatoria."
+                },
+                "cross-border-lending": {
+                    "title": "Préstamo Transfronterizo",
+                    "description": "Asesoría a un prestamista internacional en la extensión de crédito a un prestatario corporativo venezolano bajo una facilidad regida por ley de Nueva York con garantía local."
+                }
+            }
+        },
+        "clients": {
+            "badge": "Enfoque al Cliente",
+            "title": "A Quién Servimos",
+            "items": {
+                "banks": {
+                    "title": "Bancos Comerciales y de Inversión",
+                    "description": "Préstamos, cumplimiento regulatorio, finanzas estructuradas"
+                },
+                "multilateral": {
+                    "title": "Instituciones Multilaterales",
+                    "description": "Financiamiento para el desarrollo, gobernanza institucional"
+                },
+                "private-credit": {
+                    "title": "Crédito Privado y Fondos",
+                    "description": "Préstamos directos, mezzanine, situaciones especiales"
+                },
+                "corporates": {
+                    "title": "Corporativos y Patrocinadores",
+                    "description": "Financiamiento de adquisiciones, capital de trabajo"
+                },
+                "fintech": {
+                    "title": "Plataformas Fintech",
+                    "description": "Licenciamiento, estructuración regulatoria"
+                }
+            }
+        },
+        "leadership": {
+            "badge": "Nuestro Equipo",
+            "title": "Liderazgo de la Práctica",
+            "members": {
+                "alvaro": {
+                    "name": "Álvaro J. Posada Sessarego",
+                    "role": "Socio Fundador",
+                    "focus": "Dirección estratégica para financiamientos transfronterizos y transacciones de mercados de capitales"
+                },
+                "marco": {
+                    "name": "Marco Gómez",
+                    "role": "Asociado",
+                    "focus": "Cumplimiento regulatorio y documentación de productos estructurados"
+                },
+                "raul": {
+                    "name": "Raúl Eduardo Sancristobal",
+                    "role": "Asociado",
+                    "focus": "Disputas financieras y regulación de mercados de capitales"
+                },
+                "dayana": {
+                    "name": "Dayana Véliz",
+                    "role": "Asociada",
+                    "focus": "Financiamientos vinculados a M&A y transacciones bancarias"
+                }
+            }
+        },
+        "faq": {
+            "badge": "Preguntas Frecuentes",
+            "title": "Preguntas Frecuentes"
+        },
+        "faqs": {
+            "0": {
+                "question": "¿Qué tipos de transacciones de financiamiento maneja Ágora?",
+                "answer": "Asesoramos en préstamos sindicados y bilaterales, financiamiento comercial y de commodities, financiamiento de proyectos, productos estructurados y reestructuración de crédito. Nuestra práctica cubre tanto transacciones venezolanas domésticas como financiamientos transfronterizos con contrapartes internacionales."
+            },
+            "1": {
+                "question": "¿Cómo aborda Ágora los requisitos regulatorios en transacciones bancarias?",
+                "answer": "Cada transacción comienza con due diligence regulatorio. Evaluamos los requisitos de SUDEBAN y el Banco Central, coordinamos las aprobaciones necesarias y estructuramos la documentación para asegurar el cumplimiento continuo con los estándares prudenciales."
+            },
+            "2": {
+                "question": "¿Puede Ágora asesorar en financiamientos transfronterizos regidos por ley extranjera?",
+                "answer": "Sí. Regularmente asesoramos en transacciones regidas por ley de Nueva York o inglesa, coordinando con abogados extranjeros en la documentación mientras abordamos aspectos de ley venezolana incluyendo garantías locales, opiniones de ejecutabilidad y consideraciones regulatorias."
+            },
+            "3": {
+                "question": "¿Cuál es la diferencia entre préstamos sindicados y bilaterales?",
+                "answer": "El préstamo bilateral involucra un solo prestamista y prestatario. El préstamo sindicado involucra múltiples prestamistas participando en una sola facilidad crediticia bajo documentación unificada, típicamente con un banco agente coordinando el grupo de prestamistas."
+            },
+            "4": {
+                "question": "¿Ágora asesora en deuda en dificultades y reestructuración?",
+                "answer": "Asesoramos tanto a prestamistas como prestatarios en préstamos no productivos, negociaciones de renegociación, acuerdos de standstill, conversiones de deuda a capital y procesos formales de reestructuración dentro del marco regulatorio de Venezuela."
+            }
+        },
+        "cta": {
+            "title": "Contacte Nuestra Práctica",
+            "description": "Para asuntos relacionados con transacciones bancarias, regulación financiera o finanzas estructuradas, lo invitamos a contactar directamente nuestra práctica.",
+            "button": "Agendar una Consulta"
+        }
+    },
+    "CorporateMA": {
+        "hero": {
+            "badge": "Área de Práctica",
+            "title": "Corporativo y M&A",
+            "subtitle": "Excelencia Transaccional para el Crecimiento Estratégico",
+            "description": "M&A transfronterizo, joint ventures y asesoría corporativa para empresas estratégicas, family offices y multinacionales en toda América Latina."
+        },
+        "intro": {
+            "lead": "Ágora Abogados asesora en transacciones corporativas complejas que definen posiciones de mercado y permiten el crecimiento estratégico. Nuestra práctica sirve a principales que exigen ejecución rigurosa, juicio comercial y capacidad transfronteriza.",
+            "body": "Funcionamos como asesores de transacciones para adquisiciones, desinversiones, joint ventures y reestructuraciones corporativas en toda América Latina. Nuestro equipo combina precisión técnica con la comprensión comercial necesaria para cerrar acuerdos en entornos regulatorios desafiantes."
+        },
+        "practice": {
+            "badge": "Nuestro Enfoque",
+            "title": "Nuestra Práctica Corporativa y M&A",
+            "paragraph1": "La práctica Corporativa y M&A de Ágora opera en la intersección de la asesoría estratégica y la ejecución legal. Asesoramos a compradores, vendedores e inversores en transacciones que requieren tanto experiencia local como alineación con estándares internacionales de transacciones.",
+            "definition1": {
+                "title": "¿Qué es el Derecho de M&A?",
+                "content": "El derecho de M&A abarca el marco legal que rige las adquisiciones, fusiones, desinversiones y combinaciones corporativas. Requiere fluidez en gobierno corporativo, regulación de valores, estructuración fiscal y las arquitecturas contractuales que asignan riesgo entre las partes de la transacción."
+            },
+            "paragraph2": "Abordamos cada transacción con un enfoque en la certeza del acuerdo. Nuestra metodología integra due diligence legal, análisis regulatorio y negociación comercial en un marco de ejecución unificado. Esto asegura que los objetivos estratégicos de nuestros clientes estén protegidos durante todo el ciclo de vida de la transacción.",
+            "definition2": {
+                "title": "¿Qué es el Derecho Corporativo?",
+                "content": "El derecho corporativo rige la formación, gobernanza y operación de entidades comerciales. Abarca los derechos de los accionistas, los deberes de la junta directiva, las estructuras de capital y los marcos regulatorios que definen cómo las empresas operan, realizan transacciones e interactúan con las partes interesadas."
+            },
+            "paragraph3": "Nuestra práctica corporativa se extiende más allá de las transacciones a la asesoría de gobernanza continua. Asesoramos a juntas directivas, accionistas y equipos de gestión sobre deberes fiduciarios, disputas de accionistas y las decisiones estructurales que dan forma a la estrategia corporativa a largo plazo.",
+            "definition3": {
+                "title": "¿Qué es un Joint Venture?",
+                "content": "Un joint venture es un acuerdo contractual o estructural entre dos o más partes para perseguir un objetivo comercial específico manteniendo identidades legales separadas. Las estructuras de JV requieren atención cuidadosa a la gobernanza, participación en beneficios, mecanismos de salida y resolución de disputas."
+            }
+        },
+        "services": {
+            "badge": "Capacidades",
+            "title": "Servicios Principales",
+            "items": {
+                "buy-side": {
+                    "title": "M&A del Lado Comprador",
+                    "description": "Representamos a compradores estratégicos y financieros en adquisiciones en todos los sectores. Nuestro equipo gestiona el due diligence, estructura los contratos de compra y negocia representaciones, garantías y marcos de indemnización que protegen los intereses del comprador."
+                },
+                "sell-side": {
+                    "title": "M&A del Lado Vendedor",
+                    "description": "Asesoramos a vendedores en desinversiones, compras por parte de la gerencia y procesos de venta competitivos. Nuestra práctica del lado vendedor se enfoca en maximizar el valor, gestionar la divulgación y estructurar transacciones que logren los objetivos del vendedor."
+                },
+                "joint-ventures": {
+                    "title": "Joint Ventures y Alianzas Estratégicas",
+                    "description": "Estructuramos joint ventures y asociaciones estratégicas que alinean incentivos, definen la gobernanza y establecen mecanismos de salida claros. Nuestra práctica de JV abarca proyectos greenfield, acuerdos de contribución y asociaciones operativas."
+                },
+                "restructurings": {
+                    "title": "Reestructuraciones Corporativas",
+                    "description": "Asesoramos en fusiones, escisiones y reorganizaciones corporativas que optimizan la estructura para objetivos operativos, fiscales o regulatorios. Nuestro trabajo de reestructuración integra consideraciones corporativas, fiscales y regulatorias."
+                },
+                "minority-investments": {
+                    "title": "Inversiones Minoritarias",
+                    "description": "Representamos a inversores que toman posiciones minoritarias en empresas operativas. Nuestra práctica cubre estructuras de capital, acuerdos de accionistas, representación en la junta directiva, derechos de información y disposiciones de protección."
+                },
+                "cross-border": {
+                    "title": "Transacciones Transfronterizas",
+                    "description": "Las transacciones multijurisdiccionales requieren ejecución coordinada. Asesoramos en transacciones que involucran objetivos venezolanos y latinoamericanos con compradores, vendedores o estructuras de capital internacionales."
+                },
+                "governance": {
+                    "title": "Gobierno Corporativo",
+                    "description": "Asesoramos a juntas directivas y accionistas sobre marcos de gobernanza, deberes fiduciarios y decisiones estructurales. Nuestra práctica de gobernanza cubre la composición de la junta, estructuras de comités, derechos de los accionistas y acuerdos ejecutivos."
+                },
+                "due-diligence": {
+                    "title": "Due Diligence y Evaluación de Riesgos",
+                    "description": "Lideramos procesos de due diligence legal para compradores e inversores. Nuestros equipos de due diligence identifican riesgos materiales, evalúan exposiciones regulatorias y proporcionan el análisis necesario para decisiones de transacción informadas."
+                }
+            }
+        },
+        "value": {
+            "badge": "Nuestra Metodología",
+            "title": "Cómo Agregamos Valor",
+            "subtitle": "Entregamos valor a través de un marco anclado en cuatro disciplinas.",
+            "items": {
+                "cross-border-execution": {
+                    "title": "Ejecución Transfronteriza",
+                    "description": "Las transacciones que involucran objetivos latinoamericanos requieren asesores que entiendan cómo la ley local interactúa con estructuras de transacciones internacionales, leyes extranjeras aplicables y acuerdos de tenencia offshore. Nosotros cerramos esa brecha."
+                },
+                "technical-rigor": {
+                    "title": "Rigor Técnico",
+                    "description": "Las transacciones complejas exigen precisión. Redactamos y negociamos documentos de transacción que asignan el riesgo claramente, abordan los requisitos regulatorios y anticipan contingencias posteriores al cierre."
+                },
+                "commercial-alignment": {
+                    "title": "Alineación Comercial",
+                    "description": "El asesoramiento legal debe servir a los objetivos comerciales. Integramos la estrategia legal con la economía del acuerdo, ayudando a los clientes a comprender las compensaciones y tomar decisiones informadas durante toda la transacción."
+                },
+                "governance-focus": {
+                    "title": "Enfoque en Gobernanza",
+                    "description": "Las transacciones crean estructuras de gobernanza que persisten. Aseguramos que los acuerdos de gobernanza posteriores al cierre sirvan a los intereses a largo plazo de nuestros clientes y proporcionen el control y la protección apropiados."
+                }
+            }
+        },
+        "matters": {
+            "badge": "Experiencia",
+            "title": "Asuntos Representativos",
+            "items": {
+                "strategic-acquisition": {
+                    "title": "Adquisición Estratégica",
+                    "description": "Asesoría a un grupo industrial multinacional en la adquisición de una empresa manufacturera venezolana, incluyendo aprobaciones regulatorias, transición laboral e integración posterior al cierre."
+                },
+                "cross-border-jv": {
+                    "title": "Joint Venture Transfronterizo",
+                    "description": "Estructuración y documentación de un joint venture entre un operador latinoamericano y un socio estratégico internacional para un proyecto de infraestructura regional."
+                },
+                "corporate-restructuring": {
+                    "title": "Reestructuración Corporativa",
+                    "description": "Reorganización corporativa multijurisdiccional para un conglomerado de propiedad familiar, optimizando la estructura de tenencia para la planificación de sucesión y la eficiencia operativa."
+                },
+                "minority-stake": {
+                    "title": "Inversión Minoritaria",
+                    "description": "Representación de un inversor de capital privado en relación con una inversión de capital minoritaria en una empresa de servicios regional, incluyendo derechos de gobernanza y mecanismos de salida."
+                },
+                "multinational-exit": {
+                    "title": "Salida de Multinacional",
+                    "description": "Representación del lado vendedor de una empresa internacional que sale de sus operaciones venezolanas, incluyendo transición de empleados, disposición de activos y cumplimiento regulatorio."
+                }
+            }
+        },
+        "clients": {
+            "badge": "Enfoque al Cliente",
+            "title": "A Quién Servimos",
+            "items": {
+                "corporates": {
+                    "title": "Empresas Estratégicas",
+                    "description": "Adquisiciones, desinversiones, asociaciones"
+                },
+                "family-offices": {
+                    "title": "Family Offices",
+                    "description": "Inversión, sucesión, gobernanza"
+                },
+                "multinationals": {
+                    "title": "Multinacionales",
+                    "description": "Entrada al mercado, reestructuración, salidas"
+                },
+                "founders": {
+                    "title": "Fundadores y Emprendedores",
+                    "description": "Capital de crecimiento, salidas, gobernanza"
+                },
+                "investors": {
+                    "title": "Capital Privado e Inversores",
+                    "description": "Plataforma, add-on, inversiones minoritarias"
+                }
+            }
+        },
+        "related": {
+            "badge": "Prácticas Relacionadas",
+            "title": "Áreas de Práctica Conectadas",
+            "links": {
+                "banking": "Banca y Finanzas",
+                "capital-markets": "Mercados de Capitales",
+                "tax": "Impuestos",
+                "employment": "Laboral"
+            }
+        },
+        "leadership": {
+            "badge": "Nuestro Equipo",
+            "title": "Liderazgo de la Práctica",
+            "members": {
+                "alvaro": {
+                    "name": "Álvaro J. Posada Sessarego",
+                    "role": "Socio Fundador",
+                    "focus": "M&A transfronterizo, finanzas corporativas y mercados de capitales"
+                },
+                "maria": {
+                    "name": "María Eugenia Reyes",
+                    "role": "Socia Fundadora",
+                    "focus": "Reestructuraciones corporativas, transacciones inmobiliarias y cumplimiento ambiental"
+                },
+                "marco": {
+                    "name": "Marco Gómez",
+                    "role": "Asociado Senior",
+                    "focus": "Ejecución de M&A, gobierno corporativo y cumplimiento regulatorio"
+                },
+                "barbara": {
+                    "name": "Bárbara Briceño",
+                    "role": "Asociada Senior",
+                    "focus": "Derecho corporativo, tributación internacional y planificación patrimonial"
+                },
+                "manuel": {
+                    "name": "Manuel Domingo",
+                    "role": "Asociado Senior",
+                    "focus": "Transacciones de M&A, banca y finanzas, y mercados de capitales"
+                },
+                "dayana": {
+                    "name": "Dayana Véliz",
+                    "role": "Asociada Senior",
+                    "focus": "Transacciones corporativas, fusiones y adquisiciones, y banca"
+                },
+                "raul": {
+                    "name": "Raúl Eduardo Sancristobal",
+                    "role": "Asociado Junior",
+                    "focus": "Documentación corporativa y apoyo transaccional"
+                },
+                "rodrigo": {
+                    "name": "Rodrigo Colmenares",
+                    "role": "Asociado Junior",
+                    "focus": "Derecho comercial, fintech y tecnologías emergentes"
+                }
+            }
+        },
+        "faq": {
+            "badge": "Preguntas Frecuentes",
+            "title": "Preguntas Frecuentes"
+        },
+        "faqs": {
+            "0": {
+                "question": "¿Qué tipos de transacciones de M&A maneja Ágora?",
+                "answer": "Asesoramos en adquisiciones, desinversiones, fusiones, joint ventures, inversiones minoritarias y reestructuraciones corporativas. Nuestra práctica cubre tanto transacciones venezolanas domésticas como acuerdos transfronterizos con partes internacionales."
+            },
+            "1": {
+                "question": "¿Cómo aborda Ágora las transacciones transfronterizas?",
+                "answer": "Las transacciones transfronterizas requieren coordinación entre marcos legales locales e internacionales. Trabajamos con los asesores internacionales de los clientes para asegurar que los aspectos de la ley venezolana se aborden mientras se mantiene la alineación con la estructura general de la transacción."
+            },
+            "2": {
+                "question": "¿Qué industrias atiende la práctica Corporativa y M&A?",
+                "answer": "Asesoramos a clientes en sectores que incluyen manufactura, productos de consumo, servicios financieros, energía, infraestructura, tecnología y servicios profesionales. Nuestra experiencia abarca industrias tanto reguladas como no reguladas."
+            },
+            "3": {
+                "question": "¿Cuánto tiempo toma una transacción típica de M&A?",
+                "answer": "Los plazos de las transacciones varían según la complejidad, los requisitos regulatorios y la dinámica de negociación. Las transacciones simples pueden cerrarse en semanas, mientras que los acuerdos transfronterizos complejos pueden requerir varios meses. Trabajamos con los clientes para establecer plazos realistas desde el principio."
+            },
+            "4": {
+                "question": "¿Ágora proporciona apoyo continuo de gobierno corporativo?",
+                "answer": "Sí. Más allá de las transacciones, asesoramos a juntas directivas, accionistas y gerencia sobre marcos de gobernanza, deberes fiduciarios, asuntos de accionistas y decisiones estructurales. Muchos clientes nos retienen para apoyo corporativo continuo."
+            },
+            "5": {
+                "question": "¿Puede Ágora asistir con due diligence para adquisiciones?",
+                "answer": "Lideramos procesos integrales de due diligence legal para compradores e inversores. Nuestros equipos de due diligence evalúan exposiciones corporativas, contractuales, regulatorias, laborales y de litigio para informar las decisiones y negociaciones de transacciones."
+            }
+        },
+        "cta": {
+            "title": "Contacte Nuestra Práctica",
+            "description": "Para asuntos relacionados con transacciones corporativas, M&A o asesoría de gobernanza, lo invitamos a contactar directamente nuestra práctica.",
+            "button": "Agendar una Consulta"
+        }
     }
 }

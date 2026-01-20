@@ -806,5 +806,432 @@
     },
     "Booking": {
         "title": "ÁGORA Connect"
+    },
+    "BankingFinance": {
+        "hero": {
+            "badge": "Practice Area",
+            "title": "Banking & Finance",
+            "subtitle": "Financial Infrastructure Counsel",
+            "description": "Legal advisory for financial institutions, corporate borrowers, and institutional investors across complex banking transactions in Latin America."
+        },
+        "intro": {
+            "lead": "Ágora Abogados advises financial institutions, corporate borrowers, and institutional investors on the full spectrum of banking and finance transactions across Latin America. Our practice integrates deep regulatory knowledge with sophisticated transactional execution, enabling clients to structure, negotiate, and close complex financings in jurisdictions where legal precision is non-negotiable.",
+            "body": "We serve as financial infrastructure counsel—providing the regulatory certainty and deal-execution discipline that commercial banks, private credit funds, multilateral lenders, and treasury-level corporates require. From syndicated lending to distressed restructuring, our team delivers the technical depth and commercial pragmatism that move transactions forward."
+        },
+        "practice": {
+            "badge": "Our Approach",
+            "title": "Our Banking & Finance Practice",
+            "paragraph1": "Ágora's Banking & Finance practice operates at the intersection of regulatory compliance and transaction execution. We advise lenders, borrowers, and financial intermediaries on matters that demand both local regulatory depth and alignment with international transaction standards.",
+            "definition": {
+                "title": "What is Banking Law?",
+                "content": "Banking law encompasses the legal framework governing financial institutions, lending relationships, prudential regulation, and the structuring of debt instruments. It requires fluency in central bank supervision, capital adequacy standards, and the contractual architectures that underpin credit markets."
+            },
+            "paragraph2": "We do not approach financings as isolated documentation exercises. Every transaction is evaluated through the lens of regulatory risk, balance-sheet impact, and enforcement certainty. This integrated methodology ensures that our clients' financing structures are defensible, efficient, and aligned with institutional governance requirements."
+        },
+        "services": {
+            "badge": "Capabilities",
+            "title": "Core Services",
+            "items": {
+                "lending": {
+                    "title": "Corporate & Commercial Lending",
+                    "description": "We advise on bilateral, club, and syndicated loan facilities for corporate borrowers and financial sponsors. Our team structures credit agreements, security packages, and intercreditor arrangements that satisfy both local regulatory requirements and international lender expectations."
+                },
+                "project-finance": {
+                    "title": "Structured & Project Finance",
+                    "description": "Complex financings require bespoke legal architecture. We handle project finance for energy, infrastructure, and natural resources transactions, structuring security trusts, reserve accounts, and step-in rights that allocate risk across project lifecycles."
+                },
+                "trade-finance": {
+                    "title": "Trade & Commodity Finance",
+                    "description": "Our practice covers letters of credit, commodity-linked facilities, and structured trade finance products. We advise on documentary credit structures, warehouse financing, and pre-export facilities with particular focus on agricultural and extractive commodities."
+                },
+                "regulatory": {
+                    "title": "Regulatory Advisory & Licensing",
+                    "description": "We guide financial institutions through licensing, supervisory compliance, and regulatory approvals before SUDEBAN and the Central Bank of Venezuela. Our regulatory practice extends to coordinating cross-border authorization requirements."
+                },
+                "financial-products": {
+                    "title": "Financial Products & Instruments",
+                    "description": "We structure derivatives, guarantees, and hedging arrangements for corporate treasuries and financial institutions. Our documentation aligns with ISDA standards while addressing local enforceability and netting considerations."
+                },
+                "cross-border": {
+                    "title": "Cross-Border Financing",
+                    "description": "Multi-jurisdictional transactions require seamless coordination. We advise on offshore structures, foreign law-governed facilities, and credit support mechanisms that bridge Venezuelan counterparties with international capital markets."
+                },
+                "restructuring": {
+                    "title": "Credit Restructuring & Distressed Finance",
+                    "description": "When financings encounter stress, we advise lenders and borrowers on workouts, standstill arrangements, and debt-for-equity conversions. Our restructuring work integrates regulatory constraints with commercial recovery objectives."
+                },
+                "compliance": {
+                    "title": "Compliance & Prudential Regulation",
+                    "description": "We counsel financial institutions on capital adequacy, anti-money laundering frameworks, and ongoing supervisory obligations. Our compliance advisory ensures that institutional clients maintain regulatory standing."
+                }
+            }
+        },
+        "value": {
+            "badge": "Our Methodology",
+            "title": "How We Add Value",
+            "subtitle": "We deliver value through a framework anchored in four disciplines.",
+            "items": {
+                "regulatory-certainty": {
+                    "title": "Regulatory Certainty",
+                    "description": "Every financing structure begins with a clear understanding of applicable supervisory requirements. We identify regulatory constraints early, enabling clients to structure transactions that will withstand central bank scrutiny."
+                },
+                "risk-allocation": {
+                    "title": "Risk Allocation",
+                    "description": "Banking transactions distribute risk across multiple parties. We draft documentation that precisely allocates credit risk, operational risk, and enforcement risk—ensuring that clients understand their exposure before execution."
+                },
+                "execution-discipline": {
+                    "title": "Execution Discipline",
+                    "description": "Financings operate on commercial timelines. Our transaction management integrates legal workstreams with closing mechanics, reducing execution risk and ensuring that conditions precedent are satisfied efficiently."
+                },
+                "cross-border-coordination": {
+                    "title": "Cross-Border Coordination",
+                    "description": "International financings require local counsel who understand how Venezuelan law interacts with foreign governing law, offshore security structures, and international arbitration frameworks. We bridge that gap."
+                }
+            }
+        },
+        "matters": {
+            "badge": "Experience",
+            "title": "Representative Matters",
+            "items": {
+                "syndicated-facility": {
+                    "title": "Syndicated Credit Facility",
+                    "description": "Counsel to a consortium of regional banks on a multi-tranche syndicated facility for a major industrial group, including security over real property and receivables."
+                },
+                "trade-finance-program": {
+                    "title": "Trade Finance Program",
+                    "description": "Structuring and documentation of a commodity-linked revolving facility for an agricultural exporter, with letter of credit support from international confirming banks."
+                },
+                "project-finance-energy": {
+                    "title": "Project Finance (Energy)",
+                    "description": "Legal structuring for the financing of a power generation project, including security trusts, sponsor support arrangements, and step-in rights for senior lenders."
+                },
+                "distressed-restructuring": {
+                    "title": "Distressed Debt Restructuring",
+                    "description": "Representation of a financial institution in the restructuring of a non-performing loan portfolio, including debt-for-equity conversion and regulatory approval processes."
+                },
+                "cross-border-lending": {
+                    "title": "Cross-Border Lending",
+                    "description": "Advising an international lender on the extension of credit to a Venezuelan corporate borrower under a New York law-governed facility with local security."
+                }
+            }
+        },
+        "clients": {
+            "badge": "Client Focus",
+            "title": "Who We Serve",
+            "items": {
+                "banks": {
+                    "title": "Commercial & Investment Banks",
+                    "description": "Lending, regulatory compliance, structured finance"
+                },
+                "multilateral": {
+                    "title": "Multilateral Institutions",
+                    "description": "Development finance, institutional governance"
+                },
+                "private-credit": {
+                    "title": "Private Credit & Funds",
+                    "description": "Direct lending, mezzanine, special situations"
+                },
+                "corporates": {
+                    "title": "Corporates & Sponsors",
+                    "description": "Acquisition finance, working capital"
+                },
+                "fintech": {
+                    "title": "Fintech Platforms",
+                    "description": "Licensing, regulatory structuring"
+                }
+            }
+        },
+        "leadership": {
+            "badge": "Our Team",
+            "title": "Practice Leadership",
+            "members": {
+                "alvaro": {
+                    "name": "Álvaro J. Posada Sessarego",
+                    "role": "Founding Partner",
+                    "focus": "Strategic direction for cross-border financings and capital markets transactions"
+                },
+                "marco": {
+                    "name": "Marco Gómez",
+                    "role": "Associate",
+                    "focus": "Regulatory compliance and structured products documentation"
+                },
+                "raul": {
+                    "name": "Raúl Eduardo Sancristobal",
+                    "role": "Associate",
+                    "focus": "Financial disputes and capital markets regulation"
+                },
+                "dayana": {
+                    "name": "Dayana Véliz",
+                    "role": "Associate",
+                    "focus": "M&A-linked financings and banking transactions"
+                }
+            }
+        },
+        "faq": {
+            "badge": "Common Questions",
+            "title": "Frequently Asked Questions"
+        },
+        "faqs": {
+            "0": {
+                "question": "What types of financing transactions does Ágora handle?",
+                "answer": "We advise on syndicated and bilateral lending, trade and commodity finance, project finance, structured products, and credit restructuring. Our practice covers both domestic Venezuelan transactions and cross-border financings with international counterparties."
+            },
+            "1": {
+                "question": "How does Ágora address regulatory requirements in banking transactions?",
+                "answer": "Every transaction begins with regulatory due diligence. We assess SUDEBAN and Central Bank requirements, coordinate necessary approvals, and structure documentation to ensure ongoing compliance with prudential standards."
+            },
+            "2": {
+                "question": "Can Ágora advise on cross-border financings governed by foreign law?",
+                "answer": "Yes. We regularly advise on transactions governed by New York or English law, coordinating with foreign counsel on documentation while addressing Venezuelan law aspects including local security, enforceability opinions, and regulatory considerations."
+            },
+            "3": {
+                "question": "What is the difference between syndicated lending and bilateral lending?",
+                "answer": "Bilateral lending involves a single lender and borrower. Syndicated lending involves multiple lenders participating in a single credit facility under unified documentation, typically with an agent bank coordinating the lender group."
+            },
+            "4": {
+                "question": "Does Ágora advise on distressed debt and restructuring?",
+                "answer": "We advise both lenders and borrowers on non-performing loans, workout negotiations, standstill agreements, debt-for-equity conversions, and formal restructuring processes within Venezuela's regulatory framework."
+            }
+        },
+        "cta": {
+            "title": "Engage With Our Practice",
+            "description": "For matters involving banking transactions, financial regulation, or structured finance, we invite you to engage directly with our practice.",
+            "button": "Schedule a Consultation"
+        }
+    },
+    "CorporateMA": {
+        "hero": {
+            "badge": "Practice Area",
+            "title": "Corporate & M&A",
+            "subtitle": "Transactional Excellence for Strategic Growth",
+            "description": "Cross-border M&A, joint ventures, and corporate advisory for strategic corporates, family offices, and multinationals across Latin America."
+        },
+        "intro": {
+            "lead": "Ágora Abogados advises on complex corporate transactions that define market positions and enable strategic growth. Our practice serves principals who demand rigorous execution, commercial judgment, and cross-border capability.",
+            "body": "We function as transaction counsel for acquisitions, divestitures, joint ventures, and corporate restructurings across Latin America. Our team combines technical precision with the commercial understanding necessary to close deals in challenging regulatory environments."
+        },
+        "practice": {
+            "badge": "Our Approach",
+            "title": "Our Corporate & M&A Practice",
+            "paragraph1": "Ágora's Corporate & M&A practice operates at the intersection of strategic advisory and legal execution. We advise buyers, sellers, and investors on transactions that require both local expertise and alignment with international deal standards.",
+            "definition1": {
+                "title": "What is M&A Law?",
+                "content": "M&A law encompasses the legal framework governing acquisitions, mergers, divestitures, and corporate combinations. It requires fluency in corporate governance, securities regulation, tax structuring, and the contractual architectures that allocate risk between transaction parties."
+            },
+            "paragraph2": "We approach every transaction with a focus on deal certainty. Our methodology integrates legal due diligence, regulatory analysis, and commercial negotiation into a unified execution framework. This ensures that our clients' strategic objectives are protected throughout the transaction lifecycle.",
+            "definition2": {
+                "title": "What is Corporate Law?",
+                "content": "Corporate law governs the formation, governance, and operation of business entities. It encompasses shareholder rights, board duties, capital structures, and the regulatory frameworks that define how companies operate, transact, and interact with stakeholders."
+            },
+            "paragraph3": "Our corporate practice extends beyond transactions to ongoing governance advisory. We counsel boards, shareholders, and management teams on fiduciary duties, shareholder disputes, and the structural decisions that shape long-term corporate strategy.",
+            "definition3": {
+                "title": "What is a Joint Venture?",
+                "content": "A joint venture is a contractual or structural arrangement between two or more parties to pursue a specific business objective while maintaining separate legal identities. JV structures require careful attention to governance, profit sharing, exit mechanisms, and dispute resolution."
+            }
+        },
+        "services": {
+            "badge": "Capabilities",
+            "title": "Core Services",
+            "items": {
+                "buy-side": {
+                    "title": "Buy-Side M&A",
+                    "description": "We represent strategic and financial buyers in acquisitions across sectors. Our team manages due diligence, structures purchase agreements, and negotiates representations, warranties, and indemnification frameworks that protect buyer interests."
+                },
+                "sell-side": {
+                    "title": "Sell-Side M&A",
+                    "description": "We advise sellers on divestitures, management buyouts, and competitive sale processes. Our sell-side practice focuses on maximizing value, managing disclosure, and structuring transactions that achieve seller objectives."
+                },
+                "joint-ventures": {
+                    "title": "Joint Ventures & Strategic Alliances",
+                    "description": "We structure joint ventures and strategic partnerships that align incentives, define governance, and establish clear exit mechanisms. Our JV practice spans greenfield projects, contribution agreements, and operational partnerships."
+                },
+                "restructurings": {
+                    "title": "Corporate Restructurings",
+                    "description": "We advise on mergers, spin-offs, and corporate reorganizations that optimize structure for operational, tax, or regulatory objectives. Our restructuring work integrates corporate, tax, and regulatory considerations."
+                },
+                "minority-investments": {
+                    "title": "Minority Investments",
+                    "description": "We represent investors taking minority positions in operating companies. Our practice covers equity structures, shareholder agreements, board representation, information rights, and protective provisions."
+                },
+                "cross-border": {
+                    "title": "Cross-Border Transactions",
+                    "description": "Multi-jurisdictional transactions require coordinated execution. We advise on transactions involving Venezuelan and Latin American targets with international buyers, sellers, or capital structures."
+                },
+                "governance": {
+                    "title": "Corporate Governance",
+                    "description": "We counsel boards and shareholders on governance frameworks, fiduciary duties, and structural decisions. Our governance practice covers board composition, committee structures, shareholder rights, and executive arrangements."
+                },
+                "due-diligence": {
+                    "title": "Due Diligence & Risk Assessment",
+                    "description": "We lead legal due diligence processes for buyers and investors. Our due diligence teams identify material risks, assess regulatory exposures, and provide the analysis necessary for informed transaction decisions."
+                }
+            }
+        },
+        "value": {
+            "badge": "Our Methodology",
+            "title": "How We Add Value",
+            "subtitle": "We deliver value through a framework anchored in four disciplines.",
+            "items": {
+                "cross-border-execution": {
+                    "title": "Cross-Border Execution",
+                    "description": "Transactions involving Latin American targets require counsel who understand how local law interacts with international deal structures, foreign governing law, and offshore holding arrangements. We bridge that gap."
+                },
+                "technical-rigor": {
+                    "title": "Technical Rigor",
+                    "description": "Complex transactions demand precision. We draft and negotiate transaction documents that allocate risk clearly, address regulatory requirements, and anticipate post-closing contingencies."
+                },
+                "commercial-alignment": {
+                    "title": "Commercial Alignment",
+                    "description": "Legal advice must serve commercial objectives. We integrate legal strategy with deal economics, helping clients understand trade-offs and make informed decisions throughout the transaction."
+                },
+                "governance-focus": {
+                    "title": "Governance Focus",
+                    "description": "Transactions create governance structures that persist. We ensure that post-closing governance arrangements serve our clients' long-term interests and provide appropriate control and protection."
+                }
+            }
+        },
+        "matters": {
+            "badge": "Experience",
+            "title": "Representative Matters",
+            "items": {
+                "strategic-acquisition": {
+                    "title": "Strategic Acquisition",
+                    "description": "Counsel to a multinational industrial group on the acquisition of a Venezuelan manufacturing company, including regulatory approvals, labor transition, and post-closing integration."
+                },
+                "cross-border-jv": {
+                    "title": "Cross-Border Joint Venture",
+                    "description": "Structuring and documentation of a joint venture between a Latin American operator and an international strategic partner for a regional infrastructure project."
+                },
+                "corporate-restructuring": {
+                    "title": "Corporate Restructuring",
+                    "description": "Multi-jurisdictional corporate reorganization for a family-owned conglomerate, optimizing holding structure for succession planning and operational efficiency."
+                },
+                "minority-stake": {
+                    "title": "Minority Investment",
+                    "description": "Representation of private equity investor in connection with minority equity investment in a regional services company, including governance rights and exit mechanisms."
+                },
+                "multinational-exit": {
+                    "title": "Multinational Exit",
+                    "description": "Sell-side representation of an international company exiting its Venezuelan operations, including employee transition, asset disposition, and regulatory compliance."
+                }
+            }
+        },
+        "clients": {
+            "badge": "Client Focus",
+            "title": "Who We Serve",
+            "items": {
+                "corporates": {
+                    "title": "Strategic Corporates",
+                    "description": "Acquisitions, divestitures, partnerships"
+                },
+                "family-offices": {
+                    "title": "Family Offices",
+                    "description": "Investment, succession, governance"
+                },
+                "multinationals": {
+                    "title": "Multinationals",
+                    "description": "Market entry, restructuring, exits"
+                },
+                "founders": {
+                    "title": "Founders & Entrepreneurs",
+                    "description": "Growth capital, exits, governance"
+                },
+                "investors": {
+                    "title": "Private Equity & Investors",
+                    "description": "Platform, add-on, minority investments"
+                }
+            }
+        },
+        "related": {
+            "badge": "Related Practices",
+            "title": "Connected Practice Areas",
+            "links": {
+                "banking": "Banking & Finance",
+                "capital-markets": "Capital Markets",
+                "tax": "Tax",
+                "employment": "Employment"
+            }
+        },
+        "leadership": {
+            "badge": "Our Team",
+            "title": "Practice Leadership",
+            "members": {
+                "alvaro": {
+                    "name": "Álvaro J. Posada Sessarego",
+                    "role": "Founding Partner",
+                    "focus": "Cross-border M&A, corporate finance, and capital markets"
+                },
+                "maria": {
+                    "name": "María Eugenia Reyes",
+                    "role": "Founding Partner",
+                    "focus": "Corporate restructurings, real estate transactions, and environmental compliance"
+                },
+                "marco": {
+                    "name": "Marco Gómez",
+                    "role": "Senior Associate",
+                    "focus": "M&A execution, corporate governance, and regulatory compliance"
+                },
+                "barbara": {
+                    "name": "Bárbara Briceño",
+                    "role": "Senior Associate",
+                    "focus": "Corporate law, international taxation, and estate planning"
+                },
+                "manuel": {
+                    "name": "Manuel Domingo",
+                    "role": "Senior Associate",
+                    "focus": "M&A transactions, banking and finance, and capital markets"
+                },
+                "dayana": {
+                    "name": "Dayana Véliz",
+                    "role": "Senior Associate",
+                    "focus": "Corporate transactions, mergers and acquisitions, and banking"
+                },
+                "raul": {
+                    "name": "Raúl Eduardo Sancristobal",
+                    "role": "Junior Associate",
+                    "focus": "Corporate documentation and transaction support"
+                },
+                "rodrigo": {
+                    "name": "Rodrigo Colmenares",
+                    "role": "Junior Associate",
+                    "focus": "Commercial law, fintech, and emerging technologies"
+                }
+            }
+        },
+        "faq": {
+            "badge": "Common Questions",
+            "title": "Frequently Asked Questions"
+        },
+        "faqs": {
+            "0": {
+                "question": "What types of M&A transactions does Ágora handle?",
+                "answer": "We advise on acquisitions, divestitures, mergers, joint ventures, minority investments, and corporate restructurings. Our practice covers both domestic Venezuelan transactions and cross-border deals with international parties."
+            },
+            "1": {
+                "question": "How does Ágora approach cross-border transactions?",
+                "answer": "Cross-border transactions require coordination between local and international legal frameworks. We work with clients' international counsel to ensure Venezuelan law aspects are addressed while maintaining alignment with the overall transaction structure."
+            },
+            "2": {
+                "question": "What industries does the Corporate & M&A practice serve?",
+                "answer": "We advise clients across sectors including manufacturing, consumer products, financial services, energy, infrastructure, technology, and professional services. Our experience spans both regulated and unregulated industries."
+            },
+            "3": {
+                "question": "How long does a typical M&A transaction take?",
+                "answer": "Transaction timelines vary based on complexity, regulatory requirements, and negotiation dynamics. Simple transactions may close in weeks, while complex cross-border deals may require several months. We work with clients to establish realistic timelines at the outset."
+            },
+            "4": {
+                "question": "Does Ágora provide ongoing corporate governance support?",
+                "answer": "Yes. Beyond transactions, we advise boards, shareholders, and management on governance frameworks, fiduciary duties, shareholder matters, and structural decisions. Many clients retain us for ongoing corporate support."
+            },
+            "5": {
+                "question": "Can Ágora assist with due diligence for acquisitions?",
+                "answer": "We lead comprehensive legal due diligence processes for buyers and investors. Our due diligence teams assess corporate, contractual, regulatory, labor, and litigation exposures to inform transaction decisions and negotiations."
+            }
+        },
+        "cta": {
+            "title": "Engage With Our Practice",
+            "description": "For matters involving corporate transactions, M&A, or governance advisory, we invite you to engage directly with our practice.",
+            "button": "Schedule a Consultation"
+        }
     }
 }
