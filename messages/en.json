@@ -2264,5 +2264,169 @@
             "description": "For matters involving international sanctions, regulatory compliance, or cross-border transaction clearance, we invite you to engage directly with our practice.",
             "button": "Schedule a Confidential Consultation"
         }
+    },
+    "LitigationDisputes": {
+        "hero": {
+            "badge": "Practice Area",
+            "title": "Litigation & Dispute Resolution",
+            "subtitle": "Cross-Border Dispute Management",
+            "description": "Institutional-grade litigation and arbitration counsel for cross-border disputes, advising multinational corporations, regional business groups, and investors in complex commercial controversies, shareholder conflicts, and enforcement proceedings across Venezuela, Latin America, and international forums."
+        },
+        "intro": {
+            "lead": "When disputes cross borders, they rarely live in one court. Whether navigating parallel proceedings across multiple jurisdictions, enforcing arbitral awards, or coordinating injunctive relief with asset tracing, Ágora brings institutional discipline to high-stakes controversy work.",
+            "body": "We combine aggressive litigation strategy with procedural rigor—securing leverage while preserving optionality. International counsel and corporate principals trust us when disputes touch Venezuela or Latin America because we understand both the terrain and the endgame."
+        },
+        "approach": {
+            "badge": "Our Approach",
+            "title": "Strategic Dispute Managers — Not Just Trial Lawyers",
+            "paragraph1": "Venezuela and Latin America present unique dispute dynamics: unpredictable judicial timelines, multi-forum complexity, and assets that frequently require cross-border enforcement. Our approach integrates procedural mastery with commercial strategy, ensuring that every tactical decision advances both the legal case and the client's business objectives.",
+            "paragraph2": "We are trusted by AmLaw 100 and Magic Circle firms as their Venezuela/LatAm dispute specialist—coordinating with international counsel while managing local execution. For principals and boards, we provide direct advisory that combines institutional-quality analysis with practical, commercially viable path-forward recommendations."
+        },
+        "services": {
+            "badge": "Core Capabilities",
+            "title": "What We Do",
+            "items": {
+                "commercial-litigation": {
+                    "title": "Commercial & Contractual Litigation",
+                    "description": "Complex commercial disputes arising from breach of contract, joint venture breakdowns, distribution and supply chain conflicts, and cross-border transactional fallout. We prosecute and defend claims with strategic intensity while managing cost exposure."
+                },
+                "corporate-disputes": {
+                    "title": "Corporate & Shareholder Disputes",
+                    "description": "Governance conflicts, minority shareholder oppression, fiduciary duty claims, board-level disputes, and post-acquisition controversies. We protect client interests through litigation, negotiation, or structured resolution."
+                },
+                "arbitration-adr": {
+                    "title": "International Arbitration & ADR",
+                    "description": "ICC, ICSID, AAA, and ad hoc arbitration proceedings. Award enforcement under the New York Convention. Mediation and structured settlement negotiations designed to preserve relationships where appropriate."
+                },
+                "enforcement-recovery": {
+                    "title": "Cross-Border Enforcement & Asset Recovery",
+                    "description": "Multi-jurisdictional judgment and award enforcement. Precautionary measures, injunctions, and coordinated asset tracing across Venezuela, Latin America, the U.S., and Europe."
+                }
+            }
+        },
+        "clients": {
+            "badge": "Who We Advise",
+            "title": "Our Clients",
+            "items": {
+                "multinationals": {
+                    "title": "Multinational Corporations",
+                    "description": "Fortune 500 and global enterprises with Venezuela/LatAm exposure"
+                },
+                "regional-groups": {
+                    "title": "Regional Business Groups",
+                    "description": "Family-controlled conglomerates and mid-market corporates"
+                },
+                "shareholders-investors": {
+                    "title": "Shareholders & Investors",
+                    "description": "Principals, co-investors, and fund managers in dispute scenarios"
+                },
+                "international-firms": {
+                    "title": "International Law Firms",
+                    "description": "Serving as local litigation counsel and jurisdictional specialists"
+                },
+                "boards-fiduciaries": {
+                    "title": "Corporate Boards & Fiduciaries",
+                    "description": "Directors and officers facing governance-related claims"
+                }
+            }
+        },
+        "jurisdictions": {
+            "badge": "Jurisdictional Reach",
+            "title": "Where We Operate",
+            "items": {
+                "venezuela": {
+                    "title": "Venezuela",
+                    "description": "Deep procedural knowledge across civil, commercial, and constitutional courts"
+                },
+                "latin-america": {
+                    "title": "Latin America",
+                    "description": "Regional coordination for disputes touching Colombia, Panama, Mexico, and beyond"
+                },
+                "international-forums": {
+                    "title": "International Forums",
+                    "description": "ICC, ICSID, AAA, and UNCITRAL arbitration proceedings"
+                },
+                "enforcement-jurisdictions": {
+                    "title": "Enforcement Jurisdictions",
+                    "description": "U.S., EU, and UK courts for award recognition and asset recovery"
+                }
+            }
+        },
+        "value": {
+            "badge": "Why Ágora",
+            "title": "Our Differentiators",
+            "subtitle": "Institutional discipline meets strategic aggression—securing leverage while preserving optionality.",
+            "items": {
+                "multi-forum": {
+                    "title": "Multi-Forum Coordination",
+                    "description": "Seamless management of parallel proceedings across courts and arbitral tribunals—ensuring consistent strategy and efficient resource deployment."
+                },
+                "enforcement-record": {
+                    "title": "Enforcement Track Record",
+                    "description": "Proven experience in New York Convention enforcement and cross-border asset recovery, turning favorable judgments into collected outcomes."
+                },
+                "institutional-discipline": {
+                    "title": "Institutional Discipline",
+                    "description": "Procedural rigor paired with strategic aggression—applying pressure methodically while managing risk and preserving appellate options."
+                },
+                "counsel-integration": {
+                    "title": "International Counsel Integration",
+                    "description": "Trusted by AmLaw 100 and Magic Circle firms as their Venezuela/LatAm dispute specialist—seamlessly coordinating with global litigation teams."
+                }
+            }
+        },
+        "related": {
+            "badge": "Related Practices",
+            "title": "Integrated Capabilities",
+            "items": {
+                "banking": {
+                    "title": "Banking & Finance",
+                    "description": "Financial disputes and enforcement of security interests"
+                },
+                "corporate": {
+                    "title": "Corporate & M&A",
+                    "description": "Post-closing disputes and M&A-related claims"
+                },
+                "compliance": {
+                    "title": "Compliance & International Sanctions",
+                    "description": "Disputes involving sanctioned parties or jurisdictions"
+                },
+                "real-estate": {
+                    "title": "Real Estate",
+                    "description": "Property disputes and development controversies"
+                }
+            }
+        },
+        "leadership": {
+            "badge": "Practice Leadership",
+            "title": "Our Team",
+            "members": {
+                "alvaro": {
+                    "name": "Álvaro J. Posada Sessarego",
+                    "role": "Partner",
+                    "focus": "Complex commercial litigation and cross-border enforcement"
+                },
+                "ariana": {
+                    "name": "Ariana Cabrera Acevedo",
+                    "role": "Practice Leader",
+                    "focus": "Corporate disputes, shareholder litigation, and governance conflicts"
+                },
+                "marco": {
+                    "name": "Marco Gómez",
+                    "role": "Senior Associate",
+                    "focus": "International arbitration and award enforcement"
+                },
+                "raul": {
+                    "name": "Raúl Sancristobal",
+                    "role": "Junior Associate",
+                    "focus": "Procedural strategy and litigation support"
+                }
+            }
+        },
+        "cta": {
+            "title": "Strategic Dispute Resolution Counsel",
+            "description": "For matters involving complex litigation, international arbitration, or cross-border enforcement, we invite you to engage directly with our practice.",
+            "button": "Schedule a Confidential Consultation"
+        }
     }
 }
