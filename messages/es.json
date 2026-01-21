@@ -2428,5 +2428,207 @@
             "description": "Para asuntos que involucren litigios complejos, arbitraje internacional o ejecución transfronteriza, lo invitamos a contactar directamente nuestra práctica.",
             "button": "Agendar una Consulta Confidencial"
         }
+    },
+    "InvestmentArbitration": {
+        "hero": {
+            "badge": "Área de Práctica",
+            "title": "Arbitraje de Inversiones",
+            "subtitle": "Especialistas en Disputas Inversionista–Estado",
+            "description": "Asesoría de nivel institucional para disputas inversionista–estado en América Latina y foros internacionales, asesorando a inversionistas extranjeros, corporaciones multinacionales y titulares de laudos en procedimientos CIADI y CNUDMI, negociaciones con estados y ejecución transfronteriza de laudos arbitrales."
+        },
+        "intro": {
+            "lead": "América Latina sigue siendo una de las regiones más activas del mundo para reclamos bajo tratados de inversión. Ya sea iniciando procedimientos contra un estado, defendiendo protecciones de tratados, negociando resoluciones o ejecutando y monetizando laudos arbitrales, Ágora aporta disciplina institucional y pragmatismo comercial a las disputas inversionista–estado.",
+            "body": "Operamos en la intersección de la abogacía arbitral, la negociación con estados y la ejecución de laudos. Nuestra asesoría no se trata meramente de ganar ante el tribunal—se trata de asegurar resultados recuperables que preserven el capital y las relaciones comerciales del cliente."
+        },
+        "approach": {
+            "badge": "Nuestro Enfoque",
+            "title": "Estrategia Agresiva + Disciplina Procesal",
+            "paragraph1": "Las disputas inversionista–estado requieren una postura híbrida: agresiva en la persecución de derechos bajo tratados, disciplinada en la ejecución procesal y comercialmente pragmática en la estrategia de resolución. Combinamos abogacía ante tribunales con vías de negociación paralelas, siempre calibrando tácticas a los objetivos comerciales del cliente y el panorama realista de ejecución.",
+            "situations": {
+                "title": "Los clientes contratan a Ágora para:",
+                "item1": "Arbitrajes bajo tratados CIADI, CNUDMI o ad hoc",
+                "item2": "Negociaciones pre-arbitrales con estados o empresas estatales",
+                "item3": "Ejecución de laudos contra activos soberanos",
+                "item4": "Transacciones de compra, cesión y monetización de laudos",
+                "item5": "Estrategia de inmunidad soberana y rastreo de activos"
+            },
+            "paragraph2": "Firmas de abogados internacionales y directivos corporativos confían en Ágora como su socio de arbitraje de inversiones enfocado en América Latina, aprovechando nuestro criterio regional, conocimiento procesal y capacidades de ejecución de laudos."
+        },
+        "services": {
+            "badge": "Capacidades Principales",
+            "title": "Lo Que Hacemos",
+            "items": {
+                "icsid-uncitral": {
+                    "title": "Procedimientos de Arbitraje CIADI y CNUDMI",
+                    "description": "Representación integral en arbitrajes inversionista–estado bajo la Convención CIADI, Mecanismo Complementario CIADI y reglas CNUDMI. Manejamos estrategia jurisdiccional, presentación de quantum, producción de documentos, preparación de testigos e informes post-audiencia con rigor institucional."
+                },
+                "negotiation-settlement": {
+                    "title": "Negociación y Acuerdo con Estados",
+                    "description": "Negociación pre-arbitral y concurrente con soberanos y empresas estatales. Estructuramos marcos de acuerdo que logran recuperación mientras preservan opcionalidad de ejecución, y coordinamos con abogados locales y asesores políticos cuando se requiere."
+                },
+                "enforcement": {
+                    "title": "Ejecución de Laudos Arbitrales",
+                    "description": "Ejecución multijurisdiccional de laudos CIADI y no-CIADI bajo convenciones aplicables. Coordinamos procedimientos de reconocimiento en tribunales de EE.UU., UE y América Latina, navegando defensas de inmunidad soberana y complejidades de leyes de inmunidades soberanas extranjeras."
+                },
+                "monetization": {
+                    "title": "Monetización y Cesión de Laudos",
+                    "description": "Estructuración de transacciones para la venta, cesión o financiamiento de laudos arbitrales. Asesoramos a reclamantes, fondos e inversionistas en activos en dificultades sobre estructuras de compra, debida diligencia y la arquitectura legal para monetización de laudos."
+                }
+            }
+        },
+        "clients": {
+            "badge": "A Quién Asesoramos",
+            "title": "Nuestros Clientes",
+            "items": {
+                "foreign-investors": {
+                    "title": "Inversionistas Extranjeros",
+                    "description": "Individuos y entidades con inversiones protegidas por tratados"
+                },
+                "multinationals": {
+                    "title": "Corporaciones Multinacionales",
+                    "description": "Empresas globales con exposición de inversión en América Latina"
+                },
+                "award-holders": {
+                    "title": "Titulares de Laudos y Fondos",
+                    "description": "Reclamantes y fondos que requieren ejecución o monetización"
+                },
+                "funders": {
+                    "title": "Financiadores e Inversionistas en Activos Distressed",
+                    "description": "Financiadores de litigios y compradores de laudos"
+                },
+                "sovereigns": {
+                    "title": "Clientes Soberanos",
+                    "description": "Mandatos selectos asesorando a estados y empresas estatales en defensa de tratados"
+                }
+            }
+        },
+        "jurisdictions": {
+            "badge": "Enfoque Geográfico",
+            "title": "Experiencia Jurisdiccional",
+            "items": {
+                "venezuela": {
+                    "title": "Venezuela",
+                    "description": "Profunda experiencia en reclamos inversionista–estado involucrando nacionalización y expropiación"
+                },
+                "latin-america": {
+                    "title": "América Latina",
+                    "description": "Cobertura regional en Colombia, México, Perú, Argentina y Centroamérica"
+                },
+                "international-forums": {
+                    "title": "Foros Internacionales",
+                    "description": "CIADI (Washington), procedimientos CNUDMI, CPA (La Haya) y tribunales ad hoc"
+                },
+                "enforcement-jurisdictions": {
+                    "title": "Jurisdicciones de Ejecución",
+                    "description": "Tribunales de EE.UU., Reino Unido, UE y América Latina para reconocimiento de laudos y rastreo de activos"
+                }
+            }
+        },
+        "value": {
+            "badge": "Por Qué Ágora",
+            "title": "Nuestros Diferenciadores",
+            "subtitle": "Rigor institucional combinado con ejecución LatAm—desde abogacía ante tribunales hasta monetización de laudos.",
+            "items": {
+                "latam-expertise": {
+                    "title": "Experiencia Enfocada en América Latina",
+                    "description": "Profundo conocimiento jurisdiccional en disputas inversionista–estado Venezuela/LatAm—entendiendo realidades procesales locales, dinámicas políticas y panoramas de ejecución."
+                },
+                "hybrid-posture": {
+                    "title": "Postura Estratégica Híbrida",
+                    "description": "Combinando abogacía arbitral agresiva con negociación pragmática y ejecución. Calibramos tácticas al horizonte realista de recuperación."
+                },
+                "enforcement-execution": {
+                    "title": "Ejecución de Laudos",
+                    "description": "No solo victorias ante tribunales—resultados recuperables. Integramos estrategia de ejecución desde el día uno, coordinando reconocimiento de laudos en múltiples jurisdicciones."
+                },
+                "monetization-capability": {
+                    "title": "Capacidad de Monetización de Laudos",
+                    "description": "Capacidad avanzada en venta, cesión y financiamiento de laudos. Asesoramos en ambos lados de transacciones de laudos, habilitando opciones de liquidez para reclamantes y puntos de entrada estructurados para inversionistas."
+                }
+            }
+        },
+        "faqs": {
+            "badge": "Preguntas Frecuentes",
+            "title": "Preguntas Frecuentes sobre Arbitraje de Inversiones",
+            "items": {
+                "what-is-investment-arbitration": {
+                    "question": "¿Qué es el arbitraje de inversiones?",
+                    "answer": "El arbitraje de inversiones es un mecanismo especializado de resolución de disputas que permite a inversionistas extranjeros presentar reclamos contra estados anfitriones bajo tratados bilaterales de inversión (TBIs), tratados multilaterales o contratos de inversión. Los procedimientos típicamente ocurren ante tribunales CIADI, CNUDMI u otros foros internacionales, y los laudos son ejecutables en múltiples jurisdicciones."
+                },
+                "treaties-latin-america": {
+                    "question": "¿Qué tratados protegen a los inversionistas en América Latina?",
+                    "answer": "Los inversionistas pueden estar protegidos bajo tratados bilaterales de inversión (ej., TBI Venezuela–Países Bajos), acuerdos multilaterales (ej., CAFTA-DR, T-MEC), y contratos de inversión con cláusulas de estabilización. Las protecciones de tratados varían por nacionalidad, momento de la inversión y sectores cubiertos. La planificación adecuada de tratados antes de invertir puede mejorar significativamente la protección."
+                },
+                "icsid-duration": {
+                    "question": "¿Cuánto tiempo dura un arbitraje CIADI?",
+                    "answer": "Los procedimientos CIADI típicamente duran de 3 a 5 años desde el registro hasta el laudo, aunque casos complejos pueden extenderse más. Los plazos dependen de desafíos jurisdiccionales, alcance de producción de documentos, complejidad del quantum y disponibilidad del tribunal. Procedimientos expeditos pueden estar disponibles para ciertos reclamos."
+                },
+                "award-enforcement": {
+                    "question": "¿Se pueden ejecutar los laudos arbitrales contra estados?",
+                    "answer": "Sí. Los laudos CIADI son ejecutables como sentencias firmes en los más de 165 estados miembros del CIADI. Los laudos no-CIADI son ejecutables bajo la Convención de Nueva York. Los desafíos de ejecución incluyen defensas de inmunidad soberana, identificación de activos y coordinación de procedimientos de reconocimiento en múltiples jurisdicciones."
+                },
+                "award-monetization": {
+                    "question": "¿Qué es la monetización de laudos?",
+                    "answer": "La monetización de laudos implica la venta, cesión o financiamiento de laudos arbitrales—permitiendo a reclamantes realizar valor antes o en lugar de perseguir la ejecución. Las transacciones pueden involucrar compra directa, cesión parcial o financiamiento garantizado contra la recuperación anticipada. Esto proporciona liquidez mientras transfiere el riesgo de ejecución."
+                },
+                "pre-arbitration-negotiation": {
+                    "question": "¿Cuándo debería considerar negociar con un estado antes del arbitraje?",
+                    "answer": "La negociación pre-arbitral puede ser aconsejable cuando el estado señala disposición a resolver, cuando las dinámicas políticas favorecen el acuerdo, o cuando las perspectivas de ejecución contra activos soberanos son inciertas. Típicamente estructuramos vías paralelas—preservando derechos de arbitraje mientras exploramos caminos de resolución."
+                }
+            }
+        },
+        "related": {
+            "badge": "Prácticas Relacionadas",
+            "title": "Capacidades Integradas",
+            "items": {
+                "litigation": {
+                    "title": "Litigios y Resolución de Disputas",
+                    "description": "Litigios comerciales y ejecución transfronteriza"
+                },
+                "compliance": {
+                    "title": "Cumplimiento y Sanciones Internacionales",
+                    "description": "Estructuración transaccional informada por sanciones"
+                },
+                "banking": {
+                    "title": "Banca y Finanzas",
+                    "description": "Estructuración financiera y banca corresponsal"
+                },
+                "corporate": {
+                    "title": "Corporativo y M&A",
+                    "description": "Estructuración de inversiones y planificación de tratados"
+                }
+            }
+        },
+        "leadership": {
+            "badge": "Liderazgo de Práctica",
+            "title": "Nuestro Equipo",
+            "members": {
+                "alvaro": {
+                    "name": "Álvaro J. Posada Sessarego",
+                    "role": "Socio",
+                    "focus": "Estrategia de arbitraje inversionista–estado y ejecución de laudos"
+                },
+                "jose": {
+                    "name": "José P. Barnola Jr.",
+                    "role": "Socio / Líder de Práctica",
+                    "focus": "Arbitraje de inversiones, interpretación de tratados y disputas soberanas"
+                },
+                "marco": {
+                    "name": "Marco Gómez",
+                    "role": "Asociado Senior",
+                    "focus": "Procedimientos CIADI y coordinación de ejecución transfronteriza"
+                },
+                "ariana": {
+                    "name": "Ariana Cabrera Acevedo",
+                    "role": "Líder de Práctica",
+                    "focus": "Marcos regulatorios que afectan reclamos inversionista–estado"
+                }
+            }
+        },
+        "cta": {
+            "title": "Asesoría Estratégica en Arbitraje de Inversiones",
+            "description": "Para asuntos que involucren disputas inversionista–estado, reclamos basados en tratados, o ejecución y monetización de laudos arbitrales, lo invitamos a contactar directamente nuestra práctica.",
+            "button": "Agendar una Consulta Confidencial"
+        }
     }
 }
