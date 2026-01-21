@@ -32,9 +32,9 @@
     "HomePage": {
         "hero": {
             "badge": "Agora Abogados",
-            "line1": "Legal Boutique",
-            "line2": "Services With",
-            "line3": "Global Reach",
+            "line1": "Cross-Border Legal Counsel",
+            "line2": "for Transactions, Disputes,",
+            "line3": "and Regulation",
             "description": "We provide the personalized service of a legal boutique with global reach, capabilities, and vision. Defined by experience, innovation, and leadership.",
             "ctaBook": "Connect",
             "ctaServices": "Practice Areas"
@@ -302,56 +302,56 @@
         },
         "members": {
             "alvaro": {
-                "role": "Senior Partner",
-                "bio": "With over 30 years of legal experience, Álvaro stands as a prominent figure in Banking, Finance, and Capital Markets. His career includes a tenure as partner at Baker McKenzie. He has provided strategic counsel to both national and international financial institutions on complex regulatory matters, project financing, and high-value transactions."
+                "role": "Founding Partner",
+                "bio": "Álvaro J. Posada Sessarego, an expert lawyer in banking, corporate finance, and capital markets, has over 30 years of experience advising multinational companies. He is positioned as the trusted strategic advisor for several international business groups in handling sensitive and complex issues."
             },
             "maria": {
-                "role": "Senior Partner",
-                "bio": "María Eugenia brings over three decades of legal expertise, specializing in Corporate, Real Estate, Environmental, and Sustainability law. Previously a partner at Baker McKenzie, she has advised major corporations on cross-border transactions, regulatory compliance, and sustainable development initiatives across Latin America."
+                "role": "Founding Partner",
+                "bio": "María Eugenia Reyes, lawyer with over 30 years of experience in corporate, real estate, environmental law, and sustainability. She has demonstrated exceptional ability to understand clients beyond their obvious needs, successfully closing the projects and cases she has handled."
             },
             "jose": {
-                "role": "Senior Partner",
-                "bio": "José is an expert in Taxation and M&A with over 25 years of professional experience. Licensed to practice law in both Mexico and Venezuela, he has designed and implemented complex tax structures for multinational corporations and led significant cross-border acquisitions."
+                "role": "Partner",
+                "bio": "José P. Barnola Jr. is a lawyer with extensive experience in taxation, mergers and acquisitions, contract and corporate law, as well as serving as an arbitrator. He is licensed to practice in Mexico and Venezuela with over 25 years leading projects across Latin America."
             },
             "ariana": {
                 "role": "Practice Lead",
-                "bio": "Ariana leads the Labor Law practice with over 10 years of specialized experience. As a member of the Venezuelan Institute of Social Law, she provides expert guidance on employment contracts, workforce restructuring, and labor litigation for diverse industries."
+                "bio": "Ariana Cabrera Acevedo, a lawyer with more than 10 years of experience, has built a solid career in labor law. Her versatility allows her to successfully navigate other areas such as civil, administrative, and regulatory compliance law."
             },
             "lizeth": {
                 "role": "Practice Lead",
-                "bio": "Lizeth, based in Aragua, is a Civil and Commercial Litigation expert with over 25 years of experience. She represents clients in complex commercial disputes, contract law, and judicial procedures, ensuring robust legal protection across various regional jurisdictions."
+                "bio": "Lizeth Reyes holds dual degrees in Business Administration and Law, with over 25 years of professional experience in civil and commercial litigation, as well as legal advisory in judicial procedures."
             },
             "marco": {
-                "role": "Senior Associate",
-                "bio": "Marco specializes in Tax Law, providing strategic counsel on fiscal compliance and litigation. He has extensive experience in both administrative and judicial tax procedures, helping clients navigate complex regulatory frameworks."
+                "role": "Associate",
+                "bio": "Marco Gómez is a lawyer with 6 years of experience in the corporate and financial areas. His expertise includes regulatory matters, acquisition of securities, foreign exchange control, and international arbitration."
             },
             "barbara": {
-                "role": "Senior Associate",
-                "bio": "Bárbara focuses on Corporate Law and Intellectual Property. She advises clients on business formation, contract negotiation, and the protection of brand assets and innovative technologies."
+                "role": "Associate",
+                "bio": "Bárbara Briceño, a lawyer with more than 8 years of experience, has developed her career in corporate law, international taxation, estate planning, and regulatory compliance."
             },
             "manuel": {
-                "role": "Senior Associate",
-                "bio": "Manuel is a specialist in Labor Law and Human Resources. He assists corporations in managing employment relationships, drafting comprehensive internal policies, and ensuring compliance with labor regulations."
+                "role": "Associate",
+                "bio": "Manuel Domingo is a lawyer with experience in mergers and acquisitions. His fluency in English, German, and French enables him to navigate cross-border transactions with ease."
             },
             "dayana": {
-                "role": "Senior Associate",
-                "bio": "Dayana focuses on Corporate and Commercial Law. She supports clients through the lifecycle of their business operations, from incorporation and governance to commercial agreements and dissolution."
+                "role": "Associate",
+                "bio": "Dayana Véliz is a distinguished lawyer who combines skills in law and finance to offer comprehensive solutions in the corporate sphere, including mergers and acquisitions and foreign investment management."
             },
             "raul": {
-                "role": "Junior Associate",
-                "bio": "Raúl is an expert in Dispute Resolution and Litigation. He represents clients in civil and commercial cases, bringing a strategic approach to conflict mediation and courtroom representation."
+                "role": "Associate",
+                "bio": "Raúl Eduardo Sancristobal is a lawyer with experience advising on complex financial disputes, matters involving cross-border securities, custodian liability, and capital markets regulation."
             },
             "rodrigo": {
-                "role": "Junior Associate",
-                "bio": "Rodrigo specializes in Public Law and Regulatory Affairs. He advises on government relations, administrative procedures, and compliance with public sector regulations."
+                "role": "Associate",
+                "bio": "Rodrigo Colmenares is a lawyer with experience in commercial law, complex litigation, and the application of emerging technologies in the legal field, including Fintech, Blockchain, and Smart Contracts."
             },
             "andreina": {
-                "role": "Junior Associate",
-                "bio": "Andreína focuses on International Business and Investment Law. She assists clients in cross-border trade, foreign investment regulations, and international commercial arbitration."
+                "role": "Associate",
+                "bio": "Andreina Flores is a practicing lawyer with 9 years of experience in the areas of civil, commercial, real estate, family, and inheritance law."
             },
             "fabiola": {
-                "role": "Junior Associate",
-                "bio": "Fabiola is a specialist in Environmental Law and Natural Resources. She guides organizations through environmental impact assessments, regulatory compliance, and sustainable resource management."
+                "role": "Associate",
+                "bio": "Fabiola Flores Reyes is a lawyer with 9 years of experience in the areas of civil, commercial, real estate, family, and inheritance law."
             },
             "andrea": {
                 "role": "Business Leader",
@@ -359,11 +359,11 @@
             },
             "oriana": {
                 "role": "Administration Manager",
-                "bio": "Oriana serves as the Administration Manager at Ágora Abogados, bringing over 10 years of expertise in treasury and financial administration. Having previously led treasury functions at Baker McKenzie, she ensures the firm's operational backbone is defined by fiscal precision and institutional excellence."
+                "bio": "Oriana Rodríguez is the Administration Manager at Ágora Abogados, with over a decade of specialized experience in financial administration and treasury management."
             },
             "juan": {
                 "role": "Financial Performance & Operations",
-                "bio": "Juan Francisco leads the firm's digital presence and technological integration. He focuses on leveraging digital tools to enhance client communication, operational transparency, and the overall efficiency of legal processes."
+                "bio": "Juan Posada leverages a unique blend of business acumen and data-driven insights to optimize financial performance and operational efficiency at Àgora Abogados."
             }
         }
     },
@@ -402,9 +402,9 @@
             ],
             "education": [
                 "Lawyer, Universidad Católica Andrés Bello (1988)",
-                "Financial Management Programa, Instituto de Estudios Superiores de Administración (IESA) (1989)",
+                "Financial Management Program, Instituto de Estudios Superiores de Administración (IESA) (1989)",
                 "Master in International Banking Law (LLM), Boston University (1992)",
-                "Master in comparative Jurisprudence, New York University (1993)"
+                "Master in Comparative Jurisprudence, New York University (1993)"
             ],
             "publications": [
                 "Co-author of “Commercial Space Securization in Latin America“, Global Securization Review 2004/2005, EuroMoney Year Books, January 1, 2004"
@@ -457,20 +457,20 @@
             "education": [
                 "Law Degree, Universidad Católica Andrés Bello, cum laude, 1993",
                 "Tax Law LLM, Universidad Central de Venezuela, cum laude, 2000",
-                "General Exam for the Law Degree, Centro Nacional de Evaluación para la Educación Superior (Mexico, 2020)",
-                "Law Degree Revalidation and Professional License, Secretaría de Educación Pública (Mexico, 2021)",
+                "General Exam for the Law Degree, Mexico, 2020",
+                "Law Degree Revalidation and Professional License, Mexico, 2021",
                 "Advanced Studies Program in Arbitration, Universidad Monteávila, 2022"
             ],
             "publications": [
-                "«Lo que no se enseña en las facultades de derecho», in FORO JURÍDICO N° 262, julio 2025, Ciudad de México",
-                "«Apuntes sobre los límites de las reorganizaciones corporativas y el arbitraje de inversión desde la perspectiva mexicana», in XX JORNADAS VENEZOLANAS DE DERECHO TRIBUTARIO 2023, Asociación Venezolana de Derecho Tributario, Caracas, 2024",
-                "«La mediación arrendaticia en el Estado de Jalisco, una nueva tendencia del mercado inmobiliario», in REVISTA PREÁMBULO N° 1, Centro de Investigación y Estudios para la Resolución de Controversias de la Universidad Monteávila (CIERC), Caracas, 2023",
-                "«Principles of investment arbitration planning in Latin America», in WORLD ARBITRATION AND MEDIATION REVIEW (WAMR+2020), Vol. 14 No. 1, Dec 31, 2022",
-                "«Comentarios al Artículo 8 de la Ley de Arbitraje Comercial Venezolana», in COMENTARIOS A LA LEY DE ARBITRAJE COMERCIAL VENEZOLANA, CIERC, with V. Falcón, Caracas, 2022",
-                "«Aspectos prácticos de la ratificación del Convenio CIADI por México, un avance alentador para los inversionistas mexicanos y extranjeros», in BOLETÍN IBEROAMERICANO DE ARBITRAJE Y MEDIACIÓN N° 1, Centro de Arbitraje de la Cámara de Caracas, Caracas, 2022",
-                "«Nuevo estudio sobre los efectos de los diseños de los sistemas tributarios en el desarrollo de Latinoamérica», bibliographic review, in TAXLATAM (https://taxlatam.com/) 13.9.22",
-                "«Aspectos prácticos de la primera audiencia de organización del procedimiento arbitral», in PRINCIPIA N° 6, CIERC, Caracas, 2022",
-                "«Principios de Planificación de Arbitraje de Inversión en Latinoamérica», trabajo ganador del premio Rodger Farrel 2021, in REVISTA DE MEDIOS ALTERNATIVOS DE RESOLUCIÓN DE CONFLICTOS, BOLETÍN ESPECIAL, Comité de Arbitraje de Venamcham and CEDCA, Caracas, 2022"
+                "«Lo que no se enseña en las facultades de derecho», en FORO JURÍDICO N° 262, julio 2025, Ciudad de México",
+                "«Apuntes sobre los límites de las reorganizaciones corporativas y el arbitraje de inversión desde la perspectiva mexicana», en XX JORNADAS VENEZOLANAS DE DERECHO TRIBUTARIO 2023, Asociación Venezolana de Derecho Tributario, Caracas, 2024",
+                "«La mediación arrendaticia en el Estado de Jalisco, una nueva tendencia del mercado inmobiliario», en REVISTA PREÁMBULO N° 1, CIERC, Caracas, 2023",
+                "«Principles of investment arbitration planning in Latin America», en WAMR+2020, Vol. 14 No. 1, 2022",
+                "«Comentarios al Artículo 8 de la Ley de Arbitraje Comercial Venezolana», en CIERC, Caracas, 2022",
+                "«Aspectos prácticos de la ratificación del Convenio CIADI por México», BOLETÍN IBEROAMERICANO, 2022",
+                "«Nuevo estudio sobre los efectos de los diseños de los sistemas tributarios en el desarrollo de Latinoamérica», TAXLATAM, 2022",
+                "«Aspectos prácticos de la primera audiencia de organización del procedimiento arbitral», PRINCIPIA N° 6, 2022",
+                "«Principios de Planificación de Arbitraje de Inversión en Latinoamérica», Premio Rodger Farrel 2021, Caracas, 2022"
             ],
             "office": "Mexico City & Caracas",
             "languages": "Spanish and English",
@@ -489,7 +489,7 @@
                 "Lawyer, Summa Cum Laude, Universidad Católica Andrés Bello (2014)",
                 "Advanced Studies Program in Arbitration, Universidad Monteávila (2020)",
                 "Master's in Business Management and Administration, Universidad Carlos III de Madrid (2022)",
-                "Certified Anti-Money Laundering Specialist, Association of Certified Anti-Money Laundering Specialists (ACAMS) (2024)",
+                "Certified Anti-Money Laundering Specialist, ACAMS (2024)",
                 "Master of Laws (LLM) in Dispute Resolution, University of Missouri-Columbia (2025)"
             ],
             "publications": [
@@ -505,7 +505,7 @@
                 "Currently, she leads the Central-Western regional practice, providing strategic representation and counsel in complex legal matters across her jurisdiction."
             ],
             "experience": [
-                "She is currently the Regional Leader of Ágora Abogados for the Central-Western region.",
+                "She is currently the Practice Leader of Ágora Abogados.",
                 "Lizeth has obtained specializations and master's degrees in procedural law, is a Doctor of Legal Sciences, and is currently pursuing a Higher Specialization in Immigration Law."
             ],
             "education": [

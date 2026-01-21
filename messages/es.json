@@ -32,9 +32,9 @@
     "HomePage": {
         "hero": {
             "badge": "Ágora Abogados",
-            "line1": "Servicios de",
-            "line2": "Boutique Legal con",
-            "line3": "Alcance Global",
+            "line1": "Asesoría Legal Transfronteriza",
+            "line2": "en Transacciones, Controversias,",
+            "line3": "y Regulación",
             "description": "Brindamos el servicio personalizado de una boutique legal con alcance, capacidades y visión global. Definidos por la experiencia, la innovación y el liderazgo.",
             "ctaBook": "Conectar",
             "ctaServices": "Áreas de Práctica"
@@ -302,56 +302,56 @@
         },
         "members": {
             "alvaro": {
-                "role": "Socio Principal",
-                "bio": "Con más de 30 años de experiencia legal, Álvaro se destaca como una figura prominente en Banca, Finanzas y Mercado de Capitales. Su carrera incluye una trayectoria como socio en Baker McKenzie. Ha brindado asesoría estratégica a instituciones financieras nacionales e internacionales en asuntos regulatorios complejos, financiamiento de proyectos y transacciones de alto valor."
+                "role": "Socio Fundador",
+                "bio": "Álvaro J. Posada Sessarego, abogado especializado en banca, finanzas corporativas, y mercado de capitales, acumula más de 30 años de experiencia asesorando a empresas multinacionales. Está posicionado como el asesor estratégico de confianza de varios grupos empresariales internacionales en la atención de temas sensibles y complejos."
             },
             "maria": {
-                "role": "Socio Principal",
-                "bio": "María Eugenia aporta más de tres décadas de experiencia legal, especializándose en derecho Corporativo, Inmobiliario, Ambiental y Sostenibilidad. Anteriormente socia en Baker McKenzie, ha asesorado a grandes corporaciones en transacciones transfronterizas, cumplimiento regulatorio e iniciativas de desarrollo sostenible en toda Latinoamérica."
+                "role": "Socio Fundador",
+                "bio": "María Eugenia Reyes, abogado con más de 30 años de experiencia en las áreas de derecho corporativo, inmobiliario, ambiental y sustentabilidad. Ha demostrado una capacidad superior para comprender el cliente más allá de sus necesidades evidentes, logrando cerrar exitosamente los proyectos y asuntos que ha manejado."
             },
             "jose": {
-                "role": "Socio Principal",
-                "bio": "José es experto en Tributación y M&A con más de 25 años de experiencia profesional. Autorizado para ejercer el derecho tanto en México como en Venezuela, ha diseñado e implementado estructuras fiscales complejas para corporaciones multinacionales y liderado importantes adquisiciones transfronterizas."
+                "role": "Socio",
+                "bio": "José P. es un abogado con una vasta experiencia en áreas como impuestos, fusiones y adquisiciones, derecho corporativo y contratos, además de desempeñarse como árbitro. Está habilitado para ejercer la profesión en México y Venezuela con más de 25 años liderando proyectos en América Latina."
             },
             "ariana": {
                 "role": "Líder de Práctica",
-                "bio": "Ariana lidera la práctica de Derecho Laboral con más de 10 años de experiencia especializada. Como miembro del Instituto Venezolano de Derecho Social, brinda orientación experta en contratos de trabajo, reestructuración de la fuerza laboral y litigios laborales para diversas industrias."
+                "bio": "Ariana Cabrera Acevedo, abogado con más de 10 años de experiencia, ha consolidado una carrera en derecho laboral. Su versatilidad le permite desenvolverse con éxito en otras áreas como derecho civil, administrativo, cumplimiento normativo y regulatorio."
             },
             "lizeth": {
                 "role": "Líder de Práctica",
-                "bio": "Lizeth, con sede en Aragua, es experta en Litigio Civil y Mercantil con más de 25 años de experiencia. Representa a clientes en disputas comerciales complejas, derecho contractual y procedimientos judiciales, asegurando una sólida protección legal en varias jurisdicciones regionales."
+                "bio": "Lizeth Reyes, tiene una doble titulación en Administración y en Derecho, acumula una experiencia profesional de más de 25 años en las áreas de litigios civiles y mercantiles y, en general, en la asesoría en procedimientos jurídicos."
             },
             "marco": {
-                "role": "Asociado Senior",
-                "bio": "Marco se especializa en Derecho Tributario, brindando asesoría estratégica en cumplimiento fiscal y litigios. Tiene amplia experiencia en procedimientos tributarios tanto administrativos como judiciales, ayudando a los clientes a navegar por marcos regulatorios complejos."
+                "role": "Asociado",
+                "bio": "Marco Gómez es un abogado con 6 años de experiencia en las áreas corporativa y financiera. Su experiencia incluye un profundo conocimiento de asuntos regulatorios, adquisición de valores, control de cambios y arbitraje internacional."
             },
             "barbara": {
-                "role": "Asociado Senior",
-                "bio": "Bárbara se enfoca en Derecho Corporativo y Propiedad Intelectual. Asesora a clientes en formación de negocios, negociación de contratos y protección de activos de marca y tecnologías innovadoras."
+                "role": "Asociada",
+                "bio": "Barbara Briceño, abogada con más de 8 años de experiencia, ha desarrollado su carrera en derecho corporativo, tributación internacional, planificación patrimonial y cumplimiento normativo."
             },
             "manuel": {
-                "role": "Asociado Senior",
-                "bio": "Manuel es especialista en Derecho Laboral y Recursos Humanos. Asiste a corporaciones en la gestión de relaciones laborales, redacción de políticas internas integrales y garantía de cumplimiento de las regulaciones laborales."
+                "role": "Asociado",
+                "bio": "Manuel Domingo, abogado con experiencia en fusiones y adquisiciones de empresas. Su dominio del inglés, el alemán y el francés le permite desenvolverse con soltura en transacciones internacionales."
             },
             "dayana": {
-                "role": "Asociado Senior",
-                "bio": "Dayana se enfoca en Derecho Corporativo y Mercantil. Apoya a los clientes a lo largo del ciclo de vida de sus operaciones comerciales, desde la constitución y gobernanza hasta acuerdos comerciales y disolución."
+                "role": "Asociada",
+                "bio": "Dayana Véliz abogada destacada que combina habilidades en derecho y finanzas para ofrecer soluciones integrales en los ámbitos corporativos, fusiones y adquisiciones, y la gestión de inversiones extranjeras."
             },
             "raul": {
-                "role": "Asociado Junior",
-                "bio": "Raúl es experto en Resolución de Conflictos y Litigios. Representa a clientes en casos civiles y mercantiles, aportando un enfoque estratégico a la mediación de conflictos y la representación en tribunales."
+                "role": "Asociado",
+                "bio": "Raúl Eduardo Sancristobal es abogado con experiencia asesorando en disputas financieras complejas, asuntos relacionados con valores transfronterizos, responsabilidad de custodios y regulación del mercado de capitales."
             },
             "rodrigo": {
-                "role": "Asociado Junior",
-                "bio": "Rodrigo se especializa en Derecho Público y Asuntos Regulatorios. Asesora en relaciones gubernamentales, procedimientos administrativos y cumplimiento de las regulaciones del sector público."
+                "role": "Asociado",
+                "bio": "Rodrigo Colmenares es abogado con experiencia en derecho mercantil, litigios complejos y la aplicación de tecnologías emergentes en el ámbito legal, incluyendo Fintech, Blockchain y Smart Contracts."
             },
             "andreina": {
-                "role": "Asociado Junior",
-                "bio": "Andreína se enfoca en Negocios Internacionales y Derecho de Inversión. Asiste a clientes en comercio transfronterizo, regulaciones de inversión extranjera y arbitraje comercial internacional."
+                "role": "Asociada",
+                "bio": "Andreina Flores Reyes, abogada en ejercicio con 9 años de experiencia en las áreas de derecho civil, mercantil, inmobiliario, familiar y sucesiones."
             },
             "fabiola": {
-                "role": "Asociado Junior",
-                "bio": "Fabiola es especialista en Derecho Ambiental y Recursos Naturales. Guía a las organizaciones a través de evaluaciones de impacto ambiental, cumplimiento regulatorio y gestión sostenible de recursos."
+                "role": "Asociada",
+                "bio": "Fabiola Flores Reyes, abogada con 9 años de experiencia en las áreas de derecho civil, mercantil, inmobiliario, familiar y sucesiones."
             },
             "andrea": {
                 "role": "Líder de Negocios",
@@ -359,11 +359,11 @@
             },
             "oriana": {
                 "role": "Gerente de Administración",
-                "bio": "Oriana se desempeña como Gerente de Administración en Ágora Abogados, aportando más de 10 años de experiencia en tesorería y administración financiera. Habiendo liderado previamente funciones de tesorería en Baker McKenzie, asegura que la columna vertebral operativa de la firma se defina por la precisión fiscal y la excelencia institucional."
+                "bio": "Oriana Rodríguez es la Gerente de Administración en Ágora Abogados, con más de una década de experiencia especializada en administración financiera y gestión de tesorería."
             },
             "juan": {
                 "role": "Desempeño Financiero y Operaciones",
-                "bio": "Juan Francisco lidera la presencia digital y la integración tecnológica de la firma. Se enfoca en aprovechar las herramientas digitales para mejorar la comunicación con los clientes, la transparencia operativa y la eficiencia general de los procesos legales."
+                "bio": "Juan Posada aporta una combinación única de visión para los negocios y conocimientos basados en datos para optimizar el rendimiento financiero y la eficiencia operativa en Àgora Abogados."
             }
         }
     },
@@ -407,7 +407,7 @@
                 "Master en Jurisprudencia Comparada, New York University (1993)"
             ],
             "publications": [
-                "Coautor de \"Commercial Space Securitization in Latin America\" (Titulización del espacio comercial en América Latina), Global Securitization Review 2004/2005, Euromoney Year Books, 1 de enero de 2004. Ha contribuido en publicaciones y ha sido conferencista ymoderador en eventos nacionales e internacionales."
+                "Coautor de \"Commercial Space Securitization in Latin America\" (Titulización del espacio comercial en América Latina), Global Securitization Review 2004/2005, Euromoney Year Books, 1 de enero de 2004. Ha contribuido en publicaciones y ha sido conferencista y moderador en eventos nacionales e internacionales."
             ],
             "office": "Caracas, Venezuela",
             "languages": "Español e inglés",
@@ -464,13 +464,13 @@
             "publications": [
                 "«Lo que no se enseña en las facultades de derecho», en FORO JURÍDICO N° 262, julio 2025, Ciudad de México",
                 "«Apuntes sobre los límites de las reorganizaciones corporativas y el arbitraje de inversión desde la perspectiva mexicana», en XX JORNADAS VENEZOLANAS DE DERECHO TRIBUTARIO 2023, Asociación Venezolana de Derecho Tributario, Caracas, 2024",
-                "«La mediación arrendaticia en el Estado de Jalisco, una nueva tendencia del mercado inmobiliario», en REVISTA PREÁMBULO N° 1, Centro de Investigación y Estudios para la Resolución de Controversias de la Universidad Monteávila (CIERC), Caracas, 2023",
-                "«Principles of investment arbitration planning in Latin America», en WORLD ARBITRATION AND MEDIATION REVIEW (WAMR+2020), Vol. 14 No. 1, Dec 31, 2022",
-                "«Comentarios al Artículo 8 de la Ley de Arbitraje Comercial Venezolana», en COMENTARIOS A LA LEY DE ARBITRAJE COMERCIAL VENEZOLANA, CIERC, con V. Falcón, Caracas, 2022",
-                "«Aspectos prácticos de la ratificación del Convenio CIADI por México, un avance alentador para los inversionistas mexicanos y extranjeros», en BOLETÍN IBEROAMERICANO DE ARBITRAJE Y MEDIACIÓN N° 1, Centro de Arbitraje de la Cámara de Caracas, Caracas, 2022",
-                "«Nuevo estudio sobre los efectos de los diseños de los sistemas tributarios en el desarrollo de Latinoamérica», reseña bibliográfica, en TAXLATAM (https://taxlatam.com/) 13.9.22",
-                "«Aspectos prácticos de la primera audiencia de organización del procedimiento arbitral», en PRINCIPIA N° 6, CIERC, Caracas, 2022",
-                "«Principios de Planificación de Arbitraje de Inversión en Latinoamérica», trabajo ganador del premio Rodger Farrel 2021, en REVISTA DE MEDIOS ALTERNATIVOS DE RESOLUCIÓN DE CONFLICTOS, BOLETÍN ESPECIAL, Comité de Arbitraje de Venamcham y CEDCA, Caracas, 2022"
+                "«La mediación arrendaticia en el Estado de Jalisco, una nueva tendencia del mercado inmobiliario», en REVISTA PREÁMBULO N° 1, CIERC, Caracas, 2023",
+                "«Principles of investment arbitration planning in Latin America», en WAMR+2020, Vol. 14 No. 1, 2022",
+                "«Comentarios al Artículo 8 de la Ley de Arbitraje Comercial Venezolana», en CIERC, Caracas, 2022",
+                "«Aspectos prácticos de la ratificación del Convenio CIADI por México», BOLETÍN IBEROAMERICANO, 2022",
+                "«Nuevo estudio sobre los efectos de los diseños de los sistemas tributarios en el desarrollo de Latinoamérica», TAXLATAM, 2022",
+                "«Aspectos prácticos de la primera audiencia de organización del procedimiento arbitral», PRINCIPIA N° 6, 2022",
+                "«Principios de Planificación de Arbitraje de Inversión en Latinoamérica», Premio Rodger Farrel 2021, Caracas, 2022"
             ],
             "office": "Ciudad de México y Caracas",
             "languages": "Español e Inglés",
@@ -489,11 +489,11 @@
                 "Abogado, Mención Summa Cum Laude, Universidad Católica Andrés Bello (2014)",
                 "Programa de Estudios Avanzados en Arbitraje, Universidad Monteávila (2020)",
                 "Máster en Gestión y Dirección de Empresas, Universidad Carlos III de Madrid (2022)",
-                "Especialista Certificado en Prevención de Lavado de Dinero, Association of Certified Anti-Money Laundering Specialists (ACAMS) (2024)",
-                "Maestría en Resolución de Disputas (LLM), Universidad de Missouri-Columbia, (2025)"
+                "Especialista Certificado en Prevención de Lavado de Dinero, ACAMS (2024)",
+                "Maestría en Resolución de Disputas (LLM), Universidad de Missouri-Columbia (2025)"
             ],
             "publications": [
-                "Ejecución de la sentencia: intereses de mora e indexación, Derecho Procesal del Trabajo y Contencioso Administrativo Laboral, Ensayos, Academia de Ciencias Políticas y Sociales; Universidad Católica Andrés Bello, 2023. 1 nov. 2023"
+                "Ejecución de la sentencia: intereses de mora e indexación, Derecho Procesal del Trabajo y Contencioso Administrativo Laboral, Ensayos, Academia de Ciencias Políticas y Sociales; Universidad Católica Andrés Bello, 2023."
             ],
             "office": "Caracas, Venezuela",
             "languages": "Español, Inglés y Francés",
@@ -505,7 +505,7 @@
                 "Actualmente, lidera la práctica regional Centro-Occidente, brindando representación y asesoría estratégica en asuntos legales complejos en su jurisdicción."
             ],
             "experience": [
-                "Actualmente se desempeña como Líder Regional de Ágora Abogados en Centro Occidente.",
+                "Actualmente se desempeña como Líder de Practica de Ágora Abogados.",
                 "Lizeth obtuvo especializaciones y maestrías en materia procesal, es Doctora en Ciencias Jurídicas, y actualmente está cursando una Especialización Superior en Derecho Migratorio."
             ],
             "education": [
