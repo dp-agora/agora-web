@@ -121,8 +121,9 @@ export default function BankingFinancePage() {
                         subtitle={t("hero.subtitle")}
                         badge={t("hero.badge")}
                         description={t("hero.description")}
-                        videoSrc="/assets/video/agora-eco.mp4"
-                        videoOpacity={0.75}
+                        imageSrc="/assets/practices/banking-finance.jpeg"
+                        imageAlt="Ágora Banking & Finance legal practice"
+                        imageOpacity={0.7}
                         overlayClassName="absolute inset-0 bg-gradient-to-b from-primary/70 via-primary/30 to-primary/45"
                     />
 

@@ -16,6 +16,7 @@ interface PageHeaderProps {
     imageSrc?: string;
     imageSrcs?: string[];
     imageOpacity?: number;
+    imageAlt?: string;
     variant?: 'default' | 'institutional';
     cta?: {
         label: string;
@@ -34,6 +35,7 @@ export function PageHeader({
     imageSrc,
     imageSrcs,
     imageOpacity = 0.5,
+    imageAlt = "",
     variant = 'default',
     cta
 }: PageHeaderProps) {
@@ -106,10 +108,11 @@ export function PageHeader({
                             >
                                 <Image
                                     src={images[currentImageIndex]}
-                                    alt=""
+                                    alt={imageAlt}
                                     fill
                                     className="object-cover"
                                     priority
+                                    sizes="100vw"
                                 />
                             </motion.div>
                         </AnimatePresence>
