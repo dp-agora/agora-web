@@ -20,8 +20,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             ? "Asesoría Fiscal | Ágora"
             : "Tax Advisory | Ágora",
         description: isSpanish
-            ? "Asesoría fiscal transfronteriza para empresas multinacionales y corporaciones regionales en el corredor US-LatAm. Precios de transferencia, estructuración internacional y planificación tributaria."
-            : "Cross-border tax advisory for multinationals and regional corporates in the US-LatAm corridor. Transfer pricing, international structuring, and treaty planning for complex corporate structures.",
+            ? "Asesoría fiscal transfronteriza para empresas multinacionales y grupos de inversión. Estructuración, precios de transferencia e impuestos internacionales en América Latina."
+            : "Cross-border tax advisory for multinational companies and investment groups. We advise on structuring, transfer pricing, and international tax matters across Latin America.",
         alternates: {
             canonical: currentPath,
             languages: {
@@ -35,8 +35,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
                 ? "Asesoría Fiscal | Ágora"
                 : "Tax Advisory | Ágora",
             description: isSpanish
-                ? "Asesoría fiscal transfronteriza para empresas multinacionales y corporaciones regionales en el corredor US-LatAm."
-                : "Cross-border tax advisory for multinationals and regional corporates in the US-LatAm corridor.",
+                ? "Asesoría fiscal transfronteriza para empresas multinacionales y grupos de inversión. Estructuración, precios de transferencia e impuestos internacionales en América Latina."
+                : "Cross-border tax advisory for multinational companies and investment groups. We advise on structuring, transfer pricing, and international tax matters across Latin America.",
             url: `${baseUrl}${currentPath}`,
             type: "website",
         },
