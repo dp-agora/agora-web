@@ -18,10 +18,10 @@ export function Footer() {
         {
             title: t("practiceAreas"),
             links: [
-                { name: t("corporate"), href: "/services" },
-                { name: t("banking"), href: "/services" },
-                { name: t("tax"), href: "/services" },
-                { name: t("regulatory"), href: "/services" },
+                { name: t("corporate"), href: "/practices/corporate-ma" },
+                { name: t("banking"), href: "/practices/banking-finance" },
+                { name: t("tax"), href: "/practices/tax" },
+                { name: t("regulatory"), href: "/practices/compliance-sanctions" },
             ],
         },
     ];

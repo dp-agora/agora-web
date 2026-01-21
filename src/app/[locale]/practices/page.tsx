@@ -108,6 +108,9 @@ export default function PracticesPage() {
                     badge={t("hero.badge")}
                     title={t("hero.title")}
                     subtitle={t("hero.subtitle")}
+                    videoSrc="/assets/video/agora-eco.mp4"
+                    videoOpacity={0.75}
+                    overlayClassName="absolute inset-0 bg-gradient-to-b from-primary/70 via-primary/30 to-primary/45"
                 />
 
                 {/* Practice Clusters */}
