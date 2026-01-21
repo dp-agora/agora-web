@@ -5,7 +5,7 @@ import { Footer } from "@/components/layout/Footer";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/routing";
 import { useBooking } from "@/context/BookingContext";
 import Script from "next/script";
@@ -47,6 +47,11 @@ const allPractices = Object.values(practicesByCluster).flatMap(
 export default function PracticesPage() {
     const t = useTranslations("PracticesHub");
     const { openBooking } = useBooking();
+    const locale = useLocale();
+
+    // Construct locale-aware base URL for schema
+    const baseUrl = "https://www.agoralatam.com";
+    const localePath = locale === "es" ? "/es" : "";
 
     // Generate JSON-LD Schema
     const collectionPageSchema = {
@@ -54,7 +59,7 @@ export default function PracticesPage() {
         "@type": "CollectionPage",
         name: t("hero.title"),
         description: t("hero.subtitle"),
-        url: "https://www.agoralatam.com/practices",
+        url: `${baseUrl}${localePath}/practices`,
         mainEntity: {
             "@type": "ItemList",
             numberOfItems: allPractices.length,
@@ -63,7 +68,7 @@ export default function PracticesPage() {
                 position: index + 1,
                 item: {
                     "@type": "Service",
-                    "@id": `https://www.agoralatam.com/practices/${practice.slug}`,
+                    "@id": `${baseUrl}${localePath}/practices/${practice.slug}`,
                     name: t(`practices.${practice.key}.title`),
                     description: t(`practices.${practice.key}.description`),
                     provider: {
