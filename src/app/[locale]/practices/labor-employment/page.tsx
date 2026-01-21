@@ -76,17 +76,14 @@ export default function LaborEmploymentPage() {
     // Schema markup for SEO
     const serviceSchema = {
         "@context": "https://schema.org",
-        "@type": "Service",
-        "serviceType": "Labor & Employment Legal Services",
+        "@type": "LegalService",
+        "@id": "https://www.agoralatam.com/practices/labor-employment#service",
+        "name": "Labor & Employment Legal Services",
         "provider": {
-            "@type": "LegalService",
-            "name": "Ágora",
-            "url": "https://www.agoralatam.com"
+            "@id": "https://www.agoralatam.com/#organization"
         },
-        "areaServed": {
-            "@type": "Place",
-            "name": "Latin America"
-        },
+        "areaServed": ["Venezuela", "Latin America"],
+        "serviceType": ["Employment Litigation", "Collective Bargaining", "Labor Due Diligence", "Compensation & Benefits", "Workforce Restructuring"],
         "description": t("intro.lead")
     };
 

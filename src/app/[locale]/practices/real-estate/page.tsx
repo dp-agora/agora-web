@@ -76,17 +76,14 @@ export default function RealEstatePage() {
     // Schema markup for SEO
     const serviceSchema = {
         "@context": "https://schema.org",
-        "@type": "Service",
-        "serviceType": "Real Estate Legal Services",
+        "@type": "LegalService",
+        "@id": "https://www.agoralatam.com/practices/real-estate#service",
+        "name": "Real Estate Legal Services",
         "provider": {
-            "@type": "LegalService",
-            "name": "Ágora",
-            "url": "https://www.agoralatam.com"
+            "@id": "https://www.agoralatam.com/#organization"
         },
-        "areaServed": {
-            "@type": "Place",
-            "name": "Latin America"
-        },
+        "areaServed": ["Venezuela", "Latin America"],
+        "serviceType": ["Real Estate Acquisitions", "Development Projects", "Property Finance", "Commercial Leasing", "Real Estate Due Diligence"],
         "description": t("intro.lead")
     };
 

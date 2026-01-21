@@ -3,6 +3,7 @@
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { useTranslations } from "next-intl";
+import Script from "next/script";
 
 export default function DisclaimersPage() {
     const t = useTranslations("Disclaimers");
@@ -17,10 +18,32 @@ export default function DisclaimersPage() {
         "attorneyAdvertising",
     ];
 
+    // WebPage Schema
+    const webPageSchema = {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.agoralatam.com/disclaimers#webpage",
+        "name": "Disclaimers & Notices",
+        "description": "Important legal disclaimers and notices for Ágora Abogados.",
+        "isPartOf": {
+            "@id": "https://www.agoralatam.com/#website"
+        },
+        "publisher": {
+            "@id": "https://www.agoralatam.com/#organization"
+        },
+        "inLanguage": ["en", "es"]
+    };
+
     return (
-        <div className="flex min-h-screen flex-col">
-            <Navbar />
-            <main className="flex-1">
+        <>
+            <Script
+                id="disclaimers-webpage-schema"
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
+            />
+            <div className="flex min-h-screen flex-col">
+                <Navbar />
+                <main className="flex-1">
                 {/* Header */}
                 <section className="bg-primary text-white py-24">
                     <div className="container mx-auto px-6 lg:px-12">
@@ -55,6 +78,7 @@ export default function DisclaimersPage() {
                 </section>
             </main>
             <Footer />
-        </div>
+            </div>
+        </>
     );
 }

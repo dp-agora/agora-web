@@ -71,30 +71,15 @@ export default function ComplianceSanctionsPage() {
     // JSON-LD Schema
     const serviceSchema = {
         "@context": "https://schema.org",
-        "@type": "Service",
+        "@type": "LegalService",
+        "@id": "https://www.agoralatam.com/practices/compliance-sanctions#service",
         "name": "Compliance & International Sanctions Legal Services",
         "provider": {
-            "@type": "LegalService",
-            "name": "Ágora Abogados",
-            "url": "https://www.agoralatam.com"
+            "@id": "https://www.agoralatam.com/#organization"
         },
         "description": "Legal advisory for international sanctions compliance, OFAC/EU licensing, AML programs, and cross-border transaction structuring in high-risk jurisdictions.",
         "areaServed": ["Venezuela", "Latin America", "United States", "European Union"],
         "serviceType": ["Sanctions Compliance", "OFAC Licensing", "AML Compliance", "Regulatory Advisory", "Cross-Border Transactions"]
-    };
-
-    const organizationSchema = {
-        "@context": "https://schema.org",
-        "@type": "LegalService",
-        "name": "Ágora Abogados",
-        "url": "https://www.agoralatam.com",
-        "logo": "https://www.agoralatam.com/assets/logo.png",
-        "description": "Institutional-grade legal counsel on international sanctions and regulatory compliance for multinational corporations and financial institutions.",
-        "areaServed": {
-            "@type": "Place",
-            "name": "Latin America"
-        },
-        "knowsAbout": ["OFAC Sanctions", "EU Sanctions", "AML Compliance", "Cross-Border Transactions", "Venezuela Sanctions"]
     };
 
     return (
@@ -103,11 +88,6 @@ export default function ComplianceSanctionsPage() {
                 id="compliance-service-schema"
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
-            />
-            <Script
-                id="compliance-organization-schema"
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
             />
 
             <div className="flex min-h-screen flex-col">
