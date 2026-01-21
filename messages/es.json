@@ -1202,6 +1202,18 @@
             "lead": "La planificación fiscal efectiva no se trata de minimizar obligaciones—se trata de estructurar operaciones de manera que sean defendibles, eficientes y alineadas con la realidad comercial.",
             "body": "Nuestra Práctica Fiscal asesora a corporaciones, empresas familiares y grupos de inversión en todo el espectro de impuestos sobre la renta, precios de transferencia y estructuración internacional. Entendemos que las decisiones fiscales son decisiones de negocios, y abordamos cada encargo con la profundidad técnica requerida para satisfacer a los reguladores y la perspectiva estratégica necesaria para crear valor. Ya sea que esté expandiéndose a nuevos mercados, reestructurando holdings heredados o navegando una transacción transfronteriza, proporcionamos la arquitectura para ejecutar con confianza."
         },
+        "aeoDefinition": {
+            "question": "¿Qué es la asesoría fiscal transfronteriza?",
+            "answer": "La asesoría fiscal transfronteriza es la práctica especializada de estructurar operaciones comerciales internacionales, transacciones y arreglos corporativos para lograr eficiencia fiscal a través de múltiples jurisdicciones mientras se mantiene el cumplimiento legal completo. Abarca precios de transferencia, planificación de tratados, estructuración de holdings y coordinación con autoridades fiscales en diferentes países.",
+            "helpTitle": "Cómo Ágora ayuda en asuntos fiscales transfronterizos:",
+            "helpItems": [
+                "Diseñar estructuras de holding y financiamiento fiscalmente eficientes para transacciones del corredor EE.UU.–LatAm",
+                "Preparar y defender documentación de precios de transferencia bajo lineamientos de la OCDE",
+                "Optimizar beneficios de tratados para reducir retenciones en pagos transfronterizos",
+                "Realizar due diligence fiscal para transacciones de M&A con exposición regional",
+                "Representar clientes en auditorías y controversias con autoridades fiscales latinoamericanas"
+            ]
+        },
         "practice": {
             "badge": "Nuestro Enfoque",
             "title": "Qué Define Nuestra Práctica Fiscal",

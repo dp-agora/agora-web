@@ -495,13 +495,16 @@ export default function RealEstatePage() {
                                             }`}
                                     />
                                 </button>
-                                {openFaq === index && (
+                                <div
+                                    className={`overflow-hidden transition-all duration-300 ${openFaq === index ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}
+                                    aria-hidden={openFaq !== index}
+                                >
                                     <div className="px-6 pb-6">
                                         <p className="text-slate-600 leading-relaxed">
                                             {t(`faqs.items.${faq}.answer`)}
                                         </p>
                                     </div>
-                                )}
+                                </div>
                             </motion.div>
                         ))}
                     </motion.div>
