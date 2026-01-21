@@ -11,6 +11,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
         '/team',
         '/careers',
         '/contact',
+        '/privacy-policy',
+        '/legal-terms',
+        '/disclaimers',
     ]
 
     // Team member slugs

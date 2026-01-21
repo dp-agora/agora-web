@@ -2704,5 +2704,149 @@
             "description": "Para asuntos legales complejos, lo invitamos a conectar directamente con nuestro equipo.",
             "button": "Conectar"
         }
+    },
+    "PrivacyPolicy": {
+        "header": {
+            "title": "Política de Privacidad",
+            "subtitle": "Recopilación y Uso de Información",
+            "lastUpdated": "Última Actualización: Enero 2025"
+        },
+        "sections": {
+            "introduction": {
+                "title": "Introducción",
+                "content": "Ágora Abogados (\"Ágora,\" \"nosotros\" o \"nuestro\") está comprometido con la protección de la privacidad de las personas que visitan nuestro sitio web. Esta Política de Privacidad describe nuestras prácticas con respecto a la recopilación, uso y divulgación de información que recibimos a través de nuestro sitio web. Esta política se aplica a todos los visitantes y usuarios del sitio web de Ágora."
+            },
+            "informationCollected": {
+                "title": "Información Recopilada",
+                "content": "Podemos recopilar información que usted nos proporciona voluntariamente cuando utiliza nuestro sitio web, incluyendo:",
+                "items": {
+                    "contact": "Información de contacto (como nombre, dirección de correo electrónico, número de teléfono) cuando envía consultas a través de nuestros formularios de contacto",
+                    "correspondence": "Información contenida en la correspondencia que nos envía",
+                    "usage": "Información técnica sobre su visita, incluyendo las páginas a las que accede, su dirección IP, tipo de navegador y sistema operativo, recopilada a través de registros estándar del servidor web y herramientas de análisis"
+                }
+            },
+            "useOfInformation": {
+                "title": "Uso de la Información",
+                "content": "Utilizamos la información que recopilamos para los siguientes propósitos:",
+                "items": {
+                    "respond": "Para responder a consultas y proporcionar información que haya solicitado",
+                    "communicate": "Para comunicarnos con usted sobre nuestros servicios",
+                    "improve": "Para mejorar nuestro sitio web y servicios",
+                    "comply": "Para cumplir con obligaciones legales y proteger nuestros derechos legales"
+                }
+            },
+            "dataSharing": {
+                "title": "Compartición de Datos",
+                "content": "No vendemos, alquilamos ni intercambiamos su información personal con terceros. Podemos compartir su información con proveedores de servicios externos que nos ayudan a operar nuestro sitio web y realizar nuestras actividades comerciales, sujetos a obligaciones de confidencialidad. También podemos divulgar información cuando lo exija la ley o para proteger nuestros derechos legales."
+            },
+            "dataSecurity": {
+                "title": "Seguridad de Datos",
+                "content": "Empleamos salvaguardas administrativas, técnicas y físicas razonables diseñadas para proteger la información personal que recopilamos. Sin embargo, ningún método de transmisión por Internet o almacenamiento electrónico es completamente seguro, y no podemos garantizar la seguridad absoluta de su información."
+            },
+            "internationalTransfers": {
+                "title": "Transferencias Internacionales de Datos",
+                "content": "Nuestras operaciones se realizan en múltiples jurisdicciones, incluyendo Venezuela, México y otros países latinoamericanos. La información que recopilamos puede ser transferida, almacenada y procesada en cualquier país donde nosotros o nuestros proveedores de servicios mantengamos instalaciones. Al utilizar nuestro sitio web, usted reconoce que su información puede ser transferida a ubicaciones fuera de su país de residencia."
+            },
+            "userRights": {
+                "title": "Derechos del Usuario",
+                "content": "Dependiendo de su jurisdicción, usted puede tener ciertos derechos con respecto a su información personal, incluyendo el derecho de acceder, corregir o eliminar su información personal. Para ejercer cualquier derecho aplicable, contáctenos utilizando la información proporcionada a continuación. Responderemos a las solicitudes de acuerdo con la ley aplicable."
+            },
+            "cookies": {
+                "title": "Cookies y Tecnologías de Seguimiento",
+                "content": "Nuestro sitio web utiliza cookies y tecnologías de seguimiento similares para analizar el tráfico del sitio web y mejorar su experiencia. Las cookies son pequeños archivos de datos almacenados en su dispositivo. Puede configurar su navegador para rechazar cookies, aunque esto puede afectar la funcionalidad de nuestro sitio web. Utilizamos servicios de análisis que pueden recopilar información sobre sus actividades en línea a lo largo del tiempo y en diferentes sitios web."
+            },
+            "updates": {
+                "title": "Actualizaciones de Esta Política",
+                "content": "Podemos actualizar esta Política de Privacidad de vez en cuando para reflejar cambios en nuestras prácticas o la ley aplicable. Publicaremos cualquier cambio en esta página con una fecha de revisión actualizada. Le animamos a revisar esta política periódicamente."
+            },
+            "contact": {
+                "title": "Información de Contacto",
+                "content": "Si tiene preguntas sobre esta Política de Privacidad o nuestras prácticas de privacidad, contáctenos en:",
+                "email": "info@agoralatam.com"
+            }
+        }
+    },
+    "LegalTerms": {
+        "header": {
+            "title": "Términos Legales",
+            "subtitle": "Términos de Uso",
+            "lastUpdated": "Última Actualización: Enero 2025"
+        },
+        "sections": {
+            "websiteUse": {
+                "title": "Uso del Sitio Web",
+                "content": "Al acceder y utilizar este sitio web, usted acepta y acuerda estar sujeto a estos términos y condiciones. Este sitio web es propiedad y está operado por Ágora Abogados. La información proporcionada en este sitio web está destinada únicamente a fines informativos generales y no debe interpretarse como asesoramiento legal o la formación de una relación abogado-cliente."
+            },
+            "noLegalAdvice": {
+                "title": "Sin Asesoramiento Legal",
+                "content": "El contenido de este sitio web se proporciona únicamente con fines informativos generales. Nada en este sitio web constituye asesoramiento legal, ni crea una relación abogado-cliente. La información presentada puede no reflejar los desarrollos legales más recientes. No debe actuar ni abstenerse de actuar basándose en la información contenida en este sitio web sin buscar primero el consejo de un abogado calificado admitido para ejercer en su jurisdicción."
+            },
+            "noAttorneyClient": {
+                "title": "Sin Relación Abogado-Cliente",
+                "content": "El uso de este sitio web o la comunicación con Ágora Abogados a través de este sitio web no crea una relación abogado-cliente. Una relación abogado-cliente con Ágora Abogados se establece únicamente mediante una carta de compromiso formal firmada por ambas partes. La información no solicitada enviada a través de este sitio web o correo electrónico no puede ser tratada como confidencial y no estará protegida por el secreto profesional."
+            },
+            "intellectualProperty": {
+                "title": "Propiedad Intelectual",
+                "content": "Todo el contenido de este sitio web, incluyendo texto, gráficos, logotipos, imágenes y software, es propiedad de Ágora Abogados o sus proveedores de contenido y está protegido por las leyes de propiedad intelectual. No puede reproducir, distribuir, modificar o crear obras derivadas de ningún contenido de este sitio web sin nuestro consentimiento previo por escrito."
+            },
+            "thirdPartyLinks": {
+                "title": "Enlaces a Terceros",
+                "content": "Este sitio web puede contener enlaces a sitios web de terceros. Estos enlaces se proporcionan únicamente por conveniencia. Ágora Abogados no respalda, controla ni asume responsabilidad por el contenido, las políticas de privacidad o las prácticas de cualquier sitio web de terceros. Usted accede a sitios web de terceros bajo su propio riesgo."
+            },
+            "limitationOfLiability": {
+                "title": "Limitación de Responsabilidad",
+                "content": "En la máxima medida permitida por la ley aplicable, Ágora Abogados no será responsable de ningún daño directo, indirecto, incidental, consecuente o especial que surja de o se relacione con su uso de este sitio web o la confianza en cualquier información proporcionada en él. Este sitio web y su contenido se proporcionan \"tal cual\" sin garantías de ningún tipo, ya sean expresas o implícitas."
+            },
+            "governingLaw": {
+                "title": "Ley Aplicable",
+                "content": "Estos términos y condiciones se regirán e interpretarán de acuerdo con las leyes de la República Bolivariana de Venezuela, sin tener en cuenta sus disposiciones sobre conflictos de leyes. Cualquier disputa que surja de o se relacione con el uso de este sitio web estará sujeta a la jurisdicción exclusiva de los tribunales de Venezuela, a menos que se acuerde lo contrario por escrito o lo requiera la ley aplicable en su jurisdicción."
+            },
+            "modifications": {
+                "title": "Modificaciones",
+                "content": "Ágora Abogados se reserva el derecho de modificar estos términos y condiciones en cualquier momento sin previo aviso. Su uso continuado de este sitio web después de cualquier cambio constituye la aceptación de los términos modificados. Le animamos a revisar estos términos periódicamente."
+            },
+            "contact": {
+                "title": "Información de Contacto",
+                "content": "Si tiene preguntas sobre estos Términos Legales, contáctenos en:",
+                "email": "info@agoralatam.com"
+            }
+        }
+    },
+    "Disclaimers": {
+        "header": {
+            "title": "Avisos Legales",
+            "subtitle": "Información Legal Importante",
+            "lastUpdated": "Última Actualización: Enero 2025"
+        },
+        "sections": {
+            "generalDisclaimer": {
+                "title": "Descargo de Responsabilidad General",
+                "content": "Los materiales e información en este sitio web se proporcionan únicamente con fines informativos generales. No constituyen asesoramiento legal y no se debe confiar en ellos como tal. La información puede no reflejar los desarrollos legales actuales, veredictos o acuerdos. Ágora Abogados rechaza expresamente toda responsabilidad por acciones tomadas o no tomadas basándose en cualquier contenido de este sitio web."
+            },
+            "noLegalAdvice": {
+                "title": "Sin Asesoramiento Legal",
+                "content": "Nada en este sitio web debe interpretarse como asesoramiento legal u opinión legal sobre hechos o circunstancias específicas. Los contenidos están destinados únicamente a fines informativos generales. Se le insta a consultar con su propio abogado sobre su situación y cualquier pregunta legal específica que pueda tener."
+            },
+            "noAttorneyClient": {
+                "title": "Sin Relación Abogado-Cliente",
+                "content": "Su uso de este sitio web no crea una relación abogado-cliente entre usted y Ágora Abogados o cualquiera de sus abogados. Una relación abogado-cliente solo puede formarse mediante un acuerdo de compromiso por escrito. Por favor, no nos envíe información confidencial hasta que se haya establecido dicha relación."
+            },
+            "confidentiality": {
+                "title": "Aviso de Confidencialidad",
+                "content": "Las comunicaciones realizadas a través de este sitio web, incluyendo correos electrónicos y envíos de formularios de contacto, no son seguras y no son confidenciales. La información enviada antes del establecimiento de una relación abogado-cliente no puede ser tratada como privilegiada o confidencial. No podemos garantizar la confidencialidad de la información transmitida a través de Internet."
+            },
+            "jurisdictionalPractice": {
+                "title": "Aviso sobre Ejercicio Jurisdiccional",
+                "content": "Ágora Abogados está autorizado para ejercer la abogacía en Venezuela y mantiene relaciones con abogados calificados en otras jurisdicciones. Los requisitos de licencia de abogados varían según la jurisdicción. Nada en este sitio web pretende sugerir que Ágora Abogados o cualquiera de sus abogados están autorizados para ejercer en jurisdicciones donde no están debidamente licenciados."
+            },
+            "priorResults": {
+                "title": "Descargo sobre Resultados Previos",
+                "content": "Cualquier resultado de casos, representaciones de clientes o experiencia descrita en este sitio web no pretende ser una garantía, aval o predicción sobre el resultado de su asunto legal. El resultado de cualquier asunto legal depende de una variedad de factores únicos de cada caso. Los resultados previos no garantizan un resultado similar."
+            },
+            "attorneyAdvertising": {
+                "title": "Aviso de Publicidad de Abogados",
+                "content": "Este sitio web puede constituir publicidad de abogados en ciertas jurisdicciones. La información contenida aquí tiene la intención de proporcionar información general sobre Ágora Abogados y sus servicios. No pretende ser asesoramiento legal específico y no debe utilizarse como sustituto del asesoramiento legal competente."
+            }
+        }
     }
 }
