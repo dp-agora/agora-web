@@ -2428,5 +2428,207 @@
             "description": "For matters involving complex litigation, international arbitration, or cross-border enforcement, we invite you to engage directly with our practice.",
             "button": "Schedule a Confidential Consultation"
         }
+    },
+    "InvestmentArbitration": {
+        "hero": {
+            "badge": "Practice Area",
+            "title": "Investment Arbitration",
+            "subtitle": "Investor–State Dispute Specialists",
+            "description": "Institutional-grade counsel for investor–state disputes across Latin America and international forums, advising foreign investors, multinational corporations, and award holders on ICSID and UNCITRAL proceedings, state negotiations, and cross-border enforcement of arbitral awards."
+        },
+        "intro": {
+            "lead": "Latin America remains one of the world's most active regions for investment treaty claims. Whether initiating proceedings against a state, defending treaty protections, negotiating resolution, or enforcing and monetizing arbitral awards, Ágora brings institutional discipline and commercial pragmatism to investor–state disputes.",
+            "body": "We operate at the intersection of arbitration advocacy, state negotiation, and enforcement execution. Our counsel is not merely about winning at the tribunal—it's about securing recoverable outcomes that preserve client capital and commercial relationships."
+        },
+        "approach": {
+            "badge": "Our Approach",
+            "title": "Aggressive Strategy + Procedural Discipline",
+            "paragraph1": "Investor–state disputes require a hybrid posture: aggressive in pursuing treaty rights, disciplined in procedural execution, and commercially pragmatic in resolution strategy. We combine tribunal-facing advocacy with parallel negotiation tracks, always calibrating tactics to the client's business objectives and the realistic enforcement landscape.",
+            "situations": {
+                "title": "Clients engage Ágora for:",
+                "item1": "ICSID, UNCITRAL, or ad hoc treaty arbitrations",
+                "item2": "Pre-arbitration negotiations with states or state-owned entities",
+                "item3": "Award enforcement against sovereign assets",
+                "item4": "Award purchase, assignment, and monetization transactions",
+                "item5": "Sovereign immunity and asset tracing strategy"
+            },
+            "paragraph2": "International law firms and corporate principals trust Ágora as their Latin America–focused investment arbitration partner, leveraging our regional judgment, procedural knowledge, and enforcement execution capabilities."
+        },
+        "services": {
+            "badge": "Core Capabilities",
+            "title": "What We Do",
+            "items": {
+                "icsid-uncitral": {
+                    "title": "ICSID & UNCITRAL Arbitration Proceedings",
+                    "description": "Full-service representation in investor–state arbitrations under ICSID Convention, ICSID Additional Facility, and UNCITRAL rules. We handle jurisdictional strategy, quantum presentation, document production, witness preparation, and post-hearing briefing with institutional rigor."
+                },
+                "negotiation-settlement": {
+                    "title": "Negotiation & Settlement with States",
+                    "description": "Pre-arbitration and concurrent negotiation with sovereigns and state-owned entities. We structure settlement frameworks that achieve recovery while preserving enforcement optionality, and coordinate with local counsel and political advisors when required."
+                },
+                "enforcement": {
+                    "title": "Enforcement of Arbitral Awards",
+                    "description": "Multi-jurisdictional enforcement of ICSID and non-ICSID awards under applicable conventions. We coordinate recognition proceedings across U.S., EU, and Latin American courts, navigating sovereign immunity defenses and foreign sovereign immunities act complexities."
+                },
+                "monetization": {
+                    "title": "Award Monetization & Assignment",
+                    "description": "Structuring transactions for the sale, assignment, or financing of arbitral awards. We advise claimants, funds, and distressed-asset investors on purchase structures, due diligence, and the legal architecture for award monetization."
+                }
+            }
+        },
+        "clients": {
+            "badge": "Who We Advise",
+            "title": "Our Clients",
+            "items": {
+                "foreign-investors": {
+                    "title": "Foreign Investors",
+                    "description": "Individuals and entities with treaty-protected investments"
+                },
+                "multinationals": {
+                    "title": "Multinational Corporations",
+                    "description": "Global enterprises with Latin American investment exposure"
+                },
+                "award-holders": {
+                    "title": "Award Holders & Funds",
+                    "description": "Claimants and funds requiring enforcement or monetization"
+                },
+                "funders": {
+                    "title": "Funders & Distressed-Asset Investors",
+                    "description": "Litigation funders and award purchasers"
+                },
+                "sovereigns": {
+                    "title": "Sovereign Clients",
+                    "description": "Select mandates advising states and SOEs on treaty defense"
+                }
+            }
+        },
+        "jurisdictions": {
+            "badge": "Geographic Focus",
+            "title": "Jurisdictional Expertise",
+            "items": {
+                "venezuela": {
+                    "title": "Venezuela",
+                    "description": "Deep experience in investor–state claims involving nationalization and expropriation"
+                },
+                "latin-america": {
+                    "title": "Latin America",
+                    "description": "Regional coverage across Colombia, Mexico, Peru, Argentina, and Central America"
+                },
+                "international-forums": {
+                    "title": "International Forums",
+                    "description": "ICSID (Washington), UNCITRAL proceedings, PCA (The Hague), and ad hoc tribunals"
+                },
+                "enforcement-jurisdictions": {
+                    "title": "Enforcement Jurisdictions",
+                    "description": "U.S., UK, EU, and Latin American courts for award recognition and asset tracing"
+                }
+            }
+        },
+        "value": {
+            "badge": "Why Ágora",
+            "title": "Our Differentiators",
+            "subtitle": "Institutional rigor meets LatAm execution—from tribunal advocacy to award monetization.",
+            "items": {
+                "latam-expertise": {
+                    "title": "Latin America–Focused Expertise",
+                    "description": "Deep jurisdictional knowledge across Venezuela/LatAm investor–state disputes—understanding local procedural realities, political dynamics, and enforcement landscapes."
+                },
+                "hybrid-posture": {
+                    "title": "Hybrid Strategic Posture",
+                    "description": "Combining aggressive arbitration advocacy with pragmatic negotiation and enforcement execution. We calibrate tactics to the realistic recovery horizon."
+                },
+                "enforcement-execution": {
+                    "title": "Enforcement Execution",
+                    "description": "Not just tribunal wins—recoverable outcomes. We integrate enforcement strategy from day one, coordinating award recognition across multiple jurisdictions."
+                },
+                "monetization-capability": {
+                    "title": "Award Monetization Capability",
+                    "description": "Advanced capability in award sale, assignment, and financing. We advise on both sides of award transactions, enabling liquidity options for claimants and structured entry points for investors."
+                }
+            }
+        },
+        "faqs": {
+            "badge": "Frequently Asked Questions",
+            "title": "Investment Arbitration FAQs",
+            "items": {
+                "what-is-investment-arbitration": {
+                    "question": "What is investment arbitration?",
+                    "answer": "Investment arbitration is a specialized dispute resolution mechanism allowing foreign investors to bring claims against host states under bilateral investment treaties (BITs), multilateral treaties, or investment contracts. Proceedings typically occur before ICSID, UNCITRAL tribunals, or other international forums, and awards are enforceable across jurisdictions."
+                },
+                "treaties-latin-america": {
+                    "question": "What treaties protect investors in Latin America?",
+                    "answer": "Investors may be protected under bilateral investment treaties (e.g., Venezuela–Netherlands BIT), multilateral agreements (e.g., CAFTA-DR, USMCA), and investment contracts with stabilization clauses. Treaty protections vary by nationality, timing of investment, and covered sectors. Proper treaty planning before investment can significantly enhance protection."
+                },
+                "icsid-duration": {
+                    "question": "How long does ICSID arbitration take?",
+                    "answer": "ICSID proceedings typically last 3–5 years from registration to award, though complex cases may extend longer. Timelines depend on jurisdictional challenges, document production scope, quantum complexity, and tribunal availability. Expedited procedures may be available for certain claims."
+                },
+                "award-enforcement": {
+                    "question": "Can arbitral awards against states be enforced?",
+                    "answer": "Yes. ICSID awards are enforceable as final judgments in all 165+ ICSID member states. Non-ICSID awards are enforceable under the New York Convention. Enforcement challenges include sovereign immunity defenses, asset identification, and coordinating recognition proceedings across multiple jurisdictions."
+                },
+                "award-monetization": {
+                    "question": "What is award monetization?",
+                    "answer": "Award monetization involves the sale, assignment, or financing of arbitral awards—allowing claimants to realize value before or in lieu of pursuing enforcement. Transactions may involve outright purchase, partial assignment, or secured financing against anticipated recovery. This provides liquidity while transferring enforcement risk."
+                },
+                "pre-arbitration-negotiation": {
+                    "question": "When should I consider negotiating with a state before arbitration?",
+                    "answer": "Pre-arbitration negotiation may be advisable when the state signals willingness to resolve, when political dynamics favor settlement, or when enforcement prospects against sovereign assets are uncertain. We typically structure parallel tracks—preserving arbitration rights while exploring resolution pathways."
+                }
+            }
+        },
+        "related": {
+            "badge": "Related Practices",
+            "title": "Integrated Capabilities",
+            "items": {
+                "litigation": {
+                    "title": "Litigation & Dispute Resolution",
+                    "description": "Commercial litigation and cross-border enforcement"
+                },
+                "compliance": {
+                    "title": "Compliance & International Sanctions",
+                    "description": "Sanctions-informed transaction structuring"
+                },
+                "banking": {
+                    "title": "Banking & Finance",
+                    "description": "Financial structuring and correspondent banking"
+                },
+                "corporate": {
+                    "title": "Corporate & M&A",
+                    "description": "Investment structuring and treaty planning"
+                }
+            }
+        },
+        "leadership": {
+            "badge": "Practice Leadership",
+            "title": "Our Team",
+            "members": {
+                "alvaro": {
+                    "name": "Álvaro J. Posada Sessarego",
+                    "role": "Partner",
+                    "focus": "Investor–state arbitration strategy and award enforcement"
+                },
+                "jose": {
+                    "name": "José P. Barnola Jr.",
+                    "role": "Partner / Practice Leader",
+                    "focus": "Investment arbitration, treaty interpretation, and sovereign disputes"
+                },
+                "marco": {
+                    "name": "Marco Gómez",
+                    "role": "Senior Associate",
+                    "focus": "ICSID proceedings and cross-border enforcement coordination"
+                },
+                "ariana": {
+                    "name": "Ariana Cabrera Acevedo",
+                    "role": "Practice Leader",
+                    "focus": "Regulatory frameworks affecting investor–state claims"
+                }
+            }
+        },
+        "cta": {
+            "title": "Strategic Investment Arbitration Counsel",
+            "description": "For matters involving investor–state disputes, treaty-based claims, or arbitral award enforcement and monetization, we invite you to engage directly with our practice.",
+            "button": "Schedule a Confidential Consultation"
+        }
     }
 }
