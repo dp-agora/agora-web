@@ -17,11 +17,17 @@
         "corporate": "Corporativo y M&A",
         "banking": "Banca y Finanzas",
         "tax": "Impuestos",
-        "regulatory": "Regulatorio y Cumplimiento",
+        "compliance": "Cumplimiento y Sanciones",
+        "litigation": "Litigio y Controversias",
+        "arbitration": "Arbitraje de Inversión",
+        "realEstate": "Bienes Raíces",
+        "environmental": "Ambiental",
+        "labor": "Laboral y Empleo",
         "description": "Servicio de boutique legal personalizada con alcance, capacidades y visión global.",
         "rights": "© {year} ÁGORA. TODOS LOS DERECHOS RESERVADOS. ASESORÍA ESTRATÉGICA LEGAL Y DE INVERSIÓN.",
         "privacy": "Política de Privacidad",
-        "terms": "Términos Legales"
+        "terms": "Términos Legales",
+        "disclaimers": "Avisos Legales"
     },
     "HomePage": {
         "hero": {

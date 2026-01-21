@@ -21,7 +21,12 @@ export function Footer() {
                 { name: t("corporate"), href: "/practices/corporate-ma" },
                 { name: t("banking"), href: "/practices/banking-finance" },
                 { name: t("tax"), href: "/practices/tax" },
-                { name: t("regulatory"), href: "/practices/compliance-sanctions" },
+                { name: t("compliance"), href: "/practices/compliance-sanctions" },
+                { name: t("litigation"), href: "/practices/litigation-disputes" },
+                { name: t("arbitration"), href: "/practices/investment-arbitration" },
+                { name: t("realEstate"), href: "/practices/real-estate" },
+                { name: t("environmental"), href: "/practices/environmental" },
+                { name: t("labor"), href: "/practices/labor-employment" },
             ],
         },
     ];
@@ -70,9 +75,11 @@ export function Footer() {
                     <p className="text-[10px] text-white/30 font-bold uppercase tracking-[0.2em]">
                         {t("rights", { year: new Date().getFullYear() })}
                     </p>
+                    {/* TODO: Legal page content to be implemented in follow-up PR */}
                     <div className="flex gap-8 text-[10px] font-bold uppercase tracking-[0.2em]">
-                        <Link href="/privacy" className="text-white/30 hover:text-white transition-colors">{t("privacy")}</Link>
-                        <Link href="/terms" className="text-white/30 hover:text-white transition-colors">{t("terms")}</Link>
+                        <Link href="/privacy-policy" className="text-white/30 hover:text-white transition-colors">{t("privacy")}</Link>
+                        <Link href="/legal-terms" className="text-white/30 hover:text-white transition-colors">{t("terms")}</Link>
+                        <Link href="/disclaimers" className="text-white/30 hover:text-white transition-colors">{t("disclaimers")}</Link>
                     </div>
                 </div>
             </div>
