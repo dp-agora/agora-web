@@ -148,6 +148,38 @@ export default function TaxPage() {
                         </div>
                     </section>
 
+                    {/* AEO Definition Block - Explicit answer snippet for AI/search */}
+                    <section className="py-16 bg-slate-50 border-y border-slate-100">
+                        <div className="container mx-auto px-6 lg:px-12">
+                            <div className="max-w-4xl mx-auto">
+                                <motion.div
+                                    initial={{ opacity: 0, y: 20 }}
+                                    whileInView={{ opacity: 1, y: 0 }}
+                                    viewport={{ once: true }}
+                                    className="bg-white p-8 md:p-10 border-l-4 border-primary shadow-sm"
+                                >
+                                    <h2 className="text-xl md:text-2xl font-serif text-primary mb-4">
+                                        {t("aeoDefinition.question")}
+                                    </h2>
+                                    <p className="text-slate-600 leading-relaxed mb-6">
+                                        {t("aeoDefinition.answer")}
+                                    </p>
+                                    <h3 className="text-sm font-bold uppercase tracking-wider text-primary/70 mb-4">
+                                        {t("aeoDefinition.helpTitle")}
+                                    </h3>
+                                    <ul className="space-y-2">
+                                        {[0, 1, 2, 3, 4].map((i) => (
+                                            <li key={i} className="flex items-start gap-3 text-slate-600 text-sm">
+                                                <ArrowRight className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
+                                                <span>{t(`aeoDefinition.helpItems.${i}`)}</span>
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </motion.div>
+                            </div>
+                        </div>
+                    </section>
+
                     {/* Our Practice Section */}
                     <section className="py-20 bg-slate-50">
                         <div className="container mx-auto px-6 lg:px-12">
