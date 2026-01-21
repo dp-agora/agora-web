@@ -2630,5 +2630,73 @@
             "description": "For matters involving investor–state disputes, treaty-based claims, or arbitral award enforcement and monetization, we invite you to engage directly with our practice.",
             "button": "Schedule a Confidential Consultation"
         }
+    },
+    "PracticesHub": {
+        "hero": {
+            "badge": "Practice Areas",
+            "title": "Practice Areas",
+            "subtitle": "Integrated legal counsel across complex transactions, disputes, and regulatory matters."
+        },
+        "clusters": {
+            "corporate": {
+                "title": "Corporate & Transactions"
+            },
+            "finance": {
+                "title": "Finance & Capital Markets"
+            },
+            "disputes": {
+                "title": "Disputes & Arbitration"
+            },
+            "regulatory": {
+                "title": "Regulatory, Tax & Compliance"
+            },
+            "realAssets": {
+                "title": "Real Assets & Employment"
+            }
+        },
+        "practices": {
+            "corporateMA": {
+                "title": "Corporate & M&A",
+                "description": "Cross-border M&A, joint ventures, and corporate advisory for strategic corporates and multinationals across Latin America."
+            },
+            "bankingFinance": {
+                "title": "Banking & Finance",
+                "description": "Legal advisory for financial institutions, corporate borrowers, and institutional investors across complex banking transactions."
+            },
+            "litigationDisputes": {
+                "title": "Litigation & Dispute Resolution",
+                "description": "Litigation and arbitration counsel for cross-border disputes across Venezuela, Latin America, and international forums."
+            },
+            "investmentArbitration": {
+                "title": "Investment Arbitration",
+                "description": "Investor–state dispute counsel for ICSID and UNCITRAL proceedings, state negotiations, and cross-border award enforcement."
+            },
+            "tax": {
+                "title": "Tax",
+                "description": "Cross-border tax advisory for complex corporate structures, transfer pricing, and international tax planning."
+            },
+            "complianceSanctions": {
+                "title": "Compliance & International Sanctions",
+                "description": "Sanctions-informed transaction counsel for multinational corporations and financial institutions in high-risk jurisdictions."
+            },
+            "environmental": {
+                "title": "Environmental & Natural Resources",
+                "description": "Regulatory counsel for mining, energy, and infrastructure projects navigating complex environmental permitting frameworks."
+            },
+            "realEstate": {
+                "title": "Real Estate",
+                "description": "Integrated real estate solutions for cross-border investment, development, and structured property transactions."
+            },
+            "laborEmployment": {
+                "title": "Labor & Employment",
+                "description": "Strategic workforce counsel for multinational and regional businesses across labor compliance, disputes, and restructuring."
+            }
+        },
+        "linkText": "Learn more",
+        "cta": {
+            "title": "Engage With Our Practice",
+            "description": "For complex legal matters, we invite you to connect directly with our team.",
+            "button": "Connect"
+        }
     }
 }
