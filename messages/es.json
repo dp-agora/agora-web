@@ -2264,5 +2264,169 @@
             "description": "Para asuntos relacionados con sanciones internacionales, cumplimiento regulatorio o aprobación de transacciones transfronterizas, lo invitamos a contactar directamente nuestra práctica.",
             "button": "Agendar una Consulta Confidencial"
         }
+    },
+    "LitigationDisputes": {
+        "hero": {
+            "badge": "Área de Práctica",
+            "title": "Litigios y Resolución de Disputas",
+            "subtitle": "Gestión de Disputas Transfronterizas",
+            "description": "Asesoría institucional en litigios y arbitraje para disputas transfronterizas, asesorando a corporaciones multinacionales, grupos empresariales regionales e inversores en controversias comerciales complejas, conflictos societarios y procedimientos de ejecución en Venezuela, América Latina y foros internacionales."
+        },
+        "intro": {
+            "lead": "Cuando las disputas cruzan fronteras, rara vez se resuelven en un solo tribunal. Ya sea navegando procedimientos paralelos en múltiples jurisdicciones, ejecutando laudos arbitrales o coordinando medidas cautelares con rastreo de activos, Ágora aporta disciplina institucional al trabajo de controversias de alto impacto.",
+            "body": "Combinamos estrategia de litigio agresiva con rigor procesal—asegurando ventaja mientras preservamos opcionalidad. Los asesores internacionales y directivos corporativos confían en nosotros cuando las disputas involucran a Venezuela o América Latina porque entendemos tanto el terreno como el objetivo final."
+        },
+        "approach": {
+            "badge": "Nuestro Enfoque",
+            "title": "Gestores Estratégicos de Disputas — No Solo Litigantes",
+            "paragraph1": "Venezuela y América Latina presentan dinámicas de disputas únicas: cronogramas judiciales impredecibles, complejidad multi-foro y activos que frecuentemente requieren ejecución transfronteriza. Nuestro enfoque integra dominio procesal con estrategia comercial, asegurando que cada decisión táctica avance tanto el caso legal como los objetivos comerciales del cliente.",
+            "paragraph2": "Somos confiados por firmas AmLaw 100 y Magic Circle como su especialista en disputas Venezuela/LatAm—coordinando con asesores internacionales mientras gestionamos la ejecución local. Para directivos y juntas, proporcionamos asesoría directa que combina análisis de calidad institucional con recomendaciones prácticas y comercialmente viables."
+        },
+        "services": {
+            "badge": "Capacidades Principales",
+            "title": "Lo Que Hacemos",
+            "items": {
+                "commercial-litigation": {
+                    "title": "Litigios Comerciales y Contractuales",
+                    "description": "Disputas comerciales complejas derivadas de incumplimiento de contrato, ruptura de joint ventures, conflictos de distribución y cadena de suministro, y consecuencias transaccionales transfronterizas. Procesamos y defendemos reclamos con intensidad estratégica mientras gestionamos exposición de costos."
+                },
+                "corporate-disputes": {
+                    "title": "Disputas Corporativas y Societarias",
+                    "description": "Conflictos de gobernanza, opresión de accionistas minoritarios, reclamos por incumplimiento de deberes fiduciarios, disputas a nivel de directorio y controversias post-adquisición. Protegemos los intereses del cliente a través de litigio, negociación o resolución estructurada."
+                },
+                "arbitration-adr": {
+                    "title": "Arbitraje Internacional y ADR",
+                    "description": "Procedimientos de arbitraje ICC, ICSID, AAA y ad hoc. Ejecución de laudos bajo la Convención de Nueva York. Mediación y negociaciones de acuerdo estructuradas diseñadas para preservar relaciones cuando corresponda."
+                },
+                "enforcement-recovery": {
+                    "title": "Ejecución Transfronteriza y Recuperación de Activos",
+                    "description": "Ejecución multijurisdiccional de sentencias y laudos. Medidas cautelares, interdictos y rastreo coordinado de activos en Venezuela, América Latina, EE.UU. y Europa."
+                }
+            }
+        },
+        "clients": {
+            "badge": "A Quién Asesoramos",
+            "title": "Nuestros Clientes",
+            "items": {
+                "multinationals": {
+                    "title": "Corporaciones Multinacionales",
+                    "description": "Fortune 500 y empresas globales con exposición a Venezuela/LatAm"
+                },
+                "regional-groups": {
+                    "title": "Grupos Empresariales Regionales",
+                    "description": "Conglomerados de control familiar y corporaciones medianas"
+                },
+                "shareholders-investors": {
+                    "title": "Accionistas e Inversores",
+                    "description": "Principales, co-inversores y gestores de fondos en escenarios de disputa"
+                },
+                "international-firms": {
+                    "title": "Firmas de Abogados Internacionales",
+                    "description": "Actuando como asesores locales de litigio y especialistas jurisdiccionales"
+                },
+                "boards-fiduciaries": {
+                    "title": "Juntas Directivas y Fiduciarios",
+                    "description": "Directores y oficiales enfrentando reclamos de gobernanza"
+                }
+            }
+        },
+        "jurisdictions": {
+            "badge": "Alcance Jurisdiccional",
+            "title": "Dónde Operamos",
+            "items": {
+                "venezuela": {
+                    "title": "Venezuela",
+                    "description": "Profundo conocimiento procesal en tribunales civiles, comerciales y constitucionales"
+                },
+                "latin-america": {
+                    "title": "América Latina",
+                    "description": "Coordinación regional para disputas en Colombia, Panamá, México y más allá"
+                },
+                "international-forums": {
+                    "title": "Foros Internacionales",
+                    "description": "Procedimientos de arbitraje ICC, ICSID, AAA y UNCITRAL"
+                },
+                "enforcement-jurisdictions": {
+                    "title": "Jurisdicciones de Ejecución",
+                    "description": "Tribunales de EE.UU., UE y Reino Unido para reconocimiento de laudos y recuperación de activos"
+                }
+            }
+        },
+        "value": {
+            "badge": "Por Qué Ágora",
+            "title": "Nuestros Diferenciadores",
+            "subtitle": "Disciplina institucional combinada con agresión estratégica—asegurando ventaja mientras preservamos opcionalidad.",
+            "items": {
+                "multi-forum": {
+                    "title": "Coordinación Multi-Foro",
+                    "description": "Gestión fluida de procedimientos paralelos en tribunales y tribunales arbitrales—asegurando estrategia consistente y despliegue eficiente de recursos."
+                },
+                "enforcement-record": {
+                    "title": "Trayectoria de Ejecución",
+                    "description": "Experiencia comprobada en ejecución bajo la Convención de Nueva York y recuperación de activos transfronteriza, convirtiendo sentencias favorables en resultados cobrados."
+                },
+                "institutional-discipline": {
+                    "title": "Disciplina Institucional",
+                    "description": "Rigor procesal combinado con agresión estratégica—aplicando presión metódicamente mientras gestionamos riesgos y preservamos opciones de apelación."
+                },
+                "counsel-integration": {
+                    "title": "Integración con Asesores Internacionales",
+                    "description": "Confiados por firmas AmLaw 100 y Magic Circle como su especialista en disputas Venezuela/LatAm—coordinando fluidamente con equipos de litigio globales."
+                }
+            }
+        },
+        "related": {
+            "badge": "Prácticas Relacionadas",
+            "title": "Capacidades Integradas",
+            "items": {
+                "banking": {
+                    "title": "Banca y Finanzas",
+                    "description": "Disputas financieras y ejecución de garantías"
+                },
+                "corporate": {
+                    "title": "Corporativo y M&A",
+                    "description": "Disputas post-cierre y reclamos relacionados con M&A"
+                },
+                "compliance": {
+                    "title": "Cumplimiento y Sanciones Internacionales",
+                    "description": "Disputas involucrando partes o jurisdicciones sancionadas"
+                },
+                "real-estate": {
+                    "title": "Bienes Raíces",
+                    "description": "Disputas de propiedad y controversias de desarrollo"
+                }
+            }
+        },
+        "leadership": {
+            "badge": "Liderazgo de Práctica",
+            "title": "Nuestro Equipo",
+            "members": {
+                "alvaro": {
+                    "name": "Álvaro J. Posada Sessarego",
+                    "role": "Socio",
+                    "focus": "Litigios comerciales complejos y ejecución transfronteriza"
+                },
+                "ariana": {
+                    "name": "Ariana Cabrera Acevedo",
+                    "role": "Líder de Práctica",
+                    "focus": "Disputas corporativas, litigios societarios y conflictos de gobernanza"
+                },
+                "marco": {
+                    "name": "Marco Gómez",
+                    "role": "Asociado Senior",
+                    "focus": "Arbitraje internacional y ejecución de laudos"
+                },
+                "raul": {
+                    "name": "Raúl Sancristobal",
+                    "role": "Asociado Junior",
+                    "focus": "Estrategia procesal y apoyo en litigios"
+                }
+            }
+        },
+        "cta": {
+            "title": "Asesoría Estratégica en Resolución de Disputas",
+            "description": "Para asuntos que involucren litigios complejos, arbitraje internacional o ejecución transfronteriza, lo invitamos a contactar directamente nuestra práctica.",
+            "button": "Agendar una Consulta Confidencial"
+        }
     }
 }
