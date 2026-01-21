@@ -534,13 +534,16 @@ export default function CorporateMaPage() {
                                                     }`}
                                             />
                                         </button>
-                                        {openFaq === i && (
+                                        <div
+                                            className={`overflow-hidden transition-all duration-300 ${openFaq === i ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}
+                                            aria-hidden={openFaq !== i}
+                                        >
                                             <div className="px-6 pb-6">
                                                 <p className="text-slate-600 leading-relaxed">
                                                     {t(`faqs.${i}.answer`)}
                                                 </p>
                                             </div>
-                                        )}
+                                        </div>
                                     </motion.div>
                                 ))}
                             </div>
