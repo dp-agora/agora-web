@@ -2704,5 +2704,149 @@
             "description": "For complex legal matters, we invite you to connect directly with our team.",
             "button": "Connect"
         }
+    },
+    "PrivacyPolicy": {
+        "header": {
+            "title": "Privacy Policy",
+            "subtitle": "Information Collection and Use",
+            "lastUpdated": "Last Updated: January 2025"
+        },
+        "sections": {
+            "introduction": {
+                "title": "Introduction",
+                "content": "Ágora Abogados (\"Ágora,\" \"we,\" \"us,\" or \"our\") is committed to protecting the privacy of individuals who visit our website. This Privacy Policy describes our practices regarding the collection, use, and disclosure of information that we receive through our website. This policy applies to all visitors and users of the Ágora website."
+            },
+            "informationCollected": {
+                "title": "Information Collected",
+                "content": "We may collect information that you voluntarily provide to us when you use our website, including:",
+                "items": {
+                    "contact": "Contact information (such as name, email address, telephone number) when you submit inquiries through our contact forms",
+                    "correspondence": "Information contained in correspondence you send to us",
+                    "usage": "Technical information about your visit, including the pages you access, your IP address, browser type, and operating system, collected through standard web server logs and analytics tools"
+                }
+            },
+            "useOfInformation": {
+                "title": "Use of Information",
+                "content": "We use the information we collect for the following purposes:",
+                "items": {
+                    "respond": "To respond to inquiries and provide information you have requested",
+                    "communicate": "To communicate with you about our services",
+                    "improve": "To improve our website and services",
+                    "comply": "To comply with legal obligations and protect our legal rights"
+                }
+            },
+            "dataSharing": {
+                "title": "Data Sharing",
+                "content": "We do not sell, rent, or trade your personal information to third parties. We may share your information with third-party service providers who assist us in operating our website and conducting our business, subject to confidentiality obligations. We may also disclose information when required by law or to protect our legal rights."
+            },
+            "dataSecurity": {
+                "title": "Data Security",
+                "content": "We employ reasonable administrative, technical, and physical safeguards designed to protect the personal information we collect. However, no method of transmission over the Internet or electronic storage is completely secure, and we cannot guarantee absolute security of your information."
+            },
+            "internationalTransfers": {
+                "title": "International Data Transfers",
+                "content": "Our operations are conducted in multiple jurisdictions, including Venezuela, Mexico, and other Latin American countries. Information we collect may be transferred to, stored, and processed in any country where we or our service providers maintain facilities. By using our website, you acknowledge that your information may be transferred to locations outside your country of residence."
+            },
+            "userRights": {
+                "title": "User Rights",
+                "content": "Depending on your jurisdiction, you may have certain rights regarding your personal information, including the right to access, correct, or delete your personal information. To exercise any applicable rights, please contact us using the information provided below. We will respond to requests in accordance with applicable law."
+            },
+            "cookies": {
+                "title": "Cookies and Tracking Technologies",
+                "content": "Our website uses cookies and similar tracking technologies to analyze website traffic and improve your experience. Cookies are small data files stored on your device. You may configure your browser to refuse cookies, although this may affect the functionality of our website. We use analytics services that may collect information about your online activities over time and across different websites."
+            },
+            "updates": {
+                "title": "Updates to This Policy",
+                "content": "We may update this Privacy Policy from time to time to reflect changes in our practices or applicable law. We will post any changes on this page with an updated revision date. We encourage you to review this policy periodically."
+            },
+            "contact": {
+                "title": "Contact Information",
+                "content": "If you have questions about this Privacy Policy or our privacy practices, please contact us at:",
+                "email": "info@agoralatam.com"
+            }
+        }
+    },
+    "LegalTerms": {
+        "header": {
+            "title": "Legal Terms",
+            "subtitle": "Terms of Use",
+            "lastUpdated": "Last Updated: January 2025"
+        },
+        "sections": {
+            "websiteUse": {
+                "title": "Website Use",
+                "content": "By accessing and using this website, you accept and agree to be bound by these terms and conditions. This website is owned and operated by Ágora Abogados. The information provided on this website is intended for general informational purposes only and should not be construed as legal advice or the formation of an attorney-client relationship."
+            },
+            "noLegalAdvice": {
+                "title": "No Legal Advice",
+                "content": "The content of this website is provided for general information purposes only. Nothing on this website constitutes legal advice, nor does it create an attorney-client relationship. The information presented may not reflect the most current legal developments. You should not act or refrain from acting based on information contained on this website without first seeking the advice of qualified legal counsel admitted to practice in your jurisdiction."
+            },
+            "noAttorneyClient": {
+                "title": "No Attorney-Client Relationship",
+                "content": "Use of this website or communication with Ágora Abogados through this website does not create an attorney-client relationship. An attorney-client relationship with Ágora Abogados is established only through a formal engagement letter signed by both parties. Unsolicited information sent to us via this website or email cannot be treated as confidential and will not be protected by attorney-client privilege."
+            },
+            "intellectualProperty": {
+                "title": "Intellectual Property",
+                "content": "All content on this website, including text, graphics, logos, images, and software, is the property of Ágora Abogados or its content suppliers and is protected by intellectual property laws. You may not reproduce, distribute, modify, or create derivative works from any content on this website without our prior written consent."
+            },
+            "thirdPartyLinks": {
+                "title": "Third-Party Links",
+                "content": "This website may contain links to third-party websites. These links are provided for convenience only. Ágora Abogados does not endorse, control, or assume responsibility for the content, privacy policies, or practices of any third-party websites. You access third-party websites at your own risk."
+            },
+            "limitationOfLiability": {
+                "title": "Limitation of Liability",
+                "content": "To the fullest extent permitted by applicable law, Ágora Abogados shall not be liable for any direct, indirect, incidental, consequential, or special damages arising out of or relating to your use of this website or reliance on any information provided herein. This website and its contents are provided \"as is\" without warranties of any kind, either express or implied."
+            },
+            "governingLaw": {
+                "title": "Governing Law",
+                "content": "These terms and conditions shall be governed by and construed in accordance with the laws of the Bolivarian Republic of Venezuela, without regard to its conflict of law provisions. Any disputes arising from or relating to the use of this website shall be subject to the exclusive jurisdiction of the courts of Venezuela, unless otherwise agreed in writing or required by applicable law in your jurisdiction."
+            },
+            "modifications": {
+                "title": "Modifications",
+                "content": "Ágora Abogados reserves the right to modify these terms and conditions at any time without prior notice. Your continued use of this website following any changes constitutes acceptance of the modified terms. We encourage you to review these terms periodically."
+            },
+            "contact": {
+                "title": "Contact Information",
+                "content": "If you have questions about these Legal Terms, please contact us at:",
+                "email": "info@agoralatam.com"
+            }
+        }
+    },
+    "Disclaimers": {
+        "header": {
+            "title": "Disclaimers & Notices",
+            "subtitle": "Important Legal Information",
+            "lastUpdated": "Last Updated: January 2025"
+        },
+        "sections": {
+            "generalDisclaimer": {
+                "title": "General Information Disclaimer",
+                "content": "The materials and information on this website are provided for general informational purposes only. They do not constitute legal advice and should not be relied upon as such. The information may not reflect current legal developments, verdicts, or settlements. Ágora Abogados expressly disclaims all liability for actions taken or not taken based on any content on this website."
+            },
+            "noLegalAdvice": {
+                "title": "No Legal Advice",
+                "content": "Nothing on this website should be construed as legal advice or a legal opinion on any specific facts or circumstances. The contents are intended for general information purposes only. You are urged to consult your own legal counsel concerning your situation and any specific legal questions you may have."
+            },
+            "noAttorneyClient": {
+                "title": "No Attorney-Client Relationship",
+                "content": "Your use of this website does not create an attorney-client relationship between you and Ágora Abogados or any of its attorneys. An attorney-client relationship can only be formed through a written engagement agreement. Please do not send us any confidential information until such a relationship has been established."
+            },
+            "confidentiality": {
+                "title": "Confidentiality Notice",
+                "content": "Communications made through this website, including emails and contact form submissions, are not secure and are not confidential. Information submitted to us prior to the establishment of an attorney-client relationship cannot be treated as privileged or confidential. We cannot guarantee the confidentiality of information transmitted via the internet."
+            },
+            "jurisdictionalPractice": {
+                "title": "Jurisdictional Practice Disclaimer",
+                "content": "Ágora Abogados is authorized to practice law in Venezuela and maintains relationships with qualified counsel in other jurisdictions. Attorney licensing requirements vary by jurisdiction. Nothing on this website is intended to suggest that Ágora Abogados or any of its attorneys are authorized to practice in jurisdictions where they are not properly licensed."
+            },
+            "priorResults": {
+                "title": "Prior Results Disclaimer",
+                "content": "Any case results, client representations, or experience described on this website are not intended as a guarantee, warranty, or prediction regarding the outcome of your legal matter. The outcome of any legal matter depends on a variety of factors unique to each case. Prior results do not guarantee a similar outcome."
+            },
+            "attorneyAdvertising": {
+                "title": "Attorney Advertising Notice",
+                "content": "This website may constitute attorney advertising in certain jurisdictions. The information contained herein is intended to provide general information about Ágora Abogados and its services. It is not intended as specific legal advice and should not be used as a substitute for competent legal counsel."
+            }
+        }
     }
 }
