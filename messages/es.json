@@ -2093,5 +2093,176 @@
             "description": "Contáctenos para discutir cómo nuestra práctica puede apoyar su estrategia de fuerza laboral, necesidades de cumplimiento o transacciones relacionadas con laboral.",
             "button": "Agendar una Consulta"
         }
+    },
+    "ComplianceSanctions": {
+        "hero": {
+            "badge": "Área de Práctica",
+            "title": "Cumplimiento y Sanciones Internacionales",
+            "subtitle": "Asesoría Transaccional Informada por Sanciones",
+            "description": "Asesoría legal de nivel institucional en sanciones internacionales y cumplimiento regulatorio, asesorando a corporaciones multinacionales, instituciones financieras y operadores transfronterizos en la navegación de regímenes de sanciones de EE.UU., UE y Reino Unido en jurisdicciones de alto riesgo."
+        },
+        "intro": {
+            "lead": "Ágora Abogados proporciona asesoría legal de nivel institucional en sanciones internacionales y cumplimiento regulatorio, asesorando a corporaciones multinacionales, instituciones financieras y operadores transfronterizos en la navegación de regímenes de sanciones de EE.UU., UE y Reino Unido en jurisdicciones de alto riesgo.",
+            "body": "Operamos en la intersección del cumplimiento regulatorio estricto y la ejecución de transacciones, permitiendo actividad transfronteriza legalmente defendible en Venezuela y en toda Latinoamérica. Nuestra asesoría está diseñada no para bloquear transacciones, sino para estructurar vías de ejecución defendibles bajo restricciones internacionales complejas."
+        },
+        "approach": {
+            "badge": "Nuestro Enfoque",
+            "title": "Asesoría Transaccional Informada por Sanciones",
+            "paragraph1": "No abordamos el cumplimiento de sanciones como un ejercicio de lista de verificación. Nuestro rol es estructurar, aprobar y habilitar transacciones en entornos sujetos a restricciones internacionales complejas.",
+            "situations": {
+                "title": "Los clientes confían en Ágora cuando las transacciones involucran:",
+                "item1": "Jurisdicciones o contrapartes sancionadas",
+                "item2": "Escrutinio de banca corresponsal",
+                "item3": "Requisitos de licenciamiento OFAC / UE",
+                "item4": "Riesgo elevado de AML y reputacional"
+            },
+            "paragraph2": "Nuestra asesoría integra el análisis de sanciones directamente en la estructuración de acuerdos, documentación bancaria y flujos de trabajo de ejecución—asegurando que el cumplimiento esté incorporado en la transacción, no agregado posteriormente."
+        },
+        "services": {
+            "badge": "Capacidades Principales",
+            "title": "Lo Que Hacemos",
+            "items": {
+                "sanctions-structuring": {
+                    "title": "Cumplimiento de Sanciones y Estructuración de Transacciones",
+                    "description": "Diseñando vías de transacción compatibles bajo regímenes OFAC, UE y Reino Unido mientras preservamos la viabilidad comercial. Analizamos la exposición a sanciones, estructuramos la mecánica del acuerdo para minimizar riesgos y proporcionamos la arquitectura legal para una ejecución transfronteriza defendible."
+                },
+                "ofac-licensing": {
+                    "title": "Licenciamiento OFAC y UE",
+                    "description": "Asesorando en la preparación, presentación y gestión de solicitudes de licencias específicas y generales. Guiamos a los clientes a través del proceso de licenciamiento, coordinamos con reguladores y estructuramos transacciones para maximizar las perspectivas de autorización."
+                },
+                "aml-abac": {
+                    "title": "Programas de Cumplimiento AML / ABAC",
+                    "description": "Desarrollando marcos de cumplimiento personalizados alineados con las mejores prácticas internacionales. Nuestros programas abordan requisitos de antilavado de dinero, anticorrupción y antisoborno, y filtrado de sanciones para organizaciones que operan en entornos de alto riesgo."
+                },
+                "banking-support": {
+                    "title": "Apoyo Bancario y Corresponsalía",
+                    "description": "Apoyando debida diligencia reforzada, clarificación de transacciones y confort regulatorio para instituciones financieras. Asistimos a bancos y corresponsales en la comprensión de estructuras de transacciones y proporcionamos la documentación necesaria para la aprobación interna."
+                }
+            }
+        },
+        "clients": {
+            "badge": "A Quién Asesoramos",
+            "title": "Nuestros Clientes",
+            "items": {
+                "multinationals": {
+                    "title": "Corporaciones Multinacionales",
+                    "description": "Operando en jurisdicciones sancionadas o de alto riesgo"
+                },
+                "financial-institutions": {
+                    "title": "Instituciones Financieras",
+                    "description": "Bancos corresponsales y entidades reguladas"
+                },
+                "trading-groups": {
+                    "title": "Grupos Comerciales",
+                    "description": "Operadores comerciales transfronterizos"
+                },
+                "energy-mining": {
+                    "title": "Energía y Minería",
+                    "description": "Operadores de infraestructura en sectores regulados"
+                },
+                "latam-exposure": {
+                    "title": "Exposición a LatAm",
+                    "description": "Grupos corporativos con operaciones regionales"
+                }
+            }
+        },
+        "jurisdictions": {
+            "badge": "Enfoque Geográfico",
+            "title": "Experiencia Jurisdiccional",
+            "items": {
+                "venezuela": {
+                    "title": "Sanciones Específicas de Venezuela",
+                    "description": "Profunda experiencia en sanciones que afectan entidades y transacciones venezolanas"
+                },
+                "us-ofac": {
+                    "title": "Regímenes de EE.UU. (OFAC)",
+                    "description": "Listas SDN, sanciones sectoriales y requisitos de licenciamiento"
+                },
+                "eu-uk": {
+                    "title": "Sanciones de UE y Reino Unido",
+                    "description": "Medidas restrictivas europeas y sanciones autónomas del Reino Unido"
+                },
+                "cross-border": {
+                    "title": "Licenciamiento Transfronterizo",
+                    "description": "Aprobación transaccional en múltiples jurisdicciones"
+                }
+            }
+        },
+        "value": {
+            "badge": "Por Qué Ágora",
+            "title": "Nuestros Diferenciadores",
+            "subtitle": "Aportamos asesoría de cumplimiento de calidad institucional con un enfoque pragmático y habilitador de negocios.",
+            "items": {
+                "technical-rigor": {
+                    "title": "Rigor Técnico Institucional",
+                    "description": "Aplicamos la misma disciplina analítica y estándares de documentación esperados por las principales firmas de abogados internacionales y agencias regulatorias."
+                },
+                "deal-enablement": {
+                    "title": "Habilitación Pragmática de Negocios",
+                    "description": "Nuestro objetivo no es bloquear transacciones sino estructurar vías de ejecución defendibles que satisfagan los requisitos regulatorios mientras logran objetivos comerciales."
+                },
+                "regulator-credibility": {
+                    "title": "Credibilidad ante Reguladores",
+                    "description": "Nuestras representaciones están diseñadas para resistir el escrutinio regulatorio. Preparamos materiales con la expectativa de que serán revisados por OFAC, autoridades de la UE o bancos corresponsales."
+                },
+                "practice-integration": {
+                    "title": "Integración de Prácticas",
+                    "description": "El análisis de sanciones está integrado con nuestras prácticas de Banca, M&A, Impuestos y Recursos Naturales—asegurando que el cumplimiento esté incorporado en la transacción más amplia."
+                }
+            }
+        },
+        "related": {
+            "badge": "Prácticas Relacionadas",
+            "title": "Capacidades Integradas",
+            "items": {
+                "banking": {
+                    "title": "Banca y Finanzas",
+                    "description": "Banca corresponsal y documentación de transacciones"
+                },
+                "corporate": {
+                    "title": "Corporativo y M&A",
+                    "description": "Estructuración y ejecución de acuerdos transfronterizos"
+                },
+                "tax": {
+                    "title": "Impuestos",
+                    "description": "Estructuración fiscal internacional y cumplimiento"
+                },
+                "environmental": {
+                    "title": "Ambiental y Recursos Naturales",
+                    "description": "Transacciones en sectores regulados"
+                }
+            }
+        },
+        "leadership": {
+            "badge": "Liderazgo de Práctica",
+            "title": "Nuestro Equipo",
+            "members": {
+                "alvaro": {
+                    "name": "Álvaro J. Posada Sessarego",
+                    "role": "Socio",
+                    "focus": "Transacciones bancarias informadas por sanciones y estructuración financiera transfronteriza"
+                },
+                "ariana": {
+                    "name": "Ariana Cabrera Acevedo",
+                    "role": "Líder de Práctica",
+                    "focus": "Cumplimiento regulatorio, marcos AML y desarrollo de programas de sanciones"
+                },
+                "marco": {
+                    "name": "Marco Gómez",
+                    "role": "Asociado Senior",
+                    "focus": "Licenciamiento OFAC, debida diligencia y aprobación de transacciones"
+                },
+                "raul": {
+                    "name": "Raúl Sancristobal",
+                    "role": "Asociado Junior",
+                    "focus": "Investigación de sanciones, monitoreo de cumplimiento y documentación"
+                }
+            }
+        },
+        "cta": {
+            "title": "Consulta Confidencial de Cumplimiento",
+            "description": "Para asuntos relacionados con sanciones internacionales, cumplimiento regulatorio o aprobación de transacciones transfronterizas, lo invitamos a contactar directamente nuestra práctica.",
+            "button": "Agendar una Consulta Confidencial"
+        }
     }
 }

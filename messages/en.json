@@ -2093,5 +2093,176 @@
             "description": "Contact us to discuss how our practice can support your workforce strategy, compliance needs, or labor-related transactions.",
             "button": "Schedule a Consultation"
         }
+    },
+    "ComplianceSanctions": {
+        "hero": {
+            "badge": "Practice Area",
+            "title": "Compliance & International Sanctions",
+            "subtitle": "Sanctions-Informed Transaction Counsel",
+            "description": "Institutional-grade legal counsel on international sanctions and regulatory compliance, advising multinational corporations, financial institutions, and cross-border operators on navigating U.S., EU, and UK sanctions regimes in high-risk jurisdictions."
+        },
+        "intro": {
+            "lead": "Ágora Abogados provides institutional-grade legal counsel on international sanctions and regulatory compliance, advising multinational corporations, financial institutions, and cross-border operators on navigating U.S., EU, and UK sanctions regimes in high-risk jurisdictions.",
+            "body": "We operate at the intersection of strict regulatory compliance and transaction execution, enabling legally defensible cross-border activity in Venezuela and across Latin America. Our counsel is designed not to block transactions, but to structure defensible execution pathways under complex international restrictions."
+        },
+        "approach": {
+            "badge": "Our Approach",
+            "title": "Sanctions-Informed Transaction Counsel",
+            "paragraph1": "We do not approach sanctions compliance as a checklist exercise. Our role is to structure, clear, and enable transactions in environments subject to complex international restrictions.",
+            "situations": {
+                "title": "Clients rely on Ágora when transactions involve:",
+                "item1": "Sanctioned jurisdictions or counterparties",
+                "item2": "Correspondent banking scrutiny",
+                "item3": "OFAC / EU licensing requirements",
+                "item4": "Heightened AML and reputational risk"
+            },
+            "paragraph2": "Our counsel integrates sanctions analysis directly into deal structuring, banking documentation, and execution workflows—ensuring that compliance is embedded in the transaction, not bolted on afterward."
+        },
+        "services": {
+            "badge": "Core Capabilities",
+            "title": "What We Do",
+            "items": {
+                "sanctions-structuring": {
+                    "title": "Sanctions Compliance & Transaction Structuring",
+                    "description": "Designing compliant transaction pathways under OFAC, EU, and UK regimes while preserving commercial viability. We analyze sanctions exposure, structure deal mechanics to minimize risk, and provide the legal architecture for defensible cross-border execution."
+                },
+                "ofac-licensing": {
+                    "title": "OFAC & EU Licensing",
+                    "description": "Advising on preparation, submission, and management of specific and general license applications. We guide clients through the licensing process, coordinate with regulators, and structure transactions to maximize authorization prospects."
+                },
+                "aml-abac": {
+                    "title": "AML / ABAC Compliance Programs",
+                    "description": "Developing tailored compliance frameworks aligned with international best practices. Our programs address anti-money laundering, anti-bribery and corruption, and sanctions screening requirements for organizations operating in high-risk environments."
+                },
+                "banking-support": {
+                    "title": "Banking & Correspondent Support",
+                    "description": "Supporting enhanced due diligence, transaction clarification, and regulatory comfort for financial institutions. We assist banks and correspondents in understanding transaction structures and provide the documentation needed for internal clearance."
+                }
+            }
+        },
+        "clients": {
+            "badge": "Who We Advise",
+            "title": "Our Clients",
+            "items": {
+                "multinationals": {
+                    "title": "Multinational Corporations",
+                    "description": "Operating in sanctioned or high-risk jurisdictions"
+                },
+                "financial-institutions": {
+                    "title": "Financial Institutions",
+                    "description": "Correspondent banks & regulated entities"
+                },
+                "trading-groups": {
+                    "title": "Trading Groups",
+                    "description": "Cross-border commercial operators"
+                },
+                "energy-mining": {
+                    "title": "Energy & Mining",
+                    "description": "Infrastructure operators in regulated sectors"
+                },
+                "latam-exposure": {
+                    "title": "LatAm Exposure",
+                    "description": "Corporate groups with regional operations"
+                }
+            }
+        },
+        "jurisdictions": {
+            "badge": "Geographic Focus",
+            "title": "Jurisdictional Expertise",
+            "items": {
+                "venezuela": {
+                    "title": "Venezuela-Specific Sanctions",
+                    "description": "Deep expertise in sanctions affecting Venezuelan entities and transactions"
+                },
+                "us-ofac": {
+                    "title": "U.S. (OFAC) Regimes",
+                    "description": "SDN lists, sectoral sanctions, and licensing requirements"
+                },
+                "eu-uk": {
+                    "title": "EU & UK Sanctions",
+                    "description": "European restrictive measures and UK autonomous sanctions"
+                },
+                "cross-border": {
+                    "title": "Cross-Border Licensing",
+                    "description": "Transactional clearance across multiple jurisdictions"
+                }
+            }
+        },
+        "value": {
+            "badge": "Why Ágora",
+            "title": "Our Differentiators",
+            "subtitle": "We bring institutional-quality compliance counsel with a pragmatic, deal-enabling approach.",
+            "items": {
+                "technical-rigor": {
+                    "title": "Institutional Technical Rigor",
+                    "description": "We apply the same analytical discipline and documentation standards expected by leading international law firms and regulatory agencies."
+                },
+                "deal-enablement": {
+                    "title": "Pragmatic Deal Enablement",
+                    "description": "Our goal is not to block transactions but to structure defensible execution pathways that satisfy regulatory requirements while achieving commercial objectives."
+                },
+                "regulator-credibility": {
+                    "title": "Regulator-Facing Credibility",
+                    "description": "Our representations are designed to withstand regulatory scrutiny. We prepare materials with the expectation that they will be reviewed by OFAC, EU authorities, or correspondent banks."
+                },
+                "practice-integration": {
+                    "title": "Practice Integration",
+                    "description": "Sanctions analysis is integrated with our Banking, M&A, Tax, and Natural Resources practices—ensuring that compliance is embedded in the broader transaction."
+                }
+            }
+        },
+        "related": {
+            "badge": "Related Practices",
+            "title": "Integrated Capabilities",
+            "items": {
+                "banking": {
+                    "title": "Banking & Finance",
+                    "description": "Correspondent banking and transaction documentation"
+                },
+                "corporate": {
+                    "title": "Corporate & M&A",
+                    "description": "Cross-border deal structuring and execution"
+                },
+                "tax": {
+                    "title": "Tax",
+                    "description": "International tax structuring and compliance"
+                },
+                "environmental": {
+                    "title": "Environmental & Natural Resources",
+                    "description": "Regulated sector transactions"
+                }
+            }
+        },
+        "leadership": {
+            "badge": "Practice Leadership",
+            "title": "Our Team",
+            "members": {
+                "alvaro": {
+                    "name": "Álvaro J. Posada Sessarego",
+                    "role": "Partner",
+                    "focus": "Sanctions-informed banking transactions and cross-border financial structuring"
+                },
+                "ariana": {
+                    "name": "Ariana Cabrera Acevedo",
+                    "role": "Practice Leader",
+                    "focus": "Regulatory compliance, AML frameworks, and sanctions program development"
+                },
+                "marco": {
+                    "name": "Marco Gómez",
+                    "role": "Senior Associate",
+                    "focus": "OFAC licensing, due diligence, and transaction clearance"
+                },
+                "raul": {
+                    "name": "Raúl Sancristobal",
+                    "role": "Junior Associate",
+                    "focus": "Sanctions research, compliance monitoring, and documentation"
+                }
+            }
+        },
+        "cta": {
+            "title": "Confidential Compliance Consultation",
+            "description": "For matters involving international sanctions, regulatory compliance, or cross-border transaction clearance, we invite you to engage directly with our practice.",
+            "button": "Schedule a Confidential Consultation"
+        }
     }
 }
