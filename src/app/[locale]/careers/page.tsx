@@ -1,24 +1,15 @@
 "use client";
 
-import { useState } from "react";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { MoveUpRight, ArrowRight } from "lucide-react";
-import { Link } from "@/i18n/routing";
 import { useTranslations } from "next-intl";
-import { ApplicationModal } from "@/components/careers/ApplicationModal";
 
+const LINKEDIN_JOB_URL = "https://www.linkedin.com/jobs/view/4365090894/";
 
 export default function CareersPage() {
     const t = useTranslations("CareersPage");
-    const [isModalOpen, setIsModalOpen] = useState(false);
-    const [selectedJob, setSelectedJob] = useState("");
-
-    const handleApply = (jobTitle: string, jobLocation: string) => {
-        setSelectedJob(jobTitle);
-        setIsModalOpen(true);
-    };
 
     const openings = [
         {
@@ -30,28 +21,6 @@ export default function CareersPage() {
                 t("opportunities.openings.0.requirements.0"),
                 t("opportunities.openings.0.requirements.1"),
                 t("opportunities.openings.0.requirements.2"),
-            ]
-        },
-        {
-            title: t("opportunities.openings.1.title"),
-            location: t("opportunities.openings.1.location"),
-            experience: t("opportunities.openings.1.experience"),
-            description: t("opportunities.openings.1.description"),
-            requirements: [
-                t("opportunities.openings.1.requirements.0"),
-                t("opportunities.openings.1.requirements.1"),
-                t("opportunities.openings.1.requirements.2"),
-            ]
-        },
-        {
-            title: t("opportunities.openings.2.title"),
-            location: t("opportunities.openings.2.location"),
-            experience: t("opportunities.openings.2.experience"),
-            description: t("opportunities.openings.2.description"),
-            requirements: [
-                t("opportunities.openings.2.requirements.0"),
-                t("opportunities.openings.2.requirements.1"),
-                t("opportunities.openings.2.requirements.2"),
             ]
         }
     ];
@@ -103,13 +72,15 @@ export default function CareersPage() {
                                         <p className="text-slate-500 group-hover:text-slate-200 transition-colors mb-0 leading-relaxed font-light italic">
                                             {job.description}
                                         </p>
-                                        <button
-                                            onClick={() => handleApply(job.title, job.location)}
+                                        <a
+                                            href={LINKEDIN_JOB_URL}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
                                             className="flex items-center gap-3 text-[10px] font-bold uppercase tracking-[0.3em] text-primary group-hover:text-white transition-all duration-500 pt-4"
                                         >
                                             <span className="border-b border-primary/20 group-hover:border-white/40 pb-1">{t("contact.apply")}</span>
                                             <ArrowRight className="h-3 w-3" />
-                                        </button>
+                                        </a>
                                     </div>
 
                                     <div className="lg:w-1/3">
@@ -172,12 +143,6 @@ export default function CareersPage() {
                 </section>
             </main>
             <Footer />
-
-            <ApplicationModal
-                isOpen={isModalOpen}
-                onClose={() => setIsModalOpen(false)}
-                jobTitle={selectedJob}
-            />
         </div>
     );
 }
