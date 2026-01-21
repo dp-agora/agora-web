@@ -120,8 +120,9 @@ export default function LitigationDisputesPage() {
                         subtitle={t("hero.subtitle")}
                         badge={t("hero.badge")}
                         description={t("hero.description")}
-                        videoSrc="/assets/video/agora-eco.mp4"
-                        videoOpacity={0.75}
+                        imageSrc="/assets/practices/litigation-dispute-resolution.jpeg"
+                        imageAlt="Ágora Litigation & Dispute Resolution legal practice"
+                        imageOpacity={0.7}
                         overlayClassName="absolute inset-0 bg-gradient-to-b from-primary/70 via-primary/30 to-primary/45"
                     />
 

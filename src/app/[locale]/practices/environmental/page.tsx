@@ -125,8 +125,9 @@ export default function EnvironmentalPage() {
                 title={t("hero.title")}
                 subtitle={t("hero.subtitle")}
                 description={t("intro.lead")}
-                videoSrc="/assets/video/agora-eco.mp4"
-                videoOpacity={0.75}
+                imageSrc="/assets/practices/enviromental-natural-resources.jpeg"
+                imageAlt="Ágora Environmental & Natural Resources legal practice"
+                imageOpacity={0.7}
                 overlayClassName="absolute inset-0 bg-gradient-to-b from-primary/70 via-primary/30 to-primary/45"
             />
 
