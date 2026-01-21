@@ -20,7 +20,6 @@ import {
     ArrowRight,
     MapPin
 } from "lucide-react";
-import Script from "next/script";
 
 export default function LitigationDisputesPage() {
     const t = useTranslations("LitigationDisputes");
@@ -85,7 +84,7 @@ export default function LitigationDisputesPage() {
 
     return (
         <>
-            <Script
+            <script
                 id="litigation-service-schema"
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
@@ -121,6 +120,10 @@ export default function LitigationDisputesPage() {
                                     </p>
                                     <p className="text-lg text-slate-600 leading-relaxed">
                                         {t("intro.body")}
+                                    </p>
+                                    {/* Explicit definition paragraph for citation/AEO */}
+                                    <p className="text-base text-slate-700 leading-relaxed bg-slate-50 p-6 border-l-4 border-slate-200">
+                                        {t("intro.definition")}
                                     </p>
                                 </motion.div>
                             </div>
