@@ -64,6 +64,9 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} className="scroll-smooth">
       <head>
+        {/* AI Crawler Directives - Allow indexing, snippets, and retrieval */}
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
+
         {/* Ahrefs Analytics */}
         <script
           src="https://analytics.ahrefs.com/analytics.js"
@@ -144,15 +147,7 @@ export default async function LocaleLayout({
               "publisher": {
                 "@id": "https://www.agoralatam.com/#organization"
               },
-              "inLanguage": ["en", "es"],
-              "potentialAction": {
-                "@type": "SearchAction",
-                "target": {
-                  "@type": "EntryPoint",
-                  "urlTemplate": "https://www.agoralatam.com/search?q={search_term_string}"
-                },
-                "query-input": "required name=search_term_string"
-              }
+              "inLanguage": ["en", "es"]
             })
           }}
         />
