@@ -2630,5 +2630,73 @@
             "description": "Para asuntos que involucren disputas inversionista–estado, reclamos basados en tratados, o ejecución y monetización de laudos arbitrales, lo invitamos a contactar directamente nuestra práctica.",
             "button": "Agendar una Consulta Confidencial"
         }
+    },
+    "PracticesHub": {
+        "hero": {
+            "badge": "Áreas de Práctica",
+            "title": "Áreas de Práctica",
+            "subtitle": "Asesoría legal integrada en transacciones complejas, disputas y asuntos regulatorios."
+        },
+        "clusters": {
+            "corporate": {
+                "title": "Corporativo y Transacciones"
+            },
+            "finance": {
+                "title": "Finanzas y Mercados de Capitales"
+            },
+            "disputes": {
+                "title": "Disputas y Arbitraje"
+            },
+            "regulatory": {
+                "title": "Regulatorio, Impuestos y Cumplimiento"
+            },
+            "realAssets": {
+                "title": "Activos Reales y Empleo"
+            }
+        },
+        "practices": {
+            "corporateMA": {
+                "title": "Corporativo y M&A",
+                "description": "M&A transfronterizo, joint ventures y asesoría corporativa para empresas estratégicas y multinacionales en América Latina."
+            },
+            "bankingFinance": {
+                "title": "Banca y Finanzas",
+                "description": "Asesoría legal para instituciones financieras, deudores corporativos e inversores institucionales en transacciones bancarias complejas."
+            },
+            "litigationDisputes": {
+                "title": "Litigios y Resolución de Disputas",
+                "description": "Asesoría en litigios y arbitraje para disputas transfronterizas en Venezuela, América Latina y foros internacionales."
+            },
+            "investmentArbitration": {
+                "title": "Arbitraje de Inversiones",
+                "description": "Asesoría en disputas inversionista–estado para procedimientos CIADI y CNUDMI, negociaciones con estados y ejecución transfronteriza de laudos."
+            },
+            "tax": {
+                "title": "Impuestos",
+                "description": "Asesoría fiscal transfronteriza para estructuras corporativas complejas, precios de transferencia y planificación fiscal internacional."
+            },
+            "complianceSanctions": {
+                "title": "Cumplimiento y Sanciones Internacionales",
+                "description": "Asesoría transaccional informada por sanciones para corporaciones multinacionales e instituciones financieras en jurisdicciones de alto riesgo."
+            },
+            "environmental": {
+                "title": "Ambiental y Recursos Naturales",
+                "description": "Asesoría regulatoria para proyectos mineros, energéticos y de infraestructura navegando marcos complejos de permisos ambientales."
+            },
+            "realEstate": {
+                "title": "Bienes Raíces",
+                "description": "Soluciones inmobiliarias integradas para inversión transfronteriza, desarrollo y transacciones de propiedades estructuradas."
+            },
+            "laborEmployment": {
+                "title": "Derecho Laboral",
+                "description": "Asesoría estratégica en materia laboral para empresas multinacionales y regionales en cumplimiento, disputas y reestructuración."
+            }
+        },
+        "linkText": "Ver más",
+        "cta": {
+            "title": "Contacte Nuestra Práctica",
+            "description": "Para asuntos legales complejos, lo invitamos a conectar directamente con nuestro equipo.",
+            "button": "Conectar"
+        }
     }
 }
