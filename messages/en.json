@@ -1202,6 +1202,18 @@
             "lead": "Effective tax planning is not about minimizing obligations—it's about structuring operations in ways that are defensible, efficient, and aligned with commercial reality.",
             "body": "Our Tax Practice advises corporations, family enterprises, and investment groups on the full spectrum of income tax, transfer pricing, and international structuring matters. We understand that tax decisions are business decisions, and we approach every engagement with the technical depth required to satisfy regulators and the strategic perspective required to create value. Whether you're expanding into new markets, restructuring legacy holdings, or navigating a cross-border transaction, we provide the architecture to execute with confidence."
         },
+        "aeoDefinition": {
+            "question": "What is cross-border tax advisory?",
+            "answer": "Cross-border tax advisory is the specialized practice of structuring international business operations, transactions, and corporate arrangements to achieve tax efficiency across multiple jurisdictions while maintaining full legal compliance. It encompasses transfer pricing, treaty planning, holding company structuring, and coordination with tax authorities in different countries.",
+            "helpTitle": "How Ágora helps with cross-border tax matters:",
+            "helpItems": [
+                "Design tax-efficient holding and financing structures for US–LatAm corridor transactions",
+                "Prepare and defend transfer pricing documentation under OECD guidelines",
+                "Optimize treaty benefits to reduce withholding taxes on cross-border payments",
+                "Conduct tax due diligence for M&A transactions with regional exposure",
+                "Represent clients in audits and controversies with Latin American tax authorities"
+            ]
+        },
         "practice": {
             "badge": "Our Approach",
             "title": "What Defines Our Tax Practice",
