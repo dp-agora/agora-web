@@ -187,79 +187,30 @@
         },
         "intro": {
             "quote": "\"La excelencia no es un acto, sino un hábito.\"",
-            "p1": "Buscamos talento legal excepcional para unirse a nuestro equipo de alto desempeño. Como boutique institucional, ofrecemos la oportunidad de facilitar transacciones transfronterizas complejas y asesoría estratégica al más alto nivel.",
-            "p2": "Si usted es un profesional comprometido con la excelencia legal y la innovación segura, le invitamos a explorar nuestras oportunidades actuales."
+            "p1": "Buscamos talento legal excepcional para unirse a nuestro equipo de alto desempeño. Como boutique institucional, ofrecemos la oportunidad de facilitar transacciones transfronterizas complejas y asesoría estratégica al más alto nivel."
         },
         "opportunities": {
             "title": "Oportunidades Actuales",
-            "subtitle": "Únete a la Élite",
+            "subtitle": "Únete a Nuestro Equipo",
             "openings": [
                 {
-                    "id": "sr-associate-ma",
-                    "title": "Asociado Senior – M&A y Capital Privado",
+                    "id": "associate-transactional",
+                    "title": "Asociado – Transaccional y Asesoría Corporativa",
                     "location": "Caracas / Remoto",
-                    "experience": "+5 años",
-                    "description": "Liderar adquisiciones transfronterizas complejas y transacciones de capital privado en un entorno institucional de alto nivel.",
+                    "experience": "3+ años",
+                    "description": "Participar en transacciones transfronterizas complejas y brindar asesoría corporativa de alto nivel a entidades multinacionales, fondos de inversión y oficinas familiares. Candidatos interesados en otras áreas de práctica—como energía, infraestructura, agronegocios, capital privado, banca y finanzas, o gobierno corporativo—son igualmente bienvenidos a postularse indicando sus áreas de interés.",
                     "requirements": [
-                        "Excelencia en estructuración y negociación de M&A.",
-                        "Profundo conocimiento de la dinámica de los fondos de Capital Privado.",
-                        "Trayectoria comprobada en reorganizaciones corporativas transfronterizas."
-                    ]
-                },
-                {
-                    "id": "sr-associate-banking",
-                    "title": "Asociado Senior – Banca y Finanzas",
-                    "location": "Caracas / Ciudad de México",
-                    "experience": "+5 años",
-                    "description": "Asesorar a instituciones financieras globales sobre marcos regulatorios complejos, reestructuración de deuda y facilidades crediticias sofisticadas.",
-                    "requirements": [
-                        "Conocimiento especializado en regulaciones de Banca y Finanzas.",
-                        "Experiencia en reestructuración de deuda y financiamiento de proyectos.",
-                        "Excelencia bilingüe (Inglés/Español)."
-                    ]
-                },
-                {
-                    "id": "sr-associate-corporate",
-                    "title": "Asociado Senior – Gobierno Corporativo y Asesoría",
-                    "location": "Caracas / Aragua",
-                    "experience": "+5 años",
-                    "description": "Brindar asesoría corporativa de alto nivel y apoyo en gobernanza a entidades multinacionales y oficinas familiares.",
-                    "requirements": [
-                        "Maestría en derecho corporativo y estándares de gobernanza.",
-                        "Experiencia en negociación de contratos comerciales complejos.",
-                        "Sólidas capacidades de liderazgo y gestión de proyectos."
+                        "Sólida formación en derecho corporativo, transaccional o financiero.",
+                        "Capacidad para gestionar asuntos complejos con rigor institucional.",
+                        "Excelencia bilingüe (Inglés/Español) altamente valorada."
                     ]
                 }
             ]
         },
         "contact": {
-            "apply": "Postular Ahora",
+            "apply": "Postular vía LinkedIn",
             "text": "Envíe su CV y carta de presentación a:",
             "email": "Admin@agoralatam.com"
-        },
-        "form": {
-            "title": "Postular a la Posición",
-            "firstName": "Nombre",
-            "lastName": "Apellido",
-            "email": "Correo Electrónico",
-            "phone": "Número de Teléfono",
-            "linkedin": "URL de Perfil LinkedIn",
-            "resume": "CV / Resume (PDF)",
-            "placeholder": {
-                "firstName": "Ingrese su nombre",
-                "lastName": "Ingrese su apellido",
-                "email": "correo@ejemplo.com",
-                "phone": "+58 000 0000000",
-                "linkedin": "https://linkedin.com/in/usuario",
-                "resume": "Cargue su CV en formato PDF"
-            },
-            "submit": "Enviar Postulación",
-            "submitting": "Procesando...",
-            "success": {
-                "title": "Postulación Recibida",
-                "message": "Gracias por su interés. Nuestro equipo de reclutamiento revisará su perfil y se pondrá en contacto si hay una coincidencia con la posición."
-            },
-            "close": "Cerrar"
         }
     },
     "ContactPage": {
