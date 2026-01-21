@@ -19,7 +19,6 @@ import {
     ArrowRight,
     MapPin
 } from "lucide-react";
-import Script from "next/script";
 
 export default function ComplianceSanctionsPage() {
     const t = useTranslations("ComplianceSanctions");
@@ -84,7 +83,7 @@ export default function ComplianceSanctionsPage() {
 
     return (
         <>
-            <Script
+            <script
                 id="compliance-service-schema"
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
@@ -120,6 +119,10 @@ export default function ComplianceSanctionsPage() {
                                     </p>
                                     <p className="text-lg text-slate-600 leading-relaxed">
                                         {t("intro.body")}
+                                    </p>
+                                    {/* Explicit definition paragraph for citation/AEO */}
+                                    <p className="text-base text-slate-700 leading-relaxed bg-slate-50 p-6 border-l-4 border-slate-200">
+                                        {t("intro.definition")}
                                     </p>
                                 </motion.div>
                             </div>
