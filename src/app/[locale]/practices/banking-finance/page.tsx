@@ -74,12 +74,11 @@ export default function BankingFinancePage() {
     // JSON-LD Schema
     const serviceSchema = {
         "@context": "https://schema.org",
-        "@type": "Service",
+        "@type": "LegalService",
+        "@id": "https://www.agoralatam.com/practices/banking-finance#service",
         "name": "Banking & Finance Legal Services",
         "provider": {
-            "@type": "LegalService",
-            "name": "Ágora Abogados",
-            "url": "https://www.agoralatam.com"
+            "@id": "https://www.agoralatam.com/#organization"
         },
         "description": "Legal advisory for banking transactions, financial regulation, syndicated lending, project finance, and credit restructuring across Latin America.",
         "areaServed": ["Venezuela", "Mexico", "Latin America"],

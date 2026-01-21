@@ -85,6 +85,77 @@ export default async function LocaleLayout({
             `,
           }}
         />
+        {/* Organization Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": ["Organization", "LegalService"],
+              "@id": "https://www.agoralatam.com/#organization",
+              "name": "Ágora",
+              "legalName": "Ágora Abogados",
+              "url": "https://www.agoralatam.com",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.agoralatam.com/assets/brand/Logo%20Agora%20outline.png",
+                "width": 240,
+                "height": 48
+              },
+              "description": "Boutique strategic legal and investment advisory firm specializing in cross-border transactions across Latin America and Venezuela.",
+              "areaServed": [
+                {
+                  "@type": "Place",
+                  "name": "Latin America"
+                },
+                {
+                  "@type": "Country",
+                  "name": "Venezuela"
+                }
+              ],
+              "knowsAbout": [
+                "Corporate Law",
+                "Mergers and Acquisitions",
+                "Banking and Finance",
+                "Tax Law",
+                "Compliance",
+                "Litigation",
+                "Investment Arbitration",
+                "Real Estate Law",
+                "Environmental Law",
+                "Labor and Employment Law"
+              ],
+              "sameAs": [
+                "https://www.linkedin.com/company/agora-latam"
+              ]
+            })
+          }}
+        />
+        {/* Website Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "@id": "https://www.agoralatam.com/#website",
+              "name": "Ágora",
+              "url": "https://www.agoralatam.com",
+              "publisher": {
+                "@id": "https://www.agoralatam.com/#organization"
+              },
+              "inLanguage": ["en", "es"],
+              "potentialAction": {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.agoralatam.com/search?q={search_term_string}"
+                },
+                "query-input": "required name=search_term_string"
+              }
+            })
+          }}
+        />
       </head>
       <body
         className={`${inter.variable} ${libreBaskerville.variable} font-sans antialiased bg-white text-slate-900`}

@@ -87,30 +87,15 @@ export default function InvestmentArbitrationPage() {
     // JSON-LD Schema
     const serviceSchema = {
         "@context": "https://schema.org",
-        "@type": "Service",
+        "@type": "LegalService",
+        "@id": "https://www.agoralatam.com/practices/investment-arbitration#service",
         "name": "Investment Arbitration Legal Services",
         "provider": {
-            "@type": "LegalService",
-            "name": "Ágora Abogados",
-            "url": "https://www.agoralatam.com"
+            "@id": "https://www.agoralatam.com/#organization"
         },
         "description": "Institutional-grade counsel for investor–state disputes across Latin America and international forums, advising foreign investors, multinational corporations, and award holders on ICSID and UNCITRAL proceedings, state negotiations, and cross-border enforcement of arbitral awards.",
         "areaServed": ["Venezuela", "Latin America", "United States", "European Union", "United Kingdom"],
         "serviceType": ["Investment Arbitration", "ICSID Arbitration", "UNCITRAL Arbitration", "Award Enforcement", "Award Monetization", "Treaty Claims"]
-    };
-
-    const organizationSchema = {
-        "@context": "https://schema.org",
-        "@type": "LegalService",
-        "name": "Ágora Abogados",
-        "url": "https://www.agoralatam.com",
-        "logo": "https://www.agoralatam.com/assets/logo.png",
-        "description": "Investor–state dispute specialists providing institutional-grade counsel for ICSID, UNCITRAL, and treaty-based arbitrations across Latin America and international forums.",
-        "areaServed": {
-            "@type": "Place",
-            "name": "Latin America"
-        },
-        "knowsAbout": ["Investment Arbitration", "ICSID", "UNCITRAL", "Bilateral Investment Treaties", "Award Enforcement", "Sovereign Disputes", "Treaty Claims"]
     };
 
     const faqSchema = {
@@ -132,11 +117,6 @@ export default function InvestmentArbitrationPage() {
                 id="investment-arbitration-service-schema"
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
-            />
-            <Script
-                id="investment-arbitration-organization-schema"
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
             />
             <Script
                 id="investment-arbitration-faq-schema"

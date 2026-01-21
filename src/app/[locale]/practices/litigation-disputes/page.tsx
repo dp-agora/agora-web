@@ -72,30 +72,15 @@ export default function LitigationDisputesPage() {
     // JSON-LD Schema
     const serviceSchema = {
         "@context": "https://schema.org",
-        "@type": "Service",
+        "@type": "LegalService",
+        "@id": "https://www.agoralatam.com/practices/litigation-disputes#service",
         "name": "Litigation & Dispute Resolution Legal Services",
         "provider": {
-            "@type": "LegalService",
-            "name": "Ágora Abogados",
-            "url": "https://www.agoralatam.com"
+            "@id": "https://www.agoralatam.com/#organization"
         },
         "description": "Institutional-grade litigation and arbitration counsel for cross-border disputes, advising multinational corporations, regional business groups, and investors in complex commercial controversies, shareholder conflicts, and enforcement proceedings.",
         "areaServed": ["Venezuela", "Latin America", "United States", "European Union", "United Kingdom"],
         "serviceType": ["Commercial Litigation", "Corporate Disputes", "International Arbitration", "Cross-Border Enforcement", "Asset Recovery"]
-    };
-
-    const organizationSchema = {
-        "@context": "https://schema.org",
-        "@type": "LegalService",
-        "name": "Ágora Abogados",
-        "url": "https://www.agoralatam.com",
-        "logo": "https://www.agoralatam.com/assets/logo.png",
-        "description": "Institutional-grade litigation and arbitration counsel for cross-border disputes across Venezuela, Latin America, and international forums.",
-        "areaServed": {
-            "@type": "Place",
-            "name": "Latin America"
-        },
-        "knowsAbout": ["Commercial Litigation", "Shareholder Disputes", "International Arbitration", "Cross-Border Enforcement", "Asset Recovery", "ICC Arbitration", "ICSID Arbitration"]
     };
 
     return (
@@ -104,11 +89,6 @@ export default function LitigationDisputesPage() {
                 id="litigation-service-schema"
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
-            />
-            <Script
-                id="litigation-organization-schema"
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
             />
 
             <div className="flex min-h-screen flex-col">
