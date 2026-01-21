@@ -85,7 +85,7 @@ export default function Home() {
                   {t("hero.ctaBook")}
                 </Button>
                 <Button asChild variant="outline" size="lg" className="h-16 px-10 text-lg rounded-none border-slate-200 hover:bg-slate-50 uppercase tracking-wider font-bold">
-                  <Link href="/services">{t("hero.ctaServices")}</Link>
+                  <Link href="/practices">{t("hero.ctaServices")}</Link>
                 </Button>
               </motion.div>
 
@@ -228,7 +228,7 @@ export default function Home() {
                 {t("credibility.description")}
               </p>
               <Button asChild variant="outline" size="lg" className="rounded-none border-white/20 text-primary bg-white hover:bg-white/90 h-16 px-10 uppercase tracking-widest font-bold">
-                <Link href="/services">{t("credibility.cta")}</Link>
+                <Link href="/practices">{t("credibility.cta")}</Link>
               </Button>
             </div>
           </div>
@@ -337,7 +337,7 @@ export default function Home() {
                       ))}
                     </ul>
                   </div>
-                  <Link href="/services" className="text-xs font-bold uppercase tracking-widest text-primary/60 group-hover:text-primary transition-colors flex items-center gap-2">
+                  <Link href="/practices" className="text-xs font-bold uppercase tracking-widest text-primary/60 group-hover:text-primary transition-colors flex items-center gap-2">
                     {t("expertise.viewAll")} <ArrowRight className="h-3 w-3" />
                   </Link>
                 </div>
