@@ -9,7 +9,6 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { useState } from "react";
 import { useBooking } from "@/context/BookingContext";
-import Script from "next/script";
 import {
     Scale,
     Users,
@@ -102,12 +101,12 @@ export default function LaborEmploymentPage() {
 
     return (
         <>
-            <Script
+            <script
                 id="labor-employment-service-schema"
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
             />
-            <Script
+            <script
                 id="labor-employment-faq-schema"
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
@@ -126,6 +125,23 @@ export default function LaborEmploymentPage() {
                 imageOpacity={0.7}
                 overlayClassName="absolute inset-0 bg-gradient-to-b from-primary/70 via-primary/30 to-primary/45"
             />
+
+            {/* AEO Definition Section */}
+            <section className="py-16 bg-white">
+                <div className="container mx-auto px-4 max-w-4xl">
+                    <motion.div
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={{ once: true }}
+                        variants={fadeIn}
+                    >
+                        {/* Explicit definition paragraph for citation/AEO */}
+                        <p className="text-base text-slate-700 leading-relaxed bg-slate-50 p-6 border-l-4 border-slate-200">
+                            {t("intro.definition")}
+                        </p>
+                    </motion.div>
+                </div>
+            </section>
 
             {/* Intro Section */}
             <section className="py-20 bg-white">
