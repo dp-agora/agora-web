@@ -11,17 +11,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const isSpanish = locale === "es";
 
     const baseUrl = "https://www.agoralatam.com";
-    const enPath = "/practices/tax";
-    const esPath = "/es/practices/tax";
+    const enPath = "/practices/corporate-ma";
+    const esPath = "/es/practices/corporate-ma";
     const currentPath = isSpanish ? esPath : enPath;
 
     return {
         title: isSpanish
-            ? "Asesoría Fiscal | Ágora"
-            : "Tax Advisory | Ágora",
+            ? "Derecho Corporativo y M&A | Ágora"
+            : "Corporate & M&A | Ágora",
         description: isSpanish
-            ? "Asesoría fiscal transfronteriza para empresas multinacionales y grupos de inversión. Estructuración, precios de transferencia e impuestos internacionales en América Latina."
-            : "Cross-border tax advisory for multinational companies and investment groups. We advise on structuring, transfer pricing, and international tax matters across Latin America.",
+            ? "Asesoría legal en fusiones y adquisiciones transfronterizas, joint ventures y reorganizaciones corporativas en América Latina."
+            : "Cross-border M&A counsel for complex acquisitions, joint ventures, and corporate reorganizations across Latin America. Institutional-grade legal execution.",
         alternates: {
             canonical: currentPath,
             languages: {
@@ -32,18 +32,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         },
         openGraph: {
             title: isSpanish
-                ? "Asesoría Fiscal | Ágora"
-                : "Tax Advisory | Ágora",
+                ? "Derecho Corporativo y M&A | Ágora"
+                : "Corporate & M&A | Ágora",
             description: isSpanish
-                ? "Asesoría fiscal transfronteriza para empresas multinacionales y grupos de inversión. Estructuración, precios de transferencia e impuestos internacionales en América Latina."
-                : "Cross-border tax advisory for multinational companies and investment groups. We advise on structuring, transfer pricing, and international tax matters across Latin America.",
+                ? "Asesoría legal en fusiones y adquisiciones transfronterizas, joint ventures y reorganizaciones corporativas en América Latina."
+                : "Cross-border M&A counsel for complex acquisitions, joint ventures, and corporate reorganizations across Latin America. Institutional-grade legal execution.",
             url: `${baseUrl}${currentPath}`,
             type: "website",
         },
     };
 }
 
-export default async function TaxLayout({ children, params }: Props) {
+export default async function CorporateMaLayout({ children, params }: Props) {
     const { locale } = await params;
     setRequestLocale(locale);
 
@@ -70,8 +70,8 @@ export default async function TaxLayout({ children, params }: Props) {
             {
                 "@type": "ListItem",
                 "position": 3,
-                "name": isSpanish ? "Asesoría Fiscal" : "Tax Advisory",
-                "item": isSpanish ? `${baseUrl}/es/practices/tax` : `${baseUrl}/practices/tax`
+                "name": isSpanish ? "Derecho Corporativo y M&A" : "Corporate & M&A",
+                "item": isSpanish ? `${baseUrl}/es/practices/corporate-ma` : `${baseUrl}/practices/corporate-ma`
             }
         ]
     };

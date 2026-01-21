@@ -21,7 +21,6 @@ import {
     ChevronDown
 } from "lucide-react";
 import { useState } from "react";
-import Script from "next/script";
 
 export default function CorporateMaPage() {
     const t = useTranslations("CorporateMA");
@@ -107,12 +106,12 @@ export default function CorporateMaPage() {
 
     return (
         <>
-            <Script
+            <script
                 id="service-schema"
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
             />
-            <Script
+            <script
                 id="faq-schema"
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
@@ -148,6 +147,10 @@ export default function CorporateMaPage() {
                                     </p>
                                     <p className="text-lg text-slate-600 leading-relaxed">
                                         {t("intro.body")}
+                                    </p>
+                                    {/* Explicit definition paragraph for citation/AEO */}
+                                    <p className="text-base text-slate-700 leading-relaxed bg-slate-50 p-6 border-l-4 border-slate-200">
+                                        {t("intro.definition")}
                                     </p>
                                 </motion.div>
                             </div>
