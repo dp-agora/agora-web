@@ -75,12 +75,11 @@ export default function TaxPage() {
     // JSON-LD Schema
     const serviceSchema = {
         "@context": "https://schema.org",
-        "@type": "Service",
+        "@type": "LegalService",
+        "@id": "https://www.agoralatam.com/practices/tax#service",
         "name": "Tax Advisory Legal Services",
         "provider": {
-            "@type": "LegalService",
-            "name": "Ágora Abogados",
-            "url": "https://www.agoralatam.com"
+            "@id": "https://www.agoralatam.com/#organization"
         },
         "description": "Cross-border tax advisory for multinational enterprises and regional corporates operating across Latin America and the US–LatAm corridor. Expertise in corporate income tax, transfer pricing, and international tax structuring.",
         "areaServed": ["Venezuela", "Mexico", "Colombia", "Peru", "Chile", "Brazil", "United States", "Latin America"],

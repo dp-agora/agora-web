@@ -64,6 +64,9 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} className="scroll-smooth">
       <head>
+        {/* AI Crawler Directives - Allow indexing, snippets, and retrieval */}
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
+
         {/* Ahrefs Analytics */}
         <script
           src="https://analytics.ahrefs.com/analytics.js"
@@ -83,6 +86,69 @@ export default async function LocaleLayout({
               gtag('js', new Date());
               gtag('config', 'G-ME4CJNZ6PQ');
             `,
+          }}
+        />
+        {/* Organization Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": ["Organization", "LegalService"],
+              "@id": "https://www.agoralatam.com/#organization",
+              "name": "Ágora",
+              "legalName": "Ágora Abogados",
+              "url": "https://www.agoralatam.com",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.agoralatam.com/assets/brand/Logo%20Agora%20outline.png",
+                "width": 240,
+                "height": 48
+              },
+              "description": "Boutique strategic legal and investment advisory firm specializing in cross-border transactions across Latin America and Venezuela.",
+              "areaServed": [
+                {
+                  "@type": "Place",
+                  "name": "Latin America"
+                },
+                {
+                  "@type": "Country",
+                  "name": "Venezuela"
+                }
+              ],
+              "knowsAbout": [
+                "Corporate Law",
+                "Mergers and Acquisitions",
+                "Banking and Finance",
+                "Tax Law",
+                "Compliance",
+                "Litigation",
+                "Investment Arbitration",
+                "Real Estate Law",
+                "Environmental Law",
+                "Labor and Employment Law"
+              ],
+              "sameAs": [
+                "https://www.linkedin.com/company/agora-latam"
+              ]
+            })
+          }}
+        />
+        {/* Website Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "@id": "https://www.agoralatam.com/#website",
+              "name": "Ágora",
+              "url": "https://www.agoralatam.com",
+              "publisher": {
+                "@id": "https://www.agoralatam.com/#organization"
+              },
+              "inLanguage": ["en", "es"]
+            })
           }}
         />
       </head>

@@ -77,17 +77,14 @@ export default function EnvironmentalPage() {
     // Schema markup for SEO
     const serviceSchema = {
         "@context": "https://schema.org",
-        "@type": "Service",
-        "serviceType": "Environmental & Natural Resources Legal Services",
+        "@type": "LegalService",
+        "@id": "https://www.agoralatam.com/practices/environmental#service",
+        "name": "Environmental & Natural Resources Legal Services",
         "provider": {
-            "@type": "LegalService",
-            "name": "Ágora",
-            "url": "https://www.agoralatam.com"
+            "@id": "https://www.agoralatam.com/#organization"
         },
-        "areaServed": {
-            "@type": "Place",
-            "name": "Latin America"
-        },
+        "areaServed": ["Venezuela", "Latin America"],
+        "serviceType": ["Environmental Permitting", "Mining Law", "Hydrocarbons", "Environmental Due Diligence", "Regulatory Compliance"],
         "description": t("intro.lead")
     };
 

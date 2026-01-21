@@ -81,12 +81,11 @@ export default function CorporateMaPage() {
     // JSON-LD Schema
     const serviceSchema = {
         "@context": "https://schema.org",
-        "@type": "Service",
+        "@type": "LegalService",
+        "@id": "https://www.agoralatam.com/practices/corporate-ma#service",
         "name": "Corporate & M&A Legal Services",
         "provider": {
-            "@type": "LegalService",
-            "name": "Ágora Abogados",
-            "url": "https://www.agoralatam.com"
+            "@id": "https://www.agoralatam.com/#organization"
         },
         "description": "Cross-border M&A, joint ventures, corporate restructurings, and governance advisory for strategic corporates, family offices, and multinationals across Latin America.",
         "areaServed": ["Venezuela", "Mexico", "Latin America", "United States", "Europe"],
