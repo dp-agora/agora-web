@@ -87,7 +87,7 @@ export default function TeamMemberPage() {
                                         src={member.image}
                                         alt={member.name}
                                         fill
-                                        className="object-cover"
+                                        className={member.id === "jose-barnola" || member.id === "alvaro-posada" || member.id === "maria-eugenia-reyes" || member.id === "marco-gomez" || member.id === "dayana-veliz" || member.id === "manuel-domingo" ? "object-cover object-top" : "object-cover"}
                                         priority
                                     />
                                 </div>
