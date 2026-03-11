@@ -11,6 +11,7 @@ export function Footer() {
             links: [
                 { name: t("about"), href: "/about" },
                 { name: t("team"), href: "/team" },
+                { name: t("insights"), href: "/insights" },
                 { name: t("careers"), href: "/careers" },
                 { name: t("contact"), href: "/contact" },
             ],

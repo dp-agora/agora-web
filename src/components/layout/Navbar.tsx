@@ -21,6 +21,7 @@ export function Navbar() {
         { name: t("about"), href: "/about" },
         { name: t("services"), href: "/practices" },
         { name: t("team"), href: "/team" },
+        { name: t("insights"), href: "/insights" },
         { name: t("careers"), href: "/careers" },
     ];
 

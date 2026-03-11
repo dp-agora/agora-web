@@ -3,6 +3,7 @@
         "about": "About",
         "services": "Practice Areas",
         "team": "Team",
+        "insights": "Insights",
         "careers": "Careers",
         "contact": "Contact",
         "bookCall": "Connect"
@@ -12,6 +13,7 @@
         "practiceAreas": "Practice Areas",
         "about": "About Us",
         "team": "Our Team",
+        "insights": "Insights",
         "careers": "Careers",
         "contact": "Contact",
         "corporate": "Corporate and M&A",
@@ -28,6 +30,22 @@
         "privacy": "Privacy Policy",
         "terms": "Legal Terms",
         "disclaimers": "Disclaimers & Notices"
+    },
+    "InsightsPage": {
+        "hero": {
+            "title": "Insights",
+            "subtitle": "Legal and regulatory perspectives",
+            "metaTitle": "Insights | Ágora Abogados",
+            "metaDescription": "Legal analysis, regulatory updates, and perspectives on cross-border transactions, banking, and regulation in Latin America and Venezuela."
+        },
+        "readMore": "Read more",
+        "noInsights": "No insights yet.",
+        "article": {
+            "backToInsights": "Back to Insights",
+            "readInSpanish": "Leer en español",
+            "readInEnglish": "Read in English",
+            "contentUnavailable": "Content is not available."
+        }
     },
     "HomePage": {
         "hero": {
