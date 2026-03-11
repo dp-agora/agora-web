@@ -24,6 +24,9 @@ export default async function InsightsPage({ params }: Props) {
                     title={t("hero.title")}
                     subtitle={t("hero.subtitle")}
                     variant="institutional"
+                    imageSrc="/assets/insights/insights-image.webp"
+                    imageOpacity={0.45}
+                    imageAlt="Insights"
                 />
                 <section className="py-20 md:py-28 bg-white">
                     <div className="container mx-auto px-6 lg:px-12 max-w-5xl">
