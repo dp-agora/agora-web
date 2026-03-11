@@ -94,7 +94,7 @@ export function PageHeader({
                 </>
             )}
 
-            {!videoSrc && images.length > 0 && !isInstitutional && (
+            {!videoSrc && images.length > 0 && (
                 <>
                     <div className="absolute inset-0">
                         <AnimatePresence>
