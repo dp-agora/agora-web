@@ -3,6 +3,7 @@
         "about": "Nosotros",
         "services": "Áreas de Práctica",
         "team": "Equipo",
+        "insights": "Perspectivas",
         "careers": "Carreras",
         "contact": "Contacto",
         "bookCall": "Conectar"
@@ -12,6 +13,7 @@
         "practiceAreas": "Áreas de Práctica",
         "about": "Sobre Nosotros",
         "team": "Nuestro Equipo",
+        "insights": "Perspectivas",
         "careers": "Carreras",
         "contact": "Contacto",
         "corporate": "Corporativo y M&A",
@@ -28,6 +30,22 @@
         "privacy": "Política de Privacidad",
         "terms": "Términos Legales",
         "disclaimers": "Avisos Legales"
+    },
+    "InsightsPage": {
+        "hero": {
+            "title": "Perspectivas",
+            "subtitle": "Análisis legal y regulatorio",
+            "metaTitle": "Perspectivas | Ágora Abogados",
+            "metaDescription": "Análisis legal, actualizaciones regulatorias y perspectivas sobre transacciones transfronterizas, banca y regulación en América Latina y Venezuela."
+        },
+        "readMore": "Leer más",
+        "noInsights": "Aún no hay perspectivas.",
+        "article": {
+            "backToInsights": "Volver a Perspectivas",
+            "readInSpanish": "Leer en español",
+            "readInEnglish": "Read in English",
+            "contentUnavailable": "El contenido no está disponible."
+        }
     },
     "HomePage": {
         "hero": {

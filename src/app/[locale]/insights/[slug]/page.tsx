@@ -1,0 +1,142 @@
+import { Navbar } from "@/components/layout/Navbar";
+import { Footer } from "@/components/layout/Footer";
+import { Link } from "@/i18n/routing";
+import { getInsightBySlug, getAllInsights } from "@/lib/insights";
+import { getTranslations } from "next-intl/server";
+import { notFound } from "next/navigation";
+import { routing } from "@/i18n/routing";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
+import { ArrowLeft, Languages } from "lucide-react";
+import type { Metadata } from "next";
+
+type Props = {
+    params: Promise<{ locale: string; slug: string }>;
+};
+
+export async function generateStaticParams() {
+    return routing.locales.flatMap((locale) =>
+        getAllInsights(locale as "en" | "es").map((insight) => ({
+            locale,
+            slug: insight.slug,
+        }))
+    );
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+    const { locale, slug } = await params;
+    const insight = getInsightBySlug(slug);
+    if (!insight) return { title: "Not Found" };
+
+    const baseUrl = "https://www.agoralatam.com";
+    const isSpanish = locale === "es";
+    const enSlug = insight.lang === "en" ? insight.slug : insight.translationSlug;
+    const esSlug = insight.lang === "es" ? insight.slug : insight.translationSlug;
+    const enPath = `/insights/${enSlug}`;
+    const esPath = `/es/insights/${esSlug}`;
+    const currentPath = isSpanish ? esPath : enPath;
+
+    return {
+        title: insight.seoTitle,
+        description: insight.seoDescription,
+        alternates: {
+            canonical: currentPath,
+            languages: {
+                en: enPath,
+                es: esPath,
+                "x-default": enPath,
+            },
+        },
+        openGraph: {
+            title: insight.seoTitle,
+            description: insight.seoDescription,
+            images: insight.ogImage ? [{ url: `${baseUrl}${insight.ogImage}` }] : undefined,
+            url: `${baseUrl}${currentPath}`,
+            type: "article",
+            publishedTime: insight.date,
+            modifiedTime: insight.lastUpdated,
+        },
+    };
+}
+
+export default async function InsightArticlePage({ params }: Props) {
+    const resolvedParams = await params;
+    const slug = typeof resolvedParams.slug === "string" ? resolvedParams.slug : "";
+    const locale = resolvedParams.locale;
+
+    if (!slug) notFound();
+
+    const t = await getTranslations({ locale, namespace: "InsightsPage" });
+    const insight = getInsightBySlug(slug);
+
+    if (!insight) notFound();
+
+    const otherLocale = insight.lang === "en" ? "es" : "en";
+    const otherSlug = insight.translationSlug;
+    const hasTranslation = otherSlug && otherSlug !== slug;
+
+    return (
+        <>
+            <Navbar />
+            <main className="min-h-screen flex flex-col">
+                <article className="flex-1">
+                    <header className="pt-24 pb-12 lg:pt-32 lg:pb-16 bg-slate-50 border-b">
+                        <div className="container mx-auto px-6 lg:px-12 max-w-3xl">
+                            <Link
+                                href="/insights"
+                                className="inline-flex items-center gap-2 text-primary/70 hover:text-primary text-sm font-medium mb-8 transition-colors"
+                            >
+                                <ArrowLeft className="h-4 w-4" />
+                                {t("article.backToInsights")}
+                            </Link>
+                            <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-[10px] font-bold uppercase tracking-[0.2em] text-primary/70 mb-4">
+                                <span>{insight.category}</span>
+                                <span>{insight.date}</span>
+                                <span>{insight.readingTime}</span>
+                            </div>
+                            <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif text-primary leading-tight mb-6">
+                                {insight.title}
+                            </h1>
+                            <p className="text-slate-600 text-lg mb-4">{insight.excerpt}</p>
+                            <div className="flex flex-wrap items-center gap-4">
+                                <span className="text-sm text-slate-500">
+                                    {insight.author}
+                                    {insight.authorTitle && ` · ${insight.authorTitle}`}
+                                </span>
+                                {hasTranslation && (
+                                    <Link
+                                        href={
+                                            otherLocale === "es"
+                                                ? `/es/insights/${otherSlug}`
+                                                : `/insights/${otherSlug}`
+                                        }
+                                        className="inline-flex items-center gap-2 text-sm text-primary hover:underline"
+                                    >
+                                        <Languages className="h-4 w-4" />
+                                        {otherLocale === "es"
+                                            ? t("article.readInSpanish")
+                                            : t("article.readInEnglish")}
+                                    </Link>
+                                )}
+                            </div>
+                        </div>
+                    </header>
+                    <div className="container mx-auto px-6 lg:px-12 py-12 lg:py-16">
+                        <div className="max-w-3xl">
+                            {insight.content?.trim() ? (
+                                <div className="prose prose-slate prose-lg max-w-none prose-headings:font-serif prose-headings:text-primary prose-a:text-primary prose-a:no-underline hover:prose-a:underline">
+                                    <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                                        {insight.content}
+                                    </ReactMarkdown>
+                                </div>
+                            ) : (
+                                <p className="text-slate-500 italic">{t("article.contentUnavailable")}</p>
+                            )}
+                        </div>
+                    </div>
+                </article>
+            </main>
+            <Footer />
+        </>
+    );
+}
