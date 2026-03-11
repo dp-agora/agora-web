@@ -66,7 +66,7 @@ export default async function InsightArticlePage({ params }: Props) {
 
     if (!slug) notFound();
 
-    const t = await getTranslations("InsightsPage");
+    const t = await getTranslations({ locale, namespace: "InsightsPage" });
     const insight = getInsightBySlug(slug);
 
     if (!insight) notFound();
