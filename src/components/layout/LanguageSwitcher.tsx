@@ -13,14 +13,14 @@ export function LanguageSwitcher() {
         const nextLocale = locale === 'en' ? 'es' : 'en';
 
         // On an insights article, switch to the translated article URL (different slug per locale).
-        const insightsMatch = pathname.match(/^\/insights\/([^/]+)$/);
+        const insightsMatch = pathname.match(/^\/?insights\/([^/]+)$/);
         if (insightsMatch) {
             const slug = insightsMatch[1];
             const entry = insightsLocaleMap[slug];
             if (entry) {
                 const targetSlug = nextLocale === 'en' ? entry.en : entry.es;
-                const targetPath = nextLocale === 'en' ? `/insights/${targetSlug}` : `/es/insights/${targetSlug}`;
-                router.replace(targetPath);
+                const pathnameForLocale = `/insights/${targetSlug}`;
+                router.replace(pathnameForLocale, { locale: nextLocale });
                 return;
             }
         }
