@@ -114,7 +114,7 @@ export function BookingModal() {
                         {/* Content - Calendly Embed */}
                         <div className="flex-1 w-full bg-slate-50 overflow-y-auto">
                             <iframe
-                                src="https://calendly.com/jposada-agoralatam/30min?embed_domain=agoralatam.com&embed_type=Inline"
+                                src="https://calendly.com/aregalado-agoralatam/30min?month=2026-03&embed_domain=agoralatam.com&embed_type=Inline"
                                 width="100%"
                                 height="100%"
                                 frameBorder="0"
