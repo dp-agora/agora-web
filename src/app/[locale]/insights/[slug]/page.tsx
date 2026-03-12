@@ -7,7 +7,7 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
-import { ArrowLeft, Languages } from "lucide-react";
+import { ArrowLeft } from "lucide-react";
 import type { Metadata } from "next";
 
 type Props = {
@@ -71,10 +71,6 @@ export default async function InsightArticlePage({ params }: Props) {
 
     if (!insight) notFound();
 
-    const otherLocale = insight.lang === "en" ? "es" : "en";
-    const otherSlug = insight.translationSlug;
-    const hasTranslation = otherSlug && otherSlug !== slug;
-
     return (
         <>
             <Navbar />
@@ -103,21 +99,6 @@ export default async function InsightArticlePage({ params }: Props) {
                                     {insight.author}
                                     {insight.authorTitle && ` · ${insight.authorTitle}`}
                                 </span>
-                                {hasTranslation && (
-                                    <Link
-                                        href={
-                                            otherLocale === "es"
-                                                ? `/es/insights/${otherSlug}`
-                                                : `/insights/${otherSlug}`
-                                        }
-                                        className="inline-flex items-center gap-2 text-sm text-primary hover:underline"
-                                    >
-                                        <Languages className="h-4 w-4" />
-                                        {otherLocale === "es"
-                                            ? t("article.readInSpanish")
-                                            : t("article.readInEnglish")}
-                                    </Link>
-                                )}
                             </div>
                         </div>
                     </header>

@@ -2,17 +2,28 @@
 
 import { useLocale } from 'next-intl';
 import { usePathname, useRouter } from '@/i18n/routing';
-import { useParams } from 'next/navigation';
-
+import { insightsLocaleMap } from '@/lib/insights-locale-map';
 
 export function LanguageSwitcher() {
     const locale = useLocale();
     const router = useRouter();
     const pathname = usePathname();
-    const params = useParams();
 
     const toggleLocale = () => {
         const nextLocale = locale === 'en' ? 'es' : 'en';
+
+        // On an insights article, switch to the translated article URL (different slug per locale).
+        const insightsMatch = pathname.match(/^\/insights\/([^/]+)$/);
+        if (insightsMatch) {
+            const slug = insightsMatch[1];
+            const entry = insightsLocaleMap[slug];
+            if (entry) {
+                const targetSlug = nextLocale === 'en' ? entry.en : entry.es;
+                const targetPath = nextLocale === 'en' ? `/insights/${targetSlug}` : `/es/insights/${targetSlug}`;
+                router.replace(targetPath);
+                return;
+            }
+        }
 
         router.replace(pathname, { locale: nextLocale });
     };
