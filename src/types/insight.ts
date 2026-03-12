@@ -10,6 +10,7 @@ export interface InsightFrontmatter {
   translationSlug: string;
   author: string;
   authorTitle: string;
+  authorUrl?: string;
   category: string;
   tags: string[];
   readingTime: string;

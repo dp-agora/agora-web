@@ -42,6 +42,7 @@
         "noInsights": "No insights yet.",
         "article": {
             "backToInsights": "Back to Insights",
+            "authorLabel": "Author",
             "readInSpanish": "Leer en español",
             "readInEnglish": "Read in English",
             "contentUnavailable": "Content is not available."

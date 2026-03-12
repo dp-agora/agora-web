@@ -42,6 +42,7 @@
         "noInsights": "Aún no hay perspectivas.",
         "article": {
             "backToInsights": "Volver a Perspectivas",
+            "authorLabel": "Autor",
             "readInSpanish": "Leer en español",
             "readInEnglish": "Read in English",
             "contentUnavailable": "El contenido no está disponible."

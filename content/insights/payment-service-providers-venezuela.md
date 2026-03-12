@@ -8,8 +8,9 @@ lastUpdated: "2026-03-11"
 lang: "en"
 slug: "payment-service-providers-venezuela"
 translationSlug: "proveedores-servicios-pago-venezuela"
-author: "Ágora Abogados"
+author: "Jesus Mendoza"
 authorTitle: "Legal Analysis"
+authorUrl: "https://www.linkedin.com/in/jesus-mendoza-7b707322a/"
 category: "Regulatory"
 tags: ["Venezuela", "Fintech", "Regulatory", "Banking & Finance", "Digital Payments"]
 readingTime: "5 min read"
@@ -56,4 +57,4 @@ The PSP framework represents a meaningful regulatory opening for fintech compani
 
 For companies assessing whether this structure fits their business model, the first step is a regulatory gap analysis against the BCV's requirements.
 
-*This article is for informational purposes only and does not constitute legal advice. Laws and regulations may change. For guidance specific to your situation, [contact Ágora Abogados](/connect).*
+*This article is for informational purposes only and does not constitute legal advice. Laws and regulations may change. For guidance specific to your situation, [contact Ágora Abogados](https://calendly.com/aregalado-agoralatam/30min?month=2026-03).*

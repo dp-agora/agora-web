@@ -8,8 +8,9 @@ lastUpdated: "2026-03-11"
 lang: "es"
 slug: "proveedores-servicios-pago-venezuela"
 translationSlug: "payment-service-providers-venezuela"
-author: "Ágora Abogados"
+author: "Jesus Mendoza"
 authorTitle: "Análisis Legal"
+authorUrl: "https://www.linkedin.com/in/jesus-mendoza-7b707322a/"
 category: "Regulatorio"
 tags: ["Venezuela", "Fintech", "Regulatorio", "Banca y Finanzas", "Pagos Digitales"]
 readingTime: "5 min de lectura"
@@ -56,4 +57,4 @@ El marco PSP representa una apertura regulatoria significativa para empresas fin
 
 Para las empresas que evalúan si esta estructura se ajusta a su modelo de negocio, el primer paso es un análisis de brechas regulatorias frente a los requisitos del BCV.
 
-*Este artículo es solo para fines informativos y no constituye asesoría legal. Las leyes y regulaciones pueden cambiar. Para orientación específica sobre su situación, [contacte a Ágora Abogados](/connect).*
+*Este artículo es solo para fines informativos y no constituye asesoría legal. Las leyes y regulaciones pueden cambiar. Para orientación específica sobre su situación, [contacte a Ágora Abogados](https://calendly.com/aregalado-agoralatam/30min?month=2026-03).*

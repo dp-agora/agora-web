@@ -94,10 +94,24 @@ export default async function InsightArticlePage({ params }: Props) {
                                 {insight.title}
                             </h1>
                             <p className="text-slate-600 text-lg mb-4">{insight.excerpt}</p>
-                            <div className="flex flex-wrap items-center gap-4">
-                                <span className="text-sm text-slate-500">
-                                    {insight.author}
-                                    {insight.authorTitle && ` · ${insight.authorTitle}`}
+                            <div className="flex flex-wrap items-center gap-4 mt-4">
+                                <span className="text-sm text-slate-600">
+                                    <span className="font-medium text-slate-500">{t("article.authorLabel")}: </span>
+                                    {insight.authorUrl ? (
+                                        <a
+                                            href={insight.authorUrl}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="text-primary font-medium hover:underline"
+                                        >
+                                            {insight.author}
+                                        </a>
+                                    ) : (
+                                        <span className="font-medium">{insight.author}</span>
+                                    )}
+                                    {insight.authorTitle && (
+                                        <span className="text-slate-500"> · {insight.authorTitle}</span>
+                                    )}
                                 </span>
                             </div>
                         </div>
