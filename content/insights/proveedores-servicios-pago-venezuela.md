@@ -56,5 +56,3 @@ Las empresas que buscan la autorización como PSP deben cumplir una serie de con
 El marco PSP representa una apertura regulatoria significativa para empresas fintech y procesadoras de pagos que operan en — o buscan ingresar a — el mercado venezolano. El camino está definido pero es exigente: adecuación de capital, estructura accionaria, adaptación del objeto social y certificación técnica son condiciones que deben abordarse antes de que se abra la ventana de autorización.
 
 Para las empresas que evalúan si esta estructura se ajusta a su modelo de negocio, el primer paso es un análisis de brechas regulatorias frente a los requisitos del BCV.
-
-*Este artículo es solo para fines informativos y no constituye asesoría legal. Las leyes y regulaciones pueden cambiar. Para orientación específica sobre su situación, [contacte a Ágora Abogados](https://calendly.com/aregalado-agoralatam/30min?month=2026-03).*

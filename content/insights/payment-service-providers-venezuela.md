@@ -56,5 +56,3 @@ Companies seeking PSP authorization must satisfy a series of conditions before t
 The PSP framework represents a meaningful regulatory opening for fintech companies and payment processors operating in — or seeking to enter — the Venezuelan market. The pathway is defined but demanding: capital adequacy, shareholder structure, purpose alignment, and technical certification are all conditions that must be addressed before the authorization window opens.
 
 For companies assessing whether this structure fits their business model, the first step is a regulatory gap analysis against the BCV's requirements.
-
-*This article is for informational purposes only and does not constitute legal advice. Laws and regulations may change. For guidance specific to your situation, [contact Ágora Abogados](https://calendly.com/aregalado-agoralatam/30min?month=2026-03).*

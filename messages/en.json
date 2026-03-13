@@ -45,7 +45,8 @@
             "authorLabel": "Author",
             "readInSpanish": "Leer en español",
             "readInEnglish": "Read in English",
-            "contentUnavailable": "Content is not available."
+            "contentUnavailable": "Content is not available.",
+            "disclaimer": "Disclaimer: The content of this article is for informational purposes only and should not be considered legal advice. Although an effort has been made to provide accurate and up-to-date information, statutes, case law, and administrative positions of the authorities may vary. It is always recommended to consult a lawyer to obtain specific advice according to the relevant facts."
         }
     },
     "HomePage": {
