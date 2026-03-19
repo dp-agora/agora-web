@@ -17,7 +17,7 @@ readingTime: "10 min read"
 ogImage: "/assets/insights/insights-image.webp"
 ---
 
-## FOUR NEW OFAC GENERAL LICENSES: THE NEW FRAMEWORK FOR DOING BUSINESS WITH VENEZUELA
+## Four New OFAC General Licenses: The New Framework for Doing Business with Venezuela
 
 The week of March 13–18, 2026, marked a significant shift in the U.S. sanctions regime on Venezuela.  The Office of Foreign Assets Control ("OFAC") of the U.S. Department of the Treasury issued four General Licenses that together establish the new framework under which U.S. entities may operate with Venezuela and with Petróleos de Venezuela, S.A. ("PdVSA"): three sector-specific licenses on March 13 -GL 46B, 48A, and 49A- and a fourth, broader license on March 18 -GL 52- signed by Bradley T. Smith, OFAC Director.
 
@@ -60,7 +60,5 @@ The three sectoral licenses form an integrated system: GL 49A enables the negoti
 GL 52 does not replace that sectoral framework: it complements it with a horizontal authorization.  PdVSA and its Entities cover a broad universe: Petroquímica de Venezuela (Pequiven), maritime shipping subsidiaries, mixed enterprises, and other entities in which PdVSA holds a majority stake.  GL 52 authorizes transactions across that entire universe -without sector limitations- provided the counterpart is an established U.S. entity, contracts are governed by U.S. law, and payments flow through Treasury-controlled mechanisms.
 
 The conditions built into all four licenses follow a clear logic: Washington has not lifted sanctions -it has administered them.  The Foreign Government Deposit Funds requirement, the mandatory U.S. law and dispute resolution clauses, and the exclusion of adversarial nations are oversight mechanisms over any flows generated under the licenses.  Any company operating under this regime must understand that it is doing so within a supervised framework, not outside the sanctions.
-
-📩 Want to know more?  Contact us at info@agoraabogados.com
 
 Disclaimer: The content of this article is for informational purposes only and should not be considered legal advice.  Although an effort has been made to provide accurate and up-to-date information, statutes, case law, and administrative positions of the authorities may vary.  It is always recommended to consult a lawyer to obtain specific advice according to the relevant facts.
