@@ -98,14 +98,23 @@ export default async function InsightArticlePage({ params }: Props) {
                                 <span className="text-sm text-slate-600">
                                     <span className="font-medium text-slate-500">{t("article.authorLabel")}: </span>
                                     {insight.authorUrl ? (
-                                        <a
-                                            href={insight.authorUrl}
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            className="text-primary font-medium hover:underline"
-                                        >
-                                            {insight.author}
-                                        </a>
+                                        insight.authorUrl.startsWith('http://') || insight.authorUrl.startsWith('https://') ? (
+                                            <a
+                                                href={insight.authorUrl}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="text-primary font-medium hover:underline"
+                                            >
+                                                {insight.author}
+                                            </a>
+                                        ) : (
+                                            <Link
+                                                href={insight.authorUrl as `/${string}`}
+                                                className="text-primary font-medium hover:underline"
+                                            >
+                                                {insight.author}
+                                            </Link>
+                                        )
                                     ) : (
                                         <span className="font-medium">{insight.author}</span>
                                     )}
@@ -127,6 +136,19 @@ export default async function InsightArticlePage({ params }: Props) {
                             ) : (
                                 <p className="text-slate-500 italic">{t("article.contentUnavailable")}</p>
                             )}
+                            <div className="mt-12 py-10 px-8 bg-slate-50 border border-slate-200 text-center">
+                                <p className="text-base font-medium text-primary mb-6">
+                                    {t("article.ctaHeading")}
+                                </p>
+                                <a
+                                    href="https://calendly.com/aregalado-agoralatam/30min?month=2026-03"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="inline-block bg-primary text-white text-sm font-bold uppercase tracking-widest px-8 py-4 hover:bg-primary/90 transition-colors"
+                                >
+                                    {t("article.ctaButton")}
+                                </a>
+                            </div>
                             <p className="mt-8 pt-6 border-t border-slate-200 text-xs text-slate-500">
                                 {t("article.disclaimer")}
                             </p>
