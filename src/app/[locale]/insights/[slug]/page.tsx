@@ -98,14 +98,23 @@ export default async function InsightArticlePage({ params }: Props) {
                                 <span className="text-sm text-slate-600">
                                     <span className="font-medium text-slate-500">{t("article.authorLabel")}: </span>
                                     {insight.authorUrl ? (
-                                        <a
-                                            href={insight.authorUrl}
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            className="text-primary font-medium hover:underline"
-                                        >
-                                            {insight.author}
-                                        </a>
+                                        insight.authorUrl.startsWith('http://') || insight.authorUrl.startsWith('https://') ? (
+                                            <a
+                                                href={insight.authorUrl}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="text-primary font-medium hover:underline"
+                                            >
+                                                {insight.author}
+                                            </a>
+                                        ) : (
+                                            <Link
+                                                href={insight.authorUrl as `/${string}`}
+                                                className="text-primary font-medium hover:underline"
+                                            >
+                                                {insight.author}
+                                            </Link>
+                                        )
                                     ) : (
                                         <span className="font-medium">{insight.author}</span>
                                     )}
