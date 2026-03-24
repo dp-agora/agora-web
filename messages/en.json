@@ -326,6 +326,10 @@
                 "role": "Associate",
                 "bio": "Fabiola Flores Reyes is a lawyer with 9 years of experience in the areas of civil, commercial, real estate, family, and inheritance law."
             },
+            "jesus": {
+                "role": "Junior Associate",
+                "bio": "Jesús Mendoza is a lawyer and Bachelor of Liberal Studies with experience in Corporate Law, M&A, Banking and Finance. His interdisciplinary background enables him to approach complex legal matters with a comprehensive understanding of the economic and institutional environment."
+            },
             "andrea": {
                 "role": "Business Leader",
                 "bio": "Andrea is the Business Leader at Ágora Abogados, where she leads operational strategy and business development. She leverages her background in Chemical Engineering and her ongoing MBA at IESA to optimize complex project workflows and drive organizational efficiency."
@@ -665,6 +669,22 @@
             "education": [
                 "Bachelor of Science in Business Management, Minor in Business Analytics, Concentration in Entrepreneurship. Wentworth Institute of Technology (2024)",
                 "Master in Finance Candidate, Instituto de Estudios Superiores de Administración [in progress]"
+            ],
+            "office": "Caracas, Venezuela",
+            "languages": "Spanish and English"
+        },
+        "jesus-mendoza": {
+            "overview": [
+                "Jesús Mendoza is a lawyer and Bachelor of Liberal Studies with experience in Corporate Law, M&A, Banking and Finance.",
+                "His interdisciplinary background enables him to approach complex legal matters with a comprehensive understanding of the economic and institutional environment.",
+                "He has experience in banking research, Fintech, securities markets, private equity and venture capital, company registration and drafting of assembly minutes, structuring corporate frameworks, and international taxation studies."
+            ],
+            "experience": [
+                "Jesús is currently a Junior Associate at Ágora Abogados, specializing in M&A / Corporate Law, Banking and Finance, Capital Markets, and International Taxation."
+            ],
+            "education": [
+                "Lawyer, Universidad Metropolitana (2026)",
+                "Bachelor of Liberal Studies, Universidad Metropolitana (2026)"
             ],
             "office": "Caracas, Venezuela",
             "languages": "Spanish and English"

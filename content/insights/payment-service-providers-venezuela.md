@@ -10,7 +10,7 @@ slug: "payment-service-providers-venezuela"
 translationSlug: "proveedores-servicios-pago-venezuela"
 author: "Jesus Mendoza"
 authorTitle: "Legal Analysis"
-authorUrl: "https://www.linkedin.com/in/jesus-mendoza-7b707322a/"
+authorUrl: "/team/jesus-mendoza"
 category: "Regulatory"
 tags: ["Venezuela", "Fintech", "Regulatory", "Banking & Finance", "Digital Payments"]
 readingTime: "5 min read"
