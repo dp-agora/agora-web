@@ -83,7 +83,8 @@ export default function TeamPage() {
                 { id: "raul-sancristobal", name: "Raúl Sancristobal", role: t("members.raul.role"), bio: t("members.raul.bio"), image: "/assets/team/raul-sancristobal.webp", email: "rsancristobal@agoralatam.com", linkedin: "https://www.linkedin.com/in/raul-eduardo-sancristobal-444a44139/" },
                 { id: "rodrigo-colmenares", name: "Rodrigo Colmenares", role: t("members.rodrigo.role"), bio: t("members.rodrigo.bio"), image: "/assets/team/rodrigo-colmenares.webp", email: "rcolmenares@agoralatam.com", linkedin: "https://www.linkedin.com/in/rodrigo-colmenares-fernández-144b03200/" },
                 { id: "andreina-flores", name: "Andreína Flores", role: t("members.andreina.role"), bio: t("members.andreina.bio"), image: "/assets/team/andreina-flores.webp", email: "aflores@agoralatam.com", linkedin: "http://www.linkedin.com/in/andreina-floresr" },
-                { id: "fabiola-flores", name: "Fabiola Flores", role: t("members.fabiola.role"), bio: t("members.fabiola.bio"), image: "/assets/team/fabiola-flores.webp", email: "fflores@agoralatam.com", linkedin: "https://www.linkedin.com/in/fabiola-floresr" }
+                { id: "fabiola-flores", name: "Fabiola Flores", role: t("members.fabiola.role"), bio: t("members.fabiola.bio"), image: "/assets/team/fabiola-flores.webp", email: "fflores@agoralatam.com", linkedin: "https://www.linkedin.com/in/fabiola-floresr" },
+                { id: "jesus-mendoza", name: "Jesús Mendoza", role: t("members.jesus.role"), bio: t("members.jesus.bio"), image: "/assets/team/jesus-mendoza.png", email: "jmendoza@agoralatam.com", linkedin: "https://www.linkedin.com/in/jesus-mendoza-7b707322a/" }
             ]
         },
         {

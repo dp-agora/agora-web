@@ -326,6 +326,10 @@
                 "role": "Asociada",
                 "bio": "Fabiola Flores Reyes, abogada con 9 años de experiencia en las áreas de derecho civil, mercantil, inmobiliario, familiar y sucesiones."
             },
+            "jesus": {
+                "role": "Asociado Junior",
+                "bio": "Jesús Mendoza es abogado y licenciado en Estudios Liberales con experiencia en Derecho Corporativo, M&A, Banca y Finanzas. Su formación interdisciplinaria le permite abordar asuntos legales complejos con una visión integral del entorno económico e institucional."
+            },
             "andrea": {
                 "role": "Líder de Negocios",
                 "bio": "Andrea es la Líder de Negocios en Ágora Abogados, donde lidera la estrategia operativa y el desarrollo de negocios. Aprovecha su formación en Ingeniería Química y su MBA en curso en el IESA para optimizar los flujos de trabajo de proyectos complejos e impulsar la eficiencia organizacional."
@@ -665,6 +669,22 @@
             "education": [
                 "Licenciatura en Ciencias en Administración de Empresas. Mención en Análisis de Negocios Concentración en Emprendimiento. Wentworth Institute of Technology (2024)",
                 "Candidato a la Maestría en Finanzas, Instituto de Estudios Superiores de Administración [en proceso]"
+            ],
+            "office": "Caracas, Venezuela",
+            "languages": "Español e Inglés"
+        },
+        "jesus-mendoza": {
+            "overview": [
+                "Jesús Mendoza es abogado y licenciado en Estudios Liberales con experiencia en Derecho Corporativo, M&A, Banca y Finanzas.",
+                "Su formación interdisciplinaria le permite abordar asuntos legales complejos con una visión integral del entorno económico e institucional.",
+                "Tiene experiencia en investigaciones en materia bancaria, Fintech, mercado de valores, capital privado y capital de riesgo, registro de empresas y redacción de actas de asamblea, elaboración de estructuras corporativas y estudios de tributación internacional."
+            ],
+            "experience": [
+                "Actualmente, Jesús se desempeña como Asociado Junior en Ágora Abogados, especializado en las áreas de M&A / Derecho Corporativo, Banca y Finanzas, Mercado de Capitales y Tributación Internacional."
+            ],
+            "education": [
+                "Abogado, Universidad Metropolitana (2026)",
+                "Licenciado en Estudios Liberales, Universidad Metropolitana (2026)"
             ],
             "office": "Caracas, Venezuela",
             "languages": "Español e Inglés"
