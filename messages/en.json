@@ -40,6 +40,9 @@
         },
         "readMore": "Read more",
         "noInsights": "No insights yet.",
+        "filterAll": "All",
+        "filterAllAuthors": "All Authors",
+        "noResults": "No articles match the selected filters.",
         "article": {
             "backToInsights": "Back to Insights",
             "authorLabel": "Author",
