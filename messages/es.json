@@ -40,6 +40,9 @@
         },
         "readMore": "Leer más",
         "noInsights": "Aún no hay perspectivas.",
+        "filterAll": "Todos",
+        "filterAllAuthors": "Todos los autores",
+        "noResults": "Ningún artículo coincide con los filtros seleccionados.",
         "article": {
             "backToInsights": "Volver a Perspectivas",
             "authorLabel": "Autor",
