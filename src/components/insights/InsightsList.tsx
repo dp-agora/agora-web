@@ -19,8 +19,13 @@ const AVATAR_MAP: Record<string, string> = {
     "jose-barnola": "/assets/team/jose-barnola.webp",
 };
 
-function getCategoryImage(category: string): string {
-    return CATEGORY_IMAGE_MAP[category] ?? "/assets/insights/insights-image.webp";
+const DEFAULT_OG_IMAGE = "/assets/insights/insights-image.webp";
+
+function getCardImage(insight: Insight): string {
+    if (insight.ogImage && insight.ogImage !== DEFAULT_OG_IMAGE) {
+        return insight.ogImage;
+    }
+    return CATEGORY_IMAGE_MAP[insight.category] ?? DEFAULT_OG_IMAGE;
 }
 
 function getAuthorAvatar(authorUrl?: string): string | null {
@@ -82,7 +87,7 @@ function FeaturedCard({
     readMoreLabel: string;
     locale: string;
 }) {
-    const image = getCategoryImage(insight.category);
+    const image = getCardImage(insight);
     return (
         <Link href={`/insights/${insight.slug}`} className="group block outline-none mb-10">
             <article className="grid grid-cols-1 md:grid-cols-5 border border-slate-200 overflow-hidden hover:border-primary/40 transition-colors">
@@ -136,7 +141,7 @@ function GridCard({
     readMoreLabel: string;
     locale: string;
 }) {
-    const image = getCategoryImage(insight.category);
+    const image = getCardImage(insight);
     return (
         <Link href={`/insights/${insight.slug}`} className="group block outline-none h-full">
             <article className="border border-slate-200 overflow-hidden hover:border-primary/40 transition-colors h-full flex flex-col">
