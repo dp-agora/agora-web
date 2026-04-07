@@ -14,7 +14,7 @@ authorUrl: "/team/rodrigo-colmenares"
 category: "Corporate"
 tags: ["Venezuela", "Corporativo", "Constitución de Empresas", "Gobierno Corporativo"]
 readingTime: "4 min read"
-ogImage: "/assets/insights/insights-image.webp"
+ogImage: "/assets/practices/investment-arbitration.jpeg"
 ---
 
 ## Aspectos básicos antes de constituir una compañía en Venezuela

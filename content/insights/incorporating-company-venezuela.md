@@ -14,7 +14,7 @@ authorUrl: "/team/rodrigo-colmenares"
 category: "Corporate"
 tags: ["Venezuela", "Corporate", "Company Incorporation", "Corporate Governance"]
 readingTime: "4 min read"
-ogImage: "/assets/insights/insights-image.webp"
+ogImage: "/assets/practices/investment-arbitration.jpeg"
 ---
 
 ## Basic Aspects to Consider Before Incorporating a Company in Venezuela
