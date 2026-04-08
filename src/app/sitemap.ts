@@ -1,4 +1,5 @@
 import { MetadataRoute } from 'next'
+import { getAllInsights } from '@/lib/insights'
 
 export default function sitemap(): MetadataRoute.Sitemap {
     const baseUrl = 'https://www.agoralatam.com'
@@ -149,6 +150,59 @@ export default function sitemap(): MetadataRoute.Sitemap {
                 },
             },
         })
+    })
+
+    // Insights index (EN + ES)
+    entries.push({
+        url: `${baseUrl}/insights`,
+        lastModified: currentDate,
+        changeFrequency: 'weekly',
+        priority: 0.8,
+        alternates: {
+            languages: {
+                en: `${baseUrl}/insights`,
+                es: `${baseUrl}/es/insights`,
+            },
+        },
+    })
+    entries.push({
+        url: `${baseUrl}/es/insights`,
+        lastModified: currentDate,
+        changeFrequency: 'weekly',
+        priority: 0.8,
+        alternates: {
+            languages: {
+                en: `${baseUrl}/insights`,
+                es: `${baseUrl}/es/insights`,
+            },
+        },
+    })
+
+    // Individual insight articles
+    const allInsights = getAllInsights()
+    allInsights.forEach((insight) => {
+        const isEs = insight.lang === 'es'
+        const enSlug = isEs ? insight.translationSlug : insight.slug
+        const esSlug = isEs ? insight.slug : insight.translationSlug
+
+        const enPath = enSlug ? `/insights/${enSlug}` : null
+        const esPath = esSlug ? `/insights/${esSlug}` : null
+
+        const languages: Record<string, string> = {}
+        if (enPath) languages['en'] = `${baseUrl}${enPath}`
+        if (esPath) languages['es'] = `${baseUrl}/es${esPath}`
+
+        const canonicalPath = isEs ? (esPath ? `/es${esPath}` : null) : enPath
+
+        if (canonicalPath) {
+            entries.push({
+                url: `${baseUrl}${canonicalPath}`,
+                lastModified: insight.lastUpdated || insight.date || currentDate,
+                changeFrequency: 'monthly',
+                priority: 0.7,
+                alternates: { languages },
+            })
+        }
     })
 
     return entries
