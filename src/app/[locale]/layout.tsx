@@ -19,22 +19,39 @@ const libreBaskerville = Libre_Baskerville({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "Ágora | Strategic Advisory & Legal Excellence",
-  description: "Boutique strategic legal and investment advisory firm in Latin America and Venezuela.",
-  metadataBase: new URL('https://www.agoralatam.com'),
-  alternates: {
-    canonical: '/',
-    languages: {
-      'en': '/',
-      'es': '/es',
-      'x-default': '/',
-    },
-  },
-};
-
 import { setRequestLocale } from 'next-intl/server';
 import { routing } from "@/i18n/routing";
+
+type LayoutProps = {
+  params: Promise<{ locale: string }>;
+};
+
+export async function generateMetadata({ params }: LayoutProps): Promise<Metadata> {
+  const { locale } = await params;
+  const isSpanish = locale === "es";
+  const baseUrl = "https://www.agoralatam.com";
+  const enPath = "/";
+  const esPath = "/es";
+  const currentPath = isSpanish ? esPath : enPath;
+
+  return {
+    title: isSpanish
+      ? "Ágora Abogados | Asesoría Legal Estratégica en América Latina"
+      : "Ágora | Strategic Advisory & Legal Excellence",
+    description: isSpanish
+      ? "Firma legal boutique especializada en asesoría estratégica y transaccional transfronteriza en América Latina y Venezuela. Derecho corporativo, bancario, tributario y arbitraje."
+      : "Boutique strategic legal and investment advisory firm in Latin America and Venezuela. Cross-border M&A, banking, tax, compliance, litigation, and investment arbitration.",
+    metadataBase: new URL(baseUrl),
+    alternates: {
+      canonical: currentPath,
+      languages: {
+        en: enPath,
+        es: esPath,
+        "x-default": enPath,
+      },
+    },
+  };
+}
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -129,7 +146,16 @@ export default async function LocaleLayout({
                 "Labor and Employment Law"
               ],
               "sameAs": [
-                "https://www.linkedin.com/company/agora-latam"
+                "https://www.linkedin.com/company/agora-latam",
+                "https://chambers.com/lawyer/alvaro-posada-latin-america-9:210039",
+                "https://www.iflr1000.com/Lawyer/alvaro-j-posada/Profile/85",
+                "https://www.itrworldtax.com/Lawyer/sole-practitioner/jose-barnola-diaz/Profile/1290"
+              ],
+              "award": [
+                "Chambers Global",
+                "Chambers Latin America",
+                "IFLR1000",
+                "ITR World Tax"
               ]
             })
           }}

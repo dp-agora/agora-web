@@ -4,9 +4,30 @@ import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { useTranslations } from "next-intl";
+import { useState } from "react";
+import { ChevronDown } from "lucide-react";
 
 export default function AboutPage() {
     const t = useTranslations("AboutPage");
+    const [openFaq, setOpenFaq] = useState<number | null>(null);
+
+    const faqItems = Array.from({ length: 4 }, (_, i) => ({
+        question: t(`faq.items.${i}.question`),
+        answer: t(`faq.items.${i}.answer`),
+    }));
+
+    const faqSchema = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": faqItems.map((item) => ({
+            "@type": "Question",
+            "name": item.question,
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": item.answer,
+            },
+        })),
+    };
 
     return (
         <div className="flex min-h-screen flex-col">
@@ -134,6 +155,45 @@ export default function AboutPage() {
                             <span className="text-xs font-bold uppercase tracking-[0.3em] text-primary">Chambers Latin America</span>
                             <span className="text-xs font-bold uppercase tracking-[0.3em] text-primary">ITR Americas Tax</span>
                             <span className="text-xs font-bold uppercase tracking-[0.3em] text-primary">IFLR1000</span>
+                        </div>
+                    </div>
+                </section>
+
+                {/* FAQ Section */}
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+                />
+                <section className="py-24 bg-white border-t">
+                    <div className="container mx-auto px-6 lg:px-12">
+                        <div className="max-w-3xl mx-auto">
+                            <h2 className="text-4xl md:text-5xl font-serif text-primary mb-16">{t("faq.title")}</h2>
+                            <div className="space-y-4">
+                                {faqItems.map((item, index) => (
+                                    <div key={index} className="border border-slate-100 bg-slate-50">
+                                        <button
+                                            onClick={() => setOpenFaq(openFaq === index ? null : index)}
+                                            className="w-full flex items-center justify-between p-6 text-left cursor-pointer group"
+                                            aria-expanded={openFaq === index}
+                                        >
+                                            <span className="font-bold text-primary pr-4 group-hover:text-primary/70 transition-colors">
+                                                {item.question}
+                                            </span>
+                                            <ChevronDown
+                                                className={`h-5 w-5 text-primary flex-shrink-0 transition-transform duration-300 ${openFaq === index ? "rotate-180" : ""}`}
+                                            />
+                                        </button>
+                                        <div
+                                            className={`overflow-hidden transition-all duration-300 ${openFaq === index ? "max-h-96 opacity-100" : "max-h-0 opacity-0"}`}
+                                            aria-hidden={openFaq !== index}
+                                        >
+                                            <p className="px-6 pb-6 text-slate-600 text-sm leading-relaxed border-t border-slate-100 pt-4">
+                                                {item.answer}
+                                            </p>
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
                         </div>
                     </div>
                 </section>

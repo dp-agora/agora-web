@@ -201,6 +201,27 @@
                 "title": "Industria, Manufactura y Transporte",
                 "desc": "Servicios especializados para empresas de transporte, incluyendo sistemas de cable. Estructuras eficientes para operaciones en el mercado nacional, abordando derecho público y tributación multinivel."
             }
+        },
+        "faq": {
+            "title": "Preguntas Frecuentes sobre Ágora",
+            "items": [
+                {
+                    "question": "¿Dónde tiene sede Ágora Abogados?",
+                    "answer": "Ágora Abogados tiene su sede en Caracas, Venezuela (Torre Simple, El Rosal), con oficinas adicionales en Maracay, Valencia, Cagua (Venezuela) y Ciudad de México. Prestamos servicios a clientes en toda América Latina y en asuntos con dimensiones internacionales."
+                },
+                {
+                    "question": "¿Qué distingue a Ágora de otras firmas de abogados en Venezuela?",
+                    "answer": "Ágora combina el servicio personalizado de una firma boutique con alcance, capacidades y visión globales. Nuestros socios senior son reconocidos consistentemente por Chambers Global, Chambers Latin America, IFLR1000 e ITR World Tax. Nos enfocamos en transacciones transfronterizas y asuntos regulatorios de alto nivel que requieren tanto un profundo conocimiento local como perspectiva internacional."
+                },
+                {
+                    "question": "¿En qué industrias se especializa Ágora?",
+                    "answer": "Atendemos a clientes en banca y servicios financieros, energía e infraestructura, alimentos y agricultura, salud y ciencias de la vida, industria y manufactura, y tecnología. Nuestro equipo multidisciplinario proporciona asesoría integrada en asuntos corporativos, regulatorios, tributarios y de resolución de disputas."
+                },
+                {
+                    "question": "¿Ágora maneja asuntos fuera de Venezuela?",
+                    "answer": "Sí. Aunque Venezuela es nuestra jurisdicción principal, regularmente asesoramos en transacciones y disputas transfronterizas que involucran múltiples jurisdicciones en América Latina, Estados Unidos, Europa y foros de arbitraje internacional. Mantenemos relaciones con abogados calificados en jurisdicciones clave a nivel mundial."
+                }
+            ]
         }
     },
     "CareersPage": {
@@ -2864,5 +2885,34 @@
                 "content": "Este sitio web puede constituir publicidad de abogados en ciertas jurisdicciones. La información contenida aquí tiene la intención de proporcionar información general sobre Ágora Abogados y sus servicios. No pretende ser asesoramiento legal específico y no debe utilizarse como sustituto del asesoramiento legal competente."
             }
         }
+    },
+    "HomeFAQ": {
+        "title": "Preguntas Frecuentes",
+        "items": [
+            {
+                "question": "¿Qué es Ágora Abogados?",
+                "answer": "Ágora Abogados es una firma legal boutique de asesoría estratégica e inversión con sede en Caracas, Venezuela. Nos especializamos en transacciones transfronterizas, M&A corporativo, banca y finanzas, tributario, cumplimiento y sanciones, arbitraje de inversión, litigio, bienes raíces, derecho ambiental y laboral en América Latina."
+            },
+            {
+                "question": "¿En qué países y jurisdicciones opera Ágora?",
+                "answer": "El enfoque principal de Ágora es Venezuela y América Latina. Asesoramos en transacciones transfronterizas que involucran Venezuela, México y otras jurisdicciones latinoamericanas, así como asuntos internacionales que involucran Estados Unidos, Europa y centros financieros globales. Nuestras oficinas están en Caracas, Maracay, Valencia, Cagua (Venezuela) y Ciudad de México."
+            },
+            {
+                "question": "¿Con qué tipo de clientes trabaja Ágora?",
+                "answer": "Trabajamos con corporaciones multinacionales, inversionistas extranjeros, instituciones financieras, fondos de capital privado e individuos con intereses comerciales en Venezuela o América Latina. Nuestros clientes abarcan sectores como banca, energía, infraestructura, alimentos y agricultura, salud y tecnología."
+            },
+            {
+                "question": "¿Cómo afectan las sanciones de la OFAC a las operaciones comerciales en Venezuela?",
+                "answer": "Las licencias generales y específicas de la OFAC (Oficina de Control de Activos Extranjeros) regulan qué transacciones están permitidas con entidades e individuos venezolanos. Nuestro equipo de cumplimiento y sanciones asesora sobre la aplicabilidad de licencias, estructuración de transacciones, debida diligencia y presentaciones regulatorias para garantizar operaciones lícitas bajo el marco de sanciones vigente."
+            },
+            {
+                "question": "¿Qué es el arbitraje de inversión y cómo aplica a Venezuela?",
+                "answer": "El arbitraje de inversión permite a los inversores extranjeros presentar reclamaciones contra estados bajo tratados bilaterales de inversión (TBIs) o acuerdos multilaterales cuando sus inversiones son expropiadas o tratadas injustamente. Ágora tiene amplia experiencia en procedimientos CIADI y CNUDMI contra Venezuela, incluyendo evaluación de reclamaciones, estrategia de tratados, negociación y ejecución de laudos arbitrales."
+            },
+            {
+                "question": "¿Cómo puedo contactar a Ágora para una consulta?",
+                "answer": "Puede reservar una consulta directamente a través de nuestro sitio web usando el botón Conectar, enviarnos un correo a admin@agoralatam.com, o visitar nuestras oficinas en Caracas (Torre Simple, El Rosal) o Ciudad de México (Bosque de Radiatas 22). Respondemos a todas las consultas dentro de un día hábil."
+            }
+        ]
     }
 }

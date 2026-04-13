@@ -71,8 +71,45 @@ export default async function InsightArticlePage({ params }: Props) {
 
     if (!insight) notFound();
 
+    const baseUrl = "https://www.agoralatam.com";
+    const isSpanish = locale === "es";
+    const enSlug = insight.lang === "en" ? insight.slug : insight.translationSlug;
+    const esSlug = insight.lang === "es" ? insight.slug : insight.translationSlug;
+    const currentPath = isSpanish ? `/es/insights/${esSlug}` : `/insights/${enSlug}`;
+
+    const articleSchema = {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "@id": `${baseUrl}${currentPath}#article`,
+        "headline": insight.seoTitle || insight.title,
+        "description": insight.seoDescription || insight.excerpt,
+        "datePublished": insight.date,
+        "dateModified": insight.lastUpdated || insight.date,
+        "author": {
+            "@type": "Person",
+            "name": insight.author,
+            "url": insight.authorUrl
+                ? (insight.authorUrl.startsWith("http")
+                    ? insight.authorUrl
+                    : `${baseUrl}${insight.authorUrl}`)
+                : undefined,
+            "worksFor": { "@id": `${baseUrl}/#organization` },
+        },
+        "publisher": { "@id": `${baseUrl}/#organization` },
+        "isPartOf": { "@id": `${baseUrl}/#website` },
+        "url": `${baseUrl}${currentPath}`,
+        "inLanguage": locale,
+        "articleSection": insight.category,
+        "keywords": insight.tags?.join(", "),
+        ...(insight.ogImage ? { "image": `${baseUrl}${insight.ogImage}` } : {}),
+    };
+
     return (
         <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+            />
             <Navbar />
             <main className="min-h-screen flex flex-col">
                 <article className="flex-1">

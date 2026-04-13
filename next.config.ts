@@ -17,6 +17,17 @@ const nextConfig: NextConfig = {
         destination: '/:path*',
         permanent: true,
       },
+      // /services is superseded by /practices (canonical URL per site architecture)
+      {
+        source: '/services',
+        destination: '/practices',
+        permanent: true,
+      },
+      {
+        source: '/es/services',
+        destination: '/es/practices',
+        permanent: true,
+      },
     ];
   },
 };
