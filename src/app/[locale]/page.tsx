@@ -118,7 +118,7 @@ export default function Home() {
                 <span className="text-[10px] font-bold text-slate-400 uppercase tracking-[0.3em] w-full lg:w-auto mb-2 lg:mb-0">Recognized by</span>
                 <div className="flex flex-wrap items-center gap-x-12 gap-y-6 opacity-50 grayscale hover:opacity-70 hover:grayscale-0 transition-all duration-500">
                   <a
-                    href="https://chambers.com/lawyer/alvaro-posada-latin-america-9:210039"
+                    href="https://chambers.com/law-firm/agora-abogados-global-2:23719512"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center flex-shrink-0"
