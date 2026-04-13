@@ -4,11 +4,12 @@ import { motion } from "framer-motion";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, ChevronRight, Globe, Shield, Zap } from "lucide-react";
+import { ArrowRight, ChevronRight, Globe, Shield, Zap, ChevronDown } from "lucide-react";
 import { Link } from "@/i18n/routing";
 import { useTranslations } from "next-intl";
 import { useBooking } from "@/context/BookingContext";
 import Image from "next/image";
+import { useState } from "react";
 
 
 const fadeInUp = {
@@ -28,6 +29,26 @@ const stagger = {
 export default function Home() {
   const { openBooking } = useBooking();
   const t = useTranslations("HomePage");
+  const tFaq = useTranslations("HomeFAQ");
+  const [openFaq, setOpenFaq] = useState<number | null>(null);
+
+  const faqItems = Array.from({ length: 6 }, (_, i) => ({
+    question: tFaq(`items.${i}.question`),
+    answer: tFaq(`items.${i}.answer`),
+  }));
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqItems.map((item) => ({
+      "@type": "Question",
+      "name": item.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": item.answer,
+      },
+    })),
+  };
 
   return (
     <div className="flex min-h-screen flex-col">
@@ -97,7 +118,7 @@ export default function Home() {
                 <span className="text-[10px] font-bold text-slate-400 uppercase tracking-[0.3em] w-full lg:w-auto mb-2 lg:mb-0">Recognized by</span>
                 <div className="flex flex-wrap items-center gap-x-12 gap-y-6 opacity-50 grayscale hover:opacity-70 hover:grayscale-0 transition-all duration-500">
                   <a
-                    href="https://chambers.com/lawyer/alvaro-posada-latin-america-9:210039"
+                    href="https://chambers.com/law-firm/agora-abogados-global-2:23719512"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center flex-shrink-0"
@@ -342,6 +363,45 @@ export default function Home() {
                   </Link>
                 </div>
               ))}
+            </div>
+          </div>
+        </section>
+
+        {/* FAQ Section */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+        <section className="py-24 lg:py-40 bg-white border-b">
+          <div className="container mx-auto px-6 lg:px-12">
+            <div className="max-w-3xl mx-auto">
+              <h2 className="text-4xl md:text-5xl font-serif text-primary mb-16 text-center">{tFaq("title")}</h2>
+              <div className="space-y-4">
+                {faqItems.map((item, index) => (
+                  <div key={index} className="border border-slate-100 bg-slate-50">
+                    <button
+                      onClick={() => setOpenFaq(openFaq === index ? null : index)}
+                      className="w-full flex items-center justify-between p-6 text-left cursor-pointer group"
+                      aria-expanded={openFaq === index}
+                    >
+                      <span className="font-bold text-primary pr-4 group-hover:text-primary/70 transition-colors">
+                        {item.question}
+                      </span>
+                      <ChevronDown
+                        className={`h-5 w-5 text-primary flex-shrink-0 transition-transform duration-300 ${openFaq === index ? "rotate-180" : ""}`}
+                      />
+                    </button>
+                    <div
+                      className={`overflow-hidden transition-all duration-300 ${openFaq === index ? "max-h-96 opacity-100" : "max-h-0 opacity-0"}`}
+                      aria-hidden={openFaq !== index}
+                    >
+                      <p className="px-6 pb-6 text-slate-600 text-sm leading-relaxed border-t border-slate-100 pt-4">
+                        {item.answer}
+                      </p>
+                    </div>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </section>

@@ -201,6 +201,27 @@
                 "title": "Industrials, Manufacturing & Transportation",
                 "desc": "Specialized services to transportation companies, including cable systems. Efficient structures for national market operations, addressing public law and multi-level taxation."
             }
+        },
+        "faq": {
+            "title": "Frequently Asked Questions About Ágora",
+            "items": [
+                {
+                    "question": "Where is Ágora Abogados headquartered?",
+                    "answer": "Ágora Abogados is headquartered in Caracas, Venezuela (Torre Simple, El Rosal), with additional offices in Maracay, Valencia, Cagua (Venezuela), and Mexico City. We serve clients across Latin America and on matters with international dimensions."
+                },
+                {
+                    "question": "What distinguishes Ágora from other law firms in Venezuela?",
+                    "answer": "Ágora combines the personalized service of a boutique firm with global reach, capabilities, and vision. Our senior partners are consistently recognized by Chambers Global, Chambers Latin America, IFLR1000, and ITR World Tax. We focus on cross-border transactions and high-stakes regulatory matters that require both deep local knowledge and international perspective."
+                },
+                {
+                    "question": "What industries does Ágora specialize in?",
+                    "answer": "We serve clients in banking and financial services, energy and infrastructure, food and agriculture, healthcare and life sciences, industrials and manufacturing, and technology sectors. Our multi-disciplinary team provides integrated advice across corporate, regulatory, tax, and dispute resolution matters."
+                },
+                {
+                    "question": "Does Ágora handle matters outside of Venezuela?",
+                    "answer": "Yes. While Venezuela is our primary jurisdiction, we regularly advise on cross-border transactions and disputes involving multiple jurisdictions across Latin America, the United States, Europe, and international arbitration forums. We maintain relationships with qualified counsel in key jurisdictions globally."
+                }
+            ]
         }
     },
     "CareersPage": {
@@ -2864,5 +2885,34 @@
                 "content": "This website may constitute attorney advertising in certain jurisdictions. The information contained herein is intended to provide general information about Ágora Abogados and its services. It is not intended as specific legal advice and should not be used as a substitute for competent legal counsel."
             }
         }
+    },
+    "HomeFAQ": {
+        "title": "Frequently Asked Questions",
+        "items": [
+            {
+                "question": "What is Ágora Abogados?",
+                "answer": "Ágora Abogados is a boutique strategic legal and investment advisory firm based in Caracas, Venezuela. We specialize in cross-border transactions, corporate M&A, banking and finance, tax, compliance and sanctions, investment arbitration, litigation, real estate, environmental law, and labor and employment across Latin America."
+            },
+            {
+                "question": "What countries and jurisdictions does Ágora serve?",
+                "answer": "Ágora's primary focus is Venezuela and Latin America. We advise on cross-border transactions involving Venezuela, Mexico, and other Latin American jurisdictions, as well as international matters touching the United States, Europe, and global financial centers. Our offices are in Caracas, Maracay, Valencia, Cagua (Venezuela), and Mexico City."
+            },
+            {
+                "question": "What types of clients does Ágora work with?",
+                "answer": "We work with multinational corporations, foreign investors, financial institutions, private equity funds, and individuals with business interests in Venezuela or Latin America. Our clients span sectors including banking, energy, infrastructure, food & agriculture, healthcare, and technology."
+            },
+            {
+                "question": "How do OFAC sanctions affect business operations in Venezuela?",
+                "answer": "OFAC (Office of Foreign Assets Control) general licenses and specific licenses govern what transactions are permitted with Venezuelan entities and individuals. Our compliance and sanctions team advises on license applicability, transaction structuring, due diligence requirements, and regulatory filings to ensure lawful operations under the current sanctions framework."
+            },
+            {
+                "question": "What is investment arbitration and how does it apply to Venezuela?",
+                "answer": "Investment arbitration allows foreign investors to bring claims against states under bilateral investment treaties (BITs) or multilateral agreements when their investments are expropriated or treated unfairly. Ágora has deep expertise in ICSID and UNCITRAL proceedings against Venezuela, including claim assessment, treaty strategy, negotiation, and enforcement of arbitral awards."
+            },
+            {
+                "question": "How can I contact Ágora for a consultation?",
+                "answer": "You can book a consultation directly through our website using the Connect button, email us at admin@agoralatam.com, or visit our offices in Caracas (Torre Simple, El Rosal) or Mexico City (Bosque de Radiatas 22). We respond to all inquiries within one business day."
+            }
+        ]
     }
 }
