@@ -19,6 +19,14 @@ export const insightsLocaleMap: Record<string, { en: string; es: string }> = {
     "en": "corporate-good-standing-venezuela",
     "es": "empresas-corporativamente-al-dia-es"
   },
+  "environmental-technical-standards-venezuela": {
+    "en": "environmental-technical-standards-venezuela",
+    "es": "normas-tecnicas-ambientales-venezuela"
+  },
+  "normas-tecnicas-ambientales-venezuela": {
+    "en": "environmental-technical-standards-venezuela",
+    "es": "normas-tecnicas-ambientales-venezuela"
+  },
   "fintech-venezuela-itfb-regulation": {
     "en": "fintech-venezuela-itfb-regulation",
     "es": "fintech-venezuela-itfb-sudeban"
