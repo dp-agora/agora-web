@@ -11,6 +11,14 @@ export const insightsLocaleMap: Record<string, { en: string; es: string }> = {
     "en": "incorporating-company-venezuela",
     "es": "aspectos-constituir-empresa-venezuela"
   },
+  "bonos-divisas-caracter-salarial-venezuela": {
+    "en": "foreign-currency-bonuses-salary-venezuela",
+    "es": "bonos-divisas-caracter-salarial-venezuela"
+  },
+  "foreign-currency-bonuses-salary-venezuela": {
+    "en": "foreign-currency-bonuses-salary-venezuela",
+    "es": "bonos-divisas-caracter-salarial-venezuela"
+  },
   "corporate-good-standing-venezuela": {
     "en": "corporate-good-standing-venezuela",
     "es": "empresas-corporativamente-al-dia-es"
@@ -18,14 +26,6 @@ export const insightsLocaleMap: Record<string, { en: string; es: string }> = {
   "empresas-corporativamente-al-dia-es": {
     "en": "corporate-good-standing-venezuela",
     "es": "empresas-corporativamente-al-dia-es"
-  },
-  "environmental-technical-standards-venezuela": {
-    "en": "environmental-technical-standards-venezuela",
-    "es": "normas-tecnicas-ambientales-venezuela"
-  },
-  "normas-tecnicas-ambientales-venezuela": {
-    "en": "environmental-technical-standards-venezuela",
-    "es": "normas-tecnicas-ambientales-venezuela"
   },
   "fintech-venezuela-itfb-regulation": {
     "en": "fintech-venezuela-itfb-regulation",
