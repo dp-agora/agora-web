@@ -7,6 +7,7 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { Toaster } from "sonner";
+import Script from "next/script";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -85,17 +86,19 @@ export default async function LocaleLayout({
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
 
         {/* Ahrefs Analytics */}
-        <script
+        <Script
           src="https://analytics.ahrefs.com/analytics.js"
           data-key="xHNHBgafftXNgiHNyhfIXA"
-          async
+          strategy="afterInteractive"
         />
         {/* Google Analytics 4 */}
-        <script
-          async
+        <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-ME4CJNZ6PQ"
+          strategy="afterInteractive"
         />
-        <script
+        <Script
+          id="gtag-init"
+          strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];
