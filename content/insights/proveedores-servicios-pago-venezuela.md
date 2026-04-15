@@ -14,7 +14,7 @@ authorUrl: "/team/jesus-mendoza"
 category: "Regulatorio"
 tags: ["Venezuela", "Fintech", "Regulatorio", "Banca y Finanzas", "Pagos Digitales"]
 readingTime: "5 min de lectura"
-ogImage: "/images/insights/payment-service-providers-venezuela.jpg"
+ogImage: "/assets/practices/banking-finance.jpeg"
 ---
 
 ## Puntos Clave
