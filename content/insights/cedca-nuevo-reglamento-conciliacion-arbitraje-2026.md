@@ -19,7 +19,7 @@ ogImage: "/assets/practices/litigation-dispute-resolution.jpeg"
 
 El 1.° de abril de 2026 entró en vigencia el nuevo Reglamento de Conciliación y Arbitraje del Centro Empresarial de Conciliación y Arbitraje ("CEDCA"), aprobado por su Asamblea General de Socios. La reforma es la más amplia desde la fundación del CEDCA. Si su empresa tiene — o debería tener — una cláusula arbitral del CEDCA, estos cambios le afectan directamente.
 
-El cuadro a continuación tiene una revisión detallada de los cambios, de los cuales destacamos:
+El [cuadro a continuación](#cuadro-comparativo-reglamento-cedca-2020-vs-2026) tiene una revisión detallada de los cambios, de los cuales destacamos:
 
 ## Un tercer carril para conflictos de menor monto
 

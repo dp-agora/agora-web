@@ -19,7 +19,7 @@ ogImage: "/assets/practices/litigation-dispute-resolution.jpeg"
 
 On April 1, 2026, the new Regulations of Conciliation and Arbitration of the Centro Empresarial de Conciliación y Arbitraje ("CEDCA") entered into force, following approval by its General Assembly of Members. The reform is the most comprehensive since the CEDCA's founding. If your company has — or should have — a CEDCA arbitration clause, these changes affect you directly.
 
-The table below contains a detailed review of the changes, from which we highlight the following:
+The [table below](#comparative-table-cedca-regulations-2020-vs-2026) contains a detailed review of the changes, from which we highlight the following:
 
 ## A third lane for smaller disputes
 
