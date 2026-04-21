@@ -7,6 +7,7 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+import rehypeSlug from "rehype-slug";
 import { ArrowLeft } from "lucide-react";
 import type { Metadata } from "next";
 
@@ -166,7 +167,7 @@ export default async function InsightArticlePage({ params }: Props) {
                         <div className="max-w-3xl">
                             {insight.content?.trim() ? (
                                 <div className="prose prose-slate prose-lg max-w-none prose-headings:font-serif prose-headings:text-primary prose-a:text-primary prose-a:no-underline hover:prose-a:underline">
-                                    <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                                    <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeSlug]}>
                                         {insight.content}
                                     </ReactMarkdown>
                                 </div>
