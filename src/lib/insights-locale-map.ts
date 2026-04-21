@@ -19,6 +19,14 @@ export const insightsLocaleMap: Record<string, { en: string; es: string }> = {
     "en": "foreign-currency-bonuses-salary-venezuela",
     "es": "bonos-divisas-caracter-salarial-venezuela"
   },
+  "cedca-new-arbitration-rules-2026-venezuela": {
+    "en": "cedca-new-arbitration-rules-2026-venezuela",
+    "es": "cedca-nuevo-reglamento-conciliacion-arbitraje-2026"
+  },
+  "cedca-nuevo-reglamento-conciliacion-arbitraje-2026": {
+    "en": "cedca-new-arbitration-rules-2026-venezuela",
+    "es": "cedca-nuevo-reglamento-conciliacion-arbitraje-2026"
+  },
   "corporate-good-standing-venezuela": {
     "en": "corporate-good-standing-venezuela",
     "es": "empresas-corporativamente-al-dia-es"
