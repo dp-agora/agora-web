@@ -164,7 +164,7 @@ export default async function InsightArticlePage({ params }: Props) {
                         </div>
                     </header>
                     <div className="container mx-auto px-6 lg:px-12 py-12 lg:py-16">
-                        <div className="max-w-3xl">
+                        <div className="max-w-3xl mx-auto">
                             {insight.content?.trim() ? (
                                 <div className="prose prose-slate prose-lg max-w-none prose-headings:font-serif prose-headings:text-primary prose-a:text-primary prose-a:no-underline hover:prose-a:underline">
                                     <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeSlug]}>
