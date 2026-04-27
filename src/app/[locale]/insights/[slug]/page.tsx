@@ -11,6 +11,9 @@ import rehypeSlug from "rehype-slug";
 import { ArrowLeft } from "lucide-react";
 import type { Metadata } from "next";
 
+/** Inner column for insight hero + body — keep width and centering in sync. */
+const insightArticleInner = "max-w-3xl mx-auto w-full";
+
 type Props = {
     params: Promise<{ locale: string; slug: string }>;
 };
@@ -115,7 +118,8 @@ export default async function InsightArticlePage({ params }: Props) {
             <main className="min-h-screen flex flex-col">
                 <article className="flex-1">
                     <header className="pt-24 pb-12 lg:pt-32 lg:pb-16 bg-slate-50 border-b">
-                        <div className="container mx-auto px-6 lg:px-12 max-w-3xl">
+                        <div className="container mx-auto px-6 lg:px-12">
+                            <div className={insightArticleInner}>
                             <Link
                                 href="/insights"
                                 className="inline-flex items-center gap-2 text-primary/70 hover:text-primary text-sm font-medium mb-8 transition-colors"
@@ -161,10 +165,11 @@ export default async function InsightArticlePage({ params }: Props) {
                                     )}
                                 </span>
                             </div>
+                            </div>
                         </div>
                     </header>
                     <div className="container mx-auto px-6 lg:px-12 py-12 lg:py-16">
-                        <div className="max-w-3xl">
+                        <div className={insightArticleInner}>
                             {insight.content?.trim() ? (
                                 <div className="prose prose-slate prose-lg max-w-none prose-headings:font-serif prose-headings:text-primary prose-a:text-primary prose-a:no-underline hover:prose-a:underline">
                                     <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeSlug]}>
