@@ -10,7 +10,14 @@ type Props = ImgHTMLAttributes<HTMLImageElement> & {
     locale?: "en" | "es";
 };
 
-export function InsightMarkdownImage({ src, alt, node: _node, locale = "en", ...rest }: Props) {
+export function InsightMarkdownImage({
+    src,
+    alt,
+    title,
+    node: _node,
+    locale = "en",
+    ...rest
+}: Props) {
     if (!src || typeof src !== "string") return null;
 
     if (src === COMMERCIAL_ARBITRATION_INFOGRAPHIC) {
@@ -18,9 +25,12 @@ export function InsightMarkdownImage({ src, alt, node: _node, locale = "en", ...
             <CommercialArbitrationInfographic
                 locale={locale}
                 ariaLabel={alt ?? ""}
+                title={title}
             />
         );
     }
 
-    return <img src={src} alt={alt ?? ""} className="max-w-full h-auto" {...rest} />;
+    return (
+        <img src={src} alt={alt ?? ""} title={title} className="max-w-full h-auto" {...rest} />
+    );
 }

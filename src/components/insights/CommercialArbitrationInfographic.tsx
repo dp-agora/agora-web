@@ -74,9 +74,12 @@ type Locale = "en" | "es";
 export function CommercialArbitrationInfographic({
     locale,
     ariaLabel,
+    title,
 }: {
     locale: Locale;
     ariaLabel: string;
+    /** Preserved from markdown image syntax when present. */
+    title?: string;
 }) {
     const outerRef = useRef<HTMLDivElement>(null);
     const [scale, setScale] = useState(1);
@@ -103,6 +106,7 @@ export function CommercialArbitrationInfographic({
             className="not-prose my-8 w-full max-w-[1080px] mx-auto"
             role="group"
             aria-label={ariaLabel}
+            title={title}
         >
             <div
                 ref={outerRef}
