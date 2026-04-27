@@ -14,7 +14,7 @@ authorUrl: "/team/jose-barnola"
 category: "Litigios y Disputas"
 tags: ["Venezuela", "Arbitraje", "Derecho Comercial", "Resolución de Disputas", "Convención de Nueva York", "CEDCA"]
 readingTime: "6 min de lectura"
-ogImage: "/images/insights/commercial-arbitration-venezuela-infographic.png"
+ogImage: "/assets/insights/cards/commercial-arbitration-cover.jpeg"
 listImage: "/assets/insights/cards/commercial-arbitration-cover.jpeg"
 ---
 
