@@ -8,6 +8,7 @@ import { routing } from "@/i18n/routing";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import rehypeSlug from "rehype-slug";
+import { remarkUnwrapLoneImageParagraphs } from "@/lib/remark-unwrap-lone-image-paragraphs";
 import { ArrowLeft } from "lucide-react";
 import type { Metadata } from "next";
 import { InsightMarkdownImage } from "@/components/insights/InsightMarkdownImage";
@@ -174,9 +175,16 @@ export default async function InsightArticlePage({ params }: Props) {
                             {insight.content?.trim() ? (
                                 <div className="prose prose-slate prose-lg max-w-none prose-headings:font-serif prose-headings:text-primary prose-a:text-primary prose-a:no-underline hover:prose-a:underline">
                                     <ReactMarkdown
-                                        remarkPlugins={[remarkGfm]}
+                                        remarkPlugins={[remarkGfm, remarkUnwrapLoneImageParagraphs]}
                                         rehypePlugins={[rehypeSlug]}
-                                        components={{ img: InsightMarkdownImage }}
+                                        components={{
+                                            img: (props) => (
+                                                <InsightMarkdownImage
+                                                    {...props}
+                                                    locale={locale === "es" ? "es" : "en"}
+                                                />
+                                            ),
+                                        }}
                                     >
                                         {insight.content}
                                     </ReactMarkdown>
