@@ -15,6 +15,8 @@ export interface InsightFrontmatter {
   tags: string[];
   readingTime: string;
   ogImage: string;
+  /** Optional thumbnail for /insights cards only; does not replace ogImage for Open Graph. */
+  listImage?: string;
 }
 
 export interface Insight extends InsightFrontmatter {

@@ -22,6 +22,9 @@ const AVATAR_MAP: Record<string, string> = {
 const DEFAULT_OG_IMAGE = "/assets/insights/insights-image.webp";
 
 function getCardImage(insight: Insight): string {
+    if (insight.listImage?.trim()) {
+        return insight.listImage.trim();
+    }
     if (insight.ogImage && insight.ogImage !== DEFAULT_OG_IMAGE) {
         return insight.ogImage;
     }
