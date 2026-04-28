@@ -205,9 +205,6 @@ export default async function InsightArticlePage({ params }: Props) {
                                     {t("article.ctaButton")}
                                 </a>
                             </div>
-                            <p className="mt-8 pt-6 border-t border-slate-200 text-xs text-slate-500">
-                                {t("article.disclaimer")}
-                            </p>
                         </div>
                     </div>
                 </article>
