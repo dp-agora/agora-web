@@ -64,5 +64,3 @@ Each center has its own rules and model arbitration clauses.
 Ágora Abogados S.C. advises its clients on the drafting and negotiation of effective arbitration clauses, as well as on the representation of their interests in domestic and international arbitration proceedings. Our team includes lawyers with extensive experience in commercial and investment arbitration before the leading centers in Venezuela and abroad, and is capable of accompanying you from the drafting of the contract through to the enforcement of the award.
 
 In business, choosing the right mechanism for resolving your disputes can be just as important as winning them.
-
-*Disclaimer: The content of this article is for informational purposes only and should not be considered legal advice. While every effort has been made to provide accurate and up-to-date information, laws, case law, and administrative criteria may vary. It is always advisable to consult an attorney for advice specific to your particular situation.*

@@ -64,5 +64,3 @@ Cada centro tiene su propio reglamento y cláusulas arbitrales modelo.
 Ágora Abogados S.C. asesora a sus clientes en el diseño y negociación de cláusulas arbitrales eficaces, así como en la representación de sus intereses en procedimientos arbitrales nacionales e internacionales. Nuestro equipo cuenta con abogados con amplia experiencia en arbitraje comercial y de inversiones ante los principales centros del país y del exterior, y está en capacidad de acompañarle desde la redacción del contrato hasta la ejecución del laudo.
 
 En los negocios, elegir bien cómo resolver sus controversias puede ser tan importante como ganarlas.
-
-*Advertencia: El contenido de este artículo es solo para fines informativos y no debe considerarse como asesoría legal. Aunque se ha realizado un esfuerzo para proporcionar información precisa y actualizada, las leyes, jurisprudencia y criterios administrativos pueden variar. Siempre se recomienda consultar a un abogado para obtener asesoría específica según el caso concreto.*
