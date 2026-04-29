@@ -1,9 +1,12 @@
 import type { ImgHTMLAttributes } from "react";
 import { CommercialArbitrationInfographic } from "@/components/insights/CommercialArbitrationInfographic";
+import { OfacApril2026Infographic } from "@/components/insights/OfacApril2026Infographic";
 
-/** Markdown still references this path as a sentinel for the embedded React graphic. */
+/** Markdown still references these paths as sentinels for embedded React graphics. */
 const COMMERCIAL_ARBITRATION_INFOGRAPHIC =
     "/images/insights/commercial-arbitration-venezuela-infographic.png";
+const OFAC_APRIL_2026_INFOGRAPHIC =
+    "/images/insights/ofac-april-2026-infographic.png";
 
 type Props = ImgHTMLAttributes<HTMLImageElement> & {
     node?: unknown;
@@ -23,6 +26,16 @@ export function InsightMarkdownImage({
     if (src === COMMERCIAL_ARBITRATION_INFOGRAPHIC) {
         return (
             <CommercialArbitrationInfographic
+                locale={locale}
+                ariaLabel={alt ?? ""}
+                title={title}
+            />
+        );
+    }
+
+    if (src === OFAC_APRIL_2026_INFOGRAPHIC) {
+        return (
+            <OfacApril2026Infographic
                 locale={locale}
                 ariaLabel={alt ?? ""}
                 title={title}
