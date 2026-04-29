@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&display=swap");
+
+.frame {
+    margin: 0;
+    padding: 72px 80px 60px;
+    box-sizing: border-box;
+    width: 1080px;
+    height: 1080px;
+    overflow: hidden;
+    background: #1c3054;
+    font-family: "Lora", Georgia, serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.frame * {
+    box-sizing: border-box;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 46px;
+}
+
+.tag {
+    font-size: 13px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.33);
+}
+
+.logoImg {
+    height: 54px;
+    width: auto;
+}
+
+.title {
+    font-size: 34px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.2;
+    margin-bottom: 14px;
+}
+
+.sub {
+    font-size: 19px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 40px;
+    line-height: 1.4;
+    font-weight: 400;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    flex: 1;
+}
+
+.table thead th {
+    padding: 18px 16px;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+.thBlank {
+    width: 28%;
+    background: transparent;
+    border: none;
+}
+
+.thA {
+    width: 36%;
+    background: rgba(255, 255, 255, 0.12);
+    color: #fff;
+}
+
+.thB {
+    width: 36%;
+    background: rgba(255, 255, 255, 0.05);
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.table tbody tr {
+    border-top: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.table tbody tr:last-child {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.tdLbl {
+    padding: 20px 0;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.45);
+    vertical-align: middle;
+}
+
+.tdA {
+    padding: 16px;
+    background: rgba(255, 255, 255, 0.06);
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 1.4;
+}
+
+.tdB {
+    padding: 16px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 1.4;
+}
+
+.foot {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 18px;
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footLeft {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.32);
+    letter-spacing: 0.5px;
+}
+
+.footRight {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.45);
+    letter-spacing: 0.5px;
+}
