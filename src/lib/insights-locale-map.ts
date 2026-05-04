@@ -74,5 +74,13 @@ export const insightsLocaleMap: Record<string, { en: string; es: string }> = {
   "proveedores-servicios-pago-venezuela": {
     "en": "payment-service-providers-venezuela",
     "es": "proveedores-servicios-pago-venezuela"
+  },
+  "venezuela-economic-revival-environmental-regulation": {
+    "en": "venezuela-economic-revival-environmental-regulation",
+    "es": "venezuela-reactivacion-economica-marco-regulatorio-ambiental"
+  },
+  "venezuela-reactivacion-economica-marco-regulatorio-ambiental": {
+    "en": "venezuela-economic-revival-environmental-regulation",
+    "es": "venezuela-reactivacion-economica-marco-regulatorio-ambiental"
   }
 };
