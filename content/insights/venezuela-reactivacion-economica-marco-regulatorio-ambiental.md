@@ -83,7 +83,3 @@ Además de verificar el cumplimiento literal de las normas publicadas, debe eval
 
 **¿Quiénes concentran mayor exposición a esta incertidumbre?**  
 Operadores e inversionistas en **hidrocarburos, minería y energía**, donde permisos, estudios de impacto y el monitoreo a largo plazo son centrales para la ejecutabilidad y el cronograma del proyecto.
-
----
-
-_Advertencia: El contenido de este artículo es solo para fines informativos y no debe considerarse como asesoría jurídica. Aunque se ha realizado un esfuerzo para proporcionar información precisa y actualizada, las leyes, jurisprudencia y criterios administrativos pueden variar. Siempre se recomienda consultar a un abogado para obtener asesoría específica según el caso concreto._

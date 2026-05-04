@@ -83,7 +83,3 @@ Beyond checking literal compliance with published standards, diligence should as
 
 **Who is most affected by this uncertainty?**  
 Operators and investors in **hydrocarbons, mining, and energy**—sectors where licensing, EIAs, and long-term monitoring are central to bankability and timeline risk.
-
----
-
-_Disclaimer: The content of this article is for informational purposes only and should not be considered legal advice. While every effort has been made to provide accurate and up-to-date information, laws, case law, and administrative criteria may vary. Consulting a qualified attorney for advice specific to your particular circumstances is always recommended._
