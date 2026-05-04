@@ -24,7 +24,7 @@ tags:
     "Technical standards",
   ]
 readingTime: "7 min read"
-ogImage: "/images/insights/venezuela-environmental-regulation-infographic.webp"
+ogImage: "/assets/practices/enviromental-natural-resources.jpeg"
 ---
 
 ## Can Venezuela Revive Its Economy Without Modernizing Its Environmental Regulatory Framework?
@@ -35,7 +35,7 @@ The honest answer, today, is incomplete. The environmental regulatory framework 
 
 Our [environmental and natural resources practice](/practices/environmental) routinely supports permitting, due diligence, and compliance strategy for projects in regulated sectors.
 
-![Infographic comparing 1992 environmental technical standards with investor consequences in Venezuela](/images/insights/venezuela-environmental-regulation-infographic.webp)
+![Infographic comparing 1992 environmental technical standards with investor consequences in Venezuela](/images/insights/venezuela-environmental-regulation-infographic-en.webp)
 
 ## The current legal framework and its limitations
 

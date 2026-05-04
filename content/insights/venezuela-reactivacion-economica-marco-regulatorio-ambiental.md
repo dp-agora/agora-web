@@ -24,7 +24,7 @@ tags:
     "Normas técnicas",
   ]
 readingTime: "7 min de lectura"
-ogImage: "/images/insights/venezuela-environmental-regulation-infographic.webp"
+ogImage: "/assets/practices/enviromental-natural-resources.jpeg"
 ---
 
 ## ¿Puede Venezuela reactivar su economía sin modernizar su marco regulatorio ambiental?
