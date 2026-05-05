@@ -4,7 +4,7 @@ seoTitle: "Reactivación económica y marco regulatorio ambiental en Venezuela |
 excerpt: "Los planes de reactivación en hidrocarburos, minería y energía dependen de permisos ambientales y normas técnicas que, en buena parte, datan de hace décadas. Esa brecha no es un detalle académico: es un riesgo jurídico y regulatorio concreto para el inversionista."
 seoDescription: "Por qué las normas técnicas ambientales envejecidas en Venezuela generan incertidumbre regulatoria en proyectos de hidrocarburos, minería y energía—y qué debe anticipar el inversionista."
 date: "2026-05-04"
-lastUpdated: "2026-05-04"
+lastUpdated: "2026-05-05"
 lang: "es"
 slug: "venezuela-reactivacion-economica-marco-regulatorio-ambiental"
 translationSlug: "venezuela-economic-revival-environmental-regulation"
@@ -39,11 +39,11 @@ En nuestra práctica de [medio ambiente y recursos naturales](/practices/environ
 
 ## El marco legal vigente y sus límites
 
-- El marco ambiental venezolano descansa sobre dos pilares principales: la **Ley Orgánica del Ambiente de 2006** y la **Ley Penal del Ambiente de 1992**. La primera establece los requisitos y parámetros que deben cumplir quienes realicen actividades capaces de degradar el ambiente, con sanciones administrativas ante su incumplimiento. La segunda tipifica como delitos las conductas que violan las disposiciones relativas a la conservación, defensa y mejoramiento del ambiente.
+- El marco ambiental venezolano descansa sobre dos pilares principales: la **Ley Orgánica del Ambiente de 2006** (que derogó la ley de 1976) y la **Ley Penal del Ambiente de 2012** (que derogó la ley de 1992). La primera establece los requisitos y parámetros que deben cumplir quienes realicen actividades capaces de degradar el ambiente, con sanciones administrativas ante su incumplimiento. La segunda tipifica como delitos las conductas que violan las disposiciones relativas a la conservación, defensa y mejoramiento del ambiente.
 
 - La mayoría de los delitos ambientales se tipifican mediante la técnica del **reenvío** a normas complementarias de contenido principalmente técnico. La Ley Penal del Ambiente establece que dichas normas deben tener rango de ley, decreto o resolución, e incluir en sí mismas todos los elementos necesarios para complementar el tipo penal, sin que sea posible un segundo reenvío; es decir, la norma complementaria no puede remitirse a otra norma de igual naturaleza. Si esa norma complementaria es obsoleta o inválida, el tipo penal queda en entredicho.
 
-- Al promulgarse la Ley Penal del Ambiente en 1992, el legislador ordenó publicar en 90 días las normas técnicas entonces vigentes, elevándolas a rango de decreto. Esa tarea se cumplió, con cambios más formales que sustanciales. En años posteriores, algunas normas fueron individualmente revisadas y actualizadas, pero la mayoría permanece sin modificación alguna.
+- Al promulgarse la Ley Penal del Ambiente de 1992, el legislador ordenó publicar en 90 días las normas técnicas entonces vigentes, elevándolas a rango de decreto. Esa tarea se cumplió, con cambios más formales que sustanciales. En años posteriores, algunas normas fueron individualmente revisadas y actualizadas, pero la mayoría permanece sin modificación alguna.
 
 ## ¿Por qué esto importa para los proyectos de hoy?
 
@@ -70,7 +70,7 @@ Porque en Venezuela, la oportunidad de inversión y el riesgo regulatorio son do
 ## Preguntas frecuentes
 
 **¿Cuáles son los dos pilares principales del marco ambiental venezolano?**  
-La Ley Orgánica del Ambiente (2006), que fija requisitos y sanciones administrativas frente a actividades degradantes, y la Ley Penal del Ambiente (1992), que tipifica delitos contra la conservación y el mejoramiento del ambiente.
+La Ley Orgánica del Ambiente (2006, que derogó la de 1976), que fija requisitos y sanciones administrativas frente a actividades degradantes, y la Ley Penal del Ambiente (2012, que derogó la de 1992), que tipifica delitos contra la conservación y el mejoramiento del ambiente.
 
 **¿Por qué las normas técnicas “obsoletas” generan riesgo jurídico?**  
 Buena parte de los delitos ambientales se completa mediante reenvío a normas complementarias de carácter técnico. Si esas normas están desactualizadas, son incompletas o se discute su validez, el alcance de la exposición penal y administrativa se vuelve más difícil de anticipar.

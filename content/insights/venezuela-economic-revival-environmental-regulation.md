@@ -4,7 +4,7 @@ seoTitle: "Venezuela Economic Revival and Environmental Regulation | Ágora Abog
 excerpt: "Reactivation plans in oil, mining, and power hinge on environmental permits and technical standards that are often decades old. That gap is not academic—it is a concrete legal and regulatory risk for investors."
 seoDescription: "Why Venezuela’s aging environmental technical standards create regulatory uncertainty for hydrocarbons, mining, and energy projects—and what investors should plan for."
 date: "2026-05-04"
-lastUpdated: "2026-05-04"
+lastUpdated: "2026-05-05"
 lang: "en"
 slug: "venezuela-economic-revival-environmental-regulation"
 translationSlug: "venezuela-reactivacion-economica-marco-regulatorio-ambiental"
@@ -31,7 +31,7 @@ ogImage: "/assets/practices/enviromental-natural-resources.jpeg"
 
 Venezuela is moving forward with plans to reactivate its strategic sectors: oil and gas, mining, and energy generation and distribution. The question that few ask out loud is this: can these projects be implemented in a predictable, legally sound environment under a clear and technically current regulatory framework?
 
-The honest answer, today, is incomplete. The environmental regulatory framework currently in force in Venezuela is over 30 years old in key respects. The technical standards that complement the Environmental Criminal Law were published in 1992. The scientific and technological landscape of that era is not the landscape of 2026. For any investor evaluating a project in Venezuela, that gap is not an academic detail—it is a concrete legal risk.
+The honest answer, today, is incomplete. The environmental regulatory framework currently in force in Venezuela is over 30 years old. The technical standards that complement the Environmental Criminal Law were published in 1992. The scientific and technological landscape of that era is not the landscape of 2026. For any investor evaluating a project in Venezuela, that gap is not an academic detail—it is a concrete legal risk.
 
 Our [environmental and natural resources practice](/practices/environmental) routinely supports permitting, due diligence, and compliance strategy for projects in regulated sectors.
 
@@ -39,7 +39,7 @@ Our [environmental and natural resources practice](/practices/environmental) rou
 
 ## The current legal framework and its limitations
 
-- Venezuela’s environmental framework rests primarily on two pillars: the **Organic Environmental Law (2006)** and the **Environmental Criminal Law (1992)**. The former establishes the requirements and parameters that must be met by those carrying out activities capable of degrading the environment, with administrative penalties for non-compliance. The latter criminalizes conduct that violates provisions on environmental conservation, protection, and improvement.
+- Venezuela’s environmental framework rests primarily on two pillars: the **Organic Environmental Law (2006)** (which repealed the 1976 law) and the **Environmental Criminal Law (2012)** (which repealed the 1992 law). The former establishes the requirements and parameters that must be met by those carrying out activities capable of degrading the environment, with administrative penalties for non-compliance. The latter criminalizes conduct that violates provisions on environmental conservation, protection, and improvement.
 
 - Most environmental crimes are defined through the **referral technique**, whereby criminal provisions are complemented by reference to norms of primarily technical content. The Environmental Criminal Law requires that such norms have the status of a law, decree, or resolution, and that they include within themselves all the elements necessary to complete the crime—without a second referral being permitted. In other words, the complementary norm may not refer to another norm of the same nature. If those complementary norms are obsolete or invalid, the criminal provision itself is called into question.
 
@@ -70,7 +70,7 @@ Because in Venezuela, investment opportunity and regulatory risk are two sides o
 ## Frequently asked questions
 
 **What are the two main pillars of Venezuela’s environmental framework?**  
-They are the Organic Environmental Law (2006), which sets administrative requirements and sanctions for environmentally harmful activities, and the Environmental Criminal Law (1992), which criminalizes conduct that violates environmental conservation and protection rules.
+They are the Organic Environmental Law (2006, which repealed the 1976 law), which sets administrative requirements and sanctions for environmentally harmful activities, and the Environmental Criminal Law (2012, which repealed the 1992 law), which criminalizes conduct that violates environmental conservation and protection rules.
 
 **Why do “obsolete” technical standards create legal risk?**  
 Many environmental offenses are completed by reference to technical complementary norms. If those norms are outdated, incomplete, or disputed, the scope of criminal and administrative exposure becomes harder to predict.
