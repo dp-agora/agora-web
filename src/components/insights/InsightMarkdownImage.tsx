@@ -49,6 +49,7 @@ export function InsightMarkdownImage({
     if (src === VENEZUELA_ENVIRONMENTAL_REGULATION_INFOGRAPHIC_2026) {
         return (
             <VenezuelaEnvironmentalRegulationInfographicEmbed
+                locale={locale}
                 ariaLabel={alt ?? ""}
                 title={title}
             />
