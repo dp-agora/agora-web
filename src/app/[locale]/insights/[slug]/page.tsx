@@ -31,7 +31,7 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const { locale, slug } = await params;
-    const insight = getInsightBySlug(slug);
+    const insight = getInsightBySlug(slug, locale === "es" ? "es" : "en");
     if (!insight) return { title: "Not Found" };
 
     const baseUrl = "https://www.agoralatam.com";
@@ -73,7 +73,7 @@ export default async function InsightArticlePage({ params }: Props) {
     if (!slug) notFound();
 
     const t = await getTranslations({ locale, namespace: "InsightsPage" });
-    const insight = getInsightBySlug(slug);
+    const insight = getInsightBySlug(slug, locale === "es" ? "es" : "en");
 
     if (!insight) notFound();
 
