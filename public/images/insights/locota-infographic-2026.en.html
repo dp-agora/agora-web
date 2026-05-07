@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LOCOTA — Ágora Abogados</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: #111; display: flex; align-items: center; justify-content: center; min-height: 100vh; padding: 24px; }
+
+    .cv {
+      width: 1080px;
+      max-width: 100%;
+      font-family: 'Lora', Georgia, serif;
+      display: flex;
+      flex-direction: column;
+      background: #1c3054;
+    }
+
+    .top-band {
+      background: #272223;
+      padding: 32px 72px 28px;
+    }
+    .topbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 18px;
+      gap: 24px;
+    }
+    .tag {
+      font-size: 11px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.3);
+      font-style: normal;
+      line-height: 1.5;
+    }
+    .logo { height: 36px; width: auto; flex: 0 0 auto; }
+    .headline {
+      font-size: 24px;
+      font-weight: 700;
+      color: #fff;
+      line-height: 1.25;
+      margin-bottom: 7px;
+      font-style: normal;
+    }
+    .sub {
+      font-size: 13.5px;
+      font-style: italic;
+      color: rgba(255,255,255,0.5);
+      line-height: 1.5;
+    }
+
+    .compare {
+      display: flex;
+      padding: 36px 56px 36px;
+      gap: 0;
+      flex-wrap: wrap;
+    }
+
+    .col {
+      flex: 1;
+      min-width: 320px;
+      display: flex;
+      flex-direction: column;
+      padding: 28px 32px;
+      gap: 20px;
+    }
+
+    .col.old {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.09);
+    }
+    .col.new {
+      background: rgba(255,255,255,0.1);
+      border: 1px solid rgba(255,255,255,0.18);
+      margin-left: 16px;
+    }
+
+    .col-law {
+      font-size: 9px;
+      font-style: normal;
+      font-weight: 700;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      margin-bottom: 2px;
+    }
+    .col.old .col-law { color: rgba(255,255,255,0.3); }
+    .col.new .col-law { color: rgba(255,255,255,0.55); }
+
+    .col-title {
+      font-size: 17px;
+      font-weight: 700;
+      font-style: normal;
+      line-height: 1.25;
+      padding-bottom: 16px;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+    .col.old .col-title { color: rgba(255,255,255,0.65); }
+    .col.new .col-title { color: #fff; }
+
+    .row { display: flex; flex-direction: column; gap: 4px; }
+    .row-label {
+      font-size: 9px;
+      font-style: normal;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+    .col.old .row-label { color: rgba(255,255,255,0.25); }
+    .col.new .row-label { color: rgba(255,255,255,0.4); }
+
+    .row-value { font-size: 14px; line-height: 1.5; }
+    .col.old .row-value { font-style: italic; color: rgba(255,255,255,0.45); }
+    .col.new .row-value { font-style: normal; font-weight: 600; color: rgba(255,255,255,0.9); }
+
+    .row-desc { font-size: 12px; font-style: italic; line-height: 1.5; }
+    .col.old .row-desc { color: rgba(255,255,255,0.3); }
+    .col.new .row-desc { color: rgba(255,255,255,0.55); }
+
+    .footer {
+      border-top: 1px solid rgba(255,255,255,0.08);
+      padding: 16px 72px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .author { font-size: 12px; font-style: italic; color: rgba(255,255,255,0.35); }
+    .site {
+      font-size: 10px;
+      font-style: normal;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.25);
+    }
+
+    @media (max-width: 820px) {
+      .top-band { padding: 24px 20px 22px; }
+      .compare { padding: 24px 20px 28px; }
+      .col.new { margin-left: 0; margin-top: 16px; }
+      .footer { padding: 14px 20px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="cv">
+    <div class="top-band">
+      <div class="topbar">
+        <div class="tag">Administrative Law · Venezuela · April 2026</div>
+        <img
+          class="logo"
+          src="/assets/brand/Logo Agora outline.png"
+          alt="Ágora"
+        />
+      </div>
+      <div class="headline">LOCOTA: A new law or a continuation of the road?</div>
+      <div class="sub">On April 8, 2026, the Organic Law for the Celerity and Optimization of Administrative Procedures entered into force. Here is what changes — and what remains.</div>
+    </div>
+
+    <div class="compare">
+      <div class="col old">
+        <div>
+          <div class="col-law">Before · LESTA 2014</div>
+          <div class="col-title">Law for the Simplification of Administrative Procedures<br>Ordinary decree-law · OG No. 40,549</div>
+        </div>
+
+        <div class="row">
+          <div class="row-label">Hierarchy</div>
+          <div class="row-value">Ordinary law</div>
+          <div class="row-desc">Lower rank within the Venezuelan legal system</div>
+        </div>
+        <div class="row">
+          <div class="row-label">Governing body</div>
+          <div class="row-value">INGETRAPER</div>
+          <div class="row-desc">Specialized technical institute for procedure management</div>
+        </div>
+        <div class="row">
+          <div class="row-label">Digitalization</div>
+          <div class="row-value">General regulation</div>
+          <div class="row-desc">No specific rules on institutional interoperability</div>
+        </div>
+        <div class="row">
+          <div class="row-label">Rights of the administered party</div>
+          <div class="row-value">Basic constitutional principles</div>
+          <div class="row-desc">Speed, efficiency, and transparency as the baseline</div>
+        </div>
+        <div class="row">
+          <div class="row-label">Repeal</div>
+          <div class="row-value">Not expressly repealed</div>
+          <div class="row-desc">Non-conflicting provisions remain in force alongside LOCOTA</div>
+        </div>
+      </div>
+
+      <div class="col new">
+        <div>
+          <div class="col-law">Now · LOCOTA · April 2026</div>
+          <div class="col-title">Organic law approved by<br>the National Assembly</div>
+        </div>
+
+        <div class="row">
+          <div class="row-label">Hierarchy</div>
+          <div class="row-value">Organic law</div>
+          <div class="row-desc">Higher rank; prevails over ordinary statutes</div>
+        </div>
+        <div class="row">
+          <div class="row-label">Governing body</div>
+          <div class="row-value">National Commission</div>
+          <div class="row-desc">Chaired by the head of State; includes governors, mayors, and the People’s Defender</div>
+        </div>
+        <div class="row">
+          <div class="row-label">Digitalization</div>
+          <div class="row-value">Interoperability enshrined</div>
+          <div class="row-desc">Arts. 10–12: agencies must exchange information without shifting the burden to users</div>
+        </div>
+        <div class="row">
+          <div class="row-label">Rights of the administered party</div>
+          <div class="row-value">3 new express rights</div>
+          <div class="row-desc">Legal certainty · Right to cure · Presumption of good faith</div>
+        </div>
+        <div class="row">
+          <div class="row-label">Transition</div>
+          <div class="row-value">180-day adjustment period</div>
+          <div class="row-desc">Principles are already invocable; specific mechanisms are being implemented</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="author">Barnola &amp; Colmenares · Ágora Abogados SC</div>
+      <div class="site">agoralatam.com</div>
+    </div>
+  </div>
+</body>
+</html>

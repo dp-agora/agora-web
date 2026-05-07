@@ -2,6 +2,8 @@ import type { ImgHTMLAttributes } from "react";
 import { CommercialArbitrationInfographic } from "@/components/insights/CommercialArbitrationInfographic";
 import { OfacApril2026Infographic } from "@/components/insights/OfacApril2026Infographic";
 import { VenezuelaEnvironmentalRegulationInfographicEmbed } from "@/components/insights/VenezuelaEnvironmentalRegulationInfographicEmbed";
+import { LocotaInfographicEmbed } from "@/components/insights/LocotaInfographicEmbed";
+import { LocotaVsLestaComparativeChartEmbed } from "@/components/insights/LocotaVsLestaComparativeChartEmbed";
 
 /** Markdown still references these paths as sentinels for embedded React graphics. */
 const COMMERCIAL_ARBITRATION_INFOGRAPHIC =
@@ -10,6 +12,10 @@ const OFAC_APRIL_2026_INFOGRAPHIC =
     "/images/insights/ofac-april-2026-infographic.png";
 const VENEZUELA_ENVIRONMENTAL_REGULATION_INFOGRAPHIC_2026 =
     "/images/insights/venezuela-environmental-regulation-infographic-2026.html";
+const LOCOTA_INFOGRAPHIC_2026 =
+    "/images/insights/locota-infographic-2026.html";
+const LOCOTA_VS_LESTA_COMPARATIVE_2026 =
+    "/images/insights/locota-vs-lesta-comparative-2026.html";
 
 type Props = ImgHTMLAttributes<HTMLImageElement> & {
     node?: unknown;
@@ -49,6 +55,26 @@ export function InsightMarkdownImage({
     if (src === VENEZUELA_ENVIRONMENTAL_REGULATION_INFOGRAPHIC_2026) {
         return (
             <VenezuelaEnvironmentalRegulationInfographicEmbed
+                locale={locale}
+                ariaLabel={alt ?? ""}
+                title={title}
+            />
+        );
+    }
+
+    if (src === LOCOTA_INFOGRAPHIC_2026) {
+        return (
+            <LocotaInfographicEmbed
+                locale={locale}
+                ariaLabel={alt ?? ""}
+                title={title}
+            />
+        );
+    }
+
+    if (src === LOCOTA_VS_LESTA_COMPARATIVE_2026) {
+        return (
+            <LocotaVsLestaComparativeChartEmbed
                 locale={locale}
                 ariaLabel={alt ?? ""}
                 title={title}

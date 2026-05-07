@@ -54,11 +54,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const currentDate = new Date().toISOString()
 
     // Generate sitemap entries for both locales
-    const entries: MetadataRoute.Sitemap = []
+    // Use a URL-keyed map to avoid duplicates (e.g. bilingual insights sharing the same slug).
+    const entryMap = new Map<string, MetadataRoute.Sitemap[number]>()
+
+    const addEntry = (entry: MetadataRoute.Sitemap[number]) => {
+        entryMap.set(entry.url, entry)
+    }
 
     // English pages (at root)
     staticPages.forEach((page) => {
-        entries.push({
+        addEntry({
             url: `${baseUrl}${page}`,
             lastModified: currentDate,
             changeFrequency: 'weekly',
@@ -74,7 +79,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     // Spanish pages
     staticPages.forEach((page) => {
-        entries.push({
+        addEntry({
             url: `${baseUrl}/es${page}`,
             lastModified: currentDate,
             changeFrequency: 'weekly',
@@ -90,7 +95,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     // Practice area pages (English)
     practiceAreas.forEach((practice) => {
-        entries.push({
+        addEntry({
             url: `${baseUrl}/practices/${practice}`,
             lastModified: currentDate,
             changeFrequency: 'weekly',
@@ -106,7 +111,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     // Practice area pages (Spanish)
     practiceAreas.forEach((practice) => {
-        entries.push({
+        addEntry({
             url: `${baseUrl}/es/practices/${practice}`,
             lastModified: currentDate,
             changeFrequency: 'weekly',
@@ -122,7 +127,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     // Team member pages (English)
     teamMembers.forEach((member) => {
-        entries.push({
+        addEntry({
             url: `${baseUrl}/team/${member}`,
             lastModified: currentDate,
             changeFrequency: 'monthly',
@@ -138,7 +143,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     // Team member pages (Spanish)
     teamMembers.forEach((member) => {
-        entries.push({
+        addEntry({
             url: `${baseUrl}/es/team/${member}`,
             lastModified: currentDate,
             changeFrequency: 'monthly',
@@ -153,7 +158,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })
 
     // Insights index (EN + ES)
-    entries.push({
+    addEntry({
         url: `${baseUrl}/insights`,
         lastModified: currentDate,
         changeFrequency: 'weekly',
@@ -165,7 +170,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
             },
         },
     })
-    entries.push({
+    addEntry({
         url: `${baseUrl}/es/insights`,
         lastModified: currentDate,
         changeFrequency: 'weekly',
@@ -195,7 +200,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         const canonicalPath = isEs ? (esPath ? `/es${esPath}` : null) : enPath
 
         if (canonicalPath) {
-            entries.push({
+            addEntry({
                 url: `${baseUrl}${canonicalPath}`,
                 lastModified: insight.lastUpdated || insight.date || currentDate,
                 changeFrequency: 'monthly',
@@ -205,5 +210,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
         }
     })
 
-    return entries
+    return Array.from(entryMap.values())
 }

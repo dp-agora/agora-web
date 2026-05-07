@@ -51,6 +51,10 @@ export const insightsLocaleMap: Record<string, { en: string; es: string }> = {
     "en": "fintech-venezuela-itfb-regulation",
     "es": "fintech-venezuela-itfb-sudeban"
   },
+  "locota-celerity-law-what-it-means": {
+    "en": "locota-celerity-law-what-it-means",
+    "es": "locota-celerity-law-what-it-means"
+  },
   "ofac-general-licenses-venezuela-april-2026": {
     "en": "ofac-general-licenses-venezuela-april-2026",
     "es": "ofac-licencias-generales-venezuela-abril-2026"
