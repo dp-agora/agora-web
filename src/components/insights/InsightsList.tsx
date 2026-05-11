@@ -9,6 +9,8 @@ import type { Insight } from "@/types/insight";
 const CATEGORY_IMAGE_MAP: Record<string, string> = {
     Regulatory: "/assets/practices/banking-finance.jpeg",
     Regulatorio: "/assets/practices/banking-finance.jpeg",
+    "Banking & Capital Markets": "/assets/practices/banking-finance.jpeg",
+    "Banca y Mercados de Capitales": "/assets/practices/banking-finance.jpeg",
     Sanctions: "/assets/practices/international-sanctions-compliance.jpeg",
     Sanciones: "/assets/practices/international-sanctions-compliance.jpeg",
     Corporate: "/assets/practices/corporate-mergers-acquisitions.jpeg",
@@ -99,6 +101,7 @@ function FeaturedCard({
                         src={image}
                         alt={insight.title}
                         fill
+                        quality={92}
                         className="object-cover"
                         sizes="(max-width: 768px) 100vw, 40vw"
                         priority
@@ -153,6 +156,7 @@ function GridCard({
                         src={image}
                         alt={insight.title}
                         fill
+                        quality={92}
                         className="object-cover"
                         sizes="(max-width: 640px) 100vw, 50vw"
                     />

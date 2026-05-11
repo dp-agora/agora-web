@@ -4,6 +4,7 @@ import { OfacApril2026Infographic } from "@/components/insights/OfacApril2026Inf
 import { VenezuelaEnvironmentalRegulationInfographicEmbed } from "@/components/insights/VenezuelaEnvironmentalRegulationInfographicEmbed";
 import { LocotaInfographicEmbed } from "@/components/insights/LocotaInfographicEmbed";
 import { LocotaVsLestaComparativeChartEmbed } from "@/components/insights/LocotaVsLestaComparativeChartEmbed";
+import { VenezuelaSecuritiesFinancingFourMechanismsEmbed } from "@/components/insights/VenezuelaSecuritiesFinancingFourMechanismsEmbed";
 
 /** Markdown still references these paths as sentinels for embedded React graphics. */
 const COMMERCIAL_ARBITRATION_INFOGRAPHIC =
@@ -16,6 +17,8 @@ const LOCOTA_INFOGRAPHIC_2026 =
     "/images/insights/locota-infographic-2026.html";
 const LOCOTA_VS_LESTA_COMPARATIVE_2026 =
     "/images/insights/locota-vs-lesta-comparative-2026.html";
+const VENEZUELA_SECURITIES_FINANCING_FOUR_MECHANISMS_2026 =
+    "/images/insights/venezuela-securities-financing-four-mechanisms-2026.html";
 
 type Props = ImgHTMLAttributes<HTMLImageElement> & {
     node?: unknown;
@@ -75,6 +78,16 @@ export function InsightMarkdownImage({
     if (src === LOCOTA_VS_LESTA_COMPARATIVE_2026) {
         return (
             <LocotaVsLestaComparativeChartEmbed
+                locale={locale}
+                ariaLabel={alt ?? ""}
+                title={title}
+            />
+        );
+    }
+
+    if (src === VENEZUELA_SECURITIES_FINANCING_FOUR_MECHANISMS_2026) {
+        return (
+            <VenezuelaSecuritiesFinancingFourMechanismsEmbed
                 locale={locale}
                 ariaLabel={alt ?? ""}
                 title={title}
