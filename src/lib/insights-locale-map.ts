@@ -86,5 +86,9 @@ export const insightsLocaleMap: Record<string, { en: string; es: string }> = {
   "venezuela-reactivacion-economica-marco-regulatorio-ambiental": {
     "en": "venezuela-economic-revival-environmental-regulation",
     "es": "venezuela-reactivacion-economica-marco-regulatorio-ambiental"
+  },
+  "venezuela-securities-financing-four-mechanisms-2026": {
+    "en": "venezuela-securities-financing-four-mechanisms-2026",
+    "es": "venezuela-securities-financing-four-mechanisms-2026"
   }
 };
