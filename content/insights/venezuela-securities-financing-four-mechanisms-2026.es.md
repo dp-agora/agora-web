@@ -22,7 +22,7 @@ En los últimos años, políticas económicas estrictas y una regulación bancar
 
 Para el contexto de cómo articulamos el asesoramiento en banca y mercados de capitales, véase nuestra [práctica de Banca y Finanzas](/es/practices/banking-finance).
 
-## Qué ofrece el mercado de valores venezolano
+## ¿Qué ofrece el mercado de valores venezolano?
 
 El mercado de valores venezolano ofrece tres mecanismos de oferta pública para captar fondos: la **emisión de acciones**, la **emisión de deuda** y la **titularización de activos**. A ellos se suma una vía adicional fuera de la oferta pública: el **Mercado de Otros Bienes** (en lo sucesivo **«MOB»**) de la Bolsa de Valores de Caracas, donde se negocian **Certificados de Financiamiento Bursátil** (en lo sucesivo **«CFB»**). Cada mecanismo difiere en plazo, perfil de costo y efecto sobre el control societario.
 
@@ -54,7 +54,7 @@ La Bolsa de Valores de Caracas opera un segmento adicional, el MOB, en el que la
 
 Los emisores de deuda, los procesos de titularización y los CFB pueden denominar la emisión en bolívares o en moneda extranjera. El pago al vencimiento puede efectuarse en bolívares al tipo de cambio vigente o directamente en la moneda extranjera, según se pacte. Esta opción atiende frontalmente el problema de la depreciación del bolívar: el emisor fija sus obligaciones en una moneda estable y el inversionista preserva el poder adquisitivo de su capital.
 
-## Qué hacer
+## ¿Qué hacer?
 
 El mercado de valores no está reservado a las grandes corporaciones. Cualquier empresa que cumpla los requisitos regulatorios y exhiba una historia financiera sólida puede acceder. La elección entre acciones, deuda, titularización y CFB depende del horizonte de financiamiento, de la disposición a compartir control y de la naturaleza de los activos disponibles.
 
