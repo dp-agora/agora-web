@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Sujetos Pasivos Especiales ES — Ágora</title>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #111; display: flex; align-items: center; justify-content: center; min-height: 100vh; }
+  .cv { width: 1080px; font-family: 'Lora', Georgia, serif; display: flex; flex-direction: column; background: #1c3054; }
+
+  /* Top band */
+  .top-band { background: #272223; padding: 30px 72px 26px; }
+  .topbar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+  .tag { font-size: 11px; letter-spacing: 3px; text-transform: uppercase; color: rgba(255,255,255,0.3); font-style: normal; }
+  .logo { height: 34px; width: auto; }
+  .headline { font-size: 24px; font-weight: 700; color: #fff; line-height: 1.2; margin-bottom: 7px; font-style: normal; }
+  .sub { font-size: 13px; font-style: italic; color: rgba(255,255,255,0.5); line-height: 1.5; }
+
+  /* Threshold table */
+  .section { padding: 28px 64px 0; }
+  .section-label { font-size: 9px; font-weight: 700; font-style: normal; letter-spacing: 3px; text-transform: uppercase; color: rgba(255,255,255,0.25); margin-bottom: 12px; }
+
+  .thead { display: grid; grid-template-columns: 1fr 180px 180px; gap: 0; margin-bottom: 2px; }
+  .th { padding: 12px 16px; font-size: 11px; font-weight: 700; font-style: normal; letter-spacing: 1px; text-transform: uppercase; text-align: center; color: rgba(255,255,255,0.4); }
+  .th:first-child { text-align: left; }
+  .th.a { background: rgba(255,255,255,0.1); color: #fff; }
+  .th.b { background: rgba(255,255,255,0.05); }
+
+  .tbody { display: flex; flex-direction: column; gap: 2px; }
+  .row { display: grid; grid-template-columns: 1fr 180px 180px; gap: 0; }
+  .cell-lbl { padding: 16px 16px 16px 0; font-size: 13px; font-style: normal; color: rgba(255,255,255,0.6); border-top: 1px solid rgba(255,255,255,0.07); display: flex; align-items: center; line-height: 1.4; }
+  .cell-lbl span { font-size: 10px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: rgba(255,255,255,0.3); display: block; margin-bottom: 3px; }
+  .cell-a { background: rgba(255,255,255,0.08); padding: 16px; font-size: 17px; font-weight: 700; font-style: normal; color: #fff; text-align: center; display: flex; align-items: center; justify-content: center; border-top: 1px solid rgba(255,255,255,0.07); }
+  .cell-b { background: rgba(255,255,255,0.04); padding: 16px; font-size: 17px; font-weight: 700; font-style: normal; color: rgba(255,255,255,0.6); text-align: center; display: flex; align-items: center; justify-content: center; border-top: 1px solid rgba(255,255,255,0.07); }
+
+  /* Consequences */
+  .consequences { padding: 22px 64px 0; }
+  .cons-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; }
+  .con { background: rgba(255,255,255,0.05); border-left: 3px solid rgba(255,255,255,0.15); padding: 14px 16px; }
+  .con-title { font-size: 13px; font-weight: 700; font-style: normal; color: #fff; margin-bottom: 4px; line-height: 1.3; }
+  .con-desc { font-size: 11.5px; font-style: italic; color: rgba(255,255,255,0.45); line-height: 1.4; }
+
+  /* Footer */
+  .footer { border-top: 1px solid rgba(255,255,255,0.08); padding: 15px 72px; margin-top: 24px; display: flex; justify-content: space-between; align-items: center; }
+  .author { font-size: 12px; font-style: italic; color: rgba(255,255,255,0.35); }
+  .site { font-size: 10px; font-style: normal; letter-spacing: 2.5px; text-transform: uppercase; color: rgba(255,255,255,0.25); }
+</style>
+</head>
+<body>
+<div class="cv">
+
+  <div class="top-band">
+    <div class="topbar">
+      <div class="tag">Derecho Tributario &nbsp;·&nbsp; Venezuela &nbsp;·&nbsp; SENIAT</div>
+      <img
+        class="logo"
+        src="/assets/brand/Logo Agora outline.png"
+        alt="Ágora"
+      />
+    </div>
+    <div class="headline">Sujetos Pasivos Especiales: ¿califica su empresa?</div>
+    <div class="sub">El SENIAT puede designar como SPE a personas naturales y jurídicas que superen estos umbrales — con consecuencias sustantivas sobre su carga tributaria y flujo de caja.</div>
+  </div>
+
+  <!-- Threshold table -->
+  <div class="section">
+    <div class="section-label">Umbrales de calificación — Providencia SNAT/2023/00005</div>
+    <div class="thead">
+      <div class="th"></div>
+      <div class="th a">Región Capital</div>
+      <div class="th b">Resto del país</div>
+    </div>
+    <div class="tbody">
+      <div class="row">
+        <div class="cell-lbl"><div><span>Personas naturales</span>Ingresos brutos anuales</div></div>
+        <div class="cell-a">≥ EUR 15.000</div>
+        <div class="cell-b">≥ EUR 7.500</div>
+      </div>
+      <div class="row">
+        <div class="cell-lbl"><div><span>Personas naturales</span>Ventas / servicios mensuales</div></div>
+        <div class="cell-a">≥ EUR 1.250</div>
+        <div class="cell-b">≥ EUR 625</div>
+      </div>
+      <div class="row">
+        <div class="cell-lbl"><div><span>Personas jurídicas</span>Ingresos brutos anuales</div></div>
+        <div class="cell-a">≥ EUR 120.000</div>
+        <div class="cell-b">≥ EUR 30.000</div>
+      </div>
+      <div class="row">
+        <div class="cell-lbl"><div><span>Personas jurídicas</span>Ventas / servicios mensuales</div></div>
+        <div class="cell-a">≥ EUR 10.000</div>
+        <div class="cell-b">≥ EUR 2.500</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Consequences -->
+  <div class="consequences">
+    <div class="section-label" style="margin-bottom:12px;">Consecuencias de la designación</div>
+    <div class="cons-grid">
+      <div class="con">
+        <div class="con-title">Anticipos semanales</div>
+        <div class="con-desc">ISLR e IVA pagados semanalmente — impacto directo sobre el flujo de caja</div>
+      </div>
+      <div class="con">
+        <div class="con-title">Nuevos impuestos</div>
+        <div class="con-desc">Se activan el IGT (grandes transacciones) e IGP (grandes patrimonios)</div>
+      </div>
+      <div class="con">
+        <div class="con-title">Multas agravadas</div>
+        <div class="con-desc">Las sanciones por incumplimiento aumentan un 200% para los SPE</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="author">Por Bárbara Briceño &nbsp;·&nbsp; Ágora Abogados SC</div>
+    <div class="site">agoralatam.com</div>
+  </div>
+
+</div>
+</body>
+</html>

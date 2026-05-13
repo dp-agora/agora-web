@@ -14,11 +14,14 @@ const CATEGORY_IMAGE_MAP: Record<string, string> = {
     Sanctions: "/assets/practices/international-sanctions-compliance.jpeg",
     Sanciones: "/assets/practices/international-sanctions-compliance.jpeg",
     Corporate: "/assets/practices/corporate-mergers-acquisitions.jpeg",
+    Tax: "/assets/practices/tax-irs-legal.jpeg",
+    Tributario: "/assets/practices/tax-irs-legal.jpeg",
 };
 
 const AVATAR_MAP: Record<string, string> = {
     "jesus-mendoza": "/assets/team/jesus-mendoza.png",
     "jose-barnola": "/assets/team/jose-barnola.webp",
+    "barbara-briceno": "/assets/team/barbara-briceno.webp",
 };
 
 const DEFAULT_OG_IMAGE = "/assets/insights/insights-image.webp";

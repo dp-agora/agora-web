@@ -90,5 +90,9 @@ export const insightsLocaleMap: Record<string, { en: string; es: string }> = {
   "venezuela-securities-financing-four-mechanisms-2026": {
     "en": "venezuela-securities-financing-four-mechanisms-2026",
     "es": "venezuela-securities-financing-four-mechanisms-2026"
+  },
+  "venezuela-special-taxpayers-seniat": {
+    "en": "venezuela-special-taxpayers-seniat",
+    "es": "venezuela-special-taxpayers-seniat"
   }
 };
