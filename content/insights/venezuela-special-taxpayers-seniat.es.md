@@ -26,15 +26,6 @@ Hasta **2023**, los umbrales de medición de ingresos se expresaban en **Unidade
 
 ![Infografía: umbrales en euros del SPE por región y consecuencias clave bajo la Providencia SNAT/2023/00005](/images/insights/venezuela-special-taxpayers-spe-2026.html)
 
-### Umbrales de referencia (EUR) — Providencia SNAT/2023/00005
-
-| Sujeto | Métrica | Región Capital | Resto del país |
-| --- | --- | ---: | ---: |
-| Personas naturales | Ingresos brutos anuales | ≥ EUR 15.000 | ≥ EUR 7.500 |
-| Personas naturales | Ventas / servicios mensuales (ventana) | ≥ EUR 1.250 | ≥ EUR 625 |
-| Personas jurídicas | Ingresos brutos anuales | ≥ EUR 120.000 | ≥ EUR 30.000 |
-| Personas jurídicas | Ventas / servicios mensuales (ventana) | ≥ EUR 10.000 | ≥ EUR 2.500 |
-
 ## ¿A quiénes puede el SENIAT calificar como SPE?
 
 Según la **Providencia Administrativa N.º SNAT/2023/00005** sobre *Sujetos Pasivos Especiales* (Gaceta Oficial N.º **42.588** del **14 de marzo de 2023**), el SENIAT puede designar como SPE, entre otros, a las siguientes personas:

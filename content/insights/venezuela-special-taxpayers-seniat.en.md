@@ -26,15 +26,6 @@ Until **2023**, income measurement thresholds were expressed in **tax units** (*
 
 ![Infographic: Venezuela special taxpayer (ST) EUR thresholds by region and key consequences under Providencia SNAT/2023/00005](/images/insights/venezuela-special-taxpayers-spe-2026.html)
 
-### Reference thresholds (EUR) — Providencia SNAT/2023/00005
-
-| Subject | Metric | Capital Region | Rest of the country |
-| --- | --- | ---: | ---: |
-| Individuals | Annual gross income | ≥ EUR 15,000 | ≥ EUR 7,500 |
-| Individuals | Monthly sales / services (lookback) | ≥ EUR 1,250 | ≥ EUR 625 |
-| Legal entities | Annual gross income | ≥ EUR 120,000 | ≥ EUR 30,000 |
-| Legal entities | Monthly sales / services (lookback) | ≥ EUR 10,000 | ≥ EUR 2,500 |
-
 ## Whom may SENIAT classify as an ST?
 
 Under **Administrative Ruling No. SNAT/2023/00005** on *Special Taxpayers* (Official Gazette No. **42,588** of **March 14, 2023**), SENIAT may designate as STs, among others, the following persons:
