@@ -95,7 +95,3 @@ The entry into force of the BIT opens a concrete window of opportunity for inves
 In particular, it is essential to: (i) verify that the investment qualifies as an "investment" under the BIT's definitions; (ii) properly document the ownership chain and the investor's nationality; (iii) assess whether an existing investment may benefit from the BIT going forward; (iv) evaluate whether the timeframe and conditions of the dispute settlement mechanism are compatible with the specific situation; and (v) harmonize the foregoing topics with the tax aspects and the other legal and operating aspects of the investment structure (see José P. Barnola Jr., "Principles of Investment Arbitration Planning in Latin America", in World Arbitration and Mediation Review (WAMR+2020), Vol. 14 N° 1, JurisNet, LLC, Huntington, NY, 2023, passim).
 
 Because in investment matters, anticipating legal risk is as important as identifying the opportunity.
-
-At Ágora Abogados S.C. we advise investors on structuring cross-border investments, treaty planning, and dispute prevention under bilateral investment treaties. Contact us at [info@agoralatam.com](mailto:info@agoralatam.com).
-
-*Disclaimer: The content of this article is for informational purposes only and should not be considered legal advice. Although effort has been made to provide accurate and up-to-date information, laws, case law, and administrative criteria may vary. Always consult a qualified attorney for advice tailored to your specific situation.*
