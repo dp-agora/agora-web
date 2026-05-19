@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>BIT Venezuela-Colombia EN — Ágora</title>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #111; display: flex; align-items: center; justify-content: center; min-height: 100vh; padding: 24px; }
+  .cv { width: 1080px; max-width: 100%; font-family: "Lora", Georgia, serif; display: flex; flex-direction: column; background: #1c3054; }
+
+  /* Top band */
+  .top-band { background: #272223; padding: 30px 72px 26px; }
+  .topbar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; gap: 24px; }
+  .tag { font-size: 11px; letter-spacing: 3px; text-transform: uppercase; color: rgba(255,255,255,0.3); font-style: normal; }
+  .logo { height: 36px; width: auto; flex: 0 0 auto; }
+  .headline { font-size: 24px; font-weight: 700; color: #fff; line-height: 1.2; margin-bottom: 7px; font-style: normal; }
+  .sub { font-size: 13px; font-style: italic; color: rgba(255,255,255,0.5); line-height: 1.5; }
+
+  /* Timeline — 3-column flex per item, NO absolute positioning */
+  .timeline { padding: 28px 64px 20px; display: flex; flex-direction: column; }
+
+  .item { display: flex; align-items: stretch; }
+
+  /* Col 1: date (fixed width, right-aligned, no overflow) */
+  .date {
+    width: 150px;
+    flex-shrink: 0;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 16px;
+  }
+  .date-year { font-size: 18px; font-weight: 700; font-style: normal; color: rgba(255,255,255,0.4); line-height: 1; }
+  .date-detail { font-size: 10px; font-style: italic; color: rgba(255,255,255,0.25); margin-top: 3px; line-height: 1.3; word-break: keep-all; }
+  .item.highlight .date-year { color: rgba(255,255,255,0.75); }
+  .item.future .date-year { color: #fff; }
+
+  /* Col 2: connector (dot + line) */
+  .connector {
+    width: 28px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .dot {
+    width: 11px; height: 11px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.2);
+    border: 2px solid rgba(255,255,255,0.18);
+    flex-shrink: 0;
+    margin-top: 18px;
+    z-index: 1;
+  }
+  .item.highlight .dot { width: 14px; height: 14px; background: #fff; border-color: #fff; margin-top: 16px; }
+  .item.future .dot { background: transparent; border: 2px dashed rgba(255,255,255,0.45); }
+  .vline { width: 1px; flex: 1; background: rgba(255,255,255,0.12); margin-top: 4px; min-height: 16px; }
+  .item:last-child .vline { display: none; }
+
+  /* Col 3: card content */
+  .card {
+    flex: 1;
+    padding: 14px 0 22px 20px;
+    background: rgba(255,255,255,0.05);
+    border-left: 3px solid rgba(255,255,255,0.1);
+    margin-bottom: 3px;
+  }
+  .item.highlight .card { background: rgba(255,255,255,0.1); border-left-color: rgba(255,255,255,0.35); }
+  .item.future .card { background: transparent; border-left: 3px dashed rgba(255,255,255,0.2); }
+
+  .who { font-size: 9px; font-weight: 700; font-style: normal; letter-spacing: 2.5px; text-transform: uppercase; color: rgba(255,255,255,0.3); margin-bottom: 5px; }
+  .item.highlight .who { color: rgba(255,255,255,0.5); }
+  .event { font-size: 16px; font-weight: 600; font-style: normal; color: #fff; line-height: 1.3; margin-bottom: 4px; }
+  .item.future .event { color: rgba(255,255,255,0.75); font-style: italic; }
+  .desc { font-size: 12.5px; font-style: italic; color: rgba(255,255,255,0.45); line-height: 1.45; padding-right: 16px; }
+  .item.highlight .desc { color: rgba(255,255,255,0.6); }
+
+  /* Footer */
+  .footer { border-top: 1px solid rgba(255,255,255,0.08); padding: 15px 72px; display: flex; justify-content: space-between; align-items: center; }
+  .author { font-size: 12px; font-style: italic; color: rgba(255,255,255,0.35); }
+  .site { font-size: 10px; font-style: normal; letter-spacing: 2.5px; text-transform: uppercase; color: rgba(255,255,255,0.25); }
+</style>
+</head>
+<body>
+<div class="cv">
+
+  <div class="top-band">
+    <div class="topbar">
+      <div class="tag">Investment Protection &nbsp;·&nbsp; Venezuela · Colombia</div>
+      <img class="logo" src="/assets/brand/Logo Agora outline.png" alt="Ágora" />
+    </div>
+    <div class="headline">The Venezuela-Colombia BIT will enter into force: a new shield for bilateral investment</div>
+    <div class="sub">A two-year ratification process culminating in 2026 — the key milestones</div>
+  </div>
+
+  <div class="timeline">
+
+    <div class="item">
+      <div class="date"><div class="date-year">Feb 2023</div><div class="date-detail">February 3</div></div>
+      <div class="connector"><div class="dot"></div><div class="vline"></div></div>
+      <div class="card">
+        <div class="who">Signature</div>
+        <div class="event">Signed in Caracas</div>
+        <div class="desc">Venezuela and Colombia sign the BIT — an agreement on the promotion and reciprocal protection of investments.</div>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="date"><div class="date-year">Mar 2023</div><div class="date-detail">OG N° 6,738 Ext.</div></div>
+      <div class="connector"><div class="dot"></div><div class="vline"></div></div>
+      <div class="card">
+        <div class="who">Venezuela</div>
+        <div class="event">Approved by the National Assembly</div>
+        <div class="desc">Venezuela ratifies the BIT through a law published in Official Gazette No. 6,738 Ext.</div>
+      </div>
+    </div>
+
+    <div class="item highlight">
+      <div class="date"><div class="date-year">Jul 2024</div><div class="date-detail">Law 2370<br>110 votes</div></div>
+      <div class="connector"><div class="dot"></div><div class="vline"></div></div>
+      <div class="card">
+        <div class="who">Colombia</div>
+        <div class="event">Approved by Congress</div>
+        <div class="desc">Colombia's Congress approves the BIT with 110 votes in favor — Law 2370.</div>
+      </div>
+    </div>
+
+    <div class="item highlight">
+      <div class="date"><div class="date-year">Aug 2025</div><div class="date-detail">Decision<br>C-338/25</div></div>
+      <div class="connector"><div class="dot"></div><div class="vline"></div></div>
+      <div class="card">
+        <div class="who">Colombia · Constitutional Court</div>
+        <div class="event">Declared constitutional</div>
+        <div class="desc">Decision C-338/25 clears the last domestic hurdle — the BIT is fully approved.</div>
+      </div>
+    </div>
+
+    <div class="item future">
+      <div class="date"><div class="date-year">2026</div><div class="date-detail">60 days after notification</div></div>
+      <div class="connector"><div class="dot"></div><div class="vline"></div></div>
+      <div class="card">
+        <div class="who">Entry into force</div>
+        <div class="event">The right moment to structure your investment</div>
+        <div class="desc">The BIT provides: fair treatment · protection against expropriation · free transfer of capital · international arbitration.</div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <div class="author">By Jose P. Barnola Jr &nbsp;·&nbsp; Ágora Abogados SC</div>
+    <div class="site">agoralatam.com</div>
+  </div>
+
+</div>
+</body>
+</html>
