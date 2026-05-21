@@ -56,7 +56,7 @@ export default function Home() {
 
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="relative pt-20 pb-24 lg:pt-32 lg:pb-48 bg-white border-b overflow-hidden">
+        <section className="relative pt-16 pb-16 lg:pt-20 lg:pb-24 bg-white border-b overflow-hidden">
           {/* Background Image Container */}
           <div className="absolute inset-0 w-full h-full -z-0">
             <Image
@@ -85,7 +85,7 @@ export default function Home() {
               </motion.span>
               <motion.h1
                 variants={fadeInUp}
-                className="text-5xl md:text-7xl lg:text-8xl font-serif text-primary leading-[1.05] mb-8 tracking-[-0.02em]"
+                className="text-4xl md:text-5xl lg:text-6xl font-serif text-primary leading-[1.05] mb-4 tracking-[-0.02em]"
               >
                 {t("hero.line1")} <br />
                 <span className="text-slate-400">{t("hero.line2")}</span> <br />
@@ -93,11 +93,11 @@ export default function Home() {
               </motion.h1>
               <motion.p
                 variants={fadeInUp}
-                className="text-xl md:text-2xl text-slate-500 max-w-2xl leading-relaxed mb-12"
+                className="text-lg md:text-xl text-slate-500 max-w-2xl leading-relaxed mb-8"
               >
                 {t("hero.description")}
               </motion.p>
-              <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row gap-4 mb-20">
+              <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row gap-4 mb-10">
                 <Button
                   onClick={openBooking}
                   size="lg"
