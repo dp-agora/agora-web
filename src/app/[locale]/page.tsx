@@ -106,7 +106,7 @@ export default function Home() {
                   {t("hero.ctaBook")}
                 </Button>
                 <Button asChild variant="outline" size="lg" className="h-16 px-10 text-lg rounded-none border-slate-200 hover:bg-slate-50 uppercase tracking-wider font-bold">
-                  <Link href="/practices">{t("hero.ctaServices")}</Link>
+                  <Link href="/insights">{t("hero.ctaServices")}</Link>
                 </Button>
               </motion.div>
 
