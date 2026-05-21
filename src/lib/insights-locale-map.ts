@@ -63,6 +63,14 @@ export const insightsLocaleMap: Record<string, { en: string; es: string }> = {
     "en": "locota-celerity-law-what-it-means",
     "es": "locota-celerity-law-what-it-means"
   },
+  "nueva-licencia-ofac-asesoria-reestructuracion-deuda-venezolana": {
+    "en": "ofac-general-license-58-venezuela-debt-restructuring-advisory-services",
+    "es": "nueva-licencia-ofac-asesoria-reestructuracion-deuda-venezolana"
+  },
+  "ofac-general-license-58-venezuela-debt-restructuring-advisory-services": {
+    "en": "ofac-general-license-58-venezuela-debt-restructuring-advisory-services",
+    "es": "nueva-licencia-ofac-asesoria-reestructuracion-deuda-venezolana"
+  },
   "ofac-general-licenses-venezuela-april-2026": {
     "en": "ofac-general-licenses-venezuela-april-2026",
     "es": "ofac-licencias-generales-venezuela-abril-2026"
