@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EIAS Reactivación ES — Ágora</title>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { background: #111; }
+  body { background: #111; display: flex; align-items: center; justify-content: center; min-height: 100vh; width: 100%; overflow-x: hidden; padding: 24px; }
+  .cv { width: min(1080px, calc(100vw - 48px)); max-width: 1080px; font-family: 'Lora', Georgia, serif; display: flex; flex-direction: column; background: #1c3054; }
+
+  /* Top band */
+  .top-band { background: #272223; padding: 30px 72px 26px; }
+  .topbar { display: flex; justify-content: flex-start; align-items: center; gap: 24px; margin-bottom: 16px; }
+  .tag { min-width: 0; font-size: 11px; letter-spacing: 3px; text-transform: uppercase; color: rgba(255,255,255,0.3); font-style: normal; }
+  .logo { display: block; flex: 0 0 auto; border: 1px solid rgba(255,255,255,0.72); color: #fff; background: rgba(255,255,255,0.06); padding: 10px 15px 8px; letter-spacing: 4px; font-size: 21px; line-height: 1; font-weight: 700; font-style: normal; text-align: center; filter: drop-shadow(0 2px 8px rgba(0,0,0,0.35)); }
+  .logo span { display: block; margin-top: 5px; letter-spacing: 2.5px; font-size: 7px; font-family: Arial, sans-serif; color: rgba(255,255,255,0.78); }
+  .headline { font-size: 23px; font-weight: 700; color: #fff; line-height: 1.25; margin-bottom: 7px; font-style: normal; }
+  .sub { font-size: 13px; font-style: italic; color: rgba(255,255,255,0.5); line-height: 1.5; }
+
+  /* 3 lifecycle columns */
+  .cols-wrap { padding: 28px 48px 0; display: flex; gap: 12px; }
+
+  .col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255,255,255,0.05);
+    border-top: 3px solid rgba(255,255,255,0.15);
+    padding: 22px 22px 24px;
+    gap: 14px;
+  }
+  .col.active {
+    background: rgba(255,255,255,0.09);
+    border-top-color: rgba(255,255,255,0.4);
+  }
+
+  .col-num { font-size: 9px; font-weight: 700; font-style: normal; letter-spacing: 3px; text-transform: uppercase; color: rgba(255,255,255,0.25); margin-bottom: 2px; }
+  .col-title { font-size: 18px; font-weight: 700; font-style: normal; color: #fff; line-height: 1.2; padding-bottom: 14px; border-bottom: 1px solid rgba(255,255,255,0.1); }
+  .col.active .col-title { color: #fff; }
+
+  .col-trigger { font-size: 10px; font-weight: 700; font-style: normal; letter-spacing: 1.5px; text-transform: uppercase; color: rgba(255,255,255,0.3); margin-bottom: 3px; }
+  .col-trigger-text { font-size: 13px; font-style: italic; color: rgba(255,255,255,0.55); line-height: 1.45; margin-bottom: 10px; }
+  .col.active .col-trigger-text { color: rgba(255,255,255,0.7); }
+
+  .col-items { display: flex; flex-direction: column; gap: 9px; }
+  .col-item { display: flex; gap: 10px; align-items: flex-start; }
+  .col-dot { width: 5px; height: 5px; border-radius: 50%; background: rgba(255,255,255,0.25); flex-shrink: 0; margin-top: 7px; }
+  .col-text { font-size: 12.5px; font-style: italic; color: rgba(255,255,255,0.5); line-height: 1.5; }
+  .col.active .col-text { color: rgba(255,255,255,0.65); }
+  .col-text strong { font-style: normal; font-weight: 600; color: rgba(255,255,255,0.9); }
+
+  /* Consequences strip */
+  .cons-strip { padding: 18px 48px 0; }
+  .cons-label { font-size: 9px; font-weight: 700; font-style: normal; letter-spacing: 3px; text-transform: uppercase; color: rgba(255,255,255,0.22); margin-bottom: 10px; }
+  .cons-row { display: flex; gap: 12px; }
+  .con { flex: 1; background: rgba(255,255,255,0.04); border-left: 2px solid rgba(255,255,255,0.12); padding: 12px 16px; }
+  .con-title { font-size: 12px; font-weight: 700; font-style: normal; color: rgba(255,255,255,0.75); margin-bottom: 3px; }
+  .con-desc { font-size: 11px; font-style: italic; color: rgba(255,255,255,0.38); line-height: 1.4; }
+
+  /* Footer */
+  .footer { border-top: 1px solid rgba(255,255,255,0.08); padding: 14px 72px; margin-top: 22px; display: flex; justify-content: space-between; align-items: center; }
+  .author { font-size: 12px; font-style: italic; color: rgba(255,255,255,0.35); }
+  .site { font-size: 10px; font-style: normal; letter-spacing: 2.5px; text-transform: uppercase; color: rgba(255,255,255,0.25); }
+
+  @media (max-width: 760px) {
+    body { padding: 12px; }
+    .cv { width: calc(100vw - 24px); }
+    .top-band { padding: 24px; }
+    .topbar { align-items: flex-start; gap: 16px; }
+    .tag { font-size: 9px; line-height: 1.5; letter-spacing: 2px; }
+    .logo { padding: 8px 11px 7px; font-size: 17px; letter-spacing: 3px; }
+    .logo span { font-size: 6px; }
+    .headline { font-size: 20px; }
+    .cols-wrap { padding: 22px 24px 0; flex-direction: column; }
+    .cons-strip { padding: 18px 24px 0; }
+    .cons-row { flex-direction: column; }
+    .footer { padding: 14px 24px; gap: 12px; }
+  }
+</style>
+</head>
+<body>
+<div class="cv">
+
+  <div class="top-band">
+    <div class="topbar">
+      <div class="logo" aria-label="Ágora logo">ÁGORA<span>ABOGADOS</span></div>
+      <div class="tag">Derecho Ambiental &nbsp;·&nbsp; Venezuela &nbsp;·&nbsp; 2026</div>
+    </div>
+    <div class="headline">Reactivación en Venezuela: tres momentos en que el EIAS es obligatorio</div>
+    <div class="sub">El Decreto Nº 1.257 vincula el Estudio de Impacto Ambiental y Sociocultural a todo el ciclo de vida del proyecto — no solo al inicio.</div>
+  </div>
+
+  <!-- 3 lifecycle columns -->
+  <div class="cols-wrap">
+
+    <div class="col">
+      <div class="col-num">Momento 01</div>
+      <div class="col-title">Inicio de obras o actividades</div>
+      <div class="col-trigger">Cuándo aplica</div>
+      <div class="col-trigger-text">Antes de arrancar cualquier proyecto comprendido en el Decreto 1.257 — sin excepción.</div>
+      <div class="col-items">
+        <div class="col-item"><div class="col-dot"></div><div class="col-text">El EIAS es una <strong>condición de legalidad previa</strong>, no una formalidad subsanable después.</div></div>
+        <div class="col-item"><div class="col-dot"></div><div class="col-text">Iniciar sin aprobación equivale a operar <strong>fuera del marco ambiental venezolano</strong>.</div></div>
+      </div>
+    </div>
+
+    <div class="col active">
+      <div class="col-num">Momento 02 — El más relevante hoy</div>
+      <div class="col-title">Reactivación de proyectos paralizados</div>
+      <div class="col-trigger">Cuándo aplica</div>
+      <div class="col-trigger-text">Al retomar operaciones en pozos, refinerías, plantas de procesamiento o centrales eléctricas que dejaron de operar.</div>
+      <div class="col-items">
+        <div class="col-item"><div class="col-dot"></div><div class="col-text">El entorno físico, social y normativo <strong>ha cambiado</strong> — los permisos originales pueden haber caducado.</div></div>
+        <div class="col-item"><div class="col-dot"></div><div class="col-text">Se requiere <strong>nuevo EIAS o actualización</strong> del existente antes de reactivar.</div></div>
+        <div class="col-item"><div class="col-dot"></div><div class="col-text">Reactivar sin cumplir expone al proyecto y a sus <strong>administradores personalmente</strong>.</div></div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="col-num">Momento 03</div>
+      <div class="col-title">Paralización o cierre de actividades</div>
+      <div class="col-trigger">Cuándo aplica</div>
+      <div class="col-trigger-text">Al detener operaciones en curso — incluso de forma temporal.</div>
+      <div class="col-items">
+        <div class="col-item"><div class="col-dot"></div><div class="col-text">Un cierre mal gestionado puede causar <strong>derrames, residuos peligrosos</strong> y contaminación de aguas y suelos.</div></div>
+        <div class="col-item"><div class="col-dot"></div><div class="col-text">Detener sin plan aprobado equivale, en términos jurídicos, a <strong>operar irregularmente</strong>.</div></div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Consequences strip -->
+  <div class="cons-strip">
+    <div class="cons-label">Consecuencias del incumplimiento</div>
+    <div class="cons-row">
+      <div class="con">
+        <div class="con-title">Responsabilidad administrativa</div>
+        <div class="con-desc">Multas · suspensión inmediata de actividades · restauración a cargo del operador · revocación de permisos</div>
+      </div>
+      <div class="con">
+        <div class="con-title">Responsabilidad penal</div>
+        <div class="con-desc">La Ley Penal del Ambiente tipifica operar sin autorización — penas de privación de libertad en supuestos agravados</div>
+      </div>
+      <div class="con">
+        <div class="con-title">Responsabilidad personal</div>
+        <div class="con-desc">Administradores, gerentes y representantes responden personalmente — la persona jurídica no opera como escudo</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="author">Por María Eugenia Reyes &nbsp;·&nbsp; Ágora Abogados SC</div>
+    <div class="site">agoralatam.com</div>
+  </div>
+
+</div>
+</body>
+</html>

@@ -109,9 +109,9 @@ export function ApplicationModal({ isOpen, onClose, jobTitle }: ApplicationModal
 
             setIsSubmitted(true);
             toast.success("Application submitted successfully!");
-        } catch (error: any) {
+        } catch (error) {
             console.error("Submission error:", error);
-            toast.error(error.message || "An error occurred while submitting your application.");
+            toast.error(error instanceof Error ? error.message : "An error occurred while submitting your application.");
         } finally {
             setIsSubmitting(false);
         }

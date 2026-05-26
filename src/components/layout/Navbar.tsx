@@ -11,13 +11,15 @@ import { LanguageSwitcher } from "./LanguageSwitcher";
 import { useBooking } from "@/context/BookingContext";
 import Image from "next/image";
 
+type NavHref = Parameters<typeof Link>[0]["href"];
+
 export function Navbar() {
     const pathname = usePathname();
     const [isOpen, setIsOpen] = useState(false);
     const { openBooking } = useBooking();
     const t = useTranslations("Navbar");
 
-    const navLinks = [
+    const navLinks: { name: string; href: NavHref }[] = [
         { name: t("about"), href: "/about" },
         { name: t("services"), href: "/practices" },
         { name: t("team"), href: "/team" },
@@ -49,8 +51,8 @@ export function Navbar() {
                     <div className="hidden lg:flex items-center gap-8">
                         {navLinks.map((link) => (
                             <Link
-                                key={link.href}
-                                href={link.href as any}
+                                key={link.name}
+                                href={link.href}
                                 className={cn(
                                     "text-[10px] font-bold uppercase tracking-[0.2em] transition-colors hover:text-white/70",
                                     pathname === link.href ? "text-white" : "text-white/80"
@@ -105,8 +107,8 @@ export function Navbar() {
                                 <div className="flex flex-col gap-8">
                                     {navLinks.map((link) => (
                                         <Link
-                                            key={link.href}
-                                            href={link.href as any}
+                                            key={link.name}
+                                            href={link.href}
                                             onClick={() => setIsOpen(false)}
                                             className="text-4xl font-serif hover:text-white/70 transition-colors"
                                         >

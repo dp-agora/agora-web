@@ -2,6 +2,7 @@
  * Generates src/lib/insights-locale-map.ts from content/insights/*.md frontmatter.
  * Run before build when adding or changing insights: node scripts/generate-insights-locale-map.js
  */
+/* eslint-disable @typescript-eslint/no-require-imports */
 const fs = require('fs');
 const path = require('path');
 const matter = require('gray-matter');
