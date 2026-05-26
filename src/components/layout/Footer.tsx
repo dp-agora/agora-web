@@ -2,10 +2,12 @@ import { Link } from "@/i18n/routing";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 
+type FooterHref = Parameters<typeof Link>[0]["href"];
+
 export function Footer() {
     const t = useTranslations("Footer");
 
-    const footerLinks = [
+    const footerLinks: { title: string; links: { name: string; href: FooterHref }[] }[] = [
         {
             title: t("firm"),
             links: [
@@ -60,7 +62,7 @@ export function Footer() {
                                     {section.links.map((link) => (
                                         <Link
                                             key={link.name}
-                                            href={link.href as any}
+                                            href={link.href}
                                             className="text-white/40 hover:text-white transition-colors text-sm font-medium"
                                         >
                                             {link.name}

@@ -8,6 +8,18 @@ import { Linkedin, Mail, ArrowLeft } from "lucide-react";
 import { Link } from "@/i18n/routing";
 import { useParams } from "next/navigation";
 
+type LegacyExperienceContent = string | { items: string[] };
+
+type LegacyMemberData = {
+    overview?: string[];
+    experience?: LegacyExperienceContent[];
+    education?: string[];
+    office?: string;
+    languages?: string;
+    affiliations?: string;
+    publications?: string[];
+};
+
 export default function TeamMemberPage() {
     const t = useTranslations("TeamMember");
     const tMembers = useTranslations("TeamPage.members");
@@ -42,10 +54,10 @@ export default function TeamMemberPage() {
     const member = teamGroups.flatMap(g => g.members).find(m => m.id === slug);
 
     // Fetch translated content for the specific slug
-    let currentLegacyData: any = null;
+    let currentLegacyData: LegacyMemberData | null = null;
     try {
-        currentLegacyData = t.raw(slug);
-    } catch (e) {
+        currentLegacyData = t.raw(slug) as LegacyMemberData;
+    } catch {
         // Content not yet translated for this member
         currentLegacyData = null;
     }
@@ -149,7 +161,7 @@ export default function TeamMemberPage() {
                                 <h2 className="text-3xl font-serif text-primary italic border-b border-slate-100 pb-4">{t("labels.experience")}</h2>
                                 <div className="prose prose-slate prose-lg max-w-none space-y-6">
                                     {currentLegacyData?.experience ? (
-                                        currentLegacyData.experience.map((content: any, i: number) => (
+                                        currentLegacyData.experience.map((content: LegacyExperienceContent, i: number) => (
                                             typeof content === 'string' ? (
                                                 <p key={i} className="text-slate-600 leading-relaxed font-light italic">{content}</p>
                                             ) : (

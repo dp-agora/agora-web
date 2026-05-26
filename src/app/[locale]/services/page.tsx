@@ -8,13 +8,20 @@ import { Globe, Shield, TrendingUp, X, Plus } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
 
+type Service = {
+    id: string;
+    title: string;
+    icon: typeof Globe;
+    description: string;
+    fullContent: string;
+    features: string[];
+};
 
 export default function ServicesPage() {
 
     const t = useTranslations("ServicesPage");
-    const [selectedService, setSelectedService] = useState<any>(null);
 
-    const services = [
+    const services: Service[] = [
         {
             id: "m-and-a",
             title: t("services.m-and-a.title"),
@@ -120,6 +127,7 @@ export default function ServicesPage() {
             ]
         }
     ];
+    const [selectedService, setSelectedService] = useState<Service | null>(null);
 
 
 

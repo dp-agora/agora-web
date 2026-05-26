@@ -4,6 +4,9 @@ import createNextIntlPlugin from 'next-intl/plugin';
 const withNextIntl = createNextIntlPlugin();
 
 const nextConfig: NextConfig = {
+  images: {
+    qualities: [75, 92],
+  },
   async redirects() {
     return [
       // /services is superseded by /practices (canonical URL per site architecture)

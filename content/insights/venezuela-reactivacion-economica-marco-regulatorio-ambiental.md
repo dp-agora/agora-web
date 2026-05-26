@@ -51,6 +51,8 @@ La respuesta, hoy, es incompleta. Antes de 1992 existía normas técnicas en mat
 
 - Las normas técnicas obsoletas también generan vacíos que complican la obtención de permisos, exponen al proyecto a contingencias legales inesperadas que difícilmente se anticipan en un due diligence estándar y son ineficientes para el objetivo último de protección al ambiente.
 
+Para los proyectos que regresan a operación, este riesgo se vuelve especialmente concreto en el proceso del Estudio de Impacto Ambiental y Sociocultural. Véase nuestro análisis relacionado sobre [el papel del EIAS en la reactivación de hidrocarburos y electricidad en Venezuela](/es/insights/reactivacion-hidrocarburos-electricidad-venezuela-eias-2026).
+
 ## Lo que hace falta
 
 - Actualizar el marco de normas técnicas ambientales al estado actual del conocimiento científico y tecnológico es una tarea prioritaria. No requiere reformar las leyes base: basta con revisar, modificar o sustituir los decretos y resoluciones técnicas complementarios —una tarea regulatoria específica y factible.

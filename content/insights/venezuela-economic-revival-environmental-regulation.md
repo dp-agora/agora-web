@@ -51,6 +51,8 @@ The honest answer, today, is incomplete. The environmental regulatory framework 
 
 - Obsolete technical standards also create gaps that complicate permit acquisition, trigger legal challenges and delays, or expose a project to unexpected legal contingencies that are difficult to anticipate through a standard due diligence process.
 
+For projects returning to operation, this issue becomes especially concrete in the Environmental and Sociocultural Impact Assessment process. See our related analysis on [the role of the ESIA in Venezuela’s oil, gas, and electricity reactivation](/insights/venezuela-oil-gas-electricity-reactivation-esia-2026).
+
 ## What needs to happen
 
 - Updating the environmental technical standards framework to reflect current scientific and technological knowledge is a priority. This does not require amending the core legislation: it is sufficient to review, amend or replace the complementary technical decrees and resolutions — a specific and achievable regulatory task.
