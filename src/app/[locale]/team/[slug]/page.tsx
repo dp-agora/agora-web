@@ -37,8 +37,6 @@ export default function TeamMemberPage() {
                 { id: "lizeth-reyes", name: "Lizeth Reyes", roleKey: "lizeth.role", image: "/assets/team/lizeth-reyes.webp", email: "lreyes@agoralatam.com", linkedin: "https://www.linkedin.com/in/lizeth-reyesb" },
                 { id: "marco-gomez", name: "Marco Gómez", roleKey: "marco.role", image: "/assets/team/marco-gomez.webp", email: "mgomez@agoralatam.com", linkedin: "https://www.linkedin.com/in/marcoantoniogomez/" },
                 { id: "barbara-briceno", name: "Bárbara Briceño", roleKey: "barbara.role", image: "/assets/team/barbara-briceno.webp", email: "bbriceno@agoralatam.com", linkedin: "https://www.linkedin.com/in/barbara-briceño-7a1b9b53" },
-                { id: "manuel-domingo", name: "Manuel Domingo", roleKey: "manuel.role", image: "/assets/team/manuel-domingo.webp", email: "mdomingo@agoralatam.com", linkedin: "https://www.linkedin.com/in/manuel-domingo-2419b273/" },
-                { id: "dayana-veliz", name: "Dayana Velíz", roleKey: "dayana.role", image: "/assets/team/dayana-veliz.webp", email: "dveliz@agoralatam.com", linkedin: "https://www.linkedin.com/in/dayana-veliz-1714b5162/" },
                 { id: "raul-sancristobal", name: "Raúl Sancristobal", roleKey: "raul.role", image: "/assets/team/raul-sancristobal.webp", email: "rsancristobal@agoralatam.com", linkedin: "https://www.linkedin.com/in/raul-eduardo-sancristobal-444a44139/" },
                 { id: "rodrigo-colmenares", name: "Rodrigo Colmenares", roleKey: "rodrigo.role", image: "/assets/team/rodrigo-colmenares.webp", email: "rcolmenares@agoralatam.com", linkedin: "https://www.linkedin.com/in/rodrigo-colmenares-fernández-144b03200/" },
                 { id: "andreina-flores", name: "Andreína Flores", roleKey: "andreina.role", image: "/assets/team/andreina-flores.webp", email: "aflores@agoralatam.com", linkedin: "http://www.linkedin.com/in/andreina-floresr" },
@@ -100,7 +98,7 @@ export default function TeamMemberPage() {
                                         src={member.image}
                                         alt={member.name}
                                         fill
-                                        className={member.id === "jose-barnola" || member.id === "alvaro-posada" || member.id === "maria-eugenia-reyes" || member.id === "marco-gomez" || member.id === "dayana-veliz" || member.id === "manuel-domingo" ? "object-cover object-top" : "object-cover"}
+                                        className={member.id === "jose-barnola" || member.id === "alvaro-posada" || member.id === "maria-eugenia-reyes" || member.id === "marco-gomez" ? "object-cover object-top" : "object-cover"}
                                         priority
                                     />
                                 </div>

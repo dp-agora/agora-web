@@ -72,9 +72,7 @@ export default function TeamPage() {
             title: t("groups.seniorAssociates"),
             members: [
                 { id: "marco-gomez", name: "Marco Gómez", role: t("members.marco.role"), bio: t("members.marco.bio"), image: "/assets/team/marco-gomez.webp", email: "mgomez@agoralatam.com", linkedin: "https://www.linkedin.com/in/marcoantoniogomez/" },
-                { id: "barbara-briceno", name: "Bárbara Briceño", role: t("members.barbara.role"), bio: t("members.barbara.bio"), image: "/assets/team/barbara-briceno.webp", email: "bbriceno@agoralatam.com", linkedin: "https://www.linkedin.com/in/barbara-briceño-7a1b9b53" },
-                { id: "manuel-domingo", name: "Manuel Domingo", role: t("members.manuel.role"), bio: t("members.manuel.bio"), image: "/assets/team/manuel-domingo.webp", email: "mdomingo@agoralatam.com", linkedin: "https://www.linkedin.com/in/manuel-domingo-2419b273/" },
-                { id: "dayana-veliz", name: "Dayana Velíz", role: t("members.dayana.role"), bio: t("members.dayana.bio"), image: "/assets/team/dayana-veliz.webp", email: "dveliz@agoralatam.com", linkedin: "https://www.linkedin.com/in/dayana-veliz-1714b5162/" }
+                { id: "barbara-briceno", name: "Bárbara Briceño", role: t("members.barbara.role"), bio: t("members.barbara.bio"), image: "/assets/team/barbara-briceno.webp", email: "bbriceno@agoralatam.com", linkedin: "https://www.linkedin.com/in/barbara-briceño-7a1b9b53" }
             ]
         },
         {
@@ -142,7 +140,7 @@ export default function TeamPage() {
                                                             src={member.image}
                                                             alt={member.name}
                                                             fill
-                                                            className={member.id === "jose-barnola" || member.id === "alvaro-posada" || member.id === "maria-eugenia-reyes" || member.id === "marco-gomez" || member.id === "dayana-veliz" || member.id === "manuel-domingo" ? "object-cover object-top" : "object-cover"}
+                                                            className={member.id === "jose-barnola" || member.id === "alvaro-posada" || member.id === "maria-eugenia-reyes" || member.id === "marco-gomez" ? "object-cover object-top" : "object-cover"}
                                                             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                                                         />
                                                     ) : (

@@ -39,8 +39,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
         'lizeth-reyes',
         'marco-gomez',
         'barbara-briceno',
-        'manuel-domingo',
-        'dayana-veliz',
         'raul-sancristobal',
         'rodrigo-colmenares',
         'andreina-flores',
