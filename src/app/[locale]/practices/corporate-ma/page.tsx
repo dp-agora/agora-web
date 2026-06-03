@@ -68,8 +68,6 @@ export default function CorporateMaPage() {
         // Senior Associates
         { slug: "marco-gomez", key: "marco", image: "/assets/team/marco-gomez.webp" },
         { slug: "barbara-briceno", key: "barbara", image: "/assets/team/barbara-briceno.webp" },
-        { slug: "manuel-domingo", key: "manuel", image: "/assets/team/manuel-domingo.webp" },
-        { slug: "dayana-veliz", key: "dayana", image: "/assets/team/dayana-veliz.webp" },
         // Junior Associates
         { slug: "raul-sancristobal", key: "raul", image: "/assets/team/raul-sancristobal.webp" },
         { slug: "rodrigo-colmenares", key: "rodrigo", image: "/assets/team/rodrigo-colmenares.webp" }

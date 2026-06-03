@@ -59,6 +59,14 @@ export const insightsLocaleMap: Record<string, { en: string; es: string }> = {
     "en": "fintech-venezuela-itfb-regulation",
     "es": "fintech-venezuela-itfb-sudeban"
   },
+  "fiscalizacion-seniat-venezuela-2026": {
+    "en": "seniat-tax-audit-venezuela-2026",
+    "es": "fiscalizacion-seniat-venezuela-2026"
+  },
+  "seniat-tax-audit-venezuela-2026": {
+    "en": "seniat-tax-audit-venezuela-2026",
+    "es": "fiscalizacion-seniat-venezuela-2026"
+  },
   "locota-celerity-law-what-it-means": {
     "en": "locota-celerity-law-what-it-means",
     "es": "locota-celerity-law-what-it-means"

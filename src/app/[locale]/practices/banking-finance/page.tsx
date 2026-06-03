@@ -64,8 +64,7 @@ export default function BankingFinancePage() {
     const teamMembers = [
         { slug: "alvaro-posada", key: "alvaro", image: "/assets/team/alvaro-posada.webp" },
         { slug: "marco-gomez", key: "marco", image: "/assets/team/marco-gomez.webp" },
-        { slug: "raul-sancristobal", key: "raul", image: "/assets/team/raul-sancristobal.webp" },
-        { slug: "dayana-veliz", key: "dayana", image: "/assets/team/dayana-veliz.webp" }
+        { slug: "raul-sancristobal", key: "raul", image: "/assets/team/raul-sancristobal.webp" }
     ];
 
     const faqs = [0, 1, 2, 3, 4];

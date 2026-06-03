@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Fiscalización SENIAT — Ágora Abogados</title>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #111; display: flex; align-items: center; justify-content: center; min-height: 100vh; }
+
+  .cv {
+    width: 1080px;
+    font-family: 'Lora', Georgia, serif;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* ── Top band ── */
+  .top-band {
+    background: #272223;
+    padding: 32px 72px 28px;
+    flex-shrink: 0;
+  }
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px;
+  }
+  .tag {
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.3);
+    font-style: normal;
+  }
+  .logo { height: 36px; width: auto; }
+
+  .headline {
+    font-size: 26px;
+    font-weight: 700;
+    color: #FFFFFF;
+    line-height: 1.2;
+    margin-bottom: 8px;
+    font-style: normal;
+  }
+  .sub {
+    font-size: 14px;
+    font-style: italic;
+    color: rgba(255,255,255,0.5);
+    line-height: 1.5;
+  }
+
+  /* ── 3-column area ── */
+  .cols-area {
+    background: #1c3054;
+    padding: 36px 48px 36px;
+    display: flex;
+    gap: 0;
+  }
+
+  .col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 0 28px;
+  }
+  .col:not(:last-child) {
+    border-right: 1px solid rgba(255,255,255,0.1);
+  }
+
+  .col-phase {
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.3);
+    margin-bottom: 10px;
+  }
+
+  .col-title {
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    color: #FFFFFF;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+  }
+
+  .col-items {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .item {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+  }
+
+  .item-dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.3);
+    flex-shrink: 0;
+    margin-top: 7px;
+  }
+
+  .item-text {
+    font-size: 13px;
+    font-style: italic;
+    color: rgba(255,255,255,0.6);
+    line-height: 1.5;
+  }
+  .item-text strong {
+    font-style: normal;
+    font-weight: 600;
+    color: rgba(255,255,255,0.9);
+  }
+
+  /* Alert col — consecuencias */
+  .col.alert .col-title {
+    color: rgba(255,255,255,0.7);
+  }
+  .col.alert .item-text {
+    color: rgba(255,255,255,0.5);
+  }
+
+  /* ── Footer ── */
+  .footer {
+    background: #1c3054;
+    border-top: 1px solid rgba(255,255,255,0.08);
+    padding: 16px 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .author {
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(255,255,255,0.35);
+  }
+  .site {
+    font-size: 10px;
+    font-style: normal;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.25);
+  }
+</style>
+</head>
+<body>
+<div class="cv">
+
+  <div class="top-band">
+    <div class="topbar">
+      <div class="tag">Tax Law &nbsp;·&nbsp; Venezuela &nbsp;·&nbsp; SENIAT</div>
+      <img class="logo"
+        src="data:image/png;base64,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"
+        alt="Ágora">
+    </div>
+    <div class="headline">Is your company prepared for a SENIAT tax audit?</div>
+    <div class="sub">A tax audit can happen at any time. The difference between a crisis and a manageable process lies in preparation.</div>
+  </div>
+
+  <div class="cols-area">
+
+    <!-- ANTES -->
+    <div class="col">
+      <div class="col-phase">Phase 01</div>
+      <div class="col-title">Before the auditors arrive</div>
+      <div class="col-items">
+        <div class="item">
+          <div class="item-dot"></div>
+          <div class="item-text"><strong>Keep records up to date</strong> in electronic formats. SENIAT allows only 3 to 5 business days to respond.</div>
+        </div>
+        <div class="item">
+          <div class="item-dot"></div>
+          <div class="item-text">Confirm <strong>tax compliance</strong> with your accountants: cover at least the last 2 fiscal years.</div>
+        </div>
+        <div class="item">
+          <div class="item-dot"></div>
+          <div class="item-text">Keep accounting books and administration in <strong>separate areas</strong> from the rest of your operations.</div>
+        </div>
+        <div class="item">
+          <div class="item-dot"></div>
+          <div class="item-text"><strong>Contingency plan:</strong> backup servers and internal communication protocols.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- DURING -->
+    <div class="col">
+      <div class="col-phase">Phase 02</div>
+      <div class="col-title">During the audit</div>
+      <div class="col-items">
+        <div class="item">
+          <div class="item-dot"></div>
+          <div class="item-text"><strong>Single spokesperson</strong> (max. 3 people) as authorized points of contact with the auditors.</div>
+        </div>
+        <div class="item">
+          <div class="item-dot"></div>
+          <div class="item-text">Request the <strong>administrative order</strong> authorizing the audit and verify its scope.</div>
+        </div>
+        <div class="item">
+          <div class="item-dot"></div>
+          <div class="item-text">Respond <strong>in writing</strong> and obtain a signed acknowledgment of receipt for everything submitted.</div>
+        </div>
+        <div class="item">
+          <div class="item-dot"></div>
+          <div class="item-text">Provide only what is <strong>legally required</strong>. Do not share confidential information unrelated to the audit.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONSEQUENCES -->
+    <div class="col alert">
+      <div class="col-phase">If you fail to cooperate</div>
+      <div class="col-title">Possible consequences</div>
+      <div class="col-items">
+        <div class="item">
+          <div class="item-dot"></div>
+          <div class="item-text">Ex-officio assessment <strong>on a presumptive basis</strong>, disregarding your books and records.</div>
+        </div>
+        <div class="item">
+          <div class="item-dot"></div>
+          <div class="item-text"><strong>Onerous penalties</strong>, default interest, and accumulated surcharges.</div>
+        </div>
+        <div class="item">
+          <div class="item-dot"></div>
+          <div class="item-text"><strong>Closure of premises</strong> for up to 72 hours — extendable to all of your facilities.</div>
+        </div>
+        <div class="item">
+          <div class="item-dot"></div>
+          <div class="item-text">Tax deficiency assessments that may lead to <strong>administrative and judicial tax litigation.</strong></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <div class="author">By Jose P. Barnola Jr &nbsp;·&nbsp; Ágora Abogados SC</div>
+    <div class="site">agoralatam.com</div>
+  </div>
+
+</div>
+</body>
+</html>
