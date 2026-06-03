@@ -55,3 +55,4 @@ Non-cooperation has serious consequences. SENIAT may determine the tax liability
 Because in tax matters, prevention is always cheaper than the cure.
 
 Contact us at [info@agoralatam.com](mailto:info@agoralatam.com) or visit our [Tax practice](/practices/tax).
+
