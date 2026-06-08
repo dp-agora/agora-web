@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Electronic Signatures in Venezuela — Ágora</title>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{background:#111;display:flex;align-items:center;justify-content:center;min-height:100vh;padding:24px;font-family:'Lora',Georgia,serif;}
+.cv{width:1080px;max-width:100%;background:#1c3054;color:#fff;overflow:hidden;}
+.top{background:#272223;padding:48px 60px 40px;display:flex;align-items:center;gap:40px;}
+.top img{height:44px;width:auto;opacity:.94;flex-shrink:0;}
+.top-text{flex:1;}
+.tag{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:rgba(255,255,255,.55);margin-bottom:10px;line-height:1.5;}
+.title{font-size:34px;font-weight:700;line-height:1.2;}
+.title em{font-style:italic;color:rgba(255,255,255,.75);}
+.meta{font-size:12px;color:rgba(255,255,255,.4);margin-top:10px;letter-spacing:.5px;}
+.intro{padding:30px 60px;border-bottom:1px solid rgba(255,255,255,.08);}
+.intro p{font-size:15px;color:rgba(255,255,255,.65);line-height:1.6;font-style:italic;max-width:860px;}
+.scale-hdr{padding:28px 60px 12px;}
+.scale-hdr h2{font-size:12px;letter-spacing:3px;text-transform:uppercase;color:rgba(255,255,255,.4);line-height:1.5;}
+.tiers{padding:0 60px;}
+.tier{display:flex;align-items:stretch;margin-bottom:10px;border-radius:6px;overflow:hidden;}
+.tier-num{width:48px;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;letter-spacing:1px;color:rgba(255,255,255,.35);}
+.tier-body{flex:1;display:flex;align-items:stretch;}
+.tier-name{width:210px;flex-shrink:0;padding:22px 20px;display:flex;flex-direction:column;justify-content:center;}
+.tier-name .type{font-size:17px;font-weight:700;margin-bottom:4px;}
+.tier-name .subtype{font-size:11px;color:rgba(255,255,255,.5);letter-spacing:.5px;}
+.tier-desc{flex:1;padding:22px 24px;display:flex;align-items:center;}
+.tier-desc p{font-size:13.5px;color:rgba(255,255,255,.75);line-height:1.55;}
+.tier-badge{width:200px;flex-shrink:0;padding:22px 20px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;}
+.badge-label{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.4);margin-bottom:8px;}
+.badge-val{font-size:14px;font-weight:700;line-height:1.3;}
+.tier-1{background:rgba(255,255,255,.04);}
+.tier-2{background:rgba(255,255,255,.07);}
+.tier-3{background:rgba(255,255,255,.11);}
+.tier-4{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.25);}
+.tier-4 .tier-desc p{color:rgba(255,255,255,.9);}
+.tier-4 .tier-num{color:rgba(255,255,255,.6);}
+.sus-strip{margin:24px 60px 0;background:rgba(0,0,0,.25);border-radius:8px;padding:22px 30px;display:flex;align-items:flex-start;gap:24px;}
+.sus-icon{font-size:24px;flex-shrink:0;margin-top:2px;}
+.sus-text h3{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.45);margin-bottom:8px;line-height:1.5;}
+.sus-text p{font-size:13px;color:rgba(255,255,255,.7);line-height:1.55;}
+.sus-text strong{color:#fff;font-weight:700;}
+.ext-strip{margin:10px 60px 0;background:rgba(0,0,0,.15);border-radius:8px;padding:18px 30px;display:flex;align-items:center;gap:20px;}
+.ext-label{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.4);flex-shrink:0;width:180px;line-height:1.5;}
+.ext-strip p{font-size:13px;color:rgba(255,255,255,.65);line-height:1.5;}
+.bottom{margin-top:32px;padding:22px 60px;border-top:1px solid rgba(255,255,255,.1);display:flex;align-items:center;justify-content:space-between;gap:24px;}
+.author{font-size:12px;color:rgba(255,255,255,.4);letter-spacing:.5px;}
+.brand{font-size:11px;color:rgba(255,255,255,.3);letter-spacing:1px;text-transform:uppercase;}
+@media (max-width: 820px){
+  body{padding:0;}
+  .top,.intro,.scale-hdr,.tiers,.bottom{padding-left:28px;padding-right:28px;}
+  .top{align-items:flex-start;gap:20px;flex-direction:column;}
+  .title{font-size:27px;}
+  .tier,.tier-body,.ext-strip{display:block;}
+  .tier-num{width:auto;padding:10px 18px;justify-content:flex-start;background:rgba(0,0,0,.08);}
+  .tier-name,.tier-badge{width:auto;align-items:flex-start;text-align:left;}
+  .tier-desc{padding-top:0;}
+  .sus-strip,.ext-strip{margin-left:28px;margin-right:28px;}
+  .bottom{align-items:flex-start;flex-direction:column;}
+}
+</style>
+</head>
+<body>
+<div class="cv">
+  <div class="top">
+    <img src="/assets/brand/Logo Agora outline.png" alt="Ágora">
+    <div class="top-text">
+      <div class="tag">Digital Law · Venezuela 2026</div>
+      <div class="title">Electronic Signatures in Venezuela<br><em>Legal Security or Digital Risk?</em></div>
+      <div class="meta">Rodrigo Colmenares · Ágora Abogados SC · June 2026</div>
+    </div>
+  </div>
+
+  <div class="intro">
+    <p>Not all electronic signatures carry the same legal weight under Venezuelan law. The type of signature your company uses can determine the evidentiary validity of your contracts, or their nullity.</p>
+  </div>
+
+  <div class="scale-hdr">
+    <h2>The 4 signature types, from lowest to highest legal standing</h2>
+  </div>
+
+  <div class="tiers">
+    <div class="tier tier-1">
+      <div class="tier-num">01</div>
+      <div class="tier-body">
+        <div class="tier-name"><div class="type">Simple</div></div>
+        <div class="tier-desc"><p>Any electronic data linked to a message. No formal requirements. Includes a typed name, click, or signature image.</p></div>
+        <div class="tier-badge"><div class="badge-label">Evidentiary weight</div><div class="badge-val">Element of conviction (judge's discretion)</div></div>
+      </div>
+    </div>
+
+    <div class="tier tier-2">
+      <div class="tier-num">02</div>
+      <div class="tier-body">
+        <div class="tier-name"><div class="type">Agreed Upon</div><div class="subtype">or Stipulated</div></div>
+        <div class="tier-desc"><p>Established contractually between the parties. Its value depends on prior agreement, not on any technical or regulatory standard.</p></div>
+        <div class="tier-badge"><div class="badge-label">Evidentiary weight</div><div class="badge-val">Limited to the parties' agreement</div></div>
+      </div>
+    </div>
+
+    <div class="tier tier-3">
+      <div class="tier-num">03</div>
+      <div class="tier-body">
+        <div class="tier-name"><div class="type">Advanced</div><div class="subtype">or Qualified</div></div>
+        <div class="tier-desc"><p>Meets technical requirements for integrity and identification. Greater security than a simple signature, but without automatic presumption of validity.</p></div>
+        <div class="tier-badge"><div class="badge-label">Evidentiary weight</div><div class="badge-val">Reinforced, without iuris tantum presumption</div></div>
+      </div>
+    </div>
+
+    <div class="tier tier-4">
+      <div class="tier-num">04</div>
+      <div class="tier-body">
+        <div class="tier-name"><div class="type">Certified</div></div>
+        <div class="tier-desc"><p>Issued by a SUSCERTE-accredited provider. Carries an <em>iuris tantum</em> presumption of validity, automatically equivalent to a handwritten signature.</p></div>
+        <div class="tier-badge"><div class="badge-label">Evidentiary weight</div><div class="badge-val">Full legal effect · Equivalent to handwritten signature</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sus-strip">
+    <div class="sus-icon" aria-hidden="true">🔐</div>
+    <div class="sus-text">
+      <h3>SUSCERTE-Accredited Providers (Venezuela)</h3>
+      <p>Only providers accredited before the Superintendency of Electronic Certification Services (SUSCERTE) guarantee the presumption of validity. Authorized local providers: <strong>PROCERT, AUTHENOLOGY, APACUANA</strong>. Platforms such as <strong>DocuSign or PandaDoc</strong>, without SUSCERTE accreditation, do not carry this automatic legal presumption.</p>
+    </div>
+  </div>
+
+  <div class="ext-strip">
+    <div class="ext-label">Foreign Providers</div>
+    <p>Must obtain SUSCERTE accreditation for their signatures to carry full legal effects in Venezuela. Without that accreditation, the signature operates only as an element of conviction subject to judicial weighing.</p>
+  </div>
+
+  <div class="bottom">
+    <div class="author">Rodrigo Colmenares · rcolmenares@agoralatam.com</div>
+    <div class="brand">Ágora Abogados SC</div>
+  </div>
+</div>
+</body>
+</html>

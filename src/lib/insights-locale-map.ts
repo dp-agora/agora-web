@@ -51,6 +51,14 @@ export const insightsLocaleMap: Record<string, { en: string; es: string }> = {
     "en": "corporate-good-standing-venezuela",
     "es": "empresas-corporativamente-al-dia-es"
   },
+  "electronic-signatures-venezuela-digital-risk-2026": {
+    "en": "electronic-signatures-venezuela-digital-risk-2026",
+    "es": "firmas-electronicas-venezuela-riesgo-digital-2026"
+  },
+  "firmas-electronicas-venezuela-riesgo-digital-2026": {
+    "en": "electronic-signatures-venezuela-digital-risk-2026",
+    "es": "firmas-electronicas-venezuela-riesgo-digital-2026"
+  },
   "fintech-venezuela-itfb-regulation": {
     "en": "fintech-venezuela-itfb-regulation",
     "es": "fintech-venezuela-itfb-sudeban"
