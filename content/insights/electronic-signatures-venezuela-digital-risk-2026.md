@@ -14,8 +14,8 @@ authorUrl: "/team/rodrigo-colmenares"
 category: "Regulatory"
 tags: ["Venezuela", "Electronic signatures", "Digital compliance", "SUSCERTE", "Legal tech", "Evidence", "Corporate contracts", "Digital transformation"]
 readingTime: "5 min read"
-ogImage: "/assets/practices/compliance-sanctions.jpeg"
-listImage: "/assets/practices/compliance-sanctions.jpeg"
+ogImage: "/assets/practices/international-sanctions-compliance.jpeg"
+listImage: "/assets/practices/international-sanctions-compliance.jpeg"
 ---
 
 In 2026, the digitization of commercial and legal operations in Venezuela is an unavoidable reality. More and more companies are executing contracts, minutes, and notifications paperlessly. The opportunity to optimize processes and conduct transactions efficiently is a reality.

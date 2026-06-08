@@ -14,8 +14,8 @@ authorUrl: "/team/rodrigo-colmenares"
 category: "Regulatorio"
 tags: ["Venezuela", "Firmas electrónicas", "Cumplimiento digital", "SUSCERTE", "Legal tech", "Valor probatorio", "Contratos corporativos", "Transformación digital"]
 readingTime: "5 min de lectura"
-ogImage: "/assets/practices/compliance-sanctions.jpeg"
-listImage: "/assets/practices/compliance-sanctions.jpeg"
+ogImage: "/assets/practices/international-sanctions-compliance.jpeg"
+listImage: "/assets/practices/international-sanctions-compliance.jpeg"
 ---
 
 En 2026, la digitalización de las operaciones comerciales y legales en Venezuela es una realidad ineludible. Cada vez más empresas suscriben contratos, actas y notificaciones sin usar papel. La oportunidad de optimizar procesos y realizar transacciones de forma eficaz es una realidad.
