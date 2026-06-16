@@ -20,6 +20,10 @@ type Props = {
     params: Promise<{ locale: string; slug: string }>;
 };
 
+/** New insight markdown files must resolve without a dev-server restart. */
+export const dynamic = "force-dynamic";
+export const dynamicParams = true;
+
 export async function generateStaticParams() {
     return routing.locales.flatMap((locale) =>
         getAllInsights(locale as "en" | "es").map((insight) => ({
