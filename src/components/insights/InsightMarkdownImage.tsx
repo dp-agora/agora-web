@@ -11,6 +11,7 @@ import { OfacGl58DebtRestructuringInfographic } from "@/components/insights/Ofac
 import { VenezuelaEiasReactivationInfographicEmbed } from "@/components/insights/VenezuelaEiasReactivationInfographicEmbed";
 import { VenezuelaIcsidBitUnitedStatesEmbed } from "@/components/insights/VenezuelaIcsidBitUnitedStatesEmbed";
 import { ElectronicSignaturesVenezuelaEmbed } from "@/components/insights/ElectronicSignaturesVenezuelaEmbed";
+import { OfacJune2026GlsInfographicEmbed } from "@/components/insights/OfacJune2026GlsInfographicEmbed";
 
 /** Markdown still references these paths as sentinels for embedded React graphics. */
 const COMMERCIAL_ARBITRATION_INFOGRAPHIC =
@@ -37,6 +38,8 @@ const VENEZUELA_ICSID_BIT_UNITED_STATES_2026 =
     "/images/insights/venezuela-icsid-bit-united-states-2026.html";
 const ELECTRONIC_SIGNATURES_VENEZUELA_2026 =
     "/images/insights/electronic-signatures-venezuela-digital-risk-2026.html";
+const OFAC_JUNE_2026_GLS_INFOGRAPHIC =
+    "/images/insights/ofac-june-2026-gls-infographic.html";
 
 type Props = ImgHTMLAttributes<HTMLImageElement> & {
     node?: unknown;
@@ -166,6 +169,16 @@ export function InsightMarkdownImage({
     if (src === ELECTRONIC_SIGNATURES_VENEZUELA_2026) {
         return (
             <ElectronicSignaturesVenezuelaEmbed
+                locale={locale}
+                ariaLabel={alt ?? ""}
+                title={title}
+            />
+        );
+    }
+
+    if (src === OFAC_JUNE_2026_GLS_INFOGRAPHIC) {
+        return (
+            <OfacJune2026GlsInfographicEmbed
                 locale={locale}
                 ariaLabel={alt ?? ""}
                 title={title}
