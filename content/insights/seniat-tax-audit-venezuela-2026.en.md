@@ -22,7 +22,7 @@ A SENIAT tax audit can occur at any time and in any sector. The Organic Tax Code
 
 Special taxpayers — designated by SENIAT based on income level or type of activity — are subject to heightened scrutiny, but no taxpayer is exempt. A poorly managed audit can result in tax deficiency assessments, onerous penalties, default interest, surcharges, ex-officio assessment on a presumptive basis, and temporary closure of the taxpayer's premises. The difference between a manageable audit and a business crisis often lies in prior preparation and in how the taxpayer acts from day one.
 
-![Infographic: SENIAT tax audit — before, during, and consequences of non-cooperation](/images/insights/seniat-fiscalizacion-2026.en.html)
+![Infographic: SENIAT tax audit — before, during, and consequences of non-cooperation](/images/insights/seniat-fiscalizacion-2026.html)
 
 ## What to do before the auditors arrive
 
