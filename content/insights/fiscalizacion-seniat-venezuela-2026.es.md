@@ -22,7 +22,7 @@ Una fiscalización del SENIAT puede ocurrir en cualquier momento y en cualquier 
 
 Los sujetos pasivos especiales — designados por el SENIAT según nivel de ingresos o tipo de actividad — son objeto de mayor escrutinio, pero ningún contribuyente está exento. Una fiscalización mal manejada puede derivar en actas de reparo, sanciones onerosas, intereses de mora, recargos, determinación de oficio sobre base presuntiva y clausura temporal del establecimiento. La diferencia entre una fiscalización manejable y una crisis empresarial frecuentemente está en la preparación previa y en cómo actúa el contribuyente desde el primer día.
 
-![Infografía: fiscalización del SENIAT — antes, durante y consecuencias de no cooperar](/images/insights/seniat-fiscalizacion-2026.es.html)
+![Infografía: fiscalización del SENIAT — antes, durante y consecuencias de no cooperar](/images/insights/seniat-fiscalizacion-2026.html)
 
 ## ¿Qué hacer antes de que lleguen los auditores?
 
