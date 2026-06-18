@@ -318,6 +318,10 @@
                 "role": "Practice Lead",
                 "bio": "Lizeth Reyes holds dual degrees in Business Administration and Law, with over 25 years of professional experience in civil and commercial litigation, as well as legal advisory in judicial procedures."
             },
+            "jesusGarcia": {
+                "role": "Practice Lead",
+                "bio": "Jesús García Arenas is an attorney with more than 10 years of experience advising clients on energy, oil and gas, and natural resources across Latin America, the United Kingdom, and the EMEA region. He has acted as both a transactional and regulatory attorney, supporting companies throughout the lifecycle of energy and industrial projects."
+            },
             "marco": {
                 "role": "Associate",
                 "bio": "Marco Gómez is a lawyer with 6 years of experience in the corporate and financial areas. His expertise includes regulatory matters, acquisition of securities, foreign exchange control, and international arbitration."
@@ -499,6 +503,22 @@
             "office": "Caracas, Venezuela",
             "languages": "Spanish, English and French",
             "affiliations": "Full Member No. 12, Venezuelan Institute of Social Law (Interim Secretary); Member, Venezuelan Arbitration Association"
+        },
+        "jesus-garcia": {
+            "overview": [
+                "Jesús García Arenas is an attorney with more than 10 years of experience advising clients on energy, oil and gas, and natural resources. He has acted as a transactional attorney as well as a regulatory attorney across Latin America, the United Kingdom, and the EMEA region, supporting companies throughout the lifecycle of energy and industrial projects.",
+                "He has advised renewable energy developers, oil and gas service providers, multinational corporations, and public and private stakeholders on contractual structuring, risk allocation, regulatory frameworks, and corporate governance matters."
+            ],
+            "experience": [
+                "Jesús currently serves as a Practice Lead at Ágora Abogados, where he heads the Energy, Oil & Gas, and Natural Resources practice.",
+                "He has worked several years as in-house counsel to first-tier energy and natural resources corporations, as well as several years within the energy and natural resources practices of global law firms."
+            ],
+            "education": [
+                "Master of Laws (LL.M.) in International Energy Law and Policy, University of Dundee, United Kingdom — CEPMLP Director’s Medal"
+            ],
+            "office": "Caracas, Venezuela",
+            "languages": "Spanish and English",
+            "affiliations": "Registered Foreign Lawyer, Solicitors Regulation Authority (SRA) of England and Wales"
         },
         "lizeth-reyes": {
             "overview": [

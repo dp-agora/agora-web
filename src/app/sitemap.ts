@@ -37,6 +37,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         'jose-barnola',
         'ariana-cabrera',
         'lizeth-reyes',
+        'jesus-garcia',
         'marco-gomez',
         'barbara-briceno',
         'raul-sancristobal',

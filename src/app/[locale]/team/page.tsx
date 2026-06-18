@@ -65,6 +65,15 @@ export default function TeamPage() {
                     image: "/assets/team/lizeth-reyes.webp",
                     email: "lreyes@agoralatam.com",
                     linkedin: "https://www.linkedin.com/in/lizeth-reyesb"
+                },
+                {
+                    id: "jesus-garcia",
+                    name: "Jesús García Arenas",
+                    role: t("members.jesusGarcia.role"),
+                    bio: t("members.jesusGarcia.bio"),
+                    image: "/assets/team/jesus-garcia.webp",
+                    email: "jgarcia@agoralatam.com",
+                    linkedin: "https://www.linkedin.com/in/jesus-garcia-arenas-b23205151/"
                 }
             ]
         },

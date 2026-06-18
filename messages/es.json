@@ -318,6 +318,10 @@
                 "role": "Líder de Práctica",
                 "bio": "Lizeth Reyes, tiene una doble titulación en Administración y en Derecho, acumula una experiencia profesional de más de 25 años en las áreas de litigios civiles y mercantiles y, en general, en la asesoría en procedimientos jurídicos."
             },
+            "jesusGarcia": {
+                "role": "Líder de Práctica",
+                "bio": "Jesús García Arenas es abogado con más de diez años de experiencia asesorando a clientes en los sectores de energía, petróleo y gas, y recursos naturales en América Latina, el Reino Unido y la región EMEA. Ha ejercido tanto como abogado transaccional como regulatorio, apoyando a empresas durante todas las etapas del ciclo de vida de proyectos energéticos e industriales."
+            },
             "marco": {
                 "role": "Asociado",
                 "bio": "Marco Gómez es un abogado con 6 años de experiencia en las áreas corporativa y financiera. Su experiencia incluye un profundo conocimiento de asuntos regulatorios, adquisición de valores, control de cambios y arbitraje internacional."
@@ -499,6 +503,22 @@
             "office": "Caracas, Venezuela",
             "languages": "Español, Inglés y Francés",
             "affiliations": "Miembro de número N° 12 del Instituto Venezolano de Derecho Social (Secretaria Interina); Miembro de la Asociación Venezolana de Arbitraje."
+        },
+        "jesus-garcia": {
+            "overview": [
+                "Jesús García Arenas es abogado con más de diez años de experiencia asesorando a clientes en los sectores de energía, petróleo y gas, y recursos naturales. A lo largo de su carrera ha ejercido tanto como abogado transaccional como abogado regulatorio en América Latina, el Reino Unido y la región EMEA, apoyando a empresas durante todas las etapas del ciclo de vida de proyectos energéticos e industriales.",
+                "Ha asesorado a desarrolladores de energías renovables, empresas de servicios petroleros, corporaciones multinacionales y entidades públicas y privadas en la estructuración de contratos, asignación de riesgos, marcos regulatorios y asuntos de gobierno corporativo."
+            ],
+            "experience": [
+                "Actualmente se desempeña como Líder de Práctica en Ágora Abogados, donde lidera el área de Energía, Petróleo y Gas, y Recursos Naturales.",
+                "Ha trabajado durante varios años como in-house counsel para importantes corporaciones de energía y recursos naturales, así como en las prácticas de energía y recursos naturales de firmas legales internacionales de primer nivel."
+            ],
+            "education": [
+                "Magíster (LL.M.) en Derecho y Política Energética Internacional, Universidad de Dundee, Reino Unido — CEPMLP Director’s Medal"
+            ],
+            "office": "Caracas, Venezuela",
+            "languages": "Español e Inglés",
+            "affiliations": "Registrado como Foreign Lawyer ante la Solicitors Regulation Authority (SRA) de Inglaterra y Gales"
         },
         "lizeth-reyes": {
             "overview": [
