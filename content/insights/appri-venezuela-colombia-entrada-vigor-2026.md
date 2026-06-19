@@ -18,7 +18,7 @@ ogImage: "/assets/practices/investment-arbitration.jpeg"
 listImage: "/assets/practices/investment-arbitration.jpeg"
 ---
 
-En las próximas semanas, el Acuerdo relativo a la Promoción y Protección Recíproca de Inversiones entre Venezuela y Colombia ("APPRI") completará los trámites internos y entrará oficialmente en vigor (v. Gonzalo Capriles Baena, "El APPRI entre Colombia y Venezuela entra en vigor: una oportunidad y una lección de historia"). Suscrito el 3 de febrero de 2023 en Caracas y aprobado por ambos países tras un proceso que incluyó revisión parlamentaria y control constitucional, el acuerdo representa un hito en las relaciones económicas bilaterales — y una herramienta concreta para quienes invierten o planean invertir en cualquiera de los dos países.
+En las próximas semanas, el Acuerdo relativo a la Promoción y Protección Recíproca de Inversiones entre Venezuela y Colombia ("APPRI") completará los trámites internos y entrará oficialmente en vigor (v. [Gonzalo Capriles Baena, "El APPRI entre Colombia y Venezuela entra en vigor: una oportunidad y una lección de historia"](https://www.linkedin.com/feed/update/urn:li:activity:7445911823700176897/)). Suscrito el 3 de febrero de 2023 en Caracas y aprobado por ambos países tras un proceso que incluyó revisión parlamentaria y control constitucional, el acuerdo representa un hito en las relaciones económicas bilaterales — y una herramienta concreta para quienes invierten o planean invertir en cualquiera de los dos países.
 
 Para el contexto de nuestra asesoría en protección de inversiones y planificación arbitral, consulte nuestra [práctica de Arbitraje de Inversión](/es/practices/investment-arbitration).
 
@@ -76,7 +76,7 @@ No obstante las importantes protecciones que ofrece, el APPRI tiene límites que
 
 La entrada en vigor del APPRI es un avance significativo, pero conviene situarlo en perspectiva comparada. Venezuela mantiene en vigor convenios para evitar la doble imposición (en lo sucesivo "CDI") con numerosos países, entre ellos España, Francia, Portugal, los Países Bajos y Alemania. No es casualidad que muchos de esos países cuenten también con un APPRI vigente con Venezuela. Ambos instrumentos son complementarios: mientras el APPRI protege la inversión frente al riesgo político y regulatorio, el CDI elimina o mitiga la doble imposición sobre las rentas que esa inversión genera.
 
-Antiguamente, la Decisión 40 de la Comisión del Acuerdo de Cartagena (que contiene el Convenio para evitar la doble tributación entre los Países Miembros y el Convenio Tipo para la celebración de acuerdos sobre doble tributación entre los Países Miembros y otros Estados ajenos a la Subregión) aplicaba a Venezuela y Colombia. Sin embargo, Venezuela denunció el Acuerdo de Cartagena en 2006.
+Antiguamente, la [Decisión 40 de la Comisión del Acuerdo de Cartagena](https://www.comunidadandina.org/StaticFiles/DocOf/DEC040.pdf) (que contiene el Convenio para evitar la doble tributación entre los Países Miembros y el Convenio Tipo para la celebración de acuerdos sobre doble tributación entre los Países Miembros y otros Estados ajenos a la Subregión) aplicaba a Venezuela y Colombia. Sin embargo, [Venezuela denunció el Acuerdo de Cartagena en 2006](https://www.tlc.gov.co/acuerdos/vigente/comunidad-andina).
 
 La ausencia de un CDI entre Venezuela y Colombia genera consecuencias concretas para el inversionista:
 
