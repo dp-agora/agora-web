@@ -18,7 +18,7 @@ ogImage: "/assets/practices/investment-arbitration.jpeg"
 listImage: "/assets/practices/investment-arbitration.jpeg"
 ---
 
-In the coming weeks, the Agreement on the Promotion and Reciprocal Protection of Investments between Venezuela and Colombia ("BIT") will complete the domestic formalities and officially enter into force (see Gonzalo Capriles Baena, "El APPRI entre Colombia y Venezuela entra en vigor: una oportunidad y una lección de historia"). Signed on February 3, 2023, in Caracas and approved by both countries following parliamentary and constitutional review, the agreement marks a milestone in bilateral economic relations — and a concrete tool for those who invest or plan to invest in either country.
+In the coming weeks, the Agreement on the Promotion and Reciprocal Protection of Investments between Venezuela and Colombia ("BIT") will complete the domestic formalities and officially enter into force (see [Gonzalo Capriles Baena, "El APPRI entre Colombia y Venezuela entra en vigor: una oportunidad y una lección de historia"](https://www.linkedin.com/feed/update/urn:li:activity:7445911823700176897/)). Signed on February 3, 2023, in Caracas and approved by both countries following parliamentary and constitutional review, the agreement marks a milestone in bilateral economic relations — and a concrete tool for those who invest or plan to invest in either country.
 
 For context on how we advise investors on treaty protection and arbitration strategy, see our [Investment Arbitration practice](/practices/investment-arbitration).
 
