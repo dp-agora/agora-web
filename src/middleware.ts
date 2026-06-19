@@ -4,11 +4,32 @@ import { routing } from './i18n/routing';
 
 const handleI18nRouting = createMiddleware(routing);
 
+function isDedicatedInsightsPath(pathname: string) {
+    return (
+        pathname === "/insights" ||
+        pathname.startsWith("/insights/") ||
+        pathname === "/es/insights" ||
+        pathname.startsWith("/es/insights/")
+    );
+}
+
 export default function middleware(request: NextRequest) {
     const pathname = request.nextUrl.pathname;
     const firstSegment = pathname.split('/').filter(Boolean)[0];
     const isInternalLocaleRewrite =
         request.headers.get("x-agora-internal-locale-rewrite") === "1";
+
+    // English and Spanish insights are served by app/insights/* and app/es/insights/*
+    // without a [locale] prefix rewrite so client-side navigation matches the route tree.
+    if (isDedicatedInsightsPath(pathname)) {
+        const locale = pathname.startsWith("/es/insights") ? "es" : "en";
+        const response = NextResponse.next();
+        response.cookies.set("NEXT_LOCALE", locale, {
+            path: "/",
+            sameSite: "lax",
+        });
+        return response;
+    }
 
     // Keep English canonical at the root while allowing middleware-internal /en rewrites.
     if (firstSegment === "en" && !isInternalLocaleRewrite) {
@@ -29,7 +50,7 @@ export default function middleware(request: NextRequest) {
     const response = handleI18nRouting(request);
     const isUnprefixed = firstSegment && !(routing.locales as readonly string[]).includes(firstSegment);
 
-    // For unprefixed paths (e.g. /insights/xyz), always rewrite so [locale]/insights/[slug] matches.
+    // For unprefixed paths (e.g. /practices/tax), rewrite so [locale]/… matches.
     // Preserve the locale cookie, but do not copy redirect headers from next-intl into the rewrite.
     if (isUnprefixed) {
         const rewritePath = `/en${pathname.startsWith('/') ? pathname : `/${pathname}`}`;
