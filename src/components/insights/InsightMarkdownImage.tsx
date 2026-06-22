@@ -13,6 +13,7 @@ import { VenezuelaIcsidBitUnitedStatesEmbed } from "@/components/insights/Venezu
 import { ElectronicSignaturesVenezuelaEmbed } from "@/components/insights/ElectronicSignaturesVenezuelaEmbed";
 import { OfacJune2026GlsInfographicEmbed } from "@/components/insights/OfacJune2026GlsInfographicEmbed";
 import { SeniatFiscalizacionInfographicEmbed } from "@/components/insights/SeniatFiscalizacionInfographicEmbed";
+import { AotVenezuela2026InfographicEmbed } from "@/components/insights/AotVenezuela2026InfographicEmbed";
 
 /** Markdown still references these paths as sentinels for embedded React graphics. */
 const COMMERCIAL_ARBITRATION_INFOGRAPHIC =
@@ -43,6 +44,7 @@ const OFAC_JUNE_2026_GLS_INFOGRAPHIC =
     "/images/insights/ofac-june-2026-gls-infographic.html";
 const SENIAT_FISCALIZACION_2026 =
     "/images/insights/seniat-fiscalizacion-2026.html";
+const AOT_VENEZUELA_2026 = "/images/insights/aot-venezuela-2026.html";
 
 type Props = ImgHTMLAttributes<HTMLImageElement> & {
     node?: unknown;
@@ -192,6 +194,16 @@ export function InsightMarkdownImage({
     if (src === SENIAT_FISCALIZACION_2026) {
         return (
             <SeniatFiscalizacionInfographicEmbed
+                locale={locale}
+                ariaLabel={alt ?? ""}
+                title={title}
+            />
+        );
+    }
+
+    if (src === AOT_VENEZUELA_2026) {
+        return (
+            <AotVenezuela2026InfographicEmbed
                 locale={locale}
                 ariaLabel={alt ?? ""}
                 title={title}
