@@ -78,7 +78,3 @@ This series covers the system that Decree 1.257 imposes on any project in Venezu
 All three are necessary, and they come in order. Those who manage them in advance have projects that can be executed, financed, and legally defended. Those who ignore them accumulate risks — legal, financial, and reputational — that this series has sought to document clearly.
 
 This article is part of a series on Venezuelan environmental law applied to investment and reactivation projects. Our [Environmental and Natural Resources practice](/practices/environmental) advises operators, financiers, and investors on environmental permits, project reactivation, due diligence, and regulatory compliance in Venezuela.
-
-Do you have questions about how this affects your business? [Book a consultation.](https://calendly.com/aregalado-agoralatam/30min)
-
-*Disclaimer: The content of this article is for informational purposes only and should not be considered legal advice. Although efforts have been made to provide accurate and up-to-date information, laws, case law, and administrative criteria may change. You should always consult a lawyer for advice on your specific case.*

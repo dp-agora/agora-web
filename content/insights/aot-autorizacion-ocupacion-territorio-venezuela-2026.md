@@ -78,7 +78,3 @@ Esta serie cubre el sistema que el Decreto 1.257 impone sobre cualquier proyecto
 Los tres son necesarios y van en orden. Quien los gestiona de manera anticipada tiene proyectos que pueden ejecutarse, financiarse y defenderse legalmente. Quien los ignora acumula riesgos — legales, financieros y reputacionales — que esta serie ha intentado documentar con claridad.
 
 Este artículo es parte de una serie sobre derecho ambiental venezolano aplicado a proyectos de inversión y reactivación. Nuestra [práctica de Medio ambiente y recursos naturales](/es/practices/environmental) asesora a operadores, financistas e inversionistas en permisos ambientales, reactivación de proyectos, debida diligencia y cumplimiento regulatorio en Venezuela.
-
-¿Tiene preguntas sobre cómo esto afecta a su negocio? [Reserve una consulta.](https://calendly.com/aregalado-agoralatam/30min)
-
-*Advertencia: El contenido de este artículo es solo para fines informativos y no debe considerarse como asesoría legal. Aunque se ha realizado un esfuerzo para proporcionar información precisa y actualizada, las leyes, jurisprudencia y criterios administrativos pueden variar. Siempre se recomienda consultar a un abogado para obtener asesoría específica según el caso concreto.*
