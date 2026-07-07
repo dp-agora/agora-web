@@ -73,7 +73,7 @@ Venezuela está en un proceso de reactivación de sus sectores productivos — h
 
 ## El cuadro completo
 
-Esta serie cubre el sistema que el Decreto 1.257 impone sobre cualquier proyecto en Venezuela: el marco regulatorio identifica los riesgos generales; el EIAS es el análisis técnico que sustenta la evaluación; la AOT es la decisión oficial que resulta de ese proceso.
+Esta serie cubre el sistema que el Decreto 1.257 impone sobre cualquier proyecto en Venezuela: el [marco regulatorio](/es/insights/venezuela-reactivacion-economica-marco-regulatorio-ambiental) identifica los riesgos generales; el [EIAS](/es/insights/reactivacion-hidrocarburos-electricidad-venezuela-eias-2026) es el análisis técnico que sustenta la evaluación; la AOT es la decisión oficial que resulta de ese proceso.
 
 Los tres son necesarios y van en orden. Quien los gestiona de manera anticipada tiene proyectos que pueden ejecutarse, financiarse y defenderse legalmente. Quien los ignora acumula riesgos — legales, financieros y reputacionales — que esta serie ha intentado documentar con claridad.
 
