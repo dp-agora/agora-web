@@ -73,7 +73,7 @@ Venezuela is reactivating its productive sectors — oil and gas, mining, electr
 
 ## The Complete Picture
 
-This series covers the system that Decree 1.257 imposes on any project in Venezuela: the regulatory framework identifies the general risks; the ESIA is the technical analysis that supports the evaluation; the AOT is the official decision that results from that process.
+This series covers the system that Decree 1.257 imposes on any project in Venezuela: the [regulatory framework](/insights/venezuela-economic-revival-environmental-regulation) identifies the general risks; the [ESIA](/insights/venezuela-oil-gas-electricity-reactivation-esia-2026) is the technical analysis that supports the evaluation; the AOT is the official decision that results from that process.
 
 All three are necessary, and they come in order. Those who manage them in advance have projects that can be executed, financed, and legally defended. Those who ignore them accumulate risks — legal, financial, and reputational — that this series has sought to document clearly.
 
