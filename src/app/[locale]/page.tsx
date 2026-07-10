@@ -8,6 +8,7 @@ import { ArrowRight, ChevronRight, Globe, Shield, Zap, ChevronDown } from "lucid
 import { Link } from "@/i18n/routing";
 import { useTranslations } from "next-intl";
 import { useBooking } from "@/context/BookingContext";
+import { AskAI } from "@/components/home/AskAI";
 import Image from "next/image";
 import { useState } from "react";
 
@@ -108,6 +109,10 @@ export default function Home() {
                 <Button asChild variant="outline" size="lg" className="h-16 px-10 text-lg rounded-none border-slate-200 hover:bg-slate-50 uppercase tracking-wider font-bold">
                   <Link href="/insights">{t("hero.ctaServices")}</Link>
                 </Button>
+              </motion.div>
+
+              <motion.div variants={fadeInUp} className="mb-10">
+                <AskAI />
               </motion.div>
 
               {/* Credibility / Trust Bar */}

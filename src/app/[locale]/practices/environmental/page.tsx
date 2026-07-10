@@ -69,7 +69,6 @@ export default function EnvironmentalPage() {
     const teamMembers = [
         { slug: "maria-eugenia-reyes", key: "maria", image: "/assets/team/maria-eugenia.webp" },
         { slug: "lizeth-reyes", key: "lizeth", image: "/assets/team/lizeth-reyes.webp" },
-        { slug: "ariana-cabrera", key: "ariana", image: "/assets/team/ariana-cabrera.webp" },
         { slug: "barbara-briceno", key: "barbara", image: "/assets/team/barbara-briceno.webp" }
     ];
 

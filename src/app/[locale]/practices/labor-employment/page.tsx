@@ -67,7 +67,6 @@ export default function LaborEmploymentPage() {
     const faqs = ["individual", "contingencies", "compliance", "collective", "terminations", "crossBorder"];
 
     const teamMembers = [
-        { slug: "ariana-cabrera", key: "ariana", image: "/assets/team/ariana-cabrera.webp" },
         { slug: "lizeth-reyes", key: "lizeth", image: "/assets/team/lizeth-reyes.webp" },
         { slug: "andreina-flores", key: "andreina", image: "/assets/team/andreina-flores.webp" }
     ];

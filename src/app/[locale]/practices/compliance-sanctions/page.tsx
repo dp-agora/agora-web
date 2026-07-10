@@ -62,7 +62,6 @@ export default function ComplianceSanctionsPage() {
 
     const teamMembers = [
         { slug: "alvaro-posada", key: "alvaro", image: "/assets/team/alvaro-posada.webp" },
-        { slug: "ariana-cabrera", key: "ariana", image: "/assets/team/ariana-cabrera.webp" },
         { slug: "marco-gomez", key: "marco", image: "/assets/team/marco-gomez.webp" },
         { slug: "raul-sancristobal", key: "raul", image: "/assets/team/raul-sancristobal.webp" }
     ];

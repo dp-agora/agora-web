@@ -62,7 +62,11 @@
             "line3": "y Regulación",
             "description": "Brindamos el servicio personalizado de una boutique legal con alcance, capacidades y visión global. Definidos por la experiencia, la innovación y el liderazgo.",
             "ctaBook": "Conectar",
-            "ctaServices": "Perspectivas"
+            "ctaServices": "Perspectivas",
+            "askAI": {
+                "label": "Pregúntale a la IA sobre nosotros",
+                "prompt": "Cuéntame sobre Ágora Abogados, una firma legal transfronteriza en América Latina."
+            }
         },
         "methodology": {
             "title": "Soluciones Estratégicas en Diversos Sectores",
@@ -310,10 +314,6 @@
                 "role": "Socio",
                 "bio": "José P. es un abogado con una vasta experiencia en áreas como impuestos, fusiones y adquisiciones, derecho corporativo y contratos, además de desempeñarse como árbitro. Está habilitado para ejercer la profesión en México y Venezuela con más de 25 años liderando proyectos en América Latina."
             },
-            "ariana": {
-                "role": "Líder de Práctica",
-                "bio": "Ariana Cabrera Acevedo, abogado con más de 10 años de experiencia, ha consolidado una carrera en derecho laboral. Su versatilidad le permite desenvolverse con éxito en otras áreas como derecho civil, administrativo, cumplimiento normativo y regulatorio."
-            },
             "lizeth": {
                 "role": "Líder de Práctica",
                 "bio": "Lizeth Reyes, tiene una doble titulación en Administración y en Derecho, acumula una experiencia profesional de más de 25 años en las áreas de litigios civiles y mercantiles y, en general, en la asesoría en procedimientos jurídicos."
@@ -357,6 +357,10 @@
             "jesus": {
                 "role": "Asociado Junior",
                 "bio": "Jesús Mendoza es abogado y licenciado en Estudios Liberales con experiencia en Derecho Corporativo, M&A, Banca y Finanzas. Su formación interdisciplinaria le permite abordar asuntos legales complejos con una visión integral del entorno económico e institucional."
+            },
+            "valentina": {
+                "role": "Asociada",
+                "bio": "Valentina Rivero es abogada con experiencia en Derecho Corporativo, Tecnología —incluyendo Big Data y Privacidad de Datos—, así como en emprendimiento y startups. Su formación en Ciberseguridad y Financiamiento le permite abordar asuntos legales complejos con una visión vanguardista del derecho."
             },
             "andrea": {
                 "role": "Líder de Negocios",
@@ -481,29 +485,6 @@
             "languages": "Español e Inglés",
             "affiliations": "Colegio de Abogados de Caracas, Asociación Venezolana de Derecho Procesal, Asociación Venezolana de Derecho Tributario, International Fiscal Association, Comité Legal de la Asociación de Empresarios Venezolanos en México, Centro de Arbitraje de la Cámara de Caracas"
         },
-        "ariana-cabrera": {
-            "overview": [
-                "Ariana Cabrera Acevedo, abogado con más de 10 años de experiencia, ha consolidado una carrera en derecho laboral. Aunque centra su práctica en el derecho laboral, su versatilidad le permite desenvolverse con éxito en otras áreas como derecho civil, administrativo, cumplimiento normativo y regulatorio.",
-                "Ariana Cabrera se distingue por su lógica jurídica, su capacidad para escuchar atentamente a las necesidades de sus clientes, y su habilidad para encontrar soluciones innovadoras. Su compromiso con la excelencia la convierte en una aliada inestimable para quienes buscan un asesoramiento jurídico de alta calidad."
-            ],
-            "experience": [
-                "Actualmente se desempeña como Líder de Área Laboral en Ágora Abogados y también se desenvuelve en las áreas de Derecho Administrativo, Regulatorio y Cumplimiento.",
-                "Su reciente nombramiento como miembro numerario nº 12 del Instituto Venezolano de Derecho Social es un claro reconocimiento a su trayectoria profesional y a su compromiso con la defensa de los derechos de sus clientes."
-            ],
-            "education": [
-                "Abogado, Mención Summa Cum Laude, Universidad Católica Andrés Bello (2014)",
-                "Programa de Estudios Avanzados en Arbitraje, Universidad Monteávila (2020)",
-                "Máster en Gestión y Dirección de Empresas, Universidad Carlos III de Madrid (2022)",
-                "Especialista Certificado en Prevención de Lavado de Dinero, ACAMS (2024)",
-                "Maestría en Resolución de Disputas (LLM), Universidad de Missouri-Columbia (2025)"
-            ],
-            "publications": [
-                "Ejecución de la sentencia: intereses de mora e indexación, Derecho Procesal del Trabajo y Contencioso Administrativo Laboral, Ensayos, Academia de Ciencias Políticas y Sociales; Universidad Católica Andrés Bello, 2023."
-            ],
-            "office": "Caracas, Venezuela",
-            "languages": "Español, Inglés y Francés",
-            "affiliations": "Miembro de número N° 12 del Instituto Venezolano de Derecho Social (Secretaria Interina); Miembro de la Asociación Venezolana de Arbitraje."
-        },
         "jesus-garcia": {
             "overview": [
                 "Jesús García Arenas es abogado con más de diez años de experiencia asesorando a clientes en los sectores de energía, petróleo y gas, y recursos naturales. A lo largo de su carrera ha ejercido tanto como abogado transaccional como abogado regulatorio en América Latina, el Reino Unido y la región EMEA, apoyando a empresas durante todas las etapas del ciclo de vida de proyectos energéticos e industriales.",
@@ -519,6 +500,20 @@
             "office": "Caracas, Venezuela",
             "languages": "Español e Inglés",
             "affiliations": "Registrado como Foreign Lawyer ante la Solicitors Regulation Authority (SRA) de Inglaterra y Gales"
+        },
+        "valentina-rivero": {
+            "overview": [
+                "Valentina Rivero es abogada con experiencia en Derecho Corporativo, Tecnología —incluyendo Big Data y Privacidad de Datos—, así como en casos de emprendimiento y startups.",
+                "Su formación complementaria en Ciberseguridad y Financiamiento le permite abordar asuntos legales complejos con una visión vanguardista del derecho. Mantiene además un firme compromiso ético, reflejado en su participación en iniciativas de responsabilidad social y voluntariado universitario."
+            ],
+            "experience": [
+                "Actualmente, Valentina se desempeña como Asociada en Ágora Abogados, especializada en las áreas de M&A / Derecho Corporativo, Banca y Finanzas."
+            ],
+            "education": [
+                "Abogada, Universidad Católica Andrés Bello (UCAB) (2025)"
+            ],
+            "office": "Caracas, Venezuela",
+            "languages": "Español e Inglés"
         },
         "lizeth-reyes": {
             "overview": [
@@ -1888,11 +1883,6 @@
                     "role": "Líder de Práctica",
                     "focus": "Operaciones mineras, operaciones petroleras y permisos de proyectos industriales"
                 },
-                "ariana": {
-                    "name": "Ariana Cabrera",
-                    "role": "Líder de Práctica",
-                    "focus": "Desarrollo sostenible y cumplimiento regulatorio"
-                },
                 "barbara": {
                     "name": "Bárbara Briceño",
                     "role": "Asociada Senior",
@@ -2102,11 +2092,6 @@
             "badge": "Nuestro Equipo",
             "title": "Liderazgo de la Práctica",
             "members": {
-                "ariana": {
-                    "name": "Ariana Cabrera",
-                    "role": "Líder de Práctica",
-                    "focus": "Litigios laborales, negociación colectiva y cumplimiento laboral"
-                },
                 "lizeth": {
                     "name": "Lizeth Reyes",
                     "role": "Líder de Práctica",
@@ -2304,11 +2289,6 @@
                     "role": "Socio",
                     "focus": "Transacciones bancarias informadas por sanciones y estructuración financiera transfronteriza"
                 },
-                "ariana": {
-                    "name": "Ariana Cabrera Acevedo",
-                    "role": "Líder de Práctica",
-                    "focus": "Cumplimiento regulatorio, marcos AML y desarrollo de programas de sanciones"
-                },
                 "marco": {
                     "name": "Marco Gómez",
                     "role": "Asociado Senior",
@@ -2468,11 +2448,6 @@
                     "name": "Álvaro J. Posada Sessarego",
                     "role": "Socio",
                     "focus": "Litigios comerciales complejos y ejecución transfronteriza"
-                },
-                "ariana": {
-                    "name": "Ariana Cabrera Acevedo",
-                    "role": "Líder de Práctica",
-                    "focus": "Disputas corporativas, litigios societarios y conflictos de gobernanza"
                 },
                 "marco": {
                     "name": "Marco Gómez",
@@ -2680,11 +2655,6 @@
                     "name": "Marco Gómez",
                     "role": "Asociado Senior",
                     "focus": "Procedimientos CIADI y coordinación de ejecución transfronteriza"
-                },
-                "ariana": {
-                    "name": "Ariana Cabrera Acevedo",
-                    "role": "Líder de Práctica",
-                    "focus": "Marcos regulatorios que afectan reclamos inversionista–estado"
                 }
             }
         },

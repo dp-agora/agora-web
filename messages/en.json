@@ -62,7 +62,11 @@
             "line3": "and Regulation",
             "description": "We provide the personalized service of a legal boutique with global reach, capabilities, and vision. Defined by experience, innovation, and leadership.",
             "ctaBook": "Connect",
-            "ctaServices": "Our Insights"
+            "ctaServices": "Our Insights",
+            "askAI": {
+                "label": "Ask AI about us",
+                "prompt": "Tell me about Ágora Abogados, a cross-border law firm in Latin America."
+            }
         },
         "methodology": {
             "title": "Strategic Solutions Across Sectors",
@@ -310,10 +314,6 @@
                 "role": "Partner",
                 "bio": "José P. Barnola Jr. is a lawyer with extensive experience in taxation, mergers and acquisitions, contract and corporate law, as well as serving as an arbitrator. He is licensed to practice in Mexico and Venezuela with over 25 years leading projects across Latin America."
             },
-            "ariana": {
-                "role": "Practice Lead",
-                "bio": "Ariana Cabrera Acevedo, a lawyer with more than 10 years of experience, has built a solid career in labor law. Her versatility allows her to successfully navigate other areas such as civil, administrative, and regulatory compliance law."
-            },
             "lizeth": {
                 "role": "Practice Lead",
                 "bio": "Lizeth Reyes holds dual degrees in Business Administration and Law, with over 25 years of professional experience in civil and commercial litigation, as well as legal advisory in judicial procedures."
@@ -357,6 +357,10 @@
             "jesus": {
                 "role": "Junior Associate",
                 "bio": "Jesús Mendoza is a lawyer and Bachelor of Liberal Studies with experience in Corporate Law, M&A, Banking and Finance. His interdisciplinary background enables him to approach complex legal matters with a comprehensive understanding of the economic and institutional environment."
+            },
+            "valentina": {
+                "role": "Associate",
+                "bio": "Valentina Rivero is a lawyer with experience in Corporate Law and Technology—including Big Data and Data Privacy—as well as entrepreneurship and startup matters. Her additional training in Cybersecurity and Financing lets her approach complex legal issues with a forward-thinking view of the law."
             },
             "andrea": {
                 "role": "Business Leader",
@@ -481,29 +485,6 @@
             "languages": "Spanish and English",
             "affiliations": "Caracas Bar Association, Venezuelan Association of Procedural Law, Venezuelan Association of Tax Law, International Fiscal Association, Legal Committee of the Association of Venezuelan Businessmen in Mexico, Arbitration Center of the Caracas Chamber"
         },
-        "ariana-cabrera": {
-            "overview": [
-                "Ariana Cabrera Acevedo, a lawyer with more than 10 years of experience, has built a solid career in labor law. While she focuses her practice on labor law, her versatility allows her to successfully navigate other areas of law, such as civil, administrative, and regulatory compliance law.",
-                "Ariana Cabrera stands out for her legal logic, her ability to listen attentively to her clients' needs, and her skill in finding innovative solutions to their problems. Her commitment to excellence makes her an invaluable ally for those seeking high-quality legal advice."
-            ],
-            "experience": [
-                "She currently serves as the Labor Law Area Leader at Ágora Abogados and also works in the areas of Administrative Law, Regulatory Law, and Compliance.",
-                "Her recent appointment as Full Member No. 12 of the Venezuelan Institute of Social Law is a clear recognition of her professional career and her commitment to defending her clients' rights."
-            ],
-            "education": [
-                "Lawyer, Summa Cum Laude, Universidad Católica Andrés Bello (2014)",
-                "Advanced Studies Program in Arbitration, Universidad Monteávila (2020)",
-                "Master's in Business Management and Administration, Universidad Carlos III de Madrid (2022)",
-                "Certified Anti-Money Laundering Specialist, ACAMS (2024)",
-                "Master of Laws (LLM) in Dispute Resolution, University of Missouri-Columbia (2025)"
-            ],
-            "publications": [
-                "\"Ejecución de la sentencia: intereses de mora e indexación”, Derecho Procesal del Trabajo y Contencioso Administrativo Laboral, Ensayos, Academia de Ciencias Políticas y Sociales; Universidad Católica Andrés Bello, November 2023."
-            ],
-            "office": "Caracas, Venezuela",
-            "languages": "Spanish, English and French",
-            "affiliations": "Full Member No. 12, Venezuelan Institute of Social Law (Interim Secretary); Member, Venezuelan Arbitration Association"
-        },
         "jesus-garcia": {
             "overview": [
                 "Jesús García Arenas is an attorney with more than 10 years of experience advising clients on energy, oil and gas, and natural resources. He has acted as a transactional attorney as well as a regulatory attorney across Latin America, the United Kingdom, and the EMEA region, supporting companies throughout the lifecycle of energy and industrial projects.",
@@ -519,6 +500,20 @@
             "office": "Caracas, Venezuela",
             "languages": "Spanish and English",
             "affiliations": "Registered Foreign Lawyer, Solicitors Regulation Authority (SRA) of England and Wales"
+        },
+        "valentina-rivero": {
+            "overview": [
+                "Valentina Rivero is a lawyer with experience in Corporate Law and Technology—including Big Data and Data Privacy—as well as in entrepreneurship and startup matters.",
+                "Her additional training in Cybersecurity and Financing allows her to approach complex legal issues with a forward-thinking view of the law. She also maintains a strong ethical commitment, reflected in her participation in social responsibility initiatives and university volunteer work."
+            ],
+            "experience": [
+                "Valentina currently works as an Associate at Ágora Abogados, specializing in M&A / Corporate Law, and Banking and Finance."
+            ],
+            "education": [
+                "Lawyer, Universidad Católica Andrés Bello (UCAB) (2025)"
+            ],
+            "office": "Caracas, Venezuela",
+            "languages": "Spanish and English"
         },
         "lizeth-reyes": {
             "overview": [
@@ -1888,11 +1883,6 @@
                     "role": "Practice Leader",
                     "focus": "Mining operations, oil operations, and industrial project permitting"
                 },
-                "ariana": {
-                    "name": "Ariana Cabrera",
-                    "role": "Practice Leader",
-                    "focus": "Sustainable development and regulatory compliance"
-                },
                 "barbara": {
                     "name": "Barbara Briceño",
                     "role": "Senior Associate",
@@ -2102,11 +2092,6 @@
             "badge": "Our Team",
             "title": "Practice Leadership",
             "members": {
-                "ariana": {
-                    "name": "Ariana Cabrera",
-                    "role": "Practice Leader",
-                    "focus": "Labor litigation, collective bargaining, and employment compliance"
-                },
                 "lizeth": {
                     "name": "Lizeth Reyes",
                     "role": "Practice Leader",
@@ -2304,11 +2289,6 @@
                     "role": "Partner",
                     "focus": "Sanctions-informed banking transactions and cross-border financial structuring"
                 },
-                "ariana": {
-                    "name": "Ariana Cabrera Acevedo",
-                    "role": "Practice Leader",
-                    "focus": "Regulatory compliance, AML frameworks, and sanctions program development"
-                },
                 "marco": {
                     "name": "Marco Gómez",
                     "role": "Senior Associate",
@@ -2468,11 +2448,6 @@
                     "name": "Álvaro J. Posada Sessarego",
                     "role": "Partner",
                     "focus": "Complex commercial litigation and cross-border enforcement"
-                },
-                "ariana": {
-                    "name": "Ariana Cabrera Acevedo",
-                    "role": "Practice Leader",
-                    "focus": "Corporate disputes, shareholder litigation, and governance conflicts"
                 },
                 "marco": {
                     "name": "Marco Gómez",
@@ -2680,11 +2655,6 @@
                     "name": "Marco Gómez",
                     "role": "Senior Associate",
                     "focus": "ICSID proceedings and cross-border enforcement coordination"
-                },
-                "ariana": {
-                    "name": "Ariana Cabrera Acevedo",
-                    "role": "Practice Leader",
-                    "focus": "Regulatory frameworks affecting investor–state claims"
                 }
             }
         },

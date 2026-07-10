@@ -6,7 +6,7 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { Linkedin, Mail, ArrowLeft } from "lucide-react";
 import { Link } from "@/i18n/routing";
-import { useParams } from "next/navigation";
+import { useParams, notFound } from "next/navigation";
 
 type LegacyExperienceContent = string | { items: string[] };
 
@@ -33,7 +33,6 @@ export default function TeamMemberPage() {
                 { id: "alvaro-posada", name: "Álvaro Posada", roleKey: "alvaro.role", image: "/assets/team/alvaro-posada.webp", email: "aposada@agoralatam.com", linkedin: "https://www.linkedin.com/in/%C3%A1lvaro-posada-328156a4/" },
                 { id: "maria-eugenia-reyes", name: "María Eugenia Reyes", roleKey: "maria.role", image: "/assets/team/maria-eugenia.webp", email: "mreyes@agoralatam.com", linkedin: "https://www.linkedin.com/in/maria-eugenia-reyes-feo-40410624/" },
                 { id: "jose-barnola", name: "José P. Barnola Jr.", roleKey: "jose.role", image: "/assets/team/jose-barnola.webp", email: "jbarnola@agoralatam.com", linkedin: "https://mx.linkedin.com/in/josepbarnolajr" },
-                { id: "ariana-cabrera", name: "Ariana Cabrera", roleKey: "ariana.role", image: "/assets/team/ariana-cabrera.webp", email: "acabrera@agoralatam.com", linkedin: "https://ve.linkedin.com/in/ariana-cabrera-acevedo" },
                 { id: "lizeth-reyes", name: "Lizeth Reyes", roleKey: "lizeth.role", image: "/assets/team/lizeth-reyes.webp", email: "lreyes@agoralatam.com", linkedin: "https://www.linkedin.com/in/lizeth-reyesb" },
                 { id: "jesus-garcia", name: "Jesús García Arenas", roleKey: "jesusGarcia.role", image: "/assets/team/jesus-garcia.webp", email: "jgarcia@agoralatam.com", linkedin: "https://www.linkedin.com/in/jesus-garcia-arenas-b23205151/" },
                 { id: "marco-gomez", name: "Marco Gómez", roleKey: "marco.role", image: "/assets/team/marco-gomez.webp", email: "mgomez@agoralatam.com", linkedin: "https://www.linkedin.com/in/marcoantoniogomez/" },
@@ -43,6 +42,7 @@ export default function TeamMemberPage() {
                 { id: "andreina-flores", name: "Andreína Flores", roleKey: "andreina.role", image: "/assets/team/andreina-flores.webp", email: "aflores@agoralatam.com", linkedin: "http://www.linkedin.com/in/andreina-floresr" },
                 { id: "fabiola-flores", name: "Fabiola Flores", roleKey: "fabiola.role", image: "/assets/team/fabiola-flores.webp", email: "fflores@agoralatam.com", linkedin: "https://www.linkedin.com/in/fabiola-floresr" },
                 { id: "jesus-mendoza", name: "Jesús Mendoza", roleKey: "jesus.role", image: "/assets/team/jesus-mendoza.png", email: "jmendoza@agoralatam.com", linkedin: "https://www.linkedin.com/in/jesus-mendoza-7b707322a/" },
+                { id: "valentina-rivero", name: "Valentina Rivero", roleKey: "valentina.role", image: "/assets/team/foto-valentina-rivero.webp", email: "vrivero@agoralatam.com", linkedin: "https://www.linkedin.com/in/valentina-rivero-ramirez-b36585234/" },
                 { id: "andrea-regalado", name: "Andrea Regalado", roleKey: "andrea.role", image: "/assets/team/andrea-regalado.webp", email: "aregalado@agoralatam.com", linkedin: "https://www.linkedin.com/in/andrea-victoria-regalado-reyes-7073141a6/" },
                 { id: "oriana-rodriguez", name: "Oriana Rodríguez", roleKey: "oriana.role", image: "/assets/team/oriana-rodriguez.webp", email: "orodriguez@agoralatam.com", linkedin: "https://www.linkedin.com/in/oriana-rodriguez-6b4b7453/" },
                 { id: "juan-posada", name: "Juan Francisco Posada", roleKey: "juan.role", image: "/assets/team/juan-posada.webp", email: "jposada@agoralatam.com", linkedin: "https://www.linkedin.com/in/juanfposada/" }
@@ -62,20 +62,7 @@ export default function TeamMemberPage() {
     }
 
     if (!member) {
-        return (
-            <div className="flex min-h-screen flex-col">
-                <Navbar />
-                <main className="flex-1 flex items-center justify-center">
-                    <div className="text-center">
-                        <h1 className="text-4xl font-serif text-primary mb-4">{t("labels.notFound")}</h1>
-                        <Link href="/team" className="text-primary hover:underline flex items-center gap-2">
-                            <ArrowLeft className="h-4 w-4" /> {t("labels.back")}
-                        </Link>
-                    </div>
-                </main>
-                <Footer />
-            </div>
-        );
+        notFound();
     }
 
     return (

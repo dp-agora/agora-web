@@ -72,7 +72,7 @@ export function Navbar() {
                     <Button
                         onClick={openBooking}
                         variant="outline"
-                        className="hidden sm:inline-flex bg-transparent border-white text-white hover:bg-white hover:text-primary rounded-none h-10 px-8 text-xs font-bold tracking-[0.2em] uppercase transition-all active:scale-95 cursor-pointer"
+                        className="hidden sm:inline-flex bg-white border-white text-primary hover:bg-white/90 hover:text-primary rounded-none h-10 px-8 text-xs font-bold tracking-[0.2em] uppercase transition-all active:scale-95 cursor-pointer"
                     >
                         {t("bookCall")}
                     </Button>
@@ -119,7 +119,7 @@ export function Navbar() {
                                 <div className="mt-auto pb-8">
                                     <Button
                                         variant="outline"
-                                        className="w-full border-white text-white hover:bg-white hover:text-primary rounded-none h-14 text-lg cursor-pointer"
+                                        className="w-full bg-white border-white text-primary hover:bg-white/90 hover:text-primary rounded-none h-14 text-lg cursor-pointer"
                                         onClick={() => {
                                             setIsOpen(false);
                                             openBooking();

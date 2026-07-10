@@ -72,7 +72,6 @@ export default function InvestmentArbitrationPage() {
         { slug: "alvaro-posada", key: "alvaro", image: "/assets/team/alvaro-posada.webp" },
         { slug: "jose-barnola", key: "jose", image: "/assets/team/jose-barnola.webp" },
         { slug: "marco-gomez", key: "marco", image: "/assets/team/marco-gomez.webp" },
-        { slug: "ariana-cabrera", key: "ariana", image: "/assets/team/ariana-cabrera.webp" }
     ];
 
     const faqs = [
