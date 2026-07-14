@@ -173,13 +173,13 @@ function GridCard({
                         <span className="text-slate-300">·</span>
                         <span className="text-xs text-slate-400">{formatDate(insight.date, locale)}</span>
                     </div>
-                    <h3 className="text-lg font-serif text-primary group-hover:text-primary/80 transition-colors mb-3 leading-snug line-clamp-2 flex-1">
+                    <h3 className="text-lg font-serif text-primary group-hover:text-primary/80 transition-colors mb-3 leading-snug line-clamp-2">
                         {insight.title}
                     </h3>
                     <p className="text-slate-500 text-sm leading-relaxed line-clamp-2 mb-5">
                         {insight.excerpt}
                     </p>
-                    <div className="flex items-center justify-between pt-4 border-t border-slate-100">
+                    <div className="mt-auto flex items-center justify-between pt-4 border-t border-slate-100">
                         <AuthorAvatar insight={insight} />
                         <span className="inline-flex items-center gap-1 text-primary text-sm font-medium group-hover:gap-2 transition-all">
                             {readMoreLabel} <ArrowRight className="h-3.5 w-3.5" />

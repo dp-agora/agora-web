@@ -14,6 +14,7 @@ import { ElectronicSignaturesVenezuelaEmbed } from "@/components/insights/Electr
 import { OfacJune2026GlsInfographicEmbed } from "@/components/insights/OfacJune2026GlsInfographicEmbed";
 import { SeniatFiscalizacionInfographicEmbed } from "@/components/insights/SeniatFiscalizacionInfographicEmbed";
 import { AotVenezuela2026InfographicEmbed } from "@/components/insights/AotVenezuela2026InfographicEmbed";
+import { VenezuelaEnvironmentalConsultantsInfographicEmbed } from "@/components/insights/VenezuelaEnvironmentalConsultantsInfographicEmbed";
 
 /** Markdown still references these paths as sentinels for embedded React graphics. */
 const COMMERCIAL_ARBITRATION_INFOGRAPHIC =
@@ -45,6 +46,8 @@ const OFAC_JUNE_2026_GLS_INFOGRAPHIC =
 const SENIAT_FISCALIZACION_2026 =
     "/images/insights/seniat-fiscalizacion-2026.html";
 const AOT_VENEZUELA_2026 = "/images/insights/aot-venezuela-2026.html";
+const VENEZUELA_ENVIRONMENTAL_CONSULTANTS_2026 =
+    "/images/insights/venezuela-environmental-consultants-2026.html";
 
 type Props = ImgHTMLAttributes<HTMLImageElement> & {
     node?: unknown;
@@ -204,6 +207,16 @@ export function InsightMarkdownImage({
     if (src === AOT_VENEZUELA_2026) {
         return (
             <AotVenezuela2026InfographicEmbed
+                locale={locale}
+                ariaLabel={alt ?? ""}
+                title={title}
+            />
+        );
+    }
+
+    if (src === VENEZUELA_ENVIRONMENTAL_CONSULTANTS_2026) {
+        return (
+            <VenezuelaEnvironmentalConsultantsInfographicEmbed
                 locale={locale}
                 ariaLabel={alt ?? ""}
                 title={title}
