@@ -51,6 +51,14 @@ export const insightsLocaleMap: Record<string, { en: string; es: string }> = {
     "en": "cedca-new-arbitration-rules-2026-venezuela",
     "es": "cedca-nuevo-reglamento-conciliacion-arbitraje-2026"
   },
+  "consultores-ambientales-venezuela-2026": {
+    "en": "venezuela-environmental-consultants-2026",
+    "es": "consultores-ambientales-venezuela-2026"
+  },
+  "venezuela-environmental-consultants-2026": {
+    "en": "venezuela-environmental-consultants-2026",
+    "es": "consultores-ambientales-venezuela-2026"
+  },
   "corporate-good-standing-venezuela": {
     "en": "corporate-good-standing-venezuela",
     "es": "empresas-corporativamente-al-dia-es"
