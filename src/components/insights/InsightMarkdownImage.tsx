@@ -16,6 +16,7 @@ import { SeniatFiscalizacionInfographicEmbed } from "@/components/insights/Senia
 import { AotVenezuela2026InfographicEmbed } from "@/components/insights/AotVenezuela2026InfographicEmbed";
 import { VenezuelaEnvironmentalConsultantsInfographicEmbed } from "@/components/insights/VenezuelaEnvironmentalConsultantsInfographicEmbed";
 import { VenezuelaDecree5364InfographicEmbed } from "@/components/insights/VenezuelaDecree5364InfographicEmbed";
+import { VenezuelaHazardousWasteInfographicEmbed } from "@/components/insights/VenezuelaHazardousWasteInfographicEmbed";
 
 /** Markdown still references these paths as sentinels for embedded React graphics. */
 const COMMERCIAL_ARBITRATION_INFOGRAPHIC =
@@ -50,6 +51,7 @@ const AOT_VENEZUELA_2026 = "/images/insights/aot-venezuela-2026.html";
 const VENEZUELA_ENVIRONMENTAL_CONSULTANTS_2026 =
     "/images/insights/venezuela-environmental-consultants-2026.html";
 const VENEZUELA_DECREE_5364_2026 = "/images/insights/venezuela-decree-5364-2026.html";
+const VENEZUELA_HAZARDOUS_WASTE_2026 = "/images/insights/venezuela-hazardous-waste-2026.html";
 
 type Props = ImgHTMLAttributes<HTMLImageElement> & {
     node?: unknown;
@@ -229,6 +231,16 @@ export function InsightMarkdownImage({
     if (src === VENEZUELA_DECREE_5364_2026) {
         return (
             <VenezuelaDecree5364InfographicEmbed
+                locale={locale}
+                ariaLabel={alt ?? ""}
+                title={title}
+            />
+        );
+    }
+
+    if (src === VENEZUELA_HAZARDOUS_WASTE_2026) {
+        return (
+            <VenezuelaHazardousWasteInfographicEmbed
                 locale={locale}
                 ariaLabel={alt ?? ""}
                 title={title}

@@ -75,6 +75,14 @@ export const insightsLocaleMap: Record<string, { en: string; es: string }> = {
     "en": "venezuela-decree-5364-property-occupation-2026",
     "es": "decreto-5364-ocupacion-bienes-venezuela-2026"
   },
+  "desechos-peligrosos-venezuela-2026": {
+    "en": "venezuela-hazardous-waste-regulation-2026",
+    "es": "desechos-peligrosos-venezuela-2026"
+  },
+  "venezuela-hazardous-waste-regulation-2026": {
+    "en": "venezuela-hazardous-waste-regulation-2026",
+    "es": "desechos-peligrosos-venezuela-2026"
+  },
   "electronic-signatures-venezuela-digital-risk-2026": {
     "en": "electronic-signatures-venezuela-digital-risk-2026",
     "es": "firmas-electronicas-venezuela-riesgo-digital-2026"
