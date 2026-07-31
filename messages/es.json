@@ -6,7 +6,8 @@
         "insights": "Perspectivas",
         "careers": "Carreras",
         "contact": "Contacto",
-        "bookCall": "Conectar"
+        "bookCall": "Conectar",
+        "menu": "Menú"
     },
     "Footer": {
         "firm": "Firma",
@@ -62,7 +63,11 @@
             "line3": "y Regulación",
             "description": "Brindamos el servicio personalizado de una boutique legal con alcance, capacidades y visión global. Definidos por la experiencia, la innovación y el liderazgo.",
             "ctaBook": "Conectar",
-            "ctaServices": "Perspectivas"
+            "ctaServices": "Perspectivas",
+            "askAI": {
+                "label": "Pregúntale a la IA sobre nosotros",
+                "prompt": "Cuéntame sobre Ágora Abogados, una firma legal transfronteriza en América Latina."
+            }
         },
         "methodology": {
             "title": "Soluciones Estratégicas en Diversos Sectores",
@@ -358,6 +363,10 @@
                 "role": "Asociado Junior",
                 "bio": "Jesús Mendoza es abogado y licenciado en Estudios Liberales con experiencia en Derecho Corporativo, M&A, Banca y Finanzas. Su formación interdisciplinaria le permite abordar asuntos legales complejos con una visión integral del entorno económico e institucional."
             },
+            "mariaLaura": {
+                "role": "Asociada",
+                "bio": "María Laura Armas cuenta con 4 años de experiencia en Derecho Corporativo, Banca, Finanzas, Compliance y Litigios. Asesora y gestiona financiamientos con garantías, estructuras patrimoniales, riesgos de cumplimiento y disputas financieras complejas."
+            },
             "andrea": {
                 "role": "Líder de Negocios",
                 "bio": "Andrea es la Líder de Negocios en Ágora Abogados, donde lidera la estrategia operativa y el desarrollo de negocios. Aprovecha su formación en Ingeniería Química y su MBA en curso en el IESA para optimizar los flujos de trabajo de proyectos complejos e impulsar la eficiencia organizacional."
@@ -617,6 +626,20 @@
             ],
             "education": [
                 "Abogado, Universidad Católica Andrés Bello (2022)"
+            ],
+            "office": "Caracas, Venezuela",
+            "languages": "Español e Inglés"
+        },
+        "maria-laura-armas": {
+            "overview": [
+                "María Laura Armas cuenta con 4 años de experiencia en Derecho Corporativo, Banca, Finanzas, Compliance y Litigios. Asesora y gestiona financiamientos con garantías, estructuras patrimoniales, riesgos de cumplimiento y disputas financieras complejas. Cuenta con trayectoria en el diseño de estrategias legales y representación en litigios civiles, mercantiles y agrarios.",
+                "Se distingue por su constancia inquebrantable, su enfoque minuciosamente detallista y su responsabilidad y compromiso con los clientes, abordando cada caso con rigor analítico y determinación."
+            ],
+            "experience": [
+                "Actualmente, María Laura se desempeña como Asociada en Ágora Abogados, especializada en Derecho Corporativo, Banca, Finanzas, Compliance y Litigios."
+            ],
+            "education": [
+                "Abogado, Universidad Católica Andrés Bello (2026)"
             ],
             "office": "Caracas, Venezuela",
             "languages": "Español e Inglés"

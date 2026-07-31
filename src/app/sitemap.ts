@@ -45,6 +45,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         'andreina-flores',
         'fabiola-flores',
         'jesus-mendoza',
+        'maria-laura-armas',
         'andrea-regalado',
         'oriana-rodriguez',
         'juan-posada',

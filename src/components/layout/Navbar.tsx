@@ -2,7 +2,7 @@
 
 import { Link, usePathname } from "@/i18n/routing";
 import { Button } from "@/components/ui/button";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "@/components/ui/sheet";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { cn } from "@/lib/utils";
@@ -85,6 +85,7 @@ export function Navbar() {
                             </Button>
                         </SheetTrigger>
                         <SheetContent side="right" className="w-full sm:w-[400px] border-l-0 bg-primary p-0">
+                            <SheetTitle className="sr-only">{t("menu")}</SheetTitle>
                             <div className="flex flex-col h-full bg-primary text-white p-8">
                                 <div className="flex items-center justify-between mb-16">
                                     <div className="relative h-12 w-60">

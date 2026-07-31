@@ -8,6 +8,7 @@ import { ArrowRight, ChevronRight, Globe, Shield, Zap, ChevronDown } from "lucid
 import { Link } from "@/i18n/routing";
 import { useTranslations } from "next-intl";
 import { useBooking } from "@/context/BookingContext";
+import { AskAI } from "@/components/home/AskAI";
 import Image from "next/image";
 import { useState } from "react";
 
@@ -109,6 +110,8 @@ export default function Home() {
                   <Link href="/insights">{t("hero.ctaServices")}</Link>
                 </Button>
               </motion.div>
+
+              <AskAI />
 
               {/* Credibility / Trust Bar */}
               <motion.div

@@ -6,7 +6,8 @@
         "insights": "Insights",
         "careers": "Careers",
         "contact": "Contact",
-        "bookCall": "Connect"
+        "bookCall": "Connect",
+        "menu": "Menu"
     },
     "Footer": {
         "firm": "Firm",
@@ -62,7 +63,11 @@
             "line3": "and Regulation",
             "description": "We provide the personalized service of a legal boutique with global reach, capabilities, and vision. Defined by experience, innovation, and leadership.",
             "ctaBook": "Connect",
-            "ctaServices": "Our Insights"
+            "ctaServices": "Our Insights",
+            "askAI": {
+                "label": "Ask AI about us",
+                "prompt": "Tell me about Ágora Abogados, a cross-border law firm in Latin America."
+            }
         },
         "methodology": {
             "title": "Strategic Solutions Across Sectors",
@@ -358,6 +363,10 @@
                 "role": "Junior Associate",
                 "bio": "Jesús Mendoza is a lawyer and Bachelor of Liberal Studies with experience in Corporate Law, M&A, Banking and Finance. His interdisciplinary background enables him to approach complex legal matters with a comprehensive understanding of the economic and institutional environment."
             },
+            "mariaLaura": {
+                "role": "Associate",
+                "bio": "María Laura Armas has 4 years of experience in Corporate Law, Banking, Finance, Compliance, and Litigation. She advises on and manages secured financing, asset structures, compliance risks, and complex financial disputes."
+            },
             "andrea": {
                 "role": "Business Leader",
                 "bio": "Andrea is the Business Leader at Ágora Abogados, where she leads operational strategy and business development. She leverages her background in Chemical Engineering and her ongoing MBA at IESA to optimize complex project workflows and drive organizational efficiency."
@@ -617,6 +626,20 @@
             ],
             "education": [
                 "Lawyer, Universidad Católica Andrés Bello (2022)"
+            ],
+            "office": "Caracas, Venezuela",
+            "languages": "Spanish and English"
+        },
+        "maria-laura-armas": {
+            "overview": [
+                "María Laura Armas has 4 years of experience in Corporate Law, Banking, Finance, Compliance, and Litigation. She advises on and manages secured financing, asset structures, compliance risks, and complex financial disputes. She has a proven track record in designing legal strategies and representing clients in civil, commercial, and agricultural litigation.",
+                "She is known for her unwavering perseverance, meticulous attention to detail, and her sense of responsibility and commitment to clients, approaching each case with analytical rigor and determination."
+            ],
+            "experience": [
+                "María Laura is currently an Associate at Ágora Abogados, specializing in Corporate Law, Banking, Finance, Compliance, and Litigation."
+            ],
+            "education": [
+                "Lawyer, Universidad Católica Andrés Bello (2026)"
             ],
             "office": "Caracas, Venezuela",
             "languages": "Spanish and English"
