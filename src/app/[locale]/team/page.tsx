@@ -49,15 +49,6 @@ export default function TeamPage() {
             title: t("groups.leads"),
             members: [
                 {
-                    id: "ariana-cabrera",
-                    name: "Ariana Cabrera",
-                    role: t("members.ariana.role"),
-                    bio: t("members.ariana.bio"),
-                    image: "/assets/team/ariana-cabrera.webp",
-                    email: "acabrera@agoralatam.com",
-                    linkedin: "https://ve.linkedin.com/in/ariana-cabrera-acevedo"
-                },
-                {
                     id: "lizeth-reyes",
                     name: "Lizeth Reyes",
                     role: t("members.lizeth.role"),
@@ -92,6 +83,7 @@ export default function TeamPage() {
                 { id: "andreina-flores", name: "Andreína Flores", role: t("members.andreina.role"), bio: t("members.andreina.bio"), image: "/assets/team/andreina-flores.webp", email: "aflores@agoralatam.com", linkedin: "http://www.linkedin.com/in/andreina-floresr" },
                 { id: "fabiola-flores", name: "Fabiola Flores", role: t("members.fabiola.role"), bio: t("members.fabiola.bio"), image: "/assets/team/fabiola-flores.webp", email: "fflores@agoralatam.com", linkedin: "https://www.linkedin.com/in/fabiola-floresr" },
                 { id: "jesus-mendoza", name: "Jesús Mendoza", role: t("members.jesus.role"), bio: t("members.jesus.bio"), image: "/assets/team/jesus-mendoza.png", email: "jmendoza@agoralatam.com", linkedin: "https://www.linkedin.com/in/jesus-mendoza-7b707322a/" },
+                { id: "valentina-rivero", name: "Valentina Rivero", role: t("members.valentina.role"), bio: t("members.valentina.bio"), image: "/assets/team/foto-valentina-rivero.webp", email: "vrivero@agoralatam.com", linkedin: "https://www.linkedin.com/in/valentina-rivero-ramirez-b36585234/" },
                 { id: "maria-laura-armas", name: "María Laura Armas", role: t("members.mariaLaura.role"), bio: t("members.mariaLaura.bio"), image: "/assets/team/maria-laura-armas.webp", email: "marmas@agoralatam.com", linkedin: "https://www.linkedin.com/in/mar%C3%ADa-laura-armas-98a500271/" }
             ]
         },

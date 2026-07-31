@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1080">
+<title>Desechos peligrosos en Venezuela — Ágora</title>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{width:1080px;background:#1c3054;font-family:'Lora',Georgia,serif;}
+
+.top{background:#272223;padding:44px 64px 36px;display:flex;align-items:center;gap:40px;}
+.top img{height:40px;opacity:.9;flex-shrink:0;}
+.tag{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:rgba(255,255,255,.45);margin-bottom:10px;}
+.title{font-size:27px;font-weight:700;color:#fff;line-height:1.2;}
+.subtitle{font-size:14px;color:rgba(255,255,255,.5);font-style:italic;margin-top:8px;line-height:1.4;max-width:680px;}
+.meta{font-size:11px;color:rgba(255,255,255,.3);margin-top:10px;}
+
+/* REG STRIP */
+.reg{margin:26px 64px 0;background:rgba(0,0,0,.2);border-radius:8px;padding:16px 24px;display:flex;align-items:center;gap:16px;}
+.reg-label{font-size:10px;letter-spacing:2.5px;text-transform:uppercase;color:rgba(255,255,255,.35);flex-shrink:0;width:120px;}
+.reg-items{display:flex;gap:12px;flex:1;}
+.reg-item{background:rgba(255,255,255,.07);border-radius:5px;padding:8px 14px;}
+.reg-item-name{font-size:12px;font-weight:700;color:#fff;margin-bottom:3px;}
+.reg-item-desc{font-size:11px;color:rgba(255,255,255,.45);}
+.reg-note{font-size:12px;color:rgba(255,255,255,.45);font-style:italic;flex:1;line-height:1.5;}
+
+/* CHAIN */
+.chain-label{font-size:10px;letter-spacing:3px;text-transform:uppercase;color:rgba(255,255,255,.3);padding:24px 64px 12px;}
+.chain{display:flex;align-items:stretch;padding:0 64px;gap:0;}
+
+.ch-item{flex:1;background:rgba(255,255,255,.07);border-radius:8px;padding:22px 18px;}
+.ch-arrow{width:24px;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:16px;color:rgba(255,255,255,.2);}
+.ch-icon{font-size:24px;margin-bottom:10px;}
+.ch-name{font-size:14px;font-weight:700;color:#fff;margin-bottom:6px;}
+.ch-desc{font-size:12px;color:rgba(255,255,255,.5);line-height:1.5;margin-bottom:14px;padding-bottom:12px;border-bottom:1px solid rgba(255,255,255,.08);}
+.ch-ob-label{font-size:9px;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.3);margin-bottom:5px;}
+.ch-ob{font-size:12px;color:rgba(255,255,255,.75);line-height:1.5;}
+
+/* OBLIGATIONS */
+.obs-wrap{padding:20px 64px 0;}
+.obs-label{font-size:10px;letter-spacing:3px;text-transform:uppercase;color:rgba(255,255,255,.3);margin-bottom:12px;}
+.obs{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;}
+.ob{display:flex;align-items:flex-start;gap:10px;background:rgba(0,0,0,.15);border-radius:6px;padding:12px 14px;}
+.ob-dot{width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.3);flex-shrink:0;margin-top:5px;}
+.ob-text{font-size:12.5px;color:rgba(255,255,255,.65);line-height:1.5;}
+
+.bottom{margin-top:26px;padding:18px 64px;border-top:1px solid rgba(255,255,255,.08);display:flex;justify-content:space-between;align-items:center;}
+.author{font-size:12px;color:rgba(255,255,255,.3);}
+.brand{font-size:11px;color:rgba(255,255,255,.2);letter-spacing:1px;text-transform:uppercase;}
+</style>
+</head>
+<body>
+
+<div class="top">
+  <img src="/images/insights/agora-logo.png" alt="Ágora">
+  <div>
+    <div class="tag">Derecho Ambiental · Venezuela · Serie Ambiental</div>
+    <div class="title">Desechos peligrosos en Venezuela</div>
+    <div class="subtitle">El régimen vigente que toda empresa con operaciones en Venezuela debe incorporar desde la planificación</div>
+    <div class="meta">María Eugenia Reyes · Ágora Abogados SC · 2026</div>
+  </div>
+</div>
+
+<div class="reg">
+  <div class="reg-label">Marco normativo</div>
+  <div class="reg-items">
+    <div class="reg-item"><div class="reg-item-name">Decreto N.° 2.635</div><div class="reg-item-desc">Control materiales y desechos peligrosos · GO 5.245 · 1998</div></div>
+    <div class="reg-item"><div class="reg-item-name">Ley sobre Sustancias Peligrosas</div><div class="reg-item-desc">Generación, transporte, disposición final · GO 5.554 · 2001</div></div>
+  </div>
+  <div class="reg-note">Ambos instrumentos están vigentes. La Ley de 2001 no derogó el Decreto 2.635 — opera como reglamentación técnica subordinada.</div>
+</div>
+
+<div class="chain-label">Los 4 sujetos obligados — la cadena de responsabilidad no se transfiere por contrato</div>
+<div class="chain">
+<div class="ch-item">
+  <div class="ch-icon">⚗️</div>
+  <div class="ch-name">Generador</div>
+  <div class="ch-desc">Produce el material o desecho como resultado de su actividad. Primer eslabón.</div>
+  <div class="ch-ob-label">Obligación clave</div>
+  <div class="ch-ob">Registro ante MINEC. Planes de emergencia. Mayor carga de responsabilidad.</div>
+</div><div class="ch-arrow">→</div>
+<div class="ch-item">
+  <div class="ch-icon">🚛</div>
+  <div class="ch-name">Transportista</div>
+  <div class="ch-desc">Traslada el material entre el punto de generación y el sitio de tratamiento o disposición.</div>
+  <div class="ch-ob-label">Obligación clave</div>
+  <div class="ch-ob">Portar hoja de seguridad, guía de despacho y póliza de seguro en todo momento.</div>
+</div><div class="ch-arrow">→</div>
+<div class="ch-item">
+  <div class="ch-icon">🏭</div>
+  <div class="ch-name">Almacenador</div>
+  <div class="ch-desc">Custodia temporalmente el material bajo condiciones controladas.</div>
+  <div class="ch-ob-label">Obligación clave</div>
+  <div class="ch-ob">Impedir migración al ambiente. Separar materiales incompatibles. Respetar plazo máximo.</div>
+</div><div class="ch-arrow">→</div>
+<div class="ch-item">
+  <div class="ch-icon">⚠️</div>
+  <div class="ch-name">Operador de disposición final</div>
+  <div class="ch-desc">Trata, elimina o confina el desecho peligroso.</div>
+  <div class="ch-ob-label">Obligación clave</div>
+  <div class="ch-ob">Requiere autorización expresa del MINEC. Disposición en rellenos de seguridad autorizados.</div>
+</div></div>
+
+<div class="obs-wrap">
+  <div class="obs-label">Obligaciones operativas — aplican desde el diseño del proyecto</div>
+  <div class="obs"><div class="ob"><div class="ob-dot"></div><div class="ob-text"><strong>Registro</strong> ante el MINEC en el Registro de Actividades Capaces de Degradar el Ambiente</div></div><div class="ob"><div class="ob-dot"></div><div class="ob-text"><strong>Clasificación</strong> conforme a sistemas ONU, actualizable por convenios internacionales</div></div><div class="ob"><div class="ob-dot"></div><div class="ob-text"><strong>Planes de emergencia</strong> y contingencia diseñados e implementados por generador y transportista</div></div><div class="ob"><div class="ob-dot"></div><div class="ob-text"><strong>Almacenamiento controlado</strong> — materiales incompatibles separados, plazo máximo regulado</div></div><div class="ob"><div class="ob-dot"></div><div class="ob-text"><strong>Disposición final</strong> únicamente en rellenos de seguridad autorizados por MINEC</div></div><div class="ob"><div class="ob-dot"></div><div class="ob-text"><strong>Autorización previa</strong> para importar materiales recuperables — sin ella, retorno al origen</div></div></div>
+</div>
+
+<div class="bottom">
+  <div class="author">María Eugenia Reyes</div>
+  <div class="brand">Ágora Abogados SC</div>
+</div>
+
+</body>
+</html>

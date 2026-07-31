@@ -111,7 +111,9 @@ export default function Home() {
                 </Button>
               </motion.div>
 
-              <AskAI />
+              <motion.div variants={fadeInUp} className="mb-10">
+                <AskAI />
+              </motion.div>
 
               {/* Credibility / Trust Bar */}
               <motion.div
