@@ -59,6 +59,14 @@ export const insightsLocaleMap: Record<string, { en: string; es: string }> = {
     "en": "venezuela-environmental-consultants-2026",
     "es": "consultores-ambientales-venezuela-2026"
   },
+  "contribuciones-especiales-venezuela-2026": {
+    "en": "venezuela-special-contributions-2026",
+    "es": "contribuciones-especiales-venezuela-2026"
+  },
+  "venezuela-special-contributions-2026": {
+    "en": "venezuela-special-contributions-2026",
+    "es": "contribuciones-especiales-venezuela-2026"
+  },
   "corporate-good-standing-venezuela": {
     "en": "corporate-good-standing-venezuela",
     "es": "empresas-corporativamente-al-dia-es"
