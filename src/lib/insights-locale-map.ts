@@ -115,6 +115,14 @@ export const insightsLocaleMap: Record<string, { en: string; es: string }> = {
     "en": "seniat-tax-audit-venezuela-2026",
     "es": "fiscalizacion-seniat-venezuela-2026"
   },
+  "legal-personality-explained": {
+    "en": "legal-personality-explained",
+    "es": "personalidad-juridica-explicada"
+  },
+  "personalidad-juridica-explicada": {
+    "en": "legal-personality-explained",
+    "es": "personalidad-juridica-explicada"
+  },
   "locota-celerity-law-what-it-means": {
     "en": "locota-celerity-law-what-it-means",
     "es": "locota-celerity-law-what-it-means"
