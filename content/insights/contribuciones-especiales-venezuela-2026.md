@@ -165,4 +165,4 @@ El mejor antídoto contra los reparos sorpresivos es el mismo que recomendamos a
 
 Conocer cuántas contribuciones especiales paga su empresa es el primer paso para evitar pagar dos veces: una al ente recaudador y otra, mayor, al subsanar el incumplimiento.
 
-**¿Desea saber más?** En Ágora Abogados SC asesoramos a empresas nacionales e internacionales en el diseño y el cumplimiento de su estructura tributaria en Venezuela, incluyendo el mapeo, la cuantificación y la declaración de contribuciones especiales. Contáctenos en **info@agoralatam.com**.
+**¿Desea saber más?** En Ágora Abogados SC asesoramos a empresas nacionales e internacionales en el diseño y el cumplimiento de su estructura tributaria en Venezuela, incluyendo el mapeo, la cuantificación y la declaración de contribuciones especiales.

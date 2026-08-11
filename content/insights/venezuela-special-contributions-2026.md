@@ -165,4 +165,4 @@ The best antidote to surprise assessments is the same we have been recommending 
 
 Knowing how many special contributions your company pays is the first step to avoid paying twice: once to the collecting agency and a second time, larger, when curing the non-compliance.
 
-**Want to know more?** At Ágora Abogados SC we assist domestic and international companies with the design and compliance of their tax structure in Venezuela, including the mapping, quantification and filing of special contributions. Contact us at **info@agoralatam.com**.
+**Want to know more?** At Ágora Abogados SC we assist domestic and international companies with the design and compliance of their tax structure in Venezuela, including the mapping, quantification and filing of special contributions.
