@@ -18,6 +18,8 @@ import { VenezuelaEnvironmentalConsultantsInfographicEmbed } from "@/components/
 import { VenezuelaDecree5364InfographicEmbed } from "@/components/insights/VenezuelaDecree5364InfographicEmbed";
 import { VenezuelaHazardousWasteInfographicEmbed } from "@/components/insights/VenezuelaHazardousWasteInfographicEmbed";
 import { OfacAugust2026GlsInfographicEmbed } from "@/components/insights/OfacAugust2026GlsInfographicEmbed";
+import { VenezuelaSpecialContributionsInfographicEmbed } from "@/components/insights/VenezuelaSpecialContributionsInfographicEmbed";
+import { LegalPersonalityExplainedInfographicEmbed } from "@/components/insights/LegalPersonalityExplainedInfographicEmbed";
 
 /** Markdown still references these paths as sentinels for embedded React graphics. */
 const COMMERCIAL_ARBITRATION_INFOGRAPHIC =
@@ -55,6 +57,9 @@ const VENEZUELA_DECREE_5364_2026 = "/images/insights/venezuela-decree-5364-2026.
 const VENEZUELA_HAZARDOUS_WASTE_2026 = "/images/insights/venezuela-hazardous-waste-2026.html";
 const OFAC_AUGUST_2026_GLS_INFOGRAPHIC =
     "/images/insights/ofac-august-2026-gls-infographic.html";
+const VENEZUELA_SPECIAL_CONTRIBUTIONS_2026 =
+    "/images/insights/venezuela-special-contributions-2026.html";
+const LEGAL_PERSONALITY_EXPLAINED = "/images/insights/legal-personality-explained.html";
 
 type Props = ImgHTMLAttributes<HTMLImageElement> & {
     node?: unknown;
@@ -254,6 +259,26 @@ export function InsightMarkdownImage({
     if (src === VENEZUELA_HAZARDOUS_WASTE_2026) {
         return (
             <VenezuelaHazardousWasteInfographicEmbed
+                locale={locale}
+                ariaLabel={alt ?? ""}
+                title={title}
+            />
+        );
+    }
+
+    if (src === VENEZUELA_SPECIAL_CONTRIBUTIONS_2026) {
+        return (
+            <VenezuelaSpecialContributionsInfographicEmbed
+                locale={locale}
+                ariaLabel={alt ?? ""}
+                title={title}
+            />
+        );
+    }
+
+    if (src === LEGAL_PERSONALITY_EXPLAINED) {
+        return (
+            <LegalPersonalityExplainedInfographicEmbed
                 locale={locale}
                 ariaLabel={alt ?? ""}
                 title={title}

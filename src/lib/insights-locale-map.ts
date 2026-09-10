@@ -59,6 +59,14 @@ export const insightsLocaleMap: Record<string, { en: string; es: string }> = {
     "en": "venezuela-environmental-consultants-2026",
     "es": "consultores-ambientales-venezuela-2026"
   },
+  "contribuciones-especiales-venezuela-2026": {
+    "en": "venezuela-special-contributions-2026",
+    "es": "contribuciones-especiales-venezuela-2026"
+  },
+  "venezuela-special-contributions-2026": {
+    "en": "venezuela-special-contributions-2026",
+    "es": "contribuciones-especiales-venezuela-2026"
+  },
   "corporate-good-standing-venezuela": {
     "en": "corporate-good-standing-venezuela",
     "es": "empresas-corporativamente-al-dia-es"
@@ -106,6 +114,14 @@ export const insightsLocaleMap: Record<string, { en: string; es: string }> = {
   "seniat-tax-audit-venezuela-2026": {
     "en": "seniat-tax-audit-venezuela-2026",
     "es": "fiscalizacion-seniat-venezuela-2026"
+  },
+  "legal-personality-explained": {
+    "en": "legal-personality-explained",
+    "es": "personalidad-juridica-explicada"
+  },
+  "personalidad-juridica-explicada": {
+    "en": "legal-personality-explained",
+    "es": "personalidad-juridica-explicada"
   },
   "locota-celerity-law-what-it-means": {
     "en": "locota-celerity-law-what-it-means",
