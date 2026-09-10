@@ -17,6 +17,7 @@ import { AotVenezuela2026InfographicEmbed } from "@/components/insights/AotVenez
 import { VenezuelaEnvironmentalConsultantsInfographicEmbed } from "@/components/insights/VenezuelaEnvironmentalConsultantsInfographicEmbed";
 import { VenezuelaDecree5364InfographicEmbed } from "@/components/insights/VenezuelaDecree5364InfographicEmbed";
 import { VenezuelaHazardousWasteInfographicEmbed } from "@/components/insights/VenezuelaHazardousWasteInfographicEmbed";
+import { OfacAugust2026GlsInfographicEmbed } from "@/components/insights/OfacAugust2026GlsInfographicEmbed";
 import { VenezuelaSpecialContributionsInfographicEmbed } from "@/components/insights/VenezuelaSpecialContributionsInfographicEmbed";
 import { LegalPersonalityExplainedInfographicEmbed } from "@/components/insights/LegalPersonalityExplainedInfographicEmbed";
 
@@ -54,6 +55,8 @@ const VENEZUELA_ENVIRONMENTAL_CONSULTANTS_2026 =
     "/images/insights/venezuela-environmental-consultants-2026.html";
 const VENEZUELA_DECREE_5364_2026 = "/images/insights/venezuela-decree-5364-2026.html";
 const VENEZUELA_HAZARDOUS_WASTE_2026 = "/images/insights/venezuela-hazardous-waste-2026.html";
+const OFAC_AUGUST_2026_GLS_INFOGRAPHIC =
+    "/images/insights/ofac-august-2026-gls-infographic.html";
 const VENEZUELA_SPECIAL_CONTRIBUTIONS_2026 =
     "/images/insights/venezuela-special-contributions-2026.html";
 const LEGAL_PERSONALITY_EXPLAINED = "/images/insights/legal-personality-explained.html";
@@ -196,6 +199,16 @@ export function InsightMarkdownImage({
     if (src === OFAC_JUNE_2026_GLS_INFOGRAPHIC) {
         return (
             <OfacJune2026GlsInfographicEmbed
+                locale={locale}
+                ariaLabel={alt ?? ""}
+                title={title}
+            />
+        );
+    }
+
+    if (src === OFAC_AUGUST_2026_GLS_INFOGRAPHIC) {
+        return (
+            <OfacAugust2026GlsInfographicEmbed
                 locale={locale}
                 ariaLabel={alt ?? ""}
                 title={title}

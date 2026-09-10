@@ -143,6 +143,14 @@ export const insightsLocaleMap: Record<string, { en: string; es: string }> = {
     "en": "ofac-amended-seven-venezuela-general-licenses-june-2026",
     "es": "ofac-modifica-siete-licencias-generales-venezuela-junio-2026"
   },
+  "ofac-elimina-exigencia-ley-estadounidense-licencias-venezuela-agosto-2026": {
+    "en": "ofac-removes-us-law-requirement-venezuela-general-licenses-august-2026",
+    "es": "ofac-elimina-exigencia-ley-estadounidense-licencias-venezuela-agosto-2026"
+  },
+  "ofac-removes-us-law-requirement-venezuela-general-licenses-august-2026": {
+    "en": "ofac-removes-us-law-requirement-venezuela-general-licenses-august-2026",
+    "es": "ofac-elimina-exigencia-ley-estadounidense-licencias-venezuela-agosto-2026"
+  },
   "ofac-general-licenses-venezuela-april-2026": {
     "en": "ofac-general-licenses-venezuela-april-2026",
     "es": "ofac-licencias-generales-venezuela-abril-2026"
