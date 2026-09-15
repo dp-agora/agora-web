@@ -167,6 +167,14 @@ export const insightsLocaleMap: Record<string, { en: string; es: string }> = {
     "en": "ofac-general-licenses-venezuela-march-2026",
     "es": "ofac-licencias-generales-venezuela-marzo-2026"
   },
+  "pasivos-ambientales-preexistentes-venezuela-2026": {
+    "en": "venezuela-pre-existing-environmental-liabilities-2026",
+    "es": "pasivos-ambientales-preexistentes-venezuela-2026"
+  },
+  "venezuela-pre-existing-environmental-liabilities-2026": {
+    "en": "venezuela-pre-existing-environmental-liabilities-2026",
+    "es": "pasivos-ambientales-preexistentes-venezuela-2026"
+  },
   "payment-service-providers-venezuela": {
     "en": "payment-service-providers-venezuela",
     "es": "proveedores-servicios-pago-venezuela"
