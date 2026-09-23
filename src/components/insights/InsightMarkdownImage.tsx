@@ -21,6 +21,7 @@ import { OfacAugust2026GlsInfographicEmbed } from "@/components/insights/OfacAug
 import { VenezuelaSpecialContributionsInfographicEmbed } from "@/components/insights/VenezuelaSpecialContributionsInfographicEmbed";
 import { LegalPersonalityExplainedInfographicEmbed } from "@/components/insights/LegalPersonalityExplainedInfographicEmbed";
 import { VenezuelaPreexistingEnvironmentalLiabilitiesInfographicEmbed } from "@/components/insights/VenezuelaPreexistingEnvironmentalLiabilitiesInfographicEmbed";
+import { OfacSeptember2026CoalMiningInfographicEmbed } from "@/components/insights/OfacSeptember2026CoalMiningInfographicEmbed";
 
 /** Markdown still references these paths as sentinels for embedded React graphics. */
 const COMMERCIAL_ARBITRATION_INFOGRAPHIC =
@@ -63,6 +64,8 @@ const VENEZUELA_SPECIAL_CONTRIBUTIONS_2026 =
 const LEGAL_PERSONALITY_EXPLAINED = "/images/insights/legal-personality-explained.html";
 const VENEZUELA_PREEXISTING_ENVIRONMENTAL_LIABILITIES_2026 =
     "/images/insights/venezuela-preexisting-environmental-liabilities-2026.html";
+const OFAC_SEPTEMBER_2026_COAL_MINING_INFOGRAPHIC =
+    "/images/insights/ofac-september-2026-coal-mining-infographic.html";
 
 type Props = ImgHTMLAttributes<HTMLImageElement> & {
     node?: unknown;
@@ -292,6 +295,16 @@ export function InsightMarkdownImage({
     if (src === VENEZUELA_PREEXISTING_ENVIRONMENTAL_LIABILITIES_2026) {
         return (
             <VenezuelaPreexistingEnvironmentalLiabilitiesInfographicEmbed
+                locale={locale}
+                ariaLabel={alt ?? ""}
+                title={title}
+            />
+        );
+    }
+
+    if (src === OFAC_SEPTEMBER_2026_COAL_MINING_INFOGRAPHIC) {
+        return (
+            <OfacSeptember2026CoalMiningInfographicEmbed
                 locale={locale}
                 ariaLabel={alt ?? ""}
                 title={title}
