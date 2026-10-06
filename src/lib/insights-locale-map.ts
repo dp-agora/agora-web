@@ -127,6 +127,14 @@ export const insightsLocaleMap: Record<string, { en: string; es: string }> = {
     "en": "locota-celerity-law-what-it-means",
     "es": "locota-celerity-law-what-it-means"
   },
+  "nueva-ley-arrendamiento-vivienda-venezuela-2026": {
+    "en": "venezuela-new-residential-lease-law-2026",
+    "es": "nueva-ley-arrendamiento-vivienda-venezuela-2026"
+  },
+  "venezuela-new-residential-lease-law-2026": {
+    "en": "venezuela-new-residential-lease-law-2026",
+    "es": "nueva-ley-arrendamiento-vivienda-venezuela-2026"
+  },
   "nueva-licencia-ofac-asesoria-reestructuracion-deuda-venezolana": {
     "en": "ofac-general-license-58-venezuela-debt-restructuring-advisory-services",
     "es": "nueva-licencia-ofac-asesoria-reestructuracion-deuda-venezolana"
