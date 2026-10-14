@@ -215,6 +215,14 @@ export const insightsLocaleMap: Record<string, { en: string; es: string }> = {
     "en": "venezuela-oil-gas-electricity-reactivation-esia-2026",
     "es": "reactivacion-hidrocarburos-electricidad-venezuela-eias-2026"
   },
+  "seniat-elimina-tres-deberes-formales-rif-2026": {
+    "en": "seniat-eliminates-three-formal-rif-duties-2026",
+    "es": "seniat-elimina-tres-deberes-formales-rif-2026"
+  },
+  "seniat-eliminates-three-formal-rif-duties-2026": {
+    "en": "seniat-eliminates-three-formal-rif-duties-2026",
+    "es": "seniat-elimina-tres-deberes-formales-rif-2026"
+  },
   "should-venezuela-rejoin-icsid-bit-united-states-2026": {
     "en": "should-venezuela-rejoin-icsid-bit-united-states-2026",
     "es": "venezuela-regresar-ciadi-tpi-estados-unidos-2026"
