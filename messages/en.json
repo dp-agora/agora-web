@@ -243,20 +243,7 @@
         "opportunities": {
             "title": "Current Opportunities",
             "subtitle": "Join Our Team",
-            "openings": [
-                {
-                    "id": "associate-transactional",
-                    "title": "Associate – Transactional & Corporate Advisory",
-                    "location": "Caracas / Remote",
-                    "experience": "3+ Years",
-                    "description": "Participate in complex cross-border transactions and provide high-level corporate advisory to multinational entities, investment funds, and family offices. Candidates interested in other practice areas—such as energy, infrastructure, agribusiness, private equity, banking and finance, or corporate governance—are equally welcome to apply, indicating their areas of interest.",
-                    "requirements": [
-                        "Strong background in corporate, transactional, or financial law.",
-                        "Ability to manage complex matters with institutional rigor.",
-                        "Bilingual excellence (English/Spanish) highly valued."
-                    ]
-                }
-            ]
+            "openings": []
         },
         "contact": {
             "apply": "Apply via LinkedIn",
