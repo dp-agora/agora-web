@@ -198,12 +198,16 @@ export default function Home() {
                 </ul>
               </div>
               <div className="relative aspect-square bg-slate-100 border border-slate-200 overflow-hidden group">
-                <Image
-                  src="/assets/team/APS & MER home.jpg"
-                  alt="Ágora Strategic Solutions"
-                  fill
-                  className="object-cover"
-                />
+                <video
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  className="absolute inset-0 h-full w-full object-cover"
+                  aria-label="Ágora practice areas"
+                >
+                  <source src="/assets/video/agora-eco.mp4" type="video/mp4" />
+                </video>
                 <div className="absolute inset-x-0 bottom-0 top-[82%] bg-white/95 border-t border-slate-200 translate-y-8 group-hover:translate-y-0 transition-transform duration-500 px-8 py-4 shadow-2xl flex flex-col justify-center">
                   <Link href="/team#partners" className="group/link flex items-center justify-between">
                     <span className="text-xl font-serif text-primary italic">{t("credibility.partners")}</span>

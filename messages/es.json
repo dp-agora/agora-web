@@ -243,20 +243,7 @@
         "opportunities": {
             "title": "Oportunidades Actuales",
             "subtitle": "Únete a Nuestro Equipo",
-            "openings": [
-                {
-                    "id": "associate-transactional",
-                    "title": "Asociado – Transaccional y Asesoría Corporativa",
-                    "location": "Caracas / Remoto",
-                    "experience": "3+ años",
-                    "description": "Participar en transacciones transfronterizas complejas y brindar asesoría corporativa de alto nivel a entidades multinacionales, fondos de inversión y oficinas familiares. Candidatos interesados en otras áreas de práctica—como energía, infraestructura, agronegocios, capital privado, banca y finanzas, o gobierno corporativo—son igualmente bienvenidos a postularse indicando sus áreas de interés.",
-                    "requirements": [
-                        "Sólida formación en derecho corporativo, transaccional o financiero.",
-                        "Capacidad para gestionar asuntos complejos con rigor institucional.",
-                        "Excelencia bilingüe (Inglés/Español) altamente valorada."
-                    ]
-                }
-            ]
+            "openings": []
         },
         "contact": {
             "apply": "Postular vía LinkedIn",
