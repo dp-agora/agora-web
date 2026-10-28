@@ -215,6 +215,14 @@ export const insightsLocaleMap: Record<string, { en: string; es: string }> = {
     "en": "venezuela-oil-gas-electricity-reactivation-esia-2026",
     "es": "reactivacion-hidrocarburos-electricidad-venezuela-eias-2026"
   },
+  "regimen-facturacion-maquina-fiscal-venezuela-2026": {
+    "en": "venezuela-invoicing-regime-fiscal-printer-2026",
+    "es": "regimen-facturacion-maquina-fiscal-venezuela-2026"
+  },
+  "venezuela-invoicing-regime-fiscal-printer-2026": {
+    "en": "venezuela-invoicing-regime-fiscal-printer-2026",
+    "es": "regimen-facturacion-maquina-fiscal-venezuela-2026"
+  },
   "seniat-elimina-tres-deberes-formales-rif-2026": {
     "en": "seniat-eliminates-three-formal-rif-duties-2026",
     "es": "seniat-elimina-tres-deberes-formales-rif-2026"

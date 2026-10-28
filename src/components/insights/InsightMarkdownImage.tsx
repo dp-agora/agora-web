@@ -25,6 +25,7 @@ import { OfacSeptember2026CoalMiningInfographicEmbed } from "@/components/insigh
 import { OfacGl52cPdvsaCitgoInfographicEmbed } from "@/components/insights/OfacGl52cPdvsaCitgoInfographicEmbed";
 import { VenezuelaResidentialLeaseLawInfographicEmbed } from "@/components/insights/VenezuelaResidentialLeaseLawInfographicEmbed";
 import { SeniatRifFormalDutiesInfographicEmbed } from "@/components/insights/SeniatRifFormalDutiesInfographicEmbed";
+import { VenezuelaInvoicingRegimeInfographicEmbed } from "@/components/insights/VenezuelaInvoicingRegimeInfographicEmbed";
 
 /** Markdown still references these paths as sentinels for embedded React graphics. */
 const COMMERCIAL_ARBITRATION_INFOGRAPHIC =
@@ -75,6 +76,8 @@ const VENEZUELA_RESIDENTIAL_LEASE_LAW_2026 =
     "/images/insights/venezuela-residential-lease-law-2026.html";
 const SENIAT_RIF_FORMAL_DUTIES_2026 =
     "/images/insights/seniat-rif-formal-duties-2026.html";
+const VENEZUELA_INVOICING_REGIME_2026 =
+    "/images/insights/venezuela-invoicing-regime-fiscal-printer-2026.html";
 
 type Props = ImgHTMLAttributes<HTMLImageElement> & {
     node?: unknown;
@@ -344,6 +347,16 @@ export function InsightMarkdownImage({
     if (src === SENIAT_RIF_FORMAL_DUTIES_2026) {
         return (
             <SeniatRifFormalDutiesInfographicEmbed
+                locale={locale}
+                ariaLabel={alt ?? ""}
+                title={title}
+            />
+        );
+    }
+
+    if (src === VENEZUELA_INVOICING_REGIME_2026) {
+        return (
+            <VenezuelaInvoicingRegimeInfographicEmbed
                 locale={locale}
                 ariaLabel={alt ?? ""}
                 title={title}
