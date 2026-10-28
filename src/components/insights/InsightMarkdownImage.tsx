@@ -24,7 +24,6 @@ import { VenezuelaPreexistingEnvironmentalLiabilitiesInfographicEmbed } from "@/
 import { OfacSeptember2026CoalMiningInfographicEmbed } from "@/components/insights/OfacSeptember2026CoalMiningInfographicEmbed";
 import { OfacGl52cPdvsaCitgoInfographicEmbed } from "@/components/insights/OfacGl52cPdvsaCitgoInfographicEmbed";
 import { VenezuelaResidentialLeaseLawInfographicEmbed } from "@/components/insights/VenezuelaResidentialLeaseLawInfographicEmbed";
-import { SeniatRifFormalDutiesInfographicEmbed } from "@/components/insights/SeniatRifFormalDutiesInfographicEmbed";
 import { VenezuelaInvoicingRegimeInfographicEmbed } from "@/components/insights/VenezuelaInvoicingRegimeInfographicEmbed";
 
 /** Markdown still references these paths as sentinels for embedded React graphics. */
@@ -74,8 +73,6 @@ const OFAC_GL52C_PDVSA_CITGO_INFOGRAPHIC =
     "/images/insights/ofac-gl52c-pdvsa-citgo-september-2026.html";
 const VENEZUELA_RESIDENTIAL_LEASE_LAW_2026 =
     "/images/insights/venezuela-residential-lease-law-2026.html";
-const SENIAT_RIF_FORMAL_DUTIES_2026 =
-    "/images/insights/seniat-rif-formal-duties-2026.html";
 const VENEZUELA_INVOICING_REGIME_2026 =
     "/images/insights/venezuela-invoicing-regime-fiscal-printer-2026.html";
 
@@ -337,16 +334,6 @@ export function InsightMarkdownImage({
     if (src === VENEZUELA_RESIDENTIAL_LEASE_LAW_2026) {
         return (
             <VenezuelaResidentialLeaseLawInfographicEmbed
-                locale={locale}
-                ariaLabel={alt ?? ""}
-                title={title}
-            />
-        );
-    }
-
-    if (src === SENIAT_RIF_FORMAL_DUTIES_2026) {
-        return (
-            <SeniatRifFormalDutiesInfographicEmbed
                 locale={locale}
                 ariaLabel={alt ?? ""}
                 title={title}

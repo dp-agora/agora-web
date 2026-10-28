@@ -223,14 +223,6 @@ export const insightsLocaleMap: Record<string, { en: string; es: string }> = {
     "en": "venezuela-invoicing-regime-fiscal-printer-2026",
     "es": "regimen-facturacion-maquina-fiscal-venezuela-2026"
   },
-  "seniat-elimina-tres-deberes-formales-rif-2026": {
-    "en": "seniat-eliminates-three-formal-rif-duties-2026",
-    "es": "seniat-elimina-tres-deberes-formales-rif-2026"
-  },
-  "seniat-eliminates-three-formal-rif-duties-2026": {
-    "en": "seniat-eliminates-three-formal-rif-duties-2026",
-    "es": "seniat-elimina-tres-deberes-formales-rif-2026"
-  },
   "should-venezuela-rejoin-icsid-bit-united-states-2026": {
     "en": "should-venezuela-rejoin-icsid-bit-united-states-2026",
     "es": "venezuela-regresar-ciadi-tpi-estados-unidos-2026"
