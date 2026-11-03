@@ -1,7 +1,7 @@
 ---
 title: "¿Su empresa sigue siendo un sujeto pasivo especial?"
 seoTitle: "Nuevos Umbrales de Sujetos Pasivos Especiales en Venezuela: ¿sigue siendo SPE su empresa? (Providencia SNAT/2026/00099) | Ágora Abogados"
-excerpt: "El SENIAT publicó una nueva providencia sobre sujetos pasivos especiales que multiplica por veinte los umbrales de calificación, traslada a Caracas el control de los grandes contribuyentes de todo el país y elimina la calificación por vinculación con otro sujeto pasivo especial. Entra en vigencia el 1.11.26, pero no saca a nadie del régimen de forma automática."
+excerpt: "El SENIAT publicó una nueva providencia sobre sujetos pasivos especiales que multiplica por veinte los umbrales de calificación, traslada a Caracas el control de los grandes contribuyentes de todo el país y elimina la calificación por vinculación con otro sujeto pasivo especial. Entró en vigencia el 1.11.26, pero no saca a nadie del régimen de forma automática."
 seoDescription: "Análisis de la Providencia Administrativa SNAT/2026/00099 del SENIAT (Gaceta Oficial N° 43.485) sobre sujetos pasivos especiales (SPE): umbrales veinte veces más altos, control en la Región Capital, fin de la calificación por vinculación, la cláusula de proveedores del artículo 3(e) y cómo solicitar la revocación."
 date: "2026-11-03"
 lastUpdated: "2026-11-03"
@@ -18,7 +18,7 @@ ogImage: "/assets/practices/tax-irs-legal.jpeg"
 listImage: "/assets/practices/tax-irs-legal.jpeg"
 ---
 
-*El SENIAT publicó una nueva providencia sobre sujetos pasivos especiales que multiplica por veinte los umbrales de calificación, traslada a Caracas el control de los grandes contribuyentes de todo el país y elimina la calificación por vinculación con otro sujeto pasivo especial. Entrará en vigencia el 1.11.26, pero no saca a nadie del régimen de forma automática.*
+*El SENIAT publicó una nueva providencia sobre sujetos pasivos especiales que multiplica por veinte los umbrales de calificación, traslada a Caracas el control de los grandes contribuyentes de todo el país y elimina la calificación por vinculación con otro sujeto pasivo especial. Entró en vigencia el 1.11.26, pero no saca a nadie del régimen de forma automática.*
 
 Ser sujeto pasivo especial ("SPE") no es una etiqueta administrativa. Son los grandes contribuyentes. El SPE declara y paga según un calendario propio, actúa como agente de retención del IVA, paga anticipos quincenales de IVA e impuesto sobre la renta, es contribuyente del impuesto a los grandes patrimonios, está excluido del ajuste por inflación fiscal, está sujeto a multas incrementadas, está sujeto a la vigilancia de las Divisiones de Contribuyentes Especiales del SENIAT y, si es persona jurídica, es contribuyente del impuesto a las grandes transacciones financieras ("IGTF") por los pagos que hace con cargo a sus cuentas bancarias (ver el anterior artículo de la serie [¿Quiénes son los sujetos pasivos especiales en Venezuela y cuáles son sus deberes?](/es/insights/venezuela-special-taxpayers-seniat)). Cada una de esas cargas tiene un costo financiero y administrativo concreto.
 
@@ -26,7 +26,7 @@ Desde 2023, la Providencia Administrativa del SENIAT N° SNAT/2023/00005 (Gaceta
 
 Esos límites quedaron desactualizados muy pronto, y la consecuencia está a la vista: el SENIAT ha designado como SPE a personas naturales y jurídicas que, por su tamaño y su volumen de operaciones, no deberían estar en esa categoría. Para las personas naturales el umbral era todavía menor: 7.500 veces el TCMMV al año (aprox. EUR 7.500) o 625 veces el TCMMV en un solo mes. Profesionales independientes, comercios pequeños y empresas familiares terminaron asumiendo las retenciones y los anticipos propios de los grandes contribuyentes y, en el caso de las personas jurídicas, el IGTF.
 
-La Providencia Administrativa del SENIAT N° SNAT/2026/00099 (Gaceta Oficial N° 43.485 del 22.10.26) ("Providencia 99") deroga la Providencia 5 y entrará en vigencia el 1.11.26. Mantiene la base legal y buena parte de la estructura de su antecesora, pero cambia a quién se califica, quién lo controla y cómo se sale del régimen.
+La Providencia Administrativa del SENIAT N° SNAT/2026/00099 (Gaceta Oficial N° 43.485 del 22.10.26) ("Providencia 99") deroga la Providencia 5 y entró en vigencia el 1.11.26. Mantiene la base legal y buena parte de la estructura de su antecesora, pero cambia a quién se califica, quién lo controla y cómo se sale del régimen.
 
 ![Infografía: ¿sigue siendo su empresa un sujeto pasivo especial? — umbrales veinte veces más altos, lo que desaparece y qué hacer desde el 1° de noviembre de 2026 (Providencia SNAT/2026/00099)](/images/insights/venezuela-special-taxpayers-new-thresholds-2026.html)
 
@@ -95,7 +95,7 @@ Todo indica que se trata de un efecto no buscado de la renumeración: los operad
 
 ## El punto clave: nadie sale del régimen por sí solo
 
-El artículo 16 dispone que no perderán su condición los sujetos calificados y notificados como SPE antes de la entrada en vigencia de la Providencia 99. La consecuencia es directa: una empresa con ingresos de EUR 200.000 al año, calificada bajo la Providencia 5, seguirá siendo SPE el 1.11.26 aunque hoy no alcance ni la tercera parte del nuevo umbral.
+El artículo 16 dispone que no perderán su condición los sujetos calificados y notificados como SPE antes de la entrada en vigencia de la Providencia 99. La consecuencia es directa: una empresa con ingresos de EUR 200.000 al año, calificada bajo la Providencia 5, sigue siendo SPE desde el 1.11.26 aunque no alcance ni la tercera parte del nuevo umbral.
 
 Para salir debe solicitar la revocación (arts. 6 y 8). En nuestra opinión, el *"mínimo establecido para su calificación"* al que se refiere el artículo 8 es el de la norma vigente, esto es, el de la Providencia 99. No tendría sentido medir la revocación con un umbral derogado. Lo mismo vale para quienes fueron calificados por vinculación (socios, directores, accionistas): su supuesto desapareció, y si sus propios ingresos no alcanzan el nuevo mínimo, tienen base para solicitarla.
 
@@ -118,7 +118,7 @@ La revocación sigue siendo potestativa ("podrá"). Por eso conviene presentar l
 | **Revocación** | Por ingresos anuales bajo el mínimo durante dos ejercicios, con autorización previa de la Intendencia. | Por ingresos anuales o por seis declaraciones mensuales consecutivas bajo el mínimo, y por exclusión sobrevenida, sin autorización previa (art. 8). |
 | **SPE existentes** | Conservaban la condición, salvo los excluidos por el art. 5. | Conservan la condición sin excepciones (art. 16). |
 
-## Qué hacer antes y después del 1.11.26
+## Qué hacer ahora que la Providencia 99 está vigente
 
 - **Medir con los nuevos umbrales.** Revisar las dos últimas declaraciones anuales de impuesto sobre la renta y las tres últimas de IVA, convertidas al TCMMV de la fecha de medición. Si el resultado queda cerca del límite, documentar el tipo de cambio empleado.
 - **Evaluar la solicitud de revocación.** Quien no alcance los nuevos umbrales debe cuantificar el ahorro: anticipos quincenales, IGTF sobre los pagos con cargo a sus cuentas y la carga operativa de retener IVA. Con esa cifra, preparar el expediente y presentar la solicitud ante la Gerencia de adscripción a partir del 1.11.26.
@@ -138,6 +138,6 @@ La revocación sigue siendo potestativa ("podrá"). Por eso conviene presentar l
 
 La Providencia 99 corrige un desajuste evidente: con umbrales de unos EUR 30.000 al año, el régimen de SPE había dejado de identificar a los grandes contribuyentes y alcanzaba a pequeñas y medianas empresas que soportaban cargas pensadas para las grandes. Los nuevos umbrales devuelven el régimen a su propósito, y la centralización en Caracas confirma que el SENIAT quiere concentrar su control en los contribuyentes de mayor peso.
 
-Pero el alivio no llega solo. El artículo 16 mantiene a todos los SPE actuales en el régimen, y la revocación depende de una solicitud bien documentada y de una decisión potestativa del SENIAT. Para muchas empresas, la diferencia entre seguir siendo SPE o dejar de serlo se mide en el costo del IGTF y de los anticipos. Esa diferencia justifica actuar desde el 1.11.26.
+Pero el alivio no llega solo. El artículo 16 mantiene a todos los SPE actuales en el régimen, y la revocación depende de una solicitud bien documentada y de una decisión potestativa del SENIAT. Para muchas empresas, la diferencia entre seguir siendo SPE o dejar de serlo se mide en el costo del IGTF y de los anticipos. Esa diferencia justifica actuar ahora.
 
 **¿Quiere saber más?** En Ágora Abogados S.C. asesoramos a empresas nacionales e internacionales en [cumplimiento tributario, deberes formales, fiscalizaciones del SENIAT y litigio fiscal](/es/practices/tax) en Venezuela. Acompañamos a nuestros clientes en la evaluación de su condición de sujeto pasivo especial bajo la nueva providencia, en la preparación y seguimiento de las solicitudes de revocación y en la impugnación de calificaciones que no se ajusten a la norma.

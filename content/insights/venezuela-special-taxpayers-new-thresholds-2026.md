@@ -1,7 +1,7 @@
 ---
 title: "Is Your Company Still a Special Taxpayer?"
 seoTitle: "Venezuela's New Special Taxpayer Thresholds: Is Your Company Still an SPE? (Ruling SNAT/2026/00099) | Ágora Abogados"
-excerpt: "SENIAT has published a new ruling on special taxpayers that raises the qualification thresholds twentyfold, moves control of large taxpayers nationwide to Caracas, and eliminates qualification based on a relationship with another special taxpayer. It enters into force on November 1, 2026, but it does not automatically remove anyone from the regime."
+excerpt: "SENIAT has published a new ruling on special taxpayers that raises the qualification thresholds twentyfold, moves control of large taxpayers nationwide to Caracas, and eliminates qualification based on a relationship with another special taxpayer. It entered into force on November 1, 2026, but it does not automatically remove anyone from the regime."
 seoDescription: "Analysis of SENIAT's Administrative Ruling SNAT/2026/00099 (Official Gazette No. 43,485) on special taxpayers (SPEs): thresholds twenty times higher, control moved to the Capital Region, the end of qualification by relationship, the supplier clause in article 3(e), and how to request revocation."
 date: "2026-11-03"
 lastUpdated: "2026-11-03"
@@ -18,7 +18,7 @@ ogImage: "/assets/practices/tax-irs-legal.jpeg"
 listImage: "/assets/practices/tax-irs-legal.jpeg"
 ---
 
-*SENIAT has published a new administrative ruling on special taxpayers that raises the qualification thresholds twentyfold, moves control of large taxpayers nationwide to Caracas, and eliminates qualification based on a relationship with another special taxpayer. It will enter into force on November 1, 2026, but it does not automatically remove anyone from the regime.*
+*SENIAT has published a new administrative ruling on special taxpayers that raises the qualification thresholds twentyfold, moves control of large taxpayers nationwide to Caracas, and eliminates qualification based on a relationship with another special taxpayer. It entered into force on November 1, 2026, but it does not automatically remove anyone from the regime.*
 
 Being a special taxpayer (*sujeto pasivo especial*, "SPE") is not just an administrative label. SPEs are the large taxpayers. An SPE files and pays under its own calendar, acts as a VAT withholding agent, makes biweekly VAT and income tax advance payments, is subject to the high net worth tax, is excluded from the tax inflation adjustment, is exposed to increased penalties, is supervised by SENIAT's Special Taxpayers Divisions and, if it is a legal entity, is subject to the large financial transactions tax ("IGTF") on payments made from its bank accounts (see the previous article in this series, [Who Are Venezuela's Special Taxpayers, and What Are Their Obligations?](/insights/venezuela-special-taxpayers-seniat)). Each of these burdens carries a concrete financial and administrative cost.
 
@@ -26,7 +26,7 @@ Since 2023, SENIAT Administrative Ruling No. SNAT/2023/00005 (Official Gazette N
 
 Those limits became outdated very quickly, and the consequence is plain to see: SENIAT has designated as SPEs individuals and legal entities that, given their size and volume of operations, should not be in that category. For individuals the threshold was even lower: 7,500 times the TCMMV per year (approx. EUR 7,500) or 625 times the TCMMV in a single month. Independent professionals, small shops and family businesses ended up bearing the withholdings and advance payments designed for large taxpayers and, in the case of legal entities, the IGTF.
 
-SENIAT Administrative Ruling No. SNAT/2026/00099 (Official Gazette No. 43,485 of October 22, 2026) ("Ruling 99") repeals Ruling 5 and will enter into force on November 1, 2026. It keeps the legal basis and much of the structure of its predecessor, but changes who is qualified, who controls them and how to exit the regime.
+SENIAT Administrative Ruling No. SNAT/2026/00099 (Official Gazette No. 43,485 of October 22, 2026) ("Ruling 99") repeals Ruling 5 and entered into force on November 1, 2026. It keeps the legal basis and much of the structure of its predecessor, but changes who is qualified, who controls them and how to exit the regime.
 
 ![Infographic: is your company still a special taxpayer? — thresholds twenty times higher, what disappears, and what to do from November 1, 2026 (Ruling SNAT/2026/00099)](/images/insights/venezuela-special-taxpayers-new-thresholds-2026.html)
 
@@ -95,7 +95,7 @@ Everything suggests this is an unintended effect of the renumbering: the operato
 
 ## The key point: no one exits the regime on their own
 
-Article 16 provides that taxpayers qualified and notified as SPEs before Ruling 99 enters into force will not lose that status. The consequence is direct: a company with revenues of EUR 200,000 a year, qualified under Ruling 5, will still be an SPE on November 1, 2026, even if today it does not reach even one third of the new threshold.
+Article 16 provides that taxpayers qualified and notified as SPEs before Ruling 99 entered into force do not lose that status. The consequence is direct: a company with revenues of EUR 200,000 a year, qualified under Ruling 5, is still an SPE after November 1, 2026, even if it does not reach even one third of the new threshold.
 
 To exit, it must request revocation (arts. 6 and 8). In our view, the *"minimum established for its qualification"* referred to in article 8 is that of the rule in force, that is, Ruling 99. It would make no sense to measure revocation against a repealed threshold. The same applies to those qualified by relationship (partners, directors, shareholders): their case has disappeared, and if their own revenues do not reach the new minimum, they have grounds to request it.
 
@@ -118,7 +118,7 @@ Revocation remains discretionary ("may"). It is therefore advisable to file the 
 | **Revocation** | For annual revenues below the minimum for two fiscal years, with prior authorization from the Intendencia. | For annual revenues or six consecutive monthly returns below the minimum, and for supervening exclusion, without prior authorization (art. 8). |
 | **Existing SPEs** | Retained their status, except those excluded under art. 5. | Retain their status without exception (art. 16). |
 
-## What to do before and after November 1, 2026
+## What to do now that Ruling 99 is in force
 
 - **Measure against the new thresholds.** Review the last two annual income tax returns and the last three VAT returns, converted at the TCMMV of the measurement date. If the result is close to the limit, document the exchange rate used.
 - **Assess a revocation request.** Those who do not reach the new thresholds should quantify the savings: biweekly prepayments, IGTF on payments from their accounts, and the operational burden of withholding VAT. With that figure, prepare the record and file the request with the assigned Office from November 1, 2026.
@@ -138,6 +138,6 @@ Revocation remains discretionary ("may"). It is therefore advisable to file the 
 
 Ruling 99 corrects an evident mismatch: with thresholds of roughly EUR 30,000 a year, the SPE regime had stopped identifying large taxpayers and reached small and medium-sized businesses that bore burdens designed for large ones. The new thresholds return the regime to its purpose, and centralization in Caracas confirms that SENIAT wants to focus its control on the most significant taxpayers.
 
-But relief does not come on its own. Article 16 keeps all current SPEs in the regime, and revocation depends on a well-documented request and a discretionary decision by SENIAT. For many companies, the difference between remaining an SPE or not is measured in the cost of the IGTF and the advance payments. That difference justifies acting from November 1, 2026.
+But relief does not come on its own. Article 16 keeps all current SPEs in the regime, and revocation depends on a well-documented request and a discretionary decision by SENIAT. For many companies, the difference between remaining an SPE or not is measured in the cost of the IGTF and the advance payments. That difference justifies acting now.
 
 **Want to know more?** At Ágora Abogados S.C. we advise domestic and international companies on [tax compliance, formal duties, SENIAT audits and tax litigation](/practices/tax) in Venezuela. We assist our clients in assessing their special taxpayer status under the new ruling, in preparing and following up on revocation requests, and in challenging qualifications that do not comply with the rules.
