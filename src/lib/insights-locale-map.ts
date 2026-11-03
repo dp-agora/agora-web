@@ -231,6 +231,14 @@ export const insightsLocaleMap: Record<string, { en: string; es: string }> = {
     "en": "should-venezuela-rejoin-icsid-bit-united-states-2026",
     "es": "venezuela-regresar-ciadi-tpi-estados-unidos-2026"
   },
+  "sujetos-pasivos-especiales-nuevos-umbrales-venezuela-2026": {
+    "en": "venezuela-special-taxpayers-new-thresholds-2026",
+    "es": "sujetos-pasivos-especiales-nuevos-umbrales-venezuela-2026"
+  },
+  "venezuela-special-taxpayers-new-thresholds-2026": {
+    "en": "venezuela-special-taxpayers-new-thresholds-2026",
+    "es": "sujetos-pasivos-especiales-nuevos-umbrales-venezuela-2026"
+  },
   "venezuela-economic-revival-environmental-regulation": {
     "en": "venezuela-economic-revival-environmental-regulation",
     "es": "venezuela-reactivacion-economica-marco-regulatorio-ambiental"
