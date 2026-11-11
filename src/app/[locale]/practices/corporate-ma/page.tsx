@@ -67,7 +67,7 @@ export default function CorporateMaPage() {
         { slug: "maria-eugenia-reyes", key: "maria", image: "/assets/team/maria-eugenia.webp" },
         // Senior Associates
         { slug: "marco-gomez", key: "marco", image: "/assets/team/marco-gomez.webp" },
-        { slug: "barbara-briceno", key: "barbara", image: "/assets/team/barbara-briceno.webp" },
+        { slug: "manuel-domingo", key: "manuel", image: "/assets/team/manuel-domingo.webp" },
         // Junior Associates
         { slug: "raul-sancristobal", key: "raul", image: "/assets/team/raul-sancristobal.webp" },
         { slug: "rodrigo-colmenares", key: "rodrigo", image: "/assets/team/rodrigo-colmenares.webp" }

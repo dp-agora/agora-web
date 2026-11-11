@@ -21,7 +21,6 @@ const CATEGORY_IMAGE_MAP: Record<string, string> = {
 const AVATAR_MAP: Record<string, string> = {
     "jesus-mendoza": "/assets/team/jesus-mendoza.png",
     "jose-barnola": "/assets/team/jose-barnola.webp",
-    "barbara-briceno": "/assets/team/barbara-briceno.webp",
 };
 
 const DEFAULT_OG_IMAGE = "/assets/insights/insights-image.webp";

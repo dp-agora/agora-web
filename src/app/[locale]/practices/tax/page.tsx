@@ -65,8 +65,7 @@ export default function TaxPage() {
         // Senior Partner
         { slug: "jose-barnola", key: "jose", image: "/assets/team/jose-barnola.webp" },
         // Senior Associates
-        { slug: "marco-gomez", key: "marco", image: "/assets/team/marco-gomez.webp" },
-        { slug: "barbara-briceno", key: "barbara", image: "/assets/team/barbara-briceno.webp" }
+        { slug: "marco-gomez", key: "marco", image: "/assets/team/marco-gomez.webp" }
     ];
 
     const faqs = [0, 1, 2, 3, 4, 5];
