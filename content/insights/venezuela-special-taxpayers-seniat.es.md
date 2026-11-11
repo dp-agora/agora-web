@@ -10,7 +10,6 @@ slug: "venezuela-special-taxpayers-seniat"
 translationSlug: "venezuela-special-taxpayers-seniat"
 author: "Bárbara Briceño"
 authorTitle: "Asociada Senior"
-authorUrl: "/team/barbara-briceno"
 category: "Tributario"
 tags: ["Venezuela", "SENIAT", "Sujetos pasivos especiales", "Grandes contribuyentes", "IVA", "ISLR", "SNAT/2023/00005", "Cumplimiento tributario", "Providencia Administrativa"]
 readingTime: "13 min de lectura"

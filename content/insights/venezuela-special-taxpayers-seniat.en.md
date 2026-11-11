@@ -10,7 +10,6 @@ slug: "venezuela-special-taxpayers-seniat"
 translationSlug: "venezuela-special-taxpayers-seniat"
 author: "Bárbara Briceño"
 authorTitle: "Senior Associate"
-authorUrl: "/team/barbara-briceno"
 category: "Tax"
 tags: ["Venezuela", "SENIAT", "Special taxpayers", "Large taxpayers", "VAT", "Income tax", "SNAT/2023/00005", "Tax compliance", "Providencia Administrativa"]
 readingTime: "13 min read"

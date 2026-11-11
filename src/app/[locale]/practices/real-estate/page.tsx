@@ -68,8 +68,7 @@ export default function RealEstatePage() {
 
     const teamMembers = [
         { slug: "jose-barnola", key: "jose", image: "/assets/team/jose-barnola.webp" },
-        { slug: "marco-gomez", key: "marco", image: "/assets/team/marco-gomez.webp" },
-        { slug: "barbara-briceno", key: "barbara", image: "/assets/team/barbara-briceno.webp" }
+        { slug: "marco-gomez", key: "marco", image: "/assets/team/marco-gomez.webp" }
     ];
 
     // Schema markup for SEO
