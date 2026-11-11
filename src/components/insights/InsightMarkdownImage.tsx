@@ -26,6 +26,7 @@ import { OfacGl52cPdvsaCitgoInfographicEmbed } from "@/components/insights/OfacG
 import { VenezuelaResidentialLeaseLawInfographicEmbed } from "@/components/insights/VenezuelaResidentialLeaseLawInfographicEmbed";
 import { VenezuelaInvoicingRegimeInfographicEmbed } from "@/components/insights/VenezuelaInvoicingRegimeInfographicEmbed";
 import { VenezuelaSpecialTaxpayersNewThresholdsInfographicEmbed } from "@/components/insights/VenezuelaSpecialTaxpayersNewThresholdsInfographicEmbed";
+import { OfacVenezuelaOctober2026InfographicEmbed } from "@/components/insights/OfacVenezuelaOctober2026InfographicEmbed";
 
 /** Markdown still references these paths as sentinels for embedded React graphics. */
 const COMMERCIAL_ARBITRATION_INFOGRAPHIC =
@@ -78,6 +79,8 @@ const VENEZUELA_INVOICING_REGIME_2026 =
     "/images/insights/venezuela-invoicing-regime-fiscal-printer-2026.html";
 const VENEZUELA_SPECIAL_TAXPAYERS_NEW_THRESHOLDS_2026 =
     "/images/insights/venezuela-special-taxpayers-new-thresholds-2026.html";
+const OFAC_VENEZUELA_OCTOBER_2026_UPDATE =
+    "/images/insights/ofac-venezuela-october-2026-update.html";
 
 type Props = ImgHTMLAttributes<HTMLImageElement> & {
     node?: unknown;
@@ -357,6 +360,16 @@ export function InsightMarkdownImage({
     if (src === VENEZUELA_SPECIAL_TAXPAYERS_NEW_THRESHOLDS_2026) {
         return (
             <VenezuelaSpecialTaxpayersNewThresholdsInfographicEmbed
+                locale={locale}
+                ariaLabel={alt ?? ""}
+                title={title}
+            />
+        );
+    }
+
+    if (src === OFAC_VENEZUELA_OCTOBER_2026_UPDATE) {
+        return (
+            <OfacVenezuelaOctober2026InfographicEmbed
                 locale={locale}
                 ariaLabel={alt ?? ""}
                 title={title}

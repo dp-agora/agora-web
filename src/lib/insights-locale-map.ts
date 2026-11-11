@@ -191,6 +191,14 @@ export const insightsLocaleMap: Record<string, { en: string; es: string }> = {
     "en": "ofac-general-licenses-venezuela-march-2026",
     "es": "ofac-licencias-generales-venezuela-marzo-2026"
   },
+  "ofac-venezuela-sanciones-octubre-2026-novedades": {
+    "en": "ofac-venezuela-sanctions-october-2026-update",
+    "es": "ofac-venezuela-sanciones-octubre-2026-novedades"
+  },
+  "ofac-venezuela-sanctions-october-2026-update": {
+    "en": "ofac-venezuela-sanctions-october-2026-update",
+    "es": "ofac-venezuela-sanciones-octubre-2026-novedades"
+  },
   "pasivos-ambientales-preexistentes-venezuela-2026": {
     "en": "venezuela-pre-existing-environmental-liabilities-2026",
     "es": "pasivos-ambientales-preexistentes-venezuela-2026"
