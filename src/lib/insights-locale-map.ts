@@ -239,6 +239,14 @@ export const insightsLocaleMap: Record<string, { en: string; es: string }> = {
     "en": "should-venezuela-rejoin-icsid-bit-united-states-2026",
     "es": "venezuela-regresar-ciadi-tpi-estados-unidos-2026"
   },
+  "simplificacion-exportaciones-decreto-5460-venezuela-2026": {
+    "en": "venezuela-export-simplification-decree-5460-2026",
+    "es": "simplificacion-exportaciones-decreto-5460-venezuela-2026"
+  },
+  "venezuela-export-simplification-decree-5460-2026": {
+    "en": "venezuela-export-simplification-decree-5460-2026",
+    "es": "simplificacion-exportaciones-decreto-5460-venezuela-2026"
+  },
   "sujetos-pasivos-especiales-nuevos-umbrales-venezuela-2026": {
     "en": "venezuela-special-taxpayers-new-thresholds-2026",
     "es": "sujetos-pasivos-especiales-nuevos-umbrales-venezuela-2026"
