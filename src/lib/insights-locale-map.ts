@@ -99,6 +99,14 @@ export const insightsLocaleMap: Record<string, { en: string; es: string }> = {
     "en": "electronic-signatures-venezuela-digital-risk-2026",
     "es": "firmas-electronicas-venezuela-riesgo-digital-2026"
   },
+  "exoneracion-islr-cooperativas-decreto-5442-venezuela-2026": {
+    "en": "venezuela-cooperatives-income-tax-exoneration-decree-5442-2026",
+    "es": "exoneracion-islr-cooperativas-decreto-5442-venezuela-2026"
+  },
+  "venezuela-cooperatives-income-tax-exoneration-decree-5442-2026": {
+    "en": "venezuela-cooperatives-income-tax-exoneration-decree-5442-2026",
+    "es": "exoneracion-islr-cooperativas-decreto-5442-venezuela-2026"
+  },
   "fintech-venezuela-itfb-regulation": {
     "en": "fintech-venezuela-itfb-regulation",
     "es": "fintech-venezuela-itfb-sudeban"

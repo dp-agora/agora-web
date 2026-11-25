@@ -28,6 +28,7 @@ import { VenezuelaInvoicingRegimeInfographicEmbed } from "@/components/insights/
 import { VenezuelaSpecialTaxpayersNewThresholdsInfographicEmbed } from "@/components/insights/VenezuelaSpecialTaxpayersNewThresholdsInfographicEmbed";
 import { OfacVenezuelaOctober2026InfographicEmbed } from "@/components/insights/OfacVenezuelaOctober2026InfographicEmbed";
 import { VenezuelaExportSimplificationInfographicEmbed } from "@/components/insights/VenezuelaExportSimplificationInfographicEmbed";
+import { VenezuelaCooperativesExonerationInfographicEmbed } from "@/components/insights/VenezuelaCooperativesExonerationInfographicEmbed";
 
 /** Markdown still references these paths as sentinels for embedded React graphics. */
 const COMMERCIAL_ARBITRATION_INFOGRAPHIC =
@@ -84,6 +85,8 @@ const OFAC_VENEZUELA_OCTOBER_2026_UPDATE =
     "/images/insights/ofac-venezuela-october-2026-update.html";
 const VENEZUELA_EXPORT_SIMPLIFICATION_2026 =
     "/images/insights/venezuela-export-simplification-decree-5460-2026.html";
+const VENEZUELA_COOPERATIVES_EXONERATION_2026 =
+    "/images/insights/venezuela-cooperatives-income-tax-exoneration-decree-5442-2026.html";
 
 type Props = ImgHTMLAttributes<HTMLImageElement> & {
     node?: unknown;
@@ -383,6 +386,16 @@ export function InsightMarkdownImage({
     if (src === VENEZUELA_EXPORT_SIMPLIFICATION_2026) {
         return (
             <VenezuelaExportSimplificationInfographicEmbed
+                locale={locale}
+                ariaLabel={alt ?? ""}
+                title={title}
+            />
+        );
+    }
+
+    if (src === VENEZUELA_COOPERATIVES_EXONERATION_2026) {
+        return (
+            <VenezuelaCooperativesExonerationInfographicEmbed
                 locale={locale}
                 ariaLabel={alt ?? ""}
                 title={title}
